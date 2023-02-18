@@ -9,9 +9,11 @@ class Main extends Component {
       <Container className="p-3">
         <div>
           <h1>Fearless Vegetarian</h1>
-          <p>In this space, I will be sharing some easy, fresh, flavorful, and  healthly recipes. These are family recipes I love and use daily. <br/>
-            Growing up in a Hindu family, being vegetarian comes naturally to me. Hopefully for those who are finding it difficult to become a Vegetarian, <br/>
-            Fearless Vegetarian is your friend.<br/>
+          <p className="bugs_text">
+            <Image  className="bugs_img" src="https://i.pinimg.com/564x/0b/bb/49/0bbb4991cac283330a29c537711f0ac2.jpg" width="200" height="200"  alt="Wht's up doc bugs bunny"/>
+            In this space, I will be sharing some easy, fresh, flavorful, and  healthly recipes. These are family recipes I love and use daily.
+            Growing up in a Hindu family, being vegetarian comes naturally to me. Hopefully for those who are finding it difficult to become a Vegetarian, 
+            Fearless Vegetarian is your friend. Remember, healthy doesn’t have to equal boring. So let’s get healthier, let’s get creative and let’s get cooking. <br/><br/>
           </p>
           <p>
             <h2>Why Vegetarian Diets Are Better</h2>
