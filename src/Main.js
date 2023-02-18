@@ -29,9 +29,9 @@ class Main extends Component {
           <p>
             <h2>Fears of Vegetarian Diet Debunked:</h2>
             <h4>1. "I wont get enough Protein"</h4>
-            <Image src="https://i.pinimg.com/564x/6e/6f/57/6e6f579d3481177c7dce8ca2509dcbd9.jpg" rounded responsive alt="Protein Source for Vegetarian"/>
+            <Image src="https://i.pinimg.com/564x/6e/6f/57/6e6f579d3481177c7dce8ca2509dcbd9.jpg" rounded responsive alt="Protein Source for Vegetarian" img-fluid/>
             <h4>2. "I wont get enough Iron"</h4>
-            <Image src='https://i.pinimg.com/564x/b9/b3/6d/b9b36d8db2236f2f780c137c1bc0a22e.jpg' rounded responsive alt="Iron Source for Vegetarian"/>
+            <Image src='https://i.pinimg.com/564x/b9/b3/6d/b9b36d8db2236f2f780c137c1bc0a22e.jpg' rounded responsive alt="Iron Source for Vegetarian" img-fluid/>
           </p>
           </div>
       </Container>
