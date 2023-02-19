@@ -18,7 +18,7 @@ class Main extends Component {
             <Container>
               <Nav className="me-auto">
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/recipe" className="recipelink" >Recipies</Nav.Link>
+                <Nav.Link href="/recipe" className="recipelink">Recipe</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
