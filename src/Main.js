@@ -17,7 +17,7 @@ class Main extends Component {
       <Container className="p-3">
         <div>
           <div >
-            <img className="bg" src="spices.png" alt="Indian Spices logo banner" />
+            <img className="bg" src="spices.jpg" alt="Indian Spices logo banner" />
           </div>
           <Navbar bg="dark" variant="dark">
             <Container>
