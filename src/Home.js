@@ -13,8 +13,7 @@ class Home extends Component {
         </p>
         <p>
           <h2>Why Vegetarian Diets Are Better</h2>
-          Vegetarian diets, tend to be high in fiber and low in fat and cholesterol. On average, vegetarians live ten years longer than meat-eaters. Link to the 
-          study <a href="https://pubmed.ncbi.nlm.nih.gov/11434797/" className="med_link" target="_blank" rel="noopener noreferrer">National Library Of Medicine</a>. 
+          Vegetarian diets, tend to be high in fiber and low in fat and cholesterol. On average, <a href="https://pubmed.ncbi.nlm.nih.gov/11434797/" className="med_link" target="_blank" rel="noopener noreferrer">vegetarians live ten years longer than meat-eaters.</a>. 
           Over 80% of all cancers, cardiovascular diseases, and other degenerative illnesses can be kept in check with a plant-based diet.
           Red meat and processed meats are known to cause inflammation so for people with auto immune diseases vegetarian diet can prove to be benifical.
         </p>
