@@ -9,6 +9,9 @@ import Potato from "./Potato";
 
 
 class Main extends Component {
+  onClick = (e) => {
+    e.preventDefault()
+  }
   render(){
     return(
       <Container className="p-3">
@@ -18,7 +21,7 @@ class Main extends Component {
           </div>
           <Navbar bg="dark" variant="dark">
             <Container>
-            <Navbar.Brand href="javascript:void(0)" style={{cursor: 'default'}}>Fearless Vegetarian</Navbar.Brand>
+            <Navbar.Brand onClick={this.onClick} style={{cursor: 'default'}}>Fearless Vegetarian</Navbar.Brand>
               <Nav className="me-auto">
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/recipe" className="recipelink">Recipe</Nav.Link>
