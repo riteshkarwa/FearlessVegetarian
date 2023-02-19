@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import Recipe from "./Recipe";
 import Home from "./Home";
 import Potatoe from "./Potatoe";
