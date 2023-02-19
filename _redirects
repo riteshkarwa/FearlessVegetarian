@@ -1,4 +1,2 @@
 # Redirects from what the browser requests to what we serve
-/home      /  200!
-/recipe    /  200!
-/potatoe   /  200!
+/*      /  200
