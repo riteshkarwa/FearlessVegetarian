@@ -1,0 +1,4 @@
+# Redirects from what the browser requests to what we serve
+/home       /
+/recipe     https://fearlessvegetarian.netlify.app/recipe
+/potatoe    https://fearlessvegetarian.netlify.app/potatoe
