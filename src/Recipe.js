@@ -14,7 +14,7 @@ class Recipe extends Component {
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="potato.png" />
                         <Card.Body>
-                            <Card.Title>Anytime Potato Recipe Page Seasoned with Indian Spices</Card.Title>
+                            <Card.Title>Anytime Potato Seasoned with Indian Spices</Card.Title>
                             <Card.Text>
                             My favourite go to meal, can we made for breakfast lunch or dinner.Takes roughlyy 30 minutes to cook
                             </Card.Text>
