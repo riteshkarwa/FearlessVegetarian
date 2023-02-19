@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import {Route, Routes} from "react-router-dom";
 import Recipe from "./Recipe";
 import Home from "./Home";
-import Potatoe from "./Potatoe";
+import Potato from "./Potato";
 
 
 class Main extends Component {
@@ -25,7 +25,7 @@ class Main extends Component {
           <Routes>
             <Route exact path="/" element={< Home />}></Route>
             <Route exact path="/recipe" element={< Recipe />}></Route>
-            <Route exact path="/potatoe" element={< Potatoe />}></Route>
+            <Route exact path="/potato" element={< Potato />}></Route>
           </Routes>
         </div>
       </Container>

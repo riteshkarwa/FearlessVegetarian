@@ -5,11 +5,8 @@ class Recipe extends Component {
   render() {
     return (
       <div>
-        <h2>STUFF</h2>
-        <p>Mauris sem velit, vehicula eget sodales vitae,
-        rhoncus eget sapien:</p>
         <ol>
-            <Link to="/potatoe">Potatoe</Link>
+            <Link to="/potatoe">Any Time Potato Seasoned with Indian Spieces</Link>
         </ol>
       </div>
     );
