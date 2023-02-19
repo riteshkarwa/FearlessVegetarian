@@ -4,7 +4,7 @@ class Potato extends Component {
   render() {
     return (
       <div>
-        <h1>Any Time Potato Seasoned with </h1>
+        <h1>Any Time Potato Seasoned with Indian Spices</h1>
         <div>Ingredients</div>
         <ol> 
             <li>1 teaspoon ginger powder </li> 
