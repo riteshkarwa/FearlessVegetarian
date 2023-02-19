@@ -13,9 +13,12 @@ class Main extends Component {
     return(
       <Container className="p-3">
         <div>
-          <h1>Fearless Vegetarian</h1>
+          <div >
+            <img className="bg" src="spices.png" />
+          </div>
           <Navbar bg="dark" variant="dark">
             <Container>
+            <Navbar.Brand href="javascript:void(0)">Fearless Vegetarian</Navbar.Brand>
               <Nav className="me-auto">
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/recipe" className="recipelink">Recipe</Nav.Link>

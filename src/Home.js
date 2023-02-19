@@ -24,10 +24,10 @@ class Home extends Component {
           Recent studies show that one third of all global emissions are created by the food industry and meat production is responsible for over 50 percent of this! 
         </p>
         <p>
-          <h2>Tastes Yummy The Next Day</h2>
-          Vegetarian espically Indian Food is excellent for meal prep. It tastes better the next day so you can make it in large quantity. The ingredients
-          for most of the meals that I will be sharing are super cheap campared to eating out in resturant. Also you can control what is added to your food 
-          espically the spiece level. Beware when you use salt and chilli powder with caution if you add too much of either of those there is no coming back. 
+          <h2>Excellent For Meal Prep</h2>
+          Vegetarian especially Indian Food is excellent for meal prep. Time allows the flavours to blend and mature making the food tastes better the next 
+          day so you can make it in large quantity. The ingredients for most of the meals that I will be sharing on Fearless Vegetarian will be super cheap 
+          compared to eating out in restaurant. Also you can control what is added to your food espically the spice level.
         </p>
         <p>
           <h2>Fears of Vegetarian Diet Debunked:</h2>
