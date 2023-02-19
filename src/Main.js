@@ -14,11 +14,11 @@ class Main extends Component {
       <Container className="p-3">
         <div>
           <div >
-            <img className="bg" src="spices.png" />
+            <img className="bg" src="spices.png" alt="Indian Spices logo banner" />
           </div>
           <Navbar bg="dark" variant="dark">
             <Container>
-            <Navbar.Brand href="javascript:void(0)">Fearless Vegetarian</Navbar.Brand>
+            <Navbar.Brand href="javascript:void(0)" style={{cursor: 'default'}}>Fearless Vegetarian</Navbar.Brand>
               <Nav className="me-auto">
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/recipe" className="recipelink">Recipe</Nav.Link>
