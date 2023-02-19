@@ -26,9 +26,17 @@ h2 {
   text-decoration: underline;
 }
 
-a {
+.med_link {
   color: black!important;
   text-decoration: none!important;
   border-bottom: 2px solid rgb(255, 182, 0);
   transition: background-color 0.2s ease-in-out 0s;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.recipelink {
+  padding-left: 20px !important;
 }
