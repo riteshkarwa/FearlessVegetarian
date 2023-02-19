@@ -16,7 +16,7 @@ class Recipe extends Component {
                         <Card.Body>
                             <Card.Title>Anytime Potato Seasoned with Indian Spices</Card.Title>
                             <Card.Text>
-                            My favourite go to meal, can we made for breakfast lunch or dinner.Takes roughlyy 30 minutes to cook
+                            My favourite go to meal, can be made for breakfast lunch or dinner. Takes roughly 30 minutes to cook.
                             </Card.Text>
                             <Button variant="primary" href="/potato">Potato Recipe Page</Button>
                         </Card.Body>
