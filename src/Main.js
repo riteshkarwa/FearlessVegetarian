@@ -6,6 +6,8 @@ import {Route, Routes} from "react-router-dom";
 import Recipe from "./Recipe";
 import Home from "./Home";
 import Potato from "./Potato";
+import MediaQuery from 'react-responsive'
+
 
 
 class Main extends Component {
@@ -17,7 +19,12 @@ class Main extends Component {
       <Container className="p-3">
         <div>
           <div >
-            <img className="bg" src="spices.jpg" alt="Indian Spices logo banner" />
+            <MediaQuery maxWidth={767}>
+              <img className="bg" src="spices_mobile.jpg" alt="Indian Spices logo banner" />
+            </MediaQuery>
+            <MediaQuery minWidth={767}>
+              <img className="bg" src="spices.jpg" alt="Indian Spices logo banner" />
+            </MediaQuery>
           </div>
           <Navbar bg="dark" variant="dark">
             <Container>

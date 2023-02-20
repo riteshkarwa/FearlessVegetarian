@@ -6,7 +6,6 @@ class Home extends Component {
     return (
       <div>
         <p className="bugs_text">
-          <Image  className="bugs_img" src="https://i.pinimg.com/564x/0b/bb/49/0bbb4991cac283330a29c537711f0ac2.jpg" width="200" height="200"  alt="Wht's up doc bugs bunny"/>
           In this space, I will be sharing some easy, fresh, flavorful, and  healthly recipes. These are family recipes I love and use daily.
           Growing up in a Hindu family, being vegetarian comes naturally to me. Hopefully for those who are finding it difficult to become a Vegetarian, 
           Fearless Vegetarian is your friend. Remember, healthy doesn’t have to equal boring. So let’s get healthier, let’s get creative and let’s get cooking. If you have 
