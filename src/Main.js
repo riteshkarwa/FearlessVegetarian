@@ -7,6 +7,7 @@ import Recipe from "./Recipe";
 import Home from "./Home";
 import Potato from "./Potato";
 import MediaQuery from 'react-responsive'
+import Bombaysandwich from "./Bombaysandwich";
 
 
 
@@ -39,6 +40,7 @@ class Main extends Component {
             <Route exact path="/" element={< Home />}></Route>
             <Route exact path="/recipe" element={< Recipe />}></Route>
             <Route exact path="/potato" element={< Potato />}></Route>
+            <Route exact path="/sandwich" element={< Bombaysandwich />}></Route>
           </Routes>
         </div>
       </Container>

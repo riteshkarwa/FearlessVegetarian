@@ -11,7 +11,7 @@ class Recipe extends Component {
         <Container>
             <Row>
                 <Col>
-                    <Card style={{ width: '18rem' }}>
+                    <Card style={{ width: '20rem' , margin:'10px'}}>
                         <Card.Img variant="top" src="potato.png" />
                         <Card.Body>
                             <Card.Title>Anytime Potato Seasoned with Indian Spices</Card.Title>
@@ -23,15 +23,14 @@ class Recipe extends Component {
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card style={{ width: '20rem' , margin:'10px'}}>
+                        <Card.Img variant="top" src="sandwich.png" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Loaded Vegetable sandwich</Card.Title>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            Delicious Vegetable Sandwich super easy to make and very filling.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary" href="/sandwich">Vegetable Sandwich Recipe Page</Button>
                         </Card.Body>
                     </Card>
                 </Col>

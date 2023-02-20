@@ -29,7 +29,7 @@ class Potato extends Component {
             <li>Cook the pototoes for about 15 to 20 minutes it they get transparent. Contantly stir the potatoe so they do not stick to the bottom of the pan</li> 
             <li>One the pototoes starts to turn transparent add fine chopped onion</li> 
             <li>Add all the spieces ginger powder, onion powder, coriander powder, chili powder, tumeric powder, curry powder</li> 
-            <li>Nicey stir the potatoe so the spices are nicely mixed </li> 
+            <li>Nicelxy stir the potatoe so the spices are nicely mixed </li> 
             <li>Add salt as per taste</li> 
         </ol>
       </div>
