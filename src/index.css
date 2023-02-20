@@ -17,14 +17,10 @@ code {
   height: 300px;
 }
 
-
-
 .bugs_img {
   float: left;
   margin: 10px;
 }
-
-
 
 p {
   font-size: 25px;
@@ -44,10 +40,6 @@ h2 {
 
 .nav-link{
   color: white !important;
-}
-
-.recipelink {
-  padding-left: 20px !important;
 }
 
 .pro_veg {
