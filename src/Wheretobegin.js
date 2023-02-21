@@ -10,7 +10,7 @@ class Wheretobegin extends Component {
                 <Image src="veg.jpg" thumbnail rounded></Image>
             </p>
             
-            <h1>Where To Begin With Cooking Delicious Vegetarian (aka lacto vegetarian) Food</h1>
+            <h1>Where To Begin With Cooking Delicious Vegetarian (aka Lacto Vegetarian) Food</h1>
             <p>
                 If you are trying to become vegetarian (aka lacto vegetarian) then you will come across lot of Indian dishes but it can be challenging if it is your first 
                 time cooking Indian Food. I was lucky enough to have my Mom dearest to guide me but that could not be the case with some or most of you. Indian Grocery 
