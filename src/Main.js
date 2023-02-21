@@ -8,6 +8,7 @@ import Home from "./Home";
 import Potato from "./Potato";
 import MediaQuery from 'react-responsive'
 import Bombaysandwich from "./Bombaysandwich";
+import Donate from "./Donate";
 
 
 
@@ -27,13 +28,18 @@ class Main extends Component {
               <img className="bg" src="spices.jpg" alt="Indian Spices logo banner" />
             </MediaQuery>
           </div>
-          <Navbar bg="dark" variant="dark">
+          <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-            <Navbar.Brand onClick={this.onClick} style={{cursor: 'default'}}>Fearless Vegetarian</Navbar.Brand>
-              <Nav className="me-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/recipe" className="recipelink">Recipe</Nav.Link>
-              </Nav>
+              <Navbar.Brand onClick={this.onClick} style={{cursor: 'default'}}>Fearless Vegetarian</Navbar.Brand>
+              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="me-auto">
+                  <Nav.Link href="/">Home</Nav.Link>
+                  <Nav.Link href="/recipe" className="recipelink">Recipe</Nav.Link>
+                  <Nav.Link href="/wheretobegin">Where to Begin</Nav.Link>
+                  <Nav.Link href="/donate">Donate</Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
             </Container>
           </Navbar>
           <Routes>
@@ -41,6 +47,7 @@ class Main extends Component {
             <Route exact path="/recipe" element={< Recipe />}></Route>
             <Route exact path="/potato" element={< Potato />}></Route>
             <Route exact path="/sandwich" element={< Bombaysandwich />}></Route>
+            <Route exact path="/donate" element={< Donate />}></Route>
           </Routes>
         </div>
       </Container>
