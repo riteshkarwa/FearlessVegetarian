@@ -21,6 +21,13 @@ class Wheretobegin extends Component {
                 flavorful. The ingredients for Indian food is generally not available in big chain grocery store and if they are they are expensive. I would love to help you overcome
                 all the obstacles if you are stuck, that is what inspired me to start this website. 
             </p>
+            <h2>Vegan and Vegetarian Diet</h2>
+            <p>Going Vegan is very hard even for me who has been vegetarian all my life. So if your ultimate goal is to become vegan, I would recommend
+              starting off with vegetarian or any form of vegetarian diet from the chart and following that diet religiously for at least 6 months (baby steps). 
+              I have seen lot of my friends who tried to go vegan and struggled health wise which made them give up and go back to eating unhealthy food. 
+              At least with experimenting with different type of vegetarian diet you can ultimately decide which one you want to pick depending on which one  is 
+              manageable for you.
+            </p>
         </div>
       );
     }
