@@ -29,15 +29,15 @@ class Bombaysandwich extends Component {
             </li>
             <li>Take 2 slices of white bread and toast it in a toaster. Spread a generous amount of butter on each slice of bread.</li> 
             <li>Top with a layer of chutney.</li>
-            <li>Top one slice of bread with potatoes followed by chat masala.</li>
+            <li>Top one slice of bread with potatoes followed by Chat Masala.</li>
             <li>Add a layer of cucumber on top of the potatoes and sprinkle some Chat Masala and salt</li> 
             <li>Add a layer of beetroot on top of the potatoes and sprinkle some Chat Masala and salt</li> 
             <li>Add a slice of muenster cheese </li> 
-            <li>Add a peice of bread with layer of butter applied to the bottom of the bread</li> 
+            <li>Add a piece of bread with layer of butter applied to the bottom of the bread</li> 
             <li>Add Mint Chutney to the top of the bread</li> 
             <li>Add a layer of onions on top of the bread and sprinkle some Chat Masala and salt</li> 
             <li>Add a layer of Tomatoes on top of the onions and sprinkle some Chat Masala and salt</li> 
-            <li>Add a peice of bread with layer of butter applied to the bottom of the bread. to complete our sandwich</li>  
+            <li>Add a piece of bread with layer of butter applied to the bottom of the bread. to complete our sandwich</li>  
         </ol>
       </div>
     );
