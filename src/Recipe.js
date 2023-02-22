@@ -18,7 +18,7 @@ class Recipe extends Component {
                             <Card.Text>
                             My favourite go to meal, can be made for breakfast lunch or dinner. Takes roughly 30 minutes to cook.
                             </Card.Text>
-                            <Button variant="primary" href="/potato">Potato Recipe Page</Button>
+                            <Button variant="primary" href="/potato">Anytime Potato Recipe</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -28,9 +28,9 @@ class Recipe extends Component {
                         <Card.Body>
                             <Card.Title>Loaded Vegetable Sandwich</Card.Title>
                             <Card.Text>
-                            Delicious Vegetable Sandwich super easy to make and very filling.
+                            Appetizing Vegetable Sandwich super easy to make and very filling.
                             </Card.Text>
-                            <Button variant="primary" href="/sandwich">Vegetable Sandwich Recipe Page</Button>
+                            <Button variant="primary" href="/sandwich">Vegetable Sandwich Recipe</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -38,11 +38,11 @@ class Recipe extends Component {
                     <Card style={{ width: '20rem' , margin:'10px'}}>
                         <Card.Img variant="top" src="peanutsd.jpg" />
                         <Card.Body>
-                            <Card.Title>Peanut Butter Sandwich with Apple slices and Cinnamon Sugar</Card.Title>
+                            <Card.Title>Peanut Butter Toast with Apple slices and Cinnamon Sugar</Card.Title>
                             <Card.Text>
-                            Delicious Peanut Butter Sandwich with Apple slices and Cinnamon sugar, super easy to make and very filling.
+                            Delicious Peanut Butter Toast with Apple slices and Cinnamon sugar, super easy to make and very filling.
                             </Card.Text>
-                            <Button variant="primary" href="/peanutsd">PeanutButter Apple Sandwich Recipe Page</Button>
+                            <Button variant="primary" href="/peanutsd">Peanut Butter Apple Toast Recipe</Button>
                         </Card.Body>
                     </Card>
                 </Col>

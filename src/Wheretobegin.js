@@ -13,7 +13,7 @@ class Wheretobegin extends Component {
             <h1>Where To Begin With Cooking Delicious Vegetarian (aka Lacto Vegetarian) Food</h1>
             <p>
                 If you are trying to become vegetarian (aka lacto vegetarian) then you will come across lot of Indian dishes but it can be challenging if it is your first 
-                time cooking Indian Food. I was lucky enough to have my Mom dearest to guide me but that could not be the case with some or most of you. Indian Grocery 
+                time cooking Indian Food. I was lucky enough to have my mommy dearest to guide me but that could not be the case with some or most of you. Indian Grocery 
                 store is the answer to all your question. All the weird sounding spices can be found in the Indian grocery store. Another thing that no one 
                 tells you is that you have to be very careful with spices, (tumeric and chili powder) too much of any of those is a straight up death sentence 
                 for the dish and you will have to start over. If you accidentally add to much chilli powder yougurt can help out but it depend on the dish you are making. 
