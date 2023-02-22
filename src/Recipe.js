@@ -47,6 +47,20 @@ class Recipe extends Component {
                     </Card>
                 </Col>
             </Row>
+            <Row>
+                <Col>
+                    <Card style={{ width: '20rem' , margin:'10px'}}>
+                        <Card.Img variant="top" src="potatocapsicum.jpg" />
+                        <Card.Body>
+                            <Card.Title>Potato Curry with Red Peppers</Card.Title>
+                            <Card.Text>
+                            Potato Curry with Red Pepper, Seasoned with Indian Spices. Takes roughly 45 minutes to cook.
+                            </Card.Text>
+                            <Button variant="primary" href="/potatocapsicum">Potato Curry with Red Pepper Recipe</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
         </Container>
     );
   }
