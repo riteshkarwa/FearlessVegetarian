@@ -14,7 +14,7 @@ class Potatocapsicum extends Component {
                     <li>1/8 teaspoon red chili powder</li> 
                     <li>1 tablespoon curry powder</li> 
                     <li>1 teaspoon cumin powder</li> 
-                    <li>1 tablespoon garam masala spice found in Indian store</li> 
+                    <li>1 tablespoon Garam Masala spice found in Indian store</li> 
                     <li>4 whole potatoes</li>
                     <li>Salt as per taste</li> 
                     <li>1 onion</li> 
@@ -35,13 +35,14 @@ class Potatocapsicum extends Component {
                         into a fine puree
                     </li>
                     <li>Add the puree to the non stick pan with oil heated up</li>
-                    <li>Add all the  spices to the onion tomato red pepper puree ginger powder, onion powder, coriander powder, chili powder, tumeric powder, curry powder</li>
+                    <li>Add all the  spices to the onion tomato red pepper puree ginger powder, onion powder, coriander powder, chili powder(you can start with adding very
+                        little in the beginning and add more towards the end of the dish, tumeric powder, curry powder</li>
                     <li>Cover the pan and let it cook this the gravy thickens up</li>
-                    <li>Then use a food chopper to cut the potatoes into to small sqaure pieces</li>
+                    <li>Then use a food chopper to cut the potatoes into to small square pieces</li>
                     <li>Let the spices cook for 10 min. Cover the pan with a lid</li> 
                     <li>Using a food chopper cut potatoes into small square pieces</li>
                     <li>Add the potatoes in the pan</li> 
-                    <li>Cook the pototoes for about 15 to 20 minutes till they become soft. Contantly stir the potatoe to mix it well with onion tomato red pepper puree which 
+                    <li>Cook the potatoes for about 15 to 20 minutes till they become soft. Constantly stir the potatoes to mix it well with onion tomato red pepper puree which 
                         will act as a gravy for the curry</li> 
                     <li>Add salt as per taste</li>
                     <li>Add little bit of Kitchen King Spice and amchoor powder</li>

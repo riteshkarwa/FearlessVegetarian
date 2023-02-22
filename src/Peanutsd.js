@@ -10,7 +10,7 @@ class Peanutsd extends Component {
                 <li>1 slice of 21 Whole Grains and Seeds - Dave's Killer Bread</li>
                 <li>1 whole apple cut into thin slices</li>
                 <li>Few tablespoon PeanutButter</li>
-                <li>Cinnamon Sugar to Prinkle over Apple</li>
+                <li>Cinnamon Sugar to Sprinkle over Apple</li>
             </ol>
             <div className="ingredients">Instruction</div>
             <ol>

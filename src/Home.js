@@ -16,7 +16,7 @@ class Home extends Component {
           <h2>Why Vegetarian Diets Are Better</h2>
           Vegetarian diets, tend to be high in fiber and low in fat and cholesterol. On average, <a href="https://pubmed.ncbi.nlm.nih.gov/11434797/" className="med_link" target="_blank" rel="noopener noreferrer">vegetarians live ten years longer than meat-eaters. </a>  
           Over 80% of all cancers, cardiovascular diseases, and other degenerative illnesses can be kept in check with a plant-based diet.
-          Red meat and processed meats are known to cause inflammation so for people with auto immune diseases vegetarian diet can prove to be benifical.
+          Red meat and processed meats are known to cause inflammation so for people with auto immune diseases vegetarian diet can prove to be beneficial.
         </p>
         <p>
           <h2>Helping The Environment</h2>
@@ -26,7 +26,7 @@ class Home extends Component {
           <h2>Excellent For Meal Prep</h2>
           Vegetarian especially Indian Food is excellent for meal prep. Time allows the flavours to blend and mature making the food tastes better the next 
           day so you can make it in large quantity. The ingredients for most of the meals that I will be sharing on Fearless Vegetarian will be super cheap 
-          compared to eating out in restaurant. Also you can control what is added to your food espically the spice level.
+          compared to eating out in restaurant. Also you can control what is added to your food especially the spice level.
         </p>
         <p>
           <h2>Fears of Vegetarian Diet Debunked:</h2>
