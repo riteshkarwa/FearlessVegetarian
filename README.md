@@ -1,2 +1,2 @@
 #Flearless Vegetarian
-React code for the site
+ReactJS code for the Flearless Vegetarian

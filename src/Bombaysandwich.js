@@ -1,11 +1,12 @@
 import React, { Component } from "react";
- 
+import Image from 'react-bootstrap/Image';
+
 class Bombaysandwich extends Component {
   render() {
     return (
       <div>
-        <h1>Vegetable Sandwitch with Mint Chutney and loads of Vegetable stacked up</h1>
-        <div>Ingredients</div>
+        <h1>Vegetable Sandwich with Mint Chutney and loads of Vegetables stacked up</h1>
+        <div className="ingredients">Ingredients</div>
         <ol> 
             <li>3 slices sourdough bread</li> 
             <li>1 tablespoon butter, per sandwich </li> 
@@ -18,11 +19,15 @@ class Bombaysandwich extends Component {
             <li>Pinch of Salt</li> 
             <li>2 to 3 Slices of Onions</li> 
         </ol>
-        <div>Instruction</div>
-        
+        <div className="ingredients">Instruction</div>
         <ol> 
             <li>The trick to boiling potatoes is to peel and slick them first and then boil it in water for 10 min</li>
-            <li>Take 2 slices of white bread. Spread a generous amount of butter on each slice of bread.</li> 
+            <li>All the ingredients chopped up and ready to be layered on piece of bread<br/>
+                
+                <Image src="sdplate.jpg" thumbnail rounded width="30%" height="30%"></Image>
+                
+            </li>
+            <li>Take 2 slices of white bread and toast it in a toaster. Spread a generous amount of butter on each slice of bread.</li> 
             <li>Top with a layer of chutney.</li>
             <li>Top one slice of bread with potatoes followed by chat masala.</li>
             <li>Add a layer of cucumber on top of the potatoes and sprinkle some Chat Masala and salt</li> 

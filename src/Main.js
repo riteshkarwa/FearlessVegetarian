@@ -10,6 +10,7 @@ import MediaQuery from 'react-responsive'
 import Bombaysandwich from "./Bombaysandwich";
 import Donate from "./Donate";
 import Wheretobegin from "./Wheretobegin";
+import Peanutsd from "./Peanutsd";
 
 
 
@@ -50,6 +51,7 @@ class Main extends Component {
             <Route exact path="/sandwich" element={< Bombaysandwich />}></Route>
             <Route exact path="/donate" element={< Donate />}></Route>
             <Route exact path="/wheretobegin" element={< Wheretobegin />}></Route>
+            <Route exact path="/peanutsd" element={< Peanutsd />}></Route>
           </Routes>
         </div>
       </Container>

@@ -26,11 +26,23 @@ class Recipe extends Component {
                     <Card style={{ width: '20rem' , margin:'10px'}}>
                         <Card.Img variant="top" src="sandwich.png" />
                         <Card.Body>
-                            <Card.Title>Loaded Vegetable sandwich</Card.Title>
+                            <Card.Title>Loaded Vegetable Sandwich</Card.Title>
                             <Card.Text>
                             Delicious Vegetable Sandwich super easy to make and very filling.
                             </Card.Text>
                             <Button variant="primary" href="/sandwich">Vegetable Sandwich Recipe Page</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card style={{ width: '20rem' , margin:'10px'}}>
+                        <Card.Img variant="top" src="peanutsd.jpg" />
+                        <Card.Body>
+                            <Card.Title>Peanut Butter Sandwich with Apple slices and Cinnamon Sugar</Card.Title>
+                            <Card.Text>
+                            Delicious Peanut Butter Sandwich with Apple slices and Cinnamon sugar, super easy to make and very filling.
+                            </Card.Text>
+                            <Button variant="primary" href="/peanutsd">PeanutButter Apple Sandwich Recipe Page</Button>
                         </Card.Body>
                     </Card>
                 </Col>

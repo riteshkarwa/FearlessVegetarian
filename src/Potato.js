@@ -5,7 +5,7 @@ class Potato extends Component {
     return (
       <div>
         <h1>Any Time Potato Seasoned with Indian Spices</h1>
-        <div>Ingredients</div>
+        <div className="ingredients">Ingredients</div>
         <ol> 
             <li>1 teaspoon ginger powder </li> 
             <li>1 teaspoon onion powder </li> 
@@ -18,7 +18,7 @@ class Potato extends Component {
             <li>Salt as per taste</li> 
             <li>1/2 onion</li> 
         </ol>
-        <div>Instruction</div>
+        <div className="ingredients">Instruction</div>
         
         <ol> 
             <li>Take some olive oil in a non stick pan and heat it up</li> 
