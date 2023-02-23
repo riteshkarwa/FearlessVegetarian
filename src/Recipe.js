@@ -60,6 +60,18 @@ class Recipe extends Component {
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col>
+                    <Card style={{ width: '20rem' , margin:'10px'}}>
+                        <Card.Img variant="top" src="beetroot.jpg" />
+                        <Card.Body>
+                            <Card.Title>Beetroot Curry with Coconut Milk Served with Rice</Card.Title>
+                            <Card.Text>
+                            The Beetroot Curry with Coconut Milk Recipe is a wholesome curry on its own that is quick and easy to make for a weeknight dinner or a summertime party at home.
+                            </Card.Text>
+                            <Button variant="primary" href="/beetroot">Beetroot Curry Recipe</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
         </Container>
     );

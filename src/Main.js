@@ -12,6 +12,7 @@ import Donate from "./Donate";
 import Wheretobegin from "./Wheretobegin";
 import Peanutsd from "./Peanutsd";
 import Potatocapsicum from "./Potatocapsicum";
+import Beetroot from "./Beetroot";
 
 
 
@@ -54,6 +55,7 @@ class Main extends Component {
             <Route exact path="/wheretobegin" element={< Wheretobegin />}></Route>
             <Route exact path="/peanutsd" element={< Peanutsd />}></Route>
             <Route exact path="/potatocapsicum" element={< Potatocapsicum />}></Route>
+            <Route exact path="/beetroot" element={< Beetroot />}></Route>
           </Routes>
         </div>
       </Container>
