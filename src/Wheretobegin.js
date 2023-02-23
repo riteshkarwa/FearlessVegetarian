@@ -22,11 +22,15 @@ class Wheretobegin extends Component {
                 all the obstacles if you are stuck, that is what inspired me to start this website. 
             </p>
             <h2>Vegan and Vegetarian Diet</h2>
-            <p>Going Vegan is very hard even for me who has been vegetarian all my life. So if your ultimate goal is to become vegan, I would recommend
-              starting off with vegetarian or any form of vegetarian diet from the chart and following that diet religiously for at least 6 months (baby steps). 
-              I have seen lot of my friends who tried to go vegan and struggled health wise which made them give up and go back to eating unhealthy food. 
-              At least with experimenting with different type of vegetarian diet you can ultimately decide which one you want to pick depending on which one  is 
-              manageable for you.
+            <p>
+              For most Americans, meat is the center piece to nearly every meal. As such, the very idea of vegetarianism can be daunting.
+              I have been vegetarian my whole life and some days it can be difficult, even for me. Often times those who try vegetarianism  end up failing due to recipes that leave them feeling
+              hungry or unsatisfied. This is where I come in - I am going to teach you how to be a fearless vegetarian, feel full, and enjoy cooking again. The best way to begin this lifestyle ia to start with baby steps.  
+              You could begin with meatless Mondays, as my brother "Grant" calls them. Then work toward a meatless week. 
+              However, if you want to go all in I recommend trying to go vegetarian for at least three months. According to 
+              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3505409/" className="med_link" target="_blank" rel="noopener noreferrer">National Library of Medicine</a>
+              the "21-day-habit" is a myth and in actuality it takes at least 66 days to form a true habitual change. Therefore, I believe in three months of following my recipes you would have formed a routine that leaves you feeling better, more energized,
+              and happier. 
             </p>
         </div>
       );

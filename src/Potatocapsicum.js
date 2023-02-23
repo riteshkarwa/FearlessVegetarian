@@ -4,7 +4,7 @@ class Potatocapsicum extends Component {
     render() {
         return (
           <div>
-            <h1>Potato Curry with Red Bell Pepper Seasoned with Indian Spices</h1>
+            <h1>Potato Curry with Roasted Red Bell Pepper Sauce Seasoned with Indian Spices</h1>
             <div className="ingredients">Ingredients</div>
                 <ol> 
                     <li>1 teaspoon ginger powder </li> 
