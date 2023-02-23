@@ -13,6 +13,7 @@ import Wheretobegin from "./Wheretobegin";
 import Peanutsd from "./Peanutsd";
 import Potatocapsicum from "./Potatocapsicum";
 import Beetroot from "./Beetroot";
+import Avocado from "./Avocado";
 
 
 
@@ -56,6 +57,7 @@ class Main extends Component {
             <Route exact path="/peanutsd" element={< Peanutsd />}></Route>
             <Route exact path="/potatocapsicum" element={< Potatocapsicum />}></Route>
             <Route exact path="/beetroot" element={< Beetroot />}></Route>
+            <Route exact path="/avocado" element={< Avocado />}></Route>
           </Routes>
         </div>
       </Container>

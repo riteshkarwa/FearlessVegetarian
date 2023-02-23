@@ -72,6 +72,18 @@ class Recipe extends Component {
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col>
+                    <Card style={{ width: '20rem' , margin:'10px'}}>
+                        <Card.Img variant="top" src="avocado.jpg" />
+                        <Card.Body>
+                            <Card.Title>Avocado Toast</Card.Title>
+                            <Card.Text>
+                            Super easy and delicious Avocado Toast. Takes roughly 15 minutes to cook. Good breakfast options if you have a busy schedule
+                            </Card.Text>
+                            <Button variant="primary" href="/avocado">Avocado Toast Recipe</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
         </Container>
     );
