@@ -23,12 +23,12 @@ class Bombaysandwich extends Component {
         <ol> 
             <li>The trick to boiling potatoes is to peel and slick them first and then boil it in water for 10 min</li>
             <li>All the ingredients chopped up and ready to be layered on piece of bread<br/>
-                <Image src="sdplate.jpg" thumbnail rounded width="30%" height="30%"></Image>
+                <Image src="sdplate.png" thumbnail rounded width="30%" height="30%"></Image>
             </li>
             <li>Take 2 slices of white bread and toast it in a toaster. Spread a generous amount of butter on each slice of bread.</li> 
             <li>Top with a layer of chutney.</li>
             <li>Top one slice of bread with potatoes followed by Chat Masala.</li>
-            <li>Add a layer of cucumber on top of the potatoes and sprinkle some Chat Masala and salt<br/>
+            <li>Add a layer of tomatoes on top of the potatoes and sprinkle some Chat Masala and salt<br/>
               <Image src="sandwich_1.png" thumbnail rounded width="30%" height="30%"></Image>
             </li> 
 
@@ -37,7 +37,7 @@ class Bombaysandwich extends Component {
             <li>Add a piece of bread with layer of butter applied to the bottom of the bread</li> 
             <li>Add Mint Chutney to the top of the bread</li> 
             <li>Add a layer of onions on top of the bread and sprinkle some Chat Masala and salt</li> 
-            <li>Add a layer of Tomatoes on top of the onions and sprinkle some Chat Masala and salt</li> 
+            <li>Add a layer of cucumber on top of the onions and sprinkle some Chat Masala and salt</li> 
             <li>Add a piece of bread with layer of butter applied to the bottom of the bread. to complete our sandwich</li>  
         </ol>
       </div>

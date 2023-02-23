@@ -32,7 +32,7 @@ class Main extends Component {
               <img className="bg" src="spices.jpg" alt="Indian Spices logo banner" />
             </MediaQuery>
           </div>
-          <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+          <Navbar collapseOnSelect expand="false" bg="dark" variant="dark">
             <Container>
               <Navbar.Brand onClick={this.onClick} style={{cursor: 'default'}}>Fearless Vegetarian</Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
