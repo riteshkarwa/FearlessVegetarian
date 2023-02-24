@@ -21,7 +21,7 @@ class Wheretobegin extends Component {
                 flavorful. The ingredients for Indian food is generally not available in big chain grocery store and if they are they are expensive. I would love to help you overcome
                 all the obstacles if you are stuck, that is what inspired me to start this website. 
             </p>
-            <h2>Vegan and Vegetarian Diet</h2>
+            <h2>Baby Steps</h2>
             <p>
               For most Americans, meat is the center piece to nearly every meal. As such, the very idea of vegetarianism can be daunting.
               Often times those who try vegetarianism  end up failing due to recipes that leave them feeling
