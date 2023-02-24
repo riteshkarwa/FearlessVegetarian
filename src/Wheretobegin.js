@@ -24,7 +24,7 @@ class Wheretobegin extends Component {
             <h2>Vegan and Vegetarian Diet</h2>
             <p>
               For most Americans, meat is the center piece to nearly every meal. As such, the very idea of vegetarianism can be daunting.
-              I have been vegetarian my whole life and some days it can be difficult, even for me. Often times those who try vegetarianism  end up failing due to recipes that leave them feeling
+              Often times those who try vegetarianism  end up failing due to recipes that leave them feeling
               hungry or unsatisfied. This is where I come in - I am going to teach you how to be a fearless vegetarian, feel full, and enjoy cooking again. The best way to begin this lifestyle is to start with baby steps.  
               You could begin with meatless Mondays, as my brother "Grant" calls them. Then work toward a meatless week. 
               However, if you want to go all in I recommend trying to go vegetarian for at least three months. According to 
