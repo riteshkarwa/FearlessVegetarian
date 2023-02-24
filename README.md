@@ -1,2 +1,2 @@
-#Flearless Vegetarian
+#Flearless Vegetarian \
 ReactJS code for the Flearless Vegetarian
