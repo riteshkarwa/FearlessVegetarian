@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Image from 'react-bootstrap/Image';
 
 class Peanutsd extends Component {
     render() {
@@ -17,7 +18,9 @@ class Peanutsd extends Component {
                 <li>Get a slice of Whole Grains and Seeds - Dave's Killer Bread and spread PeanutButter on it</li>
                 <li>Chop some apple slices and place it on the bread</li>
                 <li>Sprinkle some Cinnamon Sugar on the apple slices and that's it your yummy sandwich is ready for you to enjoy!!</li> 
-            </ol> 
+            </ol>
+            <h2>Final Product</h2>
+            <Image src="peanutsd.jpg" thumbnail rounded width="40%" height="40%"></Image>
         </div>
       );
     }

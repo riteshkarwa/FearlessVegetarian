@@ -14,6 +14,7 @@ import Peanutsd from "./Peanutsd";
 import Potatocapsicum from "./Potatocapsicum";
 import Beetroot from "./Beetroot";
 import Avocado from "./Avocado";
+import Chipotle from "./Chipotle";
 
 
 
@@ -58,6 +59,7 @@ class Main extends Component {
             <Route exact path="/potatocapsicum" element={< Potatocapsicum />}></Route>
             <Route exact path="/beetroot" element={< Beetroot />}></Route>
             <Route exact path="/avocado" element={< Avocado />}></Route>
+            <Route exact path="/chipotle" element={< Chipotle />}></Route>
           </Routes>
         </div>
       </Container>

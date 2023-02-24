@@ -28,7 +28,7 @@ class Recipe extends Component {
                         <Card.Body>
                             <Card.Title>Loaded Vegetable Sandwich</Card.Title>
                             <Card.Text>
-                            Appetizing Vegetable Sandwich super easy to make and very filling.
+                            Appetizing Vegetable Sandwich super easy to make and very filling. It's a popular Indian food from the city of Mumbai
                             </Card.Text>
                             <Button variant="primary" href="/sandwich">Vegetable Sandwich Recipe</Button>
                         </Card.Body>
@@ -66,7 +66,7 @@ class Recipe extends Component {
                         <Card.Body>
                             <Card.Title>Beetroot Curry with Coconut Milk Served with Rice</Card.Title>
                             <Card.Text>
-                            The Beetroot Curry with Coconut Milk Recipe is a wholesome curry on its own that is quick and easy to make for a weeknight dinner or a summertime party at home.
+                            The Beetroot Curry with Coconut Milk is quick and easy to make for a weeknight dinner or a summertime party at home.
                             </Card.Text>
                             <Button variant="primary" href="/beetroot">Beetroot Curry Recipe</Button>
                         </Card.Body>
@@ -78,12 +78,27 @@ class Recipe extends Component {
                         <Card.Body>
                             <Card.Title>Avocado Toast</Card.Title>
                             <Card.Text>
-                            Super easy and delicious Avocado Toast. Takes roughly 15 minutes to cook. Good breakfast options if you have a busy schedule
+                            Super easy and delicious Avocado Toast. Takes roughly 15 minutes to cook. Good breakfast option if you have a busy schedule
                             </Card.Text>
                             <Button variant="primary" href="/avocado">Avocado Toast Recipe</Button>
                         </Card.Body>
                     </Card>
                 </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <Card style={{ width: '20rem' , margin:'10px'}}>
+                        <Card.Img variant="top" src="chipotle_1.jpg" />
+                        <Card.Body>
+                            <Card.Title>Chipotle Bowl</Card.Title>
+                            <Card.Text>
+                            Appetizing Chipotle Bowl easy to make for get together or party.
+                            </Card.Text>
+                            <Button variant="primary" href="/chipotle">Chipotle Bowl Recipe</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+
             </Row>
         </Container>
     );

@@ -40,6 +40,8 @@ class Bombaysandwich extends Component {
             <li>Add a layer of cucumber on top of the onions and sprinkle some Chat Masala and salt</li> 
             <li>Add a piece of bread with layer of butter applied to the bottom of the bread. to complete our sandwich</li>  
         </ol>
+        <h2>Final Product</h2>
+            <Image src="sandwich.png" thumbnail rounded width="40%" height="40%"></Image>
       </div>
     );
   }

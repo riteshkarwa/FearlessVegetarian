@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Image from 'react-bootstrap/Image';
 
 class Beetroot extends Component {
   render() {
@@ -30,6 +31,8 @@ class Beetroot extends Component {
             <li>Add salt as per taste</li>
             <li>Your curry is ready taste it to add any spices. You can eat it with rice or Garlic Naan(Indian Bread) found in Indian Grocery Store</li>
         </ol>
+        <h2>Final Product</h2>
+        <Image src="beetroot.jpg" thumbnail rounded width="40%" height="40%"></Image>
 
       </div>
     );

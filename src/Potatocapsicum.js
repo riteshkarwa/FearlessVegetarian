@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Image from 'react-bootstrap/Image';
 
 class Potatocapsicum extends Component {
     render() {
@@ -28,7 +29,6 @@ class Potatocapsicum extends Component {
 
                 </ol>
             <div className="ingredients">Instruction</div>
-            
                 <ol> 
                     <li>Take some olive oil in a non stick pan and heat it up</li> 
                     <li>Add pieces of ginger, whole garlic, red bell pepper, 2 tomatoes ,1 onion,  5 pieces of clove in a mixer or food processor and turn it 
@@ -48,6 +48,8 @@ class Potatocapsicum extends Component {
                     <li>Add little bit of Kitchen King Spice and amchoor powder</li>
                     <li>That is it your curry is ready. You can enjoy it with Garlic Naan or Roti(Indian bread less calories compared to Naan)</li>
                 </ol>
+                <h2>Final Product</h2>
+                <Image src="potatocapsicum.jpg" thumbnail rounded width="40%" height="40%"></Image>
           </div>
         );
     }
