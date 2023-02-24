@@ -7,8 +7,7 @@ class Potatocapsicum extends Component {
           <div>
             <h1>Potato Curry with Roasted Red Bell Pepper Sauce Seasoned with Indian Spices</h1>
             <div className="ingredients">Ingredients</div>
-                <ol> 
-                    <li>1 teaspoon ginger powder </li> 
+                <ol>  
                     <li>1 teaspoon onion powder </li> 
                     <li>1 tablespoon coriander powder </li> 
                     <li>1/8 teaspoon tumeric powder</li> 
@@ -19,13 +18,13 @@ class Potatocapsicum extends Component {
                     <li>4 whole potatoes</li>
                     <li>Salt as per taste</li> 
                     <li>1 onion</li> 
-                    <li>Amchoor Powder - Dried Mango Powder found in Indian Store</li>
-                    <li>Kitchen King Spice found in Indian Store</li>
-                    <li> 5 piece of cloves</li>
-                    <li> 2 small piece of ginger peeled</li>
-                    <li> 2 dried curry leaves </li>
-                    <li> 1 Red Bell Pepper </li>
-                    <li> 2 Whole Tomatoes </li>
+                    <li>1/8 teaspoon Amchoor Powder - Dried Mango Powder found in Indian Store</li>
+                    <li>1/2 teaspoon Kitchen King Spice found in Indian Store</li>
+                    <li>5 piece of cloves</li>
+                    <li>2 small piece of ginger peeled</li>
+                    <li>2 dried curry leaves </li>
+                    <li>1 Red Bell Pepper </li>
+                    <li>2 Whole Tomatoes </li>
 
                 </ol>
             <div className="ingredients">Instruction</div>
