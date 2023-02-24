@@ -28,7 +28,7 @@ class Wheretobegin extends Component {
               hungry or unsatisfied. This is where I come in - I am going to teach you how to be a fearless vegetarian, feel full, and enjoy cooking again. The best way to begin this lifestyle ia to start with baby steps.  
               You could begin with meatless Mondays, as my brother "Grant" calls them. Then work toward a meatless week. 
               However, if you want to go all in I recommend trying to go vegetarian for at least three months. According to 
-              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3505409/" className="med_link" target="_blank" rel="noopener noreferrer">National Library of Medicine</a>
+              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3505409/" className="med_link" target="_blank" rel="noopener noreferrer"> National Library of Medicine </a>
               the "21-day-habit" is a myth and in actuality it takes at least 66 days to form a true habitual change. Therefore, I believe in three months of following my recipes you would have formed a routine that leaves you feeling better, more energized,
               and happier. 
             </p>
