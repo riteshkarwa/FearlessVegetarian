@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import Container from 'react-bootstrap/Container';
 import { Food } from "./Food";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 
 
 export default function Search(){
