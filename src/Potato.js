@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Image from 'react-bootstrap/Image';
  
 class Potato extends Component {
   render() {
@@ -32,6 +33,8 @@ class Potato extends Component {
             <li>Nicely stir the potatoes so the spices are nicely mixed </li> 
             <li>Add salt as per taste</li> 
         </ol>
+        <h2>Final Product</h2>
+        <Image src="potato.png" thumbnail rounded width="40%" height="40%"></Image>
       </div>
     );
   }
