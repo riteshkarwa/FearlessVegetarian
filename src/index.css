@@ -53,4 +53,16 @@ h2 {
 .ingredients {
   font-weight: bold;
   font-size: 25px;
+  flex-shrink: 3;
+}
+
+.search_container {
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.search {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
 }
