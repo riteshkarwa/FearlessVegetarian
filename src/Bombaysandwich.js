@@ -23,7 +23,7 @@ class Bombaysandwich extends Component {
         <ol> 
             <li>The trick to boiling potatoes is to peel and slick them first and then boil it in water for 10 min</li>
             <li>All the ingredients chopped up and ready to be layered on piece of bread<br/>
-                <Image src="sdplate.png" thumbnail rounded width="50%" height="50%"></Image>
+                <Image src="sdplate.png" thumbnail rounded fluid></Image>
             </li>
             <li>Take 2 slices of white bread and toast it in a toaster. Spread a generous amount of butter on each slice of bread.</li> 
             <li>Top with a layer of chutney.</li>

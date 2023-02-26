@@ -24,7 +24,7 @@ class Avocado extends Component {
                 <li>Sprinkle Everything but the Bagel Sesame Seasoning on the avocado spread</li>
             </ol>
             <h2>Final Product</h2>
-            <Image src="avocado.jpg" thumbnail rounded width="40%" height="40%"></Image>
+            <Image src="avocado.jpg" thumbnail rounded fluid></Image>
         </div>
       );
     }
