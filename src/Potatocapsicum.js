@@ -35,16 +35,16 @@ class Potatocapsicum extends Component {
                     </li>
                     <li>Add the puree to the non stick pan with oil heated up</li>
                     <li>Add all the  spices to the onion tomato red pepper puree ginger powder, onion powder, coriander powder, chili powder(you can start with adding very
-                        little in the beginning and add more towards the end of the dish, tumeric powder, curry powder</li>
-                    <li>Cover the pan and let it cook this the gravy thickens up</li>
+                        little in the beginning and add more towards the end of the dish), tumeric powder, curry powder.</li>
+                    <li>Cover the pan with a lid and let it cook.</li>
+                    <li>Let the spices cook for 10 min.</li> 
                     <li>Then use a food chopper to cut the potatoes into to small square pieces</li>
-                    <li>Let the spices cook for 10 min. Cover the pan with a lid</li> 
-                    <li>Using a food chopper cut potatoes into small square pieces</li>
+                    <li>Using a food chopper cut potatoes into small square pieces.</li>
                     <li>Add the potatoes in the pan</li> 
-                    <li>Cook the potatoes for about 15 to 20 minutes till they become soft. Constantly stir the potatoes to mix it well with onion tomato red pepper puree which 
+                    <li>Cook the potatoes for about 30 minutes till they become soft. Constantly stir the potatoes to mix it well with onion tomato red pepper puree which 
                         will act as a gravy for the curry</li> 
                     <li>Add salt as per taste</li>
-                    <li>Add little bit of Kitchen King Spice and amchoor powder</li>
+                    <li>Add little bit of Kitchen King Spice, Garam Masala powder and Amchoor powder</li>
                     <li>That is it your curry is ready. You can enjoy it with Garlic Naan or Roti(Indian bread less calories compared to Naan)</li>
                 </ol>
                 <h2>Final Product</h2>

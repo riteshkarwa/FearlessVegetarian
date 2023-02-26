@@ -24,7 +24,7 @@ export default function Search(){
                                 <Card.Text>
                                 {fd.card_text}
                                 </Card.Text>
-                                <Button variant="primary" href={fd.card_href}>Anytime Potato Recipe</Button>
+                                <Button variant="primary" href={fd.card_href}>{fd.button_title}</Button>
                             </Card.Body>
                         </Card>
                     </div>
