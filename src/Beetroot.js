@@ -32,8 +32,7 @@ class Beetroot extends Component {
             <li>Your curry is ready taste it to add any spices. You can eat it with rice or Garlic Naan(Indian Bread) found in Indian Grocery Store</li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="beetroot.jpg" thumbnail rounded width="40%" height="40%"></Image>
-
+        <Image src="beetroot.jpg" thumbnail rounded fluid></Image>
       </div>
     );
   }

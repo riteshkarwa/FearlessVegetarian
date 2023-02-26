@@ -66,3 +66,7 @@ h2 {
   padding: 10px;
   font-size: 20px;
 }
+
+.recipe_img {
+  width: 25rem;
+}

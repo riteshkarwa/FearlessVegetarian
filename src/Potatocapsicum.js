@@ -48,7 +48,7 @@ class Potatocapsicum extends Component {
                     <li>That is it your curry is ready. You can enjoy it with Garlic Naan or Roti(Indian bread less calories compared to Naan)</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="potatocapsicum.jpg" thumbnail rounded width="40%" height="40%"></Image>
+                <Image src="potatocapsicum.jpg" thumbnail rounded fluid></Image>
           </div>
         );
     }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
+import MediaQuery from 'react-responsive'
 
 class Peanutsd extends Component {
     render() {
@@ -20,7 +21,12 @@ class Peanutsd extends Component {
                 <li>Sprinkle some Cinnamon Sugar on the apple slices and that's it your yummy sandwich is ready for you to enjoy!!</li> 
             </ol>
             <h2>Final Product</h2>
-            <Image src="peanutsd.jpg" thumbnail rounded width="40%" height="40%"></Image>
+            <MediaQuery maxWidth={767}>
+              <Image src="peanutsd.jpg" thumbnail rounded fluid></Image>
+            </MediaQuery>
+            <MediaQuery minWidth={767}>
+              <Image src="peanutsd.jpg" thumbnail rounded width="40%" height="40%"></Image>
+            </MediaQuery>
         </div>
       );
     }
