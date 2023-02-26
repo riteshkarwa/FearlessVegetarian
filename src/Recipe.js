@@ -19,7 +19,7 @@ export default function Search(){
                     <div>
                         <MediaQuery maxWidth={767}>
                         
-                            <Card className= "card_search"style={{ width: '20rem' , margin:'20px'}}>
+                            <Card className= "card_search"style={{ width: '19rem' , margin:'10px'}}>
                                 <Card.Img variant="top" src={fd.card_img} />
                                 <Card.Body>
                                     <Card.Title>{fd.card_title}</Card.Title>
