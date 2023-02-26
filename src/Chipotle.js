@@ -22,7 +22,7 @@ class Chipotle extends Component {
             <div className="ingredients">Instruction</div>
                 <h2>Roasting peppers and onions</h2>
                 <ol> 
-                    <li>Preheat your oven to 400 degrees F</li> 
+                    <li>Preheat your oven to 400 degrees Fahrenheit's</li> 
                     <li>Start slicing the bell peppers and onions. The onions will shrivel up more than the peppers. 
                         If you want them more tender and not crispy you’ll want to cut them a bit larger so they can cook at the same time as the peppers.</li>
                     <li>Once the vegetables are sliced we place them onto a baking sheet and toss with oil and Fajita mix seasoning. Bake the peppers in a single layer for 20 minutes</li>
@@ -38,13 +38,13 @@ class Chipotle extends Component {
                     <li>Use the Rice cooker to cook Rice, 2 cups of rice and 3 cups of water. Serves 4 people.</li>  
                 </ol>
                 <h2>All the ingredients prepared and ready to make the Chipotle Bowl</h2>
-                <Image src="chipotle.jpg" thumbnail rounded width="30%" height="30%"></Image>
+                <Image src="chipotle.jpg" thumbnail rounded fluid></Image>
                 <h2>Final step making the Chipotle Bowl</h2>
                 <ol> 
                     <li>Add all the contents in a bowl: Rice, Guacamole Mix, Fajita Veggies(Roasted Onion and Peppers), Sour Cream, 4 cheese blend, vegetarian
                         pinto beans and you have a delicious Chipotle bowl
                     </li>     
-                    <Image src="chipotle_1.jpg" thumbnail rounded width="40%" height="40%"></Image>   
+                    <Image src="chipotle_1.jpg" thumbnail rounded fluid></Image>   
                 </ol>
 
 
