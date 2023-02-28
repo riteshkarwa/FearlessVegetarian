@@ -20,7 +20,8 @@ class Home extends Component {
         </p>
         <p>
           <h2>Helping The Environment</h2>
-          Recent studies show that one third of all global emissions are created by the food industry and meat production is responsible for over 50 percent of this! 
+          Recent studies show that one third of all global emissions are created by the food industry and meat production is responsible for over 50 percent of this!
+          Meat has a heavy carbon footprint.
         </p>
         <p>
           <h2>Excellent For Meal Prep</h2>
