@@ -6,6 +6,7 @@ class Avocado extends Component {
       return (
         <div>
             <h1>Avocado Toast super easy to make and good for breakfast</h1>
+            <div className="ingredients">Ingredients</div>
             <ol> 
                 <li>1 Whole Avocado </li> 
                 <li>Everything but the Bagel Sesame Seasoning </li> 
