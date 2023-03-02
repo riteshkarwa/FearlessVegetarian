@@ -9,7 +9,7 @@ class Home extends Component {
           In this space, I will be sharing some easy, fresh, flavorful, and  healthy recipes. These are family recipes I love and use daily.
           Growing up in a Hindu family, being vegetarian comes naturally to me. Hopefully for those who are finding it difficult to become a Vegetarian, 
           Fearless Vegetarian is your friend. Remember, healthy doesn’t have to equal boring. So let’s get healthier, let’s get creative and let’s get cooking. If you have 
-          any questions reach out to us on our <a href="https://www.facebook.com/profile.php?id=100090174171697" className="med_link" target="_blank" rel="noopener noreferrer">Facebook Page</a>.
+          any questions reach out to us on our <a href="https://www.facebook.com/fearlessvegetarian" className="med_link" target="_blank" rel="noopener noreferrer">Facebook Page</a>.
           I wish I had someone to reach out to, or talk to about when I started cooking if you find yourself in the same situation reach out to us.<br/>
         </p>
         <p>
