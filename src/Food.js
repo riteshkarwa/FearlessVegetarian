@@ -1,9 +1,9 @@
 export const Food = [
     {
         "id": 1,
-        card_img : "potato.png",
-        card_title:"Anytime Potato Seasoned with Indian Spices",
-        card_text:"My favorite go to meal, can be made for breakfast lunch or dinner. Takes roughly 30 minutes to cook.",
+        card_img : "potato.jpg",
+        card_title:"Anytime Potato Seasoned with Indian Spices served with Vegan Sausage",
+        card_text:"Anytime Potato along with Vegan Sausage is my favorite go to meal, can be made for breakfast lunch or dinner. Takes roughly 30 minutes to cook.",
         card_href : "/potato",
         button_title: "Anytime Potato Recipe"
     },
