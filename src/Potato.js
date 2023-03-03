@@ -5,7 +5,7 @@ class Potato extends Component {
   render() {
     return (
       <div>
-        <h1>Any Time Potato Seasoned with Indian Spices</h1>
+        <h1>Any Time Potato Seasoned with Indian Spices served with Vegan Sausage</h1>
         <div className="ingredients">Ingredients</div>
         <ol> 
             <li>1 teaspoon ginger powder </li> 
@@ -34,7 +34,7 @@ class Potato extends Component {
             <li>Add salt as per taste</li> 
         </ol>
         <h2>Final Product</h2>
-        <Image src="potato.png" thumbnail rounded width="40%" height="40%"></Image>
+        <Image src="potato.jpg" thumbnail rounded width="40%" height="40%"></Image>
       </div>
     );
   }
