@@ -24,17 +24,17 @@ class Potato extends Component {
         <ol> 
             <li>Take some olive oil in a non stick pan and heat it up</li> 
             <li>Slice the potatoes vertically</li>
-            <li>Then use a food chopper to cut the potatoes into to small square pieces</li>
-            <li>Add 1 teaspoon cumin powder </li> 
+            <li>Then use a food chopper to cut the potatoes into small square pieces</li>
+            <li>Add 1 teaspoon cumin powder</li> 
             <li>Add the potatoes in the pan</li> 
-            <li>Cook the potatoes for about 15 to 20 minutes it they get transparent. Constantly stir the potatoes so they do not stick to the bottom of the pan</li> 
-            <li>One the potatoes starts to turn transparent add fine chopped onion</li> 
+            <li>Cook the potatoes for about 15 to 20 minutes till they get transparent. Constantly stir the potatoes so they do not stick to the bottom of the pan</li> 
+            <li>Once the potatoes starts to turn transparent add finely chopped onions</li> 
             <li>Add all the spices ginger powder, onion powder, coriander powder, chili powder, tumeric powder, curry powder</li> 
             <li>Nicely stir the potatoes so the spices are nicely mixed </li> 
-            <li>Add salt as per taste</li> 
+            <li>Add salt as per taste</li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="potato.jpg" thumbnail rounded width="40%" height="40%"></Image>
+        <Image src="potato.jpg" thumbnail rounded fluid></Image>
       </div>
     );
   }

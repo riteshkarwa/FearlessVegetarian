@@ -25,9 +25,11 @@ class Lentil extends Component {
         <div className="ingredients">Instruction</div>
         
         <ol> 
-            <li>Add 2 cups of Masoor dal to a pot or pressure cooker. Rinse it well a few times. Drain the water completely. Add 5 cups of water and pres</li> 
-            <li>Add 5 cups of water and pressure cook it for 10 min. Make sure the lentils turns soft.</li>
-            <li>Heat 1 to 2 tbsp  1 olive oil on a medium heat in a pot. </li> 
+            <li>Add 2 cups of Masoor dal to a pot or pressure cooker. Rinse it well a few times. Drain the water completely.</li> 
+            <li>Add 5 cups of water and pressure cook it for 10 min. Make sure the lentils turns soft. Press down few lentils between your thumb and fore fingers.
+                They should get mashed easily. Heat the lentils a little more if the lentils are not soft
+            </li>
+            <li>Heat 2 tbsp olive oil on a medium heat in a non stick pot. </li> 
             <li>Add one after the other - 1⁄2 teaspoon cumin seeds, 2 chopped garlic cloves and 1 to 2 broken dried red chilies. You can also add a bay leaf or a sprig of curry leaves (pat dry).</li>
             <li>Add chopped onions and tomato and let it cook for 5 minutes.</li>
             <li>When the garlic turns slightly golden, turn the heat to low (or turn off if the pan is too hot). </li>
@@ -36,7 +38,7 @@ class Lentil extends Component {
             <li>Add the pressure cooked lentil to the pot and 1 cup of water.</li> 
             <li>Constantly stir the potatoes so they do not stick to the bottom of the pan</li> 
             <li>Add salt as per taste and Rani Fenugreek Leaves Dried (Kasoori Methi)</li> 
-            <li>You can garnish the lentil soup by sprinkle some finely chopped coriander leaves & lemon juice.</li> 
+            <li>You can garnish the lentil soup by sprinkling some finely chopped coriander leaves & lemon juice.</li> 
             <li>Serve Masoor Dal with rice or roti, mango pickle, veggie salad. </li> 
              
         </ol>
