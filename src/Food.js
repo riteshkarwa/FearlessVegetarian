@@ -65,12 +65,21 @@ export const Food = [
 
     },
     {
-        "id": 8,
+        "id": 9,
         card_img : "mac.jpg",
         card_title: "Macaroni and Cheese baked in a casserole dish",
         card_text: "Macaroni and Cheese baked in a casserole dish. Recipe is simple and delicious! ",
         card_href : "/maccheese",
         button_title :"Macaroni and Cheese Recipe"
+
+    },
+    {
+        "id": 10,
+        card_img : "lentil.jpg",
+        card_title: "Lentil Soup Masoor Dal",
+        card_text: "Masoor Dal is a  protein rich lentil widely known as Red lentils. These have a high nutrition profile similar to that of meat.",
+        card_href : "/lentil",
+        button_title :"Lentil Soup Masoor Dal Recipe"
 
     }
 ]

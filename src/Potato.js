@@ -23,7 +23,7 @@ class Potato extends Component {
         
         <ol> 
             <li>Take some olive oil in a non stick pan and heat it up</li> 
-            <li>Slice the potatoes as shown in the image on a cutting board</li>
+            <li>Slice the potatoes vertically</li>
             <li>Then use a food chopper to cut the potatoes into to small square pieces</li>
             <li>Add 1 teaspoon cumin powder </li> 
             <li>Add the potatoes in the pan</li> 
