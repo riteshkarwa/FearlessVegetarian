@@ -25,8 +25,8 @@ class Lentil extends Component {
         <div className="ingredients">Instruction</div>
         
         <ol> 
-            <li>Add 2 cups of Masoor dal to a pot or pressure cooker. Rinse it well a few times. Drain the water completely.</li> 
-            <li>Add all the contents to a pressure cooker and cook it for 10 min. Make sure the lentils turns soft.</li>
+            <li>Add 2 cups of Masoor dal to a pot or pressure cooker. Rinse it well a few times. Drain the water completely. Add 5 cups of water and pres</li> 
+            <li>Add 5 cups of water and pressure cook it for 10 min. Make sure the lentils turns soft.</li>
             <li>Heat 1 to 2 tbsp  1 olive oil on a medium heat in a pot. </li> 
             <li>Add one after the other - 1⁄2 teaspoon cumin seeds, 2 chopped garlic cloves and 1 to 2 broken dried red chilies. You can also add a bay leaf or a sprig of curry leaves (pat dry).</li>
             <li>Add chopped onions and tomato and let it cook for 5 minutes.</li>
