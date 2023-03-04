@@ -5,7 +5,7 @@ class Lentil extends Component {
   render() {
     return (
       <div>
-        <h1>Lentil Soup served with White Rice. Lentils are easy on your tummy and good source of Protien</h1>
+        <h1>Lentil Soup served with White Rice. Lentils are easy on your tummy and good source of Protein</h1>
         <div className="ingredients">Ingredients</div>
         <ol> 
             <li>1 teaspoon ginger powder</li> 
@@ -27,7 +27,7 @@ class Lentil extends Component {
         <ol> 
             <li>Add 2 cups of Masoor dal to a pot or pressure cooker. Rinse it well a few times. Drain the water completely.</li> 
             <li>Add 5 cups of water and pressure cook it for 10 min. Make sure the lentils turns soft. Press down few lentils between your thumb and fore fingers.
-                They should get mashed easily. Heat the lentils a little more if the lentils are not soft
+                They should get mashed easily. Heat the lentils a little more if the lentils are not soft.
             </li>
             <li>Heat 2 tbsp olive oil on a medium heat in a non stick pot. </li> 
             <li>Add one after the other - 1⁄2 teaspoon cumin seeds, 2 chopped garlic cloves and 1 to 2 broken dried red chilies. You can also add a bay leaf or a sprig of curry leaves (pat dry).</li>
