@@ -43,7 +43,7 @@ export const Food = [
         "id": 6,
         card_img : "avocado.jpg",
         card_title:"Avocado Toast",
-        card_text:"Super easy and delicious Avocado Toast. Takes roughly 15 minutes to cook. Good breakfast option if you have a busy schedule",
+        card_text:"Super easy and delicious Avocado Toast. Takes roughly 15 minutes to make. Good breakfast option if you have a busy schedule",
         card_href : "/avocado",
         button_title : "Avocado Toast Recipe"
     },
