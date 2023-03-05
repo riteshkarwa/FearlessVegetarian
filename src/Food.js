@@ -81,5 +81,14 @@ export const Food = [
         card_href : "/lentil",
         button_title :"Lentil Soup Masoor Dal Recipe"
 
+    },
+    {
+        "id": 10,
+        card_img : "couscous.jpg",
+        card_title: "Pearl Couscous Dish",
+        card_text: "Super easy Couscous Dish",
+        card_href : "/couscous",
+        button_title :"Couscous Recipe"
+
     }
 ]
