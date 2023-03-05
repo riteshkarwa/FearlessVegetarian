@@ -28,7 +28,7 @@ class Couscous extends Component {
                 <li>Add a cherry tomatoes, kalamata olives, pan fried tofu and some feta to the couscous and mix it </li>
             </ol>
             <h2>Final Product</h2>
-            <Image src="avocado.jpg" thumbnail rounded fluid></Image>
+            <Image src="couscous.jpg" thumbnail rounded fluid></Image>
         </div>
       );
     }
