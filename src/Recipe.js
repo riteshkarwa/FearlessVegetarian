@@ -11,7 +11,7 @@ export default function Search(){
 
       const [query, setQuery] = useState("");    
       return (
-        <Container className="p-3">
+        <Container fluid>
             <input type="text" placeholder="Search By Recipe Title" className="search" onChange={(e) => setQuery(e.target.value.toLowerCase())} />
             <div className="search_container">
                 {Food.filter((f) =>f.card_title.toLowerCase().includes(query)
