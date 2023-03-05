@@ -86,7 +86,7 @@ export const Food = [
         "id": 11,
         card_img : "couscous.jpg",
         card_title: "Pearl Couscous Dish",
-        card_text: "Super easy Couscous Dish",
+        card_text: "Super easy Couscous Dish with tofu, feta, cherry tomatoes and kalamata olives",
         card_href : "/couscous",
         button_title :"Couscous Recipe"
 
