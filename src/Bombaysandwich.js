@@ -41,7 +41,7 @@ class Bombaysandwich extends Component {
             <li>Add a piece of bread with layer of butter applied to the bottom of the bread. to complete our sandwich</li>  
         </ol>
         <h2>Final Product</h2>
-            <Image src="sandwich.png" thumbnail rounded fluid></Image>
+            <Image src="sandwich.jpg" thumbnail rounded fluid></Image>
       </div>
     );
   }

@@ -9,7 +9,7 @@ export const Food = [
     },
     {
         "id": 2,
-        card_img : "sandwich.png",
+        card_img : "sandwich.jpg",
         card_title:"Loaded Vegetable Sandwich",
         card_text:"Appetizing Vegetable Sandwich super easy to make and very filling. It's a popular Indian food from the city of Mumbai",
         card_href : "/sandwich",
