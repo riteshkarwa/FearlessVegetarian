@@ -59,7 +59,7 @@ export const Food = [
         "id": 8,
         card_img : "blackeyedbeans.jpg",
         card_title: "Black Eyed Beans Seasoned with Indian Spices",
-        card_text: "Tasty Black Eyed Beans seasoned with Indian Spices. Black eyed beans are rich in fiber and protein, which make them an excellent energy source.",
+        card_text: "Tasty Black eyed beans are rich in fiber and protein, which make them an excellent energy source.",
         card_href : "/blackeyedbeans",
         button_title :"Black Eyed Beans Recipe"
 
