@@ -90,5 +90,14 @@ export const Food = [
         card_href : "/couscous",
         button_title :"Couscous Recipe"
 
+    },
+    {
+        "id": 12,
+        card_img : "dalmakhani.jpg",
+        card_title: "Dal Makhani Dish",
+        card_text: "Dal Makhani is a popular North Indian Dish where black lentils and red kidney beans are slow cooked with spices and butter",
+        card_href : "/dalmakhani",
+        button_title :"Dal Makhani Recipe"
+
     }
 ]

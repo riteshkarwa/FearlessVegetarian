@@ -19,6 +19,7 @@ import Blackeyedbeans from "./Blackeyedbeans";
 import Maccheese from "./Maccheese";
 import Lentil from "./Lentil";
 import Couscous from "./Couscous";
+import DalMakhani from "./Dalmakhani";
 
 
 
@@ -66,8 +67,9 @@ class Main extends Component {
             <Route exact path="/chipotle" element={< Chipotle />}></Route>
             <Route exact path="/blackeyedbeans" element={< Blackeyedbeans />}></Route>
             <Route exact path="/maccheese" element={< Maccheese />}></Route>
-            <Route exact path="/lentil" element={<Lentil/>}></Route>
-            <Route exact path="/couscous" element={<Couscous />}></Route>
+            <Route exact path="/lentil" element={< Lentil />}></Route>
+            <Route exact path="/couscous" element={< Couscous />}></Route>
+            <Route exact path="/dalmakhani" element={< DalMakhani />}></Route>
           </Routes>
         </div>
       </Container>
