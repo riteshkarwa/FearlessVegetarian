@@ -22,8 +22,8 @@ class Couscous extends Component {
             <ol> 
                 <li>Take some olive oil in a non stick pan</li>
                 <li>Add tofu cut into small square pieces</li>
-                <li>Add some onion powder, garlic powder and paprika and pan fry until Crispy</li>
-                <li>To start, bring the cooking liquid (preferably a flavorful chicken or vegetable broth) to a boil in a medium pot. Add a drizzle of olive oil, a pat of butter, and a little salt.</li> 
+                <li>Add some onion powder, garlic powder and paprika and pan fry until crispy.</li>
+                <li>To start making couscous, bring the cooking liquid (preferably a flavorful chicken or vegetable broth) to a boil in a medium pot. Add a drizzle of olive oil, a pat of butter, and a little salt.</li> 
                 <li>Next, add the couscous.</li>
                 <li>Cooking the couscous on a low flame for 10 minutes.</li>
                 <li>Add a cherry tomatoes, kalamata olives, pan fried tofu and some feta to the couscous and mix it </li>
