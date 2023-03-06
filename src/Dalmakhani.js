@@ -5,7 +5,7 @@ class DalMakhani extends Component {
     render() {
       return (
         <div>
-            <h1>Dal Makhani is a classic North Indian dish made with whole black gram (Urad dal) found in Indian Store, red kidney beans, butter and other Indian Spices
+            <h1>Dal Makhani is a classic North Indian dish made with whole black gram (Urad dal) found in Indian Store, red kidney beans, butter and other Indian Spices.
                 It is one of dishes that takes a longer time to cook more than 2 hours.
             </h1>
             <div className="ingredients">Ingredients</div>
