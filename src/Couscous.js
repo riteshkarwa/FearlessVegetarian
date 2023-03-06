@@ -6,13 +6,14 @@ class Couscous extends Component {
       return (
         <div>
             <h1>
-                Couscous is a starch, and as such, is often the main portion of most meals in North African cultures where meat is scarce. Like rice, couscous is a blank canvas that can take on any flavors you want to add.
+            Couscous is a North African dish made from tiny steamed balls of semolina flour. Though we think of it and cook it as a grain, it is actually a type of pasta. 
+            Like rice, couscous is a blank canvas that can take on any flavors you want to add.
             </h1>
             <div className="ingredients">Ingredients</div>
             <ol> 
                 <li>2 cups of Pearl Couscous</li> 
-                <li>Handful of cherry tomatoes cut in half </li> 
-                <li>Handful of feta </li> 
+                <li>1 cup of cherry tomatoes cut in half </li> 
+                <li>1 cup of feta </li> 
                 <li>Handful kalamata olives</li>
                 <li>2 and 1/4 cup water </li>
                 <li>Few slices of onions</li>
