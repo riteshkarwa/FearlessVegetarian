@@ -13,6 +13,7 @@ const ContactForm = () => {
     console.log(conFom)
     fetch('/', {
         method: 'POST',
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: JSON.stringify(conFom)
     })
     .then(() => {
@@ -31,7 +32,7 @@ const ContactForm = () => {
                 <label>
                     Don’t fill this out if you're human: 
                     <input name="bot-field" />
-                    <input type="hidden" name="contact" value="contact" />
+                    <input type="hidden" name="form-name" value="contact" />
                 </label>
             </div>
             <div className="row">
