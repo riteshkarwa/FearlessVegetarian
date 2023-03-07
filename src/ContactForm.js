@@ -1,41 +1,20 @@
 import React from 'react'
 
-
-const ContactForm = () => {
-  const [formStatus] = React.useState('Send')
-  const onSubmit = (e) => {
-    const { name, email, subject, message } = e.target.elements
-    let conFom = {
-      name: name.value,
-      email: email.value,
-      subject: subject.value,
-      message: message.value,
-    }
-    console.log(conFom)
-    fetch('/', {
-        method: 'POST',
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: JSON.stringify(conFom)
-    })
-    .then(() => {
-        document.getElementById("contactusform").reset();
-    })
-    .catch(error => {
-        console.log(error);
-    })
-    e.preventDefault();
-  }
+export default function ContactForm() {
   return (
     <div className="container">
 	    <h1> I'd love to hear from you </h1>
         <hr/>
-        <form action="/thank-you" name="contactusform" id="contactusform" method="POST" data-netlify="true" onSubmit={onSubmit}>
+        <form  name="contactusform" id="contactusform" data-netlify="true"  method="post" onSubmit="submit" data-netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contactusform" />
+            <div hidden>
+                <input name="bot-field" />
+            </div>
             <div className="row">
                 <div className="col-md-6">
                     <p>
                         <label htmlFor="name">Name:</label><br/>
-                        <input  name="name" type="text"  id="name"  placeholder="Enter your name"  />
+                        <input  name="name" type="text"  id="name"  placeholder="Enter your name"  className="form-control"/>
                     </p>
                 </div>
             </div>
@@ -43,7 +22,7 @@ const ContactForm = () => {
                 <div className="col-md-6">
                     <p>
                         <label htmlFor="email">Email:</label><br/>
-                        <input  name="email" type="email" id="email"  placeholder="Enter E-mail address"/>
+                        <input  name="email" type="email" id="email"  placeholder="Enter E-mail address" className="form-control"/>
                     </p>
                 </div>
             </div>
@@ -51,7 +30,7 @@ const ContactForm = () => {
                 <div className="col-md-6">
                     <p>
                         <label htmlFor="subject">Subject:</label><br/>
-                        <input  name="subject" type="text" id="subject"  placeholder="Feedback Subject"/>
+                        <input  name="subject" type="text" id="subject"  placeholder="Feedback Subject" className="form-control"/>
                     </p>
                 </div>
             </div>
@@ -59,17 +38,17 @@ const ContactForm = () => {
                 <div className="col-md-6">
                     <p>
                         <label htmlFor="message">Message:</label><br/>
-                        <textarea  name="message"  rows="5" id="message"  placeholder="Enter your concerns and how we can help you out"></textarea>
+                        <textarea  name="message"  rows="5" id="message"  placeholder="Enter your concerns and how we can help you out" className="form-control"></textarea>
                     </p>
                 </div>
             </div>  
             <p>
                 <button className="btn btn-dark" type="submit">
-                {formStatus}
                 </button>
             </p>
         </form>
     </div>
   );
 }
-export default ContactForm
+
+
