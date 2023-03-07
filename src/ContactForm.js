@@ -43,8 +43,7 @@ export default function ContactForm() {
                 </div>
             </div>  
             <p>
-                <button className="btn btn-dark" type="submit">
-                </button>
+                <button className="btn btn-dark" type="submit"> Submit</button>
             </p>
         </form>
     </div>
