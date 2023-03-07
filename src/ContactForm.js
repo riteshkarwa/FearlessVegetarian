@@ -1,10 +1,9 @@
 import React from 'react'
 
 
-const ContactForm = (navigation) => {
+const ContactForm = () => {
   const [formStatus] = React.useState('Send')
   const onSubmit = (e) => {
-    e.preventDefault()
     const { name, email, subject, message } = e.target.elements
     let conFom = {
       name: name.value,
@@ -18,7 +17,7 @@ const ContactForm = (navigation) => {
     fetch('/', {
         method: 'POST',
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
+        body: JSON.stringify(conFom)
     })
     .then(() => {
         document.getElementById("contactusform").reset();
@@ -26,6 +25,7 @@ const ContactForm = (navigation) => {
     .catch(error => {
         console.log(error);
     })
+    e.preventDefault();
   }
   return (
     <div className="container">
@@ -37,7 +37,7 @@ const ContactForm = (navigation) => {
                 <div className="col-md-6">
                     <p>
                         <label htmlFor="name">Name:</label><br/>
-                        <input  name="name" type="text"  id="name"  placeholder="Enter your name" className="form-control"/>
+                        <input  name="name" type="text"  id="name"  placeholder="Enter your name"  />
                     </p>
                 </div>
             </div>
