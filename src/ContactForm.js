@@ -1,5 +1,7 @@
 import React from 'react'
-const ContactForm = () => {
+import { Navigate } from "react-router-dom";
+
+const ContactForm = (navigation) => {
   const [formStatus] = React.useState('Send')
   const onSubmit = (e) => {
     e.preventDefault()
@@ -16,10 +18,10 @@ const ContactForm = () => {
     fetch('/', {
         method: 'POST',
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        //body: JSON.stringify(conFom)
         body: new URLSearchParams(formData).toString(),
     })
     .then(() => {
+        <Navigate to="/thank-you/" replace={true} />
         document.getElementById("contactus").reset();
     })
     .catch(error => {
@@ -31,13 +33,7 @@ const ContactForm = () => {
 	    <h1> I'd love to hear from you </h1>
         <hr/>
         <form action="/thank-you" name="contact" id="contactus" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={onSubmit}>
-            <div hidden aria-hidden="true">
-                <label>
-                    Don’t fill this out if you're human: 
-                    <input name="bot-field" />
-                    <input type="hidden" name="form-name" value="contact" />
-                </label>
-            </div>
+            <input type="hidden" name="form-name" value="contact" />
             <div className="row">
                 <div className="col-md-6">
                     <p>
