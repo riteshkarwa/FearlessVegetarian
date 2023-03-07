@@ -26,7 +26,7 @@ const ContactForm = () => {
     <div className="container">
 	    <h1> I'd love to hear from you </h1>
         <hr/>
-        <form action="/thank-you" name="contactus" id="contactus" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={onSubmit}>
+        <form action="/thank-you" name="contact" id="contactus" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={onSubmit}>
             <div hidden aria-hidden="true">
                 <label>
                     Don’t fill this out if you're human: 
