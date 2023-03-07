@@ -9,7 +9,7 @@ import Potato from "./Potato";
 import MediaQuery from 'react-responsive'
 import Bombaysandwich from "./Bombaysandwich";
 import Donate from "./Donate";
-import Wheretobegin from "./Wheretobegin";
+import About from "./About";
 import Peanutsd from "./Peanutsd";
 import Potatocapsicum from "./Potatocapsicum";
 import Beetroot from "./Beetroot";
@@ -20,6 +20,7 @@ import Maccheese from "./Maccheese";
 import Lentil from "./Lentil";
 import Couscous from "./Couscous";
 import DalMakhani from "./Dalmakhani";
+import Privacypolicy from "./Privacypolicy";
 
 
 
@@ -47,8 +48,9 @@ class Main extends Component {
                 <Nav className="me-auto">
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/recipe" className="recipelink">Recipe</Nav.Link>
-                  <Nav.Link href="/wheretobegin">Where to Begin</Nav.Link>
+                  <Nav.Link href="/about">About</Nav.Link>
                   <Nav.Link href="/donate">Donate</Nav.Link>
+                  <Nav.Link href="/privacypolicy">Privacy Policy</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
@@ -59,7 +61,7 @@ class Main extends Component {
             <Route exact path="/potato" element={< Potato />}></Route>
             <Route exact path="/sandwich" element={< Bombaysandwich />}></Route>
             <Route exact path="/donate" element={< Donate />}></Route>
-            <Route exact path="/wheretobegin" element={< Wheretobegin />}></Route>
+            <Route exact path="/about" element={< About />}></Route>
             <Route exact path="/peanutsd" element={< Peanutsd />}></Route>
             <Route exact path="/potatocapsicum" element={< Potatocapsicum />}></Route>
             <Route exact path="/beetroot" element={< Beetroot />}></Route>
@@ -70,6 +72,7 @@ class Main extends Component {
             <Route exact path="/lentil" element={< Lentil />}></Route>
             <Route exact path="/couscous" element={< Couscous />}></Route>
             <Route exact path="/dalmakhani" element={< DalMakhani />}></Route>
+            <Route exact path="/privacypolicy"  element={< Privacypolicy />}></Route>
           </Routes>
         </div>
       </Container>

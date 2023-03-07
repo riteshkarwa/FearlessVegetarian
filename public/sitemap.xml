@@ -21,7 +21,7 @@
         <loc>https://fearlessvegetarian.netlify.app/donate</loc>
     </url>
     <url>
-        <loc>https://fearlessvegetarian.netlify.app/wheretobegin</loc>
+        <loc>https://fearlessvegetarian.netlify.app/about</loc>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/peanutsd</loc>
@@ -49,5 +49,8 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/couscous</loc>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/privacypolicy</loc>
     </url>
 </urlset>
