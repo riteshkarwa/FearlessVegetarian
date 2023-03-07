@@ -50,9 +50,9 @@ class Main extends Component {
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/recipe" className="recipelink">Recipe</Nav.Link>
                   <Nav.Link href="/about">About</Nav.Link>
-                  <Nav.Link href="/donate">Donate</Nav.Link>
                   <Nav.Link href="/privacypolicy">Privacy Policy</Nav.Link>
                   <Nav.Link href="/contact">Contact Us</Nav.Link>
+                  <Nav.Link href="/donate">Donate</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
