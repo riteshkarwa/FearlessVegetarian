@@ -24,7 +24,7 @@ class Potato extends Component {
         <ol> 
             <li>Take some olive oil in a non stick pan and heat it up</li> 
             <li>Slice the potatoes vertically</li>
-            <li>Then use a food chopper to cut the potatoes into small square pieces</li>
+            <li>Then use a food chopper to chop each potato slice into small square pieces</li>
             <li>Add 1 teaspoon cumin powder</li> 
             <li>Add the potatoes in the pan</li> 
             <li>Cook the potatoes for about 15 to 20 minutes till they get transparent. Constantly stir the potatoes so they do not stick to the bottom of the pan</li> 
