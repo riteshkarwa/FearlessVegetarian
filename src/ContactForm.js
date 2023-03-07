@@ -66,7 +66,7 @@ const ContactForm = () => {
                 </div>
             </div>  
             <p>
-                <button className="btn btn-danger" type="submit">
+                <button className="btn btn-dark" type="submit">
                 {formStatus}
                 </button>
             </p>
