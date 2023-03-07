@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-class Privacypolicy extends Comment {
+
+class Privacypolicy extends Component {
     render(){
         return (
             <div>
