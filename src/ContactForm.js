@@ -21,7 +21,7 @@ const ContactForm = (navigation) => {
         body: new URLSearchParams(formData).toString(),
     })
     .then(() => {
-        document.getElementById("contactus").reset();
+        document.getElementById("contactusform").reset();
     })
     .catch(error => {
         console.log(error);
@@ -31,8 +31,8 @@ const ContactForm = (navigation) => {
     <div className="container">
 	    <h1> I'd love to hear from you </h1>
         <hr/>
-        <form action="/thank-you" name="contact" id="contactus" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={onSubmit}>
-            <input type="hidden" name="form-name" value="contact" />
+        <form action="/thank-you" name="contactusform" id="contactusform" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={onSubmit}>
+            <input type="hidden" name="form-name" value="contactusform" />
             <div className="row">
                 <div className="col-md-6">
                     <p>
