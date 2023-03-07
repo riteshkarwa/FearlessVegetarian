@@ -21,6 +21,7 @@ import Lentil from "./Lentil";
 import Couscous from "./Couscous";
 import DalMakhani from "./Dalmakhani";
 import Privacypolicy from "./Privacypolicy";
+import ContactForm from "./ContactForm";
 
 
 
@@ -51,6 +52,7 @@ class Main extends Component {
                   <Nav.Link href="/about">About</Nav.Link>
                   <Nav.Link href="/donate">Donate</Nav.Link>
                   <Nav.Link href="/privacypolicy">Privacy Policy</Nav.Link>
+                  <Nav.Link href="/contact">Contact Us</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
@@ -73,6 +75,7 @@ class Main extends Component {
             <Route exact path="/couscous" element={< Couscous />}></Route>
             <Route exact path="/dalmakhani" element={< DalMakhani />}></Route>
             <Route exact path="/privacypolicy"  element={< Privacypolicy />}></Route>
+            <Route exact path="/contact" element={< ContactForm />}></Route>
           </Routes>
         </div>
       </Container>
