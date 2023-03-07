@@ -11,10 +11,13 @@ const ContactForm = () => {
       message: message.value,
     }
     console.log(conFom)
+    const myForm = e.target;
+    const formData = new FormData(myForm);
     fetch('/', {
         method: 'POST',
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: JSON.stringify(conFom)
+        //body: JSON.stringify(conFom)
+        body: new URLSearchParams(formData).toString(),
     })
     .then(() => {
         document.getElementById("contactus").reset();
