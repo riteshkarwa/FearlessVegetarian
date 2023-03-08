@@ -101,10 +101,10 @@ export const Food = [
 
     },
     {
-        "id": 12,
+        "id": 13,
         card_img : "stirfry.jpg",
         card_title: "Stir Fry Vegetables in Teriyaki Sauce",
-        card_text: "Stir fry vegetables recipe uses Mandarin Teriyaki Sauce. It is super easy to make. For protein you can use Tofu or tempeh",
+        card_text: "Stir fry vegetables recipe uses Mandarin Teriyaki Sauce. It is super easy to make. For protein you can use Tofu or Tempeh",
         card_href : "/stirfry",
         button_title :"Stir Fry Vegetables Recipe"
 
