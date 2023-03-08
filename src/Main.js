@@ -22,6 +22,7 @@ import Couscous from "./Couscous";
 import DalMakhani from "./Dalmakhani";
 import Privacypolicy from "./Privacypolicy";
 import ContactForm from "./ContactForm";
+import Stirfry from "./Stirfry";
 
 
 
@@ -76,6 +77,7 @@ class Main extends Component {
             <Route exact path="/dalmakhani" element={< DalMakhani />}></Route>
             <Route exact path="/privacypolicy"  element={< Privacypolicy />}></Route>
             <Route exact path="/contact" element={< ContactForm />}></Route>
+            <Route exact path="/stirfry" element={< Stirfry />}></Route>
           </Routes>
         </div>
       </Container>

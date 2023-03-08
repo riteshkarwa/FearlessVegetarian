@@ -99,5 +99,14 @@ export const Food = [
         card_href : "/dalmakhani",
         button_title :"Dal Makhani Recipe"
 
+    },
+    {
+        "id": 12,
+        card_img : "stirfry.jpg",
+        card_title: "Stir Fry Vegetables in Teriyaki Sauce",
+        card_text: "Stir fry vegetables recipe uses Mandarin Teriyaki Sauce. It is super easy to make. For protein you can use Tofu or tempeh",
+        card_href : "/stirfry",
+        button_title :"Stir Fry Vegetables Recipe"
+
     }
 ]
