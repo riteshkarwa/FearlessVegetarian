@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
+import YouTube from 'react-youtube';
 
 class Maccheese extends Component {
     render() {
@@ -27,6 +28,10 @@ class Maccheese extends Component {
             </ol>
             <h2>Final Product</h2>
             <Image src="mac.jpg" thumbnail rounded fluid></Image>
+            <div>
+              <h2>Video making Macaroni and Cheese</h2>
+              <YouTube videoId="HILVsFtY5EM"/>
+            </div>
         </div>
       );
     }
