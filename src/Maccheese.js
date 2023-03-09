@@ -29,7 +29,7 @@ class Maccheese extends Component {
             <h2>Final Product</h2>
             <Image src="mac.jpg" thumbnail rounded fluid></Image>
             <div>
-              <h2>Video making Macaroni and Cheese</h2>
+              <h2>Macaroni and Cheese Video</h2>
               <YouTube videoId="HILVsFtY5EM"/>
             </div>
         </div>
