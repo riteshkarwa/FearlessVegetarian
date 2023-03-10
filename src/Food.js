@@ -108,5 +108,14 @@ export const Food = [
         card_href : "/stirfry",
         button_title :"Stir Fry Vegetables Recipe"
 
+    },
+    {
+        "id": 14,
+        card_img : "potatobhurji.jpg",
+        card_title: "Anytime Potato Egg Bhurji Combo",
+        card_text: "Indian style scrambled eggs can be prepared in a few minutes, thus is a quick and healthy fix for your busy weeknight dinner or breakfast. Adding anytime potato makes it a good filling meal",
+        card_href : "/potatobhurji",
+        button_title :"Anytime Potato Egg Bhurji Combo Recipe"
+
     }
 ]
