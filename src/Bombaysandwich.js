@@ -5,23 +5,23 @@ class Bombaysandwich extends Component {
   render() {
     return (
       <div>
-        <h1>Vegetable Sandwich with Mint Chutney and loads of Vegetables stacked up</h1>
+        <h1>Vegetable Sandwich also known as Bombay Sandwich, with Mint Chutney and loads of Vegetables stacked up</h1>
         <div className="ingredients">Ingredients</div>
         <ol> 
             <li>3 slices sourdough bread</li> 
             <li>1 tablespoon butter, per sandwich </li> 
-            <li>spoonful of mint chutney </li> 
+            <li>2 tablespoon of mint chutney </li> 
             <li>2 russet potatoes, boiled & thinly sliced</li> 
-            <li>1 cucumber, thinly sliced</li> 
+            <li>1 whole cucumber, thinly sliced</li> 
             <li>2 plum tomatoes, thinly sliced</li> 
-            <li>Chat Masala</li> 
-            <li>4 whole potatoes</li>
+            <li>Chat Masala found in Indian Grocery Store</li> 
+            <li>2 whole potatoes big ones</li>
             <li>Pinch of Salt</li> 
             <li>2 to 3 Slices of Onions</li> 
         </ol>
         <div className="ingredients">Instruction</div>
         <ol> 
-            <li>The trick to boiling potatoes is to peel and slick them first and then boil it in water for 10 min</li>
+            <li>The trick to boiling potatoes is to peel and slice them vertically and then boil it in water for 10 min</li>
             <li>All the ingredients chopped up and ready to be layered on piece of bread<br/>
                 <Image src="sdplate.png" thumbnail rounded fluid></Image>
             </li>

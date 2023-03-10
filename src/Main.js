@@ -24,6 +24,7 @@ import Privacypolicy from "./Privacypolicy";
 import ContactForm from "./ContactForm";
 import Stirfry from "./Stirfry";
 import Potatobhurji from "./Potatobhurji";
+import Mustardsandwich from "./Mustardsandwich";
 
 
 
@@ -80,6 +81,7 @@ class Main extends Component {
             <Route exact path="/contact" element={< ContactForm />}></Route>
             <Route exact path="/stirfry" element={< Stirfry />}></Route>
             <Route exact path="/potatobhurji" element={< Potatobhurji />}></Route>
+            <Route exact path="/mustardsandwich" element={< Mustardsandwich />}></Route>
           </Routes>
         </div>
       </Container>

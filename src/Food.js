@@ -10,10 +10,10 @@ export const Food = [
     {
         "id": 2,
         card_img : "sandwich.jpg",
-        card_title:"Loaded Vegetable Sandwich",
+        card_title:"Loaded Vegetable Sandwich also known as Bombay Sandwich",
         card_text:"Appetizing Vegetable Sandwich super easy to make and very filling. It's a popular Indian food from the city of Mumbai",
         card_href : "/sandwich",
-        button_title : "Loaded Vegetable Sandwich Recipe"
+        button_title : "Loaded Vegetable Sandwich also known as Bombay Sandwich Recipe"
     },
     {
         "id": 3,
@@ -117,5 +117,13 @@ export const Food = [
         card_href : "/potatobhurji",
         button_title :"Anytime Potato Egg Bhurji Combo Recipe"
 
+    },
+    {
+        id: 15,
+        card_img:"mustardsandwich.jpg",
+        card_title: "Cheese mustard veggie sandwich with Broccoli sprouts",
+        card_text: "Delicious and Refreshing Cheese mustard veggie sandwich for Game nights",
+        card_href : "/mustardsandwich",
+        button_title :"Cheese mustard veggie sandwich with broccoli sprouts Recipe"
     }
 ]
