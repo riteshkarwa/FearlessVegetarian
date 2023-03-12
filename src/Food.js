@@ -125,5 +125,13 @@ export const Food = [
         card_text: "Delicious and Refreshing Cheese mustard veggie sandwich for Game nights",
         card_href : "/mustardsandwich",
         button_title :"Cheese mustard veggie sandwich with broccoli sprouts Recipe"
+    },
+    {
+        id: 16,
+        card_img:"saagpaneer.jpg",
+        card_title: "Saag Paneer Dish",
+        card_text: "Saag Panner is a popular vegetarian dish consisting of panner(Indian cheese) in a smooth , delicious and creamy spinach gravy.",
+        card_href : "/saagpaneer",
+        button_title :"Saag Paneer Recipe"
     }
 ]
