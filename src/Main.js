@@ -26,6 +26,7 @@ import Stirfry from "./Stirfry";
 import Potatobhurji from "./Potatobhurji";
 import Mustardsandwich from "./Mustardsandwich";
 import Saagpaneer from "./Saagpaneer";
+import Upma from "./Upma";
 
 
 
@@ -84,6 +85,7 @@ class Main extends Component {
             <Route exact path="/potatobhurji" element={< Potatobhurji />}></Route>
             <Route exact path="/mustardsandwich" element={< Mustardsandwich />}></Route>
             <Route exact path="/saagpaneer" element={ <Saagpaneer />}></Route>
+            <Route exact path="/upma" element={ <Upma/>}></Route>
           </Routes>
         </div>
       </Container>

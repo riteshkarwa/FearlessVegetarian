@@ -133,5 +133,13 @@ export const Food = [
         card_text: "Saag Panner is a popular vegetarian dish consisting of panner(Indian cheese) in a smooth , delicious and creamy spinach gravy.",
         card_href : "/saagpaneer",
         button_title :"Saag Paneer Recipe"
+    },
+    {
+        id: 17,
+        card_img:"upma.jpg",
+        card_title:"Upma also called cream of wheat or semolina flour",
+        card_text:"Upma is a flavorful, tasty, savory and popular South Indian breakfast that is made with cream of wheat or semolina flour (called rava or suji), Urad dal, nuts, herbs and spices.",
+        card_href : "/upma",
+        button_title :"Upma Recipe"
     }
 ]
