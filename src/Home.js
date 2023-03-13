@@ -34,7 +34,11 @@ class Home extends Component {
           <h4>1. "I wont get enough Protein"</h4>
           <Image src="https://i.pinimg.com/564x/6e/6f/57/6e6f579d3481177c7dce8ca2509dcbd9.jpg" className="pro_veg" rounded responsive alt="Protein Source for Vegetarian" />
           <h4>2. "I wont get enough Iron"</h4>
-          <Image src='https://i.pinimg.com/564x/b9/b3/6d/b9b36d8db2236f2f780c137c1bc0a22e.jpg' className="ir_veg" rounded responsive alt="Iron Source for Vegetarian" />
+          <Image src='https://i.pinimg.com/564x/b9/b3/6d/b9b36d8db2236f2f780c137c1bc0a22e.jpg' className="pro_veg" rounded responsive alt="Iron Source for Vegetarian" />
+          <h4>3. "I wont get enough Calcium"</h4>
+          <Image src="https://i.pinimg.com/564x/5c/c0/c1/5cc0c1be8d110aa24d87a68420f8de88.jpg" className="pro_veg" rounded responsive alt="Calcium Source for Vegetarian" />
+          <h4>4. "I wont get enough Fiber"</h4>
+          <Image src="https://i.pinimg.com/564x/a6/c4/69/a6c46996b5b84484889493827ffd608a.jpg" className="pro_veg" rounded responsive alt="Fiber Source for Vegetarian"/>
         </p>
       </div>
     );
