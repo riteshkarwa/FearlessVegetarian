@@ -137,7 +137,7 @@ export const Food = [
     {
         id: 17,
         card_img:"upma.jpg",
-        card_title:"Upma also called cream of wheat or semolina flour",
+        card_title:"Upma Dish made from Rava also called cream of wheat or semolina flour",
         card_text:"Upma is a flavorful, tasty, savory and popular South Indian breakfast that is made with cream of wheat or semolina flour (called rava or suji), Urad dal, nuts, herbs and spices.",
         card_href : "/upma",
         button_title :"Upma Recipe"

@@ -1,11 +1,17 @@
 import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClock } from '@fortawesome/free-regular-svg-icons';
+
 
 class Upma extends Component {
     render() {
       return (
         <div>
             <h1>Upma is a flavorful, tasty, savory and popular South Indian breakfast that is made with cream of wheat or semolina flour (called rava or suji), Urad dal, nuts, herbs and spices.</h1>
+            <p className="serving"> <span class="icon-spoon-knife"></span> Yields: 2 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+                <FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes
+            </p>
             <div className="ingredients">Ingredients</div>
                 <ol>  
                     <li>2 tablespoon olive oil</li> 
