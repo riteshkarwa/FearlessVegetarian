@@ -17,7 +17,7 @@ class Beetroot extends Component {
             <li>1 Cinnamon Stick</li> 
             <li>1 teaspoon Coriander Powder</li> 
             <li>1 teaspoon Mustard seeds </li> 
-            <li>1 can of coconut mill</li>
+            <li>1 can of coconut milk</li>
             <li>1 tablespoon Masoor Dal(Spiced Red lentils) found in Indian store</li> 
             <li>Salt as per taste</li>
             <li>1 dried Curry leave</li>
