@@ -9,7 +9,7 @@ class Beetroot extends Component {
       <div>
         <h1>Beetroot curry with coconut milk and lentils</h1>
         <p className="serving"> <span class="icon-spoon-knife"></span> Yields: 2 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
-            <FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes
+            <FontAwesomeIcon icon={faClock} />  Cooking Time: 45 minutes
         </p>
         <ol> 
             <li>1 Beetroot, peeled and chopped </li> 
