@@ -26,16 +26,16 @@ class Potatobhurji extends Component {
         </ol>
         <div className="ingredients">Instruction</div>
         <ol> 
-            <li>Take some olive oil in a non stick pan and heat it up</li> 
-            <li>Slice the potatoes vertically</li>
-            <li>Then use a food chopper to chop each potato slice into small square pieces</li>
-            <li>Add 1 teaspoon cumin powder</li> 
-            <li>Add the potatoes in the pan</li> 
-            <li>Cook the potatoes for about 15 to 20 minutes till they get transparent. Constantly stir the potatoes so they do not stick to the bottom of the pan</li> 
-            <li>Once the potatoes starts to turn transparent add finely chopped onions</li> 
-            <li>Add all the spices ginger powder, onion powder, coriander powder, chili powder, tumeric powder, curry powder</li> 
-            <li>Nicely stir the potatoes so the spices are nicely mixed </li> 
-            <li>Add salt as per taste</li>
+            <li>Take some olive oil in a non stick pan and heat it up.</li> 
+            <li>Slice the potatoes vertically.</li>
+            <li>Then use a food chopper to chop each potato slice into small square pieces.</li>
+            <li>Add 1 teaspoon cumin powder.</li> 
+            <li>Add the potatoes in the pan.</li> 
+            <li>Cook the potatoes for about 15 to 20 minutes till they get transparent. Constantly stir the potatoes so they do not stick to the bottom of the pan.</li> 
+            <li>Once the potatoes starts to turn transparent add finely chopped onions.</li> 
+            <li>Add all the spices ginger powder, onion powder, coriander powder, chili powder, tumeric powder, curry powder.</li> 
+            <li>Nicely stir the potatoes so the spices are nicely mixed.</li> 
+            <li>Add salt as per taste.</li>
         </ol>
 
         <h1>Indian style scrambled eggs recipe is healthy, filling, very quick to make and extremely pleasing to Indian palates. The egg bhurji requires few ingredients and chances are you already have them in your kitchen. 
@@ -68,9 +68,9 @@ class Potatobhurji extends Component {
             <li>Break 3 eggs depending upon the amount of people eating the dish. Here I am considering serving amount to be one person.</li>
             <li>Add 1/8 teaspoon tumeric powder and sprinkle some salt.</li>
             <li>Hold the whisk firmly and begin to slowly whisk the egg whites. Use your other hand to hold onto the bowl. Use a circular motion and make about two rotations.</li>
-            <li>Add the beaten eggs liquid to the pan, add in black pepper powder and fresh lime juice</li>
-            <li>Continue to stir the eggs till all the liquid evaporates</li>
-            <li>Add salt as needed and break up the egg chunks into smaller pieces with your spatula</li>
+            <li>Add the beaten eggs liquid to the pan, add in black pepper powder and fresh lime juice.</li>
+            <li>Continue to stir the eggs till all the liquid evaporates.</li>
+            <li>Add salt as needed and break up the egg chunks into smaller pieces with your spatula.</li>
             <li>Combine the two dishes anytime potato with scrambled eggs to make a combo.</li>
             <li>Garnish with cilantro leaves.</li>     
         </ol>

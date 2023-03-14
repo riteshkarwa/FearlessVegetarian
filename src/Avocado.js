@@ -22,12 +22,12 @@ class Avocado extends Component {
             </ol>
             <div className="ingredients">Instruction</div>
             <ol> 
-                <li>Tost the slices of 21 Whole Grains and Seeds - Dave's Killer Bread</li> 
-                <li>Cut the the avocado and spread it over the bread</li>
-                <li>Add a layer of tomato slices</li>
-                <li>Add a layer of onion slices</li>
-                <li>Add some Balsamic Reduction on the top</li>
-                <li>Sprinkle Everything but the Bagel Sesame Seasoning on the avocado spread</li>
+                <li>Tost the slices of 21 Whole Grains and Seeds - Dave's Killer Bread.</li> 
+                <li>Cut the the avocado and spread it over the bread.</li>
+                <li>Add a layer of tomato slices.</li>
+                <li>Add a layer of onion slices.</li>
+                <li>Add some Balsamic Reduction on the top.</li>
+                <li>Sprinkle Everything but the Bagel Sesame Seasoning on the avocado spread.</li>
             </ol>
             <h2>Final Product</h2>
             <Image src="avocado.jpg" thumbnail rounded fluid></Image>

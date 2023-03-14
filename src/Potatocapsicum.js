@@ -49,7 +49,7 @@ class Potatocapsicum extends Component {
                         will act as a gravy for the curry.</li> 
                     <li>Add salt as per taste.</li>
                     <li>Add little bit of Kitchen King Masala Spice, Garam Masala powder and Amchoor powder all of them can be found in Indian Grocery Store.</li>
-                    <li>That is it your curry is ready. You can enjoy it with Garlic Naan or Roti(Indian bread less calories compared to Naan)</li>
+                    <li>That is it your curry is ready. You can enjoy it with Garlic Naan or Roti(Indian bread less calories compared to Naan).</li>
                 </ol>
                 <h2>Final Product</h2>
                 <Image src="potatocapsicum.jpg" thumbnail rounded fluid></Image>
