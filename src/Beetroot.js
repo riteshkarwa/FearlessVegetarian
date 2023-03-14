@@ -1,11 +1,16 @@
 import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClock } from '@fortawesome/free-regular-svg-icons';
 
 class Beetroot extends Component {
   render() {
     return (
       <div>
         <h1>Beetroot curry with coconut milk and lentils</h1>
+        <p className="serving"> <span class="icon-spoon-knife"></span> Yields: 2 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+            <FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes
+        </p>
         <ol> 
             <li>1 Beetroot, peeled and chopped </li> 
             <li>1/2 big Jalapeno pepper </li> 
