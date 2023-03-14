@@ -42,7 +42,7 @@ class Upma extends Component {
                     <li>Mix well and sauté for a few seconds.</li>
                     <li> Then add 2.5 cups water to this mixture</li>
                     <li>Add salt as required. Mix well and check the taste of water. It should be a bit salty but not too much.</li>
-                    <li>On a medium to high flame, heat the water and let it come to a rolling boiling.</li>
+                    <li>On a medium to high flame, heat the water and let it come to a rolling boil.</li>
                     <li>When the water comes to a rolling boil, lower the flame to its lowest. Then add the rava in 4 to 5 batches with a spoon.</li>
                     <li> Once you add the first batch of rava, stir and mix immediately so that the roasted rava gets mixed evenly with the water.</li>
                     <li>Then add the next batch of rava. Mix and stir again very well ensuring that the batch of rava is mixed evenly in water.</li>
