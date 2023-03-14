@@ -70,3 +70,8 @@ h2 {
 .serving {
   font-weight: bold;
 }
+
+.recipe_text {
+  font-family: 'Courgette', cursive;
+  font-size: 32px;
+}
