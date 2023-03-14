@@ -7,7 +7,7 @@ class Beetroot extends Component {
   render() {
     return (
       <div>
-        <h1>Beetroot curry with coconut milk and lentils</h1>
+        <h1>Beetroot Curry with Coconut Milk and Lentils(Urad Dal)</h1>
         <p className="serving"> <span class="icon-spoon-knife"></span> Yields: 2 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
             <FontAwesomeIcon icon={faClock} />  Cooking Time: 45 minutes
         </p>
@@ -18,7 +18,7 @@ class Beetroot extends Component {
             <li>1 teaspoon Coriander Powder</li> 
             <li>1 teaspoon Mustard seeds </li> 
             <li>1 can of coconut milk</li>
-            <li>1 tablespoon Masoor Dal(Spiced Red lentils) found in Indian store</li> 
+            <li>1 tablespoon Urad Dal found in Indian store</li> 
             <li>Salt as per taste</li>
             <li>1 dried Curry leave</li>
         </ol>
