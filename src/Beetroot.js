@@ -7,7 +7,7 @@ class Beetroot extends Component {
   render() {
     return (
       <div>
-        <h1>Beetroot Curry with Coconut Milk and Lentils(Urad Dal)</h1>
+        <h1>Beetroot Curry with Coconut Milk and Lentils(Urad Dal). Beetroot is one of those wonder foods that can increase immunity, lower blood pressure and provide us with lot of essential vitamin and minerals.</h1>
         <p className="serving"> <span class="icon-spoon-knife"></span> Yields: 2 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
             <FontAwesomeIcon icon={faClock} />  Cooking Time: 45 minutes
         </p>

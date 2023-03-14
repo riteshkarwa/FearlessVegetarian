@@ -1,11 +1,16 @@
 import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClock } from '@fortawesome/free-regular-svg-icons';
  
 class Lentil extends Component {
   render() {
     return (
       <div>
         <h1>Lentil Soup served with White Rice. Lentils are easy on your tummy and good source of Protein</h1>
+        <p className="serving"> <span class="icon-spoon-knife"></span> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+            <FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes
+          </p>
         <div className="ingredients">Ingredients</div>
         <ol> 
             <li>1 teaspoon ginger powder</li> 

@@ -35,7 +35,8 @@ export const Food = [
         "id": 5,
         card_img : "beetroot.jpg",
         card_title:"Beetroot Curry with Coconut Milk Served with Rice",
-        card_text:"The Beetroot Curry with Coconut Milk is quick and easy to make for a weeknight dinner or a summertime party at home.",
+        card_text:"The Beetroot Curry with Coconut Milk is quick and easy to make for a weeknight dinner or a summertime party at home. Beetroot \
+        is one of those wonder foods that can increase immunity, lower blood pressure and provide us with lot of essential vitamin and minerals. ",
         card_href : "/beetroot",
         button_title : "Beetroot Curry Recipe"
     },
