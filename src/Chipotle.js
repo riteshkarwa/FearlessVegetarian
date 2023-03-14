@@ -7,6 +7,9 @@ class Chipotle extends Component {
       return (
         <div>
             <h1>Chipotle Bowl super easy to make and taste so much better than actual Chipotle Restaurant</h1>
+            <p className="serving"> <span class="icon-spoon-knife"></span> Yields: 4 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+              <FontAwesomeIcon icon={faClock} />  Cooking Time: 90 minutes
+            </p>
             <ol> 
                 <li>5 Whole Avocado </li> 
                 <li>2 whole Tomato </li> 
