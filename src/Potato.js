@@ -1,11 +1,16 @@
 import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClock } from '@fortawesome/free-regular-svg-icons'
  
 class Potato extends Component {
   render() {
     return (
       <div>
         <h1>Any Time Potato Seasoned with Indian Spices served with Vegan Sausage</h1>
+        <p className="serving"> <span class="icon-spoon-knife"></span> Yields: 1 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+            <FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes
+        </p>
         <div className="ingredients">Ingredients</div>
         <ol> 
             <li>1 teaspoon ginger powder </li> 

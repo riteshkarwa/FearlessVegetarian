@@ -66,3 +66,7 @@ h2 {
 .recipe_img {
   width: 25rem;
 }
+
+.serving {
+  font-weight: bold;
+}

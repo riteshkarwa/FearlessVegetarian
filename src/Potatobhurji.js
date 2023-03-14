@@ -1,11 +1,16 @@
 import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClock } from '@fortawesome/free-regular-svg-icons'
  
 class Potatobhurji extends Component {
   render() {
     return (
       <div>
         <h1>Any Time Potato Seasoned with Indian Spices</h1>
+        <p className="serving"> <span class="icon-spoon-knife"></span> Yields: 2 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+            <FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes
+        </p>
         <div className="ingredients">Ingredients</div>
         <ol> 
             <li>1 teaspoon ginger powder </li> 
@@ -35,6 +40,9 @@ class Potatobhurji extends Component {
 
         <h1>Indian style scrambled eggs recipe is healthy, filling, very quick to make and extremely pleasing to Indian palates. The egg bhurji requires few ingredients and chances are you already have them in your kitchen. 
           egg bhurji also serves as a filling breakfast or thanks to its high protein content, is a perfect post-workout snack at any time of the day</h1>
+        <p className="serving"> <span class="icon-spoon-knife"></span> Yields: 2 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+            <FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes
+        </p>
         <div className="ingredients">Ingredients</div>
         <ol> 
             <li>1 tablespoon of fresh grated ginger</li> 

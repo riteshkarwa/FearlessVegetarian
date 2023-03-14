@@ -13,7 +13,7 @@ export const Food = [
         card_title:"Loaded Vegetable Sandwich also known as Bombay Sandwich",
         card_text:"Appetizing Vegetable Sandwich super easy to make and very filling. It's a popular Indian food from the city of Mumbai",
         card_href : "/sandwich",
-        button_title : "Loaded Vegetable Sandwich also known as Bombay Sandwich Recipe"
+        button_title : "Bombay Sandwich Recipe"
     },
     {
         "id": 3,
