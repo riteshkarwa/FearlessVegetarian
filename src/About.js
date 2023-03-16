@@ -19,7 +19,7 @@ class Wheretobegin extends Component {
                 for the dish and you will have to start over. If you accidentally add to much chilli powder yogurt can help out but it depends on the dish you are making. 
                 Please don't give up after first few unsuccessful attempts at making a dish it gets easy after you have cooked couple of dishes. The internet is flooded with lot of vegan and vegetarian dishes but Indian food is by far the best one as it very 
                 flavorful. The ingredients for Indian food is generally not available in big chain grocery store and if they are they are expensive. I would love to help you overcome
-                all the obstacles if you are stuck, that is what inspired me to start this website. 
+                all the obstacles if you are stuck, that is what inspired me to start Fearless Vegetarian. 
             </p>
             <h2>Baby Steps</h2>
             <p>
