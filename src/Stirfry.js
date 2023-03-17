@@ -9,7 +9,8 @@ class Stirfry extends Component {
       return (
         <div>
             <h1>Stir Fry Vegetables recipe uses Mandarin Teriyaki Sauce. It is super easy to make. For protein you can use Tofu or Tempeh</h1>
-            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 2 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;
+            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 2 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;
+                <FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes
             </p>
             <div className="ingredients">Ingredients</div>
             <ol> 
