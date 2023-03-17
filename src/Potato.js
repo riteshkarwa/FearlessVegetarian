@@ -9,7 +9,7 @@ class Potato extends Component {
     return (
       <div>
         <h1>Any Time Potato Seasoned with Indian Spices served with Vegan Sausage</h1>
-        <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+        <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;    
             <FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes
         </p>
         <div className="ingredients">Ingredients</div>

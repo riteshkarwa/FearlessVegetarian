@@ -9,7 +9,7 @@ class Saagpaneer extends Component {
         return (
           <div>
             <h1>Saag (Spinach) Panner is a popular vegetarian dish consisting of panner(Indian cheese) in a smooth , delicious and creamy spinach gravy.</h1>
-            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 2 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 2 Servings &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;        
             <FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes
             </p>
             <div className="ingredients">Ingredients</div>

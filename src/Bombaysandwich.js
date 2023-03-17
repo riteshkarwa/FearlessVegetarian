@@ -9,7 +9,7 @@ class Bombaysandwich extends Component {
     return (
       <div>
         <h1>Vegetable Sandwich also known as Bombay Sandwich, with Mint Chutney and loads of Vegetables stacked up</h1>
-        <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+        <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;        
             <FontAwesomeIcon icon={faClock} />  Cooking Time: 20 minutes
         </p>
         <div className="ingredients">Ingredients</div>

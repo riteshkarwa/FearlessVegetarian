@@ -12,7 +12,7 @@ class Peanutsd extends Component {
       return (
         <div>
             <h1>PeanutButter Apple Sandwich with Cinnamon Sugar</h1>
-            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;      
             <FontAwesomeIcon icon={faClock} />  Cooking Time: 20 minutes
             </p>
             <div className="ingredients">Ingredients</div>

@@ -10,7 +10,7 @@ class Maccheese extends Component {
       return (
         <div>
             <h1>Macaroni and Cheese baked in a casserole dish. Recipe is simple and delicious! </h1>
-            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;       
                 <FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes
             </p>
             <div className="ingredients">Ingredients</div>
