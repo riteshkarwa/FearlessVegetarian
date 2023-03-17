@@ -11,7 +11,7 @@ class DalMakhani extends Component {
             <h1>Dal Makhani is a classic North Indian dish made with whole black gram (Urad dal) found in Indian Store, red kidney beans, butter and other Indian Spices.
                 It is one of dishes that takes a longer time to cook more than 2 hours. Also the more you cook the better the curry is going to taste.
             </h1>
-            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;        
+            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        
                 <FontAwesomeIcon icon={faClock} />  Cooking Time: 180 minutes
             </p>
             <div className="ingredients">Ingredients</div>

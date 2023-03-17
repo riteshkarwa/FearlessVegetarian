@@ -9,7 +9,7 @@ class Lentil extends Component {
     return (
       <div>
         <h1>Lentil Soup served with White Rice. Lentils are easy on your tummy and good source of Protein</h1>
-        <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;       
+        <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       
             <FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes
           </p>
         <div className="ingredients">Ingredients</div>

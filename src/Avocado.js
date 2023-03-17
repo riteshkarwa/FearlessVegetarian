@@ -9,7 +9,7 @@ class Avocado extends Component {
       return (
         <div>
             <h1>Avocado Toast super easy to make and good for breakfast</h1>
-            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} />  Yields: 2 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} />  Yields: 2 Servings  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        
               <FontAwesomeIcon icon={faClock} />  Cooking Time: 15 minutes
             </p>
             <div className="ingredients">Ingredients</div>
