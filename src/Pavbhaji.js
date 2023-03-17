@@ -1,0 +1,61 @@
+import React, { Component } from "react";
+import Image from 'react-bootstrap/Image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClock } from '@fortawesome/free-regular-svg-icons'
+import {faBowlFood } from '@fortawesome/free-solid-svg-icons'
+
+
+class Pavbhaji extends Component {
+    render() {
+      return (
+        <div>
+            <h1>Pav Bhaji is an iconic dish from Mumbai. This Pav Bhaji Recipe is going to make you fall in love with it.</h1>
+            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+            <FontAwesomeIcon icon={faClock} />  Cooking Time: 90 minutes
+            </p>
+            <div className="ingredients">Ingredients</div>
+            <ol> 
+                <li>2 cups potato</li>
+                <li>1 Whole Red Pepper chopped</li>
+                <li>1/2 cup carrots peeled and chopped</li>
+                <li>1.5 cups cauliflower </li>
+                <li>1 cup tomato</li>
+                <li>1 cup onion</li>
+                <li>1 teaspoon chilli powder</li>
+                <li>1/4 cup raw onion for finely chopped for eating with Pav Bhaji</li>
+                <li>1 whole green chilli, 1/2 if the green chilli is big in size or if you are using Jalapeno pepper</li>
+                <></>
+            </ol>
+            <div className="ingredients">Instruction</div>
+            <ol>
+                <li>Rinse, peel and cube 3 medium or 2 larger potatoes (about 300 grams). Mine were about 1/2 to 2 cups when measured.</li>
+                <li>Clean 1 cup cauliflower florets (optional). Rinse 1⁄2 to 3⁄4 cups green peas. If you want you can also use 1 medium carrot (Half cup chopped).</li>
+                <li>For making masala, chop 1 medium onion (3/4 to 1 cup chopped), 2 medium tomatoes (3/4 to 1 cup chopped), half bell pepper (1⁄2 cup chopped) and 1 green chilli.</li> 
+                <li>Also make 1 tablespoon ginger garlic paste. Keep all of these aside.</li> 
+                <li>Add potatoes, cauliflower, peas & carrots (optional) to a pressure cooker or a instant pot. Pour 11⁄2 cups water, it should be just enough to cover them partially.</li>
+                <li>Cook the vegetables for 12 minutes and instant release the pressure once the instant pot beeps.</li>
+                <li>After opening the instant pot. All the vegetable should be cooked. Mash them well.</li>
+                <li>Add 1 cup onion to a non stick pot.Still them till they turn translucent.</li>
+                <li>Soak chopped Red pepper in hot water for 10 minutes</li>
+                <li>Using a blender puree the red pepper along with 3 cloves of garlic and few pieces of chopped ginger</li>
+                <li>Add 1 whole chopped green chilli to the non stick pot along with red pepper puree. Fry until it smells good.</li>
+                <li>Add 1 teaspoon chilli powder, 1.2 teaspoon tumeric powder, 2 heaping tablespoon paav bhaji masala powder found in Indian  Grocery Store.</li>
+                <li>Mix well and fry for 3 minutes</li>
+                <li>Add the boiled & mashed vegetables to the non stick pot. Add 1/2 to 3/4 cups more water to bring it to a consistency.</li>
+                <li>Mix well and simmer for a while to bring out the flavor of masala. Taste test and add more salt if you want. You can also add more chili powder at this stage for brighter color. 
+                    Also for more flavor you may add more pav bhaji masala if you want.</li>
+                <li>Add 3 tablespoon kasuri methi. When it reaches the desired consistency, add chopped coriander leaves. switch off. Slightly cool down and add some lemon juice before serving.</li>
+                <li>Slit the pav horizontally leaving one edge intact. On a low flame, heat 1 teaspoon
+                    butter on a tawa. Add little masala powder over it.</li>
+                <li>Place the pav on the butter and toast for 1 to 2 mins until slightly crisp. You can do the same on the other side as well by adding more butter on the pan.</li>
+                <li>Garnish with coriander leaves, lemon wedges and chopped onions. You can add more butter on the hot bhaji.</li>
+            </ol>
+            <h2>Final Product</h2>
+            <Image src="pavbhaji.jpg" thumbnail rounded fluid></Image>
+
+        </div>
+      );
+    }
+}
+
+export default Pavbhaji

@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
+import { faBowlFood } from '@fortawesome/free-solid-svg-icons';
+
+
 
 
 class Chipotle extends Component {
@@ -9,7 +12,7 @@ class Chipotle extends Component {
       return (
         <div>
             <h1>Chipotle Bowl super easy to make and taste so much better than actual Chipotle Restaurant</h1>
-            <p className="serving"> <span class="icon-spoon-knife"></span> Yields: 4 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 4 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
               <FontAwesomeIcon icon={faClock} />  Cooking Time: 90 minutes
             </p>
             <ol> 

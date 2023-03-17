@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClock } from '@fortawesome/free-regular-svg-icons';
+import { faBowlFood } from '@fortawesome/free-solid-svg-icons';
 
 class Couscous extends Component {
     render() {
@@ -9,6 +12,9 @@ class Couscous extends Component {
             Couscous is a North African dish made from tiny steamed balls of semolina flour. Though we think of it and cook it as a grain, it is actually a type of pasta. 
             Like rice, couscous is a blank canvas that can take on any flavors you want to add.
             </h1>
+            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+                <FontAwesomeIcon icon={faClock} />  Cooking Time: 180 minutes
+            </p>
             <div className="ingredients">Ingredients</div>
             <ol> 
                 <li>2 cups of Pearl Couscous</li> 

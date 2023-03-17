@@ -1,11 +1,17 @@
 import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClock } from '@fortawesome/free-regular-svg-icons'
+import {faBowlFood } from '@fortawesome/free-solid-svg-icons'
 
 class Mustardsandwich extends Component {
     render() {
       return (
         <div>
             <h1>Refreshing Cheese mustard veggie sandwich with Broccoli sprouts</h1>
+            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} />  Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+            <FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes
+            </p>
             <div className="ingredients">Ingredients</div>
             <ol> 
                 <li>1 Whole Avocado </li> 

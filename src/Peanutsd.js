@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
 import MediaQuery from 'react-responsive';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faClock } from '@fortawesome/free-regular-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClock } from '@fortawesome/free-regular-svg-icons';
+import { faBowlFood } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -11,7 +12,7 @@ class Peanutsd extends Component {
       return (
         <div>
             <h1>PeanutButter Apple Sandwich with Cinnamon Sugar</h1>
-            <p className="serving"> <span class="icon-spoon-knife"></span> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
+            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
             <FontAwesomeIcon icon={faClock} />  Cooking Time: 20 minutes
             </p>
             <div className="ingredients">Ingredients</div>

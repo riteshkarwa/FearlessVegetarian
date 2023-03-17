@@ -141,5 +141,14 @@ export const Food = [
         card_text:"Upma is a flavorful, tasty, savory and popular South Indian breakfast that is made with cream of wheat or semolina flour (called rava or suji), Urad dal, nuts, herbs and spices.",
         card_href : "/upma",
         button_title :"Upma Recipe"
+    },
+    {
+        id: 18,
+        card_img: "pavbhaji.jpg",
+        card_title:"Pav Bhaji Dish from the street of Mumbai to you.",
+        card_text:"Pav Bhaji is an iconic dish from Mumbai. This Pav Bhaji Recipe is going to make you fall in love with it.",
+        card_href: "/pavbhaji",
+        button_title :"Pav Bhaj Recipe"
+        
     }
 ]
