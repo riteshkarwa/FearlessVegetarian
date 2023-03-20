@@ -2,14 +2,13 @@ import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
-import { faBowlFood } from '@fortawesome/free-solid-svg-icons';
 
 class Stirfry extends Component {
     render() {
       return (
         <div>
             <h1>Stir Fry Vegetables recipe uses Mandarin Teriyaki Sauce. It is super easy to make. For protein you can use Tofu or Tempeh</h1>
-            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 2 Servings  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <p className="serving"> <span class="material-symbols-sharp"> restaurant_menu </span> Yields: 2 Servings  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes
             </p>
             <div className="ingredients">Ingredients</div>

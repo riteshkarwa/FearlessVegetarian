@@ -3,14 +3,13 @@ import Image from 'react-bootstrap/Image';
 import YouTube from 'react-youtube';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
-import { faBowlFood } from '@fortawesome/free-solid-svg-icons';
 
 class Maccheese extends Component {
     render() {
       return (
         <div>
             <h1>Macaroni and Cheese baked in a casserole dish. Recipe is simple and delicious! </h1>
-            <p className="serving"> <FontAwesomeIcon icon={faBowlFood} /> Yields: 1 Serving  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       
+            <p className="serving"> <span class="material-symbols-sharp"> restaurant_menu </span>  Yields: 1 Serving  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       
                 <FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes
             </p>
             <div className="ingredients">Ingredients</div>
