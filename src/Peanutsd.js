@@ -3,9 +3,6 @@ import Image from 'react-bootstrap/Image';
 import MediaQuery from 'react-responsive';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
-import { faBowlFood } from '@fortawesome/free-solid-svg-icons';
-
-
 
 class Peanutsd extends Component {
     render() {
