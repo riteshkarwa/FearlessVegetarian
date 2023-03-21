@@ -14,8 +14,8 @@ class Upma extends Component {
       };
 
       const optsMobile = {
-        height: '300',
-        width: '300',
+        height: '550',
+        width: '350',
       };
       return (
         <div>
