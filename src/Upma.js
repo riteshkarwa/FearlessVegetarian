@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
+import YouTube from 'react-youtube';
 
 
 class Upma extends Component {
@@ -53,7 +54,11 @@ class Upma extends Component {
                     <li>Lastly add about 2 tablespoons chopped coriander leaves (cilantro). You can add more coriander leaves if you like.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="upma.jpg" thumbnail rounded fluid></Image> 
+                <Image src="upma.jpg" thumbnail rounded fluid></Image>
+                <div>
+                    <h2>Macaroni and Cheese Video</h2>
+                    <YouTube videoId="xH-55B5S2q4"/>
+                </div>
         </div>
       );
     }
