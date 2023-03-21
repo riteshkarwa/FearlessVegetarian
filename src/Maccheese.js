@@ -7,14 +7,9 @@ import MediaQuery from 'react-responsive';
 
 class Maccheese extends Component {
     render() {
-      const optsDesktop = {
-        height: '800',
-        width: '1000',
-      };
 
       const optsMobile = {
-        height: '550',
-        width: '350',
+        width: '325',
       };
       return (
         <div>
@@ -49,7 +44,7 @@ class Maccheese extends Component {
                 <YouTube videoId="8iqcZDIuvAE" opts={optsMobile}/>
               </MediaQuery>
               <MediaQuery minWidth={767}>
-                <YouTube videoId="8iqcZDIuvAE" opts={optsDesktop}/>
+                <YouTube videoId="8iqcZDIuvAE"/>
               </MediaQuery>
             </div>
         </div>
