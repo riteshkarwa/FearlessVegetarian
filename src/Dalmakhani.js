@@ -13,7 +13,7 @@ class DalMakhani extends Component {
                 It is one of dishes that takes a longer time to cook more than 2 hours. Also the more you cook the better the curry is going to taste.
             </h1>
             <Row className="cooktimerow">
-              <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+              <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 4 Servings</Col>
             </Row>
             <Row className="cooktimerow">
                 <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
