@@ -13,7 +13,9 @@ class Pavbhaji extends Component {
             <h1>Pav Bhaji is an iconic dish from Mumbai. This Pav Bhaji Recipe is going to make you fall in love with it.</h1>
             <Row className="cooktimerow">
               <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
-              <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+            </Row>
+            <Row className="cooktimerow">
+                <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
             </Row>
             <div className="ingredients">Ingredients</div>
             <ol> 
