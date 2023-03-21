@@ -12,6 +12,8 @@ class Bombaysandwich extends Component {
         <h1>Vegetable Sandwich also known as Bombay Sandwich, with Mint Chutney and loads of Vegetables stacked up</h1>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+        </Row>
+        <Row className="cooktimerow">
           <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
         </Row>
         <div className="ingredients">Ingredients</div>

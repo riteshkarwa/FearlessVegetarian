@@ -12,7 +12,9 @@ class Chipotle extends Component {
             <h1>Chipotle Bowl super easy to make and taste so much better than actual Chipotle Restaurant</h1>
             <Row className="cooktimerow">
               <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
-              <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+            </Row>
+            <Row className="cooktimerow">
+                <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
             </Row>
             <ol> 
                 <li>5 Whole Avocado </li> 

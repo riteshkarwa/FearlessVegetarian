@@ -12,7 +12,9 @@ class Potato extends Component {
         <h1>Any Time Potato Seasoned with Indian Spices served with Vegan Sausage</h1>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
-          <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+        </Row>
+        <Row className="cooktimerow">
+            <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
         </Row>
         <div className="ingredients">Ingredients</div>
         <ol> 
