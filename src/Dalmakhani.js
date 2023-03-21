@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class DalMakhani extends Component {
     render() {
@@ -10,9 +12,10 @@ class DalMakhani extends Component {
             <h1>Dal Makhani is a classic North Indian dish made with whole black gram (Urad dal) found in Indian Store, red kidney beans, butter and other Indian Spices.
                 It is one of dishes that takes a longer time to cook more than 2 hours. Also the more you cook the better the curry is going to taste.
             </h1>
-            <p className="serving"> <span class="material-symbols-sharp"> restaurant_menu </span> Yields: 1 Serving  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        
-                <FontAwesomeIcon icon={faClock} />  Cooking Time: 180 minutes
-            </p>
+            <Row className="cooktimerow">
+              <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+              <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+            </Row>
             <div className="ingredients">Ingredients</div>
                 <ol>  
                     <li>2 tablespoon Dal Makhani masala found in Indian store</li> 

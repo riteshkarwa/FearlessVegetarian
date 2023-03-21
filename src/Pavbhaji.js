@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faClock } from '@fortawesome/free-regular-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClock } from '@fortawesome/free-regular-svg-icons';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 class Pavbhaji extends Component {
@@ -9,9 +11,10 @@ class Pavbhaji extends Component {
       return (
         <div>
             <h1>Pav Bhaji is an iconic dish from Mumbai. This Pav Bhaji Recipe is going to make you fall in love with it.</h1>
-            <p className="serving"> <span class="material-symbols-sharp"> restaurant_menu </span> Yields: 4 Servings &nbsp; &nbsp; &nbsp;      
-            <FontAwesomeIcon icon={faClock} />  Cooking Time: 90 minutes
-            </p>
+            <Row className="cooktimerow">
+              <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+              <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+            </Row>
             <div className="ingredients">Ingredients</div>
             <ol> 
                 <li>2 cups potato</li>

@@ -4,6 +4,8 @@ import YouTube from 'react-youtube';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import MediaQuery from 'react-responsive';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class Maccheese extends Component {
     render() {
@@ -14,9 +16,10 @@ class Maccheese extends Component {
       return (
         <div>
             <h1>Macaroni and Cheese baked in a casserole dish. Recipe is simple and delicious! </h1>
-            <p className="serving"> <span class="material-symbols-sharp"> restaurant_menu </span>  Yields: 1 Serving  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       
-                <FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes
-            </p>
+            <Row className="cooktimerow">
+              <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+              <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+            </Row>
             <div className="ingredients">Ingredients</div>
             <ol> 
                 <li>1 pound cooked elbow or shell macaroni </li> 

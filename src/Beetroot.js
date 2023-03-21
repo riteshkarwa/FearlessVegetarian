@@ -2,15 +2,18 @@ import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class Beetroot extends Component {
   render() {
     return (
       <div>
         <h1>Beetroot Curry with Coconut Milk and Lentils(Urad Dal). Beetroot is one of those wonder foods that can increase immunity, lower blood pressure and provide us with lot of essential vitamin and minerals.</h1>
-        <p className="serving"> <span class="material-symbols-sharp"> restaurant_menu </span> Yields: 2 Servings  &nbsp; &nbsp; &nbsp; &nbsp;      
-            <FontAwesomeIcon icon={faClock} />  Cooking Time: 45 minutes
-        </p>
+        <Row className="cooktimerow">
+          <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+          <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+        </Row>
         <ol> 
             <li>1 Beetroot, peeled and chopped </li> 
             <li>1/2 big Jalapeno pepper </li> 

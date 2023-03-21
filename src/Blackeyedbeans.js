@@ -3,6 +3,8 @@ import Image from 'react-bootstrap/Image';
 import MediaQuery from 'react-responsive';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class Blackeyedbeans extends Component {
   render() {
@@ -11,9 +13,10 @@ class Blackeyedbeans extends Component {
         <h1>Black Eyed Beans Seasoned with Indian Spices. It is a tradition to eat them on 1st January for luck and prosperity. It doesn't
             have to be just 1st of January eat it all year long for more luck and prosperity.
         </h1>
-        <p className="serving"> <span class="material-symbols-sharp"> restaurant_menu </span> Yields: 2 Servings  &nbsp; &nbsp; &nbsp; &nbsp; 
-            <FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes
-        </p>
+        <Row className="cooktimerow">
+            <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+            <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+        </Row>
         <div className="ingredients">Ingredients</div>
             <ol>  
                 <li>1 teaspoon onion powder </li> 

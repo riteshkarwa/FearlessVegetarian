@@ -2,15 +2,18 @@ import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class Bombaysandwich extends Component {
   render() {
     return (
       <div>
         <h1>Vegetable Sandwich also known as Bombay Sandwich, with Mint Chutney and loads of Vegetables stacked up</h1>
-        <p className="serving"> <span class="material-symbols-sharp"> restaurant_menu </span> Yields: 1 Serving  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        
-            <FontAwesomeIcon icon={faClock} />  Cooking Time: 20 minutes
-        </p>
+        <Row className="cooktimerow">
+          <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+          <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+        </Row>
         <div className="ingredients">Ingredients</div>
         <ol> 
             <li>3 slices sourdough bread</li> 

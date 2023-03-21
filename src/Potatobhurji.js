@@ -2,15 +2,18 @@ import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
  
 class Potatobhurji extends Component {
   render() {
     return (
       <div>
         <h1>Any Time Potato Seasoned with Indian Spices</h1>
-        <p className="serving"> <span class="material-symbols-sharp"> restaurant_menu </span>  Yields: 2 Servings  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        
-            <FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes
-        </p>
+        <Row className="cooktimerow">
+          <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+          <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+        </Row>
         <div className="ingredients">Ingredients</div>
         <ol> 
             <li>1 teaspoon ginger powder </li> 
