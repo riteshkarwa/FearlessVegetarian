@@ -13,8 +13,8 @@ class Maccheese extends Component {
       };
 
       const optsMobile = {
-        height: '280',
-        width: '280',
+        height: '300',
+        width: '300',
       };
       return (
         <div>
