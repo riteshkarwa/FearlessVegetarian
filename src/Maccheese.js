@@ -3,9 +3,19 @@ import Image from 'react-bootstrap/Image';
 import YouTube from 'react-youtube';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
+import MediaQuery from 'react-responsive';
 
 class Maccheese extends Component {
     render() {
+      const optsDesktop = {
+        height: '800',
+        width: '1000',
+      };
+
+      const optsMobile = {
+        height: '280',
+        width: '280',
+      };
       return (
         <div>
             <h1>Macaroni and Cheese baked in a casserole dish. Recipe is simple and delicious! </h1>
@@ -35,7 +45,12 @@ class Maccheese extends Component {
             <Image src="mac.jpg" thumbnail rounded fluid></Image>
             <div>
               <h2>Macaroni and Cheese Video</h2>
-              <YouTube videoId="8iqcZDIuvAE"/>
+              <MediaQuery maxWidth={767}>
+                <YouTube videoId="8iqcZDIuvAE" opts={optsMobile}/>
+              </MediaQuery>
+              <MediaQuery minWidth={767}>
+                <YouTube videoId="8iqcZDIuvAE" opts={optsDesktop}/>
+              </MediaQuery>
             </div>
         </div>
       );

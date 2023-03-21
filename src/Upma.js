@@ -3,10 +3,20 @@ import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import YouTube from 'react-youtube';
+import MediaQuery from 'react-responsive';
 
 
 class Upma extends Component {
     render() {
+      const optsDesktop = {
+        height: '800',
+        width: '1000',
+      };
+
+      const optsMobile = {
+        height: '280',
+        width: '280',
+      };
       return (
         <div>
             <h1>Upma is a flavorful, tasty, savory and popular South Indian breakfast that is made with cream of wheat or semolina flour (called rava or suji), Urad dal, nuts, herbs and spices.</h1>
@@ -57,7 +67,12 @@ class Upma extends Component {
                 <Image src="upma.jpg" thumbnail rounded fluid></Image>
                 <div>
                     <h2>Macaroni and Cheese Video</h2>
-                    <YouTube videoId="xH-55B5S2q4"/>
+                    <MediaQuery maxWidth={767}>
+                        <YouTube videoId="xH-55B5S2q4" opts={optsMobile} />
+                    </MediaQuery>
+                    <MediaQuery minWidth={767}>
+                        <YouTube videoId="xH-55B5S2q4" opts={optsDesktop} />
+                    </MediaQuery>
                 </div>
         </div>
       );
