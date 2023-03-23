@@ -24,6 +24,8 @@ class Upma extends Component {
             <h1>Upma is a flavorful, tasty, savory and popular South Indian breakfast that is made with cream of wheat or semolina flour (called rava or suji), Urad dal, nuts, herbs and spices.</h1>
             <Row className="cooktimerow">
               <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+            </Row>
+            <Row>
               <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
             </Row>
             <div className="ingredients">Ingredients</div>
@@ -54,11 +56,11 @@ class Upma extends Component {
                     <li>Sauté the onions until they soften and become translucent on a low to medium-low heat.</li> 
                     <li>Then add 1 teaspoon chopped green chillies, 1 teaspoon chopped ginger and 8 to 10 curry leaves.</li> 
                     <li>Mix well and sauté for a few seconds.</li>
-                    <li> Then add 2.5 cups water to this mixture</li>
+                    <li>Then add 2.5 cups water to this mixture.</li>
                     <li>Add salt as required. Mix well and check the taste of water. It should be a bit salty but not too much.</li>
                     <li>On a medium to high flame, heat the water and let it come to a rolling boil.</li>
                     <li>When the water comes to a rolling boil, lower the flame to its lowest. Then add the rava in 4 to 5 batches with a spoon.</li>
-                    <li> Once you add the first batch of rava, stir and mix immediately so that the roasted rava gets mixed evenly with the water.</li>
+                    <li>Once you add the first batch of rava, stir and mix immediately so that the roasted rava gets mixed evenly with the water.</li>
                     <li>Then add the next batch of rava. Mix and stir again very well ensuring that the batch of rava is mixed evenly in water.</li>
                     <li>Continue to add and stir the rava up to the last batch.</li>
                     <li>Quickly stir and mix very well. The rava grains will absorb water, swell and get cooked.</li>
