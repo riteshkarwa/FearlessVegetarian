@@ -150,5 +150,14 @@ export const Food = [
         card_href: "/pavbhaji",
         button_title :"Pav Bhaj Recipe"
         
+    },
+    {
+        id: 18,
+        card_img: "aloogobi.jpg",
+        card_title:"Potato Cauliflower (AlooGobi) Dish",
+        card_text:"Aloo gobi (potatoes & cauliflower) is a popular Indian dish in which potatoes and cauliflower are cooked with onions, tomatoes and spices.",
+        card_href: "/aloogobi",
+        button_title :"Potato Cauliflower"
+        
     }
 ]

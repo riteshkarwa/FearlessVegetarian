@@ -28,6 +28,7 @@ import Mustardsandwich from "./Mustardsandwich";
 import Saagpaneer from "./Saagpaneer";
 import Upma from "./Upma";
 import Pavbhaji from "./Pavbhaji";
+import Aloogobi from "./Aloogobi";
 
 
 
@@ -88,6 +89,7 @@ class Main extends Component {
             <Route exact path="/saagpaneer" element={ <Saagpaneer />}></Route>
             <Route exact path="/upma" element={ <Upma/>}></Route>
             <Route exact path="/pavbhaji" element={ <Pavbhaji />}></Route>
+            <Route exact path="/aloogobi" element={ <Aloogobi />}></Route>
           </Routes>
         </div>
       </Container>
