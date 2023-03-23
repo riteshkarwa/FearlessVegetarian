@@ -10,7 +10,7 @@ class Aloogobi extends Component {
       return (
         <div>
             <h1>Potato Cauliflower (Aloo Gobi) is a vegetarian north Indian dish. It's sautéed cauliflower and potato, with tomatoes, cashews,
-                cloves onion and Indian spices. A simple recipe that pairs well with flatbread such as roti and naan, or rice.</h1>
+                onion, and Indian spices. A simple recipe that pairs well with flatbread such as roti and naan, or rice.</h1>
             <Row className="cooktimerow">
               <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
             </Row>
