@@ -9,10 +9,6 @@ import Col from 'react-bootstrap/Col';
 
 class Maccheese extends Component {
     render() {
-
-      const optsMobile = {
-        width: '325',
-      };
       return (
         <div>
             <h1>Macaroni and Cheese baked in a casserole dish. Recipe is simple and delicious! </h1>
@@ -46,7 +42,9 @@ class Maccheese extends Component {
             <div>
               <h2>Macaroni and Cheese Video</h2>
               <MediaQuery maxWidth={767}>
-                <YouTube videoId="8iqcZDIuvAE" opts={optsMobile}/>
+                <div className="video-responsive">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/8iqcZDIuvAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
               </MediaQuery>
               <MediaQuery minWidth={767}>
                 <YouTube videoId="8iqcZDIuvAE"/>
