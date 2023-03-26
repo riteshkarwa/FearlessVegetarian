@@ -152,12 +152,21 @@ export const Food = [
         
     },
     {
-        id: 18,
+        id: 19,
         card_img: "aloogobi.jpg",
         card_title:"Potato Cauliflower (AlooGobi) Dish",
         card_text:"Aloo gobi (potatoes & cauliflower) is a popular Indian dish in which potatoes and cauliflower are cooked with onions, tomatoes and spices.",
         card_href: "/aloogobi",
-        button_title :"Potato Cauliflower"
+        button_title :"Potato Cauliflower Recipe"
+        
+    },
+    {
+        id: 20,
+        card_img: "paratha.jpg",
+        card_title:"Aloo Paratha potato stuffed flatbread Dish",
+        card_text:"Indian Aloo Paratha – whole wheat pan-fried flatbread stuffed with a spicy potato filling.This paratha is best enjoyed with yogurt, pickle, butter and a side of chai!",
+        card_href: "/paratha",
+        button_title :"Aloo Paratha Recipie"
         
     }
 ]

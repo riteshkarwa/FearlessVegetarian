@@ -29,6 +29,7 @@ import Saagpaneer from "./Saagpaneer";
 import Upma from "./Upma";
 import Pavbhaji from "./Pavbhaji";
 import Aloogobi from "./Aloogobi";
+import Alooparatha from "./Alooparatha";
 
 
 
@@ -90,6 +91,7 @@ class Main extends Component {
             <Route exact path="/upma" element={ <Upma/>}></Route>
             <Route exact path="/pavbhaji" element={ <Pavbhaji />}></Route>
             <Route exact path="/aloogobi" element={ <Aloogobi />}></Route>
+            <Route exact path="/paratha" element={ <Alooparatha />}></Route>
           </Routes>
         </div>
       </Container>
