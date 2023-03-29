@@ -45,9 +45,12 @@ class Potatobhurji extends Component {
 
         <h1>Indian style scrambled eggs recipe is healthy, filling, very quick to make and extremely pleasing to Indian palates. The egg bhurji requires few ingredients and chances are you already have them in your kitchen. 
           egg bhurji also serves as a filling breakfast or thanks to its high protein content, is a perfect post-workout snack at any time of the day</h1>
-        <p className="serving"> <span class="icon-spoon-knife"></span> Yields: 2 Servings  &nbsp;  &nbsp;  &nbsp;  &nbsp;         
-            <FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes
-        </p>
+        <Row className="cooktimerow">
+          <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+        </Row>
+        <Row>         
+          <FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes
+        </Row> 
         <div className="ingredients">Ingredients</div>
         <ol> 
             <li>1 tablespoon of fresh grated ginger</li> 
@@ -73,7 +76,7 @@ class Potatobhurji extends Component {
             <li>Break 3 eggs depending upon the amount of people eating the dish. Here I am considering serving amount to be one person.</li>
             <li>Add 1/8 teaspoon tumeric powder and sprinkle some salt.</li>
             <li>Hold the whisk firmly and begin to slowly whisk the egg whites. Use your other hand to hold onto the bowl. Use a circular motion and make about two rotations.</li>
-            <li>Add the beaten eggs liquid to the pan, add in black pepper powder and fresh lime juice.</li>
+            <li>Add the beaten eggs liquid to the pan, add in black pepper powder, grated ginger, garlic powder and fresh lime juice.</li>
             <li>Continue to stir the eggs till all the liquid evaporates.</li>
             <li>Add salt as needed and break up the egg chunks into smaller pieces with your spatula.</li>
             <li>Combine the two dishes anytime potato with scrambled eggs to make a combo.</li>
