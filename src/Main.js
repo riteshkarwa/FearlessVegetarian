@@ -93,7 +93,7 @@ class Main extends Component {
             <Route exact path="/pavbhaji" element={ <Pavbhaji />}></Route>
             <Route exact path="/aloogobi" element={ <Aloogobi />}></Route>
             <Route exact path="/paratha" element={ <Alooparatha />}></Route>
-            <Route exact path="/paratha" element={ <Shakshuka />}></Route>
+            <Route exact path="/shakshuka" element={ <Shakshuka />}></Route>
           </Routes>
         </div>
       </Container>
