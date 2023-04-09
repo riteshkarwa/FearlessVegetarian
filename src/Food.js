@@ -168,5 +168,13 @@ export const Food = [
         card_href: "/paratha",
         button_title :"Aloo Paratha Recipie"
         
+    },
+    {
+        id: 21,
+        card_img: "shakshuka.jpg",
+        card_title:"Shakshuka Chickpea Dish",
+        card_text:"Shakshuka is basically a dish featuring chickpeas in tomato sauce, and it’s also incredibly easy to prepare, with simple pantry staples and a couple of fresh ingredients.",
+        card_href: "/shakshuka",
+        button_title :"Shakshuka Chickpea Recipie"
     }
 ]
