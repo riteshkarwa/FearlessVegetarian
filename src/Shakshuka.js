@@ -14,10 +14,10 @@ class Shakshuka extends Component {
                 This Recipe, made with chickpeas instead of eggs.
             </h1>
             <Row className="cooktimerow">
-              <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 8 Servings</Col>
+              <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
             </Row>
             <Row className="cooktimerow">
-                <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 90 minutes</Col>
+                <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
             </Row>
             <div className="ingredients">Ingredients</div>
             <ol> 
