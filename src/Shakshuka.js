@@ -4,9 +4,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import YouTube from 'react-youtube';
+import MediaQuery from 'react-responsive';
 
 class Shakshuka extends Component {
     render() {
+        const optsDesktop = {
+            height: '800',
+            width: '1000',
+        };
+    
+        const optsMobile = {
+            height: '550',
+            width: '325',
+        };
       return (
         <div>
             <h1>Shakshuka is believed to have originated in North Africa. Its popularity spread throughout the Middle East, especially in Israel, where it was embraced as a hearty, inexpensive, and simple dish. 
@@ -24,11 +35,11 @@ class Shakshuka extends Component {
                 <li>1 tbsp olive or avocado oil</li> 
                 <li>1/2 cup diced white onion or shallot </li> 
                 <li>1/2 medium red bell pepper (chopped)</li> 
-                <li>3 cloves garlic</li> 
+                <li>5 pieces of cloves</li> 
                 <li>2 whole tomatoes</li> 
                 <li>1 tsp ground cumin</li> 
                 <li>2 tsp chili powder</li>
-                <li>2 tsp  paprika</li> 
+                <li>2 tsp paprika</li> 
                 <li>4 tbsp tomato paste</li>
                 <li>1 pinch cayenne pepper</li> 
                 <li>1 pinch coriander</li> 
@@ -54,6 +65,15 @@ class Shakshuka extends Component {
             </ol>
             <h2>Final Product</h2>
             <Image src="shakshuka.jpg" thumbnail rounded fluid></Image>
+            <div>
+                <h2>Shakshuka chickpea Video</h2>
+                <MediaQuery maxWidth={767}>
+                    <YouTube videoId="BLWyNboLlXI" opts={optsMobile} />
+                </MediaQuery>
+                <MediaQuery minWidth={767}>
+                    <YouTube videoId="BLWyNboLlXI" opts={optsDesktop} />
+                </MediaQuery>
+            </div>
         </div>
       );
     }
