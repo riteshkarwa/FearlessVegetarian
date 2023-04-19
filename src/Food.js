@@ -176,5 +176,13 @@ export const Food = [
         card_text:"Shakshuka is basically a dish featuring chickpeas in tomato sauce, and it’s also incredibly easy to prepare, with simple pantry staples and a couple of fresh ingredients.",
         card_href: "/shakshuka",
         button_title :"Shakshuka Chickpea Recipie"
+    },
+    {
+        id: 22,
+        card_img: "hakkanoodle.jpg",
+        card_title:"Hakka Noodle Dish",
+        card_text:"Hakka Noodles is a popular Indo-Chinese dish of stir fried noodles, vegetables and sauces.",
+        card_href: "/hakkanoodle",
+        button_title :"Hakka Noodle Recipie"
     }
 ]
