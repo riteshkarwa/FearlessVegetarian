@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import MediaQuery from 'react-responsive';
+import YouTube from 'react-youtube';
 
 class Bombaysandwich extends Component {
   render() {
@@ -46,7 +48,19 @@ class Bombaysandwich extends Component {
             <li>Add a piece of bread with layer of butter applied to the bottom of the bread to complete our sandwich.</li>  
         </ol>
         <h2>Final Product</h2>
-            <Image src="sandwich.jpg" thumbnail rounded fluid></Image>
+        <Image src="sandwich.jpg" thumbnail rounded fluid></Image>
+        <div>
+          <h2>Bombay Sandwich Video</h2>
+          <MediaQuery maxWidth={767}>
+            <div className="video-responsive">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/WVg4HhEkWwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </MediaQuery>
+          <MediaQuery minWidth={767}>
+            <YouTube videoId="WVg4HhEkWwE"/>
+          </MediaQuery>
+        </div>
+
       </div>
     );
   }
