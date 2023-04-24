@@ -9,6 +9,15 @@ import YouTube from 'react-youtube';
 
 class Bombaysandwich extends Component {
   render() {
+    const optsDesktop = {
+      height: '800',
+      width: '1000',
+    };
+
+    const optsMobile = {
+      height: '550',
+      width: '325',
+    };
     return (
       <div>
         <h1>Vegetable Sandwich also known as Bombay Sandwich, with Mint Chutney and loads of Vegetables stacked up</h1>
@@ -52,12 +61,10 @@ class Bombaysandwich extends Component {
         <div>
           <h2>Bombay Sandwich Video</h2>
           <MediaQuery maxWidth={767}>
-            <div className="video-responsive">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/WVg4HhEkWwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+            <YouTube videoId="WVg4HhEkWwE" opts={optsMobile} />
           </MediaQuery>
           <MediaQuery minWidth={767}>
-            <YouTube videoId="WVg4HhEkWwE"/>
+            <YouTube videoId="WVg4HhEkWwE" opts={optsDesktop} />
           </MediaQuery>
         </div>
 
