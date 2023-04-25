@@ -44,7 +44,7 @@ class Potato extends Component {
             <li>Add salt as per taste</li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="potato.jpg" thumbnail rounded fluid></Image>
+        <Image src="anytimepotato.jpg" thumbnail rounded fluid></Image>
       </div>
     );
   }
