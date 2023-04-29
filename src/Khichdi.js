@@ -10,11 +10,11 @@ class Khichdi extends Component {
       return (
         <div>
             <h1>
-            Couscous is a North African dish made from tiny steamed balls of semolina flour. Though we think of it and cook it as a grain, it is actually a type of pasta. 
-            Like rice, couscous is a blank canvas that can take on any flavors you want to add.
+            Khichdi is a comforting and mild South Asian stew typically made with moong dal lentils and rice. This version is made with long-grain rice and yellow moong dal (or split mung beans), softened tomatoes and onion, 
+            then flavored with a cumin, coriander and turmeric, but each family has their own recipe. 
             </h1>
             <Row className="cooktimerow">
-              <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+              <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Serving</Col>
             </Row>
             <Row className="cooktimerow">
               <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
