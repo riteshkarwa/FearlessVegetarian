@@ -32,6 +32,7 @@ import Aloogobi from "./Aloogobi";
 import Alooparatha from "./Alooparatha";
 import Shakshuka from "./Shakshuka";
 import Hakkanoodle from "./Hakkanoodle";
+import Khichdi from "./Khichdi";
 
 
 
@@ -96,6 +97,7 @@ class Main extends Component {
             <Route exact path="/paratha" element={ <Alooparatha />}></Route>
             <Route exact path="/shakshuka" element={ <Shakshuka />}></Route>
             <Route exact path="/hakkanoodle" element = {<Hakkanoodle/>}></Route>
+            <Route exact path="/khichdi" element = {<Khichdi/>}></Route>
           </Routes>
         </div>
       </Container>

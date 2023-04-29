@@ -184,5 +184,13 @@ export const Food = [
         card_text:"Hakka Noodles is a popular Indo-Chinese dish of stir fried noodles, vegetables and sauces.",
         card_href: "/hakkanoodle",
         button_title :"Hakka Noodle Recipie"
+    },
+    {
+        id: 23,
+        card_img: "khichdi.jpg",
+        card_title:"Moong Dal Khichdi Dish",
+        card_text:"This Khichdi is a light and easy to digest Indian dish made with rice and moong dal. Nutritious and light on the tummy.",
+        card_href: "/khichdi",
+        button_title :"Moong Dal Khichdi Recipie"
     }
 ]
