@@ -192,7 +192,7 @@ export const Food = [
         card_text:"This Khichdi is a light and easy to digest Indian dish made with rice and moong dal. Nutritious and light on the tummy.",
         card_href: "/khichdi",
         button_title :"Moong Dal Khichdi Recipie"
-    }
+    },
     {
         id: 24,
         card_img: "poha.jpg",
