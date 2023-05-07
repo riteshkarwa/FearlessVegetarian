@@ -197,7 +197,7 @@ export const Food = [
         id: 24,
         card_img: "poha.jpg",
         card_title:"Poha (Thick flattened Rice) Dish",
-        card_text:"Poha is a light and nutritious breakfast dish is made by mixing beaten rice with spices, curry leaves and seasonings. In addition to this, onions, potatoes or both onions and potatoes can also be added. You can say that the Poha recipe is a ridiculously easy one..",
+        card_text:"Poha is a light and nutritious breakfast dish is made by mixing beaten rice with spices, curry leaves and seasonings. In addition to this, onions, potatoes or both onions and potatoes can also be added.",
         card_href: "/poha",
         button_title :"Poha Recipie"
     }
