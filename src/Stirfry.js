@@ -41,7 +41,6 @@ class Stirfry extends Component {
             </ol>
             <h2>Final Product</h2>
             <Image src="stirfry.jpg" thumbnail rounded fluid></Image>
-
         </div>
       );
     }

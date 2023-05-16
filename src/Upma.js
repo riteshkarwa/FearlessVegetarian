@@ -71,7 +71,7 @@ class Upma extends Component {
                 <h2>Final Product</h2>
                 <Image src="upma.jpg" thumbnail rounded fluid></Image>
                 <div>
-                    <h2>Macaroni and Cheese Video</h2>
+                    <h2>Upma Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
                         <YouTube videoId="xH-55B5S2q4" opts={optsMobile} />
                     </MediaQuery>
