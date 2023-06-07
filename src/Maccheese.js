@@ -40,7 +40,7 @@ class Maccheese extends Component {
             <h2>Final Product</h2>
             <Image src="mac.jpg" thumbnail rounded fluid></Image>
             <div>
-              <h2>Macaroni and Cheese Video</h2>
+              <h2>Macaroni and Cheese Preparation Video</h2>
               <MediaQuery maxWidth={767}>
                 <div className="video-responsive">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/8iqcZDIuvAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
