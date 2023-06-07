@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Image from "react-bootstrap/Image";
+import Container from 'react-bootstrap/Container';
 
 class Notfound extends Component {
     render() {
