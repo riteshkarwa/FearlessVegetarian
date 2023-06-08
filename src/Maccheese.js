@@ -13,7 +13,7 @@ class Maccheese extends Component {
         <div>
             <h1>Macaroni and Cheese baked in a casserole dish. Recipe is simple and delicious! </h1>
             <Row className="cooktimerow">
-              <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+              <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 4 Servings</Col>
             </Row>
             <Row className="cooktimerow">
                 <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
@@ -43,11 +43,11 @@ class Maccheese extends Component {
               <h2>Macaroni and Cheese Preparation Video</h2>
               <MediaQuery maxWidth={767}>
                 <div className="video-responsive">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/8iqcZDIuvAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/p233zsNXGsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
               </MediaQuery>
               <MediaQuery minWidth={767}>
-                <YouTube videoId="8iqcZDIuvAE"/>
+                <YouTube videoId="p233zsNXGsE"/>
               </MediaQuery>
             </div>
         </div>
