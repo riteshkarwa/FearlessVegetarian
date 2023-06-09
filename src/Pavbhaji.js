@@ -4,10 +4,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import MediaQuery from 'react-responsive';
 
 
 class Pavbhaji extends Component {
     render() {
+        const optsDesktop = {
+            height: '800',
+            width: '1000',
+        };
+    
+        const optsMobile = {
+            height: '550',
+            width: '325',
+        };
+        
       return (
         <div>
             <h1>Pav Bhaji is an iconic dish from Mumbai. This Pav Bhaji Recipe is going to make you fall in love with it.</h1>
@@ -56,7 +67,15 @@ class Pavbhaji extends Component {
             </ol>
             <h2>Final Product</h2>
             <Image src="pavbhaji.jpg" thumbnail rounded fluid></Image>
-
+            <div>
+                <h2>Pav Bhaji Preparation Video</h2>
+                <MediaQuery maxWidth={767}>
+                    <YouTube videoId="XDmBE6aW3ZU" opts={optsMobile} />
+                </MediaQuery>
+                <MediaQuery minWidth={767}>
+                    <YouTube videoId="XDmBE6aW3ZU" opts={optsDesktop} />
+                </MediaQuery>
+            </div>
         </div>
       );
     }
