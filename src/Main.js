@@ -35,6 +35,7 @@ import Hakkanoodle from "./Hakkanoodle";
 import Khichdi from "./Khichdi";
 import Poha from "./Poha";
 import Notfound from "./Notfound";
+import Okra from "./Okra";
 
 
 
@@ -101,6 +102,7 @@ class Main extends Component {
             <Route exact path="/hakkanoodle" element = {<Hakkanoodle/>}></Route>
             <Route exact path="/khichdi" element = {<Khichdi/>}></Route>
             <Route exact path="/poha" element= {<Poha />}></Route>
+            <Route exact path="/okra" element= {<Okra />}></Route>
             <Route path='*' element={<Notfound />}/>
           </Routes>
         </div>

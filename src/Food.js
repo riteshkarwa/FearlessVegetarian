@@ -200,5 +200,13 @@ export const Food = [
         card_text:"Poha is a light and nutritious breakfast dish is made by mixing beaten rice with spices, curry leaves and seasonings. In addition to this, onions, potatoes or both onions and potatoes can also be added.",
         card_href: "/poha",
         button_title :"Poha Recipie"
+    },
+    {
+        id: 25,
+        card_img: "okra.jpg",
+        card_title:"Okra  Dish",
+        card_text:"Roti + Okra = pure comfort food for me! I can pretty much have this combination for the rest of my life.",
+        card_href: "/okra",
+        button_title :"Okra Recipie"
     }
 ]
