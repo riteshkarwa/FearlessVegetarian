@@ -35,7 +35,7 @@ describe('template spec', () => {
   })
 
   it('visit StirFry recipe', () => {
-    cy.visit('https://fearlessvegetarian.netlify.app/upma')
+    cy.visit('https://fearlessvegetarian.netlify.app/stirfry')
     cy.get('h1').should(($ele) => {
       expect($ele.text().trim()).equal("Stir Fry Vegetables recipe uses Mandarin Teriyaki Sauce. It is super easy to make. For protein you can use Tofu or Tempeh");
     });
