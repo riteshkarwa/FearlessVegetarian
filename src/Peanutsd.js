@@ -10,7 +10,7 @@ class Peanutsd extends Component {
     render() {
       return (
         <div>
-            <h1>PeanutButter Apple Sandwich with Cinnamon Sugar</h1>
+            <h1>Peanut Butter Apple Sandwich with Cinnamon Sugar</h1>
             <Row className="cooktimerow">
               <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
             </Row>
