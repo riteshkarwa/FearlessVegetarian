@@ -26,4 +26,18 @@ describe('template spec', () => {
       expect($ele.text().trim()).equal("The word Poha refers to 2 things – the first one is the ingredient flattened rice itself and the second one is the Poha recipe or the dish that is made with this particular ingredient");
     });
   })
+
+  it('visit upma recipe', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/upma')
+    cy.get('h1').should(($ele) => {
+      expect($ele.text().trim()).equal("Upma is a flavorful, tasty, savory and popular South Indian breakfast that is made with cream of wheat or semolina flour (called rava or suji), Urad dal, nuts, herbs and spices.");
+    });
+  })
+
+  it('visit StirFry recipe', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/upma')
+    cy.get('h1').should(($ele) => {
+      expect($ele.text().trim()).equal("Stir Fry Vegetables recipe uses Mandarin Teriyaki Sauce. It is super easy to make. For protein you can use Tofu or Tempeh");
+    });
+  })
 })
