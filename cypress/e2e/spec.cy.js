@@ -66,21 +66,21 @@ describe('Fearless Vegetarian webpage testing', () => {
     });
   })
 
-  it('visit Chipotle recipe page', () => {
+  it('visit Saag Paneer recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/saagpaneer')
     cy.get('h1').should(($ele) => {
       expect($ele.text().trim()).equal("Saag(Spinach) Paneer is a popular vegetarian dish consisting of panner(Indian cheese) in a smooth, delicious and creamy Spinach gravy.");
     });
   })
 
-  it('visit Chipotle recipe page', () => {
+  it('visit Upma recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/upma')
     cy.get('h1').should(($ele) => {
       expect($ele.text().trim()).equal("Upma is a flavorful, tasty, savory and popular South Indian breakfast that is made with cream of wheat or semolina flour (called rava or suji), Urad dal, nuts, herbs and spices.");
     });
   })
 
-  it('visit Chipotle recipe page', () => {
+  it('visit Pav Bhaji recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/pavbhaji')
     cy.get('h1').should(($ele) => {
       expect($ele.text().trim()).equal("Pav Bhaji is an iconic dish from Mumbai. This Pav Bhaji Recipe is going to make you fall in love with it.");
