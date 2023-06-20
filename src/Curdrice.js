@@ -32,7 +32,6 @@ class Curdrice extends Component {
                   <li>1/4 teaspoon hing (asafoetida) </li>
                   <li>1/2 teaspoon ginger minced</li> 
                   <li>8 cashews roasted</li> 
-                  <li></li>
                   <li>1 cup plain yogurt</li>
               </ol>
               <div className="ingredients">Instruction</div>
