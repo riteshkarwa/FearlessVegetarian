@@ -22,7 +22,7 @@ class Saagpaneer extends Component {
           <div>
             <h1>Saag(Spinach) Paneer is a popular vegetarian dish consisting of panner(Indian cheese) in a smooth, delicious and creamy Spinach gravy.</h1>
             <Row className="cooktimerow">
-              <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+              <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
             </Row>
             <Row>
                 <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>

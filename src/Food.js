@@ -208,5 +208,13 @@ export const Food = [
         card_text:"Roti + Okra = pure comfort food for me! I can pretty much have this combination for the rest of my life.",
         card_href: "/okra",
         button_title :"Okra Recipie"
+    },
+    {
+        id: 26,
+        card_img: "curdrice.jpg",
+        card_title:"Curd Rice or Dahi Rice Dish",
+        card_text:"Curd rice is a South Indian dish made with precooked rice, Curd (Indian Yogurt), herbs and tempering spices.",
+        card_href: "/curdrice",
+        button_title :"Curd Rice Recipie"
     }
 ]

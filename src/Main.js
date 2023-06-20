@@ -36,6 +36,7 @@ import Khichdi from "./Khichdi";
 import Poha from "./Poha";
 import Notfound from "./Notfound";
 import Okra from "./Okra";
+import Curdrice from "./Curdrice";
 
 
 
@@ -103,6 +104,7 @@ class Main extends Component {
             <Route exact path="/khichdi" element = {<Khichdi/>}></Route>
             <Route exact path="/poha" element= {<Poha />}></Route>
             <Route exact path="/okra" element= {<Okra />}></Route>
+            <Route exact path="/curdrice" element= {<Curdrice />}></Route>
             <Route path='*' element={<Notfound />}/>
           </Routes>
         </div>
