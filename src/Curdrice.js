@@ -14,10 +14,10 @@ class Curdrice extends Component {
                 It is more often eaten by South Indians as a part of the meal, all round the year. Apart from being gut healthy, 
                 Curd rice is also a comforting summer food which keeps the body cool.</h1>
               <Row className="cooktimerow">
-                <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 8 Servings</Col>
+                <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
               </Row>
               <Row className="cooktimerow">
-                  <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 90 minutes</Col>
+                  <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes</Col>
               </Row>
               <div className="ingredients">Ingredients</div>
               <ol> 
