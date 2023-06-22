@@ -48,7 +48,7 @@ class Okra extends Component {
         </ol>
         <div className="ingredients">Instruction</div>
         <ol> 
-            <li>Rinse bhindi under running water well and drain them. Wipe them dry with a clean kitchen cloth. Chop them to 3/4 to 1 inch pieces.</li> 
+            <li>Rinse Okra under running water well and drain them. Wipe them dry with a clean kitchen cloth. Chop them to 3/4 to 1 inch pieces.</li> 
             <li>Pour 1 tablespoon of olive oil to a hot non-stick pan. Fry the okra on a medium high flame stirring often until they are half cooked.
             </li>
             <li>Keep stirring to fry them evenly. Reduce the flame if needed in between. Fry them until they are no more slimy and partially cooked. We don't need fully cooked okra. It took me exactly 6 minutes to cook down to this stage. 
