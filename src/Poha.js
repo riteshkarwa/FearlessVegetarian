@@ -33,8 +33,8 @@ class Poha extends Component {
             </ol>
             <div className="ingredients">Instruction</div>
             <ol> 
-                <li>Pick 1.5 cups thick or medium-thick Poha (thick variety flattened rice first. Rinse them in clean running water in a strainer or colander twice or thrice.
-                    Rinsing in fresh clean water softens them as they absorb water.Make sure not to overdo the rinsing. This will make them mushy and pasty.</li>
+                <li>Take 1.5 cups of thick or medium-thick Poha (thick variety flattened rice) first. Rinse them in clean running water in a strainer or colander thrice.
+                    Rinsing in fresh clean water softens them as they absorb water. Make sure not to overdo the rinsing. This will make them mushy and pasty.</li>
                 <li>Dry roast 2 tablespoons peanuts in a heavy pan on medium-low heat until they become crunchy. Stir often for even cooking of the peanuts.
                     The peanuts should be roasted well and must not have any rawness in them. Roast till they become crunchy and have a few blisters on their skins.</li>
                 <li>Peel 1 medium to large size potato and chop into small cubes. In the same heavy non stick pan, heat 2 to 2.5 tablespoons olive oil. 
