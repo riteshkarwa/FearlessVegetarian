@@ -2,11 +2,22 @@ import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
+import YouTube from 'react-youtube';
+import MediaQuery from 'react-responsive';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
  
 class Okra extends Component {
   render() {
+    const optsDesktop = {
+      height: '800',
+      width: '1000',
+    };
+
+    const optsMobile = {
+        height: '550',
+        width: '325',
+    };
     return (
       <div>
         <h1>Okra Dish made by adding onions and tomato. This Okra Dish tastes great and has very unique flavors that come from caramelizing the onions 
@@ -57,6 +68,15 @@ class Okra extends Component {
         </ol>
         <h2>Final Product</h2>
         <Image src="okra.jpg" thumbnail rounded fluid></Image>
+        <div>
+          <h2>Delicious and flavorful Okra Preparation Video</h2>
+          <MediaQuery maxWidth={767}>
+              <YouTube videoId="ZyAsSnUKUNI" opts={optsMobile} />
+          </MediaQuery>
+          <MediaQuery minWidth={767}>
+              <YouTube videoId="ZyAsSnUKUNI" opts={optsDesktop} />
+          </MediaQuery>
+        </div>
       </div>
     );
   }
