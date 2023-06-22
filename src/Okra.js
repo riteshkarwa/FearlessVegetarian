@@ -71,10 +71,10 @@ class Okra extends Component {
         <div>
           <h2>Delicious and flavorful Okra Preparation Video</h2>
           <MediaQuery maxWidth={767}>
-              <YouTube videoId="ZyAsSnUKUNI" opts={optsMobile} />
+              <YouTube videoId="Ioqnqy8WqfI" opts={optsMobile} />
           </MediaQuery>
           <MediaQuery minWidth={767}>
-              <YouTube videoId="ZyAsSnUKUNI" opts={optsDesktop} />
+              <YouTube videoId="Ioqnqy8WqfI" opts={optsDesktop} />
           </MediaQuery>
         </div>
       </div>
