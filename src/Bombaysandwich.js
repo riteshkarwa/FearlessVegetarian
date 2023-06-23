@@ -67,7 +67,6 @@ class Bombaysandwich extends Component {
             <YouTube videoId="CIFjZ4OwFjQ" opts={optsDesktop} />
           </MediaQuery>
         </div>
-
       </div>
     );
   }
