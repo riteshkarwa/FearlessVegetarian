@@ -72,10 +72,10 @@ class Saagpaneer extends Component {
                 <div>
                     <h2>Saag Paneer Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
-                        <YouTube videoId="SEwkBuHLnCM" opts={optsMobile} />
+                        <YouTube videoId="ykc92b5IMwQ" opts={optsMobile} />
                     </MediaQuery>
                     <MediaQuery minWidth={767}>
-                        <YouTube videoId="SEwkBuHLnCM" opts={optsDesktop} />
+                        <YouTube videoId="ykc92b5IMwQ" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
           </div>
