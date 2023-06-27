@@ -73,10 +73,10 @@ describe('Fearless Vegetarian webpage testing', () => {
     });
   })
 
-  it('visit Upma recipe page', () => {
-    cy.visit('https://fearlessvegetarian.netlify.app/upma')
+  it('visit Dal Makhani recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/dalmakhani')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Upma is a flavorful, tasty, savory and popular South Indian breakfast that is made with cream of wheat or semolina flour (called rava or suji), Urad dal, nuts, herbs and spices.");
+      expect($ele.text().trim()).equal("Dal Makhani is a classic North Indian dish made with whole black gram (Urad dal) found in Indian Store, red kidney beans, butter and other Indian Spices. It is one of dishes that takes a longer time to cook more than 2 hours. Also the more you cook the better the curry is going to taste.");
     });
   })
 
