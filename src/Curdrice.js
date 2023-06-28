@@ -65,10 +65,10 @@ class Curdrice extends Component {
               <div>
                 <h2>Curd Rice Preparation Video</h2>
                 <MediaQuery maxWidth={767}>
-                    <YouTube videoId="cxJpPnlwYfM" opts={optsMobile} />
+                    <YouTube videoId="tnToofh1Ysk" opts={optsMobile} />
                 </MediaQuery>
                 <MediaQuery minWidth={767}>
-                    <YouTube videoId="cxJpPnlwYfM" opts={optsDesktop} />
+                    <YouTube videoId="tnToofh1Ysk" opts={optsDesktop} />
                 </MediaQuery>
               </div>
           </div>
