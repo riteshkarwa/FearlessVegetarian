@@ -68,10 +68,10 @@ class Lentil extends Component {
         <div>
             <h2>Lentil Soup / Tadka Daal Preparation Video</h2>
             <MediaQuery maxWidth={767}>
-                <YouTube videoId="6scAtV1t-2M" opts={optsMobile} />
+                <YouTube videoId="Hl4EkesFhTs" opts={optsMobile} />
             </MediaQuery>
             <MediaQuery minWidth={767}>
-                <YouTube videoId="6scAtV1t-2M" opts={optsDesktop} />
+                <YouTube videoId="Hl4EkesFhTs" opts={optsDesktop} />
             </MediaQuery>
         </div>
       </div>
