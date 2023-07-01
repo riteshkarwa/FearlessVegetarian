@@ -37,7 +37,9 @@ class Lentil extends Component {
             <li>1 tablespoon curry powder</li> 
             <li>1 teaspoon cumin powder</li> 
             <li>1 teaspoon Garam Masala powder</li> 
-            <li>2 cups of Masoor Dal (Red Lentil) found in Indian Store</li>
+            <li>1 cup of Masoor Dal (Red Lentil) found in Indian Store</li>
+            <li>1 cup of Toor Dal (Red Lentil) found in Indian Store</li>
+            <li>1 cup of Chana Dal (Red Lentil) found in Indian Store</li>
             <li>Salt as per taste</li> 
             <li>Rani Fenugreek Leaves Dried (Kasoori Methi)</li>
             <li>1 whole onion</li> 
@@ -46,7 +48,8 @@ class Lentil extends Component {
         <div className="ingredients">Instruction</div>
         
         <ol> 
-            <li>Add 2 cups of Masoor dal to a pot or pressure cooker. Rinse it well a few times. Drain the water completely.</li> 
+            <li>Take 1 cup each of Masoor dal, Toor dal, and Chana dal, and mix them together. Add the mixed dals to a pot or pressure cooker. 
+                Rinse it well a few times. Drain the water completely.</li> 
             <li>Add 5 cups of water and pressure cook it for 10 min. Make sure the lentils turns soft. Press down few lentils between your thumb and fore fingers.
                 They should get mashed easily. Heat the lentils a little more if the lentils are not soft.
             </li>
@@ -68,10 +71,10 @@ class Lentil extends Component {
         <div>
             <h2>Lentil Soup / Tadka Daal Preparation Video</h2>
             <MediaQuery maxWidth={767}>
-                <YouTube videoId="Hl4EkesFhTs" opts={optsMobile} />
+                <YouTube videoId="wQwtRohsBt8" opts={optsMobile} />
             </MediaQuery>
             <MediaQuery minWidth={767}>
-                <YouTube videoId="Hl4EkesFhTs" opts={optsDesktop} />
+                <YouTube videoId="wQwtRohsBt8" opts={optsDesktop} />
             </MediaQuery>
         </div>
       </div>
