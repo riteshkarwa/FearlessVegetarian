@@ -67,7 +67,12 @@ class Lentil extends Component {
              
         </ol>
         <h2>Final Product</h2>
-        <Image src="lentil.jpg" thumbnail rounded fluid></Image>
+        <MediaQuery maxWidth={767}>
+          <Image src="lentil.jpg" thumbnail rounded fluid></Image>
+        </MediaQuery>
+        <MediaQuery minWidth={767}>
+          <Image src="lentil.jpg" thumbnail rounded width="40%" height="40%"></Image>
+        </MediaQuery>
         <div>
             <h2>Lentil Soup / Tadka Daal Preparation Video</h2>
             <MediaQuery maxWidth={767}>
