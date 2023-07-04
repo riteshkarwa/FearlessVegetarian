@@ -2,11 +2,22 @@ import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
+import YouTube from 'react-youtube';
+import MediaQuery from 'react-responsive';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 class Aloogobi extends Component {
     render() {
+        const optsDesktop = {
+            height: '800',
+            width: '1000',
+        };
+      
+        const optsMobile = {
+            height: '550',
+            width: '325',
+        };
       return (
         <div>
             <h1>Potato Cauliflower (Aloo Gobi) is a vegetarian north Indian dish. It's sautéed cauliflower and potato, with tomatoes, cashews,
@@ -64,6 +75,15 @@ class Aloogobi extends Component {
             </ol>
             <h2>Final Product</h2>
             <Image src="aloogobi.jpg" thumbnail rounded fluid></Image>
+            <div>
+            <h2>Lentil Soup / Tadka Daal Preparation Video</h2>
+            <MediaQuery maxWidth={767}>
+                <YouTube videoId="4qOw_UAHp98" opts={optsMobile} />
+            </MediaQuery>
+            <MediaQuery minWidth={767}>
+                <YouTube videoId="4qOw_UAHp98" opts={optsDesktop} />
+            </MediaQuery>
+        </div>
         </div>
       );
     }
