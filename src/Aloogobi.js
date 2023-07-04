@@ -74,16 +74,21 @@ class Aloogobi extends Component {
                 <li>That is it your curry is ready. You can enjoy it with Garlic Naan or Roti(Indian bread less calories compared to Naan).</li>
             </ol>
             <h2>Final Product</h2>
-            <Image src="aloogobi.jpg" thumbnail rounded fluid></Image>
-            <div>
-            <h2>Lentil Soup / Tadka Daal Preparation Video</h2>
             <MediaQuery maxWidth={767}>
-                <YouTube videoId="4qOw_UAHp98" opts={optsMobile} />
+                <Image src="aloogobi.jpg" thumbnail rounded fluid></Image>
             </MediaQuery>
             <MediaQuery minWidth={767}>
-                <YouTube videoId="4qOw_UAHp98" opts={optsDesktop} />
+                <Image src="aloogobi.jpg" thumbnail rounded width="40%" height="40%"></Image>
             </MediaQuery>
-        </div>
+            <div>
+                <h2>Aloo Gobi Preparation Video</h2>
+                <MediaQuery maxWidth={767}>
+                    <YouTube videoId="4qOw_UAHp98" opts={optsMobile} />
+                </MediaQuery>
+                <MediaQuery minWidth={767}>
+                    <YouTube videoId="4qOw_UAHp98" opts={optsDesktop} />
+                </MediaQuery>
+            </div>
         </div>
       );
     }
