@@ -216,5 +216,13 @@ export const Food = [
         card_text:"Curd rice is a South Indian dish made with precooked rice, Curd (Indian Yogurt), herbs and tempering spices.",
         card_href: "/curdrice",
         button_title :"Curd Rice Recipie"
+    },
+    {
+        id: 27,
+        card_img: "eggplant.jpg",
+        card_title:"Mashed Eggplant Dish",
+        card_text:"Roasted eggplant seasoned with Indian spices, is a very popular dish in North India",
+        card_href: "/eggplant",
+        button_title :"Eggplant Recipie"
     }
 ]

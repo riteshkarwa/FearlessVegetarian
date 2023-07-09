@@ -34,7 +34,6 @@ class Curdrice extends Component {
               <ol> 
                   <li>1/2 cup rice</li> 
                   <li>1 green chilies – chopped finely </li> 
-                  <li>1 cup yogurt</li> 
                   <li>1 teaspoon oil</li> 
                   <li>1/2 teaspoon mustard seeds</li> 
                   <li>1/2 teaspoon cumin seeds</li> 

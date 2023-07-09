@@ -3,14 +3,14 @@ describe('Fearless Vegetarian webpage testing', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/')
   })
 
-  it('visit potato recipe page', () => {
+  it('visit Potato recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/potato')
     cy.get('h1').should(($ele) => {
       expect($ele.text().trim()).equal("Any Time Potato Seasoned with Indian Spices served with Vegan Sausage");
     });
   })
 
-  it('visit sandwich recipe page', () => {
+  it('visit Sandwich recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/sandwich')
     cy.get('h1').should(($ele) => {
       expect($ele.text().trim()).equal("Vegetable Sandwich also known as Bombay Sandwich, with Mint Chutney and loads of Vegetables stacked up");
@@ -84,6 +84,27 @@ describe('Fearless Vegetarian webpage testing', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/pavbhaji')
     cy.get('h1').should(($ele) => {
       expect($ele.text().trim()).equal("Pav Bhaji is an iconic dish from Mumbai. This Pav Bhaji Recipe is going to make you fall in love with it.");
+    });
+  })
+
+  it('visit CurdRice recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/curdrice')
+    cy.get('h1').should(($ele) => {
+      expect($ele.text().trim()).equal("Curd rice is a South Indian dish made with precooked rice, Curd (Indian Yogurt), herbs and tempering spices. It is more often eaten by South Indians as a part of the meal, all round the year. Apart from being gut healthy, Curd rice is also a comforting summer food which keeps the body cool.");
+    });
+  })
+
+  it('visit Okra recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/okra')
+    cy.get('h1').should(($ele) => {
+      expect($ele.text().trim()).equal("Okra Dish made by adding onions and tomato. This Okra Dish tastes great and has very unique flavors that come from caramelizing the onions at the first stage and then frying more diced onions on a high heat at the second stage.");
+    });
+  })
+
+  it('visit Shakshuka recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/shakshuka')
+    cy.get('h1').should(($ele) => {
+      expect($ele.text().trim()).equal("Shakshuka is believed to have originated in North Africa. Its popularity spread throughout the Middle East, especially in Israel, where it was embraced as a hearty, inexpensive, and simple dish. The Israeli version is thought to include eggs served over a seasoned tomato-based sauce. This Recipe, made with chickpeas instead of eggs.");
     });
   })
 })
