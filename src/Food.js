@@ -224,5 +224,13 @@ export const Food = [
         card_text:"Roasted eggplant seasoned with Indian spices, is a very popular dish in North India",
         card_href: "/eggplant",
         button_title :"Eggplant Recipie"
+    },
+    {
+        id: 28,
+        card_img: "brownlentils.jpg",
+        card_title:"Whole Masoor Dal Curry also known as Brown Lentils",
+        card_text:"Enjoy this delicious & healthy Whole Masoor Dal, also known as Brown Lentils Curry, made in the Instant Pot",
+        card_href: "/brownlentils",
+        button_title :"Whole Masoor Dal  Brown Lentil Recipie"
     }
 ]
