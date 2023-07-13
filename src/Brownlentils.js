@@ -49,8 +49,8 @@ class Brownlentils extends Component {
             <li>Start the pressure cooker in sauté mode and let it heat. Add oil and cumin seeds. Saute for 30 seconds.</li>
             <li>When the cumin seeds starts to splutter or change color, add green chili, onions, ginger and garlic. Sauté for 3 minutes 
                 until the onions become golden brown while stirring frequently.</li>
-            <li>Add the chopped tomatoes</li>
-            <li>Add all the spices one by one: 1/4 teaspoon tumeric powder, 1/2 teaspoon red chili powder, 1 tablespoon coriander powder</li>
+            <li>Add the chopped tomatoes to the pan and cook it till the tomatoes becomes soft.</li>
+            <li>Add all the spices one by one: 1/4 teaspoon tumeric powder, 1/2 teaspoon red chili powder, 1 tablespoon coriander powder.</li>
             <li>Add the lentils, water and stir well. Close the instant pot lid with vent in sealing position.</li>
             <li>Change the instant pot setting to manual or pressure cook mode at high pressure for 12 mins. After the instant pot beeps, let the pressure release naturally.</li>
             <li>Open the pot. Add the lime juice and stir the dal.</li>
