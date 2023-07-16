@@ -20,9 +20,9 @@ class Cabbage extends Component {
         };
       return (
         <div>
-            <h1>Cabbage is a great vegetable to work with because it turns very tender when cooked and absorbs the flavors of the other ingredients. 
-                But the chopped cabbage leaves are still strong enough to give some delicious chew to the dish. 
-                I just love the way all the flavors of this Cabbage Curry come together.</h1>
+            <h1>Cabbage is an excellent vegetable to use in cooking as it becomes wonderfully tender when cooked, allowing it to absorb 
+                the delicious flavors of the other ingredients. Despite this tenderness, the chopped cabbage leaves still provide a delightful 
+                chewiness to the dish. I truly enjoy the harmonious combination of flavors that comes together in this Cabbage Curry.</h1>
             <Row className="cooktimerow">
               <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
             </Row>
