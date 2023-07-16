@@ -64,10 +64,10 @@ class Besan extends Component {
         <div>
           <h2>Brown Lentils Whole Masoor Dal Preparation video</h2>
           <MediaQuery maxWidth={767}>
-            <YouTube videoId="SfldYzZUtlM" opts={optsMobile} />
+            <YouTube videoId="VyEveOxhx7s" opts={optsMobile} />
           </MediaQuery>
           <MediaQuery minWidth={767}>
-            <YouTube videoId="SfldYzZUtlM" opts={optsDesktop} />
+            <YouTube videoId="VyEveOxhx7s" opts={optsDesktop} />
           </MediaQuery>
         </div>
       </div>

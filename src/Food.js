@@ -240,5 +240,13 @@ export const Food = [
         card_text:"Enjoy this delicious and healthy Chickpea Flour also known as Besan.",
         card_href: "/beasan",
         button_title :"Chickpea Flour Curry Recipie"
+    },
+    {
+        id: 30,
+        card_img: "cabbage.jpg",
+        card_title:"Cabbage Curry",
+        card_text:"Cabbage Curry is a simple recipe that offers lots of complex flavors. From the pungent garlic and onion to the intense Indian spices, this dish will wow you.",
+        card_href: "/cabbage",
+        button_title :"Cabbage Curry Recipie"
     }
 ]
