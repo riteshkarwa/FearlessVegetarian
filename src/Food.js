@@ -229,8 +229,16 @@ export const Food = [
         id: 28,
         card_img: "brownlentils.jpg",
         card_title:"Whole Masoor Dal Curry also known as Brown Lentils",
-        card_text:"Enjoy this delicious & healthy Whole Masoor Dal, also known as Brown Lentils Curry, made in the Instant Pot",
+        card_text:"Enjoy this delicious and healthy Whole Masoor Dal, also known as Brown Lentils Curry, made in the Instant Pot",
         card_href: "/brownlentils",
         button_title :"Whole Masoor Dal  Brown Lentil Recipie"
+    },
+    {
+        id: 29,
+        card_img: "besan.jpg",
+        card_title:"Chickpea Flour Curry also known as Besan",
+        card_text:"Enjoy this delicious and healthy Chickpea Flour also known as Besan.",
+        card_href: "/beasan",
+        button_title :"Chickpea Flour Curry Recipie"
     }
 ]
