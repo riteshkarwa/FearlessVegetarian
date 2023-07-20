@@ -14,12 +14,12 @@ class Wheretobegin extends Component {
             <p>
                 If you are trying to become vegetarian (aka lacto vegetarian) then you will come across lot of Indian dishes but it can be challenging if it is your first 
                 time cooking Indian Food. I was lucky enough to have my mommy dearest to guide me but that could not be the case with some or most of you. Indian Grocery 
-                store is the answer to all your question. All the weird sounding spices can be found in the Indian grocery store. Another thing that no one 
-                tells you is that you have to be very careful with spices, (tumeric and chili powder) too much of any of those is a straight up death sentence 
-                for the dish and you will have to start over. If you accidentally add to much chilli powder yogurt can help out but it depend on the dish you are making. 
+                store is the answer to all your questions. All the weird sounding spices can be found in the Indian grocery store. Another thing that no one 
+                tells you is that you have to be very careful with spices especially (tumeric and chili powder) too much of any of those is a straight up death sentence 
+                for the dish and you will have to start over. If you accidentally add to much chilli powder yogurt can help out but it depends on the dish you are making. 
                 Please don't give up after first few unsuccessful attempts at making a dish it gets easy after you have cooked couple of dishes. The internet is flooded with lot of vegan and vegetarian dishes but Indian food is by far the best one as it very 
                 flavorful. The ingredients for Indian food is generally not available in big chain grocery store and if they are they are expensive. I would love to help you overcome
-                all the obstacles if you are stuck, that is what inspired me to start this website. 
+                all the obstacles if you are stuck, that is what inspired me to start Fearless Vegetarian. 
             </p>
             <h2>Baby Steps</h2>
             <p>

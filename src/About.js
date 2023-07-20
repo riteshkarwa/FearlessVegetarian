@@ -1,40 +1,59 @@
 import React, { Component } from "react";
-import Image from "react-bootstrap/Image";
 
-class Wheretobegin extends Component {
+class About extends Component {
     render() {
       return (
         <div>
             <p>
-                <h1>Types of Vegetarians</h1>
-                <Image src="veg.jpg" thumbnail rounded></Image>
-            </p>
-            
-            <h1>Where To Begin With Cooking Delicious Vegetarian (aka Lacto Vegetarian) Food</h1>
-            <p>
-                If you are trying to become vegetarian (aka lacto vegetarian) then you will come across lot of Indian dishes but it can be challenging if it is your first 
-                time cooking Indian Food. I was lucky enough to have my mommy dearest to guide me but that could not be the case with some or most of you. Indian Grocery 
-                store is the answer to all your questions. All the weird sounding spices can be found in the Indian grocery store. Another thing that no one 
-                tells you is that you have to be very careful with spices especially (tumeric and chili powder) too much of any of those is a straight up death sentence 
-                for the dish and you will have to start over. If you accidentally add to much chilli powder yogurt can help out but it depends on the dish you are making. 
-                Please don't give up after first few unsuccessful attempts at making a dish it gets easy after you have cooked couple of dishes. The internet is flooded with lot of vegan and vegetarian dishes but Indian food is by far the best one as it very 
-                flavorful. The ingredients for Indian food is generally not available in big chain grocery store and if they are they are expensive. I would love to help you overcome
-                all the obstacles if you are stuck, that is what inspired me to start Fearless Vegetarian. 
-            </p>
-            <h2>Baby Steps</h2>
-            <p>
-              For most Americans, meat is the center piece to nearly every meal. As such, the very idea of vegetarianism can be daunting.
-              Often times those who try vegetarianism  end up failing due to recipes that leave them feeling
-              hungry or unsatisfied. This is where I come in - I am going to teach you how to be a fearless vegetarian, feel full, and enjoy cooking again. The best way to begin this lifestyle is to start with baby steps.  
-              You could begin with meatless Mondays, as my brother "Grant" calls them. Then work toward a meatless week. 
-              However, if you want to go all in I recommend trying to go vegetarian for at least three months. According to 
-              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3505409/" className="med_link" target="_blank" rel="noopener noreferrer"> National Library of Medicine </a>
-              the "21-day-habit" is a myth and in actuality it takes at least 66 days to form a true habitual change. Therefore, I believe in three months of following my recipes you would have formed a routine that leaves you feeling better, more energized,
-              and happier. 
+              Welcome to Fearless Vegetarian!
+
+              At Fearless Vegetarian, we are passionate advocates of the vegetarian lifestyle. 
+              Our mission is to inspire and empower individuals to embrace the power of plant-based eating, 
+              promoting a healthier, more compassionate, and sustainable way of living.
+
+              Founded by a group of food enthusiasts and health-conscious individuals, Fearless Vegetarian 
+              aims to be your go-to resource for all things related to vegetarianism. Whether 
+              you're a seasoned vegetarian, a curious beginner, or simply looking to incorporate more 
+              plant-based meals into your diet, we've got you covered. 
+              
+              Our website offers a wealth of information, including an extensive collection of delicious and 
+              nutritious vegetarian recipes. From quick and easy meals for busy weeknights to gourmet 
+              dishes that will impress your guests, our recipes cater to diverse tastes and occasions. 
+              
+              But Fearless Vegetarian is more than just a recipe website. We are dedicated to promoting 
+              the broader benefits of vegetarianism. From improved health and wellness to environmental 
+              sustainability and ethical considerations, we believe that every vegetarian choice can make a 
+              positive impact on ourselves and the world around us. 
+              
+              On our platform, you'll find valuable resources, insightful articles, and practical tips for 
+              adopting and maintaining a vegetarian lifestyle. We understand that transitioning to a plant-based 
+              diet may seem daunting at first, so we're here to provide guidance, support, and 
+              encouragement every step of the way. 
+              
+              At Fearless Vegetarian, we believe that vegetarianism is not about limitations; it's about 
+              embracing a world of exciting flavors, textures, and culinary possibilities. Our team is 
+              dedicated to curating content that celebrates the richness of plant-based ingredients and 
+              encourages creativity in the kitchen.
+              
+              We invite you to join our vibrant and inclusive community of like-minded individuals who are 
+              committed to making a difference through their food choices. Let's embark on this journey 
+              together, fearlessly exploring the joys of vegetarianism and discovering the immense 
+              satisfaction that comes from nourishing our bodies and souls with wholesome, 
+              compassionate meals. 
+              
+              For any inquiries or questions, feel free to reach out to us at fearlessvegetarian62@gmail.com. 
+              We would love to hear from you!
+              
+              Thank you for visiting Fearless Vegetarian. We hope our website becomes a trusted 
+              companion in your vegetarian journey, and we look forward to inspiring and supporting you 
+              every step of the way.
+
+              With gratitude and excitement,
+              The Fearless Vegetarian Team
             </p>
         </div>
       );
     }
 }
 
-export default Wheretobegin;
+export default About;
