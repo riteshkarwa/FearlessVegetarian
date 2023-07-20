@@ -47,9 +47,7 @@ describe('Fearless Vegetarian webpage testing', () => {
 
   it('visit About page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/about')
-    cy.get(':nth-child(3) > :nth-child(2)').should(($ele) => {
-      expect($ele.text().trim()).equal("Where To Begin With Cooking Delicious Vegetarian (aka Lacto Vegetarian) Food");
-    });
+    cy.get("p").contains("Welcome to Fearless Vegetarian!")
   })
 
   it('visit Privacy Policy page', () => {
