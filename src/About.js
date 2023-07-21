@@ -18,7 +18,7 @@ class About extends Component {
               
               Our website offers a wealth of information, including an extensive collection of delicious and 
               nutritious vegetarian recipes. From quick and easy meals for busy weeknights to gourmet 
-              dishes that will impress your guests, our recipes cater to diverse tastes and occasions. <br />
+              dishes that will impress your guests, our recipes cater to diverse tastes and occasions. <br />  <br />
               
               But Fearless Vegetarian is more than just a recipe website. We are dedicated to promoting 
               the broader benefits of vegetarianism. From improved health and wellness to environmental 
@@ -42,7 +42,9 @@ class About extends Component {
               compassionate meals.  <br />  <br />
               
               For any inquiries or questions, feel free to reach out to us at fearlessvegetarian62@gmail.com. 
-              We would love to hear from you! <br />  <br />
+              We would love to hear from you! Also checkout our
+              <a href="https://www.youtube.com/@fearlessvegetarian" className="med_link" target="_blank" rel="noopener noreferrer"> 
+              Youtube Channel  </a>and please like, share, subscribe and comment to show your support.<br /> <br /> 
               
               Thank you for visiting Fearless Vegetarian. We hope our website becomes a trusted 
               companion in your vegetarian journey, and we look forward to inspiring and supporting you 
