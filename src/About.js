@@ -11,7 +11,7 @@ class About extends Component {
               Our mission is to inspire and empower individuals to embrace the power of plant-based eating, 
               promoting a healthier, more compassionate, and sustainable way of living. <br />  <br />
 
-              Founded by a group of food enthusiasts and health-conscious individuals, Fearless Vegetarian 
+              At Fearless Vegetarian, we are a group of food enthusiasts and health-conscious individuals, Fearless Vegetarian 
               aims to be your go-to resource for all things related to vegetarianism. Whether 
               you're a seasoned vegetarian, a curious beginner, or simply looking to incorporate more 
               plant-based meals into your diet, we've got you covered. <br />  <br />
@@ -42,7 +42,9 @@ class About extends Component {
               compassionate meals.  <br />  <br />
               
               For any inquiries or questions, feel free to reach out to us at fearlessvegetarian62@gmail.com. 
-              We would love to hear from you! Also checkout our
+              We would love to hear from you! <br/> <br/>
+              
+              Also checkout our
               <a href="https://www.youtube.com/@fearlessvegetarian" className="med_link" target="_blank" rel="noopener noreferrer"> 
               Youtube Channel  </a>and please like, share, subscribe and comment to show your support.<br /> <br /> 
               
