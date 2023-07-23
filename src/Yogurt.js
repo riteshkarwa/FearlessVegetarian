@@ -10,15 +10,15 @@ import Col from 'react-bootstrap/Col';
 
 class Yogurt extends Component {
     render() {
-      const optsDesktop = {
-        height: '800',
-        width: '1000',
-      };
+    //   const optsDesktop = {
+    //     height: '800',
+    //     width: '1000',
+    //   };
 
-      const optsMobile = {
-        height: '550',
-        width: '325',
-      };
+    //   const optsMobile = {
+    //     height: '550',
+    //     width: '325',
+    //   };
       return (
         <div>
             <h1>Homemade Yougurt made using an Instant Pot Ultra. While an Instant Pot is not a necessity for making yogurt, it excels as a yogurt maker.
