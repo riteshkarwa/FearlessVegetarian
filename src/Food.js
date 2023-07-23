@@ -251,7 +251,7 @@ export const Food = [
     },
     {
         id: 31,
-        card_img: "yogurt.png",
+        card_img: "yogurt.jpg",
         card_title: "Homemade Instant Pot Yogurt",
         card_text: "Instant Pot Yogurt, Not only is it easy it’ll add a new spark to your love affair with yogurt! ",
         card_href: "/yogurt",
