@@ -43,7 +43,7 @@ class Yogurt extends Component {
                     (The readout will depend on your model. Refer to the yogurt section of your Instant Pot manual if you need clarification.)</li>
                 <li>This will heat the milk and bring it to a boil. Keep an eye on the temperature until it reaches around 180°F (82°C).</li>
                 <li>Eventually it will bring the milk to 180° F (this kills off undesirable microorganisms). It usually takes about 30 minutes.
-                    When it's done, the Instant Pot will beep and its readout will say “Yogurt.”</li>
+                    When it's done, the Instant Pot will beep and its readout will say “Yogt.”</li>
                 <li>I had to use the saute mode to get the temperature to 180°F.</li> 
                 <li>Right after the Instant Pot beeps, turn it off and lift out the insert of hot milk. Put the thermometer in the milk and wait until it’s 116° F. 
                     This can take as long as an hour.</li> 
@@ -63,7 +63,7 @@ class Yogurt extends Component {
                 <li>Your homemade yogurt is now ready to enjoy! You</li>
             </ol>
             <h2>Final Product</h2>
-            <Image src="yogurt.jpg" thumbnail rounded fluid></Image>
+            <Image src="yogurt1.jpg" thumbnail rounded fluid></Image>
             {/* <div>
               <h2>Upma Preparation Video</h2>
               <MediaQuery maxWidth={767}>
