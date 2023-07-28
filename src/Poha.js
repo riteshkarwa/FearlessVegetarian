@@ -4,9 +4,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import YouTube from 'react-youtube';
+import MediaQuery from 'react-responsive';
 
 class Poha extends Component {
     render() {
+      const optsDesktop = {
+        height: '800',
+        width: '1000',
+      };
+    
+      const optsMobile = {
+        height: '550',
+        width: '325',
+      };
       return (
         <div>
             <h1>The word Poha refers to 2 things – the first one is the ingredient flattened rice itself and the second one is the Poha recipe or the dish that is made with this particular ingredient</h1>
@@ -52,6 +63,15 @@ class Poha extends Component {
             </ol>
             <h2>Final Product</h2>
             <Image src="poha.jpg" thumbnail rounded fluid></Image>
+            <div>
+              <h2>Yogurt Preparation Video</h2>
+              <MediaQuery maxWidth={767}>
+                  <YouTube videoId="2FO9-kIQs20" opts={optsMobile} />
+              </MediaQuery>
+              <MediaQuery minWidth={767}>
+                  <YouTube videoId="2FO9-kIQs20" opts={optsDesktop} />
+              </MediaQuery>
+            </div>
         </div>
       );
     }
