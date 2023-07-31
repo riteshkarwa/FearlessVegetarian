@@ -28,7 +28,7 @@ class Lentil extends Component {
           <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
         </Row>
         <div className="ingredients">Ingredients</div>
-        <ol style={{ fontSize: "1.5rem" }}> 
+        <ol> 
             <li>1 teaspoon ginger powder</li> 
             <li>1 teaspoon onion powder </li> 
             <li>1 tablespoon coriander powder </li> 
@@ -47,7 +47,7 @@ class Lentil extends Component {
         </ol>
         <div className="ingredients">Instruction</div>
         
-        <ol style={{ fontSize: "1.5rem" }}> 
+        <ol> 
             <li>Take 1 cup each of Masoor dal, Toor dal, and Chana dal, and mix them together. Add the mixed dals to a pot or pressure cooker. 
                 Rinse it well a few times. Drain the water completely.</li> 
             <li>Add 5 cups of water and pressure cook it for 10 min. Make sure the lentils turns soft. Press down few lentils between your thumb and fore fingers.
@@ -66,8 +66,7 @@ class Lentil extends Component {
             <li>Constantly stir the potatoes so they do not stick to the bottom of the pan</li> 
             <li>Add salt as per taste and Rani Fenugreek Leaves Dried (Kasoori Methi)</li> 
             <li>You can garnish the lentil soup by sprinkling some finely chopped coriander leaves & lemon juice.</li> 
-            <li>Serve Masoor Dal with rice or roti, mango pickle, veggie salad. </li> 
-             
+            <li>Serve Masoor Dal with rice or roti, mango pickle, veggie salad. </li>   
         </ol>
         <h2>Final Product</h2>
         <MediaQuery maxWidth={767}>
