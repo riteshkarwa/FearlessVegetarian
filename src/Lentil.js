@@ -54,11 +54,14 @@ class Lentil extends Component {
                 They should get mashed easily. Heat the lentils a little more if the lentils are not soft.
             </li>
             <li>Heat 2 tbsp olive oil on a medium heat in a non stick pot. </li> 
-            <li>Add one after the other - 1⁄2 teaspoon cumin seeds, 2 chopped garlic cloves and 1 to 2 broken dried red chilies. You can also add a bay leaf or a sprig of curry leaves (pat dry).</li>
+            <li>Add one after the other - 1/2 teaspoon cumin seeds, 2 chopped garlic cloves and 1 to 2 broken dried red chilies. You can also add a bay leaf 
+              or a sprig of curry leaves (pat dry).</li>
             <li>Add chopped onions and tomato and let it cook for 5 minutes.</li>
             <li>When the garlic turns slightly golden, turn the heat to low (or turn off if the pan is too hot). </li>
-            <li>Add 1 pinch hing (Asafoetida) found in the Indian Grocery store, 1⁄4 teaspoon turmeric and 1⁄4 to 1⁄2 teaspoon red chili powder (adjust to taste). </li>
-            <li>Add a pinch of Garam Masala found in the Indian Grocery store. Chili powder tends to burn quickly so pour this immediately to the pressure cooked lentil. </li> 
+            <li>Add 1 pinch hing (Asafoetida) found in the Indian Grocery store, 1/4 teaspoon turmeric and 1/4 to 1/2 teaspoon red chili powder 
+              (adjust to taste). </li>
+            <li>Add a pinch of Garam Masala found in the Indian Grocery store. Chili powder tends to burn quickly so pour this immediately to the 
+              pressure cooked lentil. </li> 
             <li>Add the pressure cooked lentil to the pot and 1 cup of water.</li> 
             <li>Constantly stir the potatoes so they do not stick to the bottom of the pan</li> 
             <li>Add salt as per taste and Rani Fenugreek Leaves Dried (Kasoori Methi)</li> 
@@ -76,10 +79,10 @@ class Lentil extends Component {
         <div>
             <h2>Lentil Soup / Tadka Daal Preparation Video</h2>
             <MediaQuery maxWidth={767}>
-                <YouTube videoId="wQwtRohsBt8" opts={optsMobile} />
+                <YouTube videoId="LLafY-6nd3M" opts={optsMobile} />
             </MediaQuery>
             <MediaQuery minWidth={767}>
-                <YouTube videoId="wQwtRohsBt8" opts={optsDesktop} />
+                <YouTube videoId="LLafY-6nd3M" opts={optsDesktop} />
             </MediaQuery>
         </div>
       </div>
