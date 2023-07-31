@@ -28,7 +28,7 @@ class Lentil extends Component {
           <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
         </Row>
         <div className="ingredients">Ingredients</div>
-        <ol> 
+        <ol style={{ fontSize: "1.5rem" }}> 
             <li>1 teaspoon ginger powder</li> 
             <li>1 teaspoon onion powder </li> 
             <li>1 tablespoon coriander powder </li> 
@@ -47,7 +47,7 @@ class Lentil extends Component {
         </ol>
         <div className="ingredients">Instruction</div>
         
-        <ol> 
+        <ol style={{ fontSize: "1.5rem" }}> 
             <li>Take 1 cup each of Masoor dal, Toor dal, and Chana dal, and mix them together. Add the mixed dals to a pot or pressure cooker. 
                 Rinse it well a few times. Drain the water completely.</li> 
             <li>Add 5 cups of water and pressure cook it for 10 min. Make sure the lentils turns soft. Press down few lentils between your thumb and fore fingers.
@@ -76,6 +76,7 @@ class Lentil extends Component {
         <MediaQuery minWidth={767}>
           <Image src="lentil.jpg" thumbnail rounded width="40%" height="40%"></Image>
         </MediaQuery>
+        <br/>
         <div>
             <h2>Lentil Soup / Tadka Daal Preparation Video</h2>
             <MediaQuery maxWidth={767}>
