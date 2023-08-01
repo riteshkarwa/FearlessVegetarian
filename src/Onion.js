@@ -30,7 +30,7 @@ class Onion extends Component {
             </Row>
             <div className="ingredients">Ingredients</div>
             <ol>
-                <li>1 tablespoon cooking oil<li/> 
+                <li>1 tablespoon cooking oil</li> 
                 <li>2 whole medium size onion</li> 
                 <li>1/2 teaspoon Cumin seeds (Jeera)</li> 
                 <li>1/2 teaspoon Mustard seeds</li>
@@ -43,7 +43,7 @@ class Onion extends Component {
                 <li>1/2 teaspoon Kitchen King Masala found in Indian Grocery Store</li>
                 <li>1/4 teaspoon fenugreek leaves for garnishing</li>
                 <li>1 whole green chiles chopped</li>
-                <li>Salt , to taste </li>
+                <li>Salt, to taste </li>
             </ol>
             <div className="ingredients">Instruction</div>
             <ol> 
