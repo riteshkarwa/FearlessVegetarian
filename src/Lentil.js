@@ -73,7 +73,7 @@ class Lentil extends Component {
           <Image src="lentil.jpg" thumbnail rounded fluid></Image>
         </MediaQuery>
         <MediaQuery minWidth={767}>
-          <Image src="lentil.jpg" thumbnail rounded width="40%" height="40%"></Image>
+          <Image src="lentil.jpg" thumbnail rounded width="60%" height="60%"></Image>
         </MediaQuery>
         <div>
             <br/>
