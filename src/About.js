@@ -46,7 +46,7 @@ class About extends Component {
               
               Also checkout our
               <a href="https://www.youtube.com/@fearlessvegetarian" className="med_link" target="_blank" 
-              rel="noopener noreferrer"> <pre> Youtube Channel </pre></a> and please like, share, subscribe and comment to show your support.<br /> <br /> 
+              rel="noopener noreferrer"> Youtube Channel </a> and please like, share, subscribe and comment to show your support.<br /> <br /> 
               
               Thank you for visiting Fearless Vegetarian. We hope our website becomes a trusted 
               companion in your vegetarian journey, and we look forward to inspiring and supporting you 
