@@ -63,10 +63,10 @@ class Onion extends Component {
             <div>
                 <h2>Aloo Gobi Preparation Video</h2>
                 <MediaQuery maxWidth={767}>
-                    <YouTube videoId="77BD2MktSI0" opts={optsMobile} />
+                    <YouTube videoId="Kz2xFVxvvf4" opts={optsMobile} />
                 </MediaQuery>
                 <MediaQuery minWidth={767}>
-                    <YouTube videoId="77BD2MktSI0" opts={optsDesktop} />
+                    <YouTube videoId="Kz2xFVxvvf4" opts={optsDesktop} />
                 </MediaQuery>
             </div>
         </div>
