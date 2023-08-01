@@ -256,5 +256,13 @@ export const Food = [
         card_text: "Instant Pot Yogurt, Not only is it easy it’ll add a new spark to your love affair with yogurt! ",
         card_href: "/yogurt",
         button_title: "Instant Pot Yogurt Recipie"
+    },
+    {
+        id: 32,
+        card_img: "onion.jpg",
+        card_title: "Onion Curry Recipe",
+        card_text: "Onion Curry is one of those recipes which is very easy and quick to make ",
+        card_href: "/onion",
+        button_title: "Onion Curry Recipie"
     }
 ]

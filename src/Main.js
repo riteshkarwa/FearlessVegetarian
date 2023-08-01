@@ -43,6 +43,7 @@ import Besan from "./Besan";
 import Cabbage from "./Cabbage";
 import Wheretobegin from "./Wheretobegin";
 import Yogurt from "./Yogurt";
+import Onion from "./Onion";
 
 
 
@@ -117,6 +118,7 @@ class Main extends Component {
             <Route exact path="/beasan" element= {<Besan/>}></Route>
             <Route exact path="/cabbage" element= {<Cabbage/>}></Route>
             <Route exact path="/yogurt" element= {<Yogurt />}></Route>
+            <Route exact path="/onion" element= {<Onion/>}></Route>
             <Route path='*' element={<Notfound />}/>
           </Routes>
         </div>

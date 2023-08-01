@@ -32,7 +32,6 @@ class Aloogobi extends Component {
             <ol> 
                 <li>1 teaspoon onion powder </li> 
                 <li>1 tablespoon coriander powder </li> 
-                <li>1 tablespoon coriander powder </li> 
                 <li>1/8 teaspoon tumeric powder</li> 
                 <li>1/8 teaspoon red chili powder</li> 
                 <li>1 teaspoon cumin seeds found in Indian Grocery store</li> 
@@ -40,7 +39,7 @@ class Aloogobi extends Component {
                 <li>1 whole potato big size or 2 potatoes small size </li>
                 <li>Salt as per taste</li> 
                 <li>1 onion</li> 
-                <li>1/8 teaspoon Amchoor Powder - Dried Mango Powder found in Indian Store</li>
+                <li>1/8 teaspoon Amchoor Powder - Dried Mango Powder found in Indian Grocery Store</li>
                 <li>5 piece of cloves</li>
                 <li>2 whole cardamom pods </li>
                 <li>2 small piece of ginger peeled</li>

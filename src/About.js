@@ -44,7 +44,7 @@ class About extends Component {
               For any inquiries or questions, feel free to reach out to us at fearlessvegetarian62@gmail.com. 
               We would love to hear from you! <br/> <br/>
               
-              Also checkout our
+              Also checkout our 
               <a href="https://www.youtube.com/@fearlessvegetarian" className="med_link" target="_blank" rel="noopener noreferrer"> 
               Youtube Channel  </a>and please like, share, subscribe and comment to show your support.<br /> <br /> 
               
