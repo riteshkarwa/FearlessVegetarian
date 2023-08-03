@@ -23,8 +23,7 @@ class Dhokla extends Component {
                 <h1>Khaman Dhokla is a delectable and spongy snack that originates from the western part of India. It's made from chickpea flour 
                     and has a light, airy texture with a mildly tangy and slightly sweet flavor. The dish is often steamed, resulting in its 
                     distinctive softness, and is typically garnished with a tempering of mustard seeds, curry leaves, and green chilies, 
-                    which adds a delightful crunch and a hint of spiciness. Khaman Dhokla is not only a popular tea-time treat in India but 
-                    also a wonderful introduction to the country's rich culinary diversity for those new to Indian cuisine.
+                    which adds a delightful crunch and a hint of spiciness.
                 </h1>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
@@ -46,7 +45,7 @@ class Dhokla extends Component {
                         <li>1 inch piece of ginger peeled</li>
                     </ol>
                 <div className="ingredients">Instruction</div>
-                <div style={{textDecorationLine:'underline'}}>Making the Dhokla Batter</div>
+                <h2>Making the Dhokla Batter</h2>
                     <ol>
                         <li>Add 2 tablespoon cooking oil to the blender.</li>
                         <li>Next add 3 teaspoon sugar to the blender.</li>
@@ -64,7 +63,7 @@ class Dhokla extends Component {
                         <li>Run the blender once again to mix all the ingredients.</li>
                         <li>Rest the batter for 10 minutes.</li>
                     </ol>
-                <div style={{textDecorationLine:'underline'}}>Steaming the Dhokla</div>
+                <h2>Steaming the Dhokla</h2>
                     <ol>
                         <li>Pour 2.5 to 3.5 cups of water to a pot or a steamer. Place a steel rack or a ring or a long legged trivet. Cover and bring 
                             the water to a rolling boil. (I pour about 4 cups as I use a large pot)</li>
@@ -78,7 +77,7 @@ class Dhokla extends Component {
                         <li>Once done, a knife inserted in the center should come out clean. Turn off the
                             stove and leave it covered in the pot for another 5 mins.</li>
                     </ol>
-                <div style={{textDecorationLine:'underline'}}>Tempering the Dhokla</div>
+                <h2>Tempering the Dhokla</h2>
                     <ol>
                         <li>Pour 2 tablespoon oil to a non stick pan and heat it. Add 1 tablespoon mustard seeds.</li>
                         <li>When they begin to crackle, add curry leaves and sliced green chilies.</li>
