@@ -264,5 +264,13 @@ export const Food = [
         card_text: "Onion Curry is one of those recipes which is very easy and quick to make ",
         card_href: "/onion",
         button_title: "Onion Curry Recipie"
+    },
+    {
+        id: 33,
+        card_img: "dhokla.jpg",
+        card_title: "Khaman Dhokla Recipe",
+        card_text: "Delicious Chickpea Flour Snack Cake - Khaman Dhokla",
+        card_href: "/dhokla",
+        button_title: "Khaman Dhokla Recipie"
     }
 ]
