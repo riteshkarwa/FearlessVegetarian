@@ -97,10 +97,10 @@ class Dhokla extends Component {
                 <div>
                     <h2>Yogurt Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
-                    <YouTube videoId="IZWRxGrtZF4" opts={optsMobile} />
+                    <YouTube videoId="QLktjdbHpWs" opts={optsMobile} />
                     </MediaQuery>
                     <MediaQuery minWidth={767}>
-                    <YouTube videoId="IZWRxGrtZF4" opts={optsDesktop} />
+                    <YouTube videoId="QLktjdbHpWs" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
             </div>
