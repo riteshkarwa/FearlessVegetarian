@@ -95,7 +95,7 @@ class Dhokla extends Component {
                 <h2>Final Product</h2>
                 <Image src="dhokla.jpg" thumbnail rounded fluid></Image>
                 <div>
-                    <h2>Yogurt Preparation Video</h2>
+                    <h2>Khaman Dhokla Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
                     <YouTube videoId="QLktjdbHpWs" opts={optsMobile} />
                     </MediaQuery>
