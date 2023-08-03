@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import YouTube from 'react-youtube';
+import MediaQuery from 'react-responsive';
 
 class Dhokla extends Component {
     render() {
