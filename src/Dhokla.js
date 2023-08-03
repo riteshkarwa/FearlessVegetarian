@@ -46,6 +46,7 @@ class Dhokla extends Component {
                         <li>1 inch piece of ginger peeled</li>
                     </ol>
                 <div className="ingredients">Instruction</div>
+                <div style={{textDecorationLine:'underline'}}>Making the Dhokla Batter</div>
                     <ol>
                         <li>Add 2 tablespoon cooking oil to the blender.</li>
                         <li>Next add 3 teaspoon sugar to the blender.</li>
@@ -63,7 +64,7 @@ class Dhokla extends Component {
                         <li>Run the blender once again to mix all the ingredients.</li>
                         <li>Rest the batter for 10 minutes.</li>
                     </ol>
-                <div className="ingredients">Steaming the Dhokla</div>
+                <div style={{textDecorationLine:'underline'}}>Steaming the Dhokla</div>
                     <ol>
                         <li>Pour 2.5 to 3.5 cups of water to a pot or a steamer. Place a steel rack or a ring or a long legged trivet. Cover and bring 
                             the water to a rolling boil. (I pour about 4 cups as I use a large pot)</li>
@@ -77,7 +78,7 @@ class Dhokla extends Component {
                         <li>Once done, a knife inserted in the center should come out clean. Turn off the
                             stove and leave it covered in the pot for another 5 mins.</li>
                     </ol>
-                <div className="ingredients">Tempering the Dhokla</div>
+                <div style={{textDecorationLine:'underline'}}>Tempering the Dhokla</div>
                     <ol>
                         <li>Pour 2 tablespoon oil to a non stick pan and heat it. Add 1 tablespoon mustard seeds.</li>
                         <li>When they begin to crackle, add curry leaves and sliced green chilies.</li>
