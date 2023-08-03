@@ -269,7 +269,7 @@ export const Food = [
         id: 33,
         card_img: "dhokla.jpg",
         card_title: "Khaman Dhokla Recipe",
-        card_text: "Delicious Chickpea Flour Snack Cake - Khaman Dhokla",
+        card_text: "Delicious Chickpea Flour Snack Cake - Khaman Dhokla. It's made from chickpea flour and has a light, airy texture with a mildly tangy and slightly sweet flavor",
         card_href: "/dhokla",
         button_title: "Khaman Dhokla Recipie"
     }
