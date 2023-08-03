@@ -73,10 +73,10 @@ class Upma extends Component {
             <div>
               <h2>Upma Preparation Video</h2>
               <MediaQuery maxWidth={767}>
-                  <YouTube videoId="xH-55B5S2q4" opts={optsMobile} />
+                  <YouTube videoId="_gl_nFzJYz0" opts={optsMobile} />
               </MediaQuery>
               <MediaQuery minWidth={767}>
-                  <YouTube videoId="xH-55B5S2q4" opts={optsDesktop} />
+                  <YouTube videoId="_gl_nFzJYz0" opts={optsDesktop} />
               </MediaQuery>
             </div>
         </div>
