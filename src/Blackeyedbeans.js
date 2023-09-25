@@ -5,12 +5,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import YouTube from 'react-youtube';
 
 class Blackeyedbeans extends Component {
   render() {
+    const optsDesktop = {
+        height: '800',
+        width: '1000',
+    };
+  
+    const optsMobile = {
+        height: '550',
+        width: '325',
+    };
     return (
       <div>
-        <h1>Black Eyed Beans Seasoned with Indian Spices. It is a tradition to eat them on 1st January for luck and prosperity. It doesn't
+        <h1>Black Eyed Peas Curry seasoned with Indian Spices. It is a tradition to eat them on 1st January for luck and prosperity. It doesn't
             have to be just 1st of January eat it all year long for more luck and prosperity.
         </h1>
         <Row className="cooktimerow">
@@ -21,21 +31,17 @@ class Blackeyedbeans extends Component {
         </Row>
         <div className="ingredients">Ingredients</div>
             <ol>  
-                <li>1 teaspoon onion powder </li> 
-                <li>1 tablespoon coriander powder </li> 
-                <li>1/8 teaspoon tumeric powder</li> 
-                <li>1/8 teaspoon red chili powder</li> 
-                <li>1 tablespoon curry powder</li> 
-                <li>1 teaspoon cumin powder</li> 
-                <li>1 tablespoon Garam Masala spice found in Indian Grocery store</li> 
+                <li>1 teaspoon coriander powder</li> 
+                <li>1/4 teaspoon tumeric powder</li> 
+                <li>1/4 teaspoon red chili powder</li> 
+                <li>1 teaspoon Garam Masala spice found in Indian Grocery store</li> 
                 <li>2 whole potatoes</li>
                 <li>Salt as per taste</li> 
-                <li>1 onion</li> 
-                <li>1/8 teaspoon Amchoor Powder - Dried Mango Powder found in Indian Grocery Store</li>
-                <li>1/2 teaspoon Kitchen King Spice found in Indian Store</li>
+                <li>1 whole onion</li> 
+                <li>1/4 teaspoon Kitchen King Spice found in Indian Store</li>
                 <li>5 piece of cloves</li>
                 <li>2 small piece of ginger peeled</li>
-                <li>2 dried curry leaves </li>
+                <li>3 to 4 dried curry leaves </li>
                 <li>2 Whole Tomatoes </li>
                 <li>2 cups of black eyed beans</li>
             </ol>
@@ -67,7 +73,16 @@ class Blackeyedbeans extends Component {
                 <MediaQuery minWidth={767}>
                     <Image src="blackeyedbeans.jpg" thumbnail rounded width="50%" height="50%"></Image>
                 </MediaQuery>
-      </div>
+                <div>
+                <h2>Black Eyed Peas Curry Preparation Video</h2>
+                <MediaQuery maxWidth={767}>
+                    <YouTube videoId="yiKLvJ7gBMw" opts={optsMobile} />
+                </MediaQuery>
+                <MediaQuery minWidth={767}>
+                    <YouTube videoId="yiKLvJ7gBMw" opts={optsDesktop} />
+                </MediaQuery>
+              </div>
+        </div>
     );
   }
 }
