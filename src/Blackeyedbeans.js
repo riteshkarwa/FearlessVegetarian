@@ -39,7 +39,6 @@ class Blackeyedbeans extends Component {
                 <li>Salt as per taste</li> 
                 <li>1 whole onion</li> 
                 <li>1/4 teaspoon Kitchen King Spice found in Indian Store</li>
-                <li>5 piece of cloves</li>
                 <li>2 small piece of ginger peeled</li>
                 <li>3 to 4 dried curry leaves </li>
                 <li>2 Whole Tomatoes </li>

@@ -45,6 +45,7 @@ import Wheretobegin from "./Wheretobegin";
 import Yogurt from "./Yogurt";
 import Onion from "./Onion";
 import Dhokla from "./Dhokla";
+import Rajmah from "./Rajmah";
 
 
 
@@ -121,6 +122,7 @@ class Main extends Component {
             <Route exact path="/yogurt" element= {<Yogurt />}></Route>
             <Route exact path="/onion" element= {<Onion/>}></Route>
             <Route exact path="/dhokla" element={<Dhokla/>}></Route>
+            <Route exact path="/rajmah" element={<Rajmah/>}></Route>
             <Route path='*' element={<Notfound />}/>
           </Routes>
         </div>

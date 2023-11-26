@@ -273,4 +273,12 @@ export const Food = [
         card_href: "/dhokla",
         button_title: "Khaman Dhokla Recipie"
     }
+    {
+        id: 34,
+        card_img: "rajmah.jpg",
+        card_title: "Red Kidney Beans Curry Recipe",
+        card_text: "Rajma is the Indian name for kidney beans. These are soaked, cooked & then simmered with onions, tomatoes & spices to make the dish, Rajma masala.",
+        card_href: "/rajmah",
+        button_title: "Red Kidney Bean Curry Recipie"
+    }
 ]
