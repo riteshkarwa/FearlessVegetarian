@@ -283,10 +283,10 @@ export const Food = [
     },
     {
         id: 35,
-        card_img: "rajmah.jpg",
+        card_img: "ricebeans.jpg",
         card_title: "Zesty Mexican Rice with Black Beans, Corn, and Peppers Recipe",
         card_text: "Zesty Mexican Rice with Black Beans, Corn, and Peppers: A Flavorful Fiesta in Every Bite recipe instructions",
         card_href: "/riceandbeans",
-        button_title: "Zesty Mexican Rice with Black Beans, Corn, and Peppers Recipie"
+        button_title: "Mexican Rice with Black Beans Recipie"
     }
 ]
