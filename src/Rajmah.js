@@ -66,7 +66,7 @@ class Rajmah extends Component {
                 <h2>Final Product</h2>
                 <Image src="rajmah.jpg" thumbnail rounded fluid></Image>
                 <div>
-                    <h2>Khaman Dhokla Preparation Video</h2>
+                    <h2>Rajmah Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
                     <YouTube videoId="QROugaifSsE" opts={optsMobile} />
                     </MediaQuery>
