@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {Route, Routes} from "react-router-dom";
+import { Helmet } from "react-helmet";
 import Recipe from "./Recipe";
 import Home from "./Home";
 import Potato from "./Potato";
@@ -58,7 +59,17 @@ class Main extends Component {
     return(
       <Container className="p-3">
         <div>
-          <div >
+        <Helmet>
+          <title>Fearless Vegetarian</title>
+          <meta 
+            name="description" 
+            content="Discover a world of bold flavors with our Fearless Vegetarian recipes. Elevate your meatless meals with innovative, delicious dishes that prove vegetarian cooking can be exciting, satisfying, and packed with fearless flavors. Explore our collection now and embark on a culinary journey that celebrates the vibrant and diverse world of vegetarian cuisine" />
+          <meta
+            name="keywords"
+            content="vegetarian recipes, meatless meals, bold flavors, fearless cooking, plant-based cuisine, vegetarian delights, innovative vegetarian dishes, vibrant vegetarian, culinary exploration, vegetarian lifestyle, fearless flavor combinations, vegetarian cooking inspiration"
+          />
+        </Helmet>
+          <div>
             <MediaQuery maxWidth={767}>
               <img className="bg" src="spices_mobile.jpg" alt="Indian Spices logo banner" />
             </MediaQuery>
