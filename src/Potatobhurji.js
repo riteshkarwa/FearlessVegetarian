@@ -97,7 +97,7 @@ class Potatobhurji extends Component {
           <li>Garnish with cilantro leaves.</li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="potatobhurji.jpg" thumbnail rounded fluid></Image>
+        <Image src="potatobhurji.jpg" alt="Any Time Potato Seasoned with Indian Spices Image" thumbnail rounded fluid></Image>
       </div>
     );
   }

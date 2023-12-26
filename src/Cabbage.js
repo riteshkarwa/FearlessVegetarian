@@ -23,7 +23,7 @@ class Cabbage extends Component {
             <div>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Soulful Cabbage Curry: A Harmony of Flavors in Every Bite</title>
+                    <title>Soulful Cabbage Curry (Patta Gobi): A Harmony of Flavors in Every Bite</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/cabbage" />
                     <meta
                         name="description"
@@ -75,14 +75,14 @@ class Cabbage extends Component {
                     <li>Serve the cabbage curry with Indian bread.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="cabbage.jpg" thumbnail rounded fluid></Image>
+                <Image src="cabbage.jpg" alt="Soulful Cabbage Curry Image" thumbnail rounded fluid></Image>
                 <div>
-                    <h2>Aloo Gobi Preparation Video</h2>
+                    <h2>Cabbage Curry (Patta Gobi) Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
-                        <YouTube videoId="sh0Td6f1JO4" opts={optsMobile} />
+                        <YouTube videoId="4Kw-8PPg8Zs" opts={optsMobile} />
                     </MediaQuery>
                     <MediaQuery minWidth={767}>
-                        <YouTube videoId="sh0Td6f1JO4" opts={optsDesktop} />
+                        <YouTube videoId="4Kw-8PPg8Zs" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
             </div>
