@@ -9,6 +9,19 @@ class Potato extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Any Time Potato Delight: Indian Spiced Goodness with Vegan Sausage Perfection</title>
+          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/potato" />
+          <meta 
+            name="description"
+            content="Savor the delicious fusion of Any Time Potato seasoned with authentic Indian spices, paired with flavorful Vegan Sausage. This mouthwatering dish offers a perfect blend of spices, textures, and plant-based goodness. Whether for breakfast, lunch, or dinner, indulge in a satisfying and aromatic culinary experience. Elevate your vegan dining with this delectable combination of seasoned potatoes and savory vegan sausage – a delightful feast for any time of the day!"
+          />
+          <meta
+            name="keywords"
+            content="Any Time Potato, Indian Spices, Vegan Sausage, plant-based cuisine, vegan recipes, versatile potato dishes, savory spiced potatoes, flavorful vegan sausage, vegan meal ideas, plant-based cooking, aromatic Indian spices, delicious vegan options, anytime dining, vegan comfort food"
+          />
+        </Helmet>
         <h1>Any Time Potato Seasoned with Indian Spices served with Vegan Sausage</h1>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
