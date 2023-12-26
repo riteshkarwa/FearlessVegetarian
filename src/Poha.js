@@ -24,7 +24,7 @@ class Poha extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Flavorful Poha Delight: A Quick and Wholesome Breakfast Recipe!</title>
-          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/pavbhaji" />
+          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/poha" />
           <meta
             name="description"
             content="Start your day with our Flavorful Poha Delight, a quick and wholesome breakfast recipe that combines the goodness of flattened rice with aromatic spices and nutritious ingredients. This step-by-step guide ensures a delicious and satisfying morning meal that's easy to prepare. Elevate your breakfast routine with the flavors of Indian cuisine and enjoy a nutritious start to your day. Discover the joy of cooking with our Poha recipe – a perfect blend of simplicity and taste!"
@@ -76,7 +76,7 @@ class Poha extends Component {
           <li>Your Poha (thick variety flattened rice) is now ready. Squeeze some lemon juice before eating your Poha (thick variety flattened rice).</li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="poha.jpg" thumbnail rounded fluid></Image>
+        <Image src="poha.jpg" alt="Plate of Delicious Poha: A Quick and Wholesome Indian Breakfast Delight" thumbnail rounded fluid></Image>
         <div>
           <h2>Yogurt Preparation Video</h2>
           <MediaQuery maxWidth={767}>
