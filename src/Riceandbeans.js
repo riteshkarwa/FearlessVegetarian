@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
+import { Helmet } from "react-helmet";
 
 class Riceandbeans extends Component {
     render() {
@@ -20,7 +21,20 @@ class Riceandbeans extends Component {
         };
         return (
             <div>
-                <h1>Zesty Mexican Rice with Black Beans, Corn, and Peppers: A Flavorful Fiesta in Every Bite recipe instructions</h1>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Zesty Mexican Rice with Black Beans, Corn, and Peppers: A Flavorful Fiesta in Every Bite recipe</title>
+                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/riceandbeans" />
+                    <meta
+                        name="description"
+                        content="Transport your taste buds to a culinary fiesta with our Zesty Mexican Rice recipe! This step-by-step guide will walk you through creating a flavorful masterpiece featuring black beans, corn, and peppers. Elevate your cooking skills and enjoy a burst of Mexican-inspired goodness in every mouthful. Perfect as a side or a standalone dish, this recipe promises a symphony of vibrant flavors and textures. Embark on a flavorful journey with our easy-to-follow instructions and bring the spirit of Mexico to your table!"
+                    />
+                    <meta
+                        name="keywords"
+                        content="Mexican rice, black beans, corn, peppers, zesty rice recipe, flavorful Mexican cuisine, easy Mexican rice, vegetarian Mexican dishes, vibrant side dishes, Mexican-inspired cooking, homemade rice and beans, fiesta-worthy recipes, Tex-Mex flavors, step-by-step cooking, delicious rice dishes, colorful and tasty"
+                    />
+                </Helmet>
+                <h1>Zesty Mexican Rice with Black Beans, Corn, and Peppers: A Flavorful Fiesta in Every Bite Recipe</h1>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
                 </Row>
