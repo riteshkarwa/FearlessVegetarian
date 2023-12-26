@@ -4,11 +4,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import {Helmet} from "react-helmet";
  
 class Potatobhurji extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Any Time Potato Seasoned with Indian Spices</title>
+          <link rel="canonical" href="https://mysite.com/examphttps://fearlessvegetarian.netlify.app/potato" />
+        </Helmet>
         <h1>Any Time Potato Seasoned with Indian Spices</h1>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
