@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
+import { Helmet } from "react-helmet";
 
 class Dhokla extends Component {
     render() {
@@ -13,16 +14,29 @@ class Dhokla extends Component {
             height: '800',
             width: '1000',
         };
-      
+
         const optsMobile = {
             height: '550',
             width: '325',
         };
         return (
             <div>
-                <h1>Khaman Dhokla is a delectable and spongy snack that originates from the western part of India. It's made from chickpea flour 
-                    and has a light, airy texture with a mildly tangy and slightly sweet flavor. The dish is often steamed, resulting in its 
-                    distinctive softness, and is typically garnished with a tempering of mustard seeds, curry leaves, and green chilies, 
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Khaman Dhokla Delight: Spongy Chickpea Flour Snack with a Tangy, Sweet Flavor, Steamed to Perfection</title>
+                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/dhokla" />
+                    <meta
+                        name="description"
+                        content="Indulge in the delectable delight of our Khaman Dhokla, a spongy chickpea flour snack with a perfect balance of tangy and sweet flavors. This meta description invites you to savor the airy and soft texture of this steamed delicacy, originating from the western part of India. Explore the unique combination of chickpea flour, mustard seeds, curry leaves, and green chilies, providing a delightful crunch and a hint of spiciness. Elevate your snack time with this easy-to-make, flavorful dish that's a true culinary gem."
+                    />
+                    <meta
+                        name="keywords"
+                        content="khaman dhokla, chickpea flour snack, spongy dhokla, tangy and sweet flavor, steamed delicacy, Indian snacks, vegetarian delight, western Indian cuisine, mustard seeds, curry leaves, green chilies, flavorful snack, easy-to-make dhokla, airy texture, culinary gem"
+                    />
+                </Helmet>
+                <h1>Khaman Dhokla is a delectable and spongy snack that originates from the western part of India. It's made from chickpea flour
+                    and has a light, airy texture with a mildly tangy and slightly sweet flavor. The dish is often steamed, resulting in its
+                    distinctive softness, and is typically garnished with a tempering of mustard seeds, curry leaves, and green chilies,
                     which adds a delightful crunch and a hint of spiciness.
                 </h1>
                 <Row className="cooktimerow">
@@ -32,14 +46,14 @@ class Dhokla extends Component {
                     <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
                 </Row>
                 <div className="ingredients">Ingredients</div>
-                <ol>  
-                    <li>1 cup Chickpea Flour (Besan)</li> 
-                    <li>2 tablespoon cooking oil</li> 
+                <ol>
+                    <li>1 cup Chickpea Flour (Besan)</li>
+                    <li>2 tablespoon cooking oil</li>
                     <li>water 2 tbsp initially and then 1/2 cup later in the process</li>
-                    <li>1 teaspoon citric acid</li> 
-                    <li>3/4 teaspoon baking soda</li> 
-                    <li>Salt as per taste</li> 
-                    <li>1/4 teaspoon hing know as Asafoetida</li> 
+                    <li>1 teaspoon citric acid</li>
+                    <li>3/4 teaspoon baking soda</li>
+                    <li>Salt as per taste</li>
+                    <li>1/4 teaspoon hing know as Asafoetida</li>
                     <li>1/4 teaspoon turmeric powder</li>
                     <li>3 teaspoon sugar</li>
                     <li>1 inch piece of ginger peeled</li>
@@ -65,13 +79,13 @@ class Dhokla extends Component {
                 </ol>
                 <h2>Steaming the Dhokla</h2>
                 <ol>
-                    <li>Pour 2.5 to 3.5 cups of water to a pot or a steamer. Place a steel rack or a ring or a long legged trivet. Cover and bring 
+                    <li>Pour 2.5 to 3.5 cups of water to a pot or a steamer. Place a steel rack or a ring or a long legged trivet. Cover and bring
                         the water to a rolling boil. (I pour about 4 cups as I use a large pot)</li>
                     <li>Meanwhile grease a 8 inch pan or container with 1/2 to 1 teaspoon oil. I prefer using cooking spray.
                         Grease the sides as well.</li>
                     <li>When the water in the steamer is ready. Add 3/4 teaspoon baking soda to the batter.</li>
                     <li>After adding the baking soda to the blender run the blender to mix the baking soda with the batter.</li>
-                    <li>Immediately pour the chickpea batter to the greased pan. Even out the top with the whisk. 
+                    <li>Immediately pour the chickpea batter to the greased pan. Even out the top with the whisk.
                         Quickly place it in the steamer and cover it.</li>
                     <li>Steam it for 15 mins on a moderately high flame. It has to be steamed constantly for 15 mins.</li>
                     <li>Once done, a knife inserted in the center should come out clean. Turn off the
@@ -97,10 +111,10 @@ class Dhokla extends Component {
                 <div>
                     <h2>Khaman Dhokla Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
-                    <YouTube videoId="QLktjdbHpWs" opts={optsMobile} />
+                        <YouTube videoId="QLktjdbHpWs" opts={optsMobile} />
                     </MediaQuery>
                     <MediaQuery minWidth={767}>
-                    <YouTube videoId="QLktjdbHpWs" opts={optsDesktop} />
+                        <YouTube videoId="QLktjdbHpWs" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
             </div>
