@@ -5,9 +5,20 @@ import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
+import YouTube from 'react-youtube';
+import MediaQuery from 'react-responsive';
 
 class Couscous extends Component {
   render() {
+    const optsDesktop = {
+      height: '800',
+      width: '1000',
+    };
+
+    const optsMobile = {
+      height: '550',
+      width: '325',
+    };
     return (
       <div>
         <Helmet>
@@ -54,6 +65,15 @@ class Couscous extends Component {
         </ol>
         <h2>Final Product</h2>
         <Image src="couscous.jpg" alt="Mediterranean Magic: Easy and Flavorful Couscous Recipe for Culinary Bliss!" thumbnail rounded fluid></Image>
+        <div>
+          <h2>Curd Rice Preparation Video</h2>
+          <MediaQuery maxWidth={767}>
+            <YouTube videoId="altlinYLUNA" opts={optsMobile} />
+          </MediaQuery>
+          <MediaQuery minWidth={767}>
+            <YouTube videoId="altlinYLUNA" opts={optsDesktop} />
+          </MediaQuery>
+        </div>
       </div>
     );
   }

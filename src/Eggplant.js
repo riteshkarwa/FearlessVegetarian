@@ -28,7 +28,7 @@ class Eggplant extends Component {
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/eggplant" />
                     <meta
                         name="description"
-                        content="ndulge in the smoky goodness of our Homemade Baingan Bharta, a traditional Indian delight that captures the essence of authentic flavors. This step-by-step guide will help you create a flavorful masterpiece, featuring roasted eggplant and aromatic spices. Elevate your culinary experience with this homemade Baingan Bharta, perfect for those seeking an authentic taste of India. Immerse yourself in the rich, smoky aroma and relish every bite of this classic dish that brings a touch of tradition to your dining table."
+                        content="Indulge in the smoky goodness of our Homemade Baingan Bharta, a traditional Indian delight that captures the essence of authentic flavors. This step-by-step guide will help you create a flavorful masterpiece, featuring roasted eggplant and aromatic spices. Elevate your culinary experience with this homemade Baingan Bharta, perfect for those seeking an authentic taste of India. Immerse yourself in the rich, smoky aroma and relish every bite of this classic dish that brings a touch of tradition to your dining table."
                     />
                     <meta
                         name="keywords"
