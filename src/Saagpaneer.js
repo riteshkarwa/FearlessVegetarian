@@ -82,7 +82,7 @@ class Saagpaneer extends Component {
                     <li>That is it your curry is ready. You can enjoy it with Garlic Naan or Roti(Indian bread less calories compared to Naan)</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="saagpaneer.jpg" thumbnail rounded fluid></Image>
+                <Image src="saagpaneer.jpg" alt="Hearty Saag Paneer: A Flavorful Journey into North Indian Cuisine" thumbnail rounded fluid></Image>
                 <div>
                     <h2>Saag Paneer Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
