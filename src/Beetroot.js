@@ -70,14 +70,14 @@ class Beetroot extends Component {
           <li>Your curry is ready, taste it to adjust spice level and salt. You can eat it with rice or Garlic Naan(Indian Bread) found in Indian Grocery Store.</li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="beetroot.jpg" thumbnail rounded fluid></Image>
+        <Image src="beetroot.jpg" alt="Vibrant Beetroot Curry with Coconut Milk and Urad Dal" thumbnail rounded fluid></Image>
         <div>
           <h2>Beetroot Curry with Coconut Milk Preparation Video</h2>
           <MediaQuery maxWidth={767}>
-            <YouTube videoId="jD0qJf4-c6Q" opts={optsMobile} />
+            <YouTube videoId="veUNjVorUyk" opts={optsMobile} />
           </MediaQuery>
           <MediaQuery minWidth={767}>
-            <YouTube videoId="jD0qJf4-c6Q" opts={optsDesktop} />
+            <YouTube videoId="veUNjVorUyk" opts={optsDesktop} />
           </MediaQuery>
         </div>
       </div>
