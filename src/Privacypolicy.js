@@ -1,9 +1,23 @@
 import React, { Component } from "react";
+import { Helmet } from "react-helmet";
 
 class Privacypolicy extends Component {
     render() {
         return (
             <div>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Privacy Policy: Your Guide to Our Commitment to Data Security and User Privacy</title>
+                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/poha" />
+                    <meta
+                        name="description"
+                        content="Discover our commitment to data security and user privacy through our comprehensive Privacy Policy. This meta description assures users that their privacy is a top priority. Explore the details of how we handle data, protect user information, and maintain a secure online environment. Trust in our dedication to transparency and safeguarding your privacy as you engage with our platform."
+                    />
+                    <meta
+                        name="keywords"
+                        content="privacy policy, data security, user privacy, online privacy, data protection, user information, privacy commitment, transparency, secure environment, privacy standards, user trust, confidentiality, data handling, platform security, privacy assurance"
+                    />
+                </Helmet>
                 <h1>Privacy Policy</h1>
                 <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
                 <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
@@ -53,12 +67,14 @@ class Privacypolicy extends Component {
                 <h1>Collecting and Using Your Personal Data</h1>
                 <h2>Types of Data Collected</h2>
                 <h3>Personal Data</h3>
-                <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:<strong>Usage Data</strong></p>
-                <h3>Usage Data</h3>
-                <p>Usage Data is collected automatically when using the Service.</p>
-                <p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
-                <p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
-                <p>We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.</p>
+                <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to: </p>
+                <h3><strong>Usage Data</strong></h3>
+                <li>
+                    <p>Usage Data is collected automatically when using the Service.</p>
+                    <p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+                    <p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
+                    <p>We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.</p>
+                </li>
                 <h3>Tracking Technologies and Cookies</h3>
                 <p>We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:</p>
                 <ul>
