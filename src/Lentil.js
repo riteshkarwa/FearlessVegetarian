@@ -84,10 +84,10 @@ class Lentil extends Component {
         </ol>
         <h2>Final Product</h2>
         <MediaQuery maxWidth={767}>
-          <Image src="lentil.jpg" thumbnail rounded fluid></Image>
+          <Image src="lentil.jpg" alt="A bowl of hearty Masoor Dal Lentil Soup, showcasing the rich blend of red lentils, aromatic spices, and vibrant vegetables" thumbnail rounded fluid></Image>
         </MediaQuery>
         <MediaQuery minWidth={767}>
-          <Image src="lentil.jpg" thumbnail rounded width="60%" height="60%"></Image>
+          <Image src="lentil.jpg" alt="A bowl of hearty Masoor Dal Lentil Soup, showcasing the rich blend of red lentils, aromatic spices, and vibrant vegetables" thumbnail rounded width="60%" height="60%"></Image>
         </MediaQuery>
         <div>
           <br />

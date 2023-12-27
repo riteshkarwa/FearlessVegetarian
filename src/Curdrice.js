@@ -74,7 +74,7 @@ class Curdrice extends Component {
                     <li>I prefer hot curd rice so I cook the mixture in the pan for 5 minutes till it gets hot.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="curdrice.jpg" thumbnail rounded fluid></Image>
+                <Image src="curdrice.jpg" alt="A bowl of refreshing Curd Rice, a South Indian delicacy made with cooked rice, yogurt, and seasoned with mustard seeds, curry leaves, and chillies" thumbnail rounded fluid></Image>
                 <div>
                     <h2>Curd Rice Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

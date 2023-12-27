@@ -107,7 +107,7 @@ class Dhokla extends Component {
                     <li>Then pour the rest. All of the water will be absorbed by the dhokla.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="dhokla.jpg" thumbnail rounded fluid></Image>
+                <Image src="dhokla.jpg" alt="Khaman Dhokla Delight, Spongy Chickpea Flour Snack with a Tangy, Sweet Flavor, Steamed to Perfection" thumbnail rounded fluid></Image>
                 <div>
                     <h2>Khaman Dhokla Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
