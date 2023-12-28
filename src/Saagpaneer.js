@@ -75,7 +75,7 @@ class Saagpaneer extends Component {
                     <li>Cover the pot with a lid and let it cook.</li>
                     <li>Let the spices cook for around 10 min.</li>
                     <li>Cut Paneer into small square pieces and add it to the pot</li>
-                    <li>Cook the P  aneer for about 10 minutes. Constantly stir the Paneer to mix it well with onion tomato spinach puree which
+                    <li>Cook the Paneer for about 10 minutes. Constantly stir the Paneer to mix it well with onion tomato spinach puree which
                         will act as a gravy for the curry.</li>
                     <li>Add salt as per taste.</li>
                     <li>Add little bit of Kitchen King Masala Spice, Garam Masala powder and Amchoor powder all of them can be found in Indian Grocery Store.</li>
