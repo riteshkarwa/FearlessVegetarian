@@ -24,16 +24,21 @@ class Curdrice extends Component {
             <div>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Curd Rice Delight: A South Indian Dish with Precooked Rice, Indian Yogurt, Herbs, and Tempering Spices</title>
+                    <title>Curd Rice Delight: South Indian Comfort</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/curdrice" />
                     <meta
                         name="description"
-                        content="Savor the goodness of our Curd Rice Delight, a quintessential South Indian dish featuring precooked rice, Indian yogurt, fragrant herbs, and a tempering of aromatic spices. This meta description invites you to experience the harmonious blend of textures and flavors in this cooling and comforting dish. Explore the simplicity and taste of South Indian cuisine with our easy-to-follow recipe. Elevate your dining experience with a bowl of Curd Rice that brings together tradition, freshness, and a burst of delightful spices."
+                        content="Curd Rice Delight: Enjoy South Indian comfort with this dish made with precooked rice, yogurt, herbs, and tempering spices."
                     />
                     <meta
                         name="keywords"
                         content="curd rice, South Indian dish, Indian yogurt, precooked rice, herbs, tempering spices, South Indian cuisine, traditional recipes, comfort food, cooling dish, easy-to-follow recipe, flavorful curd rice, Indian culinary delight, vegetarian dishes, fresh and aromatic"
                     />
+                    <meta property="og:title" content="Curd Rice Delight: South Indian Comfort" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/curdrice" />
+                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/curdrice.jpg" />
+                    <meta property="og:description" content="Curd Rice Delight: Enjoy South Indian comfort with this dish made with precooked rice, yogurt, herbs, and tempering spices." />
                 </Helmet>
                 <h1>Curd rice is a South Indian dish made with precooked rice, Curd (Indian Yogurt), herbs and tempering spices.
                     It is more often eaten by South Indians as a part of the meal, all round the year. Apart from being gut healthy,

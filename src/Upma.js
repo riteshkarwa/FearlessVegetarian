@@ -24,16 +24,21 @@ class Upma extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>South Indian Breakfast Bliss: Flavorful Upma with Cream of Wheat, Urad Dal, Nuts, Herbs, and Spices</title>
+          <title>Upma Bliss: South Indian Breakfast</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/upma" />
           <meta
             name="description"
-            content="Indulge in the blissful flavors of our South Indian Breakfast, featuring Upma made with cream of wheat, Urad dal, nuts, herbs, and spices. This meta description invites you to explore the savory and tasty delight of this popular breakfast dish. Discover the perfect balance of textures and aromas in this easy-to-make recipe. Elevate your breakfast routine with the richness of South Indian cuisine, and savor a flavorful Upma that's both comforting and delicious."
+            content="Upma Bliss: South Indian Breakfast with Cream of Wheat, Urad Dal, Nuts, Herbs, and Spices"
           />
           <meta
             name="keywords"
             content="upma, South Indian breakfast, cream of wheat, semolina flour, rava, suji, Urad dal, nuts, herbs, spices, savory breakfast, popular South Indian dish, flavorful upma, traditional breakfast, easy-to-make recipe, vegetarian breakfast, South Indian culinary delight, breakfast bliss"
           />
+          <meta property="og:title" content="Upma Bliss: South Indian Breakfast" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/curdrice" />
+          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/curdrice.jpg" />
+          <meta property="og:description" content="Upma Bliss: South Indian Breakfast with Cream of Wheat, Urad Dal, Nuts, Herbs, and Spices." />
         </Helmet>
         <h1>Upma is a flavorful, tasty, savory and popular South Indian breakfast that is made with cream of wheat or semolina flour (called rava or suji), Urad dal, nuts, herbs and spices.</h1>
         <Row className="cooktimerow">
