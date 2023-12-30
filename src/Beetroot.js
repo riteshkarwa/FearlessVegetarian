@@ -23,16 +23,20 @@ class Beetroot extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Vibrant Beetroot Curry with Coconut Milk and Urad Dal: A Fusion of Colors and Flavors</title>
-          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/potatobhurji" />
+          <title>Beetroot Curry with Coconut Milk: Vibrant Fusion Delight</title>
+          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/beetroot" />
           <meta
             name="description"
-            content="Experience the exquisite blend of flavors with our Beetroot Curry featuring creamy coconut milk and nutritious lentils (Urad Dal). This vibrant and wholesome dish is a celebration of colors, textures, and aromatic spices. Elevate your culinary adventure with this delicious vegan curry, perfect for adding a burst of nutrition and taste to your dining table. Discover the joy of cooking with beetroots, coconut milk, and lentils in this unique and flavorful recipe that promises a delightful dining experience."
+            content="Experience the vibrant fusion of beetroot, coconut milk, and Urad Dal in this flavorful curry. A delightful blend of colors and flavors awaits!"
           />
           <meta
             name="keywords"
             content="beetroot curry, coconut milk, lentil recipes, Urad Dal, vegan curry, colorful dishes, nutritious beetroot, creamy coconut curry, plant-based cuisine, Indian-inspired recipes, flavorful vegan meals, wholesome lentil curry, exotic flavors, beetroot and lentil combination, vegetarian cooking"
           />
+          <meta property="og:title" content="Beetroot Curry with Coconut Milk: Vibrant Fusion Delight" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/beetroot" />
+          <meta property="og:description" content="Experience the vibrant fusion of beetroot, coconut milk, and Urad Dal in this flavorful curry. A delightful blend of colors and flavors awaits!" />
         </Helmet>
         <h1>Beetroot Curry with Coconut Milk and Lentils(Urad Dal). Beetroot is one of those wonder foods that can increase immunity, lower blood pressure and provide us with lot of essential vitamin and minerals.</h1>
         <Row className="cooktimerow">
