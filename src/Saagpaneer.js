@@ -36,6 +36,7 @@ class Saagpaneer extends Component {
                     <meta property="og:title" content="Saag Paneer Recipe: Rich & Flavorful North Indian Delight" />
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://fearlessvegetarian.netlify.app/saagpaneer" />
+                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/saagpaneer.jpg" />
                     <meta property="og:description" content="Saag Paneer: Rich and flavorful North Indian delight. Fresh spinach, aromatic spices, and creamy paneer. Perfect with naan or rice." />
                 </Helmet>
                 <h1>Saag(Spinach) Paneer is a popular vegetarian dish consisting of panner(Indian cheese) in a smooth, delicious and creamy Spinach gravy.</h1>

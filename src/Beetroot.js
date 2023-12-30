@@ -36,6 +36,7 @@ class Beetroot extends Component {
           <meta property="og:title" content="Beetroot Curry with Coconut Milk: Vibrant Fusion Delight" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://fearlessvegetarian.netlify.app/beetroot" />
+          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/beetroot.jpg" />
           <meta property="og:description" content="Experience the vibrant fusion of beetroot, coconut milk, and Urad Dal in this flavorful curry. A delightful blend of colors and flavors awaits!" />
         </Helmet>
         <h1>Beetroot Curry with Coconut Milk and Lentils(Urad Dal). Beetroot is one of those wonder foods that can increase immunity, lower blood pressure and provide us with lot of essential vitamin and minerals.</h1>

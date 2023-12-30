@@ -23,16 +23,21 @@ class Poha extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Flavorful Poha Delight: A Quick and Wholesome Breakfast Recipe!</title>
+          <title>Poha Delight: Quick Wholesome Breakfast Recipe!</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/poha" />
           <meta
             name="description"
-            content="Start your day with our Flavorful Poha Delight, a quick and wholesome breakfast recipe that combines the goodness of flattened rice with aromatic spices and nutritious ingredients. This step-by-step guide ensures a delicious and satisfying morning meal that's easy to prepare. Elevate your breakfast routine with the flavors of Indian cuisine and enjoy a nutritious start to your day. Discover the joy of cooking with our Poha recipe – a perfect blend of simplicity and taste!"
+            content="Experience a quick and wholesome breakfast with our flavorful Poha Delight recipe! Perfect for a delicious start to your day."
           />
           <meta
             name="keywords"
             content="poha, breakfast recipe, Indian breakfast, quick and wholesome, flattened rice, nutritious morning meal, aromatic spices, easy breakfast, flavorful poha, Indian cuisine, breakfast delight, simple and tasty, morning comfort food, vegetarian breakfast, Indian culinary delight"
           />
+          <meta property="og:title" content="Poha Delight: Quick Wholesome Breakfast Recipe!" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/poha" />
+          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/poha.jpg" />
+          <meta property="og:description" content="Experience a quick and wholesome breakfast with our flavorful Poha Delight recipe! Perfect for a delicious start to your day." />
         </Helmet>
         <h1>The word Poha refers to 2 things – the first one is the ingredient flattened rice itself and the second one is the Poha recipe or the dish that is made with this particular ingredient</h1>
         <Row className="cooktimerow">

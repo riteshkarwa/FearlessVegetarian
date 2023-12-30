@@ -23,16 +23,21 @@ class Dhokla extends Component {
             <div>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Khaman Dhokla Delight: Spongy Chickpea Flour Snack with a Tangy, Sweet Flavor, Steamed to Perfection</title>
+                    <title>Spongy Khaman Dhokla: Steamed Chickpea Delight</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/dhokla" />
                     <meta
                         name="description"
-                        content="Indulge in the delectable delight of our Khaman Dhokla, a spongy chickpea flour snack with a perfect balance of tangy and sweet flavors. This meta description invites you to savor the airy and soft texture of this steamed delicacy, originating from the western part of India. Explore the unique combination of chickpea flour, mustard seeds, curry leaves, and green chilies, providing a delightful crunch and a hint of spiciness. Elevate your snack time with this easy-to-make, flavorful dish that's a true culinary gem."
+                        content="Enjoy the spongy delight of Khaman Dhokla, a chickpea flour snack, steamed to perfection, with a tangy and sweet flavor."
                     />
                     <meta
                         name="keywords"
                         content="khaman dhokla, chickpea flour snack, spongy dhokla, tangy and sweet flavor, steamed delicacy, Indian snacks, vegetarian delight, western Indian cuisine, mustard seeds, curry leaves, green chilies, flavorful snack, easy-to-make dhokla, airy texture, culinary gem"
                     />
+                    <meta property="og:title" content="Spongy Khaman Dhokla: Steamed Chickpea Delight" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/dhokla" />
+                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/dhokla.jpg" />
+                    <meta property="og:description" content="Enjoy the spongy delight of Khaman Dhokla, a chickpea flour snack, steamed to perfection, with a tangy and sweet flavor." />
                 </Helmet>
                 <h1>Khaman Dhokla is a delectable and spongy snack that originates from the western part of India. It's made from chickpea flour
                     and has a light, airy texture with a mildly tangy and slightly sweet flavor. The dish is often steamed, resulting in its
