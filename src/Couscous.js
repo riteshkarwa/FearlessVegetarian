@@ -23,16 +23,21 @@ class Couscous extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Mediterranean Magic: Easy and Flavorful Couscous Recipe for Culinary Bliss!</title>
+          <title>Couscous Delight: Easy and Flavorful Mediterranean Magic!</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/couscous" />
           <meta
             name="description"
-            content="Explore the world of culinary delight with our Couscous Recipe. This meta description invites you to discover the perfect balance of flavors and textures in a quick and easy-to-make couscous dish. Elevate your dining experience with this wholesome recipe, ideal for busy days or special occasions. Dive into the heart of Mediterranean-inspired cuisine and savor a symphony of tastes that will leave your taste buds wanting more."
+            content="Experience culinary bliss with our easy and flavorful couscous recipe. A taste of Mediterranean magic in every bite!"
           />
           <meta
             name="keywords"
             content="couscous recipe, Mediterranean cuisine, easy and quick, flavorful dishes, wholesome recipes, balanced flavors, couscous ideas, healthy meals, culinary delights, quick cooking, Mediterranean-inspired, versatile grains, nutritious and delicious, simple cooking, international cuisine"
           />
+          <meta property="og:title" content="Couscous Delight: Easy and Flavorful Mediterranean Magic!" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/couscous" />
+          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/couscous.jpg" />
+          <meta property="og:description" content="Experience culinary bliss with our easy and flavorful couscous recipe. A taste of Mediterranean magic in every bite!" />
         </Helmet>
         <h1>
           Couscous is a North African dish made from tiny steamed balls of semolina flour. Though we think of it and cook it as a grain, it is actually a type of pasta.

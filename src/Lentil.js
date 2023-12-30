@@ -23,16 +23,21 @@ class Lentil extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Masoor Dal Delight: Flavorful Lentil Soup Curry for a Comforting Meal meta description</title>
+          <title>Masoor Dal Delight: Lentil Soup Curry</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/lentil" />
           <meta
             name="description"
-            content="Indulge in the comforting embrace of our Masoor Dal Delight, a flavorful lentil soup curry that promises a satisfying and wholesome meal. This meta description invites you to experience the rich blend of masoor dal and aromatic spices, creating a symphony of flavors in every spoonful. Elevate your dining experience with this easy-to-make and nutritious lentil soup curry, perfect for bringing warmth and comfort to your table. Immerse yourself in the goodness of masoor dal and savor the delight of a truly comforting meal."
+            content="Masoor Dal Delight: A Comforting Lentil Soup Curry Bursting with Flavor. Perfect for a Wholesome Meal."
           />
           <meta
             name="keywords"
             content="masoor dal, lentil soup curry, flavorful dal recipe, comfort food, nutritious lentil curry, masoor dal delight, vegetarian dishes, Indian cuisine, hearty lentil soup, easy-to-make curry, wholesome comfort meal, aromatic spices, homemade dal, flavorful and comforting, lentil curry ideas"
           />
+          <meta property="og:title" content="Masoor Dal Delight: Lentil Soup Curry" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/lentil" />
+          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/lentil.jpg" />
+          <meta property="og:description" content="Masoor Dal Delight: A Comforting Lentil Soup Curry Bursting with Flavor. Perfect for a Wholesome Meal." />
         </Helmet>
         <h1>Lentil Soup served with White Rice. Lentils are easy on your tummy and good source of Protein</h1>
         <Row className="cooktimerow">

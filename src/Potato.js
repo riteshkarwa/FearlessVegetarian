@@ -12,16 +12,21 @@ class Potato extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Any Time Potato Delight: Indian Spiced Goodness with Vegan Sausage Perfection</title>
+          <title>Any Time Potato Delight: Indian Spiced Vegan Sausage</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/potato" />
           <meta 
             name="description"
-            content="Savor the delicious fusion of Any Time Potato seasoned with authentic Indian spices, paired with flavorful Vegan Sausage. This mouthwatering dish offers a perfect blend of spices, textures, and plant-based goodness. Whether for breakfast, lunch, or dinner, indulge in a satisfying and aromatic culinary experience. Elevate your vegan dining with this delectable combination of seasoned potatoes and savory vegan sausage – a delightful feast for any time of the day!"
+            content="Savor unique flavors in our Any Time Potato Delight—Indian spices & vegan sausage fusion. Perfect for any meal."
           />
           <meta
             name="keywords"
             content="Any Time Potato, Indian Spices, Vegan Sausage, plant-based cuisine, vegan recipes, versatile potato dishes, savory spiced potatoes, flavorful vegan sausage, vegan meal ideas, plant-based cooking, aromatic Indian spices, delicious vegan options, anytime dining, vegan comfort food"
           />
+          <meta property="og:title" content="Any Time Potato Delight: Indian Spiced Vegan Sausage" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/potato" />
+          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/anytimepotato.jpg" />
+          <meta property="og:description" content="Savor unique flavors in our Any Time Potato Delight—Indian spices & vegan sausage fusion. Perfect for any meal." />
         </Helmet>
         <h1>Any Time Potato Seasoned with Indian Spices served with Vegan Sausage</h1>
         <Row className="cooktimerow">
