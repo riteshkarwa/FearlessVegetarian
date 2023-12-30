@@ -34,10 +34,10 @@ class Aloogobi extends Component {
                         content="Potato Cauliflower, Aloo Gobi, vegetarian dish, sautéed cauliflower, potatoes, tomatoes, cashews, onions, Indian spices, North Indian cuisine, flavorful vegetarian delight, easy-to-make recipe, Indian culinary masterpiece, classic vegetarian dish, comforting meal, vegetarian Indian recipes"
                     />
                     <meta property="og:title" content="Aloo Gobi(Potato Cauliflower): North Indian Delight" />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/aloogobi" />
-          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/aloogobi.jpg" />
-          <meta property="og:description" content="Experience the rich flavors of North India with our Aloo Gobi(Potato Cauliflower) recipe. A delightful vegetarian dish that's both comforting and delicious." />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/aloogobi" />
+                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/aloogobi.jpg" />
+                    <meta property="og:description" content="Experience the rich flavors of North India with our Aloo Gobi(Potato Cauliflower) recipe. A delightful vegetarian dish that's both comforting and delicious." />
                 </Helmet>
                 <h1>Potato Cauliflower (Aloo Gobi) is a vegetarian north Indian dish. It's sautéed cauliflower and potato, with tomatoes, cashews,
                     onion, and Indian spices. A simple recipe that pairs well with flatbread such as roti and naan, or rice.</h1>

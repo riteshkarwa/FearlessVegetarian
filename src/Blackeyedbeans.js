@@ -6,6 +6,7 @@ import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import YouTube from 'react-youtube';
+import { Helmet } from "react-helmet";
 
 class Blackeyedbeans extends Component {
   render() {
@@ -20,6 +21,24 @@ class Blackeyedbeans extends Component {
     };
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity</title>
+          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/beetroot" />
+          <meta
+            name="description"
+            content="Kickstart luck with our Black Eyed Peas Curry. A year-round delight, seasoned with Indian spices for prosperity."
+          />
+          <meta
+            name="keywords"
+            content="beetroot curry, coconut milk, lentil recipes, Urad Dal, vegan curry, colorful dishes, nutritious beetroot, creamy coconut curry, plant-based cuisine, Indian-inspired recipes, flavorful vegan meals, wholesome lentil curry, exotic flavors, beetroot and lentil combination, vegetarian cooking"
+          />
+          <meta property="og:title" content="Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/blackeyedbeans" />
+          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/blackeyedbeans.jpg" />
+          <meta property="og:description" content="Kickstart luck with our Black Eyed Peas Curry. A year-round delight, seasoned with Indian spices for prosperity." />
+        </Helmet>
         <h1>Black Eyed Peas Curry seasoned with Indian Spices. It is a tradition to eat them on 1st January for luck and prosperity. It doesn't
             have to be just 1st of January eat it all year long for more luck and prosperity.
         </h1>
