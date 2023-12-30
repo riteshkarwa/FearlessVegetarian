@@ -23,11 +23,11 @@ class Saagpaneer extends Component {
             <div>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Hearty Saag Paneer: A Flavorful Journey into North Indian Cuisine</title>
+                    <title>Saag Paneer Recipe: A Rich and Flavorful North Indian Delight</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/saagpaneer" />
                     <meta
                         name="description"
-                        content="Indulge in the rich and flavorful world of Saag Paneer, a classic North Indian dish. Our Saag Paneer recipe brings together the goodness of fresh spinach cooked with aromatic spices and cubes of paneer, creating a creamy and satisfying vegetarian delight. Elevate your dining experience with this traditional dish that's perfect for pairing with naan or rice. Immerse yourself in the authentic taste of Indian cuisine with every bite of our homemade Saag Paneer."
+                        content="Saag Paneer Recipe: A Rich and Flavorful North Indian Delight"
                     />
                     <meta
                         name="keywords"
