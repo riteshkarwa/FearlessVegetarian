@@ -24,7 +24,7 @@ class Blackeyedbeans extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity</title>
-          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/beetroot" />
+          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/blackeyedbeans" />
           <meta
             name="description"
             content="Kickstart luck with our Black Eyed Peas Curry. A year-round delight, seasoned with Indian spices for prosperity."
