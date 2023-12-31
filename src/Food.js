@@ -288,5 +288,13 @@ export const Food = [
         card_text: "Zesty Mexican Rice with Black Beans, Corn, and Peppers: A Flavorful Fiesta in Every Bite recipe instructions",
         card_href: "/riceandbeans",
         button_title: "Mexican Rice with Black Beans Recipie"
+    },
+    {
+        id: 36,
+        card_img: "sagopearls.jpg",
+        card_title: "Sabudana Khichdi – a pilaf/pulao made with Sago Pearls Recipe",
+        card_text: "Zesty Mexican Rice with Black Beans, Corn, and Peppers: A Flavorful Fiesta in Every Bite recipe instructions",
+        card_href: "/sagopearls",
+        button_title: "Sabudana Khichdi Sago Pearls Recipie"
     }
 ]
