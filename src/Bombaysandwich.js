@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import MediaQuery from 'react-responsive';
 import YouTube from 'react-youtube';
+import { Helmet } from "react-helmet";
 
 class Bombaysandwich extends Component {
   render() {
@@ -20,6 +21,24 @@ class Bombaysandwich extends Component {
     };
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Bombay Vegetable Sandwich: Irresistible Street-Style Delight</title>
+          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/sandwich" />
+          <meta
+            name="description"
+            content="Savor the flavor of the streets with our Bombay Vegetable Sandwich. A delightful blend of vegetables and spices, bringing the street-style experience to your plate."
+          />
+          <meta
+            name="keywords"
+            content="Sabudana Khichdi, sago pearls, gluten-free, vegan, Indian festival, festive recipe, pilaf, pulao"
+          />
+          <meta property="og:title" content="Bombay Vegetable Sandwich: Irresistible Street-Style Delight" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/sandwich" />
+          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/sandwich.jpg" />
+          <meta property="og:description" content="Savor the flavor of the streets with our Bombay Vegetable Sandwich. A delightful blend of vegetables and spices, bringing the street-style experience to your plate." />
+        </Helmet>
         <h1>Vegetable Sandwich also known as Bombay Sandwich, with Mint Chutney and loads of Vegetables stacked up</h1>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
