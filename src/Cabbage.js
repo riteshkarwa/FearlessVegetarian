@@ -23,16 +23,21 @@ class Cabbage extends Component {
             <div>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Soulful Cabbage Curry (Patta Gobi): A Harmony of Flavors in Every Bite</title>
+                    <title>Cabbage Curry Bliss: Harmony of Flavors</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/cabbage" />
                     <meta
                         name="description"
-                        content="Savor the simplicity of our Cabbage Curry, a delightful blend of cabbage, aromatic spices, and flavorful herbs. This vegan curry offers a perfect balance of textures and tastes, making it a comforting and nutritious addition to your meals. Elevate your dining experience with this easy-to-make and delicious cabbage curry that pairs beautifully with rice or bread. Immerse yourself in the heartwarming flavors of home-cooked goodness with every bite."
+                        content="Savor the soulful harmony of flavors with our Cabbage Curry Bliss. Every bite is a delightful experience in this vegetarian dish."
                     />
                     <meta
                         name="keywords"
                         content="cabbage curry, vegan curry, Indian-inspired recipes, vegetarian dishes, cabbage recipes, homemade curry, plant-based cuisine, flavorful herbs, easy-to-make curry, nutritious meals, vegetarian comfort food, cabbage and spices, vegan curry ideas, simple and delicious"
                     />
+                    <meta property="og:title" content="Cabbage Curry Bliss: Harmony of Flavors" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/cabbage" />
+                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/cabbage.jpg" />
+                    <meta property="og:description" content="Savor the soulful harmony of flavors with our Cabbage Curry Bliss. Every bite is a delightful experience in this vegetarian dish." />
                 </Helmet>
                 <h1>Cabbage is an excellent vegetable to use in cooking as it becomes wonderfully tender when cooked, allowing it to absorb
                     the delicious flavors of the other ingredients. Despite this tenderness, the chopped cabbage leaves still provide a delightful

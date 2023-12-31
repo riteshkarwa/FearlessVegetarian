@@ -19,7 +19,7 @@ export const Food = [
         "id": 3,
         card_img: "peanutsd.jpg",
         card_title: "Peanut Butter Toast with Apple slices and Cinnamon Sugar",
-        card_text: "Delicious Peanut Butter Toast with Apple slices and Cinnamon sugar, super easy to make and very filling.",
+        card_text: "Peanut Butter Toast with Apple Slices and Cinnamon Sugar: A delicious and filling treat, super easy to make for a satisfying snack or breakfast.",
         card_href: "/peanutsd",
         button_title: "Peanut Butter Toast Recipe"
     },
