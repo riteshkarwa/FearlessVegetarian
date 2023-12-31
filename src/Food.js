@@ -11,7 +11,7 @@ export const Food = [
         "id": 2,
         card_img : "sandwich.jpg",
         card_title: "Loaded Vegetable Sandwich also known as Bombay Sandwich",
-        card_text: "Appetizing Vegetable Sandwich super easy to make and very filling. It's a popular Indian food from the city of Mumbai",
+        card_text: "Appetizing Vegetable Sandwich super easy to make and very filling. Savor the flavor of the streets with our Bombay Vegetable Sandwich. A delightful blend of vegetables and spices, bringing the street-style experience to your plate",
         card_href: "/sandwich",
         button_title: "Bombay Sandwich Recipe"
     },
@@ -35,7 +35,7 @@ export const Food = [
         "id": 5,
         card_img: "beetroot.jpg",
         card_title: "Beetroot Curry with Coconut Milk Served with Rice",
-        card_text: "The Beetroot Curry with Coconut Milk is quick and easy to make for a weeknight dinner or a summertime party at home. Beetroot is one of those wonder foods that can increase immunity, lower blood pressure and provide us with lot of essential vitamin and minerals. ",
+        card_text: "The Beetroot Curry with Coconut Milk is quick and easy to make for a weeknight dinner or a summertime party at home.",
         card_href: "/beetroot",
         button_title: "Beetroot Curry Recipe"
     },
