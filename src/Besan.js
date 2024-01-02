@@ -6,6 +6,7 @@ import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import YouTube from 'react-youtube';
+import { Helmet } from "react-helmet";
 
 class Besan extends Component {
   render() {

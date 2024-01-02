@@ -6,6 +6,7 @@ import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Helmet } from "react-helmet";
  
 class Okra extends Component {
   render() {
@@ -20,6 +21,24 @@ class Okra extends Component {
     };
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Okra Delight: Onions and Tomato Infusion Recipe</title>
+          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/okra" />
+          <meta
+            name="description"
+            content="Savor the goodness of okra in this delightful recipe, enhanced with the perfect blend of onions and tomatoes!"
+          />
+          <meta
+            name="keywords"
+            content="Okra dish, Bhindi recipe, Okra curry, Ladyfinger recipe, Vegetarian okra, Bhindi masala, Indian okra, Southern fried okra, Spicy okra, Stir-fried ladyfinger, Healthy okra dishes, Vegan okra recipes, Okra side dish, Roasted okra, Grilled bhindi, Sauteed okra, Okra stir-fry, Crispy bhindi, Okra and tomato recipe, Easy okra recipes."
+          />
+          <meta property="og:title" content="Chickpea Flour Curry also known as Besan" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/okra" />
+          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/okra.jpg" />
+          <meta property="og:description" content="Savor the goodness of okra in this delightful recipe, enhanced with the perfect blend of onions and tomatoes!" />
+        </Helmet>
         <h1>Okra Dish made by adding onions and tomato. This Okra Dish tastes great and has very unique flavors that come from caramelizing the onions 
             at the first stage and then frying more diced onions on a high heat at the second stage. </h1>
         <Row className="cooktimerow">

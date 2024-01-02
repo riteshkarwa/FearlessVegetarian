@@ -261,7 +261,7 @@ export const Food = [
         id: 32,
         card_img: "onion.jpg",
         card_title: "Onion Curry Recipe",
-        card_text: "Onion Curry is one of those recipes which is very easy and quick to make ",
+        card_text: "Onion Curry is one of those recipes which is very easy and quick to make. Not only it is easy, this recipe also taste great with Roti (Indian Bread), rice and dal",
         card_href: "/onion",
         button_title: "Onion Curry Recipie"
     },
