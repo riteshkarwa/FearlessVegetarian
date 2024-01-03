@@ -23,16 +23,21 @@ class Riceandbeans extends Component {
             <div>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Zesty Mexican Rice with Black Beans, Corn, and Peppers: A Flavorful Fiesta in Every Bite recipe</title>
+                    <title>Zesty Mexican Rice with Black Beans, Corn, and Peppers</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/riceandbeans" />
                     <meta
                         name="description"
-                        content="Transport your taste buds to a culinary fiesta with our Zesty Mexican Rice recipe! This step-by-step guide will walk you through creating a flavorful masterpiece featuring black beans, corn, and peppers. Elevate your cooking skills and enjoy a burst of Mexican-inspired goodness in every mouthful. Perfect as a side or a standalone dish, this recipe promises a symphony of vibrant flavors and textures. Embark on a flavorful journey with our easy-to-follow instructions and bring the spirit of Mexico to your table!"
+                        content="Indulge in a culinary fiesta with our Zesty Mexican Rice recipe! A flavorful blend of black beans, corn, and peppers in every mouthful."
                     />
                     <meta
                         name="keywords"
                         content="Mexican rice, black beans, corn, peppers, zesty rice recipe, flavorful Mexican cuisine, easy Mexican rice, vegetarian Mexican dishes, vibrant side dishes, Mexican-inspired cooking, homemade rice and beans, fiesta-worthy recipes, Tex-Mex flavors, step-by-step cooking, delicious rice dishes, colorful and tasty"
                     />
+                    <meta property="og:title" content="Zesty Mexican Rice with Black Beans, Corn, and Peppers" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/riceandbeans" />
+                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/ricebeans.jpg" />
+                    <meta property="og:description" content="Indulge in a culinary fiesta with our Zesty Mexican Rice recipe! A flavorful blend of black beans, corn, and peppers in every mouthful." />
                 </Helmet>
                 <h1>Zesty Mexican Rice with Black Beans, Corn, and Peppers: A Flavorful Fiesta in Every Bite Recipe</h1>
                 <Row className="cooktimerow">
