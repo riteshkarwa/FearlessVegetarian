@@ -296,5 +296,13 @@ export const Food = [
         card_text: "Sabudana Khichdi – a pilaf/pulao made with Sago Pearls is a  vegan and gluten-free dish is extremely popular in India during the fasting season",
         card_href: "/sagopearls",
         button_title: "Sabudana Khichdi Sago Pearls Recipie"
+    },
+    {
+        id: 37,
+        card_img: "chorizorice.jpg",
+        card_title: "One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot",
+        card_text: "One-Pot Soy Chorizo Rice, Flavorful Feast, Simple and Quick Dish, Beans, Corn, Bell Pepper, Jalapeño, Garlic, Fresh Vegetables, Frozen Vegetables",
+        card_href: "/chorizorice",
+        button_title: "One-Pot Soy Chorizo Rice Recipie"
     }
 ]
