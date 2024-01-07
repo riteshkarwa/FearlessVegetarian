@@ -12,16 +12,21 @@ class Potatobhurji extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Flavorful Potato Egg Bhurji: A Savory Delight for Your Palate</title>
+          <title>Flavorful Potato Egg Bhurji</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/potatobhurji" />
           <meta
             name="description"
-            content="Indulge in the delicious fusion of flavors with our Potato and Egg Bhurji recipe. This quick and easy dish combines the wholesome goodness of potatoes and the protein-packed richness of eggs, seasoned with aromatic spices for a savory experience. Elevate your breakfast or dinner with this hearty and satisfying Potato and Egg Bhurji. Explore the simplicity and taste the delightful blend of ingredients in every bite!"
+            content="Indulge in the delicious fusion of flavors with our Potato and Egg Bhurji recipe."
           />
           <meta
             name="keywords"
             content="potato egg bhurji, Indian egg recipes, breakfast recipes, quick and easy meals, savory egg dishes, potato and egg scramble, Indian cuisine, protein-packed breakfast, vegetarian recipes, flavorful bhurji, Indian spiced eggs, hearty breakfast ideas, egg scramble with potatoes, delicious and easy, homemade comfort food"
           />
+          <meta property="og:title" content="Flavorful Potato Egg Bhurji" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/potatobhurji" />
+          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/potatobhurji.jpg" />
+          <meta property="og:description" content="Indulge in the delicious fusion of flavors with our Potato and Egg Bhurji recipe." />
         </Helmet>
         <h1>Any Time Potato Seasoned with Indian Spices</h1>
         <Row className="cooktimerow">

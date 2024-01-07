@@ -31,7 +31,7 @@ class Bombaysandwich extends Component {
           />
           <meta
             name="keywords"
-            content="Sabudana Khichdi, sago pearls, gluten-free, vegan, Indian festival, festive recipe, pilaf, pulao"
+            content="Bombay sandwich, Street food, Indian sandwich, Spicy sandwich, Vegetarian sandwich, Mumbai street food, Chutney sandwich, Bombay grilled sandwich, Indian snacks, Masala toast"
           />
           <meta property="og:title" content="Bombay Vegetable Sandwich: Irresistible Street-Style Delight" />
           <meta property="og:type" content="website" />
