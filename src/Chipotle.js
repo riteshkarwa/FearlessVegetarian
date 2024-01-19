@@ -16,6 +16,7 @@ class Chipotle extends Component {
             <Row className="cooktimerow">
                 <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
             </Row>
+            <div className="ingredients">Ingredients</div>
             <ol> 
                 <li>5 Whole Avocado </li> 
                 <li>2 whole Tomato </li> 
