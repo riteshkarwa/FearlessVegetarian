@@ -49,6 +49,7 @@ import Rajmah from "./Rajmah";
 import Riceandbeans from "./Riceandbeans";
 import Sagopearls from "./Sagopearls";
 import Chorizorice from "./Chorizorice";
+import Broccoli from "./Broccoli";
 
 
 
@@ -129,6 +130,7 @@ class Main extends Component {
             <Route exact path="/riceandbeans" element={<Riceandbeans/>}></Route>
             <Route exact path="/sagopearls" element={<Sagopearls/>}></Route>
             <Route exact path="/chorizorice" element={<Chorizorice/>}></Route>
+            <Route exact path="/broccoli" element={<Broccoli/>}></Route>
             <Route path='*' element={<Notfound />}/>
           </Routes>
         </div>

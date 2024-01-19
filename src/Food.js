@@ -304,5 +304,13 @@ export const Food = [
         card_text: "One-Pot Soy Chorizo Rice, Flavorful Feast, Simple and Quick Dish, Beans, Corn, Bell Pepper, Jalapeño, Garlic, Fresh Vegetables, Frozen Vegetables",
         card_href: "/chorizorice",
         button_title: "One-Pot Soy Chorizo Rice Recipie"
+    },
+    {
+        id: 38,
+        card_img: "broccoli.jpg",
+        card_title: "Delicious Homemade Broccoli Soup",
+        card_text: "Wholesome Broccoli Soup Recipe with Pine Nuts",
+        card_href: "/broccoli",
+        button_title: "Delicious Homemade Broccoli Soup Recipe"
     }
 ]
