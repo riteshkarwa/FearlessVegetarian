@@ -5,13 +5,31 @@ class Home extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Aloo Gobi(Potato Cauliflower): North Indian Delight</title>
+          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/" />
+          <meta
+            name="description"
+            content="Fearless Vegetarian: Embrace bold, plant-powered living with delicious, cruelty-free choices for a healthier and sustainable lifestyle!"
+          />
+          <meta
+            name="keywords"
+            content="Fearless Vegetarian, Plant-Powered Living, Delicious Vegetarian Recipes, Cruelty-Free Choices, Healthy Lifestyle, Sustainable Living, Bold Vegetarianism, Plant-Based Diet, Vegan Living"
+          />
+          <meta property="og:title" content="Fearless Vegetarian Living: Plant-Powered Passion" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/" />
+          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/spices.jpg" />
+          <meta property="og:description" content="Fearless Vegetarian: Embrace bold, plant-powered living with delicious, cruelty-free choices for a healthier and sustainable lifestyle!" />
+        </Helmet>
         <p className="bugs_text">
           In this space, I will be sharing some easy, fresh, flavorful, and healthy recipes—family favorites that I love and use daily.
           Growing up in a Hindu family, being vegetarian comes naturally to me. Hopefully, for those finding it difficult to adopt a vegetarian lifestyle,
           Fearless Vegetarian is here as your friend. Remember, healthy doesn't have to mean boring. So, let's prioritize our health,
           get creative in the kitchen, and start cooking.
-          If you have any questions, feel free to reach out to us on our <a href="https://www.facebook.com/fearlessvegetarian" className="med_link" target="_blank" rel="noopener noreferrer">Facebook Page</a>. 
-          I wish I had someone to connect with or seek advice from when I started cooking. 
+          If you have any questions, feel free to reach out to us on our <a href="https://www.facebook.com/fearlessvegetarian" className="med_link" target="_blank" rel="noopener noreferrer">Facebook Page</a>.
+          I wish I had someone to connect with or seek advice from when I started cooking.
           If you find yourself in the same situation, reach out to us. Let's support each other on this journey towards healthier and more delicious living.<br />
         </p>
         <p>
