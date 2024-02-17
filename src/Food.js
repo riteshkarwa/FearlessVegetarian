@@ -312,5 +312,13 @@ export const Food = [
         card_text: "Wholesome Broccoli Soup Recipe with Pine Nuts",
         card_href: "/broccoli",
         button_title: "Delicious Homemade Broccoli Soup Recipe"
+    },
+    {
+        id: 39,
+        card_img: "mushroom.jpg",
+        card_title: "Savory Delight: Mushroom Masala Curry",
+        card_text: "Savor Punjab's rich flavors with our one-pot mushroom masala curry",
+        card_href: "/mushroom",
+        button_title: "Delicious Homemade Mushroom Masala Curry Recipe"
     }
 ]
