@@ -132,7 +132,7 @@ class Main extends Component {
             <Route exact path="/sagopearls" element={<Sagopearls/>}></Route>
             <Route exact path="/chorizorice" element={<Chorizorice/>}></Route>
             <Route exact path="/broccoli" element={<Broccoli/>}></Route>
-            <Route exact path="/broccoli" element={<Mushroom/>}></Route>
+            <Route exact path="/mushroom" element={<Mushroom/>}></Route>
             <Route path='*' element={<Notfound />}/>
           </Routes>
         </div>
