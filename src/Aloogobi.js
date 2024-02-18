@@ -96,10 +96,10 @@ class Aloogobi extends Component {
                 <div>
                     <h2>Aloo Gobi Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
-                        <YouTube videoId="4qOw_UAHp98" opts={optsMobile} />
+                        <YouTube videoId="zCoLryH0mDk" opts={optsMobile} />
                     </MediaQuery>
                     <MediaQuery minWidth={767}>
-                        <YouTube videoId="4qOw_UAHp98" opts={optsDesktop} />
+                        <YouTube videoId="zCoLryH0mDk" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
             </div>
