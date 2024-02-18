@@ -11,7 +11,7 @@ export const Food = [
         "id": 2,
         card_img : "sandwich.jpg",
         card_title: "Loaded Vegetable Sandwich also known as Bombay Sandwich",
-        card_text: "Appetizing Vegetable Sandwich super easy to make and very filling. Savor the flavor of the streets with our Bombay Vegetable Sandwich. A delightful blend of vegetables and spices, bringing the street-style experience to your plate",
+        card_text: "Enjoy our Bombay Vegetable Sandwich: easy, filling, and bursting with street-style flavors! A delightful blend of vegetables and spices, bringing the street-style experience to your plate.",
         card_href: "/sandwich",
         button_title: "Bombay Sandwich Recipe"
     },
