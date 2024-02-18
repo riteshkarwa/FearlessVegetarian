@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
+import { Helmet } from "react-helmet";
 
 class Home extends Component {
   render() {
