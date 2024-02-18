@@ -75,7 +75,7 @@ class Mushroom extends Component {
                     <li>Garnish with fresh coriander leaves and serve hot with rice or naan bread.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="rajmah.jpg" thumbnail rounded fluid></Image>
+                <Image src="mushroom.jpg" thumbnail rounded fluid></Image>
                 <div>
                     <h2>Rajmah Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
