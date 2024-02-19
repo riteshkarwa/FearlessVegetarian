@@ -260,7 +260,7 @@ export const Food = [
     {
         id: 32,
         card_img: "onion.jpg",
-        card_title: "Onion Curry Recipe",
+        card_title: "Onion Curry",
         card_text: "Onion Curry is one of those recipes which is very easy and quick to make. Not only it is easy, this recipe also taste great with Roti (Indian Bread), rice and dal",
         card_href: "/onion",
         button_title: "Onion Curry Recipie"
@@ -276,7 +276,7 @@ export const Food = [
     {
         id: 34,
         card_img: "rajmah.jpg",
-        card_title: "Red Kidney Beans Curry Recipe",
+        card_title: "Red Kidney Beans Curry",
         card_text: "Rajma is the Indian name for kidney beans. These are soaked, cooked & then simmered with onions, tomatoes & spices to make the dish, Rajma masala.",
         card_href: "/rajmah",
         button_title: "Red Kidney Bean Curry Recipie"
@@ -284,7 +284,7 @@ export const Food = [
     {
         id: 35,
         card_img: "ricebeans.jpg",
-        card_title: "Zesty Mexican Rice with Black Beans, Corn, and Peppers Recipe",
+        card_title: "Zesty Mexican Rice with Black Beans, Corn, and Peppers",
         card_text: "Zesty Mexican Rice with Black Beans, Corn, and Peppers: A Flavorful Fiesta in Every Bite recipe instructions",
         card_href: "/riceandbeans",
         button_title: "Mexican Rice with Black Beans Recipie"
@@ -292,7 +292,7 @@ export const Food = [
     {
         id: 36,
         card_img: "sagopearls.jpg",
-        card_title: "Sabudana Khichdi – a pilaf/pulao made with Sago Pearls Recipe",
+        card_title: "Sabudana Khichdi – a pilaf/pulao made with Sago Pearls",
         card_text: "Sabudana Khichdi – a pilaf/pulao made with Sago Pearls is a  vegan and gluten-free dish is extremely popular in India during the fasting season",
         card_href: "/sagopearls",
         button_title: "Sabudana Khichdi Sago Pearls Recipie"
@@ -303,7 +303,7 @@ export const Food = [
         card_title: "One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot",
         card_text: "One-Pot Soy Chorizo Rice, Flavorful Feast, Simple and Quick Dish, Beans, Corn, Bell Pepper, Jalapeño, Garlic, Fresh Vegetables, Frozen Vegetables",
         card_href: "/chorizorice",
-        button_title: "One-Pot Soy Chorizo Rice Recipie"
+        button_title: "One-Pot Soy Chorizo Rice Recipe"
     },
     {
         id: 38,
