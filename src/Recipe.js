@@ -41,8 +41,8 @@ export default function Search() {
                             <Card className="card_search" style={{ width: '19rem', margin: '10px' }}>
                                 <Card.Img variant="top" src={fd.card_img} />
                                 <Card.Body>
-                                    <Card.Title style={{ fontSize: '40px'}}>{fd.card_title}</Card.Title>
-                                    <Card.Text style={{ fontSize: '25px'}}>
+                                    <Card.Title style={{ fontSize: '38px'}}>{fd.card_title}</Card.Title>
+                                    <Card.Text style={{ fontSize: '24px'}}>
                                         {fd.card_text}
                                     </Card.Text>
                                     <Button variant="primary" href={fd.card_href}>{fd.button_title}</Button>
@@ -54,8 +54,8 @@ export default function Search() {
                             <Card className="card_search" style={{ width: '23.5rem', margin: '20px' }}>
                                 <Card.Img variant="top" src={fd.card_img} />
                                 <Card.Body>
-                                    <Card.Title  style={{ fontSize: '40px'}}>{fd.card_title}</Card.Title>
-                                    <Card.Text  style={{ fontSize: '25px'}}>
+                                    <Card.Title  style={{ fontSize: '38px'}}>{fd.card_title}</Card.Title>
+                                    <Card.Text  style={{ fontSize: '24px'}}>
                                         {fd.card_text}
                                     </Card.Text>
                                     <Button variant="primary" href={fd.card_href}>{fd.button_title}</Button>
