@@ -166,7 +166,7 @@ export const Food = [
         card_title: "Aloo Paratha potato stuffed flatbread Dish",
         card_text: "Indian Aloo Paratha – whole wheat pan-fried flatbread stuffed with a spicy potato filling.This paratha is best enjoyed with yogurt, pickle, butter and a side of chai!",
         card_href: "/paratha",
-        button_title: "Aloo Paratha Recipie"
+        button_title: "Aloo Paratha Recipe"
         
     },
     {
@@ -183,7 +183,7 @@ export const Food = [
         card_title:"Hakka Noodle Dish",
         card_text:"Hakka Noodles is a popular Indo-Chinese dish of stir fried noodles, vegetables and sauces.",
         card_href: "/hakkanoodle",
-        button_title :"Hakka Noodle Recipie"
+        button_title :"Hakka Noodle Recipe"
     },
     {
         id: 23,
@@ -191,7 +191,7 @@ export const Food = [
         card_title: "Moong Dal Khichdi Dish",
         card_text: "This Khichdi is a light and easy to digest Indian dish made with rice and moong dal. Nutritious and light on the tummy.",
         card_href: "/khichdi",
-        button_title: "Moong Dal Khichdi Recipie"
+        button_title: "Moong Dal Khichdi Recipe"
     },
     {
         id: 24,
@@ -199,7 +199,7 @@ export const Food = [
         card_title: "Poha (Thick flattened Rice) Dish",
         card_text: "Poha is a light and nutritious breakfast dish is made by mixing beaten rice with spices, curry leaves and seasonings. In addition to this, onions, potatoes or both onions and potatoes can also be added.",
         card_href: "/poha",
-        button_title: "Poha Recipie"
+        button_title: "Poha Recipe"
     },
     {
         id: 25,
@@ -207,7 +207,7 @@ export const Food = [
         card_title: "Okra  Dish",
         card_text: "Roti + Okra = pure comfort food for me! I can pretty much have this combination for the rest of my life.",
         card_href: "/okra",
-        button_title: "Okra Recipie"
+        button_title: "Okra Recipe"
     },
     {
         id: 26,
@@ -215,7 +215,7 @@ export const Food = [
         card_title: "Curd Rice or Dahi Rice Dish",
         card_text: "Curd rice is a South Indian dish made with precooked rice, Curd (Indian Yogurt), herbs and tempering spices.",
         card_href: "/curdrice",
-        button_title: "Curd Rice Recipie"
+        button_title: "Curd Rice Recipe"
     },
     {
         id: 27,
@@ -223,7 +223,7 @@ export const Food = [
         card_title: "Mashed Eggplant Dish",
         card_text: "Roasted eggplant seasoned with Indian spices, is a very popular dish in North India",
         card_href: "/eggplant",
-        button_title: "Eggplant Recipie"
+        button_title: "Eggplant Recipe"
     },
     {
         id: 28,
@@ -231,7 +231,7 @@ export const Food = [
         card_title: "Whole Masoor Dal Curry also known as Brown Lentils",
         card_text: "Enjoy this delicious and healthy Whole Masoor Dal, also known as Brown Lentils Curry, made in the Instant Pot",
         card_href: "/brownlentils",
-        button_title: "Whole Masoor Dal  Brown Lentil Recipie"
+        button_title: "Whole Masoor Dal  Brown Lentil Recipe"
     },
     {
         id: 29,
@@ -239,7 +239,7 @@ export const Food = [
         card_title: "Chickpea Flour Curry also known as Besan",
         card_text: "Enjoy this delicious and healthy Chickpea Flour also known as Besan.",
         card_href: "/beasan",
-        button_title: "Chickpea Flour Curry Recipie"
+        button_title: "Chickpea Flour Curry Recipe"
     },
     {
         id: 30,
@@ -247,7 +247,7 @@ export const Food = [
         card_title: "Cabbage Curry",
         card_text: "Cabbage Curry is a simple recipe that offers lots of complex flavors. From the pungent garlic and onion to the intense Indian spices, this dish will wow you.",
         card_href: "/cabbage",
-        button_title: "Cabbage Curry Recipie"
+        button_title: "Cabbage Curry Recipe"
     },
     {
         id: 31,
@@ -255,7 +255,7 @@ export const Food = [
         card_title: "Homemade Instant Pot Yogurt",
         card_text: "Instant Pot Yogurt, Not only is it easy it’ll add a new spark to your love affair with yogurt! ",
         card_href: "/yogurt",
-        button_title: "Instant Pot Yogurt Recipie"
+        button_title: "Instant Pot Yogurt Recipe"
     },
     {
         id: 32,
@@ -263,15 +263,15 @@ export const Food = [
         card_title: "Onion Curry",
         card_text: "Onion Curry is one of those recipes which is very easy and quick to make. Not only it is easy, this recipe also taste great with Roti (Indian Bread), rice and dal",
         card_href: "/onion",
-        button_title: "Onion Curry Recipie"
+        button_title: "Onion Curry Recipe"
     },
     {
         id: 33,
         card_img: "dhokla.jpg",
-        card_title: "Khaman Dhokla Recipe",
+        card_title: "Khaman Dhokla Dish",
         card_text: "Delicious Chickpea Flour Snack Cake - Khaman Dhokla. It's made from chickpea flour and has a light, airy texture with a mildly tangy and slightly sweet flavor",
         card_href: "/dhokla",
-        button_title: "Khaman Dhokla Recipie"
+        button_title: "Khaman Dhokla Recipe"
     },
     {
         id: 34,
@@ -279,7 +279,7 @@ export const Food = [
         card_title: "Red Kidney Beans Curry",
         card_text: "Rajma is the Indian name for kidney beans. These are soaked, cooked & then simmered with onions, tomatoes & spices to make the dish, Rajma masala.",
         card_href: "/rajmah",
-        button_title: "Red Kidney Bean Curry Recipie"
+        button_title: "Red Kidney Bean Curry Recipe"
     },
     {
         id: 35,
@@ -287,7 +287,7 @@ export const Food = [
         card_title: "Zesty Mexican Rice with Black Beans, Corn, and Peppers",
         card_text: "Zesty Mexican Rice with Black Beans, Corn, and Peppers: A Flavorful Fiesta in Every Bite recipe instructions",
         card_href: "/riceandbeans",
-        button_title: "Mexican Rice with Black Beans Recipie"
+        button_title: "Mexican Rice with Black Beans Recipe"
     },
     {
         id: 36,
@@ -295,7 +295,7 @@ export const Food = [
         card_title: "Sabudana Khichdi – a pilaf/pulao made with Sago Pearls",
         card_text: "Sabudana Khichdi – a pilaf/pulao made with Sago Pearls is a  vegan and gluten-free dish is extremely popular in India during the fasting season",
         card_href: "/sagopearls",
-        button_title: "Sabudana Khichdi Sago Pearls Recipie"
+        button_title: "Sabudana Khichdi Sago Pearls Recipe"
     },
     {
         id: 37,
