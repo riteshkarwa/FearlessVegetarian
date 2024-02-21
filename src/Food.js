@@ -320,5 +320,13 @@ export const Food = [
         card_text: "Savor Punjab's rich flavors with our one-pot mushroom masala curry",
         card_href: "/mushroom",
         button_title: "Delicious Homemade Mushroom Masala Curry Recipe"
+    },
+    {
+        id: 40,
+        card_img: "paneer.jpg",
+        card_title: "Succulent Shahi Paneer: Creamy Delight",
+        card_text: "Indulge in the rich flavors of Shahi Paneer, a creamy delight featuring soft, pillowy paneer floating in a luscious gravy",
+        card_href: "/paneer",
+        button_title: "Delicious Shahi Paneer Recipe"
     }
 ]
