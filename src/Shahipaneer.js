@@ -24,7 +24,7 @@ class Shahipaneer extends Component {
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Succulent Shahi Paneer: Creamy Delight</title>
-                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/mushroom" />
+                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/paneer" />
                     <meta
                         name="description"
                         content="Indulge in the rich flavors of Shahi Paneer, a creamy delight featuring soft, pillowy paneer floating in a luscious gravy"

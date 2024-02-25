@@ -328,5 +328,13 @@ export const Food = [
         card_text: "Indulge in the rich flavors of Shahi Paneer, a creamy delight featuring soft, pillowy paneer floating in a luscious gravy",
         card_href: "/paneer",
         button_title: "Delicious Shahi Paneer Recipe"
+    },
+    {
+        id: 41,
+        card_img: "spinachbesan.jpg",
+        card_title: "Spinach Gram Flour Curry",
+        card_text: "Explore the delightful fusion of flavors in Palak Besan Ki Sabji, a unique and exceptional dish from Indian cuisine",
+        card_href: "/spinachbesan",
+        button_title: "Spinach Gram Flour Recipe"
     }
 ]
