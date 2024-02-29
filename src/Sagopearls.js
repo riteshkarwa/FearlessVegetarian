@@ -5,9 +5,20 @@ import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
+import YouTube from 'react-youtube';
+import MediaQuery from 'react-responsive';
 
 class Sagopearls extends Component {
   render() {
+    const optsDesktop = {
+      height: '800',
+      width: '1000',
+    };
+
+    const optsMobile = {
+      height: '550',
+      width: '325',
+    };
     return (
       <div>
         <Helmet>
@@ -64,6 +75,15 @@ class Sagopearls extends Component {
         </ol>
         <h2>Final Product</h2>
         <Image src="sagopearls.jpg" alt="Sabudana Khichdi – a pilaf/pulao made with sago pearls!" thumbnail rounded fluid></Image>
+        <div>
+          <h2>Sabudana Khichdi Preparation Video</h2>å
+          <MediaQuery maxWidth={767}>
+            <YouTube videoId="VL3VDYQuspY" opts={optsMobile} />
+          </MediaQuery>
+          <MediaQuery minWidth={767}>
+            <YouTube videoId="VL3VDYQuspY" opts={optsDesktop} />
+          </MediaQuery>
+        </div>
       </div>
     );
   }

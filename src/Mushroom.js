@@ -85,7 +85,6 @@ class Mushroom extends Component {
                         <YouTube videoId="UcMZg6QjnuQ" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
-
             </div>
         );
     }
