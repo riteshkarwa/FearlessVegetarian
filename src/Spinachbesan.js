@@ -71,8 +71,8 @@ class Spinachbesan extends Component {
                     <li>Now put a pan on flame and allow it to become completely dry. Then add 3 tablespoons of oil into the pan.</li>
                     <li>Once the oil is hot, add ½ teaspoon cumin seeds, and ½ teaspoon mustard seeds, one by one into the pan for tempering and allow them to crackle. 
                         Then add 1 teaspoon hing (Asafoetida) and give a stir for a few seconds.</li>
-                    <li>Add chopped garlic into the pan and fry them till golden in colour.</li>
-                    <li>Add the chopped onions and cook them over medium flame for around 5-6 minutes till soft and pink in colour</li>
+                    <li>Add chopped garlic into the pan and fry them till golden in color.</li>
+                    <li>Add the chopped onions and cook them over medium flame for around 5-6 minutes till soft and pink in color</li>
                     <li>Add 1 tablespoon ginger-garlic paste, 2-3 green chillies and cook it in low flame for another 2-3 minutes.</li>
                     <li>Add tomatoes and cover the pan. Cook it on low flame for 5-6 minutes until the tomatoes get mushy.</li>
                     <li>Add 1 tablespoon besan aka gram flour into the pan and cook it in low flame for another 3-4 minutes so it 
@@ -89,12 +89,12 @@ class Spinachbesan extends Component {
                 <h2>Final Product</h2>
                 <Image src="spinachbesan.jpg" thumbnail rounded fluid></Image>
                 <div>
-                    <h2>Rajmah Preparation Video</h2>
+                    <h2>Spinach Besan Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
-                        <YouTube videoId="UcMZg6QjnuQ" opts={optsMobile} />
+                        <YouTube videoId="OLhTnVOkedk" opts={optsMobile} />
                     </MediaQuery>
                     <MediaQuery minWidth={767}>
-                        <YouTube videoId="UcMZg6QjnuQ" opts={optsDesktop} />
+                        <YouTube videoId="OLhTnVOkedk" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
 

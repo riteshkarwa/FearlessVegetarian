@@ -77,7 +77,7 @@ class Mushroom extends Component {
                 <h2>Final Product</h2>
                 <Image src="mushroom.jpg" thumbnail rounded fluid></Image>
                 <div>
-                    <h2>Rajmah Preparation Video</h2>
+                    <h2>Mushroom Curry Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
                         <YouTube videoId="UcMZg6QjnuQ" opts={optsMobile} />
                     </MediaQuery>
