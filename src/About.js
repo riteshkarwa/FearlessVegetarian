@@ -20,16 +20,6 @@ class About extends Component {
               nutritious vegetarian recipes. From quick and easy meals for busy weeknights to gourmet 
               dishes that will impress your guests, our recipes cater to diverse tastes and occasions. <br />  <br />
               
-              But Fearless Vegetarian is more than just a recipe website. We are dedicated to promoting 
-              the broader benefits of vegetarianism. From improved health and wellness to environmental 
-              sustainability and ethical considerations, we believe that every vegetarian choice can make a 
-              positive impact on ourselves and the world around us. <br />  <br />
-              
-              On our platform, you'll find valuable resources, insightful articles, and practical tips for 
-              adopting and maintaining a vegetarian lifestyle. We understand that transitioning to a plant-based 
-              diet may seem daunting at first, so we're here to provide guidance, support, and 
-              encouragement every step of the way. <br />  <br />
-              
               At Fearless Vegetarian, we believe that vegetarianism is not about limitations; it's about 
               embracing a world of exciting flavors, textures, and culinary possibilities. Our team is 
               dedicated to curating content that celebrates the richness of plant-based ingredients and 
