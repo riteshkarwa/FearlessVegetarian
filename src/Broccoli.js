@@ -5,9 +5,20 @@ import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
+import YouTube from 'react-youtube';
+import MediaQuery from 'react-responsive';
 
 class Broccoli extends Component {
     render() {
+        const optsDesktop = {
+            height: '800',
+            width: '1000',
+        };
+
+        const optsMobile = {
+            height: '550',
+            width: '325',
+        };
         return (
             <div>
                 <Helmet>
@@ -65,6 +76,15 @@ class Broccoli extends Component {
                 </ol>
                 <h2>Final Product</h2>
                 <Image src="broccoli.jpg" alt="Wholesome Broccoli Soup Recipe with Pine Nuts" thumbnail rounded fluid></Image>
+                <div>
+                    <h2>Broccoli Soup Preparation Video</h2>
+                    <MediaQuery maxWidth={767}>
+                        <YouTube videoId="64gHB7n5cBw" opts={optsMobile} />
+                    </MediaQuery>
+                    <MediaQuery minWidth={767}>
+                        <YouTube videoId="64gHB7n5cBw" opts={optsDesktop} />
+                    </MediaQuery>
+                </div>
             </div>
         );
     }
