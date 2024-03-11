@@ -238,7 +238,7 @@ export const Food = [
         card_img: "besan.jpg",
         card_title: "Chickpea Flour Curry also known as Besan",
         card_text: "Enjoy this delicious and healthy Chickpea Flour also known as Besan.",
-        card_href: "/beasan",
+        card_href: "/besan",
         button_title: "Chickpea Flour Curry Recipe"
     },
     {

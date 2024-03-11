@@ -5,9 +5,20 @@ import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
+import YouTube from 'react-youtube';
+import MediaQuery from 'react-responsive';
 
 class DalMakhani extends Component {
     render() {
+        const optsDesktop = {
+            height: '800',
+            width: '1000',
+        };
+
+        const optsMobile = {
+            height: '550',
+            width: '325',
+        };
         return (
             <div>
                 <Helmet>
@@ -85,6 +96,15 @@ class DalMakhani extends Component {
                 </ol>
                 <h2>Final Product</h2>
                 <Image src="dalmakhani.jpg" thumbnail rounded fluid></Image>
+                <div>
+                    <h2>DalMakhani Preparation Video</h2>
+                    <MediaQuery maxWidth={767}>
+                        <YouTube videoId="64gHB7n5cBw" opts={optsMobile} />
+                    </MediaQuery>
+                    <MediaQuery minWidth={767}>
+                        <YouTube videoId="64gHB7n5cBw" opts={optsDesktop} />
+                    </MediaQuery>
+                </div>
             </div>
         );
     }

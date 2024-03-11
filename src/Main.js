@@ -124,7 +124,7 @@ class Main extends Component {
             <Route exact path="/curdrice" element= {<Curdrice />}></Route>
             <Route exact path="/eggplant" element= {<Eggplant/>}></Route>
             <Route exact path="/brownlentils" element= {<Brownlentils/>}></Route>
-            <Route exact path="/beasan" element= {<Besan/>}></Route>
+            <Route exact path="/besan" element= {<Besan/>}></Route>
             <Route exact path="/cabbage" element= {<Cabbage/>}></Route>
             <Route exact path="/yogurt" element= {<Yogurt />}></Route>
             <Route exact path="/onion" element= {<Onion/>}></Route>
