@@ -43,7 +43,7 @@ class DalMakhani extends Component {
                     It is one of dishes that takes a longer time to cook more than 2 hours. Also the more you cook the better the curry is going to taste.
                 </h1>
                 <Row className="cooktimerow">
-                    <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 4 Servings</Col>
+                    <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
                 </Row>
                 <Row className="cooktimerow">
                     <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
@@ -67,7 +67,7 @@ class DalMakhani extends Component {
                 </ol>
                 <div className="ingredients">Instruction</div>
                 <ol>
-                    <li>Add 1 cup urad dal (black lentils) & 1⁄4 cup rajma (red kidney beans) to
+                    <li>Add 1 cup Urad dal (black lentils) & 1⁄4 cup rajma (red kidney beans) to
                         a large pot and rinse thoroughly a few times. Drain the water and pour 3 to 4 cups fresh water.
                         Soak them for at least 6 to 8 hours. I usually soak them overnight.</li>
                     <li>After they are soaked well, drain the water and pour 4 cups fresh water. Pressure cook on a medium heat for about 35 to 40 mins. </li>
@@ -99,10 +99,10 @@ class DalMakhani extends Component {
                 <div>
                     <h2>DalMakhani Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
-                        <YouTube videoId="64gHB7n5cBw" opts={optsMobile} />
+                        <YouTube videoId="g4WcrkJKDKo" opts={optsMobile} />
                     </MediaQuery>
                     <MediaQuery minWidth={767}>
-                        <YouTube videoId="64gHB7n5cBw" opts={optsDesktop} />
+                        <YouTube videoId="g4WcrkJKDKo" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
             </div>
