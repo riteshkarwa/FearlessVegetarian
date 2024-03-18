@@ -27,15 +27,17 @@ class Mushroom extends Component {
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/mushroom" />
                     <meta
                         name="description"
-                        content="Savor Punjab's rich flavors with our one-pot mushroom curry. Simmered in tomato gravy & yogurt, it's bursting with aromatic spices. Comfort food perfected!"
+                        content="Mushroom Masala Curry is a delightful Indian curry that tantalizes
+                        the taste buds with its blend of savory spices and tender mushrooms. Simmered in tomato gravy & yogurt, 
+                        it's bursting with aromatic spices."
                     />
                     <meta
                         name="keywords"
-                        content="Punjab, flavors, one-pot, mushroom curry, tomato gravy, yogurt, aromatic spices, comfort food,white button mushrooms, creamy yogurt, traditional, comforting, easy to make, satisfying"
+                        content="Punjab, flavors, one-pot, mushroom curry, tomato gravy, yogurt, aromatic spices, comfort food, white button mushrooms, creamy yogurt, traditional, comforting, easy to make, satisfying"
                     />
                 </Helmet>
-                <h1>This Mushroom Masala recipe is an easy, delicious Punjabi style one-pot mushroom Curry made with white button mushrooms in a spiced 
-                    onion-tomato gravy. The addition of creamy yogurt adds a delightful richness to this traditional Punjabi favorite. 
+                <h1>This Mushroom Masala recipe is an easy, delicious Punjabi style one-pot mushroom Curry made with white button mushrooms in a spiced
+                    onion-tomato gravy. The addition of creamy yogurt adds a delightful richness to this traditional Punjabi favorite.
                     Perfect for a comforting meal that's both easy to make and incredibly satisfying.</h1>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
