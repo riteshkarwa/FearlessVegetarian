@@ -13,6 +13,23 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/aloogobi</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/aloogobi.jpg</video:thumbnail_loc>
+            <video:title>Aloo Gobi(Potato Cauliflower): North Indian Delight</video:title>
+            <video:description>Experience the rich flavors of North India with our Aloo Gobi(Potato
+                Cauliflower) recipe. A delightful vegetarian dish that's both comforting and
+                delicious.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=zCoLryH0mDk</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/aloogobi</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>Potato Cauliflower, Aloo Gobi, vegetarian dish, sautéed cauliflower,
+                potatoes, tomatoes, cashews, onions, Indian spices, North Indian cuisine, flavorful
+                vegetarian delight, easy-to-make recipe, Indian culinary masterpiece, classic
+                vegetarian dish, comforting meal, vegetarian Indian recipes</video:tags>
+        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/potato</loc>
@@ -31,6 +48,21 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/dalmakhani</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/dalmakhani.jpg</video:thumbnail_loc>
+            <video:title>Dal Makhani Recipe: A Quintessential Punjabi Delight</video:title>
+            <video:description>Indulge in the rich flavors of authentic Dal Makhani—slow-cooked
+                perfection with whole black gram and red kidney beans. A North Indian culinary
+                delight."</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=g4WcrkJKDKo</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/dalmakhani</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>Dal Makhani, Punjabi Cuisine, Indian Recipes, North Indian Food, Lentil
+                Recipes, Urad Dal, Rajma, Cooking Tutorial</video:tags>
+        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/potatocapsicum</loc>
@@ -85,5 +117,24 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/chorizorice</loc>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/mushroom</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/mushroom.jpg</video:thumbnail_loc>
+            <video:title>Savory Delight: Mushroom Masala Curry Bursting with Flavor in Every Bite!</video:title>
+            <video:description>Mushroom Masala Curry is a delightful Indian curry that tantalizes
+                the taste buds with its blend of savory spices and tender mushrooms. Simmered
+                in tomato gravy and yogurt, it's bursting with aromatic spices. Comfort food
+                perfected!</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=UcMZg6QjnuQ</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/mushroom</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>Dal Makhani, Punjabi Cuisine, Indian Recipes, North Indian Food, Lentil
+                Recipes, Urad Dal, Rajma, Cooking Tutorial</video:tags>
+        </video:video>
     </url>
 </urlset>
