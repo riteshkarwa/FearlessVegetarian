@@ -133,8 +133,28 @@
             <video:platform>web mobile</video:platform>
             <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
             <video:category>Food and Cooking</video:category>
-            <video:tags>Dal Makhani, Punjabi Cuisine, Indian Recipes, North Indian Food, Lentil
-                Recipes, Urad Dal, Rajma, Cooking Tutorial</video:tags>
+            <video:tags>Punjab, flavors, one-pot, mushroom curry, tomato gravy, yogurt, aromatic
+                spices, comfort food, white button mushrooms, creamy yogurt, traditional,
+                comforting, easy to make, satisfying</video:tags>
+        </video:video>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/curdrice</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/curdrice.jpg</video:thumbnail_loc>
+            <video:title>Curd Rice Delight: South Indian Comfort</video:title>
+            <video:description>Curd Rice Delight: Enjoy South Indian comfort with this dish made
+                with precooked rice, yogurt, herbs, and tempering spices.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=Y_QJdaanMzg</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/curdrice</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>curd rice, South Indian dish, Indian yogurt, precooked rice, herbs,
+                tempering spices, South Indian cuisine, traditional recipes, comfort food, cooling
+                dish, easy-to-follow recipe, flavorful curd rice, Indian culinary delight,
+                vegetarian dishes, fresh and aromatic"</video:tags>
         </video:video>
     </url>
 </urlset>
