@@ -10,7 +10,7 @@ describe('Fearless Vegetarian webpage testing', () => {
     });
   })
 
-  it.only('search for a dish on recipe page',() =>{
+  it('search for a dish on recipe page',() =>{
     cy.visit('https://fearlessvegetarian.netlify.app/recipe')
     cy.get('input.search').type('mushroom')
     cy.contains('Delicious Homemade Mushroom Masala Curry Recipe').click()
