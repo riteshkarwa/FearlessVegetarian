@@ -10,6 +10,15 @@ describe('Fearless Vegetarian webpage testing', () => {
     });
   })
 
+  it.only('search for a dish on recipe page',() =>{
+    cy.visit('https://fearlessvegetarian.netlify.app/recipe')
+    cy.get('input.search').type('mushroom')
+    cy.contains('Delicious Homemade Mushroom Masala Curry Recipe').click()
+    cy.get('h1').should(($ele) => {
+      expect($ele.text().trim()).to.contain('Mushroom Masala recipe is an easy, delicious Punjabi style one-pot mushroom curry');
+    });
+  })
+
   it('visit Sandwich recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/sandwich')
     cy.get('h1').should(($ele) => {
