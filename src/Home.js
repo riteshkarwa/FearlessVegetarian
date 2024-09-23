@@ -8,7 +8,7 @@ class Home extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Aloo Gobi(Potato Cauliflower): North Indian Delight</title>
+          <title>Fearless Vegetarian, Plant-Powered Living, Delicious Vegetarian Recipes</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/" />
           <meta
             name="description"
