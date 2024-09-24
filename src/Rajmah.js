@@ -11,8 +11,8 @@ import { Helmet } from "react-helmet";
 class Rajmah extends Component {
     render() {
         const optsDesktop = {
-            height: '800',
-            width: '1000',
+            height: '600',
+            width: '600',
         };
 
         const optsMobile = {
@@ -78,7 +78,12 @@ class Rajmah extends Component {
                     <li>Garnish with fresh coriander leaves and serve the Rajma with steamed rice or Indian bread (roti/naan).</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="rajmah.jpg" thumbnail rounded fluid></Image>
+                <MediaQuery maxWidth={767}>
+                    <Image src="rajmah.jpg" alt="Soulful Rajmah Indian Curry:" thumbnail rounded fluid></Image>
+                </MediaQuery>
+                <MediaQuery minWidth={767}>
+                    <Image src="rajmah.jpg" alt="Soulful Rajmah Indian Curry:" thumbnail rounded width="50%" height="50%"></Image>
+                </MediaQuery>
                 <div>
                     <h2>Rajmah Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
