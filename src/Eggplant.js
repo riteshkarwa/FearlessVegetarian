@@ -79,7 +79,12 @@ class Eggplant extends Component {
                     <li>Mix well and cook for 3 to 4 mins on a medium heat. Taste test and add more salt if needed.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="eggplant.jpg" alt="Savor the Smoky Goodness: Homemade Baingan Bharta (Eggplant Curry) Image" thumbnail rounded fluid></Image>
+                <MediaQuery maxWidth={767}>
+                    <Image src="eggplant.jpg" alt="Savor the Smoky Goodness: Homemade Baingan Bharta (Eggplant Curry) Image" thumbnail rounded fluid></Image>
+                </MediaQuery>
+                <MediaQuery minWidth={767}>
+                    <Image src="eggplant.jpg" alt="Savor the Smoky Goodness: Homemade Baingan Bharta (Eggplant Curry) Image" thumbnail rounded width="50%" height="50%"></Image>
+                </MediaQuery>
                 <div>
                     <h2>Curd Rice Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
