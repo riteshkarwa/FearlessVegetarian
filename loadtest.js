@@ -13,4 +13,9 @@ export default function () {
   const res = http.get('https://fearlessvegetarian.netlify.app/');
   check(res, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
+
+  const res2 = http.get('https://fearlessvegetarian.netlify.app/recipe');
+  check(res2, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
 }

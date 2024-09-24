@@ -12,6 +12,26 @@
         <loc>https://fearlessvegetarian.netlify.app/recipe</loc>
     </url>
     <url>
+        <loc>https://fearlessvegetarian.netlify.app/aloogobi</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/aloogobi.jpg</video:thumbnail_loc>
+            <video:title>Aloo Gobi(Potato Cauliflower) Video: North Indian Delight</video:title>
+            <video:description>Experience the rich flavors of North India with our Aloo Gobi(Potato
+                Cauliflower) recipe. A delightful vegetarian dish that's both comforting and
+                delicious.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=zCoLryH0mDk</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/aloogobi</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>Potato Cauliflower, Aloo Gobi, vegetarian dish, sautéed cauliflower,
+                potatoes, tomatoes, cashews, onions, Indian spices, North Indian cuisine, flavorful
+                vegetarian delight, easy-to-make recipe, Indian culinary masterpiece, classic
+                vegetarian dish, comforting meal, vegetarian Indian recipes</video:tags>
+        </video:video>
+    </url>
+    <url>
         <loc>https://fearlessvegetarian.netlify.app/potato</loc>
     </url>
     <url>
@@ -28,6 +48,21 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/dalmakhani</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/dalmakhani.jpg</video:thumbnail_loc>
+            <video:title>Dal Makhani Recipe Video: A Quintessential Punjabi Delight</video:title>
+            <video:description>Indulge in the rich flavors of authentic Dal Makhani—slow-cooked
+                perfection with whole black gram and red kidney beans. A North Indian culinary
+                delight."</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=g4WcrkJKDKo</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/dalmakhani</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>Dal Makhani, Punjabi Cuisine, Indian Recipes, North Indian Food, Lentil
+                Recipes, Urad Dal, Rajma, Cooking Tutorial</video:tags>
+        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/potatocapsicum</loc>
@@ -45,6 +80,9 @@
         <loc>https://fearlessvegetarian.netlify.app/chipotle</loc>
     </url>
     <url>
+        <loc>https://fearlessvegetarian.netlify.app/besan</loc>
+    </url>
+    <url>
         <loc>https://fearlessvegetarian.netlify.app/blackeyedbeans</loc>
     </url>
     <url>
@@ -58,6 +96,22 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/lentil</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/lentil.jpg</video:thumbnail_loc>
+            <video:title>Masoor Dal Delight: Lentil Soup Curry Video</video:title>
+            <video:description>Masoor Dal Delight: A Comforting Lentil Soup Curry Bursting with
+                Flavor. Perfect for a Wholesome Meal.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=LLafY-6nd3M</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/lentil</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>masoor dal, lentil soup curry, flavorful dal recipe, comfort food,
+                nutritious lentil curry, masoor dal delight, vegetarian dishes, Indian cuisine,
+                hearty lentil soup, easy-to-make curry, wholesome comfort meal, aromatic spices,
+                homemade dal, flavorful and comforting, lentil curry ideas</video:tags>
+        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/couscous</loc>
@@ -73,8 +127,70 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/upma</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/upma.jpg</video:thumbnail_loc>
+            <video:title>Upma Bliss: South Indian Breakfast Video</video:title>
+            <video:description>Upma Bliss: South Indian Breakfast with Cream of Wheat, Urad Dal,
+                Nuts, Herbs, and Spices</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=_gl_nFzJYz0</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/upma</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>upma, South Indian breakfast, cream of wheat, semolina flour, rava, suji,
+                Urad dal, nuts, herbs, spices, savory breakfast, popular South Indian dish,
+                flavorful upma, traditional breakfast, easy-to-make recipe, vegetarian breakfast,
+                South Indian culinary delight, breakfast bliss</video:tags>
+        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/potatobhurji</loc>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/riceandbeans</loc>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/chorizorice</loc>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/mushroom</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/mushroom.jpg</video:thumbnail_loc>
+            <video:title>Savory Delight: Mushroom Masala Curry Video Bursting with Flavor in Every
+                Bite!</video:title>
+            <video:description>Mushroom Masala Curry is a delightful Indian curry that tantalizes
+                the taste buds with its blend of savory spices and tender mushrooms. Simmered
+                in tomato gravy and yogurt, it's bursting with aromatic spices. Comfort food
+                perfected!</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=UcMZg6QjnuQ</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/mushroom</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>Punjab, flavors, one-pot, mushroom curry, tomato gravy, yogurt, aromatic
+                spices, comfort food, white button mushrooms, creamy yogurt, traditional,
+                comforting, easy to make, satisfying</video:tags>
+        </video:video>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/curdrice</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/curdrice.jpg</video:thumbnail_loc>
+            <video:title>Curd Rice Delight: South Indian Comfort Video</video:title>
+            <video:description>Curd Rice Delight: Enjoy South Indian comfort with this dish made
+                with precooked rice, yogurt, herbs, and tempering spices.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=Y_QJdaanMzg</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/curdrice</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>curd rice, South Indian dish, Indian yogurt, precooked rice, herbs,
+                tempering spices, South Indian cuisine, traditional recipes, comfort food, cooling
+                dish, easy-to-follow recipe, flavorful curd rice, Indian culinary delight,
+                vegetarian dishes, fresh and aromatic"</video:tags>
+        </video:video>
     </url>
 </urlset>
