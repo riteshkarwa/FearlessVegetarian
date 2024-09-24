@@ -79,7 +79,12 @@ class Besan extends Component {
           <li>Transfer it to a serving bowl and garnish with spring onions.</li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="besan.jpg" thumbnail rounded fluid></Image>
+        <MediaQuery maxWidth={767}>
+          <Image src="besan.jpg" thumbnail rounded fluid></Image>
+        </MediaQuery>
+        <MediaQuery minWidth={767}>
+          <Image src="besan.jpg" thumbnail rounded width="50%" height="50%"></Image>
+        </MediaQuery>
         <div>
           <h2>Brown Lentils Whole Masoor Dal Preparation video</h2>
           <MediaQuery maxWidth={767}>
