@@ -11,8 +11,8 @@ import { Helmet } from "react-helmet";
 class Besan extends Component {
   render() {
     const optsDesktop = {
-      height: '800',
-      width: '1000',
+      height: '500',
+      width: '500',
     };
 
     const optsMobile = {
@@ -86,7 +86,7 @@ class Besan extends Component {
           <Image src="besan.jpg" thumbnail rounded width="50%" height="50%"></Image>
         </MediaQuery>
         <div>
-          <h2>Brown Lentils Whole Masoor Dal Preparation video</h2>
+          <h2>Chickpea Flour Curry, Besan Curry Preparation video</h2>
           <MediaQuery maxWidth={767}>
             <YouTube videoId="VyEveOxhx7s" opts={optsMobile} />
           </MediaQuery>
