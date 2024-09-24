@@ -11,8 +11,8 @@ import { Helmet } from "react-helmet";
 class Beetroot extends Component {
   render() {
     const optsDesktop = {
-      height: '800',
-      width: '800',
+      height: '315',
+      width: '560',
     };
 
     const optsMobile = {
