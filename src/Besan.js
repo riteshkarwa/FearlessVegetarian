@@ -12,7 +12,7 @@ class Besan extends Component {
   render() {
     const optsDesktop = {
       height: '500',
-      width: '500',
+      width: '600',
     };
 
     const optsMobile = {
