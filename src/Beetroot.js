@@ -12,7 +12,7 @@ class Beetroot extends Component {
   render() {
     const optsDesktop = {
       height: '500',
-      width: '800',
+      width: '700',
     };
 
     const optsMobile = {
