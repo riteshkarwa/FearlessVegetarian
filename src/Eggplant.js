@@ -12,8 +12,8 @@ import { Helmet } from "react-helmet";
 class Eggplant extends Component {
     render() {
         const optsDesktop = {
-            height: '800',
-            width: '1000',
+            height: '600',
+            width: '800',
         };
 
         const optsMobile = {
