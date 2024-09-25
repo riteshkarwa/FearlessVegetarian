@@ -86,7 +86,7 @@ class Eggplant extends Component {
                     <Image src="eggplant.jpg" alt="Savor the Smoky Goodness: Homemade Baingan Bharta (Eggplant Curry) Image" thumbnail rounded width="50%" height="50%"></Image>
                 </MediaQuery>
                 <div>
-                    <h2>Curd Rice Preparation Video</h2>
+                    <h2>Mashed Eggpplant Curry Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
                         <YouTube videoId="Q29mav0GfK8" opts={optsMobile} />
                     </MediaQuery>
