@@ -71,7 +71,7 @@ class Couscous extends Component {
         <h2>Final Product</h2>
         <Image src="couscous.jpg" alt="Mediterranean Magic: Easy and Flavorful Couscous Recipe for Culinary Bliss!" thumbnail rounded fluid></Image>
         <div>
-          <h2>Curd Rice Preparation Video</h2>
+          <h2>Mediterranean Magic: Easy and Flavorful Couscous Recipe Preparation Video</h2>
           <MediaQuery maxWidth={767}>
             <YouTube videoId="altlinYLUNA" opts={optsMobile} />
           </MediaQuery>
