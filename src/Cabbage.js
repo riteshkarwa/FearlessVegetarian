@@ -11,8 +11,8 @@ import { Helmet } from "react-helmet";
 class Cabbage extends Component {
     render() {
         const optsDesktop = {
-            height: '800',
-            width: '1000',
+            height: '600',
+            width: '700',
         };
 
         const optsMobile = {
@@ -80,7 +80,12 @@ class Cabbage extends Component {
                     <li>Serve the cabbage curry with Indian bread.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="cabbage.jpg" alt="Soulful Cabbage Curry Image" thumbnail rounded fluid></Image>
+                <MediaQuery maxWidth={767}>
+                    <Image src="cabbage.jpg" alt="Soulful Cabbage Curry Image" thumbnail rounded fluid></Image>
+                </MediaQuery>
+                <MediaQuery minWidth={767}>
+                    <Image src="cabbage.jpg" alt="Soulful Cabbage Curry Image" thumbnail rounded width="50%" height="50%"></Image>
+                </MediaQuery>
                 <div>
                     <h2>Cabbage Curry (Patta Gobi) Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
