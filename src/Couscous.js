@@ -69,7 +69,13 @@ class Couscous extends Component {
           <li>Add a cherry tomatoes, kalamata olives, pan fried tofu and some feta to the couscous and mix it </li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="couscous.jpg" alt="Mediterranean Magic: Easy and Flavorful Couscous Recipe for Culinary Bliss!" thumbnail rounded fluid></Image>
+        <MediaQuery maxWidth={767}>
+          <Image src="couscous.jpg" alt="Mediterranean Magic: Easy and Flavorful Couscous Recipe for Culinary Bliss!" thumbnail rounded fluid></Image>
+        </MediaQuery>
+        <MediaQuery minWidth={767}>
+          <Image src="couscous.jpg" alt="Mediterranean Magic: Easy and Flavorful Couscous Recipe for Culinary Bliss!" thumbnail rounded width="50%" height="50%"></Image>
+        </MediaQuery>
+
         <div>
           <h2>Mediterranean Magic: Easy and Flavorful Couscous Recipe Preparation Video</h2>
           <MediaQuery maxWidth={767}>
