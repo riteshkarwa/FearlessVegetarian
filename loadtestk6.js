@@ -58,5 +58,21 @@ export default function () {
   const res12 = http.get('https://fearlessvegetarian.netlify.app/dalmakhani');
   check(res12, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
+
+  const res13 = http.get('https://fearlessvegetarian.netlify.app/privacypolicy');
+  check(res13, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res14 = http.get('https://fearlessvegetarian.netlify.app/chorizorice');
+  check(res14, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res15 = http.get('https://fearlessvegetarian.netlify.app/riceandbeans');
+  check(res15, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res16 = http.get('https://fearlessvegetarian.netlify.app/upma');
+  check(res16, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
 }
 
