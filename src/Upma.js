@@ -12,8 +12,8 @@ import { Helmet } from "react-helmet";
 class Upma extends Component {
   render() {
     const optsDesktop = {
-      height: '800',
-      width: '1000',
+      height: '600',
+      width: '600',
     };
 
     const optsMobile = {
