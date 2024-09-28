@@ -88,7 +88,12 @@ class Upma extends Component {
           <li>Lastly add about 2 tablespoons chopped coriander leaves (cilantro). You can add more coriander leaves if you like.</li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="upma.jpg" thumbnail rounded fluid></Image>
+        <MediaQuery maxWidth={767}>
+          <Image src="upma.jpg" alt="Upma is a flavorful, tasty, savory and popular South Indian breakfast" thumbnail rounded fluid></Image>
+        </MediaQuery>
+        <MediaQuery minWidth={767}>
+          <Image src="upma.jpg" alt="Upma is a flavorful, tasty, savory and popular South Indian breakfast" thumbnail rounded width="50%" height="50%"></Image>
+        </MediaQuery>
         <div>
           <h2>Upma Preparation Video</h2>
           <MediaQuery maxWidth={767}>
