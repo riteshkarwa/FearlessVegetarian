@@ -20,26 +20,43 @@ export default function () {
   sleep(1);
 
   const res3 = http.get('https://fearlessvegetarian.netlify.app/beetroot');
-  check(res, { 'status was 200': (r) => r.status == 200 });
+  check(res3, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
 
   const res4 = http.get('https://fearlessvegetarian.netlify.app/saagpaneer');
-  check(res, { 'status was 200': (r) => r.status == 200 });
+  check(res4, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
 
   const res5 = http.get('https://fearlessvegetarian.netlify.app/chipotle');
-  check(res, { 'status was 200': (r) => r.status == 200 });
+  check(res5, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
 
   const res6 = http.get('https://fearlessvegetarian.netlify.app/besan');
-  check(res, { 'status was 200': (r) => r.status == 200 });
+  check(res6, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
 
   const res7 = http.get('https://fearlessvegetarian.netlify.app/blackeyedbeans');
-  check(res, { 'status was 200': (r) => r.status == 200 });
+  check(res7, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
 
   const res8 = http.get('https://fearlessvegetarian.netlify.app/hakkanoodle');
-  check(res, { 'status was 200': (r) => r.status == 200 });
+  check(res8, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res9 = http.get('https://fearlessvegetarian.netlify.app/about');
+  check(res9, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res10 = http.get('https://fearlessvegetarian.netlify.app/potato');
+  check(res10, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res11 = http.get('https://fearlessvegetarian.netlify.app/sandwich');
+  check(res11, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res12 = http.get('https://fearlessvegetarian.netlify.app/dalmakhani');
+  check(res12, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
 }
+
