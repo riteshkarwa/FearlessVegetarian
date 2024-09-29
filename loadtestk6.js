@@ -74,5 +74,21 @@ export default function () {
   const res16 = http.get('https://fearlessvegetarian.netlify.app/upma');
   check(res16, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
+
+  const res17 = http.get('https://fearlessvegetarian.netlify.app/contact');
+  check(res17, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res18 = http.get('https://fearlessvegetarian.netlify.app/donate');
+  check(res18, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res19 = http.get('https://fearlessvegetarian.netlify.app/cabbage');
+  check(res19, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res20 = http.get('https://fearlessvegetarian.netlify.app/okra');
+  check(res20, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
 }
 
