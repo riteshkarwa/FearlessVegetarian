@@ -90,5 +90,9 @@ export default function () {
   const res20 = http.get('https://fearlessvegetarian.netlify.app/okra');
   check(res20, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
+
+  const res21 = http.get('https://fearlessvegetarian.netlify.app/rajmah');
+  check(res21, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
 }
 
