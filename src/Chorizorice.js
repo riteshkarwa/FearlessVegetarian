@@ -12,7 +12,7 @@ class Chorizorice extends Component {
     render() {
         const optsDesktop = {
             height: '600',
-            width: '800',
+            width: '600',
         };
 
         const optsMobile = {
