@@ -11,8 +11,8 @@ import MediaQuery from 'react-responsive';
 class Chorizorice extends Component {
     render() {
         const optsDesktop = {
-            height: '800',
-            width: '1000',
+            height: '600',
+            width: '800',
         };
 
         const optsMobile = {
@@ -77,7 +77,12 @@ class Chorizorice extends Component {
                     <li>Stir well</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="chorizorice.jpg" thumbnail rounded fluid></Image>
+                <MediaQuery maxWidth={767}>
+                    <Image src="chorizorice.jpg" alt="One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot" thumbnail rounded fluid></Image>
+                </MediaQuery>
+                <MediaQuery minWidth={767}>
+                    <Image src="chorizorice.jpg" alt="One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot" thumbnail rounded width="50%" height="50%"></Image>
+                </MediaQuery>
                 <div>
                     <h2>One-Pot Soy Chorizo Rice Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
