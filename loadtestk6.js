@@ -94,5 +94,9 @@ export default function () {
   const res21 = http.get('https://fearlessvegetarian.netlify.app/rajmah');
   check(res21, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
+
+  const res22 = http.get('https://fearlessvegetarian.netlify.app/erayba');
+  check(res22, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
 }
 
