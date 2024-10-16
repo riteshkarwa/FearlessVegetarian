@@ -53,7 +53,7 @@ import Broccoli from "./Broccoli";
 import Mushroom from "./Mushroom";
 import Shahipaneer from "./Shahipaneer";
 import Spinachbesan from "./Spinachbesan";
-import Erayba from "./erayba";
+import Erayba from "./Erayba";
 
 
 
