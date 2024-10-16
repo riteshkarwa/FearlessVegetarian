@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Erayba extends Component {
     render() {
@@ -23,9 +24,9 @@ class Erayba extends Component {
                     and deliver the best results while respecting our environment.
 
                     We are thrilled to bring Erayba's heritage and passion to India, ensuring beauty professionals here have access to world-class products and support.
-
-
+                    
                 </p>
+                <p><FontAwesomeIcon icon="fa-solid fa-envelope" /> anarabiocosmetic@gmail.com</p>
             </div>
         );
     }
