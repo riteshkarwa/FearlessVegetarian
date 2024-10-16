@@ -5,8 +5,9 @@ class Erayba extends Component {
         return (
             <div>
                 <p>
-                    <h1>Erayba India!</h1><br />  <br />
-                    Erayba Professional Hair Cosmetics – India Branch <br /> 
+                    <h1>Erayba India!</h1>
+                    
+                    <h2>Erayba Professional Hair Cosmetics – India Branch</h2> <br /> 
 
                     Erayba Professional Hair Cosmetics is excited to expand its global presence with the opening of our India branch. 
                     With the same commitment to excellence that has defined us since 1983, we aim to provide salons and professional hairdressers in India 
@@ -15,7 +16,7 @@ class Erayba extends Component {
                     Our India branch brings the latest in hair care technology and innovative products crafted 
                     from the best natural and vegan ingredients, ensuring that hair is treated with the utmost respect and care. 
                     We are committed to supporting the creativity and passion of India’s hair professionals, 
-                    helping them achieve the best results and create true beauty. <br /> 
+                    helping them achieve the best results and create true beauty. <br />  <br /> 
 
                     <h2>A Commitment to Excellence and Sustainability </h2> <br /> 
 
