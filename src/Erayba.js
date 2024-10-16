@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 class Erayba extends Component {
     render() {
@@ -26,7 +27,7 @@ class Erayba extends Component {
                     We are thrilled to bring Erayba's heritage and passion to India, ensuring beauty professionals here have access to world-class products and support.
                     
                 </p>
-                <p><FontAwesomeIcon icon="fa-solid fa-envelope" /> anarabiocosmetic@gmail.com</p>
+                <p><FontAwesomeIcon icon={faEnvelope} /> anarabiocosmetic@gmail.com</p>
             </div>
         );
     }
