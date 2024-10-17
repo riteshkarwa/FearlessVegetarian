@@ -114,4 +114,11 @@ describe('Fearless Vegetarian webpage testing', () => {
       expect($ele.text().trim()).equal("Shakshuka is believed to have originated in North Africa. Its popularity spread throughout the Middle East, especially in Israel, where it was embraced as a hearty, inexpensive, and simple dish. The Israeli version is thought to include eggs served over a seasoned tomato-based sauce. This Recipe, made with chickpeas instead of eggs.");
     });
   })
+
+  it('visit Erayba India page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/erayba')
+    cy.get('h1').should(($ele) => {
+      expect($ele.text().trim()).equal("Erayba India!");
+    });
+  })
 })
