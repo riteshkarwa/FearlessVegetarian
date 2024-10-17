@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 class Erayba extends Component {
     render() {
@@ -28,6 +29,7 @@ class Erayba extends Component {
                     
                 </p>
                 <p><FontAwesomeIcon icon={faEnvelope} /> anarabiocosmetic@gmail.com</p>
+                <p><FontAwesomeIcon icon={faPhone} /> +91 96190 00315</p>
             </div>
         );
     }
