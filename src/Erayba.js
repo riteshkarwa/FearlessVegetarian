@@ -27,7 +27,7 @@ class Erayba extends Component {
                 </Helmet>
                 <p>
                     <h1>Erayba India!</h1>
-                    
+                    <Image src="erayba.jpg" className="pro_veg" rounded responsive alt="Erayba India" />
                     <h2>Erayba Professional Hair Cosmetics – India Branch</h2>
                     Erayba Professional Hair Cosmetics is excited to expand its global presence with the opening of our India branch.
                     With the same commitment to excellence that has defined us since 1983, we aim to provide salons and professional hairdressers in India
