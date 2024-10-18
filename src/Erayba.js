@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import Image from 'react-bootstrap/Image'
+import { Helmet } from "react-helmet"
 
 class Erayba extends Component {
     render() {
