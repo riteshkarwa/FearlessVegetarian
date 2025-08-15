@@ -83,7 +83,7 @@ class Poha extends Component {
         <h2>Final Product</h2>
         <Image src="poha.jpg" alt="Plate of Delicious Poha: A Quick and Wholesome Indian Breakfast Delight" thumbnail rounded fluid></Image>
         <div>
-          <h2>Yogurt Preparation Video</h2>
+          <h2>Poha Preparation Video</h2>
           <MediaQuery maxWidth={767}>
             <YouTube videoId="2FO9-kIQs20" opts={optsMobile} />
           </MediaQuery>
