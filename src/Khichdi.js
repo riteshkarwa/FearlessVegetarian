@@ -20,7 +20,8 @@ class Khichdi extends Component {
           />
           <meta
             name="keywords"
-            content="Khichdi, South Asian stew, Moong dal, Lentils, Rice, Long-grain rice, Yellow moong dal, Split mung beans, Tomatoes, Onion, Cumin, Coriander, Turmeric, Comforting food, One-pot meal, Indian cuisine, Homemade khichdi, Family recipe"
+            content="Recipes, cooking, cooking tutorial, Fearless Vegetarian, vegan, Khichdi, South Asian stew, Moong dal, Lentils, Rice, Long-grain rice, Yellow moong dal, Split mung beans, Tomatoes, Onion, Cumin, Comforting food, 
+            One-pot meal, Indian cuisine, Homemade khichdi, Family recipe"
           />
           <meta property="og:title" content="Khichdi is a comforting and mild South Asian stew" />
           <meta property="og:type" content="website" />

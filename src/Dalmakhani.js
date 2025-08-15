@@ -31,7 +31,10 @@ class DalMakhani extends Component {
                     />
                     <meta
                         name="keywords"
-                        content="Dal Makhani, Authentic flavors, Indian-inspired recipes, vegetarian dishes, Slow-cooked perfection, homemade curry, plant-based cuisine, flavorful herbs, easy-to-make curry, nutritious meals, vegetarian comfort food, Red kidney beans, black gram, simple and delicious, North Indian cuisine"
+                        content="Dal Makhani, Authentic flavors, Indian-inspired recipes, vegetarian dishes, 
+                        Slow-cooked perfection, homemade curry, plant-based cuisine, flavorful herbs, easy-to-make curry, 
+                        nutritious meals, vegetarian comfort food, Red kidney beans, black gram, simple and delicious, 
+                        North Indian cuisine, Recipes, cooking, cooking tutorial, Fearless Vegetarian, vegan"
                     />
                     <meta property="og:title" content="Authentic Dal Makhani: A Slow Cooked Delight" />
                     <meta property="og:type" content="website" />

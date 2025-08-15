@@ -31,7 +31,10 @@ class Poha extends Component {
           />
           <meta
             name="keywords"
-            content="poha, breakfast recipe, Indian breakfast, quick and wholesome, flattened rice, nutritious morning meal, aromatic spices, easy breakfast, flavorful poha, Indian cuisine, breakfast delight, simple and tasty, morning comfort food, vegetarian breakfast, Indian culinary delight"
+            content="poha, breakfast recipe, Indian breakfast, quick and wholesome, flattened rice, 
+            nutritious morning meal, aromatic spices, easy breakfast, flavorful poha, Indian cuisine, 
+            breakfast delight, simple and tasty, morning comfort food, vegetarian breakfast, 
+            Indian culinary delight, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
           />
           <meta property="og:title" content="Poha Delight: Quick Wholesome Breakfast Recipe!" />
           <meta property="og:type" content="website" />
