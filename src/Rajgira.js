@@ -74,7 +74,7 @@ class RajgiraHalwa extends Component {
                     <Image src="rajgirahalwa.jpg" alt="Savor unique flavors in our Rajgira Halwa" thumbnail rounded width="50%" height="50%"></Image>
                 </MediaQuery>
                 <div>
-                    <h2>DalMakhani Preparation Video</h2>
+                    <h2>Rajgira Halwa Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
                         <YouTube videoId="F6twlcz2W7g" opts={optsMobile} />
                     </MediaQuery>
