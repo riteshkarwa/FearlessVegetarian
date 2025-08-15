@@ -336,5 +336,13 @@ export const Food = [
         card_text: "Explore the delightful fusion of flavors in Palak Besan Ki Sabji, a unique and exceptional dish from Indian cuisine",
         card_href: "/spinachbesan",
         button_title: "Spinach Gram Flour Recipe"
+    },
+    {
+        id: 41,
+        card_img: "rajgirahalwa.jpg",
+        card_title: "Rajgira Halwa",
+        card_text: "Learn how to make Rajgira Halwa, a rich and flavorful dessert made with amaranth flour, ghee, and jaggery. Perfect for Navratri, fasting (vrat) days, or as a wholesome sweet treat.",
+        card_href: "/rajgirahalwa",
+        button_title: "Rajgira Halwa Recipe"
     }
 ]

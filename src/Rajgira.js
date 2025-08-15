@@ -27,7 +27,7 @@ class RajgiraHalwa extends Component {
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/rajgirahalwa" />
                     <meta
                         name="description"
-                        content="Indulge in the rich flavors of authentic Dal Makhani—slow-cooked perfection with whole black gram and red kidney beans. A North Indian culinary delight."
+                        content="Learn how to make Rajgira Halwa, a rich and flavorful dessert made with amaranth flour, ghee, and jaggery. Perfect for Navratri, fasting (vrat) days, or as a wholesome sweet treat."
                     />
                     <meta
                         name="keywords"
@@ -37,13 +37,12 @@ class RajgiraHalwa extends Component {
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://fearlessvegetarian.netlify.app/rajgirahalwa" />
                     <meta property="og:image" content="https://fearlessvegetarian.netlify.app/rajgirahalwa.jpg" />
-                    <meta property="og:description" content="Indulge in the rich flavors of authentic Dal Makhani—slow-cooked perfection with whole black gram and red kidney beans. A North Indian culinary delight." />
+                    <meta property="og:description" content="Learn how to make Rajgira Halwa, a rich and flavorful dessert made with amaranth flour, ghee, and jaggery. Perfect for Navratri, fasting (vrat) days, or as a wholesome sweet treat." />
                 </Helmet>
-                <h1>Dal Makhani is a classic North Indian dish made with whole black gram (Urad dal) found in Indian Store, red kidney beans, butter and other Indian Spices.
-                    It is one of dishes that takes a longer time to cook more than 2 hours. Also the more you cook the better the curry is going to taste.
+                <h1>Learn how to make Rajgira Halwa, a rich and flavorful dessert made with amaranth flour, ghee, and jaggery. Perfect for Navratri, fasting (vrat) days, or as a wholesome sweet treat.
                 </h1>
                 <Row className="cooktimerow">
-                    <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
+                    <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Servings</Col>
                 </Row>
                 <Row className="cooktimerow">
                     <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
@@ -68,7 +67,7 @@ class RajgiraHalwa extends Component {
                     <li>Add cardamom powder, chopped nuts, and raisins.Mix well and cook for another 1–2 minutes.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="dalmakhani.jpg" thumbnail rounded fluid></Image>
+                <Image src="rajgirahalwa.jpg" thumbnail rounded fluid></Image>
                 <div>
                     <h2>DalMakhani Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
