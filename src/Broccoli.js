@@ -33,7 +33,7 @@ class Broccoli extends Component {
                         name="keywords"
                         content="Broccoli Soup, Homemade Recipe, Pine Nuts, Comforting Soup, Culinary Delight, Healthy Cooking, 
                         Easy Soup Recipe, Nutritious Ingredients, Cooking Tutorial, Pine Nut Garnish, Wholesome Comfort Food, 
-                        Kitchen Delights, Soup with Texture Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan, 
+                        Kitchen Delights, Soup with Texture, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan, 
                         Flavorful Broccoli Dish, Cooking Inspiration, Simple Recipe, Cooking at Home, Tasty Broccoli Soup, 
                         Pine Nut Crunch, Step-by-Step Cooking, Comfort Food Creations, Culinary Adventure, Delicious Soup Ideas, Soup Season, Nutty Broccoli Flavor."
                     />

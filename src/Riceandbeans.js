@@ -31,7 +31,9 @@ class Riceandbeans extends Component {
                     />
                     <meta
                         name="keywords"
-                        content="Mexican rice, black beans, corn, peppers, zesty rice recipe, flavorful Mexican cuisine, easy Mexican rice, vegetarian Mexican dishes, vibrant side dishes, Mexican-inspired cooking, homemade rice and beans, fiesta-worthy recipes, Tex-Mex flavors, step-by-step cooking, delicious rice dishes, colorful and tasty"
+                        content="Mexican rice, black beans, corn, peppers, zesty rice recipe, flavorful Mexican cuisine, easy Mexican rice, vegetarian Mexican dishes, vibrant side dishes, 
+                        Mexican-inspired cooking, homemade rice and beans, fiesta-worthy recipes, Tex-Mex flavors, step-by-step cooking, delicious rice dishes, colorful and tasty,
+                        Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
                     />
                     <meta property="og:title" content="Zesty Mexican Rice with Black Beans, Corn, and Peppers" />
                     <meta property="og:type" content="website" />

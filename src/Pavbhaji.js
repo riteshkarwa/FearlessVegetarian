@@ -33,7 +33,9 @@ class Pavbhaji extends Component {
                     />
                     <meta
                         name="keywords"
-                        content="pav bhaji, street-style food, homemade pav bhaji, Indian street food, flavorful feast, spiced vegetables, buttery pav, iconic Indian recipes, street food celebration, vegetarian delights, Indian cuisine at home, culinary indulgence, homemade street food, savory and satisfying, Indian culinary magic"
+                        content="pav bhaji, street-style food, homemade pav bhaji, Indian street food, flavorful feast, spiced vegetables, buttery pav, iconic Indian recipes, street food celebration, vegetarian delights, 
+                        Indian cuisine at home, culinary indulgence, homemade street food, savory and satisfying, Indian culinary magic,
+                        Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
                     />
                 </Helmet>
                 <h1>Pav Bhaji is an iconic dish from Mumbai. This Pav Bhaji Recipe is going to make you fall in love with it.</h1>

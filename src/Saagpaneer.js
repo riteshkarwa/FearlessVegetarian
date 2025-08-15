@@ -31,7 +31,10 @@ class Saagpaneer extends Component {
                     />
                     <meta
                         name="keywords"
-                        content="saag paneer, Indian spinach curry, paneer recipes, vegetarian dishes, Indian cuisine, creamy spinach curry, homemade saag paneer, traditional Indian cooking, palak paneer, Indian vegetarian recipes, Indian comfort food, flavorful vegetarian curry, paneer and spinach, North Indian cuisine, Indian restaurant-style saag paneer"
+                        content="saag paneer, Indian spinach curry, paneer recipes, vegetarian dishes, Indian cuisine, creamy spinach curry, 
+                        homemade saag paneer, traditional Indian cooking, palak paneer, Indian vegetarian recipes, Indian comfort food,
+                        flavorful vegetarian curry, paneer and spinach, North Indian cuisine, Indian restaurant-style saag paneer,
+                        Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
                     />
                     <meta property="og:title" content="Saag Paneer Recipe: Rich & Flavorful North Indian Delight" />
                     <meta property="og:type" content="website" />

@@ -32,7 +32,9 @@ class Upma extends Component {
           />
           <meta
             name="keywords"
-            content="upma, South Indian breakfast, cream of wheat, semolina flour, rava, suji, Urad dal, nuts, herbs, spices, savory breakfast, popular South Indian dish, flavorful upma, traditional breakfast, easy-to-make recipe, vegetarian breakfast, South Indian culinary delight, breakfast bliss"
+            content="upma, South Indian breakfast, cream of wheat, semolina flour, rava, suji, Urad dal, nuts, herbs, 
+            spices, savory breakfast, popular South Indian dish, flavorful upma, traditional breakfast, easy-to-make recipe, 
+            vegetarian breakfast, South Indian culinary delight, breakfast bliss, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
           />
           <meta property="og:title" content="Upma Bliss: South Indian Breakfast" />
           <meta property="og:type" content="website" />

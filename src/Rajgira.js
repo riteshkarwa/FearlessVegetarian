@@ -31,7 +31,8 @@ class RajgiraHalwa extends Component {
                     />
                     <meta
                         name="keywords"
-                        content="rajgira halwa recipe, amaranth flour dessert, vrat recipes, fasting sweets, navratri sweet recipes, rajgira flour halwa, healthy Indian dessert, gluten free halwa, jaggery halwa, amaranth sweet recipe"
+                        content="rajgira halwa recipe, amaranth flour dessert, vrat recipes, fasting sweets, navratri sweet recipes, rajgira flour halwa, healthy Indian dessert, 
+                        gluten free halwa, jaggery halwa, amaranth sweet recipe, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
                     />
                     <meta property="og:title" content="Rajgira Halwa Recipe – Delicious Amaranth Flour Dessert for Fasting" />
                     <meta property="og:type" content="website" />

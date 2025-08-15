@@ -31,7 +31,8 @@ class Sagopearls extends Component {
           />
           <meta
             name="keywords"
-            content="Sabudana Khichdi, sago pearls, gluten-free, vegan, Indian festival, festive recipe, pilaf, pulao"
+            content="Sabudana Khichdi, sago pearls, gluten-free, vegan, Indian festival, festive recipe, pilaf, pulao,
+            Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
           />
           <meta property="og:title" content="Sabudana Khichdi – a pilaf/pulao made with sago pearls" />
           <meta property="og:type" content="website" />

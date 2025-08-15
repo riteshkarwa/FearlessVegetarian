@@ -31,7 +31,9 @@ class Spinachbesan extends Component {
                     />
                     <meta
                         name="keywords"
-                        content="Palak Besan Ki Sabji, Spinach Gram Flour Curry, Palak Nu Shaak, Indian cuisine, fusion dish, leafy greens, chickpea flour, unique, exceptional, unconventional, flavorful, culinary magic"
+                        content="Palak Besan Ki Sabji, Spinach Gram Flour Curry, Palak Nu Shaak, Indian cuisine, fusion dish, leafy greens, 
+                        chickpea flour, unique, exceptional, unconventional, flavorful, culinary magic,
+                        Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
                     />
                 </Helmet>
                 <h1>Explore the delightful fusion of flavors in Palak Besan Ki Sabji, a unique and exceptional dish from Indian cuisine. 

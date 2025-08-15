@@ -31,7 +31,10 @@ class Rajmah extends Component {
                     />
                     <meta
                         name="keywords"
-                        content="rajmah curry, Indian kidney bean curry, traditional Indian recipes, authentic Indian cuisine, savory curry dishes, Indian spices, wholesome vegetarian curry, aromatic Indian flavors, kidney beans, Indian comfort food, curry and rice, vegan curry, 5 whistles pressure cooker, classic Indian cooking, rajmah masala, homemade Indian meals"
+                        content="rajmah curry, Indian kidney bean curry, traditional Indian recipes, authentic Indian cuisine, 
+                        savory curry dishes, Indian spices, wholesome vegetarian curry, aromatic Indian flavors, kidney beans, Indian comfort food, curry and rice, vegan curry, 
+                        5 whistles pressure cooker, classic Indian cooking, rajmah masala, homemade Indian meals,
+                        Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
                     />
                 </Helmet>
                 <h1>Rajma is the Indian name for kidney beans. These are soaked, cooked & then simmered

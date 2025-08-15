@@ -31,7 +31,10 @@ class Okra extends Component {
           />
           <meta
             name="keywords"
-            content="Okra dish, Bhindi recipe, Okra curry, Ladyfinger recipe, Vegetarian okra, Bhindi masala, Indian okra, Southern fried okra, Spicy okra, Stir-fried ladyfinger, Healthy okra dishes, Vegan okra recipes, Okra side dish, Roasted okra, Grilled bhindi, Sauteed okra, Okra stir-fry, Crispy bhindi, Okra and tomato recipe, Easy okra recipes."
+            content="Okra dish, Bhindi recipe, Okra curry, Ladyfinger recipe, Vegetarian okra, Bhindi masala, 
+            Indian okra, Southern fried okra, Spicy okra, Stir-fried ladyfinger, Healthy okra dishes, 
+            Vegan okra recipes, Okra side dish, Roasted okra, Grilled bhindi, Sauteed okra, Okra stir-fry, 
+            Crispy bhindi, Okra and tomato recipe, Easy okra recipes, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
           />
           <meta property="og:title" content="Chickpea Flour Curry also known as Besan" />
           <meta property="og:type" content="website" />

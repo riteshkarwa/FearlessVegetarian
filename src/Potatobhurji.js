@@ -20,7 +20,9 @@ class Potatobhurji extends Component {
           />
           <meta
             name="keywords"
-            content="potato egg bhurji, Indian egg recipes, breakfast recipes, quick and easy meals, savory egg dishes, potato and egg scramble, Indian cuisine, protein-packed breakfast, vegetarian recipes, flavorful bhurji, Indian spiced eggs, hearty breakfast ideas, egg scramble with potatoes, delicious and easy, homemade comfort food"
+            content="potato egg bhurji, Indian egg recipes, breakfast recipes, quick and easy meals, savory egg dishes, potato and egg scramble, Indian cuisine, protein-packed breakfast, 
+            vegetarian recipes, flavorful bhurji, Indian spiced eggs, hearty breakfast ideas, egg scramble with potatoes, 
+            delicious and easy, homemade comfort food, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
           />
           <meta property="og:title" content="Flavorful Potato Egg Bhurji" />
           <meta property="og:type" content="website" />
