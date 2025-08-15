@@ -31,7 +31,9 @@ class Cabbage extends Component {
                     />
                     <meta
                         name="keywords"
-                        content="cabbage curry, vegan curry, Indian-inspired recipes, vegetarian dishes, cabbage recipes, homemade curry, plant-based cuisine, flavorful herbs, easy-to-make curry, nutritious meals, vegetarian comfort food, cabbage and spices, vegan curry ideas, simple and delicious"
+                        content="cabbage curry, vegan curry, Indian-inspired recipes, vegetarian dishes, cabbage recipes, homemade curry, plant-based cuisine, flavorful herbs, 
+                        easy-to-make curry, nutritious meals, vegetarian comfort food, cabbage and spices, vegan curry ideas, simple and delicious,
+                        Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
                     />
                     <meta property="og:title" content="Cabbage Curry Bliss: Harmony of Flavors" />
                     <meta property="og:type" content="website" />

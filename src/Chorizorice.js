@@ -31,7 +31,8 @@ class Chorizorice extends Component {
                     />
                     <meta
                         name="keywords"
-                        content="One-Pot Soy Chorizo Rice, Flavorful Feast, Simple and Quick Dish, Beans, Corn, Bell Pepper, Jalapeño, Garlic, Fresh Vegetables, Frozen Vegetables"
+                        content="One-Pot Soy Chorizo Rice, Flavorful Feast, Simple and Quick Dish, Beans, Corn, Bell Pepper, Jalapeño, Garlic, Fresh Vegetables, 
+                        Frozen Vegetables, recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
                     />
                     <meta property="og:title" content="One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot" />
                     <meta property="og:type" content="website" />

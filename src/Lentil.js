@@ -31,7 +31,9 @@ class Lentil extends Component {
           />
           <meta
             name="keywords"
-            content="masoor dal, lentil soup curry, flavorful dal recipe, comfort food, nutritious lentil curry, masoor dal delight, vegetarian dishes, Indian cuisine, hearty lentil soup, easy-to-make curry, wholesome comfort meal, aromatic spices, homemade dal, flavorful and comforting, lentil curry ideas"
+            content="masoor dal, lentil soup curry, flavorful dal recipe, comfort food, nutritious lentil curry, masoor dal delight, 
+            vegetarian dishes, Indian cuisine, hearty lentil soup, easy-to-make curry, wholesome comfort meal, aromatic spices, 
+            homemade dal, flavorful and comforting, lentil curry ideas, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
           />
           <meta property="og:title" content="Masoor Dal Delight: Lentil Soup Curry" />
           <meta property="og:type" content="website" />

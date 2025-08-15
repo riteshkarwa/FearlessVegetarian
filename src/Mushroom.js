@@ -33,7 +33,8 @@ class Mushroom extends Component {
                     />
                     <meta
                         name="keywords"
-                        content="Punjab, flavors, one-pot, mushroom curry, tomato gravy, yogurt, aromatic spices, comfort food, white button mushrooms, creamy yogurt, traditional, comforting, easy to make, satisfying"
+                        content="Punjab, flavors, one-pot, mushroom curry, tomato gravy, yogurt, aromatic spices, comfort food, white button mushrooms, creamy yogurt, traditional, 
+                        comforting, easy to make, satisfying, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
                     />
                 </Helmet>
                 <h1>This Mushroom Masala recipe is an easy, delicious Punjabi style one-pot mushroom curry made with white button mushrooms in a spiced
