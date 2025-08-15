@@ -67,6 +67,12 @@ class RajgiraHalwa extends Component {
                     <li>Add cardamom powder, chopped nuts, and raisins.Mix well and cook for another 1–2 minutes.</li>
                 </ol>
                 <h2>Final Product</h2>
+                <MediaQuery maxWidth={767}>
+                    <Image src="rajgirahalwa.jpg" alt="Savor unique flavors in our Rajgira Halwa" thumbnail rounded fluid></Image>
+                </MediaQuery>
+                <MediaQuery minWidth={767}>
+                    <Image src="rajgirahalwa.jpg" alt="Savor unique flavors in our Rajgira Halwa" thumbnail rounded width="50%" height="50%"></Image>
+                </MediaQuery>
                 <Image src="rajgirahalwa.jpg" thumbnail rounded fluid></Image>
                 <div>
                     <h2>DalMakhani Preparation Video</h2>
