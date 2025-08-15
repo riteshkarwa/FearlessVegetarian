@@ -71,10 +71,10 @@ class RajgiraHalwa extends Component {
                 <div>
                     <h2>DalMakhani Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
-                        <YouTube videoId="g4WcrkJKDKo" opts={optsMobile} />
+                        <YouTube videoId="F6twlcz2W7g" opts={optsMobile} />
                     </MediaQuery>
                     <MediaQuery minWidth={767}>
-                        <YouTube videoId="g4WcrkJKDKo" opts={optsDesktop} />
+                        <YouTube videoId="F6twlcz2W7g" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
             </div>
