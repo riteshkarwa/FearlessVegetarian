@@ -23,20 +23,20 @@ class RajgiraHalwa extends Component {
             <div>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Authentic Dal Makhani: A Slow Cooked Delight</title>
-                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/dalmakhani" />
+                    <title>Rajgira Halwa Recipe – Delicious Amaranth Flour Dessert for Fasting</title>
+                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/rajgirahalwa" />
                     <meta
                         name="description"
                         content="Indulge in the rich flavors of authentic Dal Makhani—slow-cooked perfection with whole black gram and red kidney beans. A North Indian culinary delight."
                     />
                     <meta
                         name="keywords"
-                        content="Dal Makhani, Authentic flavors, Indian-inspired recipes, vegetarian dishes, Slow-cooked perfection, homemade curry, plant-based cuisine, flavorful herbs, easy-to-make curry, nutritious meals, vegetarian comfort food, Red kidney beans, black gram, simple and delicious, North Indian cuisine"
+                        content="rajgira halwa recipe, amaranth flour dessert, vrat recipes, fasting sweets, navratri sweet recipes, rajgira flour halwa, healthy Indian dessert, gluten free halwa, jaggery halwa, amaranth sweet recipe"
                     />
-                    <meta property="og:title" content="Authentic Dal Makhani: A Slow Cooked Delight" />
+                    <meta property="og:title" content="Rajgira Halwa Recipe – Delicious Amaranth Flour Dessert for Fasting" />
                     <meta property="og:type" content="website" />
-                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/dalmakhani" />
-                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/dalmakhani.jpg" />
+                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/rajgirahalwa" />
+                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/rajgirahalwa.jpg" />
                     <meta property="og:description" content="Indulge in the rich flavors of authentic Dal Makhani—slow-cooked perfection with whole black gram and red kidney beans. A North Indian culinary delight." />
                 </Helmet>
                 <h1>Dal Makhani is a classic North Indian dish made with whole black gram (Urad dal) found in Indian Store, red kidney beans, butter and other Indian Spices.
