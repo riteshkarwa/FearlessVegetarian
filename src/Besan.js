@@ -24,7 +24,7 @@ class Besan extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Chickpea Flour Curry also known as Besan</title>
+          <title>Chickpea Flour Curry (Besan Curry) – Flavorful & Aromatic Indian Recipe</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/besan" />
           <meta
             name="description"
@@ -32,9 +32,10 @@ class Besan extends Component {
           />
           <meta
             name="keywords"
-            content="Chickpea Flour Curry, Besan Curry, Indian dish, Vegetarian Curry, Besan Recipes, Aromatic Curry, Flavorful Vegan Dish, Indian Cuisine"
+            content="Chickpea Flour Curry, Besan Curry, Indian dish, Vegetarian Curry, Besan Recipes, Aromatic Curry, Flavorful Vegan Dish, Indian Cuisine,
+            Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
           />
-          <meta property="og:title" content="Chickpea Flour Curry also known as Besan" />
+          <meta property="og:title" content="Chickpea Flour Curry (Besan Curry) – Flavorful & Aromatic Indian Recipe" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://fearlessvegetarian.netlify.app/besan" />
           <meta property="og:image" content="https://fearlessvegetarian.netlify.app/besan.jpg" />

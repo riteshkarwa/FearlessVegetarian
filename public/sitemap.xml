@@ -87,6 +87,21 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/saagpaneer</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/saagpaneer.jpg</video:thumbnail_loc>
+            <video:title>Saag Paneer Recipe: Rich and Flavorful North Indian Delight</video:title>
+            <video:description>Saag Paneer: Rich and flavorful North Indian delight. Fresh spinach, aromatic spices, and creamy paneer. Perfect with naan or rice.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=Mo1BzUQcskM</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/saagpaneer</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>saag paneer, Indian spinach curry, paneer recipes, vegetarian dishes, Indian cuisine, creamy spinach curry, 
+                        homemade saag paneer, traditional Indian cooking, palak paneer, Indian vegetarian recipes, Indian comfort food,
+                        flavorful vegetarian curry, paneer and spinach, North Indian cuisine, Indian restaurant-style saag paneer,
+                        Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan</video:tags>
+        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/avocado</loc>
@@ -96,6 +111,19 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/besan</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/besan.jpg</video:thumbnail_loc>
+            <video:title>Chickpea Flour Curry (Besan Curry) – Flavorful & Aromatic Indian Recipe</video:title>
+            <video:description>Savor the rich flavors of Chickpea Flour Curry, popularly known as Besan Curry, in this delightful and aromatic Indian dish.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=VyEveOxhx7s</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/besan</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>Chickpea Flour Curry, Besan Curry, Indian dish, Vegetarian Curry, Besan Recipes, 
+            Aromatic Curry, Flavorful Vegan Dish, Indian Cuisine, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan</video:tags>
+        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/blackeyedbeans</loc>
