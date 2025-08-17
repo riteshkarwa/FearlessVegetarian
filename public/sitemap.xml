@@ -68,20 +68,6 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/potatocapsicum</loc>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/potatocapsicum.jpg</video:thumbnail_loc>
-            <video:title>Potato Curry with Roasted Red Bell Pepper Sauce Seasoned with Indian Spices</video:title>
-            <video:description>Savor the rich flavors of Potato Curry with Roasted Red Bell Pepper Sauce, seasoned with aromatic Indian spices.
-            A wholesome, comforting, and flavorful vegetarian curry perfect for lunch or dinner.</video:description>
-            <video:content_loc>https://www.youtube.com/shorts/8GlBPi_Q_wk</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/potatocapsicum</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
-            <video:tags>Potato Capsicum, Punjabi Cuisine, Indian Recipes, North Indian Food, Lentil, Vegan
-                Recipes, Cooking Tutorial, fearless Vegetarian</video:tags>
-        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/beetroot</loc>
