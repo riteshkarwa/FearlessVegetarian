@@ -94,7 +94,7 @@ class Couscousblackbeanbowl  extends Component {
         </MediaQuery>
 
         <div>
-          <h2>Mediterranean Magic: Easy and Flavorful Couscous Recipe Preparation Video</h2>
+          <h2>Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper Preparation Video</h2>
           <MediaQuery maxWidth={767}>
             <YouTube videoId="lx_gZxfZSFg" opts={optsMobile} />
           </MediaQuery>
