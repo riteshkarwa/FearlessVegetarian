@@ -31,7 +31,9 @@ class Blackeyedbeans extends Component {
                     />
                     <meta
                         name="keywords"
-                        content="beetroot curry, coconut milk, lentil recipes, Urad Dal, vegan curry, colorful dishes, nutritious beetroot, creamy coconut curry, plant-based cuisine, Indian-inspired recipes, flavorful vegan meals, wholesome lentil curry, exotic flavors, beetroot and lentil combination, vegetarian cooking"
+                        content="black eyed peas curry, Indian black eyed peas recipe, lobia curry, vegetarian curry recipe, new year black eyed peas recipe, healthy curry with legumes, 
+                        Indian spice curry, easy lobia masala, black eyed beans curry, protein rich curry, gluten free curry recipe, vegan black eyed peas curry, Indian comfort food, 
+                        Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
                     />
                     <meta property="og:title" content="Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity" />
                     <meta property="og:type" content="website" />

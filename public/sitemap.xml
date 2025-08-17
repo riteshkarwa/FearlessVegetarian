@@ -113,7 +113,7 @@
         <loc>https://fearlessvegetarian.netlify.app/besan</loc>
         <video:video>
             <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/besan.jpg</video:thumbnail_loc>
-            <video:title>Chickpea Flour Curry (Besan Curry) – Flavorful & Aromatic Indian Recipe</video:title>
+            <video:title>Chickpea Flour Curry (Besan Curry) – Flavorful and Aromatic Indian Recipe</video:title>
             <video:description>Savor the rich flavors of Chickpea Flour Curry, popularly known as Besan Curry, in this delightful and aromatic Indian dish.</video:description>
             <video:content_loc>https://www.youtube.com/watch?v=VyEveOxhx7s</video:content_loc>
             <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/besan</video:player_loc>
@@ -127,6 +127,20 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/blackeyedbeans</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/blackeyedbeans.jpg</video:thumbnail_loc>
+            <video:title>Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity</video:title>
+            <video:description>Kickstart luck with our Black Eyed Peas Curry. A year-round delight, seasoned with Indian spices for prosperity.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=yiKLvJ7gBMw</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/blackeyedbeans</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>black eyed peas curry, Indian black eyed peas recipe, lobia curry, vegetarian curry recipe, new year black eyed peas recipe, healthy curry with legumes, 
+            Indian spice curry, easy lobia masala, black eyed beans curry, protein rich curry, gluten free curry recipe, vegan black eyed peas curry, Indian comfort food, 
+            Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan</video:tags>
+        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/hakkanoodle</loc>
@@ -136,6 +150,35 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/khichdi</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/khichdi.jpg</video:thumbnail_loc>
+            <video:title>Khichdi – Comforting South Asian Stew with Moong Dal and Rice</video:title>
+            <video:description>Khichdi is a comforting and mild South Asian stew typically made with moong dal lentils and rice.</video:description>
+            <video:content_loc>https://www.youtube.com/shorts/8aVHBNQ8NBs</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/khichdi</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>rajgira halwa recipe, amaranth flour dessert, vrat recipes, fasting sweets, navratri sweet recipes, rajgira flour halwa, healthy Indian dessert, 
+                        gluten free halwa, jaggery halwa, amaranth sweet recipe, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan</video:tags>
+        </video:video>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/rajgirahalwa</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/rajgirahalwa.jpg</video:thumbnail_loc>
+            <video:title>Rajgira Halwa Recipe – Delicious Amaranth Flour Dessert for Fasting</video:title>
+            <video:description>Learn how to make Rajgira Halwa, a rich and flavorful dessert made with amaranth flour, ghee, and jaggery. Perfect for Navratri, fasting (vrat) days, or as a wholesome sweet treat.</video:description>
+            <video:content_loc>https://www.youtube.com/shorts/F6twlcz2W7g</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/rajgirahalwa</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>rajgira halwa recipe, amaranth flour dessert, vrat recipes, fasting sweets, navratri sweet recipes, rajgira flour halwa, healthy Indian dessert, 
+                        gluten free halwa, jaggery halwa, amaranth sweet recipe, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan</video:tags>
+        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/lentil</loc>

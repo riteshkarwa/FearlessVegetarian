@@ -12,7 +12,7 @@ class Khichdi extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Khichdi is a comforting and mild South Asian stew.</title>
+          <title>Khichdi – Comforting South Asian Stew with Moong Dal and Rice</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/khichdi" />
           <meta
             name="description"
