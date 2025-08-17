@@ -167,9 +167,43 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/riceandbeans</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/riceandbeans.jpg</video:thumbnail_loc>
+            <video:title>Zesty Mexican Rice with Black Beans, Corn, and Peppers</video:title>
+            <video:description>Indulge in a culinary fiesta with our Zesty Mexican Rice recipe! A flavorful blend of black beans, corn, and peppers in every mouthful.</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=azLCdgLpDjY</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/riceandbeans</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>
+            Mexican rice, black beans, corn, peppers, zesty rice recipe, flavorful Mexican cuisine, easy Mexican rice, vegetarian Mexican dishes, vibrant side dishes, 
+            Mexican-inspired cooking, homemade rice and beans, fiesta-worthy recipes, Tex-Mex flavors, step-by-step cooking, delicious rice dishes, colorful and tasty,
+            Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan
+            </video:tags>
+        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/chorizorice</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/mushroom.jpg</video:thumbnail_loc>
+            <video:title>Savory Delight: Mushroom Masala Curry Video Bursting with Flavor in Every
+                Bite!</video:title>
+            <video:description>Mushroom Masala Curry is a delightful Indian curry that tantalizes
+                the taste buds with its blend of savory spices and tender mushrooms. Simmered
+                in tomato gravy and yogurt, it's bursting with aromatic spices. Comfort food
+                perfected!</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=UcMZg6QjnuQ</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/mushroom</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>Punjab, flavors, one-pot, mushroom curry, tomato gravy, yogurt, aromatic
+                spices, comfort food, white button mushrooms, creamy yogurt, traditional,
+                comforting, easy to make, satisfying, recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan</video:tags>
+        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/mushroom</loc>
