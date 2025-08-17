@@ -31,7 +31,7 @@ class Dhokla extends Component {
                     />
                     <meta
                         name="keywords"
-                        content="Recipes, cooking, cooking tutorial, Fearless Vegetarian, vegan, khaman dhokla, chickpea flour snack, spongy dhokla, tangy and sweet flavor, 
+                        content="recipes, cooking, cooking tutorial, Fearless Vegetarian, vegan, khaman dhokla, chickpea flour snack, spongy dhokla, tangy and sweet flavor, 
                         steamed delicacy, Indian snacks, vegetarian delight, western Indian cuisine, mustard seeds, curry leaves, green chilies, 
                         flavorful snack, easy-to-make dhokla, airy texture, culinary gem"
                     />

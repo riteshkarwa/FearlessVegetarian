@@ -338,11 +338,19 @@ export const Food = [
         button_title: "Spinach Gram Flour Recipe"
     },
     {
-        id: 41,
+        id: 42,
         card_img: "rajgirahalwa.jpg",
         card_title: "Rajgira Halwa",
         card_text: "Learn how to make Rajgira Halwa, a rich and flavorful dessert made with amaranth flour, ghee, and jaggery. Perfect for Navratri, fasting (vrat) days, or as a wholesome sweet treat.",
         card_href: "/rajgirahalwa",
         button_title: "Rajgira Halwa Recipe"
+    },
+    {
+        id: 43,
+        card_img: "couscousblackbeanbowl.png",
+        card_title: "Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper",
+        card_text: "Try this delicious Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper – a wholesome, protein-packed meal full of fiber, flavor, and nutrients.",
+        card_href: "/couscousblackbeanbowl",
+        button_title: "Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper Recipe"
     }
 ]

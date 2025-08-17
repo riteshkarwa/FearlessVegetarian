@@ -31,7 +31,9 @@ class Couscous extends Component {
           />
           <meta
             name="keywords"
-            content="couscous recipe, Mediterranean cuisine, easy and quick, flavorful dishes, wholesome recipes, balanced flavors, couscous ideas, healthy meals, culinary delights, quick cooking, Mediterranean-inspired, versatile grains, nutritious and delicious, simple cooking, international cuisine"
+            content="couscous recipe, Mediterranean cuisine, easy and quick, flavorful dishes, wholesome recipes, balanced flavors, 
+            couscous ideas, healthy meals, culinary delights, quick cooking, Mediterranean-inspired, versatile grains, 
+            nutritious and delicious, simple cooking, recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
           />
           <meta property="og:title" content="Couscous Delight: Easy and Flavorful Mediterranean Magic!" />
           <meta property="og:type" content="website" />
