@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 
-class CouscousBlackBeanBowl  extends Component {
+class Couscousblackbeanbowl  extends Component {
   render() {
     const optsDesktop = {
       height: '600',
@@ -96,10 +96,10 @@ class CouscousBlackBeanBowl  extends Component {
         <div>
           <h2>Mediterranean Magic: Easy and Flavorful Couscous Recipe Preparation Video</h2>
           <MediaQuery maxWidth={767}>
-            <YouTube videoId="altlinYLUNA" opts={optsMobile} />
+            <YouTube videoId="lx_gZxfZSFg" opts={optsMobile} />
           </MediaQuery>
           <MediaQuery minWidth={767}>
-            <YouTube videoId="altlinYLUNA" opts={optsDesktop} />
+            <YouTube videoId="lx_gZxfZSFg" opts={optsDesktop} />
           </MediaQuery>
         </div>
       </div>
@@ -107,4 +107,4 @@ class CouscousBlackBeanBowl  extends Component {
   }
 }
 
-export default CouscousBlackBeanBowl
+export default Couscousblackbeanbowl
