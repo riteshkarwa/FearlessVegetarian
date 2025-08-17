@@ -31,7 +31,9 @@ class Beetroot extends Component {
           />
           <meta
             name="keywords"
-            content="beetroot curry, coconut milk, lentil recipes, Urad Dal, vegan curry, colorful dishes, nutritious beetroot, creamy coconut curry, plant-based cuisine, Indian-inspired recipes, flavorful vegan meals, wholesome lentil curry, exotic flavors, beetroot and lentil combination, vegetarian cooking"
+            content="beetroot curry, coconut milk, lentil recipes, Urad Dal, vegan curry, colorful dishes, nutritious beetroot, creamy coconut curry, 
+            plant-based cuisine, recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan, simple cooking,
+            Indian-inspired recipes, flavorful vegan meals, wholesome lentil curry, exotic flavors, beetroot and lentil combination, vegetarian cooking"
           />
           <meta property="og:title" content="Beetroot Curry with Coconut Milk: Vibrant Fusion Delight" />
           <meta property="og:type" content="website" />

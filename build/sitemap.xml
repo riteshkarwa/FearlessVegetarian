@@ -62,7 +62,7 @@
             <video:platform>web mobile</video:platform>
             <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
             <video:category>Food and Cooking</video:category>
-            <video:tags>Dal Makhani, Punjabi Cuisine, Indian Recipes, North Indian Food, Lentil, Vegan
+            <video:tags>Dal Makhani, Punjabi Cuisine, Indian Recipes, North Indian Food, Vegan
                 Recipes, Urad Dal, Rajma, Cooking Tutorial, fearless Vegetarian</video:tags>
         </video:video>
     </url>
@@ -72,19 +72,32 @@
             <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/potatocapsicum.jpg</video:thumbnail_loc>
             <video:title>Potato Curry with Roasted Red Bell Pepper Sauce Seasoned with Indian Spices</video:title>
             <video:description>Savor the rich flavors of Potato Curry with Roasted Red Bell Pepper Sauce, seasoned with aromatic Indian spices.
-            A wholesome, comforting, and flavorful vegetarian curry perfect for lunch or dinner."</video:description>
+            A wholesome, comforting, and flavorful vegetarian curry perfect for lunch or dinner.</video:description>
             <video:content_loc>https://www.youtube.com/shorts/8GlBPi_Q_wk</video:content_loc>
             <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/potatocapsicum</video:player_loc>
             <video:family_friendly>yes</video:family_friendly>
             <video:platform>web mobile</video:platform>
             <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
             <video:category>Food and Cooking</video:category>
-            <video:tags>Dal Makhani, Punjabi Cuisine, Indian Recipes, North Indian Food, Lentil, Vegan
-                Recipes, Urad Dal, Rajma, Cooking Tutorial, fearless Vegetarian</video:tags>
+            <video:tags>Potato Capsicum, Punjabi Cuisine, Indian Recipes, North Indian Food, Lentil, Vegan
+                Recipes, Cooking Tutorial, fearless Vegetarian</video:tags>
         </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/beetroot</loc>
+        <video:video>
+            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/beetroot.jpg</video:thumbnail_loc>
+            <video:title>Beetroot Curry with Coconut Milk: Vibrant Fusion Delight</video:title>
+            <video:description>Experience the vibrant fusion of beetroot, coconut milk, and Urad Dal in this flavorful curry. A delightful blend of colors and flavors awaits!</video:description>
+            <video:content_loc>https://www.youtube.com/watch?v=veUNjVorUyk</video:content_loc>
+            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/beetroot</video:player_loc>
+            <video:family_friendly>yes</video:family_friendly>
+            <video:platform>web mobile</video:platform>
+            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
+            <video:category>Food and Cooking</video:category>
+            <video:tags>beetroot curry, coconut milk, lentil recipes, Urad Dal, vegan curry, colorful dishes, nutritious beetroot, creamy coconut curry, 
+            plant-based cuisine, recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan, simple cooking</video:tags>
+        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/saagpaneer</loc>
