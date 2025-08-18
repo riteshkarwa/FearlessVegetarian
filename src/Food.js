@@ -352,5 +352,13 @@ export const Food = [
         card_text: "Try this delicious Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper – a wholesome, protein-packed meal full of fiber, flavor, and nutrients.",
         card_href: "/couscousblackbeanbowl",
         button_title: "Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper Recipe"
+    },
+    {
+        id: 44,
+        card_img: "masalasandwich.png",
+        card_title: "Bombay Vegetable Sandwich: Irresistible Street-Style Delight",
+        card_text: "Savor the authentic taste of Mumbai with this Bombay Masala Vegetable Sandwich recipe",
+        card_href: "/masalasandwich",
+        button_title: "Bombay Vegetable Sandwich Recipe"
     }
 ]

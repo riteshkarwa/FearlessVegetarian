@@ -56,6 +56,7 @@ import Spinachbesan from "./Spinachbesan";
 import Erayba from "./Erayba";
 import RajgiraHalwa from "./Rajgira";
 import Couscousblackbeanbowl from "./Couscousblackbeanbowl";
+import Bombaymasalasandwich from "./Bombaymasalasandwich";
 
 
 
@@ -143,6 +144,7 @@ class Main extends Component {
             <Route exact path="/spinachbesan" element={<Spinachbesan/>}></Route>
             <Route exact path="/rajgirahalwa" element={<RajgiraHalwa/>}></Route>
             <Route exact path="/couscousblackbeanbowl" element={<Couscousblackbeanbowl/>}></Route>
+            <Route exact path="/masalasandwich" element={<Bombaymasalasandwich/>}></Route>
             <Route exact path="/erayba" element={<Erayba/>}></Route>
             <Route path='*' element={<Notfound />}/>
           </Routes>
