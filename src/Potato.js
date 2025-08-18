@@ -13,17 +13,17 @@ class Potato extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Any Time Potato Delight: Indian Spiced Vegan Sausage</title>
+          <title>Any Time Potato Delight – Flavorful Potatoes with Indian Spices & Vegan Sausage Fusion</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/potato" />
           <meta
             name="description"
-            content="Savor unique flavors in our Any Time Potato Delight—Indian spices & vegan sausage fusion. Perfect for any meal."
+            content="Savor unique flavors in our Any Time Potato Delight—Flavorful Potatoes Indian spices & vegan sausage fusion"
           />
           <meta
             name="keywords"
             content="Any Time Potato, Indian Spices, Vegan Sausage, plant-based cuisine, vegan recipes, versatile potato dishes, savory spiced potatoes, flavorful vegan sausage, vegan meal ideas, plant-based cooking, aromatic Indian spices, delicious vegan options, anytime dining, vegan comfort food"
           />
-          <meta property="og:title" content="Any Time Potato Delight: Indian Spiced Vegan Sausage" />
+          <meta property="og:title" content="Any Time Potato Delight – Flavorful Potatoes with Indian Spices & Vegan Sausage Fusion" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://fearlessvegetarian.netlify.app/potato" />
           <meta property="og:image" content="https://fearlessvegetarian.netlify.app/anytimepotato.jpg" />
