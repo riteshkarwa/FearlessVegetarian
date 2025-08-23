@@ -121,4 +121,11 @@ describe('Fearless Vegetarian webpage testing', () => {
       expect($ele.text().trim()).equal("Erayba India!");
     });
   })
+
+  it('visit Beetroot recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/beetroot')
+    cy.get('h1').should(($ele) => {
+      expect($ele.text().trim()).equal("Beetroot Curry with Coconut Milk and Lentils(Urad Dal). Beetroot is one of those wonder foods that can increase immunity, lower blood pressure and provide us with lot of essential vitamin and minerals.");
+    });
+  })
 })
