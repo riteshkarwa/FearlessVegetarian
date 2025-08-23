@@ -151,4 +151,11 @@ describe('Fearless Vegetarian webpage testing', () => {
         These are basically whole red lentils which are popular all over the world.`);
     });
   })
+
+  it('visit Bombay Masala Sandwich recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/masalasandwich')
+    cy.get('h1').should(($ele) => {
+      expect($ele.text().trim()).equal(`Vegetable Masala Sandwich also known as Bombay Sandwich, with Mint Chutney and loads of Vegetables stacked up`);
+    });
+  })
 })
