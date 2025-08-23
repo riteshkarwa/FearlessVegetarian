@@ -139,8 +139,8 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('visit Cabbage recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/cabbage')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Cabbage is an excellent vegetable to use in cooking as it becomes wonderfully tender when cooked, allowing it to absorb the delicious flavors of the other ingredients. Despite this tenderness, the chopped cabbage leaves still provide a delightful chewiness to the dish. \
-      I truly enjoy the harmonious combination of flavors that comes together in this Cabbage Curry.");
+      expect($ele.text().trim()).equal(`Cabbage is an excellent vegetable to use in cooking as it becomes wonderfully tender when cooked, allowing it to absorb the delicious flavors of the other ingredients. Despite this tenderness, 
+        the chopped cabbage leaves still provide a delightful chewiness to the dish. I truly enjoy the harmonious combination of flavors that comes together in this Cabbage Curry.`);
     });
   })
 })
