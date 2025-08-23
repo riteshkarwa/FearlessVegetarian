@@ -128,4 +128,11 @@ describe('Fearless Vegetarian webpage testing', () => {
       expect($ele.text().trim()).equal("Beetroot Curry with Coconut Milk and Lentils(Urad Dal). Beetroot is one of those wonder foods that can increase immunity, lower blood pressure and provide us with lot of essential vitamin and minerals.");
     });
   })
+
+  it('visit Besan recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/besan')
+    cy.get('h1').should(($ele) => {
+      expect($ele.text().trim()).equal("Chickpea Flour also known as Besan is a spicy Indian side dish which goes well with any type of rice or Naan Bread.");
+    });
+  })
 })
