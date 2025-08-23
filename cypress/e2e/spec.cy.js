@@ -143,4 +143,12 @@ describe('Fearless Vegetarian webpage testing', () => {
         the chopped cabbage leaves still provide a delightful chewiness to the dish. I truly enjoy the harmonious combination of flavors that comes together in this Cabbage Curry.`);
     });
   })
+
+  it('visit Masoor Lentils recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/brownlentils')
+    cy.get('h1').should(($ele) => {
+      expect($ele.text().trim()).equal(`Whole Masoor Dal is also popularly known as Brown Lentils or Sabut Masoor ki Dal. 
+        These are basically whole red lentils which are popular all over the world.`);
+    });
+  })
 })
