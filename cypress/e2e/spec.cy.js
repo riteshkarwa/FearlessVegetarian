@@ -160,5 +160,15 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('visit Couscous recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/couscous')
     cy.get('h1').should('contain.text', 'Couscous is a North African dish made from tiny steamed balls of semolina flour');
-    });
+  });
+
+  it('visit Couscous recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/couscous')
+    cy.get('h1').should('contain.text', 'Couscous is a North African dish made from tiny steamed balls of semolina flour');
+  });
+
+  it('visit Couscous Black Bean Bowl recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/couscousblackbeanbowl')
+    cy.get('h1').should('contain.text', 'Try this delicious Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper');
+  });
 })
