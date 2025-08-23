@@ -156,4 +156,9 @@ describe('Fearless Vegetarian webpage testing', () => {
       expect($ele.text().trim()).equal(`Vegetable Masala Sandwich also known as Bombay Sandwich, with Mint Chutney and loads of Vegetables stacked up`);
     });
   })
+
+  it('visit Couscous recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/couscous')
+    cy.get('h1').should('contain.text', 'Couscous is a North African dish made from tiny steamed balls of semolina flour');
+    });
 })
