@@ -176,4 +176,9 @@ describe('Fearless Vegetarian webpage testing', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/khichdi')
     cy.get('h1').should('contain.text', 'Khichdi is a comforting and mild South Asian stew typically made with moong dal lentils and rice.');
   });
+
+  it('visit Eggpplant Curry  recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/eggplant')
+    cy.get('h1').should('contain.text', 'Mashed Eggpplant Curry, a popular dish from North India, is made with roasted mashed eggplant sauteed in onion, garlic, tomatoes, and Indian spices.');
+  });
 })
