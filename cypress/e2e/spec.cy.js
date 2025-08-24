@@ -171,4 +171,9 @@ describe('Fearless Vegetarian webpage testing', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/couscousblackbeanbowl')
     cy.get('h1').should('contain.text', 'Try this delicious Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper');
   });
+
+  it('visit Khicdi  recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/khichdi')
+    cy.get('h1').should('contain.text', 'Khichdi is a comforting and mild South Asian stew typically made with moong dal lentils and rice.');
+  });
 })

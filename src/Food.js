@@ -360,5 +360,13 @@ export const Food = [
         card_text: "Savor the authentic taste of Mumbai with this Bombay Masala Vegetable Sandwich recipe",
         card_href: "/masalasandwich",
         button_title: "Bombay Vegetable Sandwich Recipe"
+    },
+    {
+        id: 44,
+        card_img: "potatosalad.png",
+        card_title: "Chukauni—a traditional Nepali yogurt and potato salad",
+        card_text: "Discover how to make Chukauni, a classic Nepali yogurt and potato salad",
+        card_href: "/potatosalad",
+        button_title: "Chukauni—a traditional Nepali yogurt and potato salad Recipe"
     }
 ]
