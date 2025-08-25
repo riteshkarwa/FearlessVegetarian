@@ -42,7 +42,7 @@ describe('Fearless Vegetarian webpage testing', () => {
 
   it('visit Khaman Dhokla recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/dhokla')
-    cy.get('h1').should('contain.text',"Khaman Dhokla is a delectable and spongy snack that originates from the western part of India");
+    cy.get('h1').should('contain.text','Khaman Dhokla is a delectable and spongy snack that originates from the western part of India');
     });
   })
 
