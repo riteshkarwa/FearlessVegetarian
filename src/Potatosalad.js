@@ -85,10 +85,10 @@ class Potatosalad extends Component {
                 <div>
                     <h2>Chukauni—a traditional Nepali yogurt and potato salad Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
-                        <YouTube videoId="-sEJzKGy5vE" opts={optsMobile} />
+                        <YouTube videoId="8vA5-LZjNvg" opts={optsMobile} />
                     </MediaQuery>
                     <MediaQuery minWidth={767}>
-                        <YouTube videoId="-sEJzKGy5vE" opts={optsDesktop} />
+                        <YouTube videoId="8vA5-LZjNvg" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
             </div>
