@@ -362,11 +362,19 @@ export const Food = [
         button_title: "Bombay Vegetable Sandwich Recipe"
     },
     {
-        id: 44,
+        id: 45,
         card_img: "potatosalad.png",
         card_title: "Chukauni—a traditional Nepali yogurt and potato salad",
         card_text: "Discover how to make Chukauni, a classic Nepali yogurt and potato salad",
         card_href: "/potatosalad",
         button_title: "Chukauni—a traditional Nepali yogurt and potato salad Recipe"
+    },
+     {
+        id: 46,
+        card_img: "quinoamoongdal.jpg",
+        card_title: "Quinoa Moong Dal Khichdi Recipe: Healthy & Comforting One-Pot Meal",
+        card_text: "Learn how to make Quinoa Moong Dal Khichdi—a wholesome, protein-rich, and comforting Indian dish made with quinoa, yellow moong dal, spices, and vegetables. Perfect for a light lunch or dinner",
+        card_href: "/quinoamoongdal",
+        button_title: "Quinoa Moong Dal Khichdi Recipe"
     }
 ]
