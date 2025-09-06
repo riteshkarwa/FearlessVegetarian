@@ -4,12 +4,45 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import YouTube from 'react-youtube';
+import MediaQuery from 'react-responsive';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import { Helmet } from "react-helmet";
 
 class Potatocapsicum extends Component {
     render() {
+        const optsDesktop = {
+            height: '800',
+            width: '1000',
+        };
+
+        const optsMobile = {
+            height: '550',
+            width: '325',
+        };
         return (
           <div>
-            <h1>Potato Curry with Roasted Red Bell Pepper Sauce Seasoned with Indian Spices</h1>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Creamy Potato Curry in Roasted Red Pepper Cashew Gravy – Indian Style</title>
+                <link rel="canonical" href="https://fearlessvegetarian.netlify.app/potatosalad" />
+                <meta
+                name="description"
+                content="Discover a flavorful Potato Curry cooked in a creamy roasted red bell pepper and cashew sauce, seasoned with aromatic Indian spices. A perfect vegetarian dish for weeknight dinners or festive meals."
+                />
+                <meta
+                name="keywords"
+                content="potato curry recipe, roasted red bell pepper curry, cashew curry sauce, Indian vegetarian curry, aloo curry with cashews, Indian bell pepper curry, creamy potato curry, vegan Indian recipes, 
+                easy curry recipe, spicy potato curry, recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
+                />
+                <meta property="og:title" content="Creamy Potato Curry in Roasted Red Pepper Cashew Gravy – Indian Style" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://fearlessvegetarian.netlify.app/potatocapsicum" />
+                <meta property="og:image" content="https://fearlessvegetarian.netlify.app/potatocapsicum.png" />
+                <meta property="og:description" content="Discover a flavorful Potato Curry cooked in a creamy roasted red bell pepper and cashew sauce, seasoned with aromatic Indian spices. A perfect vegetarian dish for weeknight dinners or festive meals." />
+            </Helmet>
+            <h1>Discover a flavorful Potato Curry cooked in a creamy roasted red bell pepper and cashew sauce, seasoned with aromatic Indian spices. A perfect vegetarian dish for weeknight dinners or festive meals.</h1>
             <Row className="cooktimerow">
               <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
             </Row>
@@ -58,6 +91,15 @@ class Potatocapsicum extends Component {
                 </ol>
                 <h2>Final Product</h2>
                 <Image src="potatocapsicum.jpg" thumbnail rounded fluid></Image>
+                <div>
+                    <h2>Creamy Potato Curry in Roasted Red Pepper Cashew Gravy Preparation Video</h2>
+                    <MediaQuery maxWidth={767}>
+                        <YouTube videoId="JgsJJjxUHqg" opts={optsMobile} />
+                    </MediaQuery>
+                    <MediaQuery minWidth={767}>
+                        <YouTube videoId="JgsJJjxUHqg" opts={optsDesktop} />
+                    </MediaQuery>
+                </div>
           </div>
         );
     }
