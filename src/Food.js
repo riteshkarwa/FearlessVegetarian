@@ -376,5 +376,13 @@ export const Food = [
         card_text: "Learn how to make Quinoa Moong Dal Khichdi—a wholesome, protein-rich, and comforting Indian dish made with quinoa, yellow moong dal, spices, and vegetables. Perfect for a light lunch or dinner",
         card_href: "/quinoamoongdal",
         button_title: "Quinoa Moong Dal Khichdi Recipe"
+    },
+    {
+        id: 47,
+        card_img: "kesarpeda.jpg",
+        card_title: "Kesar Peda Recipe - Easy Saffron Milk Fudge with Milk Powder and Condensed Milk",
+        card_text: "Learn how to make rich and flavorful Kesar Peda at home with saffron, milk powder, and condensed milk",
+        card_href: "/kesarpeda",
+        button_title: "Kesar Peda Recipe"
     }
 ]
