@@ -25,7 +25,7 @@ class Home extends Component {
           <meta property="og:description" content="Fearless Vegetarian: Embrace bold, plant-powered living with delicious, cruelty-free choices for a healthier and sustainable lifestyle!" />
         </Helmet>
         <p className="bugs_text">
-          In this space, I will be sharing some easy, fresh, flavorful, and healthy recipes—family favorites that I love and use daily.
+          In this space, I'll be sharing simple, fresh, flavorful, and nutritious recipes that my family enjoys and that have become a regular part of our daily lives.
           Growing up in a Hindu family, being vegetarian comes naturally to me. Hopefully, for those finding it difficult to adopt a vegetarian lifestyle,
           Fearless Vegetarian is here as your friend. Remember, healthy doesn't have to mean boring. So, let's prioritize our health,
           get creative in the kitchen, and start cooking.
