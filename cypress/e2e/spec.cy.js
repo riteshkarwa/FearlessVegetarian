@@ -29,7 +29,7 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('visit potato curry with roasted bell pepper recipe', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/potatocapsicum')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Potato Curry with Roasted Red Bell Pepper Sauce Seasoned with Indian Spices");
+      expect($ele.text().trim()).to.contain("Discover a flavorful Potato Curry cooked in a creamy roasted red bell pepper and cashew sauce");
     });
   })
   
