@@ -3,10 +3,11 @@ import { useLocation } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 
 export default function AnalyticsTracker() {
+  alert('AnalyticsTracker rendered');
+  console.log('AnalyticsTracker rendered');
   const location = useLocation();
 
   useEffect(() => {
-    alert('Analytics Tracker Loaded');
     const trackPageView = async () => {
       let visitorId = localStorage.getItem('visitor_id');
 
