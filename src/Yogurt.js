@@ -21,8 +21,9 @@ class Yogurt extends Component {
       };
       return (
         <div>
-            <h1>Homemade Yougurt made using an Instant Pot Ultra. While an Instant Pot is not a necessity for making yogurt, it excels as a yogurt maker.
-                You have to careful about the amount of starter you use as it can give you undesirable results.
+            <h1>Homemade yogurt made in an Instant Pot Ultra. Although an Instant Pot isn't required to make yogurt, 
+            it simplifies the process and consistently delivers great results. One important factor is the amount of starter culture used—too 
+            much or too little can affect the yogurt's texture, taste, and overall quality
             </h1>
             <Row className="cooktimerow">
               <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>

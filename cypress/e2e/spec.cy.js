@@ -134,14 +134,14 @@ describe('Fearless Vegetarian webpage testing', () => {
     });
   })
 
-  it('visit Besan recipe page', () => {
+  it('Visit Besan Recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/besan')
     cy.get('h1').should(($ele) => {
       expect($ele.text().trim()).equal("Chickpea Flour also known as Besan is a spicy Indian side dish which goes well with any type of rice or Naan Bread.");
     });
   })
 
-  it('visit Cabbage recipe page', () => {
+  it('Visit Cabbage Recipe Page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/cabbage')
     cy.get('h1').should(($ele) => {
       expect($ele.text().trim()).equal(`Cabbage is an excellent vegetable to use in cooking as it becomes wonderfully tender when cooked, allowing it to absorb the delicious flavors of the other ingredients. Despite this tenderness, the chopped cabbage leaves still provide a delightful chewiness to the dish. I truly enjoy the harmonious combination of flavors that comes together in this Cabbage Curry.`);
@@ -167,9 +167,9 @@ describe('Fearless Vegetarian webpage testing', () => {
     cy.get('h1').should('contain.text', 'Couscous is a North African dish made from tiny steamed balls of semolina flour');
   });
 
-  it('visit Couscous recipe page', () => {
-    cy.visit('https://fearlessvegetarian.netlify.app/couscous')
-    cy.get('h1').should('contain.text', 'Couscous is a North African dish made from tiny steamed balls of semolina flour');
+  it('visit Homemade Yogurt recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/yogurt')
+    cy.get('h1').should('contain.text', `Although an Instant Pot isn't required to make yogurt, it simplifies the process and consistently delivers great results`);
   });
 
   it('visit Couscous Black Bean Bowl recipe page', () => {
@@ -177,7 +177,7 @@ describe('Fearless Vegetarian webpage testing', () => {
     cy.get('h1').should('contain.text', 'Try this delicious Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper');
   });
 
-  it('visit Khicdi  recipe page', () => {
+  it('visit Khicdi recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/khichdi')
     cy.get('h1').should('contain.text', 'Khichdi is a comforting and mild South Asian stew typically made with moong dal lentils and rice.');
   });
