@@ -4,11 +4,12 @@ import { BrowserRouter } from 'react-router-dom'
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Main from "./Main";
+import { Helmet } from 'react-helmet';
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AnalyticsTracker from './src/components/AnalyticsTraker';
+import AnalyticsTracker from './src/components/AnalyticsTracker';
 
-
+console.log('AnalyticsTracker import:', AnalyticsTracker);
 
 ReactDOM.render((
   <BrowserRouter>
