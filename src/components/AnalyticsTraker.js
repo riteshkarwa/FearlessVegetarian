@@ -6,6 +6,7 @@ export default function AnalyticsTracker() {
   const location = useLocation();
 
   useEffect(() => {
+    alert('Analytics Tracker Loaded');
     const trackPageView = async () => {
       let visitorId = localStorage.getItem('visitor_id');
 
