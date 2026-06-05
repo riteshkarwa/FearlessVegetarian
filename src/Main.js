@@ -60,7 +60,7 @@ import Bombaymasalasandwich from "./Bombaymasalasandwich";
 import Potatosalad from "./Potatosalad";
 import Quinoamoongdal from "./Quinoamoongdal";
 import Kesarpeda from "./Kesarpeda";
-
+import TestingSupabaseDB from "./TestingSupabaseConnection";
 
 
 class Main extends Component {
@@ -152,6 +152,7 @@ class Main extends Component {
             <Route exact path="/potatosalad" element={<Potatosalad/>}></Route>
             <Route exact path="/kesarpeda" element={<Kesarpeda/>}></Route>
             <Route exact path="/erayba" element={<Erayba/>}></Route>
+            <Route exact path="/testingsupabasedb" element={<TestingSupabaseDB/>}></Route>
             <Route path='*' element={<Notfound />}/>
           </Routes>
         </div>
