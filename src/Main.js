@@ -73,10 +73,10 @@ class Main extends Component {
         <div>
           <div>
             <MediaQuery maxWidth={767}>
-              <img className="bg" src="spices_mobile.jpg" alt="Indian Spices logo banner" />
+              <img className="bg" src="/spices_mobile.jpg" alt="Indian Spices logo banner" />
             </MediaQuery>
             <MediaQuery minWidth={767}>
-              <img className="bg" src="spices.jpg" alt="Indian Spices logo banner" />
+              <img className="bg" src="/spices.jpg" alt="Indian Spices logo banner" />
             </MediaQuery>
           </div>
           <Navbar collapseOnSelect expand="false" bg="dark" variant="dark" defaultExpanded>

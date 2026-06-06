@@ -83,10 +83,10 @@ class Quinoamoongdal extends Component {
                 </ol>
                 <h2>Final Product</h2>
                 <MediaQuery maxWidth={767}>
-                    <Image src="quinoamoongdal.jpg" alt="Savor unique flavors in our Rajgira Halwa" thumbnail rounded fluid></Image>
+                    <Image src="/quinoamoongdal.jpg" alt="Savor unique flavors in our Rajgira Halwa" thumbnail rounded fluid></Image>
                 </MediaQuery>
                 <MediaQuery minWidth={767}>
-                    <Image src="quinoamoongdal.jpg" alt="Savor unique flavors in our Rajgira Halwa" thumbnail rounded width="50%" height="50%"></Image>
+                    <Image src="/quinoamoongdal.jpg" alt="Savor unique flavors in our Rajgira Halwa" thumbnail rounded width="50%" height="50%"></Image>
                 </MediaQuery>
                 <div>
                     <h2>Rajgira Halwa Preparation Video</h2>
