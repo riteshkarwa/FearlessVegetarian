@@ -51,5 +51,15 @@
   "devDependencies": {
     "cypress": "^12.17.4",
     "react-snap": "^1.23.0"
+  },
+  "reactSnap": {
+    "include": [
+      "/",
+      "/potato",
+      "/aloogobi",
+      "/dalmakhani",
+      "/saagpaneer"
+    ],
+    "timeout": 20000
   }
 }
