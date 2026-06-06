@@ -13,7 +13,6 @@ import AnalyticsTracker from './components/AnalyticsTracker';
 
 ReactDOM.render((
   <BrowserRouter>
-    <AnalyticsTracker />
     <Helmet>
       <title>Fearless Vegetarian</title>
       <meta
