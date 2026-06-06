@@ -6,6 +6,9 @@ export default function AnalyticsTracker() {
   const location = useLocation();
 
   useEffect(() => {
+    const isSnap = navigator.userAgent.includes('ReactSnap');
+    if (isSnap) return; // 🚨 IMPORTANT: stop everything during prerender
+
     const trackPageView = async () => {
       try {
         let visitorId = localStorage.getItem('visitor_id');
