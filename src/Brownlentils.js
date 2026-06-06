@@ -57,7 +57,7 @@ class Brownlentils extends Component {
             <li>Enjoy your lentil curry with Basmati Rice.</li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="brownlentils.jpg" thumbnail rounded fluid></Image>
+        <Image src="/brownlentils.jpg" thumbnail rounded fluid></Image>
         <div>
           <h2>Brown Lentils Whole Masoor Dal Preparation video</h2>
           <MediaQuery maxWidth={767}>

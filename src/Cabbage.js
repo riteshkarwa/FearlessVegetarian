@@ -83,10 +83,10 @@ class Cabbage extends Component {
                 </ol>
                 <h2>Final Product</h2>
                 <MediaQuery maxWidth={767}>
-                    <Image src="cabbage.jpg" alt="Soulful Cabbage Curry Image" thumbnail rounded fluid></Image>
+                    <Image src="/cabbage.jpg" alt="Soulful Cabbage Curry Image" thumbnail rounded fluid></Image>
                 </MediaQuery>
                 <MediaQuery minWidth={767}>
-                    <Image src="cabbage.jpg" alt="Soulful Cabbage Curry Image" thumbnail rounded width="50%" height="50%"></Image>
+                    <Image src="/cabbage.jpg" alt="Soulful Cabbage Curry Image" thumbnail rounded width="50%" height="50%"></Image>
                 </MediaQuery>
                 <div>
                     <h2>Cabbage Curry (Patta Gobi) Preparation Video</h2>
