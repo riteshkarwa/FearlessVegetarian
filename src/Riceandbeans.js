@@ -23,7 +23,7 @@ class Riceandbeans extends Component {
             <div>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Zesty Mexican Rice with Black Beans, Corn, and Peppers</title>
+                    <title>Zesty Mexican Rice with Black Beans, Corn, and Peppers | Fearless Vegetarian</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/riceandbeans" />
                     <meta
                         name="description"
@@ -78,7 +78,7 @@ class Riceandbeans extends Component {
                     <li>Once the rice is cooked, fluff it with a fork. Garnish with fresh cilantro and green onion.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="ricebeans.jpg" thumbnail rounded fluid></Image>
+                <Image src="/ricebeans.jpg" thumbnail rounded fluid></Image>
                 <div>
                     <h2>Rice and Beans Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

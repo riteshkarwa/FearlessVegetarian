@@ -82,10 +82,10 @@ class Rajmah extends Component {
                 </ol>
                 <h2>Final Product</h2>
                 <MediaQuery maxWidth={767}>
-                    <Image src="rajmah.jpg" alt="Soulful Rajmah Indian Curry:" thumbnail rounded fluid></Image>
+                    <Image src="/rajmah.jpg" alt="Soulful Rajmah Indian Curry:" thumbnail rounded fluid></Image>
                 </MediaQuery>
                 <MediaQuery minWidth={767}>
-                    <Image src="rajmah.jpg" alt="Soulful Rajmah Indian Curry:" thumbnail rounded width="50%" height="50%"></Image>
+                    <Image src="/rajmah.jpg" alt="Soulful Rajmah Indian Curry:" thumbnail rounded width="50%" height="50%"></Image>
                 </MediaQuery>
                 <div>
                     <h2>Rajmah Preparation Video</h2>

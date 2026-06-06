@@ -24,7 +24,7 @@ class Upma extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Upma Bliss: South Indian Breakfast</title>
+          <title>Upma Bliss: South Indian Breakfast | Fearless Vegetarian</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/upma" />
           <meta
             name="description"
