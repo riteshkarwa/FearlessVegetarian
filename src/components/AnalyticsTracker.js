@@ -6,7 +6,7 @@ export default function AnalyticsTracker() {
   const location = useLocation();
 
   useEffect(() => {
-    const isSnap = navigator.userAgent.includes('ReactSnap');
+    const isSnap = typeof navigator !== "undefined" && navigator.userAgent.includes('ReactSnap');
     if (isSnap) return; // 🚨 IMPORTANT: stop everything during prerender
 
     const trackPageView = async () => {
