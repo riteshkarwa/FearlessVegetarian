@@ -61,7 +61,11 @@
       "/dalmakhani",
       "/saagpaneer"
     ],
-    "timeout": 10000,
-    "crawl": true
+    "timeout": 8000,
+    "minifyHtml": true,
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
   }
 }

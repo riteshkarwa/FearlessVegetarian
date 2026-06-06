@@ -8,7 +8,11 @@ import Main from "./Main";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Helmet } from 'react-helmet';
 import AnalyticsTracker from './components/AnalyticsTracker';
+import { isSnap } from "./utils/isSnap";
 
+if (isSnap) {
+  console.log("React Snap Mode - side effects disabled");
+}
 
 
 ReactDOM.render((

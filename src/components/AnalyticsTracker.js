@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
+import { isSnap } from "../utils/isSnap";
 
 export default function AnalyticsTracker() {
   const location = useLocation();
