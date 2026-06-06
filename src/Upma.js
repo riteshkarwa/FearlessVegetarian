@@ -91,10 +91,10 @@ class Upma extends Component {
         </ol>
         <h2>Final Product</h2>
         <MediaQuery maxWidth={767}>
-          <Image src="upma.jpg" alt="Upma is a flavorful, tasty, savory and popular South Indian breakfast" thumbnail rounded fluid></Image>
+          <Image src="/upma.jpg" alt="Upma is a flavorful, tasty, savory and popular South Indian breakfast" thumbnail rounded fluid></Image>
         </MediaQuery>
         <MediaQuery minWidth={767}>
-          <Image src="upma.jpg" alt="Upma is a flavorful, tasty, savory and popular South Indian breakfast" thumbnail rounded width="50%" height="50%"></Image>
+          <Image src="/upma.jpg" alt="Upma is a flavorful, tasty, savory and popular South Indian breakfast" thumbnail rounded width="50%" height="50%"></Image>
         </MediaQuery>
         <div>
           <h2>Upma Preparation Video</h2>

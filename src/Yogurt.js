@@ -64,7 +64,7 @@ class Yogurt extends Component {
                 <li>Your homemade yogurt is now ready to enjoy! You</li>
             </ol>
             <h2>Final Product</h2>
-            <Image src="yogurt.jpg" thumbnail rounded fluid></Image>
+            <Image src="/yogurt.jpg" thumbnail rounded fluid></Image>
             <div>
               <h2>Yogurt Preparation Video</h2>
               <MediaQuery maxWidth={767}>

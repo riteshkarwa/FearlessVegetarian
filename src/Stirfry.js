@@ -40,7 +40,7 @@ class Stirfry extends Component {
                 <li>Turn off the heat. Add the tofu and teriyaki sauce and stir together until everything is coated with sauce.</li>
             </ol>
             <h2>Final Product</h2>
-            <Image src="stirfry.jpg" thumbnail rounded fluid></Image>
+            <Image src="/stirfry.jpg" thumbnail rounded fluid></Image>
         </div>
       );
     }

@@ -64,7 +64,7 @@ class Shakshuka extends Component {
                 <li>Serve as is or with bread, pasta, or rice.</li>
             </ol>
             <h2>Final Product</h2>
-            <Image src="shakshuka.jpg" thumbnail rounded fluid></Image>
+            <Image src="/shakshuka.jpg" thumbnail rounded fluid></Image>
             <div>
                 <h2>Shakshuka chickpea Video</h2>
                 <MediaQuery maxWidth={767}>

@@ -7,7 +7,7 @@ class Wheretobegin extends Component {
         <div>
             <p>
                 <h1>Types of Vegetarians</h1>
-                <Image src="veg.jpg" thumbnail rounded></Image>
+                <Image src="/veg.jpg" thumbnail rounded></Image>
             </p>
             
             <h1>Where To Begin With Cooking Delicious Vegetarian (aka Lacto Vegetarian) Food</h1>
