@@ -25,7 +25,7 @@ class Pavbhaji extends Component {
             <div>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Savor the Street-Style Magic: Homemade Pav Bhaji for a Flavorful Feast!</title>
+                    <title>Savor the Street-Style Magic: Homemade Pav Bhaji for a Flavorful Feast! | Fearless Vegetarian</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/pavbhaji" />
                     <meta
                         name="description"
@@ -83,7 +83,7 @@ class Pavbhaji extends Component {
                     <li>Garnish with coriander leaves, lemon wedges and chopped onions. You can add more butter on the hot bhaji.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="pavbhaji.jpg" alt="Savor the Street-Style Magic: Homemade Pav Bhaji Image" thumbnail rounded fluid></Image>
+                <Image src="/pavbhaji.jpg" alt="Savor the Street-Style Magic: Homemade Pav Bhaji Image" thumbnail rounded fluid></Image>
                 <div>
                     <h2>Pav Bhaji Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

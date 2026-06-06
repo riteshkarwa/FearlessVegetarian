@@ -23,7 +23,7 @@ class Mushroom extends Component {
             <div>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Savory Delight: Mushroom Masala Curry Bursting with Flavor in Every Bite!</title>
+                    <title>Savory Delight: Mushroom Masala Curry Bursting with Flavor in Every Bite! | Fearless Vegetarian</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/mushroom" />
                     <meta
                         name="description"
@@ -78,7 +78,7 @@ class Mushroom extends Component {
                     <li>Garnish with fresh coriander leaves and serve hot with rice or naan bread.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="mushroom.jpg" thumbnail rounded fluid></Image>
+                <Image src="/mushroom.jpg" thumbnail rounded fluid></Image>
                 <div>
                     <h2>Mushroom Curry Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

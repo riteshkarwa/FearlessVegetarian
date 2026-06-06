@@ -77,10 +77,10 @@ class Potatosalad extends Component {
                 </ol>
                 <h2>Final Product</h2>
                 <MediaQuery maxWidth={767}>
-                    <Image src="potatosalad.png" alt="Chukauni Recipe – Traditional Nepali Yogurt & Potato Salad" thumbnail rounded fluid></Image>
+                    <Image src="/potatosalad.png" alt="Chukauni Recipe – Traditional Nepali Yogurt & Potato Salad" thumbnail rounded fluid></Image>
                 </MediaQuery>
                 <MediaQuery minWidth={767}>
-                    <Image src="potatosalad.png" alt="Chukauni Recipe – Traditional Nepali Yogurt & Potato Salad" thumbnail rounded width="50%" height="50%"></Image>
+                    <Image src="/potatosalad.png" alt="Chukauni Recipe – Traditional Nepali Yogurt & Potato Salad" thumbnail rounded width="50%" height="50%"></Image>
                 </MediaQuery>
                 <div>
                     <h2>Chukauni—a traditional Nepali yogurt and potato salad Preparation Video</h2>

@@ -84,7 +84,7 @@ class Poha extends Component {
           <li>Your Poha (thick variety flattened rice) is now ready. Squeeze some lemon juice before eating your Poha (thick variety flattened rice).</li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="poha.jpg" alt="Plate of Delicious Poha: A Quick and Wholesome Indian Breakfast Delight" thumbnail rounded fluid></Image>
+        <Image src="/poha.jpg" alt="Plate of Delicious Poha: A Quick and Wholesome Indian Breakfast Delight" thumbnail rounded fluid></Image>
         <div>
           <h2>Poha Preparation Video</h2>
           <MediaQuery maxWidth={767}>

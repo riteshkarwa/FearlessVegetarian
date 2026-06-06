@@ -65,10 +65,10 @@ class Potato extends Component {
         </ol>
         <h2>Final Product</h2>
         <MediaQuery maxWidth={767}>
-          <Image src="anytimepotato.jpg" alt="Savor unique flavors in our Any Time Potato" thumbnail rounded fluid></Image>
+          <Image src="/anytimepotato.jpg" alt="Savor unique flavors in our Any Time Potato" thumbnail rounded fluid></Image>
         </MediaQuery>
         <MediaQuery minWidth={767}>
-          <Image src="anytimepotato.jpg" alt="Savor unique flavors in our Any Time Potato" thumbnail rounded width="50%" height="50%"></Image>
+          <Image src="/anytimepotato.jpg" alt="Savor unique flavors in our Any Time Potato" thumbnail rounded width="50%" height="50%"></Image>
         </MediaQuery>
       </div>
     );

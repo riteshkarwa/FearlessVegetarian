@@ -12,7 +12,7 @@ class Potatobhurji extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Flavorful Potato Egg Bhurji</title>
+          <title>Flavorful Potato Egg Bhurji | Fearless Vegetarian</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/potatobhurji" />
           <meta
             name="description"
@@ -104,7 +104,7 @@ class Potatobhurji extends Component {
           <li>Garnish with cilantro leaves.</li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="potatobhurji.jpg" alt="Any Time Potato Seasoned with Indian Spices Image" thumbnail rounded fluid></Image>
+        <Image src="/potatobhurji.jpg" alt="Any Time Potato Seasoned with Indian Spices Image" thumbnail rounded fluid></Image>
       </div>
     );
   }

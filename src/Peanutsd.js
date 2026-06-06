@@ -35,7 +35,7 @@ class Peanutsd extends Component {
               <Image src="peanutsd.jpg" thumbnail rounded fluid></Image>
             </MediaQuery>
             <MediaQuery minWidth={767}>
-              <Image src="peanutsd.jpg" thumbnail rounded width="40%" height="40%"></Image>
+              <Image src="/peanutsd.jpg" thumbnail rounded width="40%" height="40%"></Image>
             </MediaQuery>
         </div>
       );
