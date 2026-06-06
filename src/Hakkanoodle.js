@@ -48,7 +48,7 @@ class Hakkanoodle extends Component {
                 <li>That's it, enjoy veggie hakka noodles garnished with more spring onions.</li>
             </ol>
             <h2>Final Product</h2>
-            <Image src="hakkanoodle.jpg" thumbnail rounded fluid></Image>
+            <Image src="/hakkanoodle.jpg" thumbnail rounded fluid></Image>
         </div>
       );
     }

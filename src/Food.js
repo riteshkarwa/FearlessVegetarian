@@ -291,7 +291,7 @@ export const Food = [
     },
     {
         id: 36,
-        card_img: "sagopearls.jpg",
+        card_img: "/sagopearls.jpg",
         card_title: "Sabudana Khichdi – a pilaf/pulao made with Sago Pearls",
         card_text: "Sabudana Khichdi – a pilaf/pulao made with Sago Pearls is a  vegan and gluten-free dish is extremely popular in India during the fasting season",
         card_href: "/sagopearls",
@@ -299,7 +299,7 @@ export const Food = [
     },
     {
         id: 37,
-        card_img: "chorizorice.jpg",
+        card_img: "/chorizorice.jpg",
         card_title: "One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot",
         card_text: "One-Pot Soy Chorizo Rice, Flavorful Feast, Simple and Quick Dish, Beans, Corn, Bell Pepper, Jalapeño, Garlic, Fresh Vegetables, Frozen Vegetables",
         card_href: "/chorizorice",
@@ -307,7 +307,7 @@ export const Food = [
     },
     {
         id: 38,
-        card_img: "broccoli.jpg",
+        card_img: "/broccoli.jpg",
         card_title: "Delicious Homemade Broccoli Soup",
         card_text: "Wholesome Broccoli Soup Recipe with Pine Nuts",
         card_href: "/broccoli",
@@ -315,7 +315,7 @@ export const Food = [
     },
     {
         id: 39,
-        card_img: "mushroom.jpg",
+        card_img: "/mushroom.jpg",
         card_title: "Savory Delight: Mushroom Masala Curry",
         card_text: "Savor Punjab's rich flavors with our one-pot mushroom masala curry",
         card_href: "/mushroom",
@@ -323,7 +323,7 @@ export const Food = [
     },
     {
         id: 40,
-        card_img: "paneer.jpg",
+        card_img: "/paneer.jpg",
         card_title: "Succulent Shahi Paneer: Creamy Delight",
         card_text: "Indulge in the rich flavors of Shahi Paneer, a creamy delight featuring soft, pillowy paneer floating in a luscious gravy",
         card_href: "/paneer",
@@ -331,7 +331,7 @@ export const Food = [
     },
     {
         id: 41,
-        card_img: "spinachbesan.jpg",
+        card_img: "/spinachbesan.jpg",
         card_title: "Spinach Gram Flour Curry",
         card_text: "Explore the delightful fusion of flavors in Palak Besan Ki Sabji, a unique and exceptional dish from Indian cuisine",
         card_href: "/spinachbesan",
@@ -339,7 +339,7 @@ export const Food = [
     },
     {
         id: 42,
-        card_img: "rajgirahalwa.jpg",
+        card_img: "/rajgirahalwa.jpg",
         card_title: "Rajgira Halwa",
         card_text: "Learn how to make Rajgira Halwa, a rich and flavorful dessert made with amaranth flour, ghee, and jaggery. Perfect for Navratri, fasting (vrat) days, or as a wholesome sweet treat.",
         card_href: "/rajgirahalwa",
@@ -347,7 +347,7 @@ export const Food = [
     },
     {
         id: 43,
-        card_img: "couscousblackbeanbowl.png",
+        card_img: "/couscousblackbeanbowl.png",
         card_title: "Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper",
         card_text: "Try this delicious Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper – a wholesome, protein-packed meal full of fiber, flavor, and nutrients.",
         card_href: "/couscousblackbeanbowl",
@@ -355,7 +355,7 @@ export const Food = [
     },
     {
         id: 44,
-        card_img: "masalasandwich.png",
+        card_img: "/masalasandwich.png",
         card_title: "Bombay Vegetable Sandwich: Irresistible Street-Style Delight",
         card_text: "Savor the authentic taste of Mumbai with this Bombay Masala Vegetable Sandwich recipe",
         card_href: "/masalasandwich",
@@ -363,7 +363,7 @@ export const Food = [
     },
     {
         id: 45,
-        card_img: "potatosalad.png",
+        card_img: "/potatosalad.png",
         card_title: "Chukauni—a traditional Nepali yogurt and potato salad",
         card_text: "Discover how to make Chukauni, a classic Nepali yogurt and potato salad",
         card_href: "/potatosalad",
@@ -371,7 +371,7 @@ export const Food = [
     },
      {
         id: 46,
-        card_img: "quinoamoongdal.jpg",
+        card_img: "/quinoamoongdal.jpg",
         card_title: "Quinoa Moong Dal Khichdi Recipe: Healthy & Comforting One-Pot Meal",
         card_text: "Learn how to make Quinoa Moong Dal Khichdi—a wholesome, protein-rich, and comforting Indian dish made with quinoa, yellow moong dal, spices, and vegetables. Perfect for a light lunch or dinner",
         card_href: "/quinoamoongdal",
@@ -379,7 +379,7 @@ export const Food = [
     },
     {
         id: 47,
-        card_img: "kesarpeda.jpg",
+        card_img: "/kesarpeda.jpg",
         card_title: "Kesar Peda Recipe - Easy Saffron Milk Fudge with Milk Powder and Condensed Milk",
         card_text: "Learn how to make rich and flavorful Kesar Peda at home with saffron, milk powder, and condensed milk",
         card_href: "/kesarpeda",

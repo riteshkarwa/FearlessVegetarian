@@ -89,7 +89,7 @@ class Spinachbesan extends Component {
                     <li>Garnish with fresh coriander leaves and serve hot with rice or naan bread.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="spinachbesan.jpg" thumbnail rounded fluid></Image>
+                <Image src="/spinachbesan.jpg" thumbnail rounded fluid></Image>
                 <div>
                     <h2>Spinach Besan Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

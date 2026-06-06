@@ -75,7 +75,7 @@ class Sagopearls extends Component {
           <li>Garnish with freshly chopped coriander leaves.Enjoy your delicious Sabudana Khichdi!</li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="sagopearls.jpg" alt="Sabudana Khichdi – a pilaf/pulao made with sago pearls!" thumbnail rounded fluid></Image>
+        <Image src="/sagopearls.jpg" alt="Sabudana Khichdi – a pilaf/pulao made with sago pearls!" thumbnail rounded fluid></Image>
         <div>
           <h2>Sabudana Khichdi Preparation Video</h2>
           <MediaQuery maxWidth={767}>
