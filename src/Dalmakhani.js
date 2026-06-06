@@ -98,7 +98,7 @@ class DalMakhani extends Component {
                     <li>That is it your curry is ready. You can enjoy it with Garlic Naan or Roti(Indian bread less calories compared to Naan)</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="dalmakhani.jpg" thumbnail rounded fluid></Image>
+                <Image src="/dalmakhani.jpg" thumbnail rounded fluid></Image>
                 <div>
                     <h2>DalMakhani Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

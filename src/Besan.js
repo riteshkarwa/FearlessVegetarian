@@ -81,10 +81,10 @@ class Besan extends Component {
         </ol>
         <h2>Final Product</h2>
         <MediaQuery maxWidth={767}>
-          <Image src="besan.jpg" thumbnail rounded fluid></Image>
+          <Image src="/besan.jpg" thumbnail rounded fluid></Image>
         </MediaQuery>
         <MediaQuery minWidth={767}>
-          <Image src="besan.jpg" thumbnail rounded width="50%" height="50%"></Image>
+          <Image src="/besan.jpg" thumbnail rounded width="50%" height="50%"></Image>
         </MediaQuery>
         <div>
           <h2>Chickpea Flour Curry, Besan Curry Preparation video</h2>

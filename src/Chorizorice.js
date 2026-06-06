@@ -82,7 +82,7 @@ class Chorizorice extends Component {
                     <Image src="chorizorice.jpg" alt="One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot" thumbnail rounded fluid></Image>
                 </MediaQuery>
                 <MediaQuery minWidth={767}>
-                    <Image src="chorizorice.jpg" alt="One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot" thumbnail rounded width="50%" height="50%"></Image>
+                    <Image src="/chorizorice.jpg" alt="One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot" thumbnail rounded width="50%" height="50%"></Image>
                 </MediaQuery>
                 <div>
                     <h2>One-Pot Soy Chorizo Rice Preparation Video</h2>
