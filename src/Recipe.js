@@ -31,7 +31,7 @@ export default function Search() {
                 <meta property="og:image" content="https://fearlessvegetarian.netlify.app/spices.jpg" />
                 <meta property="og:description" content="Discover a variety of delicious vegetarian recipes for every occasion. Indulge in flavorful dishes that cater to your taste buds." />
             </Helmet>
-            <input type="text" placeholder="Search By Recipe Title" className="search" onChange={(e) => setQuery(e.target.value.toLowerCase())} />
+            <input id="recipe-search" type="text" placeholder="Search By Recipe Title" className="search" onChange={(e) => setQuery(e.target.value.toLowerCase())} />
             <div className="search_container">
                 {Food.filter((f) => f.card_title.toLowerCase().includes(query)
                 ).map((fd) => (
