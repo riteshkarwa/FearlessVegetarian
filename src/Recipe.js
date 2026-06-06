@@ -39,7 +39,7 @@ export default function Search() {
                         <MediaQuery maxWidth={767}>
 
                             <Card className="card_search" style={{ width: '19rem', margin: '10px' }}>
-                                <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/${fd.card_img}`}/>
+                                <Card.Img variant="top" src={fd.card_img} />
                                 <Card.Body>
                                     <Card.Title style={{ fontSize: '38px'}}>{fd.card_title}</Card.Title>
                                     <Card.Text style={{ fontSize: '24px'}}>

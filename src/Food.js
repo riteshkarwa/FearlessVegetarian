@@ -1,7 +1,7 @@
 export const Food = [
     {
         "id": 1,
-        card_img : "anytimepotato.jpg",
+        card_img : "/anytimepotato.jpg",
         card_title: "Anytime Potato Seasoned with Indian Spices served with Vegan Sausage",
         card_text: "Anytime Potato along with Vegan Sausage is my favorite go to meal, can be made for breakfast, lunch, and dinner.",
         card_href: "/potato",
@@ -9,7 +9,7 @@ export const Food = [
     },
     {
         "id": 2,
-        card_img : "sandwich.jpg",
+        card_img : "/sandwich.jpg",
         card_title: "Loaded Vegetable Sandwich also known as Bombay Sandwich",
         card_text: "Enjoy our Bombay Vegetable Sandwich: easy, filling, and bursting with street-style flavors! A delightful blend of vegetables and spices, bringing the street-style experience to your plate.",
         card_href: "/sandwich",
@@ -17,7 +17,7 @@ export const Food = [
     },
     {
         "id": 3,
-        card_img: "peanutsd.jpg",
+        card_img: "/peanutsd.jpg",
         card_title: "Peanut Butter Toast with Apple slices and Cinnamon Sugar",
         card_text: "Peanut Butter Toast with Apple Slices and Cinnamon Sugar: A delicious and filling treat, super easy to make for a satisfying snack or breakfast.",
         card_href: "/peanutsd",
@@ -25,7 +25,7 @@ export const Food = [
     },
     {
         "id": 4,
-        card_img: "potatocapsicum.jpg",
+        card_img: "/potatocapsicum.jpg",
         card_title: "Potato Curry with Roasted Red Pepper Sauce",
         card_text: "Potato Curry with Roasted Red Pepper Sauce, Seasoned with Indian Spices. Takes roughly 45 minutes to cook.",
         card_href: "/potatocapsicum",
