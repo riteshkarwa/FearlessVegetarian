@@ -79,7 +79,7 @@ class Broccoli extends Component {
                     <li>Taste the soup and adjust the salt if required.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="broccoli.jpg" alt="Wholesome Broccoli Soup Recipe with Pine Nuts" thumbnail rounded fluid></Image>
+                <Image src="/broccoli.jpg" alt="Wholesome Broccoli Soup Recipe with Pine Nuts" thumbnail rounded fluid></Image>
                 <div>
                     <h2>Broccoli Soup Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
