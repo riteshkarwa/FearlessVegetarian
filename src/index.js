@@ -7,12 +7,13 @@ import Main from "./Main";
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Helmet } from 'react-helmet';
-//import AnalyticsTracker from './components/AnalyticsTracker';
+import AnalyticsTracker from './components/AnalyticsTracker';
 
 
 
 ReactDOM.render((
   <BrowserRouter>
+    <AnalyticsTracker />
     <Helmet>
       <title>Fearless Vegetarian</title>
       <meta
