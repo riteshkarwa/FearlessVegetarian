@@ -384,5 +384,13 @@ export const Food = [
         card_text: "Learn how to make rich and flavorful Kesar Peda at home with saffron, milk powder, and condensed milk",
         card_href: "/kesarpeda",
         button_title: "Kesar Peda Recipe"
+    },
+    {
+        id: 47,
+        card_img: "/couscousbalsamic.jpg",
+        card_title: "Middle Eastern Couscous Salad with Toasted Walnuts & Balsamic Vinaigrette",
+        card_text: "Experience an explosion of rich, earthy flavors in every bite. This Middle Eastern-inspired couscous salad combines fluffy couscous, crunchy vegetables, fresh herbs, and toasted walnuts, all brought together with a tangy balsamic vinaigrette.",
+        card_href: "/couscousbalsamic",
+        button_title: "Kesar Peda Recipe"
     }
 ]
