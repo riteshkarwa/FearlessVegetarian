@@ -60,7 +60,6 @@ import Bombaymasalasandwich from "./Bombaymasalasandwich";
 import Potatosalad from "./Potatosalad";
 import Quinoamoongdal from "./Quinoamoongdal";
 import Kesarpeda from "./Kesarpeda";
-import TestingSupabaseDB from "./TestingSupabaseConnection";
 import BalsamicVinaigretteDish from "./Balsamicvinaigrette";
 
 
