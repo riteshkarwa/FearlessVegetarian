@@ -7,9 +7,11 @@
     xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
         <loc>https://fearlessvegetarian.netlify.app/</loc>
+        <lastmod>2026-06-07</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/recipe</loc>
+        <lastmod>2026-06-07</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/aloogobi</loc>
@@ -35,21 +37,35 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/potato</loc>
+        <lastmod>2026-06-07</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/sandwich</loc>
+        <lastmod>2026-06-07</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/donate</loc>
+        <lastmod>2026-06-07</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/about</loc>
+        <lastmod>2026-06-07</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/peanutsd</loc>
+        <lastmod>2026-06-07</lastmod>
+        <image:image>
+            <image:loc>
+            https://fearlessvegetarian.netlify.app/anytimepotato.jpg
+        </image:loc>
+            <image:title>
+            Any Time Potato Seasoned with Indian Spices
+        </image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/dalmakhani</loc>
+        <lastmod>2026-06-07</lastmod>
         <video:video>
             <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/dalmakhani.jpg</video:thumbnail_loc>
             <video:title>Dal Makhani Recipe Video: A Quintessential Punjabi Delight</video:title>
@@ -68,6 +84,15 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/potatocapsicum</loc>
+        <image:image>
+            <image:loc>
+                https://fearlessvegetarian.netlify.app/potatocapsicum.jpg
+            </image:loc>
+            <image:title>
+                Creamy Potato Curry in Roasted Red Pepper Cashew Gravy
+            </image:title>
+        </image:image>
+        <lastmod>2026-06-07</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/beetroot</loc>
@@ -87,6 +112,7 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/saagpaneer</loc>
+        <lastmod>2026-06-07</lastmod>
         <video:video>
             <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/saagpaneer.jpg</video:thumbnail_loc>
             <video:title>Saag Paneer Recipe: Rich and Flavorful North Indian Delight</video:title>
@@ -127,6 +153,14 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/blackeyedbeans</loc>
+        <image:image>
+            <image:loc>
+                https://fearlessvegetarian.netlify.app/blackeyedbeans.jpg
+            </image:loc>
+            <image:title>
+                Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity
+            </image:title>
+        </image:image>
         <video:video>
             <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/blackeyedbeans.jpg</video:thumbnail_loc>
             <video:title>Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity</video:title>
@@ -235,6 +269,14 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/erayba</loc>
+        <image:image>
+            <image:loc>
+                https://fearlessvegetarian.netlify.app/potatobhurji.jpg
+            </image:loc>
+            <image:title>
+                Indulge in the delicious fusion of flavors with our Potato and Egg Bhurji recipe.
+            </image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/riceandbeans</loc>
