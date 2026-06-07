@@ -48,7 +48,7 @@ class BalsamicVinaigretteDish extends Component {
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
                 </Row>
                 <Row className="cooktimerow">
-                    <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+                    <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 20 minutes</Col>
                 </Row>
                 <div className="ingredients">Ingredients</div>
                 <ol>
