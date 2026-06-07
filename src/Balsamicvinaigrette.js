@@ -97,10 +97,10 @@ class BalsamicVinaigretteDish extends Component {
                 <div>
                     <h2>Black Eyed Peas Curry Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
-                        <YouTube videoId="yiKLvJ7gBMw" opts={optsMobile} />
+                        <YouTube videoId="Nbi0LcFISjI" opts={optsMobile} />
                     </MediaQuery>
                     <MediaQuery minWidth={767}>
-                        <YouTube videoId="yiKLvJ7gBMw" opts={optsDesktop} />
+                        <YouTube videoId="Nbi0LcFISjI" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
             </div>
