@@ -1,11 +1,11 @@
 export const Food = [
     {
         "id": 1,
-        card_img : "/anytimepotato.jpg",
-        card_title: "Anytime Potato Seasoned with Indian Spices served with Vegan Sausage",
-        card_text: "Anytime Potato along with Vegan Sausage is my favorite go to meal, can be made for breakfast, lunch, and dinner.",
-        card_href: "/potato",
-        button_title: "Anytime Potato Recipe"
+        card_img: "/avocado.jpg",
+        card_title: "Avocado Toast",
+        card_text: "Super easy and delicious Avocado Toast. Takes roughly 15 minutes to make. Good breakfast option if you have a busy schedule",
+        card_href: "/avocado",
+        button_title: "Avocado Toast Recipe"
     },
     {
         "id": 2,
@@ -41,11 +41,11 @@ export const Food = [
     },
     {
         "id": 6,
-        card_img: "/avocado.jpg",
-        card_title: "Avocado Toast",
-        card_text: "Super easy and delicious Avocado Toast. Takes roughly 15 minutes to make. Good breakfast option if you have a busy schedule",
-        card_href: "/avocado",
-        button_title: "Avocado Toast Recipe"
+        card_img : "/anytimepotato.jpg",
+        card_title: "Anytime Potato Seasoned with Indian Spices served with Vegan Sausage",
+        card_text: "Anytime Potato along with Vegan Sausage is my favorite go to meal, can be made for breakfast, lunch, and dinner.",
+        card_href: "/potato",
+        button_title: "Anytime Potato Recipe"
     },
     {
         "id": 7,
