@@ -91,6 +91,7 @@ class Main extends Component {
                   <Nav.Link href="/privacypolicy">Privacy Policy</Nav.Link>
                   <Nav.Link href="/contact">Contact Us</Nav.Link>
                   <Nav.Link href="/donate">Donate</Nav.Link>
+                  <Nav.Link href="/wheretobegin">Where to Begin</Nav.Link>
                   <Nav.Link href="/erayba">Erayba India</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
