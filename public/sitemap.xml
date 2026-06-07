@@ -15,19 +15,7 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/aloogobi</loc>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/aloogobi.jpg</video:thumbnail_loc>
-            <video:title>Aloo Gobi(Potato Cauliflower) Video: North Indian Delight</video:title>
-            <video:description>Experience the rich flavors of North India with our Aloo Gobi(Potato
-                Cauliflower) recipe. A delightful vegetarian dish that's both comforting and
-                delicious.</video:description>
-            <video:content_loc>https://www.youtube.com/watch?v=zCoLryH0mDk</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/aloogobi</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
-        </video:video>
+        <lastmod>2026-06-07</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/potato</loc>
@@ -60,19 +48,6 @@
     <url>
         <loc>https://fearlessvegetarian.netlify.app/dalmakhani</loc>
         <lastmod>2026-06-07</lastmod>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/dalmakhani.jpg</video:thumbnail_loc>
-            <video:title>Dal Makhani Recipe Video: A Quintessential Punjabi Delight</video:title>
-            <video:description>Indulge in the rich flavors of authentic Dal Makhani—slow-cooked
-                perfection with whole black gram and red kidney beans. A North Indian culinary
-                delight."</video:description>
-            <video:content_loc>https://www.youtube.com/watch?v=g4WcrkJKDKo</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/dalmakhani</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
-        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/potatocapsicum</loc>
@@ -103,17 +78,6 @@
     <url>
         <loc>https://fearlessvegetarian.netlify.app/saagpaneer</loc>
         <lastmod>2026-06-07</lastmod>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/saagpaneer.jpg</video:thumbnail_loc>
-            <video:title>Saag Paneer Recipe: Rich and Flavorful North Indian Delight</video:title>
-            <video:description>Saag Paneer: Rich and flavorful North Indian delight. Fresh spinach, aromatic spices, and creamy paneer. Perfect with naan or rice.</video:description>
-            <video:content_loc>https://www.youtube.com/watch?v=Mo1BzUQcskM</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/saagpaneer</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
-        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/avocado</loc>
@@ -123,17 +87,6 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/besan</loc>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/besan.jpg</video:thumbnail_loc>
-            <video:title>Chickpea Flour Curry (Besan Curry) – Flavorful and Aromatic Indian Recipe</video:title>
-            <video:description>Savor the rich flavors of Chickpea Flour Curry, popularly known as Besan Curry, in this delightful and aromatic Indian dish.</video:description>
-            <video:content_loc>https://www.youtube.com/watch?v=VyEveOxhx7s</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/besan</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
-        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/blackeyedbeans</loc>
@@ -145,17 +98,6 @@
                 Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity
             </image:title>
         </image:image>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/blackeyedbeans.jpg</video:thumbnail_loc>
-            <video:title>Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity</video:title>
-            <video:description>Kickstart luck with our Black Eyed Peas Curry. A year-round delight, seasoned with Indian spices for prosperity.</video:description>
-            <video:content_loc>https://www.youtube.com/watch?v=yiKLvJ7gBMw</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/blackeyedbeans</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
-        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/hakkanoodle</loc>
@@ -165,45 +107,12 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/khichdi</loc>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/khichdi.jpg</video:thumbnail_loc>
-            <video:title>Khichdi – Comforting South Asian Stew with Moong Dal and Rice</video:title>
-            <video:description>Khichdi is a comforting and mild South Asian stew typically made with moong dal lentils and rice.</video:description>
-            <video:content_loc>https://www.youtube.com/shorts/8aVHBNQ8NBs</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/khichdi</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/rajgirahalwa</loc>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/rajgirahalwa.jpg</video:thumbnail_loc>
-            <video:title>Rajgira Halwa Recipe – Delicious Amaranth Flour Dessert for Fasting</video:title>
-            <video:description>Learn how to make Rajgira Halwa, a rich and flavorful dessert made with amaranth flour, ghee, and jaggery. Perfect for Navratri, fasting (vrat) days, or as a wholesome sweet treat.</video:description>
-            <video:content_loc>https://www.youtube.com/shorts/F6twlcz2W7g</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/rajgirahalwa</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
-        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/lentil</loc>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/lentil.jpg</video:thumbnail_loc>
-            <video:title>Masoor Dal Delight: Lentil Soup Curry Video</video:title>
-            <video:description>Masoor Dal Delight: A Comforting Lentil Soup Curry Bursting with
-                Flavor. Perfect for a Wholesome Meal.</video:description>
-            <video:content_loc>https://www.youtube.com/watch?v=LLafY-6nd3M</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/lentil</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
-        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/couscous</loc>
@@ -219,18 +128,6 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/upma</loc>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/upma.jpg</video:thumbnail_loc>
-            <video:title>Upma Bliss: South Indian Breakfast Video</video:title>
-            <video:description>Upma Bliss: South Indian Breakfast with Cream of Wheat, Urad Dal,
-                Nuts, Herbs, and Spices</video:description>
-            <video:content_loc>https://www.youtube.com/watch?v=_gl_nFzJYz0</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/upma</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
-        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/potatobhurji</loc>
@@ -248,67 +145,14 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/riceandbeans</loc>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/riceandbeans.jpg</video:thumbnail_loc>
-            <video:title>Zesty Mexican Rice with Black Beans, Corn, and Peppers</video:title>
-            <video:description>Indulge in a culinary fiesta with our Zesty Mexican Rice recipe! A flavorful blend of black beans, corn, and peppers in every mouthful.</video:description>
-            <video:content_loc>https://www.youtube.com/watch?v=azLCdgLpDjY</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/riceandbeans</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
-        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/chorizorice</loc>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/mushroom.jpg</video:thumbnail_loc>
-            <video:title>Savory Delight: Mushroom Masala Curry Video Bursting with Flavor in Every
-                Bite!</video:title>
-            <video:description>Mushroom Masala Curry is a delightful Indian curry that tantalizes
-                the taste buds with its blend of savory spices and tender mushrooms. Simmered
-                in tomato gravy and yogurt, it's bursting with aromatic spices. Comfort food
-                perfected!</video:description>
-            <video:content_loc>https://www.youtube.com/watch?v=UcMZg6QjnuQ</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/mushroom</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
-        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/mushroom</loc>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/mushroom.jpg</video:thumbnail_loc>
-            <video:title>Savory Delight: Mushroom Masala Curry Video Bursting with Flavor in Every
-                Bite!</video:title>
-            <video:description>Mushroom Masala Curry is a delightful Indian curry that tantalizes
-                the taste buds with its blend of savory spices and tender mushrooms. Simmered
-                in tomato gravy and yogurt, it's bursting with aromatic spices. Comfort food
-                perfected!</video:description>
-            <video:content_loc>https://www.youtube.com/watch?v=UcMZg6QjnuQ</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/mushroom</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
-        </video:video>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/curdrice</loc>
-        <video:video>
-            <video:thumbnail_loc>https://fearlessvegetarian.netlify.app/curdrice.jpg</video:thumbnail_loc>
-            <video:title>Curd Rice Delight: South Indian Comfort Video</video:title>
-            <video:description>Curd Rice Delight: Enjoy South Indian comfort with this dish made
-                with precooked rice, yogurt, herbs, and tempering spices.</video:description>
-            <video:content_loc>https://www.youtube.com/watch?v=Y_QJdaanMzg</video:content_loc>
-            <video:player_loc allow_embed="yes">https://fearlessvegetarian.netlify.app/curdrice</video:player_loc>
-            <video:family_friendly>yes</video:family_friendly>
-            <video:platform>web mobile</video:platform>
-            <video:uploader info="https://fearlessvegetarian.netlify.app/about">Fearless Vegetarian</video:uploader>
-            <video:category>Food and Cooking</video:category>
-        </video:video>
     </url>
 </urlset>
