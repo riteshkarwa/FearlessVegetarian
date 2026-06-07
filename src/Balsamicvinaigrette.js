@@ -41,8 +41,8 @@ class BalsamicVinaigretteDish extends Component {
                     <meta property="og:image" content="https://fearlessvegetarian.netlify.app/couscousbalsamic.jpg" />
                     <meta property="og:description" content="Kickstart luck with our Black Eyed Peas Curry. A year-round delight, seasoned with Indian spices for prosperity." />
                 </Helmet>
-                <h1>Black Eyed Peas Curry seasoned with Indian Spices. It is a tradition to eat them on 1st January for luck and prosperity. It doesn't
-                    have to be just 1st of January eat it all year long for more luck and prosperity.
+                <h1>Experience an explosion of rich, earthy flavors in every bite. This Middle Eastern-inspired couscous salad combines fluffy couscous, crunchy vegetables, fresh herbs, and toasted walnuts, all brought together with a tangy balsamic vinaigrette. 
+                    Light yet satisfying, it's the perfect vegetarian and vegan dish for a refreshing lunch, healthy dinner, or make-ahead meal prep.
                 </h1>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
