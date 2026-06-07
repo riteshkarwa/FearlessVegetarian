@@ -31,15 +31,15 @@ class BalsamicVinaigretteDish extends Component {
                     />
                     <meta
                         name="keywords"
-                        content="black eyed peas curry, Indian black eyed peas recipe, lobia curry, vegetarian curry recipe, new year black eyed peas recipe, healthy curry with legumes, 
-                        Indian spice curry, easy lobia masala, black eyed beans curry, protein rich curry, gluten free curry recipe, vegan black eyed peas curry, Indian comfort food, 
-                        Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
+                        content="Middle Eastern couscous salad, couscous recipe, vegan couscous salad, vegetarian couscous, healthy couscous recipe, Mediterranean salad, balsamic vinaigrette salad, plant based meal, vegetable couscous salad, 
+                        walnut couscous salad, parsley couscous, easy vegan lunch, healthy vegetarian dinner, meal prep salad, 
+                        colorful vegetable salad, cucumber couscous, red bell pepper salad, cabbage salad recipe, vegan Mediterranean recipe, Fearless Vegetarian"
                     />
                     <meta property="og:title" content="Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity" />
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://fearlessvegetarian.netlify.app/couscousbalsamic" />
                     <meta property="og:image" content="https://fearlessvegetarian.netlify.app/couscousbalsamic.jpg" />
-                    <meta property="og:description" content="Kickstart luck with our Black Eyed Peas Curry. A year-round delight, seasoned with Indian spices for prosperity." />
+                    <meta property="og:description" content="Enjoy a vibrant Middle Eastern-inspired couscous salad made with cucumber, red bell pepper, purple cabbage, red onion, fresh parsley, green onions, and toasted walnuts. Tossed in a tangy balsamic vinaigrette, this healthy vegetarian and vegan recipe is perfect for lunch, dinner, or meal prep" />
                 </Helmet>
                 <h1>Experience an explosion of rich, earthy flavors in every bite. This Middle Eastern-inspired couscous salad combines fluffy couscous, crunchy vegetables, fresh herbs, and toasted walnuts, all brought together with a tangy balsamic vinaigrette. 
                     Light yet satisfying, it's the perfect vegetarian and vegan dish for a refreshing lunch, healthy dinner, or make-ahead meal prep.
