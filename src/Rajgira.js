@@ -7,6 +7,8 @@ import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
+import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 class RajgiraHalwa extends Component {
     render() {
@@ -40,7 +42,10 @@ class RajgiraHalwa extends Component {
                     <meta property="og:image" content="https://fearlessvegetarian.netlify.app/rajgirahalwa.jpg" />
                     <meta property="og:description" content="Learn how to make Rajgira Halwa, a rich and flavorful dessert made with amaranth flour, ghee, and jaggery. Perfect for Navratri, fasting (vrat) days, or as a wholesome sweet treat." />
                 </Helmet>
-                <h1>Learn how to make Rajgira Halwa, a rich and flavorful dessert made with amaranth flour, ghee, and jaggery. Perfect for Navratri, fasting (vrat) days, or as a wholesome sweet treat.
+                <h1>Rajgira Halwa is a traditional Indian sweet made from amaranth flour,
+                    commonly enjoyed during Navratri fasting. Rich in nutrients and naturally
+                    gluten-free, this comforting dessert is easy to prepare and makes a
+                    delicious festive treat.
                 </h1>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Servings</Col>
@@ -58,9 +63,9 @@ class RajgiraHalwa extends Component {
                 </ol>
                 <div className="ingredients">Instruction</div>
                 <ol>
-                    <li>Heat ghee in a heavy-bottomed pan.Add rajgira flour and roast on low to medium heat 
+                    <li>Heat ghee in a heavy-bottomed pan.Add rajgira flour and roast on low to medium heat
                         for 5–7 minutes, stirring constantly, until it turns aromatic and slightly golden.</li>
-                    <li>In a separate saucepan, warm the milk (or water) and dissolve jaggery/sugar in it. 
+                    <li>In a separate saucepan, warm the milk (or water) and dissolve jaggery/sugar in it.
                         Keep it hot but not boiling.</li>
                     <li>Slowly pour the hot milk-jaggery mixture into the roasted flour while stirring continuously to avoid lumps.
                         Cook on low heat until the mixture thickens and starts leaving the sides of the pan.
@@ -82,6 +87,107 @@ class RajgiraHalwa extends Component {
                     <MediaQuery minWidth={767}>
                         <YouTube videoId="F6twlcz2W7g" opts={optsDesktop} />
                     </MediaQuery>
+                </div>
+                <div style={{ marginTop: "40px" }}>
+                    <h2>You May Also Like</h2>
+
+                    <p>
+                        If you enjoyed this Rajgira Halwa recipe, you may also like these
+                        wholesome vegetarian dishes and traditional Indian recipes.
+                    </p>
+
+                    <ul
+                        style={{
+                            listStyle: "none",
+                            padding: 0,
+                            marginTop: "20px"
+                        }}
+                    >
+                        <li style={{ marginBottom: "12px" }}>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/quinoamoongdal"
+                                style={{
+                                    textDecoration: "none",
+                                    color: "inherit",
+                                    fontWeight: "500"
+                                }}
+                            >
+                                Quinoa Moong Dal Khichdi
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "12px" }}>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/paneer"
+                                style={{
+                                    textDecoration: "none",
+                                    color: "inherit",
+                                    fontWeight: "500"
+                                }}
+                            >
+                                Shahi Paneer – Creamy Indian Cottage Cheese Curry
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "12px" }}>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/potato"
+                                style={{
+                                    textDecoration: "none",
+                                    color: "inherit",
+                                    fontWeight: "500"
+                                }}
+                            >
+                                Any Time Potato with Indian Spices
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "12px" }}>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/cabbage"
+                                style={{
+                                    textDecoration: "none",
+                                    color: "inherit",
+                                    fontWeight: "500"
+                                }}
+                            >
+                                Cabbage Curry (Patta Gobi)
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/riceandbeans"
+                                style={{
+                                    textDecoration: "none",
+                                    color: "inherit",
+                                    fontWeight: "500"
+                                }}
+                            >
+                                Zesty Mexican Rice with Black Beans
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
         );
