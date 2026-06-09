@@ -107,11 +107,7 @@ class Riceandbeans extends Component {
                             />
                             <Link
                                 to="/quinoamoongdal"
-                                style={{
-                                    textDecoration: "none",
-                                    color: "inherit",
-                                    fontWeight: "500"
-                                }}
+                                className="recipe-link"
                             >
                                 Quinoa Moong Dal Khichdi
                             </Link>
@@ -124,11 +120,7 @@ class Riceandbeans extends Component {
                             />
                             <Link
                                 to="/cabbage"
-                                style={{
-                                    textDecoration: "none",
-                                    color: "inherit",
-                                    fontWeight: "500"
-                                }}
+                                className="recipe-link"
                             >
                                 Cabbage Curry (Patta Gobi)
                             </Link>
@@ -141,11 +133,7 @@ class Riceandbeans extends Component {
                             />
                             <Link
                                 to="/potatocapsicum"
-                                style={{
-                                    textDecoration: "none",
-                                    color: "inherit",
-                                    fontWeight: "500"
-                                }}
+                                className="recipe-link"
                             >
                                 Creamy Potato Curry in Roasted Red Pepper Cashew Gravy
                             </Link>
@@ -158,11 +146,7 @@ class Riceandbeans extends Component {
                             />
                             <Link
                                 to="/blackeyedpeas"
-                                style={{
-                                    textDecoration: "none",
-                                    color: "inherit",
-                                    fontWeight: "500"
-                                }}
+                                className="recipe-link"
                             >
                                 Black Eyed Peas Curry
                             </Link>
@@ -174,12 +158,8 @@ class Riceandbeans extends Component {
                                 style={{ color: "#28a745", marginRight: "10px" }}
                             />
                             <Link
-                                to="/upma"
-                                style={{
-                                    textDecoration: "none",
-                                    color: "inherit",
-                                    fontWeight: "500"
-                                }}
+                                to="/upma" 
+                                className="recipe-link"
                             >
                                 South Indian Upma
                             </Link>

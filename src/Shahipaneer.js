@@ -7,6 +7,8 @@ import Col from 'react-bootstrap/Col';
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 class Shahipaneer extends Component {
     render() {
@@ -65,19 +67,19 @@ class Shahipaneer extends Component {
                     <li>If you're using store bought paneer,soak it in warm water for 15 to 20 min and pat dry.</li>
                     <li>Heat oil or ghee in a pan over medium heat.</li>
                     <li>Add 12 whole or split cashews, and 2 to 3 green cardamoms. Shallow fry them for 1 to 2 mins.</li>
-                    <li>Add 1 cup of cubed onions and 1 slit green chilli. Sauté until the onions turn transparent. 
-                        If you prefer hot and spicy shahi paneer, use green chili at this stage. If you prefer a 
+                    <li>Add 1 cup of cubed onions and 1 slit green chilli. Sauté until the onions turn transparent.
+                        If you prefer hot and spicy shahi paneer, use green chili at this stage. If you prefer a
                         tomato based dish then add the optional cubed tomatoes (1 or 2) if using.</li>
                     <li>Cook the onion nuts mixture until the onion turns soft</li>
                     <li>Transfer all the ingredients to the blender and add one whole tomato. Blend the mixture until it becomes a smooth paste.</li>
-                    <li>In the same pan, heat 1 tablespoon of oil or ghee. Add 1/2 teaspoon of cumin (jeera) or shahi jeera, along with 
-                        2 to 3 cloves and 1 to 2-inch cinnamon. Allow the whole spices to sauté on low heat for about a minute 
+                    <li>In the same pan, heat 1 tablespoon of oil or ghee. Add 1/2 teaspoon of cumin (jeera) or shahi jeera, along with
+                        2 to 3 cloves and 1 to 2-inch cinnamon. Allow the whole spices to sauté on low heat for about a minute
                         until they release their fragrant aroma.</li>
                     <li>Add 1 teaspoon of chopped ginger and garlic to the pan, then sauté them well for 1 to 2 minutes until the raw smell dissipates.</li>
-                    <li>Next, add the onion, tomato, and cashew paste to the pan, along with 1/4 teaspoon of red chili powder, 
+                    <li>Next, add the onion, tomato, and cashew paste to the pan, along with 1/4 teaspoon of red chili powder,
                         3/4 to 1 teaspoon of garam masala, 1/2 teaspoon of turmeric, and 1/2 teaspoon of salt (adjust to taste)</li>
-                    <li>Mix the ingredients thoroughly and cook for 3 to 4 minutes until the spices raw aroma fades and the mixture thickens. 
-                        While cooking, beat 1/2 cup of thick curd or plain yogurt until smooth. Then, reduce the heat to low and gradually 
+                    <li>Mix the ingredients thoroughly and cook for 3 to 4 minutes until the spices raw aroma fades and the mixture thickens.
+                        While cooking, beat 1/2 cup of thick curd or plain yogurt until smooth. Then, reduce the heat to low and gradually
                         incorporate the beaten curd into the mixture in the pan</li>
                     <li>Allow the paneer gravy to simmer until it thickens.</li>
                     <li>Add 3/4 cup of water. Add pinch of saffron strands. Mix well</li>
@@ -95,7 +97,82 @@ class Shahipaneer extends Component {
                         <YouTube videoId="QVkVreW4dPw" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
+                <div style={{ marginTop: "40px" }}>
+                    <h2>You May Also Like</h2>
 
+                    <ul
+                        style={{
+                            listStyle: "none",
+                            padding: 0,
+                            marginTop: "20px"
+                        }}
+                    >
+                        <li style={{ marginBottom: "12px" }}>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/potatocapsicum"
+                                className="recipe-link"
+                            >
+                                Creamy Potato Curry in Roasted Red Pepper Cashew Gravy
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "12px" }}>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/cabbage"
+                                className="recipe-link"
+                            >
+                                Cabbage Curry (Patta Gobi)
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "12px" }}>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/blackeyedpeas"
+                                className="recipe-link"
+                            >
+                                Black Eyed Peas Curry
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "12px" }}>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/quinoamoongdal"
+                                className="recipe-link"
+                            >
+                                Quinoa Moong Dal Khichdi
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/potato"
+                                className="recipe-link"
+                            >
+                                Any Time Potato Seasoned with Indian Spices
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
         );
     }
