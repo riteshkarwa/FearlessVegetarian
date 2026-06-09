@@ -97,6 +97,65 @@ class Cabbage extends Component {
                         <YouTube videoId="4Kw-8PPg8Zs" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
+                <div className="related-recipes mt-4">
+                    <h2>Related Vegetarian Recipes</h2>
+
+                    <p>
+                        If you enjoyed this Cabbage Curry, you may also like these flavorful vegetarian recipes:
+                    </p>
+
+                    <ul style={{ listStyle: "none", paddingLeft: 0 }}>
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link
+                                to="/aloogobi"
+                                className="recipe-link"
+                            >
+                                Aloo Gobi (Potato Cauliflower Curry)
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link
+                                to="/saagpaneer"
+                                className="recipe-link"
+                            >
+                                Saag Paneer – Spinach and Paneer Curry
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link
+                                to="/potatocapsicum"
+                                className="recipe-link"
+                            >
+                                Creamy Potato Curry in Roasted Red Pepper Gravy
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link
+                                to="/dalmakhani"
+                                className="recipe-link"
+                            >
+                                Dal Makhani – Creamy Punjabi Lentils
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link
+                                to="/besan"
+                                className="recipe-link"
+                            >
+                                Chickpea Flour Curry (Besan Curry)
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
         );
     }
