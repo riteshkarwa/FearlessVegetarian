@@ -104,35 +104,34 @@ class Quinoamoongdal extends Component {
                     <h2>Related Vegetarian Recipes</h2>
 
                     <p>
-                        If you enjoyed this Quinoa Moong Dal Khichdi, you may also like these
-                        healthy vegetarian recipes:
+                        If you enjoyed this Quinoa Moong Dal Khichdi, you may also like these healthy vegetarian recipes:
                     </p>
 
-                    <ul>
-                        <li>
-                            <Link to="/khichdi">
-                                Traditional Moong Dal Khichdi
-                            </Link>
+                    <ul
+                        style={{
+                            listStyle: "none",
+                            padding: 0,
+                            margin: 0
+                        }}
+                    >
+                        <li style={{ marginBottom: "12px" }}>
+                            🍲 <Link to="/khichdi">Traditional Moong Dal Khichdi</Link>
                         </li>
-                        <li>
-                            <Link to="/dalmakhani">
-                                Dal Makhani – Creamy Punjabi Lentils
-                            </Link>
+
+                        <li style={{ marginBottom: "12px" }}>
+                            🫘 <Link to="/dalmakhani">Dal Makhani – Creamy Punjabi Lentils</Link>
                         </li>
-                        <li>
-                            <Link to="/lentil">
-                                Masoor Dal (Red Lentil Curry)
-                            </Link>
+
+                        <li style={{ marginBottom: "12px" }}>
+                            🥣 <Link to="/lentil">Masoor Dal (Red Lentil Curry)</Link>
                         </li>
-                        <li>
-                            <Link to="/blackeyedbeans">
-                                Black Eyed Peas Curry
-                            </Link>
+
+                        <li style={{ marginBottom: "12px" }}>
+                            🌱 <Link to="/blackeyedbeans">Black Eyed Peas Curry</Link>
                         </li>
-                        <li>
-                            <Link to="/upma">
-                                South Indian Upma
-                            </Link>
+
+                        <li style={{ marginBottom: "12px" }}>
+                            🌾 <Link to="/upma">South Indian Upma</Link>
                         </li>
                     </ul>
                 </div>
