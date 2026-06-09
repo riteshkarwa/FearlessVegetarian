@@ -103,10 +103,20 @@ class Potatocapsicum extends Component {
                     <h2>Related Vegetarian Recipes</h2>
                     <p>
                         If you enjoyed this Creamy Potato Curry, you may also like our
-                        <Link to="/aloogobi"> Aloo Gobi</Link>,
-                        <Link to="/dalmakhani"> Dal Makhani</Link>,
-                        <Link to="/saagpaneer"> Saag Paneer</Link>, and
-                        <Link to="/besan"> Besan Curry</Link>.
+                        <ul>
+                            <li>
+                                <Link to="/aloogobi"> Aloo Gobi</Link>
+                            </li>
+                            <li>
+                                <Link to="/dalmakhani"> Dal Makhani</Link>
+                            </li>
+                            <li>
+                                <Link to="/saagpaneer"> Saag Paneer</Link>
+                            </li>
+                            <li>
+                                <Link to="/besan"> Besan Curry</Link>
+                            </li>
+                        </ul>
                     </p>
                 </div>
             </div>
