@@ -111,27 +111,27 @@ class Quinoamoongdal extends Component {
                     <ul style={{ listStyle: "none", paddingLeft: 0 }}>
                         <li style={{ marginBottom: "10px" }}>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
-                            <Link to="/khichdi">Traditional Moong Dal Khichdi</Link>
+                            <Link to="/khichdi" className="recipe-link">Traditional Moong Dal Khichdi</Link>
                         </li>
 
                         <li style={{ marginBottom: "10px" }}>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
-                            <Link to="/dalmakhani">Dal Makhani – Creamy Punjabi Lentils</Link>
+                            <Link to="/dalmakhani" className="recipe-link">Dal Makhani – Creamy Punjabi Lentils</Link>
                         </li>
 
                         <li style={{ marginBottom: "10px" }}>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
-                            <Link to="/lentil">Masoor Dal (Red Lentil Curry)</Link>
+                            <Link to="/lentil" className="recipe-link">Masoor Dal (Red Lentil Curry)</Link>
                         </li>
 
                         <li style={{ marginBottom: "10px" }}>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
-                            <Link to="/blackeyedbeans">Black Eyed Peas Curry</Link>
+                            <Link to="/blackeyedbeans" className="recipe-link">Black Eyed Peas Curry</Link>
                         </li>
 
                         <li style={{ marginBottom: "10px" }}>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
-                            <Link to="/upma">South Indian Upma</Link>
+                            <Link to="/upma" className="recipe-link">South Indian Upma</Link>
                         </li>
                     </ul>
                 </div>
