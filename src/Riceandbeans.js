@@ -7,6 +7,8 @@ import Col from 'react-bootstrap/Col';
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 class Riceandbeans extends Component {
     render() {
@@ -88,7 +90,102 @@ class Riceandbeans extends Component {
                         <YouTube videoId="azLCdgLpDjY" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
+                <div style={{ marginTop: "40px" }}>
+                    <h2>You May Also Like</h2>
 
+                    <ul
+                        style={{
+                            listStyle: "none",
+                            padding: 0,
+                            marginTop: "20px"
+                        }}
+                    >
+                        <li style={{ marginBottom: "12px" }}>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/quinoamoongdal"
+                                style={{
+                                    textDecoration: "none",
+                                    color: "inherit",
+                                    fontWeight: "500"
+                                }}
+                            >
+                                Quinoa Moong Dal Khichdi
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "12px" }}>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/cabbage"
+                                style={{
+                                    textDecoration: "none",
+                                    color: "inherit",
+                                    fontWeight: "500"
+                                }}
+                            >
+                                Cabbage Curry (Patta Gobi)
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "12px" }}>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/potatocapsicum"
+                                style={{
+                                    textDecoration: "none",
+                                    color: "inherit",
+                                    fontWeight: "500"
+                                }}
+                            >
+                                Creamy Potato Curry in Roasted Red Pepper Cashew Gravy
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "12px" }}>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/blackeyedpeas"
+                                style={{
+                                    textDecoration: "none",
+                                    color: "inherit",
+                                    fontWeight: "500"
+                                }}
+                            >
+                                Black Eyed Peas Curry
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon
+                                icon={faLeaf}
+                                style={{ color: "#28a745", marginRight: "10px" }}
+                            />
+                            <Link
+                                to="/upma"
+                                style={{
+                                    textDecoration: "none",
+                                    color: "inherit",
+                                    fontWeight: "500"
+                                }}
+                            >
+                                South Indian Upma
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
         );
     }
