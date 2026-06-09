@@ -8,6 +8,7 @@ import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Link } from "react-router-dom";
+import { faLeaf } from '@fortawesome/free-solid-svg-icons';
 
 class Quinoamoongdal extends Component {
     render() {
@@ -107,31 +108,30 @@ class Quinoamoongdal extends Component {
                         If you enjoyed this Quinoa Moong Dal Khichdi, you may also like these healthy vegetarian recipes:
                     </p>
 
-                    <ul
-                        style={{
-                            listStyle: "none",
-                            padding: 0,
-                            margin: 0
-                        }}
-                    >
-                        <li style={{ marginBottom: "12px" }}>
-                            🍲 <Link to="/khichdi">Traditional Moong Dal Khichdi</Link>
+                    <ul style={{ listStyle: "none", paddingLeft: 0 }}>
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link to="/khichdi">Traditional Moong Dal Khichdi</Link>
                         </li>
 
-                        <li style={{ marginBottom: "12px" }}>
-                            🫘 <Link to="/dalmakhani">Dal Makhani – Creamy Punjabi Lentils</Link>
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link to="/dalmakhani">Dal Makhani – Creamy Punjabi Lentils</Link>
                         </li>
 
-                        <li style={{ marginBottom: "12px" }}>
-                            🥣 <Link to="/lentil">Masoor Dal (Red Lentil Curry)</Link>
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link to="/lentil">Masoor Dal (Red Lentil Curry)</Link>
                         </li>
 
-                        <li style={{ marginBottom: "12px" }}>
-                            🌱 <Link to="/blackeyedbeans">Black Eyed Peas Curry</Link>
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link to="/blackeyedbeans">Black Eyed Peas Curry</Link>
                         </li>
 
-                        <li style={{ marginBottom: "12px" }}>
-                            🌾 <Link to="/upma">South Indian Upma</Link>
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link to="/upma">South Indian Upma</Link>
                         </li>
                     </ul>
                 </div>
