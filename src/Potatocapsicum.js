@@ -8,6 +8,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 class Potatocapsicum extends Component {
     render() {
@@ -99,22 +101,42 @@ class Potatocapsicum extends Component {
                         <YouTube videoId="JgsJJjxUHqg" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
-                <div className="related-recipes">
+                <div style={{ marginTop: "40px" }}>
                     <h2>Related Vegetarian Recipes</h2>
                     <p>
                         If you enjoyed this Creamy Potato Curry, you may also like our
-                        <ul>
+                        <ul style={{
+                            listStyle: "none",
+                            padding: 0,
+                            marginTop: "20px"
+                        }}>
                             <li>
-                                <Link to="/aloogobi"> Aloo Gobi</Link>
+                                <FontAwesomeIcon
+                                    icon={faLeaf}
+                                    style={{ color: "#28a745", marginRight: "10px" }}
+                                />
+                                <Link to="/aloogobi" className="recipe-link" > Aloo Gobi</Link>
                             </li>
                             <li>
-                                <Link to="/dalmakhani"> Dal Makhani</Link>
+                                <FontAwesomeIcon
+                                    icon={faLeaf}
+                                    style={{ color: "#28a745", marginRight: "10px" }}
+                                />
+                                <Link to="/dalmakhani" className="recipe-link"> Dal Makhani</Link>
                             </li>
                             <li>
-                                <Link to="/saagpaneer"> Saag Paneer</Link>
+                                <FontAwesomeIcon
+                                    icon={faLeaf}
+                                    style={{ color: "#28a745", marginRight: "10px" }}
+                                />
+                                <Link to="/saagpaneer" className="recipe-link"> Saag Paneer</Link>
                             </li>
                             <li>
-                                <Link to="/besan"> Besan Curry</Link>
+                                <FontAwesomeIcon
+                                    icon={faLeaf}
+                                    style={{ color: "#28a745", marginRight: "10px" }}
+                                />
+                                <Link to="/besan" className="recipe-link"> Besan Curry</Link>
                             </li>
                         </ul>
                     </p>
