@@ -6,6 +6,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import MediaQuery from 'react-responsive';
+import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 class Potato extends Component {
   render() {
@@ -29,7 +31,7 @@ class Potato extends Component {
           <meta property="og:image" content="https://fearlessvegetarian.netlify.app/anytimepotato.jpg" />
           <meta property="og:description" content="Savor unique flavors in our Any Time Potato Delight—Indian spices & vegan sausage fusion. Perfect for any meal." />
         </Helmet>
-        <h1>Any Time Potato Seasoned with Indian Spices served with Vegan Sausage</h1>
+        <h1>Easy Indian Spiced Potatoes Recipe with Vegan Sausage</h1>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
         </Row>
@@ -70,6 +72,108 @@ class Potato extends Component {
         <MediaQuery minWidth={767}>
           <Image src="/anytimepotato.jpg" alt="Savor unique flavors in our Any Time Potato" thumbnail rounded width="50%" height="50%"></Image>
         </MediaQuery>
+        <div style={{ marginTop: "40px" }}>
+          <h2>You May Also Like</h2>
+
+          <p>
+            If you enjoyed these Indian spiced potatoes, explore more delicious
+            vegetarian recipes from Fearless Vegetarian featuring curries,
+            lentils, vegetables, and wholesome comfort foods.
+          </p>
+
+          <ul
+            style={{
+              listStyle: "none",
+              padding: 0,
+              marginTop: "20px"
+            }}
+          >
+            <li style={{ marginBottom: "12px" }}>
+              <FontAwesomeIcon
+                icon={faLeaf}
+                style={{ color: "#28a745", marginRight: "10px" }}
+              />
+              <Link
+                to="/potatocapsicum"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                  fontWeight: "500"
+                }}
+              >
+                Creamy Potato Curry in Roasted Red Pepper Cashew Gravy
+              </Link>
+            </li>
+
+            <li style={{ marginBottom: "12px" }}>
+              <FontAwesomeIcon
+                icon={faLeaf}
+                style={{ color: "#28a745", marginRight: "10px" }}
+              />
+              <Link
+                to="/paneer"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                  fontWeight: "500"
+                }}
+              >
+                Shahi Paneer – Creamy Indian Cottage Cheese Curry
+              </Link>
+            </li>
+
+            <li style={{ marginBottom: "12px" }}>
+              <FontAwesomeIcon
+                icon={faLeaf}
+                style={{ color: "#28a745", marginRight: "10px" }}
+              />
+              <Link
+                to="/cabbage"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                  fontWeight: "500"
+                }}
+              >
+                Cabbage Curry (Patta Gobi)
+              </Link>
+            </li>
+
+            <li style={{ marginBottom: "12px" }}>
+              <FontAwesomeIcon
+                icon={faLeaf}
+                style={{ color: "#28a745", marginRight: "10px" }}
+              />
+              <Link
+                to="/quinoamoongdal"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                  fontWeight: "500"
+                }}
+              >
+                Quinoa Moong Dal Khichdi
+              </Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon
+                icon={faLeaf}
+                style={{ color: "#28a745", marginRight: "10px" }}
+              />
+              <Link
+                to="/riceandbeans"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                  fontWeight: "500"
+                }}
+              >
+                Zesty Mexican Rice with Black Beans
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     );
   }
