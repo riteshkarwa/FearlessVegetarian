@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
+import { Link } from "react-router-dom";
 
 class Quinoamoongdal extends Component {
     render() {
@@ -42,7 +43,9 @@ class Quinoamoongdal extends Component {
                     <meta property="og:description" content="Learn how to make Quinoa Moong Dal Khichdi—a wholesome, protein-rich, and comforting Indian dish made with quinoa, yellow moong dal, 
                     spices, and vegetables. Perfect for a light lunch or dinner" />
                 </Helmet>
-                <h1>Learn how to make Rajgira Halwa, a rich and flavorful dessert made with amaranth flour, ghee, and jaggery. Perfect for Navratri, fasting (vrat) days, or as a wholesome sweet treat.
+                <h1>
+                    Learn how to make Quinoa Moong Dal Khichdi—a wholesome, protein-rich, and comforting Indian dish made with quinoa, yellow moong dal,
+                    spices, and vegetables. Perfect for a light lunch or dinner"
                 </h1>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Servings</Col>
@@ -83,19 +86,55 @@ class Quinoamoongdal extends Component {
                 </ol>
                 <h2>Final Product</h2>
                 <MediaQuery maxWidth={767}>
-                    <Image src="/quinoamoongdal.jpg" alt="Savor unique flavors in our Rajgira Halwa" thumbnail rounded fluid></Image>
+                    <Image src="/quinoamoongdal.jpg" alt="Quinoa Moong Dal Khichdi served in a bowl" thumbnail rounded fluid></Image>
                 </MediaQuery>
                 <MediaQuery minWidth={767}>
-                    <Image src="/quinoamoongdal.jpg" alt="Savor unique flavors in our Rajgira Halwa" thumbnail rounded width="50%" height="50%"></Image>
+                    <Image src="/quinoamoongdal.jpg" alt="Quinoa Moong Dal Khichdi served in a bowl" thumbnail rounded width="50%" height="50%"></Image>
                 </MediaQuery>
                 <div>
-                    <h2>Rajgira Halwa Preparation Video</h2>
+                    <h2>Quinoa Moong Dal Khichdi Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
                         <YouTube videoId="8pqdHWd3Pys" opts={optsMobile} />
                     </MediaQuery>
                     <MediaQuery minWidth={767}>
                         <YouTube videoId="8pqdHWd3Pys" opts={optsDesktop} />
                     </MediaQuery>
+                </div>
+                <div className="related-recipes">
+                    <h2>Related Vegetarian Recipes</h2>
+
+                    <p>
+                        If you enjoyed this Quinoa Moong Dal Khichdi, you may also like these
+                        healthy vegetarian recipes:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <Link to="/khichdi">
+                                Traditional Moong Dal Khichdi
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/dalmakhani">
+                                Dal Makhani – Creamy Punjabi Lentils
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/lentil">
+                                Masoor Dal (Red Lentil Curry)
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/blackeyedbeans">
+                                Black Eyed Peas Curry
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/upma">
+                                South Indian Upma
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
         );
