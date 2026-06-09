@@ -23,7 +23,7 @@ class Aloogobi extends Component {
             <div>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Aloo Gobi(Potato Cauliflower): North Indian Delight</title>
+                    <title>Aloo Gobi(Potato Cauliflower): North Indian Delight | Fearless Vegetarian</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/aloogobi" />
                     <meta
                         name="description"
@@ -101,6 +101,16 @@ class Aloogobi extends Component {
                     <MediaQuery minWidth={767}>
                         <YouTube videoId="zCoLryH0mDk" opts={optsDesktop} />
                     </MediaQuery>
+                </div>
+                <div className="related-recipes">
+                    <h2>Related Vegetarian Recipes</h2>
+                    <p>
+                        If you enjoyed this Aloo Gobi: Classic North Indian Potato and Cauliflower Curry, you may also like our
+                        <Link to="/aloogobi">Couscous Delight: Easy and Flavorful Mediterranean Magic!</Link>,
+                        <Link to="/dalmakhani"> Dal Makhani</Link>,
+                        <Link to="/saagpaneer"> Saag Paneer</Link>, and
+                        <Link to="/besan"> Besan Curry</Link>.
+                    </p>
                 </div>
             </div>
         );
