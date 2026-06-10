@@ -7,6 +7,8 @@ import Col from 'react-bootstrap/Col';
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 class Rajmah extends Component {
     render() {
@@ -95,6 +97,64 @@ class Rajmah extends Component {
                     <MediaQuery minWidth={767}>
                         <YouTube videoId="QROugaifSsE" opts={optsDesktop} />
                     </MediaQuery>
+                </div>
+                <div className="related-recipes" style={{ marginTop: "40px" }}>
+                    <h2>Related Vegetarian Recipes</h2>
+                    <p>
+                        If you enjoyed this hearty Rajmah (Kidney Bean Curry), you may also like:
+                    </p>
+
+                    <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/dalmakhani"
+                                className="recipe-link"
+                            >
+                                Dal Makhani – Slow-Cooked Punjabi Lentils
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/quinoamoongdal"
+                                className="recipe-link"
+                            >
+                                Quinoa Moong Dal Khichdi
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/blackeyedpeas"
+                                className="recipe-link"
+                            >
+                                Black Eyed Peas Curry
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/besan"
+                                className="recipe-link"
+                            >
+                                Besan Curry (Chickpea Flour Curry)
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/riceandbeans"
+                                className="recipe-link"
+                            >
+                                Mexican Rice with Black Beans
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
