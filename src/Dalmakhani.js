@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
+import { Link } from "react-router-dom";
 
 class DalMakhani extends Component {
     render() {
@@ -107,6 +108,40 @@ class DalMakhani extends Component {
                     <MediaQuery minWidth={767}>
                         <YouTube videoId="g4WcrkJKDKo" opts={optsDesktop} />
                     </MediaQuery>
+                </div>
+                <div className="related-recipes">
+                    <h2>Related Vegetarian Recipes</h2>
+
+                    <p>
+                        If you enjoyed this creamy Dal Makhani recipe, you may also like these healthy vegetarian recipes:
+                    </p>
+
+                    <ul style={{ listStyle: "none", paddingLeft: 0 }}>
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link to="/paneer" className="recipe-link">Shahi Paneer</Link>
+                        </li>
+
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link to="/okra" className="recipe-link">Okra Delight</Link>
+                        </li>
+
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link to="/lentil" className="recipe-link">Masoor Dal (Red Lentil Curry)</Link>
+                        </li>
+
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link to="/blackeyedbeans" className="recipe-link">Black Eyed Peas Curry</Link>
+                        </li>
+
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <Link to="/upma" className="recipe-link">South Indian Upma</Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
         );
