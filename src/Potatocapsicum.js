@@ -90,7 +90,12 @@ class Potatocapsicum extends Component {
                     <li>That is it your curry is ready. You can enjoy it with Garlic Naan or Roti(Indian bread less calories compared to Naan).</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="/potatocapsicum.jpg" thumbnail rounded fluid></Image>
+                <MediaQuery maxWidth={767}>
+                    <Image src="/potatocapsicum.jpg" thumbnail rounded fluid></Image>
+                </MediaQuery>
+                <MediaQuery minWidth={767}>
+                    <Image src="/potatocapsicum.jpg" thumbnail rounded fluid width="50%" height="50%"></Image>
+                </MediaQuery>
                 <div>
                     <h2>Creamy Potato Curry in Roasted Red Pepper Cashew Gravy Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
