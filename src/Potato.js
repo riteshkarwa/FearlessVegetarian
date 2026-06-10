@@ -95,11 +95,7 @@ class Potato extends Component {
               />
               <Link
                 to="/potatocapsicum"
-                style={{
-                  textDecoration: "none",
-                  color: "inherit",
-                  fontWeight: "500"
-                }}
+                className="recipe-link"
               >
                 Creamy Potato Curry in Roasted Red Pepper Cashew Gravy
               </Link>
@@ -112,11 +108,7 @@ class Potato extends Component {
               />
               <Link
                 to="/paneer"
-                style={{
-                  textDecoration: "none",
-                  color: "inherit",
-                  fontWeight: "500"
-                }}
+                className="recipe-link"
               >
                 Shahi Paneer – Creamy Indian Cottage Cheese Curry
               </Link>
@@ -129,11 +121,7 @@ class Potato extends Component {
               />
               <Link
                 to="/cabbage"
-                style={{
-                  textDecoration: "none",
-                  color: "inherit",
-                  fontWeight: "500"
-                }}
+                className="recipe-link"
               >
                 Cabbage Curry (Patta Gobi)
               </Link>
@@ -146,11 +134,7 @@ class Potato extends Component {
               />
               <Link
                 to="/quinoamoongdal"
-                style={{
-                  textDecoration: "none",
-                  color: "inherit",
-                  fontWeight: "500"
-                }}
+                className="recipe-link"
               >
                 Quinoa Moong Dal Khichdi
               </Link>
@@ -163,11 +147,7 @@ class Potato extends Component {
               />
               <Link
                 to="/riceandbeans"
-                style={{
-                  textDecoration: "none",
-                  color: "inherit",
-                  fontWeight: "500"
-                }}
+                className="recipe-link"
               >
                 Zesty Mexican Rice with Black Beans
               </Link>
