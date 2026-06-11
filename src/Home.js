@@ -8,11 +8,11 @@ class Home extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Fearless Vegetarian, Plant-Powered Living, Delicious Vegetarian Recipes</title>
+          <title>Fearless Vegetarian | Easy Vegetarian Recipes, Indian Food & Plant-Based Living</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/" />
           <meta
             name="description"
-            content="Fearless Vegetarian: Embrace bold, plant-powered living with delicious, cruelty-free choices for a healthier and sustainable lifestyle!"
+            content="Discover easy vegetarian recipes, Indian curries, healthy meal ideas, plant-based nutrition tips, and wholesome cooking inspiration at Fearless Vegetarian."
           />
           <meta
             name="keywords"
@@ -24,6 +24,9 @@ class Home extends Component {
           <meta property="og:image" content="https://fearlessvegetarian.netlify.app/spices.jpg" />
           <meta property="og:description" content="Fearless Vegetarian: Embrace bold, plant-powered living with delicious, cruelty-free choices for a healthier and sustainable lifestyle!" />
         </Helmet>
+        <h1>
+          Fearless Vegetarian – Easy Vegetarian Recipes, Indian Cooking & Plant-Based Living
+        </h1>
         <p className="bugs_text">
           In this space, I'll be sharing simple, fresh, flavorful, and nutritious recipes that my family enjoys and that have become a regular part of our daily lives.
           Growing up in a Hindu family, being vegetarian comes naturally to me. Hopefully, for those finding it difficult to adopt a vegetarian lifestyle,
@@ -49,6 +52,13 @@ class Home extends Component {
           Vegetarian especially Indian Food is excellent for meal prep. Time allows the flavours to blend and mature making the food tastes better the next
           day so you can make it in large quantity. The ingredients for most of the meals that I will be sharing on Fearless Vegetarian will be super cheap
           compared to eating out in restaurant. Also you can control what is added to your food especially the spice level.
+        </p>
+        <h2>Featured Recipes</h2>
+        <p>
+          At Fearless Vegetarian you'll find easy Indian vegetarian recipes
+          including Dal Makhani, Rajma Curry, Aloo Gobi, Shahi Paneer,
+          Khichdi, healthy breakfasts, desserts, and meal-prep ideas.
+          Each recipe includes step-by-step instructions and video tutorials.
         </p>
         <p>
           <h2>Fears of Vegetarian Diet Debunked:</h2>
