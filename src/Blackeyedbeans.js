@@ -7,6 +7,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 class Blackeyedbeans extends Component {
     render() {
@@ -101,6 +103,64 @@ class Blackeyedbeans extends Component {
                     <MediaQuery minWidth={767}>
                         <YouTube videoId="yiKLvJ7gBMw" opts={optsDesktop} />
                     </MediaQuery>
+                </div>
+                <div className="related-recipes" style={{ marginTop: "40px" }}>
+                    <h2>Related Vegetarian Recipes</h2>
+                    <p>
+                        If you enjoyed this Black Eyed Peas Curry (Lobia Masala), you may also like:
+                    </p>
+
+                    <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/rajmah"
+                                className="recipe-link"
+                            >
+                                Rajmah (Kidney Bean Curry)
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/dalmakhani"
+                                className="recipe-link"
+                            >
+                                Dal Makhani – Slow-Cooked Punjabi Lentils
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/quinoamoongdal"
+                                className="recipe-link"
+                            >
+                                Quinoa Moong Dal Khichdi
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/riceandbeans"
+                                className="recipe-link"
+                            >
+                                Mexican Rice with Black Beans
+                            </Link>
+                        </li>
+
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/besan"
+                                className="recipe-link"
+                            >
+                                Besan Curry (Chickpea Flour Curry)
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
         );
