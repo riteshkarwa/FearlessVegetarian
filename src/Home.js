@@ -10,6 +10,8 @@ class Home extends Component {
           <meta charSet="utf-8" />
           <title>Fearless Vegetarian | Easy Vegetarian Recipes, Indian Food & Plant-Based Living</title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/" />
+          <meta property="og:site_name" content="Fearless Vegetarian" />
+          <meta property="og:locale" content="en_US" />
           <meta
             name="description"
             content="Discover easy vegetarian recipes, Indian curries, healthy meal ideas, plant-based nutrition tips, and wholesome cooking inspiration at Fearless Vegetarian."
