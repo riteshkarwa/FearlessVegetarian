@@ -52,6 +52,10 @@ h2 {
   text-decoration: underline;
 }
 
+ol li {
+  font-size: 25px;
+}
+
 .search_container {
   display: flex;
   flex-wrap: wrap;
