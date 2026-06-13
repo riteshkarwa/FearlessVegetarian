@@ -11,46 +11,100 @@ class Erayba extends Component {
             <div>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Erayba India Think Hair. Think Beauty</title>
-                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/" />
+                    <title>Erayba India | Professional Vegan Hair Care & Salon Products</title>
+                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/erayba" />
                     <meta
                         name="description"
-                        content="Erayba is dedicated to supporting salons and professional hairdressers worldwide, offering cutting-edge hair cosmetics that empower stylists and colorists to unleash creativity and achieve exceptional results."
+                        content="Discover Erayba India's professional vegan hair care products. Trusted by salons and hair professionals worldwide, Erayba combines innovation, sustainability, and premium ingredients for healthier, more beautiful hair."
                     />
                     <meta
                         name="keywords"
-                        content="Fearless Vegetarian, Plant-Powered Living, Delicious Vegetarian Recipes, Cruelty-Free Choices, Healthy Lifestyle, Sustainable Living, Hair Care, Natural, Organic, Vegan,, Erayba India, Vegan Living"
+                        content="Erayba India, vegan hair care, professional salon products, cruelty free hair care, vegan hair color, hair treatment, salon shampoo, hair mask, professional hair cosmetics, sustainable beauty, organic hair products"
                     />
-                    <meta property="og:title" content="Erayba India Think Hair. Think Beauty" />
-                    <meta property="og:type" content="website" />
-                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/" />
-                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/erayba.jpg" />
-                    <meta property="og:description" content="Erayba is dedicated to supporting salons and professional hairdressers worldwide, offering cutting-edge hair cosmetics that empower stylists and colorists to unleash creativity and achieve exceptional results." />
+
+                    <meta
+                        property="og:title"
+                        content="Erayba India | Professional Vegan Hair Care & Salon Products"
+                    />
+
+                    <meta
+                        property="og:description"
+                        content="Premium vegan and cruelty-free hair care solutions for salons, stylists, and beauty professionals across India."
+                    />
+
+                    <meta
+                        property="og:image"
+                        content="https://fearlessvegetarian.netlify.app/EraybaIndia.jpg"
+                    />
+
+                    <meta
+                        property="og:url"
+                        content="https://fearlessvegetarian.netlify.app/erayba"
+                    />
                 </Helmet>
+                <h2>About Erayba India</h2>
+
                 <p>
-                    <h1>Erayba India!</h1>
-                    <Image src="/EraybaIndia.jpg" className="pro_veg" rounded responsive alt="Erayba India" />
-                    <h2>Erayba Professional Hair Cosmetics – India Branch</h2>
-                    Erayba Professional Hair Cosmetics is excited to expand its global presence with the opening of our India branch.
-                    With the same commitment to excellence that has defined us since 1983, we aim to provide salons and professional hairdressers in India
-                    with top-tier hair cosmetics and cutting-edge solutions designed to empower stylists and colorists. <br />
-
-                    Our India branch brings the latest in hair care technology and innovative products crafted
-                    from the best natural and vegan ingredients, ensuring that hair is treated with the utmost respect and care.
-                    We are committed to supporting the creativity and passion of India’s hair professionals,
-                    helping them achieve the best results and create true beauty. <br />  <br />
-
-                    <h2>A Commitment to Excellence and Sustainability </h2>
-                    As part of our global mission, Erayba India emphasizes sustainability,
-                    blending high-quality hair cosmetics with eco-friendly practices to promote a healthy balance between beauty and nature.
-                    By supporting salons, stylists, and educators across India, we are confident in our ability to foster creativity
-                    and deliver the best results while respecting our environment.
-
-                    We are thrilled to bring Erayba's heritage and passion to India, ensuring beauty professionals here have access to world-class products and support.
-
+                    Founded in Spain in 1983, Erayba Professional Hair Cosmetics has earned a
+                    global reputation for innovation, quality, and sustainability in the
+                    professional hair care industry. With the launch of Erayba India, we are
+                    bringing our premium range of salon-quality hair care, hair color, and hair
+                    treatment products to beauty professionals across India.
                 </p>
-                <p><FontAwesomeIcon icon={faEnvelope} /> anarabiocosmetic@gmail.com</p>
-                <p><FontAwesomeIcon icon={faPhone} /> +91 96190 00315</p>
+
+                <p>
+                    Our mission is to support hairstylists, colorists, salons, and beauty
+                    educators with advanced hair care solutions that deliver exceptional
+                    results while respecting both people and the planet.
+                </p>
+
+                <h2>Vegan & Cruelty-Free Hair Care</h2>
+
+                <p>
+                    Erayba products are developed using carefully selected vegan ingredients and
+                    are never tested on animals. Our formulas are designed to nourish, repair,
+                    and protect hair while maintaining the highest standards of professional
+                    performance.
+                </p>
+
+                <p>
+                    Whether you're looking for professional shampoos, conditioners, hair masks,
+                    styling products, or advanced color treatments, Erayba offers solutions
+                    that help achieve healthy, vibrant, and beautiful hair.
+                </p>
+
+                <h2>Supporting Hair Professionals Across India</h2>
+
+                <p>
+                    Erayba India is dedicated to helping salons and beauty professionals stay at
+                    the forefront of industry trends through innovative products, technical
+                    education, and ongoing support. We believe creativity thrives when
+                    professionals have access to world-class products and expert knowledge.
+                </p>
+
+                <h2>Our Commitment to Sustainability</h2>
+
+                <p>
+                    Sustainability is at the heart of everything we do. From responsibly sourced
+                    ingredients to environmentally conscious manufacturing practices, Erayba is
+                    committed to creating beauty products that deliver outstanding results while
+                    minimizing environmental impact.
+                </p>
+
+                <h2>Contact Erayba India</h2>
+
+                <p>
+                    For product information, salon partnerships, training opportunities, and
+                    distribution inquiries, please contact us:
+                </p>
+
+                <p>
+                    <FontAwesomeIcon icon={faEnvelope} /> anarabiocosmetic@gmail.com
+                </p>
+
+                <p>
+                    <FontAwesomeIcon icon={faPhone} /> +91 96190 00315
+                </p>
             </div>
         );
     }
