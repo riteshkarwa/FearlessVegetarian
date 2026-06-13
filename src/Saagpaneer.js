@@ -65,24 +65,50 @@ class Saagpaneer extends Component {
                 />
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Saag Paneer Recipe: Rich & Flavorful North Indian Delight"</title>
-                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/saagpaneer" />
+
+                    <title>
+                        Saag Paneer Recipe (Indian Spinach & Paneer Curry) | Fearless Vegetarian
+                    </title>
+
+                    <link
+                        rel="canonical"
+                        href="https://fearlessvegetarian.netlify.app/saagpaneer"
+                    />
+
                     <meta
                         name="description"
-                        content="Saag Paneer: Rich and flavorful North Indian delight. Fresh spinach, aromatic spices, and creamy paneer. Perfect with naan or rice."
+                        content="Easy Saag Paneer recipe made with fresh spinach, paneer, cilantro, mint, and aromatic Indian spices. This creamy North Indian spinach curry is perfect with naan, roti, or rice."
                     />
+
                     <meta
                         name="keywords"
-                        content="saag paneer, Indian spinach curry, paneer recipes, vegetarian dishes, Indian cuisine, creamy spinach curry, 
-                        homemade saag paneer, traditional Indian cooking, palak paneer, Indian vegetarian recipes, Indian comfort food,
-                        flavorful vegetarian curry, paneer and spinach, North Indian cuisine, Indian restaurant-style saag paneer,
-                        Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
+                        content="saag paneer recipe, spinach paneer curry, Indian spinach curry, palak paneer recipe, North Indian recipes, homemade saag paneer, vegetarian Indian curry, paneer recipes, spinach and cheese curry, Fearless Vegetarian"
                     />
-                    <meta property="og:title" content="Saag Paneer Recipe: Rich & Flavorful North Indian Delight" />
-                    <meta property="og:type" content="website" />
-                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/saagpaneer" />
-                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/saagpaneer.jpg" />
-                    <meta property="og:description" content="Saag Paneer: Rich and flavorful North Indian delight. Fresh spinach, aromatic spices, and creamy paneer. Perfect with naan or rice." />
+
+                    <meta
+                        property="og:title"
+                        content="Saag Paneer Recipe (Indian Spinach & Paneer Curry)"
+                    />
+
+                    <meta
+                        property="og:description"
+                        content="Creamy Saag Paneer made with spinach, paneer, cilantro, mint, and Indian spices. A classic North Indian vegetarian favorite."
+                    />
+
+                    <meta
+                        property="og:image"
+                        content="https://fearlessvegetarian.netlify.app/saagpaneer.jpg"
+                    />
+
+                    <meta
+                        property="og:url"
+                        content="https://fearlessvegetarian.netlify.app/saagpaneer"
+                    />
+
+                    <meta property="og:type" content="article" />
+                    <meta property="og:site_name" content="Fearless Vegetarian" />
+
+                    <meta name="twitter:card" content="summary_large_image" />
                 </Helmet>
                 <h1>
                     Saag Paneer Recipe (Indian Spinach & Paneer Curry)
@@ -154,7 +180,7 @@ class Saagpaneer extends Component {
                     <li>That is it your curry is ready. You can enjoy it with Garlic Naan or Roti(Indian bread less calories compared to Naan)</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="/saagpaneer.jpg" alt="Hearty Saag Paneer: A Flavorful Journey into North Indian Cuisine" thumbnail rounded fluid></Image>
+                <Image src="/saagpaneer.jpg" alt="Saag Paneer recipe made with spinach and Indian cottage cheese served in a bowl" thumbnail rounded fluid></Image>
                 <div>
                     <h2>Saag Paneer Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

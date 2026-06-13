@@ -24,22 +24,49 @@ class Besan extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Chickpea Flour Curry (Besan Curry) – Flavorful & Aromatic Indian Recipe</title>
-          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/besan" />
+
+          <title>
+            Besan Curry Recipe | Chickpea Flour Curry (Besan Ki Sabzi) | Fearless Vegetarian
+          </title>
+
+          <link
+            rel="canonical"
+            href="https://fearlessvegetarian.netlify.app/besan"
+          />
+
           <meta
             name="description"
-            content="Savor the rich flavors of Chickpea Flour Curry, popularly known as Besan Curry, in this delightful and aromatic Indian dish."
+            content="Easy Besan Curry (Chickpea Flour Curry) recipe made with gram flour, onions, green chilies, and aromatic Indian spices. A comforting vegetarian Indian dish that pairs perfectly with rice or roti."
           />
+
           <meta
             name="keywords"
-            content="Chickpea Flour Curry, Besan Curry, Indian dish, Vegetarian Curry, Besan Recipes, Aromatic Curry, Flavorful Vegan Dish, Indian Cuisine,
-            Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
+            content="besan curry, chickpea flour curry, besan ki sabzi, gram flour curry, Indian curry recipe, vegetarian Indian recipes, vegan curry recipe, easy Indian curry, gluten free curry, Fearless Vegetarian"
           />
-          <meta property="og:title" content="Chickpea Flour Curry (Besan Curry) – Flavorful & Aromatic Indian Recipe" />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/besan" />
-          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/besan.jpg" />
-          <meta property="og:description" content="Savor the rich flavors of Chickpea Flour Curry, popularly known as Besan Curry, in this delightful and aromatic Indian dish." />
+
+          <meta
+            property="og:title"
+            content="Besan Curry Recipe | Chickpea Flour Curry (Besan Ki Sabzi)"
+          />
+
+          <meta
+            property="og:description"
+            content="Traditional Besan Curry made with chickpea flour, onions, and Indian spices. A simple, protein-rich vegetarian recipe perfect for rice or roti."
+          />
+
+          <meta
+            property="og:url"
+            content="https://fearlessvegetarian.netlify.app/besan"
+          />
+
+          <meta
+            property="og:image"
+            content="https://fearlessvegetarian.netlify.app/besan.jpg"
+          />
+
+          <meta property="og:type" content="article" />
+
+          <meta name="robots" content="index, follow, max-image-preview:large" />
         </Helmet>
         <h1>Chickpea Flour also known as Besan is a spicy Indian side dish which goes well with any type of rice or Naan Bread.
         </h1>
