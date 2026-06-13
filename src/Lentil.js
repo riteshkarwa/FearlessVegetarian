@@ -145,7 +145,7 @@ class Lentil extends Component {
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon
                 icon={faLeaf}
-                className="recipe-link"
+                style={{ marginRight: "8px", color: "green" }}
               />
               <Link to="/dalmakhani" className="recipe-link">
                 Dal Makhani – Slow-Cooked Punjabi Lentils
@@ -155,7 +155,7 @@ class Lentil extends Component {
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon
                 icon={faLeaf}
-                className="recipe-link"
+                style={{ marginRight: "8px", color: "green" }}
               />
               <Link to="/rajmah" className="recipe-link">
                 Rajmah (Kidney Bean Curry)
@@ -165,7 +165,7 @@ class Lentil extends Component {
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon
                 icon={faLeaf}
-                className="recipe-link"
+                style={{ marginRight: "8px", color: "green" }}
               />
               <Link to="/blackeyedbeans" className="recipe-link">
                 Black Eyed Peas Curry (Lobia Masala)
@@ -175,7 +175,7 @@ class Lentil extends Component {
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon
                 icon={faLeaf}
-                className="recipe-link"
+                style={{ marginRight: "8px", color: "green" }}
               />
               <Link to="/quinoamoongdal" className="recipe-link">
                 Quinoa Moong Dal Khichdi
@@ -185,13 +185,12 @@ class Lentil extends Component {
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon
                 icon={faLeaf}
-                className="recipe-link"
+                style={{ marginRight: "8px", color: "green" }}
               />
               <Link to="/besan" className="recipe-link">
                 Besan Curry (Chickpea Flour Curry)
               </Link>
             </li>
-
           </ul>
         </div>
       </div>
