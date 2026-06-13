@@ -145,28 +145,28 @@ class Beetroot extends Component {
           </p>
 
           <ul style={{ listStyle: "none", paddingLeft: "0" }}>
-            <li>
-              <FontAwesomeIcon icon={faLeaf} />{" "}
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf}  style={{ marginRight: "10px" }} />{" "}
               <Link to="/lentil" className="recipe-link">Masoor Dal (Lentil Curry)</Link>
             </li>
 
-            <li>
-              <FontAwesomeIcon icon={faLeaf} />{" "}
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf}  style={{ marginRight: "10px" }} />{" "}
               <Link to="/dalmakhani" className="recipe-link">Dal Makhani</Link>
             </li>
 
-            <li>
-              <FontAwesomeIcon icon={faLeaf} />{" "}
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf}  style={{ marginRight: "10px" }}/>{" "}
               <Link to="/saagpaneer" className="recipe-link">Saag Paneer</Link>
             </li>
 
-            <li>
-              <FontAwesomeIcon icon={faLeaf} />{" "}
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />{" "}
               <Link to="/besan" className="recipe-link">Besan Curry</Link>
             </li>
 
-            <li>
-              <FontAwesomeIcon icon={faLeaf} />{" "}
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }}/>{" "}
               <Link to="/aloogobi" className="recipe-link">Aloo Gobi</Link>
             </li>
           </ul>
