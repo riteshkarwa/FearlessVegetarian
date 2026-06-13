@@ -7,6 +7,9 @@ import MediaQuery from 'react-responsive';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import RecipeSchema from "./RecipeSchema";
 
 class Lentil extends Component {
   render() {
@@ -21,6 +24,30 @@ class Lentil extends Component {
     };
     return (
       <div>
+        <RecipeSchema
+          name="Masoor Dal Delight: Lentil Soup Curry"
+          description="A comforting Indian lentil soup made with Masoor Dal, Toor Dal, and Chana Dal, seasoned with aromatic spices and served with rice or roti."
+          image="https://fearlessvegetarian.netlify.app/lentil.jpg"
+          url="https://fearlessvegetarian.netlify.app/lentil"
+          prepTime="PT15M"
+          cookTime="PT45M"
+          totalTime="PT60M"
+          recipeYield="2 Servings"
+          ingredients={[
+            "1 cup Masoor Dal",
+            "1 cup Toor Dal",
+            "1 cup Chana Dal",
+            "1 onion",
+            "1 tomato",
+            "1 teaspoon cumin powder",
+            "1 tablespoon coriander powder",
+            "1 teaspoon garam masala",
+            "Turmeric powder",
+            "Red chili powder",
+            "Kasoori Methi",
+            "Salt"
+          ]}
+        />
         <Helmet>
           <meta charSet="utf-8" />
           <title>Masoor Dal Delight: Lentil Soup Curry</title>
@@ -91,10 +118,10 @@ class Lentil extends Component {
         </ol>
         <h2>Final Product</h2>
         <MediaQuery maxWidth={767}>
-          <Image src="lentil.jpg" alt="A bowl of hearty Masoor Dal Lentil Soup, showcasing the rich blend of red lentils, aromatic spices, and vibrant vegetables" thumbnail rounded fluid></Image>
+          <Image src="/lentil.jpg" alt="A bowl of hearty Masoor Dal Lentil Soup, showcasing the rich blend of red lentils, aromatic spices, and vibrant vegetables" thumbnail rounded fluid></Image>
         </MediaQuery>
         <MediaQuery minWidth={767}>
-          <Image src="lentil.jpg" alt="A bowl of hearty Masoor Dal Lentil Soup, showcasing the rich blend of red lentils, aromatic spices, and vibrant vegetables" thumbnail rounded width="60%" height="60%"></Image>
+          <Image src="/lentil.jpg" alt="A bowl of hearty Masoor Dal Lentil Soup, showcasing the rich blend of red lentils, aromatic spices, and vibrant vegetables" thumbnail rounded width="60%" height="60%"></Image>
         </MediaQuery>
         <div>
           <br />
@@ -105,6 +132,67 @@ class Lentil extends Component {
           <MediaQuery minWidth={767}>
             <YouTube videoId="LLafY-6nd3M" opts={optsDesktop} />
           </MediaQuery>
+        </div>
+        <div className="related-recipes" style={{ marginTop: "40px" }}>
+          <h2>Related Vegetarian Recipes</h2>
+
+          <p>
+            If you enjoyed this Masoor Dal (Lentil Soup Curry), you may also like:
+          </p>
+
+          <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon
+                icon={faLeaf}
+                className="recipe-link"
+              />
+              <Link to="/dalmakhani" className="recipe-link">
+                Dal Makhani – Slow-Cooked Punjabi Lentils
+              </Link>
+            </li>
+
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon
+                icon={faLeaf}
+                className="recipe-link"
+              />
+              <Link to="/rajmah" className="recipe-link">
+                Rajmah (Kidney Bean Curry)
+              </Link>
+            </li>
+
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon
+                icon={faLeaf}
+                className="recipe-link"
+              />
+              <Link to="/blackeyedbeans" className="recipe-link">
+                Black Eyed Peas Curry (Lobia Masala)
+              </Link>
+            </li>
+
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon
+                icon={faLeaf}
+                className="recipe-link"
+              />
+              <Link to="/quinoamoongdal" className="recipe-link">
+                Quinoa Moong Dal Khichdi
+              </Link>
+            </li>
+
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon
+                icon={faLeaf}
+                className="recipe-link"
+              />
+              <Link to="/besan" className="recipe-link">
+                Besan Curry (Chickpea Flour Curry)
+              </Link>
+            </li>
+
+          </ul>
         </div>
       </div>
     );
