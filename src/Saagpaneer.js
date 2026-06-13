@@ -200,35 +200,35 @@ class Saagpaneer extends Component {
                     <ul style={{ listStyle: "none", paddingLeft: 0 }}>
                         <li>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/dalmakhani">
+                            <Link to="/dalmakhani" className="recipe-link">
                                 Dal Makhani
                             </Link>
                         </li>
 
                         <li>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/aloogobi">
+                            <Link to="/aloogobi" className="recipe-link">
                                 Aloo Gobi
                             </Link>
                         </li>
 
                         <li>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/rajmah">
+                            <Link to="/rajmah" className="recipe-link">
                                 Rajmah (Kidney Bean Curry)
                             </Link>
                         </li>
 
                         <li>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/besan">
+                            <Link to="/besan" className="recipe-link">
                                 Besan Curry
                             </Link>
                         </li>
 
                         <li>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/lentil">
+                            <Link to="/lentil" className="recipe-link">
                                 Masoor Dal (Lentil Curry)
                             </Link>
                         </li>

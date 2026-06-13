@@ -161,27 +161,27 @@ class Besan extends Component {
           <ul style={{ listStyle: "none", paddingLeft: 0 }}>
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/lentil">Masoor Dal (Lentil Soup Curry)</Link>
+              <Link to="/lentil" className="recipe-link">Masoor Dal (Lentil Soup Curry)</Link>
             </li>
 
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/dalmakhani">Dal Makhani</Link>
+              <Link to="/dalmakhani" className="recipe-link">Dal Makhani</Link>
             </li>
 
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/rajmah">Rajmah (Kidney Bean Curry)</Link>
+              <Link to="/rajmah" className="recipe-link">Rajmah (Kidney Bean Curry)</Link>
             </li>
 
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/blackeyedbeans">Black Eyed Peas Curry</Link>
+              <Link to="/blackeyedbeans" className="recipe-link">Black Eyed Peas Curry</Link>
             </li>
 
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/quinoamoongdal">Quinoa Moong Dal Khichdi</Link>
+              <Link to="/quinoamoongdal" className="recipe-link">Quinoa Moong Dal Khichdi</Link>
             </li>
           </ul>
         </div>
