@@ -44,8 +44,8 @@ class DalMakhani extends Component {
                     <meta property="og:image" content="https://fearlessvegetarian.netlify.app/dalmakhani.jpg" />
                     <meta property="og:description" content="Indulge in the rich flavors of authentic Dal Makhani—slow-cooked perfection with whole black gram and red kidney beans. A North Indian culinary delight." />
                 </Helmet>
-                <h1>Dal Makhani is a classic North Indian dish made with whole black gram (Urad dal) found in Indian Store, red kidney beans, butter and other Indian Spices.
-                    It is one of dishes that takes a longer time to cook more than 2 hours. Also the more you cook the better the curry is going to taste.
+                <h1>
+                    Dal Makhani Recipe (Punjabi Black Lentil Curry) – Rich, Creamy & Slow-Cooked
                 </h1>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
