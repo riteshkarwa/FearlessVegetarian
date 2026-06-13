@@ -153,35 +153,35 @@ class Kesarpeda extends Component {
           <ul style={{ listStyle: "none", paddingLeft: 0 }}>
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/rajgirahalwa">
+              <Link to="/rajgirahalwa" className="recipe-link">
                 Rajgira Halwa
               </Link>
             </li>
 
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/bombaysandwich">
+              <Link to="/bombaysandwich" className="recipe-link">
                 Bombay Vegetable Sandwich
               </Link>
             </li>
 
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/saagpaneer">
+              <Link to="/saagpaneer" className="recipe-link">
                 Saag Paneer
               </Link>
             </li>
 
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/dalmakhani">
+              <Link to="/dalmakhani" className="recipe-link">
                 Dal Makhani
               </Link>
             </li>
 
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/lentil">
+              <Link to="/lentil" className="recipe-link">
                 Masoor Dal (Lentil Soup)
               </Link>
             </li>
