@@ -7,6 +7,9 @@ import Col from 'react-bootstrap/Col';
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import RecipeSchema from "./RecipeSchema";
 
 class Beetroot extends Component {
   render() {
@@ -21,6 +24,39 @@ class Beetroot extends Component {
     };
     return (
       <div>
+        <RecipeSchema
+          name="Beetroot Curry with Coconut Milk"
+          description="A flavorful Indian beetroot curry made with coconut milk, urad dal, mustard seeds, and aromatic spices. A healthy vegan recipe that pairs perfectly with rice or naan."
+          image="https://fearlessvegetarian.netlify.app/beetroot.jpg"
+          url="https://fearlessvegetarian.netlify.app/beetroot"
+          prepTime="PT15M"
+          cookTime="PT45M"
+          totalTime="PT60M"
+          recipeYield="1 Serving"
+          ingredients={[
+            "1 beetroot, peeled and chopped",
+            "1/2 jalapeno pepper",
+            "1/4 teaspoon turmeric powder",
+            "1 cinnamon stick",
+            "1 teaspoon coriander powder",
+            "1 teaspoon mustard seeds",
+            "1 can coconut milk",
+            "1 tablespoon urad dal",
+            "1 dried curry leaf",
+            "1 tablespoon oil",
+            "Salt to taste"
+          ]}
+          instructions={[
+            "Boil beetroot until tender.",
+            "Chop beetroot into small cubes.",
+            "Heat oil in a pan and add beetroot.",
+            "Add jalapeno, turmeric, coriander powder, cinnamon stick, and salt.",
+            "Pour coconut milk and cook for 10 to 15 minutes.",
+            "Prepare tempering with mustard seeds and urad dal.",
+            "Add tempering to curry.",
+            "Adjust seasoning and serve with rice or naan."
+          ]}
+        />
         <Helmet>
           <meta charSet="utf-8" />
           <title>Beetroot Curry with Coconut Milk: Vibrant Fusion Delight</title>
@@ -41,7 +77,16 @@ class Beetroot extends Component {
           <meta property="og:image" content="https://fearlessvegetarian.netlify.app/beetroot.jpg" />
           <meta property="og:description" content="Experience the vibrant fusion of beetroot, coconut milk, and Urad Dal in this flavorful curry. A delightful blend of colors and flavors awaits!" />
         </Helmet>
-        <h1>Beetroot Curry with Coconut Milk and Lentils(Urad Dal). Beetroot is one of those wonder foods that can increase immunity, lower blood pressure and provide us with lot of essential vitamin and minerals.</h1>
+        <h1>
+          Beetroot Curry with Coconut Milk (Indian Beetroot Curry Recipe)
+        </h1>
+        <p>
+          This Beetroot Curry with Coconut Milk combines tender beetroot, creamy coconut milk,
+          and roasted urad dal for a delicious South Indian-inspired dish. Rich in fiber,
+          antioxidants, vitamins, and minerals, beetroot is known for supporting heart health,
+          immunity, and overall wellness. This vibrant curry pairs perfectly with rice,
+          roti, or naan.
+        </p>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
         </Row>
@@ -91,6 +136,40 @@ class Beetroot extends Component {
           <MediaQuery minWidth={767}>
             <YouTube videoId="veUNjVorUyk" opts={optsDesktop} />
           </MediaQuery>
+        </div>
+        <div className="related-recipes" style={{ marginTop: "40px" }}>
+          <h2>Related Vegetarian Recipes</h2>
+
+          <p>
+            If you enjoyed this Beetroot Curry with Coconut Milk, you may also like:
+          </p>
+
+          <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+            <li>
+              <FontAwesomeIcon icon={faLeaf} />{" "}
+              <Link to="/lentil">Masoor Dal (Lentil Curry)</Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faLeaf} />{" "}
+              <Link to="/dalmakhani">Dal Makhani</Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faLeaf} />{" "}
+              <Link to="/saagpaneer">Saag Paneer</Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faLeaf} />{" "}
+              <Link to="/besan">Besan Curry</Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faLeaf} />{" "}
+              <Link to="/aloogobi">Aloo Gobi</Link>
+            </li>
+          </ul>
         </div>
       </div>
     );

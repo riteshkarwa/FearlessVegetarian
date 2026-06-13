@@ -9,6 +9,7 @@ import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Link } from "react-router-dom";
 import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import RecipeSchema from "./RecipeSchema";
 
 class DalMakhani extends Component {
     render() {
