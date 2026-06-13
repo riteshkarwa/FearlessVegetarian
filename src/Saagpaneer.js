@@ -100,6 +100,13 @@ class Saagpaneer extends Component {
                     provides high-quality protein and calcium. Together, they create a nutritious
                     vegetarian meal that is both satisfying and flavorful.
                 </p>
+                <h2>What to Serve with Saag Paneer</h2>
+
+                <p>
+                    Saag Paneer tastes best with garlic naan, tandoori roti, whole wheat chapati,
+                    jeera rice, or plain basmati rice. For a complete Indian meal, pair it with
+                    Dal Makhani, cucumber raita, and a fresh salad.
+                </p>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
                 </Row>
