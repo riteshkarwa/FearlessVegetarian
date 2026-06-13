@@ -23,29 +23,89 @@ class Okra extends Component {
     };
     return (
       <div>
+        <RecipeSchema
+          name="Bhindi Masala (Okra Curry)"
+          description="A flavorful Indian okra curry made with onions, tomatoes, and aromatic spices. Perfect with rice or roti."
+          image="https://fearlessvegetarian.netlify.app/okra.jpg"
+          url="https://fearlessvegetarian.netlify.app/okra"
+          prepTime="PT20M"
+          cookTime="PT40M"
+          totalTime="PT60M"
+          recipeYield="2 Servings"
+          ingredients={[
+            "500g fresh okra",
+            "2 onions",
+            "2 tomatoes",
+            "4 cloves garlic",
+            "2 inch ginger",
+            "Cumin seeds",
+            "Coriander powder",
+            "Turmeric powder",
+            "Red chili powder",
+            "Garam masala",
+            "Amchur powder",
+            "Kasoori methi",
+            "Salt",
+            "Olive oil"
+          ]}
+        />
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Okra (Bhindi Masala) Recipe with Onions and Tomatoes | Fearless Vegetarian</title>
-          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/okra" />
+
+          <title>
+            Bhindi Masala (Okra Curry) Recipe | Easy Indian Okra with Onions & Tomatoes
+          </title>
+
+          <link
+            rel="canonical"
+            href="https://fearlessvegetarian.netlify.app/okra"
+          />
+
           <meta
             name="description"
-            content="Savor the goodness of okra in this delightful recipe, enhanced with the perfect blend of onions and tomatoes!"
+            content="Learn how to make Bhindi Masala (Okra Curry) with onions, tomatoes, and aromatic Indian spices. This easy vegan and vegetarian Indian recipe pairs perfectly with roti or rice."
           />
+
           <meta
             name="keywords"
-            content="Okra dish, Bhindi recipe, Okra curry, Ladyfinger recipe, Vegetarian okra, Bhindi masala, 
-            Indian okra, Southern fried okra, Spicy okra, Stir-fried ladyfinger, Healthy okra dishes, 
-            Vegan okra recipes, Okra side dish, Roasted okra, Grilled bhindi, Sauteed okra, Okra stir-fry, 
-            Crispy bhindi, Okra and tomato recipe, Easy okra recipes, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
+            content="bhindi masala recipe, okra curry, Indian okra recipe, ladyfinger curry, vegan Indian recipes, vegetarian curry, bhindi fry, easy okra recipe, healthy Indian vegetables, homemade bhindi masala, Fearless Vegetarian"
           />
-          <meta property="og:title" content="Okra Delight: Onions and Tomato Infusion Recipe" />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/okra" />
-          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/okra.jpg" />
-          <meta property="og:description" content="Savor the goodness of okra in this delightful recipe, enhanced with the perfect blend of onions and tomatoes!" />
+
+          <meta
+            property="og:title"
+            content="Bhindi Masala (Okra Curry) Recipe | Easy Indian Okra with Onions & Tomatoes"
+          />
+
+          <meta
+            property="og:description"
+            content="Flavorful Bhindi Masala made with fresh okra, onions, tomatoes, and Indian spices. A healthy vegetarian recipe perfect with rice or roti."
+          />
+
+          <meta
+            property="og:image"
+            content="https://fearlessvegetarian.netlify.app/okra.jpg"
+          />
+
+          <meta
+            property="og:url"
+            content="https://fearlessvegetarian.netlify.app/okra"
+          />
+
+          <meta property="og:type" content="article" />
+
+          <meta name="robots" content="index, follow" />
         </Helmet>
-        <h1>Okra Dish made by adding onions and tomato. This Okra Dish tastes great and has very unique flavors that come from caramelizing the onions
-          at the first stage and then frying more diced onions on a high heat at the second stage. </h1>
+        <h1>
+          Bhindi Masala (Okra Curry) with Onions, Tomatoes and Indian Spices
+        </h1>
+        <h2>Health Benefits of Okra</h2>
+
+        <p>
+          Okra is rich in fiber, vitamin C, vitamin K, and antioxidants.
+          It may support digestion, heart health, and healthy blood sugar levels.
+          Combined with onions and tomatoes, this Bhindi Masala becomes a nutritious
+          and flavorful vegetarian meal.
+        </p>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
         </Row>
@@ -90,8 +150,24 @@ class Okra extends Component {
             Cover and turn off the stove.</li>
           <li>Serve Okra dish  with rice or roti, mango pickle, veggie salad. </li>
         </ol>
+        <p>
+          Bhindi Masala pairs wonderfully with homemade{" "}
+          <Link to="/dalmakhani">Dal Makhani</Link>,{" "}
+          <Link to="/lentil">Masoor Dal</Link>, or{" "}
+          <Link to="/saagpaneer">Saag Paneer</Link>.
+        </p>
+
+        <p>
+          Looking for more vegetable curries? Try our{" "}
+          <Link to="/aloogobi">Aloo Gobi</Link>,{" "}
+          <Link to="/cabbage">Cabbage Curry</Link>, and{" "}
+          <Link to="/beetroot">Beetroot Curry</Link>.
+        </p>
         <h2>Final Product</h2>
-        <Image src="okra.jpg" thumbnail rounded fluid></Image>
+        <Image src="okra.jpg"
+          alt="Bhindi Masala Indian Okra Curry with onions tomatoes and spices"
+          thumbnail rounded fluid>
+        </Image>
         <div>
           <h2>Delicious and flavorful Okra Preparation Video</h2>
           <MediaQuery maxWidth={767}>
