@@ -96,7 +96,8 @@ class Besan extends Component {
 
           <meta name="robots" content="index, follow, max-image-preview:large" />
         </Helmet>
-        <h1>Besan Curry (Chickpea Flour Curry) – A Traditional Indian Comfort Food Made with Gram Flour and Aromatic Spices
+        <h1>
+          Besan Curry (Chickpea Flour Curry) – A Traditional Indian Comfort Food Made with Gram Flour and Aromatic Spices
         </h1>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
