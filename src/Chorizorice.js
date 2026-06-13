@@ -133,35 +133,35 @@ class Chorizorice extends Component {
                     <ul style={{ listStyle: "none", paddingLeft: 0 }}>
                         <li>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/riceandbeans">
+                            <Link to="/riceandbeans" className="recipe-link">
                                 Mexican Rice and Black Beans
                             </Link>
                         </li>
 
                         <li>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/blackeyedbeans">
+                            <Link to="/blackeyedbeans" className="recipe-link">
                                 Black Eyed Peas Curry
                             </Link>
                         </li>
 
                         <li>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/rajmah">
+                            <Link to="/rajmah" className="recipe-link">
                                 Rajmah (Kidney Bean Curry)
                             </Link>
                         </li>
 
                         <li>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/quinoamoongdal">
+                            <Link to="/quinoamoongdal" className="recipe-link">
                                 Quinoa Moong Dal Khichdi
                             </Link>
                         </li>
 
                         <li>
                             <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/lentil">
+                            <Link to="/lentil" className="recipe-link">
                                 Masoor Dal Lentil Soup
                             </Link>
                         </li>
