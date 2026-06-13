@@ -153,8 +153,8 @@ class Kesarpeda extends Component {
           <ul style={{ listStyle: "none", paddingLeft: 0 }}>
             <li style={{ marginBottom: "10px" }}>
               <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/mango-lassi">
-                Mango Lassi
+              <Link to="/rajgirahalwa">
+                Rajgira Halwa
               </Link>
             </li>
 
