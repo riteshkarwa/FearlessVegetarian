@@ -147,27 +147,27 @@ class Beetroot extends Component {
           <ul style={{ listStyle: "none", paddingLeft: "0" }}>
             <li>
               <FontAwesomeIcon icon={faLeaf} />{" "}
-              <Link to="/lentil">Masoor Dal (Lentil Curry)</Link>
+              <Link to="/lentil" className="recipe-link">Masoor Dal (Lentil Curry)</Link>
             </li>
 
             <li>
               <FontAwesomeIcon icon={faLeaf} />{" "}
-              <Link to="/dalmakhani">Dal Makhani</Link>
+              <Link to="/dalmakhani" className="recipe-link">Dal Makhani</Link>
             </li>
 
             <li>
               <FontAwesomeIcon icon={faLeaf} />{" "}
-              <Link to="/saagpaneer">Saag Paneer</Link>
+              <Link to="/saagpaneer" className="recipe-link">Saag Paneer</Link>
             </li>
 
             <li>
               <FontAwesomeIcon icon={faLeaf} />{" "}
-              <Link to="/besan">Besan Curry</Link>
+              <Link to="/besan" className="recipe-link">Besan Curry</Link>
             </li>
 
             <li>
               <FontAwesomeIcon icon={faLeaf} />{" "}
-              <Link to="/aloogobi">Aloo Gobi</Link>
+              <Link to="/aloogobi" className="recipe-link">Aloo Gobi</Link>
             </li>
           </ul>
         </div>
