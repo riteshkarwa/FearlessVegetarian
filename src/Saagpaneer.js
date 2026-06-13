@@ -134,7 +134,7 @@ class Saagpaneer extends Component {
                     <li>2 Whole Tomatoes </li>
                 </ol>
                 <h2>All the ingredients ready to be put into a blender to make the gravy for the dish</h2>
-                <Image src="saag_prep.jpg" thumbnail rounded fluid></Image>
+                <Image src="/saag_prep.jpg" thumbnail rounded fluid></Image>
                 <div className="ingredients">Instruction</div>
                 <ol>
                     <li>Take 2 tablespoon olive oil in a non stick pot and heat it up.</li>
