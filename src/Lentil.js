@@ -177,7 +177,7 @@ class Lentil extends Component {
                 icon={faLeaf}
                 style={{ marginRight: "8px", color: "green" }}
               />
-              <Link to="/quinoamoongdal" className="recipe-link">
+              <Link to="/quinoamoongdal" className="recipe-link" >
                 Quinoa Moong Dal Khichdi
               </Link>
             </li>
