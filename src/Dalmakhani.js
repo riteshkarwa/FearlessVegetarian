@@ -23,26 +23,111 @@ class DalMakhani extends Component {
         };
         return (
             <div>
+                <RecipeSchema
+                    name="Dal Makhani Recipe (Punjabi Black Lentil Curry)"
+                    description="Authentic Dal Makhani made with whole black lentils (urad dal), kidney beans, butter, and aromatic Indian spices. This rich and creamy Punjabi curry is slow-cooked for deep flavor and pairs perfectly with naan or rice."
+                    image="https://fearlessvegetarian.netlify.app/dalmakhani.jpg"
+                    url="https://fearlessvegetarian.netlify.app/dalmakhani"
+                    prepTime="PT8H"
+                    cookTime="PT2H"
+                    totalTime="PT10H"
+                    recipeYield="2 Servings"
+                    ingredients={[
+                        "1 cup whole black gram (urad dal)",
+                        "1/4 cup red kidney beans (rajma)",
+                        "2 tablespoons Dal Makhani masala",
+                        "1 tablespoon coriander powder",
+                        "1 tablespoon garam masala",
+                        "1 tablespoon Kitchen King spice",
+                        "1 teaspoon cumin seeds",
+                        "1 onion",
+                        "2 tomatoes",
+                        "2 pieces ginger",
+                        "2 bay leaves",
+                        "2 green cardamoms",
+                        "1 black cardamom",
+                        "5 cloves",
+                        "Salt to taste",
+                        "Butter",
+                        "Kasuri methi (dried fenugreek leaves)"
+                    ]}
+                    instructions={[
+                        "Soak urad dal and rajma for 8 hours or overnight.",
+                        "Pressure cook the soaked lentils and beans until soft.",
+                        "Prepare onion, tomato, ginger, garlic, and clove puree.",
+                        "Heat oil and sauté cumin seeds, bay leaves, cardamoms, and onions.",
+                        "Add tomato puree and cook until oil separates.",
+                        "Add Dal Makhani masala, coriander powder, garam masala, and Kitchen King spice.",
+                        "Add cooked lentils and beans to the masala.",
+                        "Simmer on low heat for 60 minutes, stirring occasionally.",
+                        "Add butter, kasuri methi, and more water if needed.",
+                        "Cook for another 60 minutes for rich flavor.",
+                        "Serve hot with naan, roti, or rice."
+                    ]}
+                />
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Authentic Dal Makhani: A Slow Cooked Delight</title>
-                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/dalmakhani" />
+
+                    <title>
+                        Dal Makhani Recipe (Punjabi Black Lentil Curry) | Fearless Vegetarian
+                    </title>
+
+                    <link
+                        rel="canonical"
+                        href="https://fearlessvegetarian.netlify.app/dalmakhani"
+                    />
+
                     <meta
                         name="description"
-                        content="Indulge in the rich flavors of authentic Dal Makhani—slow-cooked perfection with whole black gram and red kidney beans. A North Indian culinary delight."
+                        content="Authentic Dal Makhani recipe made with whole black lentils (urad dal), kidney beans, butter, and aromatic Indian spices. This rich Punjabi curry is slow-cooked for deep flavor and pairs perfectly with naan or rice."
                     />
+
                     <meta
                         name="keywords"
-                        content="Dal Makhani, Authentic flavors, Indian-inspired recipes, vegetarian dishes, 
-                        Slow-cooked perfection, homemade curry, plant-based cuisine, flavorful herbs, easy-to-make curry, 
-                        nutritious meals, vegetarian comfort food, Red kidney beans, black gram, simple and delicious, 
-                        North Indian cuisine, Recipes, cooking, cooking tutorial, Fearless Vegetarian, vegan"
+                        content="dal makhani recipe, Punjabi dal makhani, black lentil curry, urad dal recipe, kidney bean curry, restaurant style dal makhani, Indian lentil curry, vegetarian Indian recipes, North Indian food, dal makhani with rice, dal makhani with naan, Fearless Vegetarian"
                     />
-                    <meta property="og:title" content="Authentic Dal Makhani: A Slow Cooked Delight" />
-                    <meta property="og:type" content="website" />
-                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/dalmakhani" />
-                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/dalmakhani.jpg" />
-                    <meta property="og:description" content="Indulge in the rich flavors of authentic Dal Makhani—slow-cooked perfection with whole black gram and red kidney beans. A North Indian culinary delight." />
+
+                    {/* Open Graph */}
+                    <meta
+                        property="og:title"
+                        content="Dal Makhani Recipe (Punjabi Black Lentil Curry)"
+                    />
+
+                    <meta
+                        property="og:description"
+                        content="Learn how to make authentic Dal Makhani with whole black lentils, kidney beans, butter, and Indian spices. A rich and creamy Punjabi favorite."
+                    />
+
+                    <meta
+                        property="og:url"
+                        content="https://fearlessvegetarian.netlify.app/dalmakhani"
+                    />
+
+                    <meta
+                        property="og:image"
+                        content="https://fearlessvegetarian.netlify.app/dalmakhani.jpg"
+                    />
+
+                    <meta property="og:type" content="article" />
+                    <meta property="og:site_name" content="Fearless Vegetarian" />
+
+                    {/* Twitter */}
+                    <meta name="twitter:card" content="summary_large_image" />
+
+                    <meta
+                        name="twitter:title"
+                        content="Dal Makhani Recipe (Punjabi Black Lentil Curry)"
+                    />
+
+                    <meta
+                        name="twitter:description"
+                        content="Rich, creamy, and slow-cooked Dal Makhani made with black lentils and kidney beans. A classic Punjabi comfort food recipe."
+                    />
+
+                    <meta
+                        name="twitter:image"
+                        content="https://fearlessvegetarian.netlify.app/dalmakhani.jpg"
+                    />
                 </Helmet>
                 <h1>
                     Dal Makhani Recipe (Punjabi Black Lentil Curry) – Rich, Creamy & Slow-Cooked
