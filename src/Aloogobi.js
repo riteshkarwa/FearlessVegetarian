@@ -8,6 +8,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import RecipeSchema from "./RecipeSchema"
 
 class Aloogobi extends Component {
     render() {
@@ -22,26 +23,92 @@ class Aloogobi extends Component {
         };
         return (
             <div>
+                <RecipeSchema
+                    name="Aloo Gobi (Indian Potato and Cauliflower Curry)"
+                    description="A classic North Indian curry made with potatoes, cauliflower, tomatoes, onions, and aromatic spices."
+                    image="https://fearlessvegetarian.netlify.app/aloogobi.jpg"
+                    url="https://fearlessvegetarian.netlify.app/aloogobi"
+                    prepTime="PT20M"
+                    cookTime="PT40M"
+                    totalTime="PT60M"
+                    recipeYield="2 Servings"
+                    ingredients={[
+                        "1 large potato",
+                        "1 lb cauliflower florets",
+                        "1 onion",
+                        "2 tomatoes",
+                        "3 garlic cloves",
+                        "2 inch ginger",
+                        "Cumin seeds",
+                        "Coriander powder",
+                        "Turmeric powder",
+                        "Red chili powder",
+                        "Garam masala",
+                        "Cardamom pods",
+                        "Amchoor powder",
+                        "Salt"
+                    ]}
+                />
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Aloo Gobi(Potato Cauliflower): North Indian Delight | Fearless Vegetarian</title>
-                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/aloogobi" />
+
+                    <title>
+                        Aloo Gobi Recipe | Easy Indian Potato Cauliflower Curry
+                    </title>
+
+                    <link
+                        rel="canonical"
+                        href="https://fearlessvegetarian.netlify.app/aloogobi"
+                    />
+
                     <meta
                         name="description"
-                        content="Experience the rich flavors of North India with our Aloo Gobi(Potato Cauliflower) recipe. A delightful vegetarian dish that's both comforting and delicious."
+                        content="Learn how to make authentic Aloo Gobi, a classic Indian potato and cauliflower curry made with tomatoes, onions, and aromatic spices. A healthy vegetarian recipe perfect with roti, naan, or rice."
                     />
+
                     <meta
                         name="keywords"
-                        content="Potato Cauliflower, Aloo Gobi, vegetarian dish, sautéed cauliflower, potatoes, tomatoes, cashews, onions, Indian spices, North Indian cuisine, flavorful vegetarian delight, easy-to-make recipe, Indian culinary masterpiece, classic vegetarian dish, comforting meal, vegetarian Indian recipes"
+                        content="aloo gobi recipe, potato cauliflower curry, Indian cauliflower recipe, Indian potato curry, vegan Indian recipes, vegetarian curry, Punjabi aloo gobi, cauliflower masala, healthy Indian recipes, Fearless Vegetarian"
                     />
-                    <meta property="og:title" content="Aloo Gobi(Potato Cauliflower): North Indian Delight" />
-                    <meta property="og:type" content="website" />
-                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/aloogobi" />
-                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/aloogobi.jpg" />
-                    <meta property="og:description" content="Experience the rich flavors of North India with our Aloo Gobi(Potato Cauliflower) recipe. A delightful vegetarian dish that's both comforting and delicious." />
+
+                    <meta
+                        property="og:title"
+                        content="Aloo Gobi Recipe | Easy Indian Potato Cauliflower Curry"
+                    />
+
+                    <meta
+                        property="og:description"
+                        content="Classic North Indian Aloo Gobi made with potatoes, cauliflower, tomatoes, onions and aromatic spices."
+                    />
+
+                    <meta
+                        property="og:image"
+                        content="https://fearlessvegetarian.netlify.app/aloogobi.jpg"
+                    />
+
+                    <meta
+                        property="og:url"
+                        content="https://fearlessvegetarian.netlify.app/aloogobi"
+                    />
+
+                    <meta property="og:type" content="article" />
+
+                    <meta name="robots" content="index, follow" />
                 </Helmet>
-                <h1>Potato Cauliflower (Aloo Gobi) is a vegetarian north Indian dish. It's sautéed cauliflower and potato, with tomatoes, cashews,
-                    onion, and Indian spices. A simple recipe that pairs well with flatbread such as roti and naan, or rice.</h1>
+                <h1>Aloo Gobi (Indian Potato and Cauliflower Curry)</h1>
+                <p>
+                    Aloo Gobi is one of the most popular vegetarian dishes in Indian cuisine.
+                    Made with tender potatoes, roasted cauliflower, tomatoes, onions, and
+                    warming spices, this comforting curry is naturally vegan and pairs
+                    perfectly with roti, naan, or steamed rice.
+                </p>
+                <h2>Health Benefits of Aloo Gobi</h2>
+
+                <p>
+                    Cauliflower is rich in fiber, vitamin C, and antioxidants, while potatoes
+                    provide energy and important nutrients like potassium and vitamin B6.
+                    Together they create a nutritious and satisfying vegetarian meal.
+                </p>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
                 </Row>
@@ -102,6 +169,59 @@ class Aloogobi extends Component {
                     <MediaQuery minWidth={767}>
                         <YouTube videoId="zCoLryH0mDk" opts={optsDesktop} />
                     </MediaQuery>
+                </div>
+                <div>
+                    <h2>Related Vegetarian Recipes</h2>
+                    <p>
+                        If you enjoyed this Aloo Gobi: Classic North Indian Potato and Cauliflower Curry, you may also like:
+                    </p>
+                    <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/couscous"
+                                className="recipe-link"
+                            >
+                                Couscous Delight: Easy and Flavorful Mediterranean Magic!
+                            </Link>
+                        </li>
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/potato"
+                                className="recipe-link"
+                            >
+                                Any Time Potato
+                            </Link>
+                        </li>
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/riceandbeans"
+                                className="recipe-link"
+                            >
+                                Mexican Rice and Beans
+                            </Link>
+                        </li>
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/saagpaneer"
+                                className="recipe-link"
+                            >
+                                Saag Paneer
+                            </Link>
+                        </li>
+                        <li style={{ marginBottom: "10px" }}>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link
+                                to="/cabbage"
+                                className="recipe-link"
+                            >
+                                Cabbage Curry
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
                 <div className="related-recipes">
                     <h2>Related Vegetarian Recipes</h2>
