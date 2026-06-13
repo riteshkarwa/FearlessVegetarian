@@ -42,6 +42,17 @@ class Erayba extends Component {
                         content="https://fearlessvegetarian.netlify.app/erayba"
                     />
                 </Helmet>
+                <h1>
+                    Erayba India – Professional Vegan Hair Care for Salons and Beauty Professionals
+                </h1>
+
+                <Image
+                    src="/EraybaIndia.jpg"
+                    className="pro_veg"
+                    rounded
+                    fluid
+                    alt="Erayba India Professional Vegan Hair Care Products"
+                />
                 <h2>About Erayba India</h2>
 
                 <p>
