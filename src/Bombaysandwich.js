@@ -7,6 +7,8 @@ import Col from 'react-bootstrap/Col';
 import MediaQuery from 'react-responsive';
 import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 class Bombaysandwich extends Component {
   render() {
@@ -90,6 +92,59 @@ class Bombaysandwich extends Component {
           <MediaQuery minWidth={767}>
             <YouTube videoId="CIFjZ4OwFjQ" opts={optsDesktop} />
           </MediaQuery>
+        </div>
+        <div>
+          <h2>Related Vegetarian Recipes</h2>
+          <p>
+            If you enjoyed this Bombay Vegetable Sandwich with Mint Chutney, you may also like:
+          </p>
+          <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+              <Link
+                to="/upma"
+                className="recipe-link"
+              >
+                South Indian Upma
+              </Link>
+            </li>
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+              <Link
+                to="/potato"
+                className="recipe-link"
+              >
+                Any Time Potato
+              </Link>
+            </li>
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+              <Link
+                to="/riceandbeans"
+                className="recipe-link"
+              >
+                Mexican Rice and Beans
+              </Link>
+            </li>
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+              <Link
+                to="/aloogobi"
+                className="recipe-link"
+              >
+                Aloo Gobi
+              </Link>
+            </li>
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+              <Link
+                to="/cabbage"
+                className="recipe-link"
+              >
+                Cabbage Curry
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     );
