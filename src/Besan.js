@@ -7,6 +7,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
+import RecipeSchema from "./RecipeSchema";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 class Besan extends Component {
   render() {
@@ -22,6 +26,31 @@ class Besan extends Component {
 
     return (
       <div>
+        <RecipeSchema
+          name="Besan Curry (Chickpea Flour Curry)"
+          description="Traditional Indian Besan Curry made with chickpea flour, onions, green chilies, and aromatic spices."
+          image="https://fearlessvegetarian.netlify.app/besan.jpg"
+          url="https://fearlessvegetarian.netlify.app/besan"
+          prepTime="PT15M"
+          cookTime="PT45M"
+          totalTime="PT60M"
+          recipeYield="1 Serving"
+          ingredients={[
+            "2 tbsp cooking oil",
+            "1 cup gram flour (Besan)",
+            "2 onions sliced",
+            "1/4 cup spring onions",
+            "2 green chilies",
+            "Pinch asafoetida (hing)",
+            "1 tsp cumin seeds",
+            "1 tsp mustard seeds",
+            "Salt to taste",
+            "1/2 tsp turmeric powder",
+            "1/2 tsp red chili powder",
+            "2 tsp coriander powder",
+            "4 cups boiling water"
+          ]}
+        />
         <Helmet>
           <meta charSet="utf-8" />
 
@@ -68,7 +97,7 @@ class Besan extends Component {
 
           <meta name="robots" content="index, follow, max-image-preview:large" />
         </Helmet>
-        <h1>Chickpea Flour also known as Besan is a spicy Indian side dish which goes well with any type of rice or Naan Bread.
+        <h1>Besan Curry (Chickpea Flour Curry) – A Traditional Indian Comfort Food Made with Gram Flour and Aromatic Spices
         </h1>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
@@ -121,6 +150,40 @@ class Besan extends Component {
           <MediaQuery minWidth={767}>
             <YouTube videoId="VyEveOxhx7s" opts={optsDesktop} />
           </MediaQuery>
+        </div>
+        <div className="related-recipes" style={{ marginTop: "40px" }}>
+          <h2>Related Vegetarian Recipes</h2>
+
+          <p>
+            If you enjoyed this Besan Curry (Chickpea Flour Curry), you may also like:
+          </p>
+
+          <ul style={{ listStyle: "none", paddingLeft: 0 }}>
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+              <Link to="/lentil">Masoor Dal (Lentil Soup Curry)</Link>
+            </li>
+
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+              <Link to="/dalmakhani">Dal Makhani</Link>
+            </li>
+
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+              <Link to="/rajmah">Rajmah (Kidney Bean Curry)</Link>
+            </li>
+
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+              <Link to="/blackeyedbeans">Black Eyed Peas Curry</Link>
+            </li>
+
+            <li style={{ marginBottom: "10px" }}>
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+              <Link to="/quinoamoongdal">Quinoa Moong Dal Khichdi</Link>
+            </li>
+          </ul>
         </div>
       </div>
     );
