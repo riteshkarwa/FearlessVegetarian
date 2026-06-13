@@ -7,6 +7,9 @@ import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
+import RecipeSchema from "./RecipeSchema";
+import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 class Chorizorice extends Component {
     render() {
@@ -21,13 +24,40 @@ class Chorizorice extends Component {
         };
         return (
             <div>
+                <RecipeSchema
+                    name="One-Pot Vegan Soy Chorizo Rice"
+                    description="A quick and easy one-pot vegan rice recipe made with soy chorizo, black beans, corn, bell peppers, and Mexican-inspired spices."
+                    image="https://fearlessvegetarian.netlify.app/chorizorice.jpg"
+                    url="https://fearlessvegetarian.netlify.app/chorizorice"
+                    prepTime="PT15M"
+                    cookTime="PT30M"
+                    totalTime="PT45M"
+                    recipeYield="4 Servings"
+                    ingredients={[
+                        "1/2 tbsp olive oil",
+                        "2 cloves garlic",
+                        "1 yellow onion",
+                        "1 tbsp tomato paste",
+                        "1 cup rice",
+                        "1/2 tsp chili powder",
+                        "1 tsp cumin",
+                        "2 cups vegetable broth",
+                        "1 jalapeno",
+                        "1 bell pepper",
+                        "1/2 package soy chorizo",
+                        "1 cup black beans",
+                        "1/2 cup corn",
+                        "2 tbsp cilantro",
+                        "1/2 tbsp lime juice"
+                    ]}
+                />
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot</title>
+                    <title>Vegan Soy Chorizo Rice Recipe | One-Pot Mexican Rice with Black Beans</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/chorizorice" />
                     <meta
                         name="description"
-                        content="Discover the simplicity and vibrant flavors of this quick, one-pot recipe. Packed with beans, corn, peppers, and more—a delightful blend of fresh ingredients."
+                        content="Easy one-pot vegan Soy Chorizo Rice recipe made with black beans, corn, bell peppers, jalapeños, and Mexican-inspired spices. A quick and protein-rich weeknight dinner."
                     />
                     <meta
                         name="keywords"
@@ -40,9 +70,8 @@ class Chorizorice extends Component {
                     <meta property="og:image" content="https://fearlessvegetarian.netlify.app/chorizorice.jpg" />
                     <meta property="og:description" content="Discover the simplicity and vibrant flavors of this quick, one-pot recipe. Packed with beans, corn, peppers, and more—a delightful blend of fresh ingredients." />
                 </Helmet>
-                <h1>One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot. There are numerous aspects I adore about this recipe.
-                    Despite featuring a variety of flavors, it remains a simple and quick dish to assemble. With ingredients like beans,
-                    corn, bell pepper, jalapeño, garlic, and more, this meal delivers a burst of flavors using fresh (or frozen!) vegetables.
+                <h1>
+                    One-Pot Vegan Soy Chorizo Rice with Black Beans, Corn and Bell Peppers
                 </h1>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 4 Servings</Col>
@@ -50,6 +79,7 @@ class Chorizorice extends Component {
                 <Row className="cooktimerow">
                     <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
                 </Row>
+                <div className="ingredients">Ingredients</div>
                 <ol>
                     <li>1/2 tbsp olive oil</li>
                     <li>2 cloves garlic minced </li>
@@ -92,6 +122,50 @@ class Chorizorice extends Component {
                     <MediaQuery minWidth={767}>
                         <YouTube videoId="3CjZ_gHg-k4" opts={optsDesktop} />
                     </MediaQuery>
+                </div>
+                <div className="related-recipes" style={{ marginTop: "40px" }}>
+                    <h2>Related Vegetarian Recipes</h2>
+
+                    <p>
+                        If you enjoyed this One-Pot Soy Chorizo Rice recipe, you may also like:
+                    </p>
+
+                    <ul style={{ listStyle: "none", paddingLeft: 0 }}>
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link to="/riceandbeans">
+                                Mexican Rice and Black Beans
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link to="/blackeyedbeans">
+                                Black Eyed Peas Curry
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link to="/rajmah">
+                                Rajmah (Kidney Bean Curry)
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link to="/quinoamoongdal">
+                                Quinoa Moong Dal Khichdi
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link to="/lentil">
+                                Masoor Dal Lentil Soup
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
         );
