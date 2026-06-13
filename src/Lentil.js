@@ -50,25 +50,66 @@ class Lentil extends Component {
         />
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Masoor Dal Delight: Lentil Soup Curry</title>
-          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/lentil" />
+
+          <title>
+            Masoor Dal Recipe (Indian Red Lentil Curry) | Fearless Vegetarian
+          </title>
+
+          <link
+            rel="canonical"
+            href="https://fearlessvegetarian.netlify.app/lentil"
+          />
+
           <meta
             name="description"
-            content="Masoor Dal Delight: A Comforting Lentil Soup Curry Bursting with Flavor. Perfect for a Wholesome Meal."
+            content="Easy Masoor Dal recipe made with red lentils, aromatic Indian spices, onions, and tomatoes. This healthy Indian lentil curry is protein-rich, vegan-friendly, comforting, and perfect with rice or roti."
           />
+
           <meta
             name="keywords"
-            content="masoor dal, lentil soup curry, flavorful dal recipe, comfort food, nutritious lentil curry, masoor dal delight, 
-            vegetarian dishes, Indian cuisine, hearty lentil soup, easy-to-make curry, wholesome comfort meal, aromatic spices, 
-            homemade dal, flavorful and comforting, lentil curry ideas, recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
+            content="masoor dal recipe, red lentil curry, Indian lentil soup, vegan dal recipe, healthy vegetarian curry, protein rich vegetarian meal, Indian comfort food, dal tadka, lentil curry with rice, Fearless Vegetarian"
           />
-          <meta property="og:title" content="Masoor Dal Delight: Lentil Soup Curry" />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/lentil" />
-          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/lentil.jpg" />
-          <meta property="og:description" content="Masoor Dal Delight: A Comforting Lentil Soup Curry Bursting with Flavor. Perfect for a Wholesome Meal." />
+
+          {/* Open Graph */}
+          <meta
+            property="og:title"
+            content="Masoor Dal Recipe (Indian Red Lentil Curry)"
+          />
+
+          <meta
+            property="og:description"
+            content="A comforting Indian Masoor Dal recipe made with red lentils, onions, tomatoes, and aromatic spices. Easy, nutritious, and perfect with rice or roti."
+          />
+
+          <meta
+            property="og:image"
+            content="https://fearlessvegetarian.netlify.app/lentil.jpg"
+          />
+
+          <meta
+            property="og:url"
+            content="https://fearlessvegetarian.netlify.app/lentil"
+          />
+
+          <meta property="og:type" content="article" />
+          <meta property="og:site_name" content="Fearless Vegetarian" />
+
+          {/* Twitter */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta
+            name="twitter:title"
+            content="Masoor Dal Recipe (Indian Red Lentil Curry)"
+          />
+          <meta
+            name="twitter:description"
+            content="Healthy and flavorful Masoor Dal made with red lentils and Indian spices. Perfect comfort food served with rice or roti."
+          />
+          <meta
+            name="twitter:image"
+            content="https://fearlessvegetarian.netlify.app/lentil.jpg"
+          />
         </Helmet>
-        <h1>Lentil Soup served with White Rice. Lentils are easy on your tummy and good source of Protein</h1>
+        <h1>Masoor Dal Recipe (Indian Red Lentil Curry) – Healthy, Protein-Rich Comfort Food</h1>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
         </Row>
