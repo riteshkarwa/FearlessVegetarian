@@ -9,6 +9,7 @@ import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import RecipeSchema from "./RecipeSchema";
 
 class Bombaysandwich extends Component {
   render() {
@@ -23,6 +24,27 @@ class Bombaysandwich extends Component {
     };
     return (
       <div>
+        <RecipeSchema
+          name="Bombay Vegetable Sandwich"
+          description="Street-style Bombay Vegetable Sandwich loaded with potatoes, cucumber, tomatoes, onions, mint chutney, and chat masala."
+          image="https://fearlessvegetarian.netlify.app/sandwich.jpg"
+          url="https://fearlessvegetarian.netlify.app/sandwich"
+          prepTime="PT20M"
+          cookTime="PT10M"
+          totalTime="PT30M"
+          recipeYield="1 Serving"
+          ingredients={[
+            "3 slices sourdough bread",
+            "1 tablespoon butter",
+            "2 tablespoons mint chutney",
+            "2 russet potatoes",
+            "1 cucumber",
+            "2 tomatoes",
+            "Chat masala",
+            "Salt",
+            "Onion slices"
+          ]}
+        />
         <Helmet>
           <meta charSet="utf-8" />
           <title>Bombay Vegetable Sandwich: Irresistible Street-Style Delight</title>
