@@ -9,6 +9,7 @@ import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import RecipeSchema from "./RecipeSchema";
 
 class Blackeyedbeans extends Component {
     render() {
@@ -23,6 +24,30 @@ class Blackeyedbeans extends Component {
         };
         return (
             <div>
+                <RecipeSchema
+                    name="Black Eyed Peas Curry (Lobia Masala)"
+                    description="Black Eyed Peas Curry seasoned with Indian spices. A hearty and protein-rich vegetarian curry made with black eyed beans, tomatoes, onions, and aromatic spices."
+                    image="https://fearlessvegetarian.netlify.app/blackeyedbeans.jpg"
+                    url="https://fearlessvegetarian.netlify.app/blackeyedbeans"
+                    prepTime="PT8H"
+                    cookTime="PT1H"
+                    totalTime="PT9H"
+                    recipeYield="1 Serving"
+                    ingredients={[
+                        "2 cups black eyed beans",
+                        "1 teaspoon coriander powder",
+                        "1/4 teaspoon turmeric powder",
+                        "1/4 teaspoon red chili powder",
+                        "1 teaspoon garam masala",
+                        "2 potatoes",
+                        "1 onion",
+                        "2 tomatoes",
+                        "2 pieces ginger",
+                        "3 to 4 dried curry leaves",
+                        "1/4 teaspoon Kitchen King spice",
+                        "Salt to taste"
+                    ]}
+                />
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity</title>
