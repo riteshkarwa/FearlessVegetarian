@@ -7,6 +7,9 @@ import MediaQuery from 'react-responsive';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import RecipeSchema from "./RecipeSchema";
 
 class Saagpaneer extends Component {
     render() {
@@ -21,6 +24,45 @@ class Saagpaneer extends Component {
         };
         return (
             <div>
+                <RecipeSchema
+                    name="Saag Paneer Recipe"
+                    description="Creamy North Indian spinach curry made with paneer, fresh spinach, cilantro, mint, and aromatic spices."
+                    image="https://fearlessvegetarian.netlify.app/saagpaneer.jpg"
+                    url="https://fearlessvegetarian.netlify.app/saagpaneer"
+                    prepTime="PT20M"
+                    cookTime="PT40M"
+                    totalTime="PT60M"
+                    recipeYield="2 Servings"
+                    ingredients={[
+                        "2 tablespoons olive oil",
+                        "1 packet paneer",
+                        "1 onion",
+                        "2 tomatoes",
+                        "1 box baby spinach",
+                        "2 cups cilantro leaves",
+                        "1 cup mint leaves",
+                        "2 pieces ginger",
+                        "5 cloves",
+                        "1 tablespoon coriander powder",
+                        "1 tablespoon garam masala",
+                        "1 teaspoon cumin powder",
+                        "1/2 teaspoon Kitchen King spice",
+                        "Amchoor powder",
+                        "Turmeric powder",
+                        "Red chili powder",
+                        "Salt"
+                    ]}
+                    instructions={[
+                        "Blend spinach, cilantro, mint, tomatoes, onion, ginger, garlic, and cloves into a puree.",
+                        "Heat oil in a pot and add the puree.",
+                        "Add coriander powder, turmeric, chili powder, and other spices.",
+                        "Cook for 10 minutes.",
+                        "Cut paneer into cubes and add to the gravy.",
+                        "Cook for another 10 minutes.",
+                        "Add salt, garam masala, Kitchen King spice, and amchoor powder.",
+                        "Serve hot with naan, roti, or rice."
+                    ]}
+                />
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Saag Paneer Recipe: Rich & Flavorful North Indian Delight"</title>
@@ -42,7 +84,22 @@ class Saagpaneer extends Component {
                     <meta property="og:image" content="https://fearlessvegetarian.netlify.app/saagpaneer.jpg" />
                     <meta property="og:description" content="Saag Paneer: Rich and flavorful North Indian delight. Fresh spinach, aromatic spices, and creamy paneer. Perfect with naan or rice." />
                 </Helmet>
-                <h1>Saag(Spinach) Paneer is a popular vegetarian dish consisting of panner(Indian cheese) in a smooth, delicious and creamy Spinach gravy.</h1>
+                <h1>
+                    Saag Paneer Recipe (Indian Spinach & Paneer Curry)
+                </h1>
+                <p>
+                    Saag Paneer is a classic North Indian vegetarian dish made with fresh spinach,
+                    paneer (Indian cottage cheese), cilantro, mint, and aromatic spices.
+                    This creamy and nutritious curry is packed with flavor and pairs perfectly
+                    with naan, roti, or steamed rice.
+                </p>
+                <h2>Health Benefits of Saag Paneer</h2>
+
+                <p>
+                    Spinach is rich in iron, vitamin K, folate, and antioxidants, while paneer
+                    provides high-quality protein and calcium. Together, they create a nutritious
+                    vegetarian meal that is both satisfying and flavorful.
+                </p>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
                 </Row>
@@ -99,6 +156,50 @@ class Saagpaneer extends Component {
                     <MediaQuery minWidth={767}>
                         <YouTube videoId="Mo1BzUQcskM" opts={optsDesktop} />
                     </MediaQuery>
+                </div>
+                <div className="related-recipes" style={{ marginTop: "40px" }}>
+                    <h2>Related Vegetarian Recipes</h2>
+
+                    <p>
+                        If you enjoyed this Saag Paneer recipe, you may also like:
+                    </p>
+
+                    <ul style={{ listStyle: "none", paddingLeft: 0 }}>
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link to="/dalmakhani">
+                                Dal Makhani
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link to="/aloogobi">
+                                Aloo Gobi
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link to="/rajmah">
+                                Rajmah (Kidney Bean Curry)
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link to="/besan">
+                                Besan Curry
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
+                            <Link to="/lentil">
+                                Masoor Dal (Lentil Curry)
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
         );
