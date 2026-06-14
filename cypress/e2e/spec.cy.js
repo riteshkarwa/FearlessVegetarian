@@ -6,7 +6,7 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('visit Potato recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/potato')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Any Time Potato Seasoned with Indian Spices served with Vegan Sausage");
+      expect($ele.text().trim()).equal("Easy Indian Spiced Potatoes Recipe with Vegan Sausage");
     });
   })
 
@@ -81,14 +81,14 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('visit Saag Paneer recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/saagpaneer')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Saag(Spinach) Paneer is a popular vegetarian dish consisting of panner(Indian cheese) in a smooth, delicious and creamy Spinach gravy.");
+      expect($ele.text().trim()).equal("Saag Paneer Recipe (Indian Spinach & Paneer Curry)");
     });
   })
 
   it('visit Dal Makhani recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/dalmakhani')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Dal Makhani is a classic North Indian dish made with whole black gram (Urad dal) found in Indian Store, red kidney beans, butter and other Indian Spices. It is one of dishes that takes a longer time to cook more than 2 hours. Also the more you cook the better the curry is going to taste.");
+      expect($ele.text().trim()).equal("Dal Makhani Recipe (Punjabi Black Lentil Curry) – Rich, Creamy & Slow-Cooked");
     });
   })
 
@@ -123,21 +123,21 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('visit Erayba India page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/erayba')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Erayba India!");
+      expect($ele.text().trim()).equal("Erayba India – Professional Vegan Hair Care for Salons and Beauty Professionals");
     });
   })
 
   it('visit Beetroot recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/beetroot')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Beetroot Curry with Coconut Milk and Lentils(Urad Dal). Beetroot is one of those wonder foods that can increase immunity, lower blood pressure and provide us with lot of essential vitamin and minerals.");
+      expect($ele.text().trim()).equal("Beetroot Curry with Coconut Milk (Indian Beetroot Curry Recipe)");
     });
   })
 
   it('Visit Besan Recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/besan')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Chickpea Flour also known as Besan is a spicy Indian side dish which goes well with any type of rice or Naan Bread.");
+      expect($ele.text().trim()).equal("Besan Curry (Chickpea Flour Curry) – A Traditional Indian Comfort Food Made with Gram Flour and Aromatic Spices");
     });
   })
 
