@@ -398,7 +398,7 @@ export const Food = [
         card_img: "/ashwagandhaapplejuice.png",
         card_title: "Ashwagandha Apple Chaat Masala Juice",
         card_text: "A refreshing wellness drink made with fresh apples, ashwagandha powder, cinnamon, lemon juice, and chaat masala. Packed with flavor and perfect for a healthy start to your day.",
-        card_href: "/ashwagandhajuice",
+        card_href: "/ashwagandhaapplejuice",
         button_title: "Ashwagandha Apple Juice Recipe"
     }
 ]
