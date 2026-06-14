@@ -10,11 +10,20 @@ import MediaQuery from 'react-responsive';
 
 class AshwagandhaAppleJuice extends Component {
   render() {
+    const optsDesktop = {
+      height: '800',
+      width: '1000',
+    };
+
+    const optsMobile = {
+      height: '550',
+      width: '325',
+    };
     return (
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Ashwagandha Apple Chaat Masala Juice | Healthy Immunity Booster</title>
+          <title>Ashwagandha Apple Juice Recipe with Chaat Masala & Cinnamon | Fearless Vegetarian</title>
 
           <link
             rel="canonical"
@@ -55,7 +64,7 @@ class AshwagandhaAppleJuice extends Component {
         </Helmet>
 
         <h1>
-          Ashwagandha Apple Chaat Masala Juice – A Refreshing Wellness Drink
+          Ashwagandha Apple Juice with Chaat Masala & Cinnamon
         </h1>
 
         <p>
@@ -71,6 +80,15 @@ class AshwagandhaAppleJuice extends Component {
           Apples provide fiber and antioxidants, cinnamon may support healthy blood sugar levels,
           and ashwagandha is commonly used to help manage stress and support overall wellness.
         </p>
+        <h2>Tips for Best Results</h2>
+
+        <ul>
+          <li>Use sweet apples such as Honeycrisp, Fuji, or Gala.</li>
+          <li>Start with ½ teaspoon Ashwagandha if you are new to the herb.</li>
+          <li>Serve immediately to preserve freshness and nutrients.</li>
+          <li>Add extra cinnamon for a warmer flavor profile.</li>
+          <li>Blend with a few spinach leaves for additional nutrients.</li>
+        </ul>
 
         <Row className="cooktimerow">
           <Col>
@@ -136,7 +154,7 @@ class AshwagandhaAppleJuice extends Component {
           </li>
         </ol>
 
-        <h2>Health Benefits</h2>
+        <h2>Why You'll Love This Drink</h2>
 
         <ul>
           <li>Apples are rich in antioxidants and dietary fiber.</li>
@@ -174,6 +192,46 @@ class AshwagandhaAppleJuice extends Component {
           <MediaQuery minWidth={767}>
             <YouTube videoId="bGhBb3NvOaw" opts={optsDesktop} />
           </MediaQuery>
+        </div>
+        <div className="related-recipes" style={{ marginTop: "40px" }}>
+          <h2>Related Healthy Recipes</h2>
+
+          <p>
+            If you enjoyed this Ashwagandha Apple Chaat Masala Juice, you may also enjoy
+            these wholesome vegetarian recipes:
+          </p>
+
+          <ul>
+            <li>
+              <Link to="/avocado">
+                Avocado Toast
+              </Link>
+            </li>
+
+            <li>
+              <Link to="/quinoamoongdal">
+                Quinoa Moong Dal Khichdi
+              </Link>
+            </li>
+
+            <li>
+              <Link to="/potatosalad">
+                Chukauni – Nepali Yogurt Potato Salad
+              </Link>
+            </li>
+
+            <li>
+              <Link to="/couscousblackbeanbowl">
+                Couscous Black Bean Bowl
+              </Link>
+            </li>
+
+            <li>
+              <Link to="/yogurt">
+                Homemade Instant Pot Yogurt
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     );
