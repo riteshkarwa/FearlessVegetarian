@@ -9,6 +9,7 @@ import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { faLeaf } from '@fortawesome/free-solid-svg-icons';
+import RecipeSchema from "./RecipeSchema";
 
 class Okra extends Component {
   render() {
