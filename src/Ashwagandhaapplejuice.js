@@ -7,6 +7,8 @@ import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
+import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 class AshwagandhaAppleJuice extends Component {
   render() {
@@ -202,32 +204,40 @@ class AshwagandhaAppleJuice extends Component {
           </p>
 
           <ul>
-            <li>
-              <Link to="/avocado">
+            <li style={{ marginBottom: "12px" }}>
+              <Link to="/avocado" className="recipe-link">
                 Avocado Toast
               </Link>
             </li>
 
-            <li>
-              <Link to="/quinoamoongdal">
+            <li style={{ marginBottom: "12px" }}>
+              <Link to="/quinoamoongdal" className="recipe-link">
                 Quinoa Moong Dal Khichdi
               </Link>
             </li>
 
-            <li>
-              <Link to="/potatosalad">
+            <li style={{ marginBottom: "12px" }}>
+              <Link to="/potatosalad" className="recipe-link">
                 Chukauni – Nepali Yogurt Potato Salad
               </Link>
             </li>
 
-            <li>
-              <Link to="/couscousblackbeanbowl">
+            <li style={{ marginBottom: "12px" }}>
+              <FontAwesomeIcon
+                icon={faLeaf}
+                style={{ color: "#28a745", marginRight: "10px" }}
+              />
+              <Link to="/couscousblackbeanbowl" className="recipe-link">
                 Couscous Black Bean Bowl
               </Link>
             </li>
 
-            <li>
-              <Link to="/yogurt">
+            <li style={{ marginBottom: "12px" }}>
+              <FontAwesomeIcon
+                icon={faLeaf}
+                style={{ color: "#28a745", marginRight: "10px" }}
+              />
+              <Link to="/yogurt" className="recipe-link">
                 Homemade Instant Pot Yogurt
               </Link>
             </li>

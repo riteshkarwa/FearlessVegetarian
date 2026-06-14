@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema"
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
@@ -189,26 +190,26 @@ class Khichdi extends Component {
             />
             <Link to="/quinoamoongdal" className="recipe-link">Quinoa Moong Dal Khichdi</Link>
           </li>
-          <li>
+          <li style={{ marginBottom: "12px" }}>
             <FontAwesomeIcon
               icon={faLeaf}
               style={{ color: "#28a745", marginRight: "10px" }}
             />
             <Link to="/dalmakhani" className="recipe-link">Dal Makhani</Link>
           </li>
-          <li>
+          <li style={{ marginBottom: "12px" }}>
             <FontAwesomeIcon
               icon={faLeaf}
               style={{ color: "#28a745", marginRight: "10px" }}
             />
             <Link to="/rajmah" className="recipe-link">Rajma Masala</Link></li>
-          <li>
+          <li style={{ marginBottom: "12px" }}>
             <FontAwesomeIcon
               icon={faLeaf}
               style={{ color: "#28a745", marginRight: "10px" }}
             />
             <Link to="/blackeyedbeans" className="recipe-link">Black Eyed Peas Curry</Link></li>
-          <li>
+          <li style={{ marginBottom: "12px" }}>
             <FontAwesomeIcon
               icon={faLeaf}
               style={{ color: "#28a745", marginRight: "10px" }}

@@ -159,7 +159,7 @@ class Shahipaneer extends Component {
                             </Link>
                         </li>
 
-                        <li>
+                        <li style={{ marginBottom: "12px" }}>
                             <FontAwesomeIcon
                                 icon={faLeaf}
                                 style={{ color: "#28a745", marginRight: "10px" }}
