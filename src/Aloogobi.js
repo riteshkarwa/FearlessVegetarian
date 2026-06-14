@@ -224,16 +224,6 @@ class Aloogobi extends Component {
                         </li>
                     </ul>
                 </div>
-                <div className="related-recipes">
-                    <h2>Related Vegetarian Recipes</h2>
-                    <p>
-                        If you enjoyed this Aloo Gobi: Classic North Indian Potato and Cauliflower Curry, you may also like our
-                        <Link to="/aloogobi">Couscous Delight: Easy and Flavorful Mediterranean Magic!</Link>,
-                        <Link to="/dalmakhani"> Dal Makhani</Link>,
-                        <Link to="/saagpaneer"> Saag Paneer</Link>, and
-                        <Link to="/besan"> Besan Curry</Link>.
-                    </p>
-                </div>
             </div>
         );
     }
