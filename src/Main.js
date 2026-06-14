@@ -62,6 +62,7 @@ import Quinoamoongdal from "./Quinoamoongdal";
 import Kesarpeda from "./Kesarpeda";
 import BalsamicVinaigretteDish from "./Balsamicvinaigrette";
 import AshwagandhaAppleJuice from "./Ashwagandhaapplejuice";
+import CookingAtHome from "./CookingAtHome"
 
 
 class Main extends Component {

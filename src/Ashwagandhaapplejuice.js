@@ -5,6 +5,8 @@ import Col from "react-bootstrap/Col";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { Helmet } from "react-helmet";
+import YouTube from 'react-youtube';
+import MediaQuery from 'react-responsive';
 
 class AshwagandhaAppleJuice extends Component {
   render() {
@@ -164,6 +166,15 @@ class AshwagandhaAppleJuice extends Component {
           Serve chilled as a refreshing breakfast drink or enjoy it alongside
           healthy snacks and light vegetarian meals.
         </p>
+        <div>
+          <h2>Ashwagandha Apple Chaat Masala Juice Preparation Video</h2>
+          <MediaQuery maxWidth={767}>
+            <YouTube videoId="bGhBb3NvOaw" opts={optsMobile} />
+          </MediaQuery>
+          <MediaQuery minWidth={767}>
+            <YouTube videoId="bGhBb3NvOaw" opts={optsDesktop} />
+          </MediaQuery>
+        </div>
       </div>
     );
   }
