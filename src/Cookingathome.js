@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
-import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
 
 class CookingAtHome extends Component {
