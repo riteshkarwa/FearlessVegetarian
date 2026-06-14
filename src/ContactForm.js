@@ -14,7 +14,7 @@ export default function ContactForm() {
                 <div className="col-md-6">
                     <p>
                         <label htmlFor="name">Name:</label><br/>
-                        <input  name="name" type="text"  id="name"  placeholder="Enter your name"  className="form-control"/>
+                        <input  name="name" type="text"  id="name"  placeholder="Enter your name"  className="form-control"  required/>
                     </p>
                 </div>
             </div>
@@ -22,7 +22,7 @@ export default function ContactForm() {
                 <div className="col-md-6">
                     <p>
                         <label htmlFor="email">Email:</label><br/>
-                        <input  name="email" type="email" id="email"  placeholder="Enter E-mail address" className="form-control"/>
+                        <input  name="email" type="email" id="email"  placeholder="Enter E-mail address" className="form-control"  required/>
                     </p>
                 </div>
             </div>
@@ -30,7 +30,7 @@ export default function ContactForm() {
                 <div className="col-md-6">
                     <p>
                         <label htmlFor="subject">Subject:</label><br/>
-                        <input  name="subject" type="text" id="subject"  placeholder="Feedback Subject" className="form-control"/>
+                        <input  name="subject" type="text" id="subject"  placeholder="Feedback Subject" className="form-control"  required/>
                     </p>
                 </div>
             </div>
@@ -38,7 +38,7 @@ export default function ContactForm() {
                 <div className="col-md-6">
                     <p>
                         <label htmlFor="message">Message:</label><br/>
-                        <textarea  name="message"  rows="5" id="message"  placeholder="Enter your concerns and how we can help you out" className="form-control"></textarea>
+                        <textarea  name="message"  rows="5" id="message"  placeholder="Enter your concerns and how we can help you out" className="form-control"  required></textarea>
                     </p>
                 </div>
             </div>  
