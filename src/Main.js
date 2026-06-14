@@ -61,6 +61,7 @@ import Potatosalad from "./Potatosalad";
 import Quinoamoongdal from "./Quinoamoongdal";
 import Kesarpeda from "./Kesarpeda";
 import BalsamicVinaigretteDish from "./Balsamicvinaigrette";
+import AshwagandhaAppleJuice from "./Ashwagandhaapplejuice";
 
 
 class Main extends Component {
@@ -154,6 +155,7 @@ class Main extends Component {
             <Route exact path="/kesarpeda" element={<Kesarpeda/>}></Route>
             <Route exact path="/erayba" element={<Erayba/>}></Route>
             <Route exact path="/couscousbalsamic" element={<BalsamicVinaigretteDish/>}></Route>
+            <Route exact path="/ashwagandhaapplejuice" element={<AshwagandhaAppleJuice/>}></Route>
             <Route path='*' element={<Notfound />}/>
           </Routes>
         </div>

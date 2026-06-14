@@ -9,7 +9,7 @@ export const Food = [
     },
     {
         "id": 2,
-        card_img : "/sandwich.jpg",
+        card_img: "/sandwich.jpg",
         card_title: "Loaded Vegetable Sandwich also known as Bombay Sandwich",
         card_text: "Enjoy our Bombay Vegetable Sandwich: easy, filling, and bursting with street-style flavors! A delightful blend of vegetables and spices, bringing the street-style experience to your plate.",
         card_href: "/sandwich",
@@ -41,7 +41,7 @@ export const Food = [
     },
     {
         "id": 6,
-        card_img : "/anytimepotato.jpg",
+        card_img: "/anytimepotato.jpg",
         card_title: "Anytime Potato Seasoned with Indian Spices served with Vegan Sausage",
         card_text: "Anytime Potato along with Vegan Sausage is my favorite go to meal, can be made for breakfast, lunch, and dinner.",
         card_href: "/potato",
@@ -58,10 +58,10 @@ export const Food = [
     {
         "id": 8,
         card_img: "/blackeyedbeans.jpg",
-        card_title: "Black Eyed Beans Seasoned with Indian Spices",
+        card_title: "Black Eyed Peas Curry (Lobia Masala)",
         card_text: "Tasty Black eyed beans are rich in fiber and protein, which make them an excellent energy source.",
-        card_href : "/blackeyedbeans",
-        button_title :"Black Eyed Beans Recipe"
+        card_href: "/blackeyedbeans",
+        button_title: "Black Eyed Beans Recipe"
 
     },
     {
@@ -94,10 +94,10 @@ export const Food = [
     {
         "id": 12,
         card_img: "/dalmakhani.jpg",
-        card_title: "Dal Makhani Dish",
+        card_title: "Authentic Dal Makhani – Slow Cooked Punjabi Lentils",
         card_text: "Dal Makhani is a popular North Indian Dish where black lentils and red kidney beans are slow cooked with spices and butter",
         card_href: "/dalmakhani",
-        button_title :"Dal Makhani Recipe"
+        button_title: "Dal Makhani Recipe"
 
     },
     {
@@ -105,7 +105,7 @@ export const Food = [
         card_img: "/stirfry.jpg",
         card_title: "Stir Fry Vegetables in Teriyaki Sauce",
         card_text: "Stir fry vegetables recipe uses Mandarin Teriyaki Sauce. It is super easy to make. For protein you can use Tofu or Tempeh",
-        card_href : "/stirfry",
+        card_href: "/stirfry",
         button_title: "Stir Fry Vegetables Recipe"
 
     },
@@ -129,7 +129,7 @@ export const Food = [
     {
         id: 16,
         card_img: "/saagpaneer.jpg",
-        card_title: "Saag Paneer Dish",
+        card_title: "Saag Paneer – Creamy Spinach and Indian Cottage Cheese Curry",
         card_text: "Saag Panner is a popular vegetarian dish consisting of panner(Indian cheese) in a smooth , delicious and creamy spinach gravy.",
         card_href: "/saagpaneer",
         button_title: "Saag Paneer Recipe"
@@ -149,16 +149,16 @@ export const Food = [
         card_text: "Pav Bhaji is an iconic dish from Mumbai. This Pav Bhaji Recipe is going to make you fall in love with it.",
         card_href: "/pavbhaji",
         button_title: "Pav Bhaj Recipe"
-        
+
     },
     {
         id: 19,
         card_img: "/aloogobi.jpg",
-        card_title: "Potato Cauliflower (AlooGobi) Dish",
+        card_title: "Aloo Gobi – North Indian Potato and Cauliflower Curry",
         card_text: "Aloo gobi (potatoes & cauliflower) is a popular Indian dish in which potatoes and cauliflower are cooked with onions, tomatoes and spices.",
         card_href: "/aloogobi",
         button_title: "Potato Cauliflower Recipe"
-        
+
     },
     {
         id: 20,
@@ -167,7 +167,7 @@ export const Food = [
         card_text: "Indian Aloo Paratha – whole wheat pan-fried flatbread stuffed with a spicy potato filling.This paratha is best enjoyed with yogurt, pickle, butter and a side of chai!",
         card_href: "/paratha",
         button_title: "Aloo Paratha Recipe"
-        
+
     },
     {
         id: 21,
@@ -180,10 +180,10 @@ export const Food = [
     {
         id: 22,
         card_img: "/hakkanoodle.jpg",
-        card_title:"Hakka Noodle Dish",
-        card_text:"Hakka Noodles is a popular Indo-Chinese dish of stir fried noodles, vegetables and sauces.",
+        card_title: "Hakka Noodle Dish",
+        card_text: "Hakka Noodles is a popular Indo-Chinese dish of stir fried noodles, vegetables and sauces.",
         card_href: "/hakkanoodle",
-        button_title :"Hakka Noodle Recipe"
+        button_title: "Hakka Noodle Recipe"
     },
     {
         id: 23,
@@ -204,7 +204,7 @@ export const Food = [
     {
         id: 25,
         card_img: "/okra.jpg",
-        card_title: "Okra  Dish",
+        card_title: "Bhindi Masala (Okra Curry with Onions and Tomatoes)",
         card_text: "Roti + Okra = pure comfort food for me! I can pretty much have this combination for the rest of my life.",
         card_href: "/okra",
         button_title: "Okra Recipe"
@@ -369,7 +369,7 @@ export const Food = [
         card_href: "/potatosalad",
         button_title: "Chukauni—a traditional Nepali yogurt and potato salad Recipe"
     },
-     {
+    {
         id: 46,
         card_img: "/quinoamoongdal.jpg",
         card_title: "Quinoa Moong Dal Khichdi Recipe: Healthy & Comforting One-Pot Meal",
@@ -386,11 +386,19 @@ export const Food = [
         button_title: "Kesar Peda Recipe"
     },
     {
-        id: 47,
+        id: 48,
         card_img: "/couscousbalsamic.jpg",
         card_title: "Middle Eastern Couscous Salad with Toasted Walnuts & Balsamic Vinaigrette",
         card_text: "Experience an explosion of rich, earthy flavors in every bite. This Middle Eastern-inspired couscous salad combines fluffy couscous, crunchy vegetables, fresh herbs, and toasted walnuts, all brought together with a tangy balsamic vinaigrette.",
         card_href: "/couscousbalsamic",
         button_title: "Couscous Salad with Toasted Walnuts Recipe"
+    },
+    {
+        id: 49,
+        card_img: "/ashwagandhaapplejuice.png",
+        card_title: "Ashwagandha Apple Chaat Masala Juice",
+        card_text: "A refreshing wellness drink made with fresh apples, ashwagandha powder, cinnamon, lemon juice, and chaat masala. Packed with flavor and perfect for a healthy start to your day.",
+        card_href: "/ashwagandhajuice",
+        button_title: "Ashwagandha Apple Juice Recipe"
     }
 ]
