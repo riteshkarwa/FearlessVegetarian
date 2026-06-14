@@ -94,6 +94,7 @@ class Main extends Component {
                   <Nav.Link href="/donate">Donate</Nav.Link>
                   <Nav.Link href="/wheretobegin">Where to Begin</Nav.Link>
                   <Nav.Link href="/erayba">Erayba India</Nav.Link>
+                  <Nav.Link href="/cookingathome">Cooking At Home</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
