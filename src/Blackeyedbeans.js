@@ -50,7 +50,7 @@ class Blackeyedbeans extends Component {
                 />
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity</title>
+                    <title>Black Eyed Peas Curry (Lobia Masala) Recipe | Protein-Rich Indian Curry</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/blackeyedbeans" />
                     <meta
                         name="description"
@@ -68,9 +68,26 @@ class Blackeyedbeans extends Component {
                     <meta property="og:image" content="https://fearlessvegetarian.netlify.app/blackeyedbeans.jpg" />
                     <meta property="og:description" content="Kickstart luck with our Black Eyed Peas Curry. A year-round delight, seasoned with Indian spices for prosperity." />
                 </Helmet>
-                <h1>Black Eyed Peas Curry seasoned with Indian Spices. It is a tradition to eat them on 1st January for luck and prosperity. It doesn't
-                    have to be just 1st of January eat it all year long for more luck and prosperity.
+                <h1>Black Eyed Peas Curry (Lobia Masala) – Protein-Rich Indian Vegetarian Curry
                 </h1>
+                <p>
+                    This Black Eyed Peas Curry (Lobia Masala) is a hearty North Indian dish made
+                    with black eyed beans, potatoes, onions, tomatoes, and warming spices. Rich
+                    in plant protein and fiber, it pairs perfectly with rice or roti.
+                </p>
+                <h2>Serving Suggestions</h2>
+
+                <p>
+                    Serve Black Eyed Peas Curry with:
+                </p>
+
+                <ul>
+                    <li>Steamed Basmati Rice</li>
+                    <li>Jeera Rice</li>
+                    <li>Whole Wheat Roti</li>
+                    <li>Garlic Naan</li>
+                    <li>Fresh Cucumber Salad</li>
+                </ul>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
                 </Row>
