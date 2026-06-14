@@ -121,3 +121,21 @@ ol li {
   color: #198754;
   text-decoration: underline;
 }
+
+.custom-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 25px;
+}
+
+.bullet-icon {
+  color: #e67e22;
+  font-size: 25px;
+}

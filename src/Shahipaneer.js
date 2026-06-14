@@ -87,7 +87,12 @@ class Shahipaneer extends Component {
                     <li>Garnish with fresh coriander leaves and serve hot with rice or naan bread.</li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="/paneer.jpg" thumbnail rounded fluid></Image>
+                <MediaQuery maxWidth={767}>
+                    <Image src="/paneer.jpg" alt="Creamy shahi paneer made with Indian cottage cheese in rich gravy served in a bowl" thumbnail rounded fluid></Image>
+                </MediaQuery>
+                <MediaQuery minWidth={767}>
+                    <Image src="/paneer.jpg" alt="Creamy shahi paneer made with Indian cottage cheese in rich gravy served in a bowl" thumbnail rounded fluid width="60%" height="60%"></Image>
+                </MediaQuery>
                 <div>
                     <h2>Shahi Paneer Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

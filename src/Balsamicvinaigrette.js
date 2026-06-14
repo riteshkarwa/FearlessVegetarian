@@ -7,6 +7,9 @@ import MediaQuery from 'react-responsive';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import { faUtensils } from "@fortawesome/free-solid-svg-icons";
+import RecipeSchema from "./RecipeSchema";
 
 class BalsamicVinaigretteDish extends Component {
     render() {
@@ -21,13 +24,40 @@ class BalsamicVinaigretteDish extends Component {
         };
         return (
             <div>
+                <RecipeSchema
+                    name="Middle Eastern Couscous Salad with Balsamic Vinaigrette"
+                    description="A fresh and colorful Middle Eastern-inspired couscous salad made with cucumber, red bell pepper, purple cabbage, red onion, parsley, toasted walnuts, and fluffy couscous tossed in a tangy balsamic vinaigrette. Perfect for meal prep, lunch, or a healthy vegetarian dinner."
+                    image="https://fearlessvegetarian.netlify.app/couscousbalsamic.jpg"
+                    url="https://fearlessvegetarian.netlify.app/couscousbalsamic"
+                    prepTime="PT20M"
+                    cookTime="PT10M"
+                    totalTime="PT30M"
+                    recipeYield="4 Servings"
+                    ingredients={[
+                        "1.5 cups cucumber, diced",
+                        "1 cup red bell pepper, diced",
+                        "1 cup purple cabbage, shredded",
+                        "3/4 cup red onion, finely chopped",
+                        "1/2 cup green onion, chopped",
+                        "1/2 cup fresh parsley, chopped",
+                        "90g toasted walnuts, chopped",
+                        "1 cup dry couscous, cooked and cooled",
+                        "3 tablespoons balsamic vinegar",
+                        "2 tablespoons extra virgin olive oil",
+                        "1 teaspoon Dijon mustard",
+                        "1 teaspoon maple syrup (optional)",
+                        "1/2 teaspoon ground cumin",
+                        "Salt to taste",
+                        "Black pepper to taste"
+                    ]}
+                />
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Middle Eastern Couscous Salad Recipe | Fresh Vegetables, Walnuts & Balsamic Vinaigrette | Fearless Vegetarian</title>
+                    <title>Middle Eastern Couscous Salad with Balsamic Vinaigrette | Fearless Vegetarian</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/couscousbalsamic" />
                     <meta
                         name="description"
-                        content="Kickstart luck with our Black Eyed Peas Curry. A year-round delight, seasoned with Indian spices for prosperity."
+                        content="Fresh and colorful Middle Eastern Couscous Salad made with cucumber, bell pepper, cabbage, parsley, toasted walnuts, and a tangy balsamic vinaigrette. Perfect for meal prep, lunch, or a healthy vegetarian dinner."
                     />
                     <meta
                         name="keywords"
@@ -41,9 +71,13 @@ class BalsamicVinaigretteDish extends Component {
                     <meta property="og:image" content="https://fearlessvegetarian.netlify.app/couscousbalsamic.jpg" />
                     <meta property="og:description" content="Enjoy a vibrant Middle Eastern-inspired couscous salad made with cucumber, red bell pepper, purple cabbage, red onion, fresh parsley, green onions, and toasted walnuts. Tossed in a tangy balsamic vinaigrette, this healthy vegetarian and vegan recipe is perfect for lunch, dinner, or meal prep" />
                 </Helmet>
-                <h1>Experience an explosion of rich, earthy flavors in every bite. This Middle Eastern-inspired couscous salad combines fluffy couscous, crunchy vegetables, fresh herbs, and toasted walnuts, all brought together with a tangy balsamic vinaigrette. 
-                    Light yet satisfying, it's the perfect vegetarian and vegan dish for a refreshing lunch, healthy dinner, or make-ahead meal prep.
-                </h1>
+                <h1>Middle Eastern Couscous Salad with Balsamic Vinaigrette</h1>
+                <p>
+                    This colorful Middle Eastern-inspired couscous salad combines fluffy
+                    couscous, crisp vegetables, fresh parsley, and toasted walnuts tossed in
+                    a tangy balsamic vinaigrette. Perfect for meal prep, healthy lunches,
+                    picnics, or a light vegetarian dinner.
+                </p>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
                 </Row>
@@ -95,13 +129,58 @@ class BalsamicVinaigretteDish extends Component {
                     <Image src="/couscousbalsamic.jpg" alt="Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity" thumbnail rounded width="50%" height="50%"></Image>
                 </MediaQuery>
                 <div>
-                    <h2>Black Eyed Peas Curry Preparation Video</h2>
+                    <h2>Middle Eastern Couscous Salad Video Recipe</h2>
                     <MediaQuery maxWidth={767}>
                         <YouTube videoId="Nbi0LcFISjI" opts={optsMobile} />
                     </MediaQuery>
                     <MediaQuery minWidth={767}>
                         <YouTube videoId="Nbi0LcFISjI" opts={optsDesktop} />
                     </MediaQuery>
+                </div>
+                <div className="related-recipes" style={{ marginTop: "40px" }}>
+                    <h2>Related Vegetarian Recipes</h2>
+
+                    <p>
+                        If you enjoyed this Middle Eastern Couscous Salad, you may also like
+                        these healthy vegetarian recipes:
+                    </p>
+
+                    <ul className="custom-list">
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/couscousblackbeanbowl" className="recipe-link">
+                                Couscous Black Bean Bowl
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/quinoamoongdal" className="recipe-link">
+                                Quinoa Moong Dal Khichdi
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/potatosalad" className="recipe-link">
+                                Chukauni – Nepali Yogurt Potato Salad
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/avocado" className="recipe-link">
+                                Avocado Toast
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/yogurt" className="recipe-link">
+                                Homemade Instant Pot Yogurt
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
         );

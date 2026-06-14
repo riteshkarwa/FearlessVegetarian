@@ -7,6 +7,9 @@ import Col from 'react-bootstrap/Col';
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Helmet } from "react-helmet";
+import RecipeSchema from "./RecipeSchema";
+import { Link } from "react-router-dom";
+import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 
 class Mushroom extends Component {
     render() {
@@ -21,9 +24,35 @@ class Mushroom extends Component {
         };
         return (
             <div>
+                <RecipeSchema
+                    name="Punjabi Mushroom Masala Curry"
+                    description="Punjabi Mushroom Masala Curry made with white button mushrooms, onions, tomatoes, yogurt, and aromatic Indian spices. A rich and flavorful vegetarian curry that pairs perfectly with naan, roti, or rice."
+                    image="https://fearlessvegetarian.netlify.app/mushroom.jpg"
+                    url="https://fearlessvegetarian.netlify.app/mushroom"
+                    prepTime="PT15M"
+                    cookTime="PT45M"
+                    totalTime="PT1H"
+                    recipeYield="2 Servings"
+                    ingredients={[
+                        "500g white button mushrooms",
+                        "2 onions",
+                        "2 tomatoes",
+                        "2 cloves garlic",
+                        "1-inch ginger",
+                        "2 green chilies",
+                        "1 teaspoon cumin seeds",
+                        "1 teaspoon coriander powder",
+                        "1/2 teaspoon turmeric powder",
+                        "1/2 teaspoon red chili powder",
+                        "1 teaspoon garam masala",
+                        "4 tablespoons plain yogurt",
+                        "Salt to taste",
+                        "Fresh coriander leaves"
+                    ]}
+                />
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Savory Delight: Mushroom Masala Curry Bursting with Flavor in Every Bite! | Fearless Vegetarian</title>
+                    <title>Punjabi Mushroom Masala Curry Recipe | Fearless Vegetarian</title>
                     <link rel="canonical" href="https://fearlessvegetarian.netlify.app/mushroom" />
                     <meta
                         name="description"
@@ -37,9 +66,13 @@ class Mushroom extends Component {
                         comforting, easy to make, satisfying, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
                     />
                 </Helmet>
-                <h1>This Mushroom Masala recipe is an easy, delicious Punjabi style one-pot mushroom curry made with white button mushrooms in a spiced
-                    onion-tomato gravy. The addition of creamy yogurt adds a delightful richness to this traditional Punjabi favorite.
-                    Perfect for a comforting meal that's both easy to make and incredibly satisfying.</h1>
+                <h1>Punjabi Mushroom Masala Curry</h1>
+                <p>
+                    This Mushroom Masala is a flavorful Punjabi-style one-pot curry
+                    made with tender white button mushrooms cooked in a spiced
+                    onion-tomato gravy. The addition of creamy yogurt creates a rich
+                    and satisfying dish that pairs perfectly with naan, roti, or rice.
+                </p>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
                 </Row>
@@ -87,6 +120,58 @@ class Mushroom extends Component {
                     <MediaQuery minWidth={767}>
                         <YouTube videoId="UcMZg6QjnuQ" opts={optsDesktop} />
                     </MediaQuery>
+                </div>
+                <div className="related-recipes" style={{ marginTop: "40px" }}>
+                    <h2>Related Vegetarian Recipes</h2>
+
+                    <p>
+                        If you enjoyed this Punjabi-style Mushroom Masala Curry, you may also
+                        enjoy these flavorful vegetarian recipes:
+                    </p>
+
+                    <ul className="custom-list">
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/paneer" className="recipe-link">
+                                Shahi Paneer
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/saagpaneer" className="recipe-link">
+                                Saag Paneer
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/aloogobi" className="recipe-link">
+                                Aloo Gobi (Potato Cauliflower Curry)
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/quinoamoongdal" className="recipe-link">
+                                Quinoa Moong Dal Khichdi
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/couscousbalsamic" className="recipe-link">
+                                Middle Eastern-inspired Couscous Salad
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/lentil" className="recipe-link">
+                                Hearty Lentil Soup
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
         );

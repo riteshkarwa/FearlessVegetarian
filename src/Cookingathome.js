@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 
 class CookingAtHome extends Component {
     render() {
@@ -111,31 +114,70 @@ class CookingAtHome extends Component {
 
                 <h2>Simple Ways to Start Cooking More at Home</h2>
 
-                <ul>
-                    <li>Plan meals for the week.</li>
-                    <li>Keep pantry staples on hand.</li>
-                    <li>Cook larger batches and save leftovers.</li>
-                    <li>Try one new recipe each week.</li>
-                    <li>Focus on simple meals with fresh ingredients.</li>
+                <ul className="custom-list">
+                    <li>
+                        <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                        Plan meals for the week.
+                    </li>
+                    <li>
+                        <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                        Keep pantry staples on hand.
+                    </li>
+                    <li>
+                        <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                        Cook larger batches and save leftovers.
+                    </li>
+                    <li>
+                        <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                        Try one new recipe each week.
+                    </li>
+                    <li>
+                        <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                        Focus on simple meals with fresh ingredients.
+                    </li>
                 </ul>
 
                 <h2>Explore Our Favorite Homemade Recipes</h2>
 
-                <ul>
+                <ul style={{
+                    listStyle: "none",
+                    padding: 0,
+                    marginTop: "20px"
+                }}>
                     <li>
-                        <Link to="/aloogobi">Aloo Gobi (Potato Cauliflower Curry)</Link>
+                        <FontAwesomeIcon
+                            icon={faLeaf}
+                            style={{ color: "#28a745", marginRight: "10px" }}
+                        />
+                        <Link to="/aloogobi" className="recipe-link">Aloo Gobi (Potato Cauliflower Curry)</Link>
                     </li>
                     <li>
-                        <Link to="/dalmakhani">Authentic Dal Makhani</Link>
+                        <FontAwesomeIcon
+                            icon={faLeaf}
+                            style={{ color: "#28a745", marginRight: "10px" }}
+                        />
+                        <Link to="/dalmakhani" className="recipe-link">Authentic Dal Makhani</Link>
                     </li>
                     <li>
-                        <Link to="/blackeyedbeans">Black Eyed Peas Curry</Link>
+                        <FontAwesomeIcon
+                            icon={faLeaf}
+                            style={{ color: "#28a745", marginRight: "10px" }}
+                        />
+                        <Link to="/blackeyedbeans" className="recipe-link">Black Eyed Peas Curry</Link>
                     </li>
                     <li>
-                        <Link to="/quinoamoongdal">Quinoa Moong Dal Khichdi</Link>
+                        <FontAwesomeIcon
+                            icon={faLeaf}
+                            style={{ color: "#28a745", marginRight: "10px" }}
+                        />
+                        <Link to="/quinoamoongdal" className="recipe-link">Quinoa Moong Dal Khichdi</Link>
                     </li>
                     <li>
-                        <Link to="/spinachbesan">Spinach Gram Flour Curry</Link>
+                        <FontAwesomeIcon
+                            icon={faLeaf}
+                            style={{ color: "#28a745", marginRight: "10px" }}
+                        />
+                        <Link to="/spinachbesan" className="recipe-link">Spinach Gram Flour Curry</Link>
                     </li>
                 </ul>
 

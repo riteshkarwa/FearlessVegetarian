@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Link } from "react-router-dom";
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 
 class AshwagandhaAppleJuice extends Component {
   render() {
@@ -84,12 +84,27 @@ class AshwagandhaAppleJuice extends Component {
         </p>
         <h2>Tips for Best Results</h2>
 
-        <ul>
-          <li>Use sweet apples such as Honeycrisp, Fuji, or Gala.</li>
-          <li>Start with ½ teaspoon Ashwagandha if you are new to the herb.</li>
-          <li>Serve immediately to preserve freshness and nutrients.</li>
-          <li>Add extra cinnamon for a warmer flavor profile.</li>
-          <li>Blend with a few spinach leaves for additional nutrients.</li>
+        <ul className="custom-list">
+          <li>
+            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+            Use sweet apples such as Honeycrisp, Fuji, or Gala.
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+            Start with 1/2 teaspoon Ashwagandha if you are new to the herb.
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+            Serve immediately to preserve freshness and nutrients.
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+            Add extra cinnamon for a warmer flavor profile.
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+            Blend with a few spinach leaves for additional nutrients.
+          </li>
         </ul>
 
         <Row className="cooktimerow">
@@ -158,27 +173,32 @@ class AshwagandhaAppleJuice extends Component {
 
         <h2>Why You'll Love This Drink</h2>
 
-        <ul>
-          <li>Apples are rich in antioxidants and dietary fiber.</li>
+        <ul className="custom-list">
           <li>
+            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+            Apples are rich in antioxidants and dietary fiber.</li>
+          <li>
+            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
             Ashwagandha is traditionally used in Ayurveda to help manage stress
             and support overall wellness.
           </li>
           <li>
+            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
             Chaat masala adds a tangy flavor and contains digestive spices.
           </li>
-          <li>Refreshing, naturally vegetarian, and easy to prepare.</li>
+          <li>
+            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+            Refreshing, naturally vegetarian, and easy to prepare.
+          </li>
         </ul>
 
         <h2>Final Product</h2>
-
-        <Image
-          src="/ashwagandhaapplejuice.png"
-          alt="Ashwagandha Apple Chaat Masala Juice"
-          thumbnail
-          rounded
-          fluid
-        />
+        <MediaQuery maxWidth={767}>
+          <Image src="/ashwagandhaapplejuice.png" alt="Ashwagandha Apple Chaat Masala Juice" thumbnail rounded fluid></Image>
+        </MediaQuery>
+        <MediaQuery minWidth={767}>
+          <Image src="/ashwagandhaapplejuice.png" alt="Ashwagandha Apple Chaat Masala Juice" thumbnail rounded fluid width="60%" height="60%"></Image>
+        </MediaQuery>
 
         <h2>Serving Suggestions</h2>
 
@@ -203,40 +223,37 @@ class AshwagandhaAppleJuice extends Component {
             these wholesome vegetarian recipes:
           </p>
 
-          <ul>
-            <li style={{ marginBottom: "12px" }}>
+          <ul className="custom-list">
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
               <Link to="/avocado" className="recipe-link">
                 Avocado Toast
               </Link>
             </li>
 
-            <li style={{ marginBottom: "12px" }}>
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
               <Link to="/quinoamoongdal" className="recipe-link">
                 Quinoa Moong Dal Khichdi
               </Link>
             </li>
 
-            <li style={{ marginBottom: "12px" }}>
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
               <Link to="/potatosalad" className="recipe-link">
                 Chukauni – Nepali Yogurt Potato Salad
               </Link>
             </li>
 
-            <li style={{ marginBottom: "12px" }}>
-              <FontAwesomeIcon
-                icon={faLeaf}
-                style={{ color: "#28a745", marginRight: "10px" }}
-              />
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
               <Link to="/couscousblackbeanbowl" className="recipe-link">
                 Couscous Black Bean Bowl
               </Link>
             </li>
 
-            <li style={{ marginBottom: "12px" }}>
-              <FontAwesomeIcon
-                icon={faLeaf}
-                style={{ color: "#28a745", marginRight: "10px" }}
-              />
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
               <Link to="/yogurt" className="recipe-link">
                 Homemade Instant Pot Yogurt
               </Link>

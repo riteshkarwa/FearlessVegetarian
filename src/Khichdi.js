@@ -165,9 +165,12 @@ class Khichdi extends Component {
           </li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="khichdi.jpg"
-          alt="Homemade Moong Dal Khichdi served in a bowl with rice, lentils, vegetables, and Indian spices"
-          thumbnail rounded fluid></Image>
+        <MediaQuery maxWidth={767}>
+          <Image src="/khichdi.jpg" alt="Homemade Moong Dal Khichdi served in a bowl with rice, lentils, vegetables, and Indian spices" thumbnail rounded fluid></Image>
+        </MediaQuery>
+        <MediaQuery minWidth={767}>
+          <Image src="/khichdi.jpg" alt="Homemade Moong Dal Khichdi served in a bowl with rice, lentils, vegetables, and Indian spices" thumbnail rounded fluid width="60%" height="60%"></Image>
+        </MediaQuery>
         <div>
           <h2>Homemade Moong Dal Khichdi Preparation Video</h2>
           <MediaQuery maxWidth={767}>
