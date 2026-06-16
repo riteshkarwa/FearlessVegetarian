@@ -7,6 +7,9 @@ import Col from 'react-bootstrap/Col';
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Helmet } from "react-helmet";
+import RecipeSchema from "./RecipeSchema";
+import { Link } from "react-router-dom";
+import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 
 class Poha extends Component {
   render() {
@@ -21,9 +24,37 @@ class Poha extends Component {
     };
     return (
       <div>
+        <RecipeSchema
+          name="Traditional Indian Poha"
+          description="Traditional Indian Poha made with flattened rice, potatoes, peanuts, curry leaves, onions, and aromatic spices. A quick and healthy vegetarian breakfast recipe."
+          image="https://fearlessvegetarian.netlify.app/poha.jpg"
+          url="https://fearlessvegetarian.netlify.app/poha"
+          prepTime="PT15M"
+          cookTime="PT20M"
+          totalTime="PT35M"
+          recipeYield="2 Servings"
+          ingredients={[
+            "1.5 cups thick poha (flattened rice)",
+            "1 teaspoon sugar",
+            "1 teaspoon salt",
+            "1/4 teaspoon turmeric powder",
+            "2 tablespoons peanuts",
+            "1/2 teaspoon mustard seeds",
+            "1/2 teaspoon cumin seeds",
+            "1 large potato, diced",
+            "1 teaspoon green chilies, chopped",
+            "1 onion, finely chopped",
+            "8 to 9 curry leaves",
+            "2 to 3 tablespoons coriander leaves",
+            "2 tablespoons olive oil",
+            "Lemon juice for serving"
+          ]}
+        />
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Poha Delight: Quick Wholesome Breakfast Recipe!</title>
+          <title>
+            Traditional Poha Recipe | Easy Indian Flattened Rice Breakfast | Fearless Vegetarian
+          </title>
           <link rel="canonical" href="https://fearlessvegetarian.netlify.app/poha" />
           <meta
             name="description"
@@ -42,12 +73,18 @@ class Poha extends Component {
           <meta property="og:image" content="https://fearlessvegetarian.netlify.app/poha.jpg" />
           <meta property="og:description" content="Experience a quick and wholesome breakfast with our flavorful Poha Delight recipe! Perfect for a delicious start to your day." />
         </Helmet>
-        <h1>The word Poha refers to 2 things – the first one is the ingredient flattened rice itself and the second one is the Poha recipe or the dish that is made with this particular ingredient</h1>
+        <h1>Traditional Indian Poha Recipe (Flattened Rice Breakfast)</h1>
+
+        <p>
+          Poha is a popular Indian breakfast dish made with flattened rice, potatoes,
+          peanuts, curry leaves, and aromatic spices. This quick, nutritious, and
+          flavorful recipe is perfect for busy mornings and can be prepared in under an hour.
+        </p>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
         </Row>
         <Row className="cooktimerow">
-          <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+          <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 35 minutes</Col>
         </Row>
         <div className="ingredients">Ingredients</div>
         <ol>
@@ -57,7 +94,7 @@ class Poha extends Component {
           <li>1/4 teaspoon turmeric powder (ground turmeric)</li>
           <li>2 tablespoons peanuts</li>
           <li>1/2 teaspoon mustard seeds</li>
-          <li>1/2 teaspoon mustard seeds</li>
+          <li>1/2 teaspoon cumin seeds</li>
           <li>1 whole potato big size or 2 potatoes small size chopped into square cubes</li>
           <li>1 teaspoon green chilies – finely chopped or 1 to 2 green chillies</li>
           <li>1 onion finely chopped</li>
@@ -84,7 +121,12 @@ class Poha extends Component {
           <li>Your Poha (thick variety flattened rice) is now ready. Squeeze some lemon juice before eating your Poha (thick variety flattened rice).</li>
         </ol>
         <h2>Final Product</h2>
-        <Image src="/poha.jpg" alt="Plate of Delicious Poha: A Quick and Wholesome Indian Breakfast Delight" thumbnail rounded fluid></Image>
+        <MediaQuery maxWidth={767}>
+          <Image src="/poha.jpg" alt="Traditional Indian poha made with flattened rice, potatoes, peanuts, and curry leaves" thumbnail rounded fluid></Image>
+        </MediaQuery>
+        <MediaQuery minWidth={767}>
+          <Image src="/poha.jpg" alt="Traditional Indian poha made with flattened rice, potatoes, peanuts, and curry leaves" thumbnail rounded fluid width="50%" height="50%"></Image>
+        </MediaQuery>
         <div>
           <h2>Poha Preparation Video</h2>
           <MediaQuery maxWidth={767}>
@@ -93,6 +135,58 @@ class Poha extends Component {
           <MediaQuery minWidth={767}>
             <YouTube videoId="2FO9-kIQs20" opts={optsDesktop} />
           </MediaQuery>
+        </div>
+        <div className="related-recipes" style={{ marginTop: "40px" }}>
+          <h2>Related Vegetarian Breakfast Recipes</h2>
+
+          <p>
+            If you enjoyed this Poha recipe, you may also enjoy these delicious
+            vegetarian breakfast and healthy meal ideas:
+          </p>
+
+          <ul className="custom-list">
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+              <Link to="/avocado" className="recipe-link">
+                Avocado Toast
+              </Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+              <Link to="/masalasandwich" className="recipe-link">
+                Bombay Masala Vegetable Sandwich
+              </Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+              <Link to="/quinoamoongdal" className="recipe-link">
+                Quinoa Moong Dal Khichdi
+              </Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+              <Link to="/couscousbalsamic" className="recipe-link">
+                Middle Eastern Couscous Salad
+              </Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+              <Link to="/potatosalad" className="recipe-link">
+                Chukauni – Nepali Yogurt Potato Salad
+              </Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+              <Link to="/yogurt" className="recipe-link">
+                Homemade Instant Pot Yogurt
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     );

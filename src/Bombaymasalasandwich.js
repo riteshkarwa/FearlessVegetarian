@@ -7,6 +7,9 @@ import Col from 'react-bootstrap/Col';
 import MediaQuery from 'react-responsive';
 import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
+import RecipeSchema from "./RecipeSchema";
+import { faUtensils } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 class Bombaymasalasandwich extends Component {
   render() {
@@ -21,6 +24,37 @@ class Bombaymasalasandwich extends Component {
     };
     return (
       <div>
+        <RecipeSchema
+          name="Bombay Masala Vegetable Sandwich"
+          description="Bombay Masala Vegetable Sandwich, also known as Mumbai Street Style Sandwich, made with bread, spiced potato masala, green chutney, onions, capsicum, and aromatic Indian spices. A crispy and flavorful vegetarian sandwich perfect for breakfast, snacks, or tea time."
+          image="https://fearlessvegetarian.netlify.app/masalasandwich.png"
+          url="https://fearlessvegetarian.netlify.app/masalasandwich"
+          prepTime="PT20M"
+          cookTime="PT10M"
+          totalTime="PT30M"
+          recipeYield="1 Serving"
+          ingredients={[
+            "2 slices bread (white or brown)",
+            "2 medium potatoes, boiled and mashed",
+            "Butter for toasting",
+            "1 small onion, sliced into rings",
+            "1 small capsicum, sliced into rings",
+            "1/2 teaspoon ginger-garlic paste",
+            "1/2 cup fresh cilantro chutney",
+            "1 green chili, finely chopped",
+            "1/2 teaspoon turmeric powder",
+            "1/2 teaspoon red chili powder",
+            "1/2 teaspoon garam masala",
+            "1/2 teaspoon cumin seeds",
+            "1 tablespoon oil",
+            "Salt to taste",
+            "Optional: cucumber slices",
+            "Optional: tomato slices",
+            "Optional: beetroot slices",
+            "Optional: onion slices",
+            "Optional: grated cheese"
+          ]}
+        />
         <Helmet>
           <meta charSet="utf-8" />
           <title>Bombay Masala Vegetable Sandwich Recipe – Irresistible Street-Style Delight</title>
@@ -49,46 +83,68 @@ class Bombaymasalasandwich extends Component {
         </Row>
         <div className="ingredients">Ingredients</div>
         <ol>
-            <li>2 slices of bread (white or brown)</li>
-            <li>2 medium potatoes (boiled & mashed)</li>
-            <li>Butter for toasting</li>
-            <li>1 small onion, sliced into rings.</li>
-            <li>1 small capsicum, sliced into rings.</li>
-            <li>1/2 tsp ginger-garlic paste</li>
-            <li>1/2 cup fresh cilantro chutney (green chutney) </li>
-            <li>1 green chili (finely chopped, optional)</li>
-            <li>1/2 tsp turmeric powder</li>
-            <li>1/2 tsp  red chili powder</li>
-            <li>1/2 tsp  garam masala</li>
-            <li>1/2 tsp cumin seeds</li>
-            <li>1 tbsp oil</li>
-            <li>Optional: sliced cucumber, tomato, onion, beetroot, grated cheese</li>
-            <li>Salt to taste</li>
+          <li>2 slices of bread (white or brown)</li>
+          <li>2 medium potatoes (boiled & mashed)</li>
+          <li>Butter for toasting</li>
+          <li>1 small onion, sliced into rings.</li>
+          <li>1 small capsicum, sliced into rings.</li>
+          <li>1/2 tsp ginger-garlic paste</li>
+          <li>1/2 cup fresh cilantro chutney (green chutney) </li>
+          <li>1 green chili (finely chopped, optional)</li>
+          <li>1/2 tsp turmeric powder</li>
+          <li>1/2 tsp  red chili powder</li>
+          <li>1/2 tsp  garam masala</li>
+          <li>1/2 tsp cumin seeds</li>
+          <li>1 tbsp oil</li>
+          <li>Optional: sliced cucumber, tomato, onion, beetroot, grated cheese</li>
+          <li>Salt to taste</li>
         </ol>
-        <div className="ingredients">Instruction</div>
+        <div className="ingredients">Instructions</div>
+        <h3>Prepare the Masala Stuffing</h3>
         <ol>
-            <h2>Prepare the masala stuffing:</h2>
-            <li>Heat oil in a pan, add cumin seeds.</li>
-            <li>Add onions, ginger-garlic paste, and sauté until golden.</li>
-            <li>Add capsicum, green chili, and cook for 2–3 minutes.</li>
-            <li>Mix in turmeric, red chili powder, garam masala, and salt.</li>
-            <li>Add boiled, mashed potatoes and mix well. Cook for 2–3 minutes.</li>
-            <li>Garnish with chopped cilantro and let the mixture cool.</li>
-            <h2>Assemble the sandwich:</h2>
-            <li>Spread butter on bread slices.</li>
-            <li>Spread green chutney on top of the buttered side.</li>
-            <li>Place a generous layer of the prepared potato masala on one slice.</li>
-            <li>Add optional veggie slices and grated cheese if desired.</li>
-            <li>Cover with another bread slice (chutney side down).</li>
-            <h2>Toast the sandwich:</h2>
-            <li>Place in a sandwich toaster or grill until golden brown and crisp.</li>
+          <li>Heat oil in a pan over medium heat and add cumin seeds.</li>
+          <li>Add onions and ginger-garlic paste. Sauté until the onions turn golden brown.</li>
+          <li>Add capsicum and green chili. Cook for 2–3 minutes.</li>
+          <li>Mix in turmeric powder, red chili powder, garam masala, and salt.</li>
+          <li>Add the boiled and mashed potatoes. Mix well and cook for 2–3 minutes.</li>
+          <li>Garnish with chopped cilantro and allow the mixture to cool.</li>
+        </ol>
+
+        <h3>Assemble the Sandwich</h3>
+        <ol>
+          <li>Spread butter evenly on the bread slices.</li>
+          <li>Spread a layer of green chutney over the buttered side.</li>
+          <li>Add a generous layer of the prepared potato masala on one slice.</li>
+          <li>Top with cucumber, tomato, onion, beetroot, or grated cheese if desired.</li>
+          <li>Cover with the second bread slice, chutney side facing down.</li>
+        </ol>
+
+        <h3>Toast the Sandwich</h3>
+        <ol>
+          <li>Place the sandwich in a sandwich maker, grill pan, or toaster.</li>
+          <li>Toast until golden brown, crisp, and heated through.</li>
+          <li>Cut into halves or quarters and serve hot with ketchup or green chutney.</li>
         </ol>
         <h2>Final Product</h2>
         <MediaQuery maxWidth={767}>
-          <Image src="masalasandwich.png" thumbnail rounded fluid></Image>
+          <Image
+            src="masalasandwich.png"
+            alt="Bombay Masala Vegetable Sandwich with green chutney, spiced potato filling, and fresh vegetables"
+            thumbnail
+            rounded
+            fluid
+          />
         </MediaQuery>
         <MediaQuery minWidth={767}>
-          <Image src="masalasandwich.png" thumbnail rounded width="50%" height="50%"></Image>
+          <Image
+            src="masalasandwich.png"
+            alt="Bombay Masala Vegetable Sandwich with green chutney, spiced potato filling, and fresh vegetables"
+            thumbnail
+            rounded
+            width="50%"
+            height="50%"
+            fluid
+          />
         </MediaQuery>
         <div>
           <h2>Bombay Masala Sandwich Video</h2>
@@ -98,6 +154,59 @@ class Bombaymasalasandwich extends Component {
           <MediaQuery minWidth={767}>
             <YouTube videoId="tzsISscoET0" opts={optsDesktop} />
           </MediaQuery>
+        </div>
+        <div className="related-recipes" style={{ marginTop: "40px" }}>
+          <h2>Related Vegetarian Recipes</h2>
+
+          <p>
+            Looking for more vegetarian breakfast, snack, and street-food recipes?
+            Try these flavorful and easy-to-make dishes that are perfect for lunch,
+            tea time, meal prep, or a quick healthy meal.
+          </p>
+
+          <ul className="custom-list">
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+              <Link to="/avocado" className="recipe-link">
+                Avocado Toast
+              </Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+              <Link to="/potatosalad" className="recipe-link">
+                Chukauni – Nepali Yogurt Potato Salad
+              </Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+              <Link to="/couscousbalsamic" className="recipe-link">
+                Middle Eastern Couscous Salad
+              </Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+              <Link to="/couscousblackbeanbowl" className="recipe-link">
+                Couscous Black Bean Bowl
+              </Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+              <Link to="/quinoamoongdal" className="recipe-link">
+                Quinoa Moong Dal Khichdi
+              </Link>
+            </li>
+
+            <li>
+              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+              <Link to="/yogurt" className="recipe-link">
+                Homemade Instant Pot Yogurt
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     );
