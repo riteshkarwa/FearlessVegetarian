@@ -7,6 +7,9 @@ import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
+import RecipeSchema from "./RecipeSchema";
+import { Link } from "react-router-dom";
+import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 
 class Broccoli extends Component {
     render() {
@@ -21,27 +24,74 @@ class Broccoli extends Component {
         };
         return (
             <div>
+                <RecipeSchema
+                    name="Creamy Broccoli Soup"
+                    description="A creamy and comforting broccoli soup made with fresh broccoli, potatoes, onions, garlic, milk, and simple seasonings. Perfect for a healthy lunch or light dinner."
+                    image="https://fearlessvegetarian.netlify.app/broccoli.jpg"
+                    url="https://fearlessvegetarian.netlify.app/broccoli"
+                    prepTime="PT15M"
+                    cookTime="PT30M"
+                    totalTime="PT45M"
+                    recipeYield="2 Servings"
+                    ingredients={[
+                        "1 large head broccoli",
+                        "1 onion diced",
+                        "1 tablespoon minced garlic",
+                        "1 medium potato peeled and diced",
+                        "1 cup milk",
+                        "2 cups water",
+                        "Salt to taste",
+                        "Black pepper to taste",
+                        "Corn flour",
+                        "Butter"
+                    ]}
+                />
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Delicious Homemade Broccoli Soup Recipe!</title>
-                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/potatobhurji" />
+
+                    <title>
+                        Creamy Broccoli Soup Recipe | Healthy Homemade Soup | Fearless Vegetarian
+                    </title>
+
+                    <link
+                        rel="canonical"
+                        href="https://fearlessvegetarian.netlify.app/broccoli"
+                    />
+
                     <meta
                         name="description"
-                        content="Delicious Homemade Broccoli Soup Recipe: Comfort in Every Spoonful!"
+                        content="Creamy homemade broccoli soup made with fresh broccoli, potatoes, onions, garlic, and milk. A healthy vegetarian comfort food recipe that is easy to prepare and packed with flavor."
                     />
+
                     <meta
                         name="keywords"
-                        content="Broccoli Soup, Homemade Recipe, Pine Nuts, Comforting Soup, Culinary Delight, Healthy Cooking, 
-                        Easy Soup Recipe, Nutritious Ingredients, Cooking Tutorial, Pine Nut Garnish, Wholesome Comfort Food, 
-                        Kitchen Delights, Soup with Texture, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan, 
-                        Flavorful Broccoli Dish, Cooking Inspiration, Simple Recipe, Cooking at Home, Tasty Broccoli Soup, 
-                        Pine Nut Crunch, Step-by-Step Cooking, Comfort Food Creations, Culinary Adventure, Delicious Soup Ideas, Soup Season, Nutty Broccoli Flavor."
+                        content="broccoli soup, creamy broccoli soup, vegetarian soup, healthy soup recipe, homemade soup, broccoli potato soup, comfort food, Fearless Vegetarian"
                     />
-                    <meta property="og:title" content="Delicious Homemade Broccoli Soup Recipe!" />
-                    <meta property="og:type" content="website" />
-                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/potatobhurji" />
-                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/potatobhurji.jpg" />
-                    <meta property="og:description" content="Delicious Homemade Broccoli Soup Recipe: Comfort in Every Spoonful!" />
+
+                    <meta
+                        property="og:title"
+                        content="Creamy Broccoli Soup Recipe | Healthy Homemade Soup"
+                    />
+
+                    <meta
+                        property="og:type"
+                        content="article"
+                    />
+
+                    <meta
+                        property="og:url"
+                        content="https://fearlessvegetarian.netlify.app/broccoli"
+                    />
+
+                    <meta
+                        property="og:image"
+                        content="https://fearlessvegetarian.netlify.app/broccoli.jpg"
+                    />
+
+                    <meta
+                        property="og:description"
+                        content="Healthy homemade broccoli soup made with broccoli, potatoes, onions, garlic, and milk for a rich and comforting meal."
+                    />
                 </Helmet>
                 <h1>Delicious homemade broccoli soup recipe.This broccoli soup is a perfect balance of nutritious ingredients and indulgent flavor, providing a comforting experience that soothes the soul. </h1>
                 <Row className="cooktimerow">
@@ -60,26 +110,53 @@ class Broccoli extends Component {
                     <li>2 Cups Water</li>
                     <li>Salt and pepper to taste</li>
                 </ol>
-                <div className="ingredients">Instruction</div>
-                <h2>White sauce Preparation</h2>
+                <h2 className="ingredients">Instructions</h2>
+
+                <h3>Prepare the White Sauce</h3>
                 <ol>
-                    <li>In a sauce pan add milk, corn flour, butter, and then turn on the flame. Keep stirring it continuously.</li>
-                    <li>Once the milk starts thickening, continuing stirring for 2 minutes and then turn off the flame.</li>
+                    <li>
+                        In a saucepan, combine milk, corn flour, and butter. Turn on the heat and stir continuously to prevent lumps from forming.
+                    </li>
+                    <li>
+                        Once the mixture begins to thicken, continue stirring for another 2 minutes, then remove it from the heat and set aside.
+                    </li>
                 </ol>
+
+                <h3>Prepare the Broccoli Soup</h3>
                 <ol>
-                    <li>Wash and chop the broccoli into florets. Peel and dice the potato, dice the onion, and mince the garlic.</li>
-                    <li>In a large pot, add diced onion, minced garlic, diced potato and 2 cups of water. Boil all the ingredients for 10 minutes</li>
-                    <li>Add the chopped broccoli, give it a stir and add water if required</li>
-                    <li>Close the lid and let it cook for 4-5 minutes.</li>
-                    <li>After 5 minutes check if the vegetables are cooked, switch off the flame.</li>
-                    <li>Take down the vessel and let it cool for 10-15 minute.</li>
-                    <li>With the help of a blender blend the vegetables into a smooth puree.</li>
-                    <li>Mix the broccoli stock with the white sauce.</li>
-                    <li> Mix well and bring it to a boil.</li>
-                    <li>Taste the soup and adjust the salt if required.</li>
+                    <li>
+                        Wash and chop the broccoli into florets. Peel and dice the potato, finely chop the onion, and mince the garlic.
+                    </li>
+                    <li>
+                        In a large pot, combine the onion, garlic, potato, and 2 cups of water. Bring to a boil and cook for 10 minutes.
+                    </li>
+                    <li>
+                        Add the broccoli florets and stir gently. Add more water if needed.
+                    </li>
+                    <li>
+                        Cover the pot and cook for 4–5 minutes, or until the broccoli is tender.
+                    </li>
+                    <li>
+                        Turn off the heat and allow the vegetables to cool for 10–15 minutes.
+                    </li>
+                    <li>
+                        Using a blender, blend the vegetables and cooking liquid into a smooth puree.
+                    </li>
+                    <li>
+                        Return the puree to the pot and stir in the prepared white sauce.
+                    </li>
+                    <li>
+                        Mix well and bring the soup to a gentle boil.
+                    </li>
+                    <li>
+                        Season with salt and black pepper to taste.
+                    </li>
+                    <li>
+                        Serve hot and enjoy your creamy homemade broccoli soup.
+                    </li>
                 </ol>
                 <h2>Final Product</h2>
-                <Image src="/broccoli.jpg" alt="Wholesome Broccoli Soup Recipe with Pine Nuts" thumbnail rounded fluid></Image>
+                <Image src="/broccoli.jpg" alt="Creamy broccoli soup made with fresh broccoli, potatoes, garlic, and milk" thumbnail rounded fluid></Image>
                 <div>
                     <h2>Broccoli Soup Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
@@ -88,6 +165,58 @@ class Broccoli extends Component {
                     <MediaQuery minWidth={767}>
                         <YouTube videoId="64gHB7n5cBw" opts={optsDesktop} />
                     </MediaQuery>
+                </div>
+                <div className="related-recipes" style={{ marginTop: "40px" }}>
+                    <h2>Related Vegetarian Recipes</h2>
+
+                    <p>
+                        If you enjoyed this creamy Broccoli Soup, you may also enjoy these
+                        healthy vegetarian recipes:
+                    </p>
+
+                    <ul className="custom-list">
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/lentil" className="recipe-link">
+                                Hearty Lentil Soup
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/quinoamoongdal" className="recipe-link">
+                                Quinoa Moong Dal Khichdi
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/couscousbalsamic" className="recipe-link">
+                                Middle Eastern Couscous Salad
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/mushroom" className="recipe-link">
+                                Punjabi Mushroom Masala Curry
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/aloogobi" className="recipe-link">
+                                Aloo Gobi (Potato Cauliflower Curry)
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/yogurt" className="recipe-link">
+                                Homemade Instant Pot Yogurt
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
         );

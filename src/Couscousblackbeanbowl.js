@@ -87,10 +87,10 @@ class Couscousblackbeanbowl  extends Component {
         </ol>
         <h2>Final Product</h2>
         <MediaQuery maxWidth={767}>
-          <Image src="couscousblackbeanbowl.png" alt="Mediterranean Magic: Easy and Flavorful Couscous Recipe for Culinary Bliss!" thumbnail rounded fluid></Image>
+          <Image src="/couscousblackbeanbowl.png" alt="Mediterranean Magic: Easy and Flavorful Couscous Recipe for Culinary Bliss!" thumbnail rounded fluid></Image>
         </MediaQuery>
         <MediaQuery minWidth={767}>
-          <Image src="couscousblackbeanbowl.png" alt="Mediterranean Magic: Easy and Flavorful Couscous Recipe for Culinary Bliss!" thumbnail rounded width="50%" height="50%"></Image>
+          <Image src="/couscousblackbeanbowl.png" alt="Mediterranean Magic: Easy and Flavorful Couscous Recipe for Culinary Bliss!" thumbnail rounded width="50%" height="50%"></Image>
         </MediaQuery>
 
         <div>

@@ -7,35 +7,35 @@
     xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
         <loc>https://fearlessvegetarian.netlify.app/</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/recipe</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/aloogobi</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/potato</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/sandwich</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/donate</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/about</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/peanutsd</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
         <image:image>
             <image:loc>
             https://fearlessvegetarian.netlify.app/anytimepotato.jpg
@@ -47,7 +47,7 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/dalmakhani</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/potatocapsicum</loc>
@@ -59,26 +59,42 @@
                 Creamy Potato Curry in Roasted Red Pepper Cashew Gravy
             </image:title>
         </image:image>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/beetroot</loc>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/saagpaneer</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/paneer</loc>
+        <image:image>
+            <image:loc>
+                https://fearlessvegetarian.netlify.app/paneer.jpg
+            </image:loc>
+            <image:title>
+                Restaurant Style Shahi Paneer Made with Paneer in Creamy Tomato Cashew Gravy
+            </image:title>
+        </image:image>
+        <lastmod>2026-06-17</lastmod>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/pavbhaji</loc>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/avocado</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/chipotle</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/besan</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/blackeyedbeans</loc>
@@ -90,51 +106,55 @@
                 Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity
             </image:title>
         </image:image>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/hakkanoodle</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/maccheese</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/khichdi</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/rajgirahalwa</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/lentil</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/couscous</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/couscousblackbeanbowl</loc>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/privacypolicy</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/contact</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/stirfry</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/upma</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/potatobhurji</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/erayba</loc>
@@ -143,29 +163,69 @@
                 https://fearlessvegetarian.netlify.app/erayba.jpg
             </image:loc>
             <image:title>
-                Indulge in the delicious fusion of flavors with our Potato and Egg Bhurji recipe.
+                Erayba Professional Vegan Hair Care Solutions for Healthy Hair
             </image:title>
         </image:image>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/riceandbeans</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/chorizorice</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/mushroom</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/curdrice</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/okra</loc>
+        <lastmod>2026-06-17</lastmod>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/wheretobegin</loc>
+        <lastmod>2026-06-17</lastmod>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/spinachbesan</loc>
+        <lastmod>2026-06-17</lastmod>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/kesarpeda</loc>
+        <lastmod>2026-06-17</lastmod>
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/cookingathome</loc>
-        <lastmod>2026-06-14</lastmod>
+        <lastmod>2026-06-17</lastmod>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/couscousbalsamic</loc>
+        <image:image>
+            <image:loc>
+                https://fearlessvegetarian.netlify.app/couscousbalsamic.jpg
+            </image:loc>
+            <image:title>
+                Middle Eastern Couscous Salad with Balsamic Vinaigrette and Fresh Vegetables
+            </image:title>
+        </image:image>
+        <lastmod>2026-06-17</lastmod>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/yogurt</loc>
+        <image:image>
+            <image:loc>
+                https://fearlessvegetarian.netlify.app/yogurt.jpg
+            </image:loc>
+            <image:title>
+                Homemade Instant Pot Yogurt – Creamy and Easy Yogurt Recipe
+            </image:title>
+        </image:image>
+        <lastmod>2026-06-17</lastmod>
     </url>
 </urlset>
