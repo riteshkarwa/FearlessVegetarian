@@ -81,6 +81,30 @@
         <lastmod>2026-06-17</lastmod>
     </url>
     <url>
+        <loc>https://fearlessvegetarian.netlify.app/ashwagandhaapplejuice</loc>
+        <image:image>
+            <image:loc>
+            https://fearlessvegetarian.netlify.app/ashwagandhaapplejuice.jpg
+        </image:loc>
+            <image:title>
+                Ashwagandha Apple Juice with Chaat Masala – Refreshing Wellness Drink
+            </image:title>
+        </image:image>
+        <lastmod>2026-06-17</lastmod>
+    </url>
+    <url>
+        <loc>https://fearlessvegetarian.netlify.app/masalasandwich</loc>
+        <image:image>
+            <image:loc>
+            https://fearlessvegetarian.netlify.app/masalasandwich.png
+        </image:loc>
+            <image:title>
+                Bombay Masala Vegetable Sandwich with Green Chutney and Spiced Potato Filling
+            </image:title>
+        </image:image>
+        <lastmod>2026-06-17</lastmod>
+    </url>
+    <url>
         <loc>https://fearlessvegetarian.netlify.app/pavbhaji</loc>
         <lastmod>2026-06-17</lastmod>
     </url>
@@ -134,6 +158,14 @@
     </url>
     <url>
         <loc>https://fearlessvegetarian.netlify.app/couscousblackbeanbowl</loc>
+        <image:image>
+            <image:loc>
+            https://fearlessvegetarian.netlify.app/couscousblackbeanbowl.png
+        </image:loc>
+            <image:title>
+                Couscous Black Bean Bowl with Enchilada Sauce and Red Bell Peppers
+            </image:title>
+        </image:image>
         <lastmod>2026-06-17</lastmod>
     </url>
     <url>
