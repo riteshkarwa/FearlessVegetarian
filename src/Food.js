@@ -400,5 +400,13 @@ export const Food = [
         card_text: "A refreshing wellness drink made with fresh apples, ashwagandha powder, cinnamon, lemon juice, and chaat masala. Packed with flavor and perfect for a healthy start to your day.",
         card_href: "/ashwagandhaapplejuice",
         button_title: "Ashwagandha Apple Juice Recipe"
+    },
+    {
+        id: 50,
+        card_img: "/soojihalwa.jpg",
+        card_title: "Sooji Halwa (Rava Sheera)",
+        card_text: "A soft, rich and aromatic Indian dessert made with roasted semolina, ghee, sugar, and cardamom. Perfect for festivals, prasad, or quick sweet cravings.",
+        card_href: "/soojihalwa",
+        button_title: "Sooji Halwa Recipe"
     }
 ]

@@ -1,63 +1,187 @@
 import React, { Component } from "react";
-import Image from 'react-bootstrap/Image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock } from '@fortawesome/free-regular-svg-icons';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Image from "react-bootstrap/Image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from "@fortawesome/free-regular-svg-icons";
+import { faUtensils } from "@fortawesome/free-solid-svg-icons";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 class Chipotle extends Component {
     render() {
+        const recipeSchema = {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Homemade Chipotle Bowl",
+            "description":
+                "Easy homemade Chipotle-style bowl with rice, roasted vegetables, guacamole, beans, salsa, and cheese. A healthy and flavorful Mexican-inspired meal.",
+            "image": "https://fearlessvegetarian.netlify.app/chipotle.jpg",
+            "prepTime": "PT20M",
+            "cookTime": "PT40M",
+            "totalTime": "PT1H",
+            "recipeYield": "4 servings",
+            "recipeCategory": "Main Course",
+            "recipeCuisine": "Mexican-inspired",
+            "recipeIngredient": [
+                "Avocados",
+                "Tomatoes",
+                "Onions",
+                "Red bell peppers",
+                "Yellow bell peppers",
+                "Rice",
+                "Pinto beans",
+                "Salsa",
+                "Sour cream",
+                "Cheese blend",
+                "Lettuce"
+            ]
+        };
+
         return (
             <div>
-                <h1>Chipotle Bowl super easy to make and taste so much better than actual Chipotle Restaurant</h1>
+                {/* ✅ SEO */}
+                <Helmet>
+                    <title>Homemade Chipotle Bowl Recipe – Easy & Healthy Burrito Bowl</title>
+
+                    <link
+                        rel="canonical"
+                        href="https://fearlessvegetarian.netlify.app/chipotle"
+                    />
+
+                    <meta
+                        name="description"
+                        content="Make a delicious homemade Chipotle bowl with rice, roasted vegetables, guacamole, beans, and salsa. Healthy, easy, and better than restaurant style."
+                    />
+
+                    <meta
+                        name="keywords"
+                        content="chipotle bowl, burrito bowl recipe, mexican bowl, vegetarian chipotle bowl, healthy rice bowl, guacamole bowl, easy dinner recipe"
+                    />
+
+                    <meta property="og:title" content="Homemade Chipotle Bowl Recipe" />
+                    <meta
+                        property="og:description"
+                        content="Healthy and flavorful Chipotle-style bowl made at home with fresh ingredients."
+                    />
+                    <meta
+                        property="og:image"
+                        content="https://fearlessvegetarian.netlify.app/chipotle.jpg"
+                    />
+                    <meta
+                        property="og:url"
+                        content="https://fearlessvegetarian.netlify.app/chipotle"
+                    />
+
+                    {/* ✅ Recipe Schema */}
+                    <script type="application/ld+json">
+                        {JSON.stringify(recipeSchema)}
+                    </script>
+                </Helmet>
+
+                {/* ✅ H1 + Paragraph */}
+                <h1>Easy Homemade Chipotle Bowl – Better Than Restaurant Style</h1>
+
+                <p>
+                    This homemade Chipotle bowl is packed with roasted vegetables, creamy
+                    guacamole, seasoned rice, beans, and fresh toppings. A healthy,
+                    customizable, and flavor-packed meal perfect for lunch or dinner.
+                </p>
+
+                {/* ✅ Cook Time + Yield */}
                 <Row className="cooktimerow">
-                    <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 4 Servings</Col>
+                    <Col>
+                        <span className="material-symbols-outlined">
+                            restaurant_menu
+                        </span>{" "}
+                        Yields: 4 Servings
+                    </Col>
                 </Row>
+
                 <Row className="cooktimerow">
-                    <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+                    <Col>
+                        <FontAwesomeIcon icon={faClock} /> Cooking Time: 60 minutes
+                    </Col>
                 </Row>
+
+                {/* ✅ Ingredients */}
                 <div className="ingredients">Ingredients</div>
                 <ol>
-                    <li>5 Whole Avocado </li>
-                    <li>2 whole Tomato </li>
-                    <li>2 whole Onion</li>
-                    <li>2 Red and 2 Yellow peppers</li>
-                    <li>1 pot of Rice cooked</li>
-                    <li>2 spoonful of sour cream</li>
-                    <li>Bag of Mexican style 4 cheese Kraft Natural Cheese</li>
-                    <li>Bottle of Mild Pace Salsa</li>
-                    <li>Can of vegetarian Pinto Beans</li>
-                    <li>Iceberg Lettuce chopped to add to the Chipotle Bowl</li>
+                    <li>5 Whole Avocados</li>
+                    <li>2 Tomatoes</li>
+                    <li>2 Onions</li>
+                    <li>2 Red & 2 Yellow Bell Peppers</li>
+                    <li>Cooked Rice (1 pot)</li>
+                    <li>Sour Cream</li>
+                    <li>Mexican 4 Cheese Blend</li>
+                    <li>Mild Salsa</li>
+                    <li>Pinto Beans (1 can)</li>
+                    <li>Iceberg Lettuce</li>
                 </ol>
+
+                {/* ✅ Instructions */}
                 <div className="ingredients">Instruction</div>
-                <h2>Roasting peppers and onions</h2>
+
+                <h2>Roasting Peppers and Onions</h2>
                 <ol>
-                    <li>Preheat your oven to 400 degrees Fahrenheit's</li>
-                    <li>Start slicing the bell peppers and onions. The onions will shrivel up more than the peppers.
-                        If you want them more tender and not crispy you’ll want to cut them a bit larger so they can cook at the same time as the peppers.</li>
-                    <li>Once the vegetables are sliced we place them onto a baking sheet and toss with oil and Fajita mix seasoning. Bake the peppers in a single layer for 20 minutes</li>
-                    <li>Toss after 20 minutes and then roast for another 10 minutes</li>
+                    <li>Preheat oven to 400°F (200°C).</li>
+                    <li>Slice peppers and onions evenly.</li>
+                    <li>Toss with oil and fajita seasoning.</li>
+                    <li>Roast for 20 minutes, toss, then roast another 10 minutes.</li>
                 </ol>
+
                 <h2>Guacamole Mix</h2>
                 <ol>
-                    <li>In a large bowl, combine the avocados, onion and tomatoes finely chopped, lime juice, salt, little mild pace salsa. </li>
-                    <li>Stir well</li>
+                    <li>Combine mashed avocados, onions, tomatoes, lime juice, salt, and salsa.</li>
+                    <li>Mix until smooth and creamy.</li>
                 </ol>
+
                 <h2>Rice</h2>
                 <ol>
-                    <li>Use the Rice cooker to cook Rice, 2 cups of rice and 3 cups of water. Serves 4 people.</li>
+                    <li>Cook 2 cups rice with 3 cups water in rice cooker.</li>
                 </ol>
-                <h2>All the ingredients prepared and ready to make the Chipotle Bowl</h2>
-                <Image src="/chipotle.jpg" thumbnail rounded fluid></Image>
-                <h2>Final step making the Chipotle Bowl</h2>
+
+                <h2>Final Assembly</h2>
                 <ol>
-                    <li>Add all the contents in a bowl: Rice, Guacamole Mix, Fajita Veggies(Roasted Onion and Peppers), Sour Cream, 4 cheese blend, vegetarian
-                        pinto beans and you have a delicious Chipotle bowl
-                    </li>
-                    <Image src="chipotle_1.jpg" thumbnail rounded fluid></Image>
+                    <li>Add rice, beans, guacamole, roasted veggies, lettuce, sour cream, and cheese to a bowl.</li>
+                    <li>Mix gently and serve fresh.</li>
                 </ol>
 
+                {/* ✅ Images */}
+                <h2>Final Dish</h2>
+                <Image src="/chipotle.jpg" thumbnail rounded fluid />
 
+                <h2>Plated Bowl</h2>
+                <Image src="/chipotle_1.jpg" thumbnail rounded fluid />
+
+                {/* ✅ Related Links */}
+                <div className="related-recipes" style={{ marginTop: "40px" }}>
+                    <h2>Related Vegetarian Recipes</h2>
+
+                    <ul className="custom-list">
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
+                            <Link to="/couscousblackbeanbowl" className="recipe-link">
+                                Couscous Black Bean Bowl
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils}  className="bullet-icon"/>{" "}
+                            <Link to="/quinoamoongdal" className="recipe-link">Quinoa Moong Dal Khichdi</Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon"/>{" "}
+                            <Link to="/dhokla" className="recipe-link">Khaman Dhokla</Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />{" "}
+                            <Link to="/couscousbalsamic" className="recipe-link">Couscous Salad</Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
         );
     }

@@ -184,7 +184,7 @@ class CookingAtHome extends Component {
                 <h2>Why Home Cooking Matters</h2>
 
                 <p>
-                    Home cooking is more than preparing food—it's an investment in your long-term
+                    Home cooking is more than preparing food, it's an investment in your long-term
                     health, finances, and happiness. Even cooking just a few meals each week can
                     help you build healthier habits, discover new flavors, and spend more quality
                     time with loved ones.

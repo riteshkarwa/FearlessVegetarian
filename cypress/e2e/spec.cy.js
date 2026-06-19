@@ -10,12 +10,12 @@ describe('Fearless Vegetarian webpage testing', () => {
     });
   })
 
-  it('search for a dish on recipe page',() =>{
+  it('search for a dish on recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/recipe')
     cy.get('input#recipe-search').type('mushroom')
     cy.contains('Delicious Homemade Mushroom Masala Curry Recipe').click()
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).to.contain('Mushroom Masala recipe is an easy, delicious Punjabi style one-pot mushroom curry');
+      expect($ele.text().trim()).to.contain('Punjabi Mushroom Masala Curry');
     });
   })
 
@@ -32,17 +32,17 @@ describe('Fearless Vegetarian webpage testing', () => {
       expect($ele.text().trim()).to.contain("Discover a flavorful Potato Curry cooked in a creamy roasted red bell pepper and cashew sauce");
     });
   })
-  
+
   it('visit Poha recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/poha')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("The word Poha refers to 2 things – the first one is the ingredient flattened rice itself and the second one is the Poha recipe or the dish that is made with this particular ingredient");
+      expect($ele.text().trim()).equal("Traditional Indian Poha Recipe (Flattened Rice Breakfast)");
     });
   })
 
   it('visit Khaman Dhokla recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/dhokla')
-    cy.get('h1').should('contain.text','Khaman Dhokla is a delectable and spongy snack that originates from the western part of India');
+    cy.get('h1').should('contain.text', 'Khaman Dhokla is a delectable and spongy snack that originates from the western part of India');
   })
 
   it('visit Upma recipe page', () => {
@@ -102,14 +102,14 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('visit CurdRice recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/curdrice')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Curd rice is a South Indian dish made with precooked rice, Curd (Indian Yogurt), herbs and tempering spices. It is more often eaten by South Indians as a part of the meal, all round the year. Apart from being gut healthy, Curd rice is also a comforting summer food which keeps the body cool.");
+      expect($ele.text().trim()).equal("South Indian Curd Rice (Yogurt Rice)");
     });
   })
 
   it('visit Okra recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/okra')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Okra Dish made by adding onions and tomato. This Okra Dish tastes great and has very unique flavors that come from caramelizing the onions at the first stage and then frying more diced onions on a high heat at the second stage.");
+      expect($ele.text().trim()).equal("Bhindi Masala (Okra Curry) with Onions, Tomatoes and Indian Spices");
     });
   })
 
@@ -169,17 +169,17 @@ describe('Fearless Vegetarian webpage testing', () => {
 
   it('visit Homemade Yogurt recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/yogurt')
-    cy.get('h1').should('contain.text', `Although an Instant Pot isn't required to make yogurt, it simplifies the process and consistently delivers great results`);
+    cy.get('h1').should('contain.text', `Homemade Instant Pot Yogurt (Easy & Creamy)`);
   });
 
   it('visit Couscous Black Bean Bowl recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/couscousblackbeanbowl')
-    cy.get('h1').should('contain.text', 'Try this delicious Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper');
+    cy.get('h1').should('contain.text', 'Couscous Black Bean Bowl with Enchilada Sauce and Red Bell Pepper');
   });
 
   it('visit Khicdi recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/khichdi')
-    cy.get('h1').should('contain.text', 'Khichdi is a comforting and mild South Asian stew typically made with moong dal lentils and rice.');
+    cy.get('h1').should('contain.text', 'Moong Dal Khichdi: Easy One-Pot Indian Comfort Food');
   });
 
   it('visit Eggpplant Curry  recipe page', () => {
@@ -187,3 +187,4 @@ describe('Fearless Vegetarian webpage testing', () => {
     cy.get('h1').should('contain.text', 'Mashed Eggpplant Curry, a popular dish from North India, is made with roasted mashed eggplant sauteed in onion, garlic, tomatoes, and Indian spices.');
   });
 })
+
