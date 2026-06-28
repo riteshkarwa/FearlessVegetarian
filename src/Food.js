@@ -1,412 +1,410 @@
 export const Food = [
     {
-        "id": 1,
+        id: 1,
         card_img: "/avocado.jpg",
-        card_title: "Avocado Toast",
-        card_text: "Super easy and delicious Avocado Toast. Takes roughly 15 minutes to make. Good breakfast option if you have a busy schedule",
+        card_title: "Easy Avocado Toast",
+        card_text: "A healthy and delicious avocado toast recipe that's ready in just 15 minutes. Perfect for a quick, nutritious breakfast, brunch, or light snack.",
         card_href: "/avocado",
-        button_title: "Avocado Toast Recipe"
+        button_title: "View Recipe"
     },
     {
-        "id": 2,
+        id: 2,
         card_img: "/sandwich.jpg",
-        card_title: "Loaded Vegetable Sandwich also known as Bombay Sandwich",
-        card_text: "Enjoy our Bombay Vegetable Sandwich: easy, filling, and bursting with street-style flavors! A delightful blend of vegetables and spices, bringing the street-style experience to your plate.",
+        card_title: "Bombay Vegetable Sandwich (Mumbai Street Style)",
+        card_text: "Enjoy an authentic Mumbai-style vegetable sandwich layered with fresh vegetables, green chutney, cheese, and bold Indian street-food flavors.",
         card_href: "/sandwich",
-        button_title: "Bombay Sandwich Recipe"
+        button_title: "View Recipe"
     },
     {
-        "id": 3,
+        id: 3,
         card_img: "/peanutsd.jpg",
-        card_title: "Peanut Butter Toast with Apple slices and Cinnamon Sugar",
-        card_text: "Peanut Butter Toast with Apple Slices and Cinnamon Sugar: A delicious and filling treat, super easy to make for a satisfying snack or breakfast.",
+        card_title: "Peanut Butter Toast with Apple & Cinnamon",
+        card_text: "This protein-rich peanut butter toast topped with fresh apple slices and cinnamon sugar makes a quick, healthy breakfast or satisfying snack.",
         card_href: "/peanutsd",
-        button_title: "Peanut Butter Toast Recipe"
+        button_title: "View Recipe"
     },
     {
-        "id": 4,
+        id: 4,
         card_img: "/potatocapsicum.jpg",
         card_title: "Potato Curry with Roasted Red Pepper Sauce",
-        card_text: "Potato Curry with Roasted Red Pepper Sauce, Seasoned with Indian Spices. Takes roughly 45 minutes to cook.",
+        card_text: "A flavorful Indian potato curry cooked in a rich roasted red pepper sauce with aromatic spices. Perfect with rice, naan, or roti.",
         card_href: "/potatocapsicum",
-        button_title: "Potato Curry with Roasted Red Pepper Sauce Recipe"
+        button_title: "View Recipe"
     },
     {
-        "id": 5,
+        id: 5,
         card_img: "/beetroot.jpg",
-        card_title: "Beetroot Curry with Coconut Milk Served with Rice",
-        card_text: "The Beetroot Curry with Coconut Milk is quick and easy to make for a weeknight dinner or a summertime party at home.",
+        card_title: "Beetroot Coconut Curry",
+        card_text: "Creamy beetroot curry made with coconut milk and warm Indian spices. A wholesome vegetarian meal that's perfect with steamed rice.",
         card_href: "/beetroot",
-        button_title: "Beetroot Curry Recipe"
+        button_title: "View Recipe"
     },
     {
-        "id": 6,
+        id: 6,
         card_img: "/anytimepotato.jpg",
-        card_title: "Anytime Potato Seasoned with Indian Spices served with Vegan Sausage",
-        card_text: "Anytime Potato along with Vegan Sausage is my favorite go to meal, can be made for breakfast, lunch, and dinner.",
+        card_title: "Indian Spiced Potatoes with Vegan Sausage",
+        card_text: "Crispy Indian-style potatoes served with vegan sausage for a hearty meal that's perfect for breakfast, lunch, or dinner.",
         card_href: "/potato",
-        button_title: "Anytime Potato Recipe"
+        button_title: "View Recipe"
     },
     {
-        "id": 7,
+        id: 7,
         card_img: "/chipotle_1.jpg",
-        card_title: "Chipotle Bowl",
-        card_text: "Appetizing Chipotle Bowl easy to make for get together or party.",
+        card_title: "Chipotle-Inspired Vegetarian Bowl",
+        card_text: "A flavorful vegetarian bowl loaded with rice, beans, vegetables, and fresh toppings. Great for meal prep, lunch, or dinner.",
         card_href: "/chipotle",
-        button_title: "Chipotle Bowl Recipe"
+        button_title: "View Recipe"
     },
     {
-        "id": 8,
+        id: 8,
         card_img: "/blackeyedbeans.jpg",
-        card_title: "Black Eyed Peas Curry (Lobia Masala)",
-        card_text: "Tasty Black eyed beans are rich in fiber and protein, which make them an excellent energy source.",
+        card_title: "Black-Eyed Peas Curry (Lobia Masala)",
+        card_text: "Nutritious black-eyed peas simmered in a rich tomato and onion gravy with authentic Indian spices. High in protein and fiber.",
         card_href: "/blackeyedbeans",
-        button_title: "Black Eyed Beans Recipe"
-
+        button_title: "View Recipe"
     },
     {
-        "id": 9,
+        id: 9,
         card_img: "/mac.jpg",
-        card_title: "Macaroni and Cheese baked in a casserole dish",
-        card_text: "Macaroni and Cheese baked in a casserole dish. Recipe is simple and delicious! ",
+        card_title: "Baked Macaroni and Cheese",
+        card_text: "Creamy homemade macaroni and cheese baked until golden and bubbly. An easy comfort food recipe the whole family will enjoy.",
         card_href: "/maccheese",
-        button_title: "Macaroni and Cheese Recipe"
-
+        button_title: "View Recipe"
     },
     {
-        "id": 10,
+        id: 10,
         card_img: "/lentil.jpg",
-        card_title: "Lentil Soup Masoor Dal",
-        card_text: "Masoor Dal is a  protein rich lentil widely known as Red lentils. These have a high nutrition profile similar to that of meat.",
+        card_title: "Masoor Dal (Red Lentil Soup)",
+        card_text: "A comforting Indian red lentil soup packed with protein, fiber, and warming spices. An easy one-pot meal for any day of the week.",
         card_href: "/lentil",
-        button_title: "Lentil Soup Masoor Dal Recipe"
-
+        button_title: "View Recipe"
     },
     {
-        "id": 11,
+        id: 11,
         card_img: "/couscous.jpg",
-        card_title: "Pearl Couscous Dish",
-        card_text: "Super easy Couscous Dish with tofu, feta, cherry tomatoes and kalamata olives",
+        card_title: "Pearl Couscous Salad with Tofu & Feta",
+        card_text: "A quick and refreshing couscous salad made with tofu, feta cheese, cherry tomatoes, and kalamata olives.",
         card_href: "/couscous",
-        button_title: "Couscous Recipe"
-
+        button_title: "View Recipe"
     },
     {
-        "id": 12,
+        id: 12,
         card_img: "/dalmakhani.jpg",
-        card_title: "Authentic Dal Makhani – Slow Cooked Punjabi Lentils",
-        card_text: "Dal Makhani is a popular North Indian Dish where black lentils and red kidney beans are slow cooked with spices and butter",
+        card_title: "Authentic Dal Makhani – Slow Cooked Punjabi Style",
+        card_text: "Creamy and rich Dal Makhani made with black lentils and kidney beans, slow cooked with butter and aromatic spices.",
         card_href: "/dalmakhani",
-        button_title: "Dal Makhani Recipe"
-
+        button_title: "View Recipe"
     },
     {
-        "id": 13,
+        id: 13,
         card_img: "/stirfry.jpg",
-        card_title: "Stir Fry Vegetables in Teriyaki Sauce",
-        card_text: "Stir fry vegetables recipe uses Mandarin Teriyaki Sauce. It is super easy to make. For protein you can use Tofu or Tempeh",
+        card_title: "Vegetable Stir Fry in Teriyaki Sauce",
+        card_text: "A quick and healthy stir fry loaded with vegetables tossed in a flavorful teriyaki sauce. Add tofu or tempeh for protein.",
         card_href: "/stirfry",
-        button_title: "Stir Fry Vegetables Recipe"
-
+        button_title: "View Recipe"
     },
     {
-        "id": 14,
+        id: 14,
         card_img: "/potatobhurji.jpg",
-        card_title: "Anytime Potato Egg Bhurji Combo",
-        card_text: "Indian style scrambled eggs can be prepared in a few minutes, thus is a quick and healthy fix for your busy weeknight dinner or breakfast. Adding anytime potato makes it a good filling meal",
+        card_title: "Aloo Egg Bhurji – Spiced Potato & Egg Scramble",
+        card_text: "A quick Indian-style scrambled egg dish combined with spiced potatoes for a filling breakfast or dinner option.",
         card_href: "/potatobhurji",
-        button_title: "Anytime Potato Egg Bhurji Combo Recipe"
-
+        button_title: "View Recipe"
     },
     {
         id: 15,
         card_img: "/mustardsandwich.jpg",
-        card_title: "Cheese mustard veggie sandwich with Broccoli sprouts",
-        card_text: "Delicious and Refreshing Cheese mustard veggie sandwich for Game nights",
+        card_title: "Mustard Veggie Sandwich with Broccoli Sprouts",
+        card_text: "A fresh and flavorful sandwich made with cheese, mustard, veggies, and crunchy broccoli sprouts.",
         card_href: "/mustardsandwich",
-        button_title: "Cheese mustard veggie sandwich with broccoli sprouts Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 16,
         card_img: "/saagpaneer.jpg",
-        card_title: "Saag Paneer – Creamy Spinach and Indian Cottage Cheese Curry",
-        card_text: "Saag Panner is a popular vegetarian dish consisting of panner(Indian cheese) in a smooth , delicious and creamy spinach gravy.",
+        card_title: "Saag Paneer – Creamy Spinach & Cottage Cheese Curry",
+        card_text: "A classic North Indian dish made with soft paneer cubes cooked in a smooth, spiced spinach gravy.",
         card_href: "/saagpaneer",
-        button_title: "Saag Paneer Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 17,
         card_img: "/upma.jpg",
-        card_title: "Upma Dish made from Rava also called cream of wheat or semolina flour",
-        card_text: "Upma is a flavorful, tasty, savory and popular South Indian breakfast that is made with cream of wheat or semolina flour (called rava or suji), Urad dal, nuts, herbs and spices.",
+        card_title: "South Indian Upma – Savory Semolina Breakfast",
+        card_text: "A traditional South Indian breakfast made with semolina, lentils, nuts, and aromatic spices.",
         card_href: "/upma",
-        button_title: "Upma Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 18,
         card_img: "/pavbhaji.jpg",
-        card_title: "Pav Bhaji Dish from the street of Mumbai to you.",
-        card_text: "Pav Bhaji is an iconic dish from Mumbai. This Pav Bhaji Recipe is going to make you fall in love with it.",
+        card_title: "Mumbai Pav Bhaji – Spiced Vegetable Curry",
+        card_text: "A famous Mumbai street food made with buttery spiced vegetable mash served with toasted buns.",
         card_href: "/pavbhaji",
-        button_title: "Pav Bhaj Recipe"
-
+        button_title: "View Recipe"
     },
     {
         id: 19,
         card_img: "/aloogobi.jpg",
-        card_title: "Aloo Gobi – North Indian Potato and Cauliflower Curry",
-        card_text: "Aloo gobi (potatoes & cauliflower) is a popular Indian dish in which potatoes and cauliflower are cooked with onions, tomatoes and spices.",
+        card_title: "Aloo Gobi – Indian Potato & Cauliflower Curry",
+        card_text: "A simple and flavorful North Indian curry made with potatoes, cauliflower, tomatoes, and spices.",
         card_href: "/aloogobi",
-        button_title: "Potato Cauliflower Recipe"
-
+        button_title: "View Recipe"
     },
     {
         id: 20,
         card_img: "/paratha.jpg",
-        card_title: "Aloo Paratha potato stuffed flatbread Dish",
-        card_text: "Indian Aloo Paratha – whole wheat pan-fried flatbread stuffed with a spicy potato filling.This paratha is best enjoyed with yogurt, pickle, butter and a side of chai!",
+        card_title: "Aloo Paratha – Stuffed Indian Flatbread",
+        card_text: "Whole wheat flatbread stuffed with spiced mashed potatoes, best served with yogurt, pickle, and butter.",
         card_href: "/paratha",
-        button_title: "Aloo Paratha Recipe"
-
+        button_title: "View Recipe"
     },
     {
         id: 21,
         card_img: "/shakshuka.jpg",
-        card_title: "Shakshuka Chickpea Dish",
-        card_text: "Shakshuka is basically a dish featuring chickpeas in tomato sauce, and it’s also incredibly easy to prepare, with simple pantry staples and a couple of fresh ingredients.",
+        card_title: "Chickpea Shakshuka in Spiced Tomato Sauce",
+        card_text: "A hearty and flavorful chickpea shakshuka simmered in a spiced tomato sauce with simple pantry ingredients.",
         card_href: "/shakshuka",
-        button_title: "Shakshuka Chickpea Recipie"
+        button_title: "View Recipe"
     },
     {
         id: 22,
         card_img: "/hakkanoodle.jpg",
-        card_title: "Hakka Noodle Dish",
-        card_text: "Hakka Noodles is a popular Indo-Chinese dish of stir fried noodles, vegetables and sauces.",
+        card_title: "Hakka Noodles – Indo-Chinese Stir Fry",
+        card_text: "A popular Indo-Chinese dish made with stir-fried noodles, crunchy vegetables, and savory sauces.",
         card_href: "/hakkanoodle",
-        button_title: "Hakka Noodle Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 23,
         card_img: "/khichdi.jpg",
-        card_title: "Moong Dal Khichdi Dish",
-        card_text: "This Khichdi is a light and easy to digest Indian dish made with rice and moong dal. Nutritious and light on the tummy.",
+        card_title: "Moong Dal Khichdi – Light Comfort Meal",
+        card_text: "A simple and nutritious Indian dish made with rice and moong dal, light on the stomach and easy to digest.",
         card_href: "/khichdi",
-        button_title: "Moong Dal Khichdi Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 24,
         card_img: "/poha.jpg",
-        card_title: "Poha (Thick flattened Rice) Dish",
-        card_text: "Poha is a light and nutritious breakfast dish is made by mixing beaten rice with spices, curry leaves and seasonings. In addition to this, onions, potatoes or both onions and potatoes can also be added.",
+        card_title: "Poha – Light Indian Breakfast",
+        card_text: "Flattened rice cooked with spices, curry leaves, onions, and optional potatoes for a quick and healthy breakfast.",
         card_href: "/poha",
-        button_title: "Poha Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 25,
         card_img: "/okra.jpg",
-        card_title: "Bhindi Masala (Okra Curry with Onions and Tomatoes)",
-        card_text: "Roti + Okra = pure comfort food for me! I can pretty much have this combination for the rest of my life.",
+        card_title: "Bhindi Masala – Okra Curry with Onions & Tomatoes",
+        card_text: "A comforting Indian okra curry cooked with onions, tomatoes, and aromatic spices.",
         card_href: "/okra",
-        button_title: "Okra Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 26,
         card_img: "/curdrice.jpg",
-        card_title: "Curd Rice or Dahi Rice Dish",
-        card_text: "Curd rice is a South Indian dish made with precooked rice, Curd (Indian Yogurt), herbs and tempering spices.",
+        card_title: "Curd Rice – South Indian Yogurt Rice",
+        card_text: "A cooling South Indian dish made with rice, yogurt, herbs, and tempered spices.",
         card_href: "/curdrice",
-        button_title: "Curd Rice Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 27,
         card_img: "/eggplant.jpg",
-        card_title: "Mashed Eggplant Dish",
-        card_text: "Roasted eggplant seasoned with Indian spices, is a very popular dish in North India",
+        card_title: "Mashed Eggplant – Spiced Baingan Bharta",
+        card_text: "Smoky roasted eggplant mashed and cooked with Indian spices for a rich and flavorful dish.",
         card_href: "/eggplant",
-        button_title: "Eggplant Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 28,
         card_img: "/brownlentils.jpg",
-        card_title: "Whole Masoor Dal Curry also known as Brown Lentils",
-        card_text: "Enjoy this delicious and healthy Whole Masoor Dal, also known as Brown Lentils Curry, made in the Instant Pot",
+        card_title: "Whole Masoor Dal – Brown Lentil Curry",
+        card_text: "A wholesome and protein-rich brown lentil curry made in the Instant Pot with aromatic spices.",
         card_href: "/brownlentils",
-        button_title: "Whole Masoor Dal  Brown Lentil Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 29,
         card_img: "/besan.jpg",
-        card_title: "Chickpea Flour Curry also known as Besan",
-        card_text: "Enjoy this delicious and healthy Chickpea Flour also known as Besan.",
+        card_title: "Besan Curry – Chickpea Flour Gravy",
+        card_text: "A flavorful North Indian curry made with chickpea flour simmered in spiced yogurt-based gravy.",
         card_href: "/besan",
-        button_title: "Chickpea Flour Curry Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 30,
         card_img: "/cabbage.jpg",
-        card_title: "Cabbage Curry",
-        card_text: "Cabbage Curry is a simple recipe that offers lots of complex flavors. From the pungent garlic and onion to the intense Indian spices, this dish will wow you.",
+        card_title: "Cabbage Curry – Spiced Indian Sabzi",
+        card_text: "A simple yet flavorful cabbage curry cooked with garlic, onions, and aromatic Indian spices.",
         card_href: "/cabbage",
-        button_title: "Cabbage Curry Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 31,
         card_img: "/yogurt.jpg",
         card_title: "Homemade Instant Pot Yogurt",
-        card_text: "Instant Pot Yogurt, Not only is it easy it’ll add a new spark to your love affair with yogurt! ",
+        card_text: "Creamy homemade yogurt made easily in the Instant Pot. Simple, healthy, and perfect for everyday use.",
         card_href: "/yogurt",
-        button_title: "Instant Pot Yogurt Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 32,
         card_img: "/onion.jpg",
-        card_title: "Onion Curry",
-        card_text: "Onion Curry is one of those recipes which is very easy and quick to make. Not only it is easy, this recipe also taste great with Roti (Indian Bread), rice and dal",
+        card_title: "Easy Onion Curry – Simple Indian Sabzi",
+        card_text: "A quick and flavorful onion curry that pairs perfectly with roti, rice, or dal.",
         card_href: "/onion",
-        button_title: "Onion Curry Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 33,
         card_img: "/dhokla.jpg",
-        card_title: "Khaman Dhokla Dish",
-        card_text: "Delicious Chickpea Flour Snack Cake - Khaman Dhokla. It's made from chickpea flour and has a light, airy texture with a mildly tangy and slightly sweet flavor",
+        card_title: "Khaman Dhokla – Soft Chickpea Flour Snack",
+        card_text: "A light and fluffy steamed snack made from chickpea flour with a mildly tangy and slightly sweet flavor.",
         card_href: "/dhokla",
-        button_title: "Khaman Dhokla Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 34,
         card_img: "/rajmah.jpg",
-        card_title: "Red Kidney Beans Curry",
-        card_text: "Rajma is the Indian name for kidney beans. These are soaked, cooked & then simmered with onions, tomatoes & spices to make the dish, Rajma masala.",
+        card_title: "Rajma Masala – Red Kidney Bean Curry",
+        card_text: "A comforting North Indian curry made with kidney beans simmered in a spiced onion-tomato gravy.",
         card_href: "/rajmah",
-        button_title: "Red Kidney Bean Curry Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 35,
         card_img: "/ricebeans.jpg",
-        card_title: "Zesty Mexican Rice with Black Beans, Corn, and Peppers",
-        card_text: "Zesty Mexican Rice with Black Beans, Corn, and Peppers: A Flavorful Fiesta in Every Bite recipe instructions",
+        card_title: "Mexican Rice with Black Beans, Corn & Peppers",
+        card_text: "A vibrant and flavorful rice dish loaded with black beans, corn, peppers, and spices.",
         card_href: "/riceandbeans",
-        button_title: "Mexican Rice with Black Beans Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 36,
         card_img: "/sagopearls.jpg",
-        card_title: "Sabudana Khichdi – a pilaf/pulao made with Sago Pearls",
-        card_text: "Sabudana Khichdi – a pilaf/pulao made with Sago Pearls is a  vegan and gluten-free dish is extremely popular in India during the fasting season",
+        card_title: "Sabudana Khichdi – Sago Pearl Pilaf",
+        card_text: "A light and gluten-free Indian dish made with sago pearls, peanuts, and mild spices.",
         card_href: "/sagopearls",
-        button_title: "Sabudana Khichdi Sago Pearls Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 37,
         card_img: "/chorizorice.jpg",
-        card_title: "One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot",
-        card_text: "One-Pot Soy Chorizo Rice, Flavorful Feast, Simple and Quick Dish, Beans, Corn, Bell Pepper, Jalapeño, Garlic, Fresh Vegetables, Frozen Vegetables",
+        card_title: "One-Pot Soy Chorizo Rice",
+        card_text: "A hearty one-pot rice dish cooked with soy chorizo, vegetables, beans, and bold spices.",
         card_href: "/chorizorice",
-        button_title: "One-Pot Soy Chorizo Rice Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 38,
         card_img: "/broccoli.jpg",
-        card_title: "Delicious Homemade Broccoli Soup",
-        card_text: "Wholesome Broccoli Soup Recipe with Pine Nuts",
+        card_title: "Creamy Broccoli Soup",
+        card_text: "A wholesome and comforting broccoli soup made with simple ingredients and a creamy texture.",
         card_href: "/broccoli",
-        button_title: "Delicious Homemade Broccoli Soup Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 39,
         card_img: "/mushroom.jpg",
-        card_title: "Savory Delight: Mushroom Masala Curry",
-        card_text: "Savor Punjab's rich flavors with our one-pot mushroom masala curry",
+        card_title: "Mushroom Masala Curry",
+        card_text: "A rich and flavorful mushroom curry cooked in a spiced onion-tomato gravy.",
         card_href: "/mushroom",
-        button_title: "Delicious Homemade Mushroom Masala Curry Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 40,
         card_img: "/paneer.jpg",
-        card_title: "Succulent Shahi Paneer: Creamy Delight",
-        card_text: "Indulge in the rich flavors of Shahi Paneer, a creamy delight featuring soft, pillowy paneer floating in a luscious gravy",
+        card_title: "Shahi Paneer – Creamy Royal Indian Curry",
+        card_text: "A rich and creamy North Indian curry made with soft paneer in a luxurious gravy.",
         card_href: "/paneer",
-        button_title: "Delicious Shahi Paneer Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 41,
         card_img: "/spinachbesan.jpg",
-        card_title: "Spinach Gram Flour Curry",
-        card_text: "Explore the delightful fusion of flavors in Palak Besan Ki Sabji, a unique and exceptional dish from Indian cuisine",
+        card_title: "Palak Besan – Spinach Gram Flour Curry",
+        card_text: "A comforting Indian curry made with spinach and gram flour, rich in flavor and nutrients.",
         card_href: "/spinachbesan",
-        button_title: "Spinach Gram Flour Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 42,
         card_img: "/rajgirahalwa.jpg",
-        card_title: "Rajgira Halwa",
-        card_text: "Learn how to make Rajgira Halwa, a rich and flavorful dessert made with amaranth flour, ghee, and jaggery. Perfect for Navratri, fasting (vrat) days, or as a wholesome sweet treat.",
+        card_title: "Rajgira Halwa – Amaranth Flour Dessert",
+        card_text: "A rich and wholesome fasting dessert made with amaranth flour, ghee, and jaggery.",
         card_href: "/rajgirahalwa",
-        button_title: "Rajgira Halwa Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 43,
         card_img: "/couscousblackbeanbowl.png",
-        card_title: "Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper",
-        card_text: "Try this delicious Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper – a wholesome, protein-packed meal full of fiber, flavor, and nutrients.",
+        card_title: "Couscous Black Bean Bowl with Enchilada Sauce",
+        card_text: "A protein-rich bowl featuring couscous, black beans, vegetables, and a flavorful enchilada sauce.",
         card_href: "/couscousblackbeanbowl",
-        button_title: "Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 44,
         card_img: "/masalasandwich.png",
-        card_title: "Bombay Vegetable Sandwich: Irresistible Street-Style Delight",
-        card_text: "Savor the authentic taste of Mumbai with this Bombay Masala Vegetable Sandwich recipe",
+        card_title: "Bombay Veg Sandwich – Street Style Masala Toast",
+        card_text: "A classic Mumbai street-style sandwich layered with spiced vegetables and chutneys.",
         card_href: "/masalasandwich",
-        button_title: "Bombay Vegetable Sandwich Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 45,
         card_img: "/potatosalad.png",
-        card_title: "Chukauni—a traditional Nepali yogurt and potato salad",
-        card_text: "Discover how to make Chukauni, a classic Nepali yogurt and potato salad",
+        card_title: "Chukauni – Nepali Yogurt Potato Salad",
+        card_text: "A traditional Nepali salad made with potatoes, yogurt, and simple spices.",
         card_href: "/potatosalad",
-        button_title: "Chukauni—a traditional Nepali yogurt and potato salad Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 46,
         card_img: "/quinoamoongdal.jpg",
-        card_title: "Quinoa Moong Dal Khichdi Recipe: Healthy & Comforting One-Pot Meal",
-        card_text: "Learn how to make Quinoa Moong Dal Khichdi—a wholesome, protein-rich, and comforting Indian dish made with quinoa, yellow moong dal, spices, and vegetables. Perfect for a light lunch or dinner",
+        card_title: "Quinoa Moong Dal Khichdi – Healthy One-Pot Meal",
+        card_text: "A nutritious and comforting khichdi made with quinoa, moong dal, spices, and vegetables.",
         card_href: "/quinoamoongdal",
-        button_title: "Quinoa Moong Dal Khichdi Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 47,
         card_img: "/kesarpeda.jpg",
-        card_title: "Kesar Peda Recipe - Easy Saffron Milk Fudge with Milk Powder and Condensed Milk",
-        card_text: "Learn how to make rich and flavorful Kesar Peda at home with saffron, milk powder, and condensed milk",
+        card_title: "Kesar Peda – Saffron Milk Fudge",
+        card_text: "A traditional Indian sweet made with milk powder, saffron, and condensed milk.",
         card_href: "/kesarpeda",
-        button_title: "Kesar Peda Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 48,
         card_img: "/couscousbalsamic.jpg",
-        card_title: "Middle Eastern Couscous Salad with Toasted Walnuts & Balsamic Vinaigrette",
-        card_text: "Experience an explosion of rich, earthy flavors in every bite. This Middle Eastern-inspired couscous salad combines fluffy couscous, crunchy vegetables, fresh herbs, and toasted walnuts, all brought together with a tangy balsamic vinaigrette.",
+        card_title: "Couscous Salad with Walnuts & Balsamic Dressing",
+        card_text: "A refreshing salad with couscous, vegetables, toasted walnuts, and tangy balsamic vinaigrette.",
         card_href: "/couscousbalsamic",
-        button_title: "Couscous Salad with Toasted Walnuts Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 49,
         card_img: "/ashwagandhaapplejuice.png",
-        card_title: "Ashwagandha Apple Chaat Masala Juice",
-        card_text: "A refreshing wellness drink made with fresh apples, ashwagandha powder, cinnamon, lemon juice, and chaat masala. Packed with flavor and perfect for a healthy start to your day.",
+        card_title: "Ashwagandha Apple Juice – Wellness Drink",
+        card_text: "A refreshing health drink made with apple, ashwagandha, lemon, cinnamon, and chaat masala.",
         card_href: "/ashwagandhaapplejuice",
-        button_title: "Ashwagandha Apple Juice Recipe"
+        button_title: "View Recipe"
     },
     {
         id: 50,
         card_img: "/soojihalwa.jpg",
-        card_title: "Sooji Halwa (Rava Sheera)",
-        card_text: "A soft, rich and aromatic Indian dessert made with roasted semolina, ghee, sugar, and cardamom. Perfect for festivals, prasad, or quick sweet cravings.",
+        card_title: "Sooji Halwa – Rava Sheera Dessert",
+        card_text: "A classic Indian dessert made with roasted semolina, ghee, sugar, and cardamom.",
         card_href: "/soojihalwa",
-        button_title: "Sooji Halwa Recipe"
+        button_title: "View Recipe"
+    },
+    {
+        id: 51,
+        card_img: "/moongdalkhichdi.png",
+        card_title: "Moong Dal Khichdi – Healthy Indian Comfort Food",
+        card_text: "A light and nutritious one-pot Indian meal made with rice, moong dal, and aromatic spices. Easy to digest and perfect for any day.",
+        card_href: "/moongdalkhichdi",
+        button_title: "View Recipe"
     }
 ]
