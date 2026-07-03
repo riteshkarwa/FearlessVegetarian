@@ -135,7 +135,10 @@ ol li {
   font-size: 25px;
 }
 
+
 .bullet-icon {
-  color: #e67e22;
-  font-size: 25px;
+  color: #28a745;
+  margin-right: 10px;
+  margin-top: 3px;
+  flex-shrink: 0;
 }
