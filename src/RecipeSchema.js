@@ -11,17 +11,28 @@ const RecipeSchema = ({
   totalTime = "PT45M",
   recipeYield = "2 servings",
   ingredients = [],
+  instructions = [],
+  keywords = "",
+  recipeCategory = "Main Course",
+  recipeCuisine = "Indian",
+  video = "",
+  nutrition = null,
+  datePublished = "",
 }) => {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Recipe",
+
     name,
     description,
     image: [image],
+    url,
+
     author: {
       "@type": "Organization",
       name: "Fearless Vegetarian",
     },
+
     publisher: {
       "@type": "Organization",
       name: "Fearless Vegetarian",
@@ -30,15 +41,46 @@ const RecipeSchema = ({
         url: "https://fearlessvegetarian.netlify.app/logo.png",
       },
     },
-    url,
+
     prepTime,
     cookTime,
     totalTime,
+
     recipeYield,
-    recipeCategory: "Vegetarian",
-    recipeCuisine: "Indian",
+    recipeCategory,
+    recipeCuisine,
+
+    keywords,
+
     recipeIngredient: ingredients,
+
+    recipeInstructions: instructions.map((step) => ({
+      "@type": "HowToStep",
+      text: step,
+    })),
   };
+
+  if (video) {
+    schema.video = {
+      "@type": "VideoObject",
+      name,
+      description,
+      thumbnailUrl: image,
+      contentUrl: video,
+      embedUrl: video,
+    };
+  }
+
+  if (nutrition) {
+    schema.nutrition = {
+      "@type": "NutritionInformation",
+      ...nutrition,
+    };
+  }
+
+  if (datePublished) {
+    schema.datePublished = datePublished;
+  }
 
   return (
     <Helmet>

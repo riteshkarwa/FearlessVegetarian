@@ -26,28 +26,56 @@ class Aloogobi extends Component {
             <div>
                 <RecipeSchema
                     name="Aloo Gobi (Indian Potato and Cauliflower Curry)"
-                    description="A classic North Indian curry made with potatoes, cauliflower, tomatoes, onions, and aromatic spices."
+                    description="Classic North Indian potato and cauliflower curry."
                     image="https://fearlessvegetarian.netlify.app/aloogobi.jpg"
                     url="https://fearlessvegetarian.netlify.app/aloogobi"
+
                     prepTime="PT20M"
                     cookTime="PT40M"
                     totalTime="PT60M"
+
                     recipeYield="2 Servings"
+
+                    recipeCategory="Main Course"
+                    recipeCuisine="Indian"
+
+                    keywords="Aloo Gobi, Indian Curry, Potato Curry, Cauliflower Curry"
+
+                    video="https://www.youtube.com/watch?v=zCoLryH0mDk"
+
+                    instructions={[
+                        "Bake the potatoes and cauliflower.",
+                        "Prepare onion tomato puree.",
+                        "Cook the spices.",
+                        "Add roasted vegetables.",
+                        "Simmer for 10 minutes.",
+                        "Serve hot."
+                    ]}
+
+                    nutrition={{
+                        calories: "280 calories",
+                        proteinContent: "8 g",
+                        carbohydrateContent: "35 g",
+                        fatContent: "11 g"
+                    }}
+
                     ingredients={[
                         "1 large potato",
                         "1 lb cauliflower florets",
                         "1 onion",
                         "2 tomatoes",
                         "3 garlic cloves",
-                        "2 inch ginger",
-                        "Cumin seeds",
-                        "Coriander powder",
-                        "Turmeric powder",
-                        "Red chili powder",
-                        "Garam masala",
-                        "Cardamom pods",
-                        "Amchoor powder",
-                        "Salt"
+                        "2-inch piece ginger",
+                        "1 teaspoon cumin seeds",
+                        "1 tablespoon coriander powder",
+                        "1/4 teaspoon turmeric powder",
+                        "1/4 teaspoon red chili powder",
+                        "1 tablespoon garam masala",
+                        "2 cardamom pods",
+                        "1/4 teaspoon amchoor powder",
+                        "5 cloves",
+                        "2 tablespoons olive oil",
+                        "Salt to taste"
                     ]}
                 />
                 <Helmet>
@@ -96,7 +124,7 @@ class Aloogobi extends Component {
 
                     <meta name="robots" content="index, follow" />
                 </Helmet>
-                <h1>Aloo Gobi (Indian Potato and Cauliflower Curry)</h1>
+                <h1>Authentic Aloo Gobi Recipe (Indian Potato & Cauliflower Curry)</h1>
                 <p>
                     Aloo Gobi is one of the most popular vegetarian dishes in Indian cuisine.
                     Made with tender potatoes, roasted cauliflower, tomatoes, onions, and
@@ -109,6 +137,17 @@ class Aloogobi extends Component {
                     Cauliflower is rich in fiber, vitamin C, and antioxidants, while potatoes
                     provide energy and important nutrients like potassium and vitamin B6.
                     Together they create a nutritious and satisfying vegetarian meal.
+                </p>
+                <h2>Why You'll Love This Recipe</h2>
+
+                <p>
+                    This Aloo Gobi is naturally vegan, gluten-free, and packed with bold Indian flavors. Roasting the potatoes and cauliflower before simmering them in the masala creates incredible texture and deeper flavor.
+                </p>
+
+                <h2>Serving Suggestions</h2>
+
+                <p>
+                    Serve with fresh roti, garlic naan, jeera rice, or plain basmati rice. Pair it with yogurt or cucumber raita for a complete meal.
                 </p>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
