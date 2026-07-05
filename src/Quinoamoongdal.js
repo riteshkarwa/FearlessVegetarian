@@ -9,6 +9,7 @@ import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Link } from "react-router-dom";
 import { faUtensils } from '@fortawesome/free-solid-svg-icons';
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema";
 
 class Quinoamoongdal extends Component {
