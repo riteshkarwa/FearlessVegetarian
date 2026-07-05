@@ -9,6 +9,7 @@ import MediaQuery from 'react-responsive';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import RecipeSchema from "./RecipeSchema";
 
 class Rajmah extends Component {
     render() {
@@ -23,27 +24,152 @@ class Rajmah extends Component {
         };
         return (
             <div>
+                <RecipeSchema
+                    name="Rajma Masala (Indian Kidney Bean Curry)"
+                    description="Authentic Punjabi Rajma Masala made with red kidney beans, onions, tomatoes, garlic, ginger, and aromatic Indian spices. A healthy vegetarian curry served with rice or naan."
+                    image="https://fearlessvegetarian.netlify.app/rajmah.jpg"
+                    url="https://fearlessvegetarian.netlify.app/rajmah"
+
+                    prepTime="PT15M"
+                    cookTime="PT45M"
+                    totalTime="PT60M"
+
+                    recipeYield="2 Servings"
+
+                    recipeCategory="Main Course"
+                    recipeCuisine="Indian"
+
+                    keywords="Rajma Masala, Kidney Bean Curry, Punjabi Rajma, Indian Curry, Vegetarian Dinner"
+
+                    video="https://www.youtube.com/watch?v=QROugaifSsE"
+
+                    instructions={[
+                        "Soak rajma overnight.",
+                        "Pressure cook until soft.",
+                        "Prepare onion tomato masala.",
+                        "Add spices and cooked rajma.",
+                        "Simmer for 15 minutes.",
+                        "Serve hot with rice."
+                    ]}
+
+                    nutrition={{
+                        calories: "330 calories",
+                        proteinContent: "15 g",
+                        carbohydrateContent: "45 g",
+                        fatContent: "9 g"
+                    }}
+
+                    ingredients={[
+                        "1 cup dried kidney beans",
+                        "2 tablespoons oil",
+                        "1 onion",
+                        "2 tomatoes",
+                        "2 teaspoons ginger garlic paste",
+                        "2 green chilies",
+                        "1 teaspoon cumin seeds",
+                        "1 teaspoon coriander powder",
+                        "1/2 teaspoon turmeric",
+                        "1 teaspoon red chili powder",
+                        "1 teaspoon garam masala",
+                        "Salt",
+                        "Fresh cilantro"
+                    ]}
+                />
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Soulful Rajmah Indian Curry: A Symphony of Flavors and Tradition</title>
-                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/rajmah" />
+
+                    <title>
+                        Rajma Masala Recipe | Authentic Punjabi Kidney Bean Curry | Fearless Vegetarian
+                    </title>
+
+                    <link
+                        rel="canonical"
+                        href="https://fearlessvegetarian.netlify.app/rajmah"
+                    />
+
                     <meta
                         name="description"
-                        content="Embark on a culinary journey with our Rajmah Indian Curry recipe. Immerse yourself in the rich and aromatic flavors of this traditional dish, featuring kidney beans cooked to perfection in a blend of savory Indian spices. Elevate your dining experience with this hearty and wholesome curry, perfect for pairing with rice or naan. Explore the essence of Indian cuisine and delight your taste buds with our Rajmah Curry – a symphony of authentic flavors that bring warmth and comfort to every bite."
+                        content="Learn how to make authentic Punjabi Rajma Masala with kidney beans, onions, tomatoes, ginger, garlic, and Indian spices. An easy vegetarian comfort food recipe served with rice or naan."
                     />
+
                     <meta
                         name="keywords"
-                        content="rajmah curry, Indian kidney bean curry, traditional Indian recipes, authentic Indian cuisine, 
-                        savory curry dishes, Indian spices, wholesome vegetarian curry, aromatic Indian flavors, kidney beans, Indian comfort food, curry and rice, vegan curry, 
-                        5 whistles pressure cooker, classic Indian cooking, rajmah masala, homemade Indian meals,
-                        Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
+                        content="rajma recipe, rajma masala, kidney bean curry, Punjabi rajma, Indian curry recipe, vegetarian Indian recipes, healthy kidney beans, Fearless Vegetarian"
                     />
+
+                    <meta property="og:title"
+                        content="Rajma Masala Recipe | Authentic Punjabi Kidney Bean Curry"
+                    />
+
+                    <meta property="og:type" content="article" />
+
+                    <meta property="og:url"
+                        content="https://fearlessvegetarian.netlify.app/rajmah"
+                    />
+
+                    <meta property="og:image"
+                        content="https://fearlessvegetarian.netlify.app/rajmah.jpg"
+                    />
+
+                    <meta
+                        property="og:description"
+                        content="Authentic Punjabi Rajma Masala made with kidney beans simmered in a rich onion tomato gravy and aromatic Indian spices."
+                    />
+
+                    <meta name="robots" content="index, follow" />
                 </Helmet>
-                <h1>Rajma is the Indian name for kidney beans. These are soaked, cooked & then simmered
-                    with onions, tomatoes & spices to make the dish, Rajma masala.
-                    Rajma are fat free and have many benefits since they are high in fiber, folate and
-                    magnesium. High fiber promotes digestive tract health, folate & magnesium makes them
-                    a heart healthy food. Considering these benefits kidney beans are widely eaten in India.</h1>
+                <h1>Rajma Masala (Punjabi Kidney Bean Curry)</h1>
+                <p>
+                    Rajma Masala is one of North India's most loved comfort foods.
+                    Made with protein-rich kidney beans simmered in a flavorful onion,
+                    tomato, ginger, garlic, and spice gravy, this hearty vegetarian curry
+                    pairs perfectly with steamed basmati rice, jeera rice, roti, or naan.
+                </p>
+                <h2>Health Benefits of Rajma</h2>
+
+                <p>
+                    Kidney beans are packed with plant-based protein, fiber, iron,
+                    magnesium, potassium, and antioxidants. Rajma is a filling,
+                    nutritious meal that supports digestion, heart health, and
+                    steady energy levels.
+                </p>
+                <h2>Serving Suggestions</h2>
+
+                <p>
+                    Rajma Masala tastes even better when served with:
+                </p>
+
+                <ul className="custom-list">
+                    <li>
+                        <FontAwesomeIcon icon={faLeaf} className="bullet-icon" />
+                        Steamed Basmati Rice
+                    </li>
+
+                    <li>
+                        <FontAwesomeIcon icon={faLeaf} className="bullet-icon" />
+                        Jeera Rice
+                    </li>
+
+                    <li>
+                        <FontAwesomeIcon icon={faLeaf} className="bullet-icon" />
+                        Fresh Roti
+                    </li>
+
+                    <li>
+                        <FontAwesomeIcon icon={faLeaf} className="bullet-icon" />
+                        Butter Naan
+                    </li>
+
+                    <li>
+                        <FontAwesomeIcon icon={faLeaf} className="bullet-icon" />
+                        Onion Salad
+                    </li>
+
+                    <li>
+                        <FontAwesomeIcon icon={faLeaf} className="bullet-icon" />
+                        Mango Pickle
+                    </li>
+                </ul>
                 <Row className="cooktimerow">
                     <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Servings</Col>
                 </Row>
@@ -84,10 +210,10 @@ class Rajmah extends Component {
                 </ol>
                 <h2>Final Product</h2>
                 <MediaQuery maxWidth={767}>
-                    <Image src="/rajmah.jpg" alt="Soulful Rajmah Indian Curry:" thumbnail rounded fluid></Image>
+                    <Image src="/rajmah.jpg" alt="Authentic Punjabi Rajma Masala made with kidney beans in a rich tomato onion gravy" thumbnail rounded fluid></Image>
                 </MediaQuery>
                 <MediaQuery minWidth={767}>
-                    <Image src="/rajmah.jpg" alt="Soulful Rajmah Indian Curry:" thumbnail rounded width="50%" height="50%"></Image>
+                    <Image src="/rajmah.jpg" alt="Authentic Punjabi Rajma Masala made with kidney beans in a rich tomato onion gravy" thumbnail rounded width="50%" height="50%"></Image>
                 </MediaQuery>
                 <div>
                     <h2>Rajmah Preparation Video</h2>
@@ -99,7 +225,7 @@ class Rajmah extends Component {
                     </MediaQuery>
                 </div>
                 <div className="related-recipes" style={{ marginTop: "40px" }}>
-                    <h2>Related Vegetarian Recipes</h2>
+                    <h2>More Indian Curry Recipes You'll Love</h2>
                     <p>
                         If you enjoyed this hearty Rajmah (Kidney Bean Curry), you may also like:
                     </p>
@@ -156,6 +282,9 @@ class Rajmah extends Component {
                         </li>
                     </ul>
                 </div>
+                <p>
+                    Rajma Masala is a classic Punjabi comfort food that's easy to prepare and full of flavor. Whether served with steamed rice, jeera rice, roti, or naan, this protein-rich kidney bean curry makes a satisfying vegetarian meal for lunch or dinner.
+                </p>
 
             </div>
         );
