@@ -210,7 +210,7 @@ class Quinoamoongdal extends Component {
                         If you enjoyed this Quinoa Moong Dal Khichdi, you may also like these healthy vegetarian recipes:
                     </p>
 
-                    <ul style={{ listStyle: "none", paddingLeft: 0 }}>
+                    <ul className="custom-list" >
                         <li style={{ marginBottom: "10px" }}>
                             <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
                             <Link to="/khichdi" className="recipe-link">Traditional Moong Dal Khichdi</Link>
