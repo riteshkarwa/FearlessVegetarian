@@ -212,27 +212,27 @@ class Quinoamoongdal extends Component {
 
                     <ul style={{ listStyle: "none", paddingLeft: 0 }}>
                         <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faUtensils} style={{ marginRight: "10px" }} />
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
                             <Link to="/khichdi" className="recipe-link">Traditional Moong Dal Khichdi</Link>
                         </li>
 
                         <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faUtensils} style={{ marginRight: "10px" }} />
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
                             <Link to="/dalmakhani" className="recipe-link">Dal Makhani – Creamy Punjabi Lentils</Link>
                         </li>
 
                         <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faUtensils} style={{ marginRight: "10px" }} />
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon"/>
                             <Link to="/lentil" className="recipe-link">Masoor Dal (Red Lentil Curry)</Link>
                         </li>
 
                         <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faUtensils} style={{ marginRight: "10px" }} />
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
                             <Link to="/blackeyedbeans" className="recipe-link">Black Eyed Peas Curry</Link>
                         </li>
 
                         <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faUtensils} style={{ marginRight: "10px" }} />
+                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
                             <Link to="/upma" className="recipe-link">South Indian Upma</Link>
                         </li>
                     </ul>
