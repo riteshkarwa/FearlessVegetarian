@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {Route, Routes} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Recipe from "./Recipe";
 import Home from "./Home";
 import Potato from "./Potato";
@@ -65,14 +65,15 @@ import AshwagandhaAppleJuice from "./Ashwagandhaapplejuice";
 import CookingAtHome from "./Cookingathome"
 import SoojiHalwa from "./Soojihalwa";
 import MoongDalKhichdi from "./Moongdalkhicdi";
+import Masalachai from "./Masalachai";
 
 
 class Main extends Component {
   onClick = (e) => {
     e.preventDefault()
   }
-  render(){
-    return(
+  render() {
+    return (
       <Container className="p-3">
         <div>
           <div>
@@ -85,7 +86,7 @@ class Main extends Component {
           </div>
           <Navbar collapseOnSelect expand="false" bg="dark" variant="dark" defaultExpanded>
             <Container>
-              <Navbar.Brand onClick={this.onClick} style={{cursor: 'default'}}>Fearless Vegetarian</Navbar.Brand>
+              <Navbar.Brand onClick={this.onClick} style={{ cursor: 'default' }}>Fearless Vegetarian</Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
@@ -121,49 +122,50 @@ class Main extends Component {
             <Route exact path="/lentil" element={< Lentil />}></Route>
             <Route exact path="/couscous" element={< Couscous />}></Route>
             <Route exact path="/dalmakhani" element={< DalMakhani />}></Route>
-            <Route exact path="/privacypolicy"  element={< Privacypolicy />}></Route>
+            <Route exact path="/privacypolicy" element={< Privacypolicy />}></Route>
             <Route exact path="/contact" element={< ContactForm />}></Route>
             <Route exact path="/stirfry" element={< Stirfry />}></Route>
             <Route exact path="/potatobhurji" element={< Potatobhurji />}></Route>
             <Route exact path="/mustardsandwich" element={< Mustardsandwich />}></Route>
-            <Route exact path="/saagpaneer" element={ <Saagpaneer />}></Route>
-            <Route exact path="/upma" element={ <Upma/>}></Route>
-            <Route exact path="/pavbhaji" element={ <Pavbhaji />}></Route>
-            <Route exact path="/aloogobi" element={ <Aloogobi />}></Route>
-            <Route exact path="/paratha" element={ <Alooparatha />}></Route>
-            <Route exact path="/shakshuka" element={ <Shakshuka />}></Route>
-            <Route exact path="/hakkanoodle" element = {<Hakkanoodle/>}></Route>
-            <Route exact path="/khichdi" element = {<Khichdi/>}></Route>
-            <Route exact path="/poha" element= {<Poha />}></Route>
-            <Route exact path="/okra" element= {<Okra />}></Route>
-            <Route exact path="/curdrice" element= {<Curdrice />}></Route>
-            <Route exact path="/eggplant" element= {<Eggplant/>}></Route>
-            <Route exact path="/brownlentils" element= {<Brownlentils/>}></Route>
-            <Route exact path="/besan" element= {<Besan/>}></Route>
-            <Route exact path="/cabbage" element= {<Cabbage/>}></Route>
-            <Route exact path="/yogurt" element= {<Yogurt />}></Route>
-            <Route exact path="/onion" element= {<Onion/>}></Route>
-            <Route exact path="/dhokla" element={<Dhokla/>}></Route>
-            <Route exact path="/rajmah" element={<Rajmah/>}></Route>
-            <Route exact path="/riceandbeans" element={<Riceandbeans/>}></Route>
-            <Route exact path="/sagopearls" element={<Sagopearls/>}></Route>
-            <Route exact path="/chorizorice" element={<Chorizorice/>}></Route>
-            <Route exact path="/broccoli" element={<Broccoli/>}></Route>
-            <Route exact path="/mushroom" element={<Mushroom/>}></Route>
-            <Route exact path="/paneer" element={<Shahipaneer/>}></Route>
-            <Route exact path="/spinachbesan" element={<Spinachbesan/>}></Route>
-            <Route exact path="/rajgirahalwa" element={<RajgiraHalwa/>}></Route>
-            <Route exact path="/couscousblackbeanbowl" element={<Couscousblackbeanbowl/>}></Route>
-            <Route exact path="/masalasandwich" element={<Bombaymasalasandwich/>}></Route>
-            <Route exact path="/quinoamoongdal" element={<Quinoamoongdal/>}></Route>
-            <Route exact path="/potatosalad" element={<Potatosalad/>}></Route>
-            <Route exact path="/kesarpeda" element={<Kesarpeda/>}></Route>
-            <Route exact path="/erayba" element={<Erayba/>}></Route>
-            <Route exact path="/couscousbalsamic" element={<BalsamicVinaigretteDish/>}></Route>
-            <Route exact path="/ashwagandhaapplejuice" element={<AshwagandhaAppleJuice/>}></Route>
-            <Route exact path="/soojihalwa" element={<SoojiHalwa/>}></Route>
-            <Route exact path="/moongdalkhichdi" element={<MoongDalKhichdi/>}></Route>
-            <Route path='*' element={<Notfound />}/>
+            <Route exact path="/saagpaneer" element={<Saagpaneer />}></Route>
+            <Route exact path="/upma" element={<Upma />}></Route>
+            <Route exact path="/pavbhaji" element={<Pavbhaji />}></Route>
+            <Route exact path="/aloogobi" element={<Aloogobi />}></Route>
+            <Route exact path="/paratha" element={<Alooparatha />}></Route>
+            <Route exact path="/shakshuka" element={<Shakshuka />}></Route>
+            <Route exact path="/hakkanoodle" element={<Hakkanoodle />}></Route>
+            <Route exact path="/khichdi" element={<Khichdi />}></Route>
+            <Route exact path="/poha" element={<Poha />}></Route>
+            <Route exact path="/okra" element={<Okra />}></Route>
+            <Route exact path="/curdrice" element={<Curdrice />}></Route>
+            <Route exact path="/eggplant" element={<Eggplant />}></Route>
+            <Route exact path="/brownlentils" element={<Brownlentils />}></Route>
+            <Route exact path="/besan" element={<Besan />}></Route>
+            <Route exact path="/cabbage" element={<Cabbage />}></Route>
+            <Route exact path="/yogurt" element={<Yogurt />}></Route>
+            <Route exact path="/onion" element={<Onion />}></Route>
+            <Route exact path="/dhokla" element={<Dhokla />}></Route>
+            <Route exact path="/rajmah" element={<Rajmah />}></Route>
+            <Route exact path="/riceandbeans" element={<Riceandbeans />}></Route>
+            <Route exact path="/sagopearls" element={<Sagopearls />}></Route>
+            <Route exact path="/chorizorice" element={<Chorizorice />}></Route>
+            <Route exact path="/broccoli" element={<Broccoli />}></Route>
+            <Route exact path="/mushroom" element={<Mushroom />}></Route>
+            <Route exact path="/paneer" element={<Shahipaneer />}></Route>
+            <Route exact path="/spinachbesan" element={<Spinachbesan />}></Route>
+            <Route exact path="/rajgirahalwa" element={<RajgiraHalwa />}></Route>
+            <Route exact path="/couscousblackbeanbowl" element={<Couscousblackbeanbowl />}></Route>
+            <Route exact path="/masalasandwich" element={<Bombaymasalasandwich />}></Route>
+            <Route exact path="/quinoamoongdal" element={<Quinoamoongdal />}></Route>
+            <Route exact path="/potatosalad" element={<Potatosalad />}></Route>
+            <Route exact path="/kesarpeda" element={<Kesarpeda />}></Route>
+            <Route exact path="/erayba" element={<Erayba />}></Route>
+            <Route exact path="/couscousbalsamic" element={<BalsamicVinaigretteDish />}></Route>
+            <Route exact path="/ashwagandhaapplejuice" element={<AshwagandhaAppleJuice />}></Route>
+            <Route exact path="/soojihalwa" element={<SoojiHalwa />}></Route>
+            <Route exact path="/moongdalkhichdi" element={<MoongDalKhichdi />}></Route>
+            <Route exact path="/masalachai" element={<Masalachai />}></Route>
+            <Route path='*' element={<Notfound />} />
           </Routes>
         </div>
       </Container>

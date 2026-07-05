@@ -406,5 +406,13 @@ export const Food = [
         card_text: "A light and nutritious one-pot Indian meal made with rice, moong dal, and aromatic spices. Easy to digest and perfect for any day.",
         card_href: "/moongdalkhichdi",
         button_title: "View Recipe"
+    },
+    {
+        id: 52,
+        card_img: "/masalachai.jpg",
+        card_title: "Ginger Cardamom Masala Chai – Authentic Indian Milk Tea",
+        card_text: "A warm and comforting Indian tea made with black tea, fresh ginger, green cardamom, milk, and sugar. Perfect for breakfast or an afternoon tea break.",
+        card_href: "/masalachai",
+        button_title: "View Recipe"
     }
 ]
