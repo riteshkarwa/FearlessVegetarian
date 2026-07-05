@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Link } from "react-router-dom";
-import { faLeaf } from '@fortawesome/free-solid-svg-icons';
+import { faUtensils } from '@fortawesome/free-solid-svg-icons';
 import RecipeSchema from "./RecipeSchema";
 
 class Quinoamoongdal extends Component {
@@ -211,27 +211,27 @@ class Quinoamoongdal extends Component {
 
                     <ul style={{ listStyle: "none", paddingLeft: 0 }}>
                         <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <FontAwesomeIcon icon={faUtensils} style={{ marginRight: "10px" }} />
                             <Link to="/khichdi" className="recipe-link">Traditional Moong Dal Khichdi</Link>
                         </li>
 
                         <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <FontAwesomeIcon icon={faUtensils} style={{ marginRight: "10px" }} />
                             <Link to="/dalmakhani" className="recipe-link">Dal Makhani – Creamy Punjabi Lentils</Link>
                         </li>
 
                         <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <FontAwesomeIcon icon={faUtensils} style={{ marginRight: "10px" }} />
                             <Link to="/lentil" className="recipe-link">Masoor Dal (Red Lentil Curry)</Link>
                         </li>
 
                         <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <FontAwesomeIcon icon={faUtensils} style={{ marginRight: "10px" }} />
                             <Link to="/blackeyedbeans" className="recipe-link">Black Eyed Peas Curry</Link>
                         </li>
 
                         <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
+                            <FontAwesomeIcon icon={faUtensils} style={{ marginRight: "10px" }} />
                             <Link to="/upma" className="recipe-link">South Indian Upma</Link>
                         </li>
                     </ul>
