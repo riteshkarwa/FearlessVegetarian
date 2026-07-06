@@ -409,7 +409,7 @@ export const Food = [
     },
     {
         id: 52,
-        card_img: "/masalachai.jpg",
+        card_img: "/masalachai.png",
         card_title: "Ginger Cardamom Masala Chai – Authentic Indian Milk Tea",
         card_text: "A warm and comforting Indian tea made with black tea, fresh ginger, green cardamom, milk, and sugar. Perfect for breakfast or an afternoon tea break.",
         card_href: "/masalachai",
