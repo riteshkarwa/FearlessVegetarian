@@ -13,7 +13,7 @@ import RecipeSchema from "./RecipeSchema";
 
 class Dhokla extends Component {
     render() {
-        const optsDesktop = { height: "800", width: "1000" };
+        const optsDesktop = { height: "720", width: "100%" };
         const optsMobile = { height: "550", width: "325" };
 
         const ingredients = [

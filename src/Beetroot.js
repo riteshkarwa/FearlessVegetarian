@@ -14,8 +14,8 @@ import RecipeSchema from "./RecipeSchema";
 class Beetroot extends Component {
   render() {
     const optsDesktop = {
-      height: '515',
-      width: '600',
+      height: '720',
+      width: '100%',
     };
 
     const optsMobile = {
@@ -146,17 +146,17 @@ class Beetroot extends Component {
 
           <ul style={{ listStyle: "none", paddingLeft: "0" }}>
             <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf}  style={{ marginRight: "10px" }} />{" "}
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />{" "}
               <Link to="/lentil" className="recipe-link">Masoor Dal (Lentil Curry)</Link>
             </li>
 
             <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf}  style={{ marginRight: "10px" }} />{" "}
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />{" "}
               <Link to="/dalmakhani" className="recipe-link">Dal Makhani</Link>
             </li>
 
             <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf}  style={{ marginRight: "10px" }}/>{" "}
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />{" "}
               <Link to="/saagpaneer" className="recipe-link">Saag Paneer</Link>
             </li>
 
@@ -166,7 +166,7 @@ class Beetroot extends Component {
             </li>
 
             <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }}/>{" "}
+              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />{" "}
               <Link to="/aloogobi" className="recipe-link">Aloo Gobi</Link>
             </li>
           </ul>

@@ -14,8 +14,8 @@ import MediaQuery from 'react-responsive';
 class Hakkanoodle extends Component {
     render() {
         const optsDesktop = {
-            height: '800',
-            width: '1000',
+            height: '720',
+            width: '100%',
         };
 
         const optsMobile = {
@@ -94,14 +94,13 @@ class Hakkanoodle extends Component {
 
                 {/* Title */}
                 <h1>
-                    Hakka Noodles is a popular Indo-Chinese dish made with stir-fried
-                    noodles, crunchy vegetables, and bold sauces.
+                    Restaurant-Style Veg Hakka Noodles Recipe
                 </h1>
                 <p>
-                    This quick and flavorful street-style recipe combines perfectly cooked noodles
-                    with garlic, ginger, soy sauce, and fresh vegetables like cabbage, carrots,
-                    and capsicum. It’s a versatile dish that can be enjoyed as a light lunch,
-                    dinner, or even a spicy evening snack.
+                    Veg Hakka Noodles is a popular Indo-Chinese street food recipe
+                    made with stir-fried noodles, crunchy vegetables, garlic,
+                    ginger, and flavorful sauces. This quick vegetarian noodle
+                    recipe is perfect for lunch, dinner, or a delicious evening snack.
                 </p>
 
                 {/* Meta */}
@@ -131,26 +130,26 @@ class Hakkanoodle extends Component {
                 {/* Instructions */}
                 <div className="ingredients">Instructions</div>
 
-                <h2>Cook Noodles</h2>
+                <h3>1. Cook Noodles</h3>
                 <ol>
                     <li>Boil noodles as per package instructions.</li>
                     <li>Drain and toss with a little oil to prevent sticking.</li>
                 </ol>
 
-                <h2>Stir Fry Vegetables</h2>
+                <h3>2. Stir Fry Vegetables</h3>
                 <ol>
                     <li>Heat oil in a wok on high flame.</li>
                     <li>Add garlic, ginger, chili, and spring onions.</li>
                     <li>Add all vegetables and stir fry quickly.</li>
                 </ol>
 
-                <h2>Add Sauces</h2>
+                <h3>3. Add Sauces</h3>
                 <ol>
                     <li>Add soy sauce, chili sauce, tomato sauce, salt, and pepper.</li>
                     <li>Mix well on high heat.</li>
                 </ol>
 
-                <h2>Combine</h2>
+                <h3>4. Combine</h3>
                 <ol>
                     <li>Add boiled noodles and vinegar.</li>
                     <li>Toss everything on high flame until well combined.</li>
