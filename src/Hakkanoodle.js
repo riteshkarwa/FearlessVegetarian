@@ -8,6 +8,8 @@ import Col from "react-bootstrap/Col";
 import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
+import YouTube from 'react-youtube';
+import MediaQuery from 'react-responsive';
 
 class Hakkanoodle extends Component {
     render() {
@@ -148,13 +150,35 @@ class Hakkanoodle extends Component {
 
                 {/* Final Image */}
                 <h2>Final Product</h2>
-                <Image
-                    src="/hakkanoodle.jpg"
-                    alt="Delicious Hakka Noodles"
-                    thumbnail
-                    rounded
-                    fluid
-                />
+                <MediaQuery maxWidth={767}>
+                    <Image
+                        src="/hakkanoodle.jpg"
+                        alt="Delicious Hakka Noodles"
+                        thumbnail
+                        rounded
+                        fluid
+                    />
+                </MediaQuery>
+                <MediaQuery minWidth={767}>
+                    <Image
+                        src="/hakkanoodle.jpg"
+                        alt="Delicious Hakka Noodles"
+                        thumbnail
+                        rounded
+                        fluid
+                        width="50%"
+                        height="50%"
+                    />
+                </MediaQuery>
+                <div>
+                    <h2>Hakka Noodle Preparation Video</h2>
+                    <MediaQuery maxWidth={767}>
+                        <YouTube videoId="hD3aiKO9DVU" opts={optsMobile} />
+                    </MediaQuery>
+                    <MediaQuery minWidth={767}>
+                        <YouTube videoId="hD3aiKO9DVU" opts={optsDesktop} />
+                    </MediaQuery>
+                </div>
 
                 {/* Related Recipes */}
                 <div className="related-recipes" style={{ marginTop: "40px" }}>
