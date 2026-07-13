@@ -13,6 +13,15 @@ import MediaQuery from 'react-responsive';
 
 class Hakkanoodle extends Component {
     render() {
+        const optsDesktop = {
+            height: '800',
+            width: '1000',
+        };
+
+        const optsMobile = {
+            height: '550',
+            width: '325',
+        };
         const ingredients = [
             "2 tbsp oil",
             "2 cloves garlic (finely chopped)",
