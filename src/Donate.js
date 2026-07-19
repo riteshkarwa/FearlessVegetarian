@@ -29,7 +29,7 @@ class Donate extends Component {
 
         {/* Hero */}
 
-        <Card className="shadow border-0 text-center mb-5">
+        <Card className="shadow border border-success text-center mb-5">
 
           <Card.Body className="p-5">
 

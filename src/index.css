@@ -142,3 +142,49 @@ ol li {
   margin-top: 3px;
   flex-shrink: 0;
 }
+
+
+.donate-page,
+.container {
+    font-size: 17px;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.card h1 {
+    font-size: 3rem;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-text {
+    line-height: 1.7;
+}
+
+.btn-lg {
+    padding: 12px 32px;
+    font-size: 18px;
+}
+
+.notfound-page {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.notfound-page img {
+    max-width: 750px;
+    border-radius: 12px;
+}
+
+.notfound-page p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.notfound-page .btn {
+    min-width: 180px;
+}
