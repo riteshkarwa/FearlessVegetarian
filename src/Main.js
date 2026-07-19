@@ -53,7 +53,7 @@ import Broccoli from "./Broccoli";
 import Mushroom from "./Mushroom";
 import Shahipaneer from "./Shahipaneer";
 import Spinachbesan from "./Spinachbesan";
-import Erayba from "./Erayba";
+import Erayba from "./articles/Erayba";
 import RajgiraHalwa from "./Rajgira";
 import Couscousblackbeanbowl from "./Couscousblackbeanbowl";
 import Bombaymasalasandwich from "./Bombaymasalasandwich";
@@ -62,10 +62,11 @@ import Quinoamoongdal from "./Quinoamoongdal";
 import Kesarpeda from "./Kesarpeda";
 import BalsamicVinaigretteDish from "./Balsamicvinaigrette";
 import AshwagandhaAppleJuice from "./Ashwagandhaapplejuice";
-import CookingAtHome from "./Cookingathome"
+import CookingAtHome from "./articles/Cookingathome"
 import SoojiHalwa from "./Soojihalwa";
 import MoongDalKhichdi from "./Moongdalkhicdi";
 import Masalachai from "./Masalachai";
+import Articles from "./Articles";
 
 
 class Main extends Component {
@@ -97,8 +98,7 @@ class Main extends Component {
                   <Nav.Link href="/contact">Contact Us</Nav.Link>
                   <Nav.Link href="/donate">Donate</Nav.Link>
                   <Nav.Link href="/wheretobegin">Where to Begin</Nav.Link>
-                  <Nav.Link href="/erayba">Erayba India</Nav.Link>
-                  <Nav.Link href="/cookingathome">Cooking At Home</Nav.Link>
+                  <Nav.Link href="/articles">Articles</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
@@ -110,7 +110,7 @@ class Main extends Component {
             <Route exact path="/sandwich" element={< Bombaysandwich />}></Route>
             <Route exact path="/donate" element={< Donate />}></Route>
             <Route exact path="/about" element={< About />}></Route>
-            <Route exact path="/cookingathome" element={< CookingAtHome />}></Route>
+            <Route exact path="/articles/cookingathome" element={< CookingAtHome />}></Route>
             <Route exact path="/wheretobegin" element={<Wheretobegin />}></Route>
             <Route exact path="/peanutsd" element={< Peanutsd />}></Route>
             <Route exact path="/potatocapsicum" element={< Potatocapsicum />}></Route>
@@ -159,12 +159,13 @@ class Main extends Component {
             <Route exact path="/quinoamoongdal" element={<Quinoamoongdal />}></Route>
             <Route exact path="/potatosalad" element={<Potatosalad />}></Route>
             <Route exact path="/kesarpeda" element={<Kesarpeda />}></Route>
-            <Route exact path="/erayba" element={<Erayba />}></Route>
+            <Route exact path="/articles/erayba" element={<Erayba />}></Route>
             <Route exact path="/couscousbalsamic" element={<BalsamicVinaigretteDish />}></Route>
             <Route exact path="/ashwagandhaapplejuice" element={<AshwagandhaAppleJuice />}></Route>
             <Route exact path="/soojihalwa" element={<SoojiHalwa />}></Route>
             <Route exact path="/moongdalkhichdi" element={<MoongDalKhichdi />}></Route>
             <Route exact path="/masalachai" element={<Masalachai />}></Route>
+            <Route exact path="/articles" element={<Articles />}></Route>
             <Route path='*' element={<Notfound />} />
           </Routes>
         </div>
