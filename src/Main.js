@@ -41,7 +41,7 @@ import Eggplant from "./Eggplant";
 import Brownlentils from "./Brownlentils";
 import Besan from "./Besan";
 import Cabbage from "./Cabbage";
-import Wheretobegin from "./Wheretobegin";
+import Wheretobegin from "./articles/Wheretobegin";
 import Yogurt from "./Yogurt";
 import Onion from "./Onion";
 import Dhokla from "./Dhokla";
@@ -97,7 +97,6 @@ class Main extends Component {
                   <Nav.Link href="/privacypolicy">Privacy Policy</Nav.Link>
                   <Nav.Link href="/contact">Contact Us</Nav.Link>
                   <Nav.Link href="/donate">Donate</Nav.Link>
-                  <Nav.Link href="/wheretobegin">Where to Begin</Nav.Link>
                   <Nav.Link href="/articles">Articles</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
@@ -111,7 +110,7 @@ class Main extends Component {
             <Route exact path="/donate" element={< Donate />}></Route>
             <Route exact path="/about" element={< About />}></Route>
             <Route exact path="/articles/cookingathome" element={< CookingAtHome />}></Route>
-            <Route exact path="/wheretobegin" element={<Wheretobegin />}></Route>
+            <Route exact path="/articles/wheretobegin" element={<Wheretobegin />}></Route>
             <Route exact path="/peanutsd" element={< Peanutsd />}></Route>
             <Route exact path="/potatocapsicum" element={< Potatocapsicum />}></Route>
             <Route exact path="/beetroot" element={< Beetroot />}></Route>
