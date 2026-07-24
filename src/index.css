@@ -146,45 +146,143 @@ ol li {
 
 .donate-page,
 .container {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .card {
-    border-radius: 12px;
+  border-radius: 12px;
 }
 
 .card h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .card-title {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .card-text {
-    line-height: 1.7;
+  line-height: 1.7;
 }
 
 .btn-lg {
-    padding: 12px 32px;
-    font-size: 18px;
+  padding: 12px 32px;
+  font-size: 18px;
 }
 
 .notfound-page {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .notfound-page img {
-    max-width: 750px;
-    border-radius: 12px;
+  max-width: 750px;
+  border-radius: 12px;
 }
 
 .notfound-page p {
-    font-size: 18px;
-    line-height: 1.8;
+  font-size: 18px;
+  line-height: 1.8;
 }
 
 .notfound-page .btn {
-    min-width: 180px;
+  min-width: 180px;
+}
+
+/* home page css */
+.hero-card {
+  border-width: 3px !important;
+  border-radius: 20px;
+  background: #fcfffc;
+}
+
+.hero-card h1 {
+  color: #198754;
+  font-weight: 700;
+}
+
+.hero-card p {
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+section {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+section h2 {
+  color: #198754;
+  font-weight: 600;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+@media (max-width:768px) {
+
+  .hero-card {
+    padding: 10px;
+  }
+
+  .hero-card h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-card .btn {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+}
+
+.border-success {
+  border-width: 2px !important;
+}
+
+.card {
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  line-height: 1.8;
+}
+
+.card h3,
+.card h4 {
+  margin-bottom: 20px;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+.recipe-card img,
+.card-img-top {
+    height:220px;
+    object-fit:cover;
+}
+
+.card {
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.card:hover {
+    transform:translateY(-5px);
+    transition:.3s ease;
+}
+
+.card-title {
+    font-weight:600;
+}
+
+.card-text {
+    line-height:1.7;
 }
