@@ -67,6 +67,7 @@ import SoojiHalwa from "./Soojihalwa";
 import MoongDalKhichdi from "./Moongdalkhicdi";
 import Masalachai from "./Masalachai";
 import Articles from "./Articles";
+import UnderstandingAyurvedicFasting from "./articles/Ayurvedicfasting";
 
 
 class Main extends Component {
@@ -165,6 +166,7 @@ class Main extends Component {
             <Route exact path="/moongdalkhichdi" element={<MoongDalKhichdi />}></Route>
             <Route exact path="/masalachai" element={<Masalachai />}></Route>
             <Route exact path="/articles" element={<Articles />}></Route>
+            <Route exact path="/articles/ayurvedicfasting" element={<UnderstandingAyurvedicFasting />}></Route>
             <Route path='*' element={<Notfound />} />
           </Routes>
         </div>

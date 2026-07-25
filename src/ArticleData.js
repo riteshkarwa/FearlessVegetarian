@@ -16,5 +16,12 @@ export const articles = [
         title: "Where to Begin Your Vegetarian Journey",
         url: "/articles/wheretobegin",
         description: "New to vegetarianism? Learn how to get started with practical tips, simple meal ideas, essential nutrition advice, and easy steps to confidently begin your vegetarian lifestyle."
+    },
+    {
+        id: 4,
+        title: "Understanding Ayurvedic Fasting",
+        url: "/articles/ayurvedicfasting",
+        description:
+            "Learn how Ayurvedic fasting supports mindful eating, digestion, and a balanced vegetarian lifestyle."
     }
 ];

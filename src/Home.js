@@ -395,7 +395,7 @@ class Home extends Component {
 
               <section>
 
-                <Card className="shadow border-0">
+                <Card className="shadow border border-2 border-success">
 
                   <Card.Body className="p-5">
 
