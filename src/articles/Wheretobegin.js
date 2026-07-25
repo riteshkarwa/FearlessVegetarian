@@ -202,15 +202,25 @@ class Wheretobegin extends Component {
                 />
 
                 <p>
+                  There are several types of vegetarian diets, each with different food choices.
+                  Fearless Vegetarian primarily focuses on the lacto-vegetarian lifestyle, which
+                  includes dairy products while excluding meat, poultry, seafood, and eggs.
+                  However, almost every vegetarian meal can be adapted into a vegan version by
+                  replacing dairy and other animal-based ingredients with plant-based alternatives.
+                </p>
 
-                  There are several types of vegetarian diets,
-                  each with different food choices.
-                  Fearless Vegetarian primarily focuses on the
-                  <strong> lacto-vegetarian </strong>
-                  lifestyle, which includes dairy products
-                  while excluding meat, poultry, seafood,
-                  and eggs.
+                <p>
+                  For example, dairy milk can be replaced with almond, oat, soy, or coconut milk.
+                  Paneer can be substituted with tofu, yogurt can be replaced with coconut or
+                  soy-based yogurt, and butter can be replaced with plant-based oils or vegan
+                  butter alternatives. Traditional dishes such as curries, dals, desserts, and
+                  snacks can all be recreated using vegan ingredients without sacrificing flavor.
+                </p>
 
+                <p>
+                  Whether you choose to follow a lacto-vegetarian or vegan lifestyle, the goal
+                  is to enjoy wholesome, flavorful meals while making choices that align with
+                  your personal health, environmental, and ethical values.
                 </p>
 
                 <Row className="g-4 mt-3">
@@ -705,25 +715,45 @@ class Wheretobegin extends Component {
 
                   </h2>
 
-                  <ul>
+                  <ul className="list-unstyled">
 
-                    <li>
+                    <li className="mb-3">
+                      <FontAwesomeIcon
+                        icon={faTriangleExclamation}
+                        className="text-warning me-2"
+                      />
                       Adding too much turmeric or chili powder.
                     </li>
 
-                    <li>
+                    <li className="mb-3">
+                      <FontAwesomeIcon
+                        icon={faTriangleExclamation}
+                        className="text-warning me-2"
+                      />
                       Cooking on very high heat all the time.
                     </li>
 
-                    <li>
+                    <li className="mb-3">
+                      <FontAwesomeIcon
+                        icon={faTriangleExclamation}
+                        className="text-warning me-2"
+                      />
                       Giving up after one unsuccessful recipe.
                     </li>
 
-                    <li>
+                    <li className="mb-3">
+                      <FontAwesomeIcon
+                        icon={faTriangleExclamation}
+                        className="text-warning me-2"
+                      />
                       Buying too many spices before learning how to use them.
                     </li>
 
-                    <li>
+                    <li className="mb-3">
+                      <FontAwesomeIcon
+                        icon={faTriangleExclamation}
+                        className="text-warning me-2"
+                      />
                       Comparing homemade food to restaurant food on your first attempt.
                     </li>
 
