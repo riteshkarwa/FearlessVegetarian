@@ -218,7 +218,9 @@ class CookingAtHome extends Component {
                                 className="mb-4 d-block mx-auto"
 
                                 style={{
-                                    maxWidth: "650px"
+                                    width: "100%",
+                                    maxWidth: "650px",
+                                    height: "auto"
                                 }}
 
                             />
