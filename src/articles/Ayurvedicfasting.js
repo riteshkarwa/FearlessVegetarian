@@ -941,88 +941,42 @@ class UnderstandingAyurvedicFasting extends Component {
 
 
                                     <h2 className="mb-4">
-
-
                                         <FontAwesomeIcon icon={faArrowRight} className="me-2 text-success" />
-
-
                                         Related Articles
-
-
                                     </h2>
 
 
 
                                     <ul className="list-unstyled">
-
-
                                         <li className="mb-3">
-
-
                                             <FontAwesomeIcon icon={faUtensils} className="text-success me-2" />
-
-
-                                            <Link to="/articles/wheretobegin">
-
+                                            <Link to="/articles/wheretobegin" className="text-decoration-none">
                                                 Where to Begin Your Vegetarian Journey
-
                                             </Link>
 
 
                                         </li>
-
-
-
 
                                         <li className="mb-3">
-
-
                                             <FontAwesomeIcon icon={faUtensils} className="text-success me-2" />
-
-
-                                            <Link to="/articles/cookingathome">
-
+                                            <Link to="/articles/cookingathome" className="text-decoration-none">
                                                 The Benefits of Cooking at Home
-
                                             </Link>
 
-
                                         </li>
-
-
-
 
                                         <li>
-
-
                                             <FontAwesomeIcon icon={faUtensils} className="text-success me-2" />
-
-
-                                            <Link to="/articles/erayba">
-
+                                            <Link to="/articles/erayba" className="text-decoration-none">
                                                 About Erayba Professional Hair Care
-
                                             </Link>
-
-
                                         </li>
 
-
                                     </ul>
-
-
                                 </Card.Body>
-
-
                             </Card>
-
-
                         </Col>
-
-
                     </Row>
-
-
                 </Container>
 
             </>
