@@ -929,17 +929,9 @@ class UnderstandingAyurvedicFasting extends Component {
 
 
                     <Row className="justify-content-center mb-5">
-
-
                         <Col lg={10}>
-
-
                             <Card className="shadow-sm">
-
-
                                 <Card.Body className="p-4">
-
-
                                     <h2 className="mb-4">
                                         <FontAwesomeIcon icon={faArrowRight} className="me-2 text-success" />
                                         Related Articles
