@@ -104,7 +104,7 @@ class UnderstandingAyurvedicFasting extends Component {
 
                                     <div className="mt-4">
 
-                                        <Button as={Link} to="/recipes" variant="success" size="lg" className="me-3 mb-2">
+                                        <Button as={Link} to="/recipe" variant="success" size="lg" className="me-3 mb-2">
                                             Browse Recipes
                                         </Button>
 
