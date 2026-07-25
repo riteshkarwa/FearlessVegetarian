@@ -151,7 +151,7 @@ class Home extends Component {
 
                     <Button
                       as={Link}
-                      to="/wheretobegin"
+                      to="/articles/wheretobegin"
                       variant="outline-success"
                       size="lg"
                       className="me-3 mb-2"
