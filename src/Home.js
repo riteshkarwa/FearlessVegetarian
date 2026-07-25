@@ -97,7 +97,7 @@ class Home extends Component {
 
           <Row className="justify-content-center">
 
-            <Col lg={11}>
+            <Col xs={12} lg={11}>
 
               <Card className="hero-card shadow-lg border-success mb-5">
 
