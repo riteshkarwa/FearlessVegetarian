@@ -942,7 +942,7 @@ class UnderstandingAyurvedicFasting extends Component {
                                     <ul className="list-unstyled">
                                         <li className="mb-3">
                                             <FontAwesomeIcon icon={faUtensils} className="text-success me-2" />
-                                            <Link to="/articles/wheretobegin" className="text-decoration-none">
+                                            <Link to="/articles/wheretobegin" className="text-decoration-none text-dark">
                                                 Where to Begin Your Vegetarian Journey
                                             </Link>
 
@@ -951,7 +951,7 @@ class UnderstandingAyurvedicFasting extends Component {
 
                                         <li className="mb-3">
                                             <FontAwesomeIcon icon={faUtensils} className="text-success me-2" />
-                                            <Link to="/articles/cookingathome" className="text-decoration-none">
+                                            <Link to="/articles/cookingathome" className="text-decoration-none text-dark">
                                                 The Benefits of Cooking at Home
                                             </Link>
 
@@ -959,7 +959,7 @@ class UnderstandingAyurvedicFasting extends Component {
 
                                         <li>
                                             <FontAwesomeIcon icon={faUtensils} className="text-success me-2" />
-                                            <Link to="/articles/erayba" className="text-decoration-none">
+                                            <Link to="/articles/erayba" className="text-decoration-none text-dark">
                                                 About Erayba Professional Hair Care
                                             </Link>
                                         </li>

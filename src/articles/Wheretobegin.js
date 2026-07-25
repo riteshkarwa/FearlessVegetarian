@@ -1175,7 +1175,7 @@ class Wheretobegin extends Component {
                         icon={faUtensils}
                         className="text-success me-2"
                       />
-                      <Link to="/articles/cookingathome">
+                      <Link to="/articles/cookingathome" className="text-decoration-none text-dark">
                         The Benefits of Cooking at Home
                       </Link>
                     </li>
@@ -1185,7 +1185,7 @@ class Wheretobegin extends Component {
                         icon={faUtensils}
                         className="text-success me-2"
                       />
-                      <Link to="/articles/understanding-ayurvedic-fasting">
+                      <Link to="/articles/ayurvedicfasting" className="text-decoration-none text-dark">
                         Understanding Ayurvedic Fasting
                       </Link>
                     </li>
@@ -1195,7 +1195,7 @@ class Wheretobegin extends Component {
                         icon={faUtensils}
                         className="text-success me-2"
                       />
-                      <Link to="/articles/erayba">
+                      <Link to="/articles/erayba" className="text-decoration-none text-dark">
                         About Erayba Professional Hair Care
                       </Link>
                     </li>
