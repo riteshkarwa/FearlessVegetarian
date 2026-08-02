@@ -69,6 +69,7 @@ import Masalachai from "./Masalachai";
 import Articles from "./Articles";
 import UnderstandingAyurvedicFasting from "./articles/Ayurvedicfasting";
 import HealthyFats from "./articles/Healthyfats";
+import EssentialIndianSpices from "./articles/Essentialindianspices";
 
 
 class Main extends Component {
@@ -169,6 +170,7 @@ class Main extends Component {
             <Route exact path="/articles" element={<Articles />}></Route>
             <Route exact path="/articles/ayurvedicfasting" element={<UnderstandingAyurvedicFasting />}></Route>
             <Route exact path="/articles/healthyfats" element={<HealthyFats />}></Route>
+            <Route exact path="/articles/essentialindianspices" element={<EssentialIndianSpices/>}></Route>
             <Route path='*' element={<Notfound />} />
           </Routes>
         </div>

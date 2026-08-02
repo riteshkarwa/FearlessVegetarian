@@ -30,5 +30,12 @@ export const articles = [
         url: "/articles/healthyfats",
         description:
             "Learn why healthy fats are essential for vegetarians and explore nutritious plant-based foods like avocados, nuts, seeds, and olive oil for better heart, brain, and overall health."
+    },
+    {
+        id: 6,
+        title: "Essential Indian Spices Every Kitchen Should Have",
+        url: "/articles/essentialindianspices",
+        description:
+            "Discover the essential Indian spices every kitchen needs. Learn about turmeric, cumin, coriander, garam masala, mustard seeds, hing, kasuri methi, and other must-have spices, along with their uses, flavors, and cooking tips for authentic Indian vegetarian recipes."
     }
 ];
