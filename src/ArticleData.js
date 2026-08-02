@@ -23,5 +23,12 @@ export const articles = [
         url: "/articles/ayurvedicfasting",
         description:
             "Learn how Ayurvedic fasting supports mindful eating, digestion, and a balanced vegetarian lifestyle."
+    },
+    {
+        id: 5,
+        title: "Healthy Sources of Fat for Vegetarians",
+        url: "/articles/healthyfats",
+        description:
+            "Learn why healthy fats are essential for vegetarians and explore nutritious plant-based foods like avocados, nuts, seeds, and olive oil for better heart, brain, and overall health."
     }
 ];
