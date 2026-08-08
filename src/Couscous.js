@@ -51,25 +51,27 @@ class Couscous extends Component {
         <Row className="cooktimerow">
           <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
         </Row>
-        <div className="ingredients">Ingredients</div>
-        <ol>
-          <li>2 cups of Pearl Couscous</li>
-          <li>1 cup of cherry tomatoes cut in half </li>
-          <li>1 cup of feta </li>
-          <li>Handful kalamata olives</li>
-          <li>2 and 1/4 cup water </li>
-          <li>Few slices of onions</li>
-        </ol>
-        <div className="ingredients">Instruction</div>
-        <ol>
-          <li>Take some olive oil in a non stick pan</li>
-          <li>Add tofu cut into small square pieces</li>
-          <li>Add some onion powder, garlic powder and paprika and pan fry until crispy.</li>
-          <li>To start making couscous, bring the cooking liquid (preferably a flavorful chicken or vegetable broth) to a boil in a medium pot. Add a drizzle of olive oil, a pat of butter, and a little salt.</li>
-          <li>Next, add the couscous.</li>
-          <li>Cooking the couscous on a low flame for 10 minutes.</li>
-          <li>Add a cherry tomatoes, kalamata olives, pan fried tofu and some feta to the couscous and mix it </li>
-        </ol>
+        <div className="ingredients"><h3>Ingredients</h3>
+          <ol>
+            <li>2 cups of Pearl Couscous</li>
+            <li>1 cup of cherry tomatoes cut in half </li>
+            <li>1 cup of feta </li>
+            <li>Handful kalamata olives</li>
+            <li>2 and 1/4 cup water </li>
+            <li>Few slices of onions</li>
+          </ol>
+        </div>
+        <div className="ingredients"><h3>Instruction</h3>
+          <ol>
+            <li>Take some olive oil in a non stick pan</li>
+            <li>Add tofu cut into small square pieces</li>
+            <li>Add some onion powder, garlic powder and paprika and pan fry until crispy.</li>
+            <li>To start making couscous, bring the cooking liquid (preferably a flavorful chicken or vegetable broth) to a boil in a medium pot. Add a drizzle of olive oil, a pat of butter, and a little salt.</li>
+            <li>Next, add the couscous.</li>
+            <li>Cooking the couscous on a low flame for 10 minutes.</li>
+            <li>Add a cherry tomatoes, kalamata olives, pan fried tofu and some feta to the couscous and mix it </li>
+          </ol>
+        </div>
         <h2>Final Product</h2>
         <MediaQuery maxWidth={767}>
           <Image src="/couscous.jpg" alt="Mediterranean Magic: Easy and Flavorful Couscous Recipe for Culinary Bliss!" thumbnail rounded fluid></Image>

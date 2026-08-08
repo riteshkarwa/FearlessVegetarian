@@ -299,7 +299,7 @@ class Pavbhaji extends Component {
                                 2 heaping tablespoons pav bhaji masala</li>
                             <li>
                                 <FontAwesomeIcon icon={faBowlFood} />
-                                3 tablespoons dried fenugreek leaves (kasuri methi)
+                                1 teaspoon dried fenugreek leaves (kasuri methi)
                             </li>
                             <li><FontAwesomeIcon icon={faBowlFood} />
                                 Fresh coriander leaves</li>

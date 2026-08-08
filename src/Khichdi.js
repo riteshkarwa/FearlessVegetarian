@@ -97,73 +97,75 @@ class Khichdi extends Component {
           <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
           <Col><FontAwesomeIcon icon={faClock} /> Total Time: 50 Minutes</Col>
         </Row>
-        <div className="ingredients">Ingredients</div>
-        <ol>
-          <li>1/2 cup yellow moong dal (split yellow lentils)</li>
-          <li>1/2 cup rice</li>
-          <li>2 tablespoon olive oil</li>
-          <li>1 whole tomato, finely chopped</li>
-          <li>1 medium onion, finely chopped</li>
-          <li>1 teaspoon cumin seeds</li>
-          <li>3 small potatoes, diced</li>
-          <li>1/4 cup green peas</li>
-          <li>1/4 teaspoon turmeric powder</li>
-          <li>1/4 teaspoon red chilli powder</li>
-          <li>1 green chili, finely chopped (optional)</li>
-          <li>Salt to taste</li>
-          <li>4 cups water</li>
-        </ol>
-        <div className="ingredients">Instruction</div>
-        <ol>
-          <li>
-            Rinse the rice and moong dal thoroughly. Soak them together in water
-            for 20 minutes, then drain.
-          </li>
+        <div className="ingredients"><h3>Ingredients</h3>
+          <ol>
+            <li>1/2 cup yellow moong dal (split yellow lentils)</li>
+            <li>1/2 cup rice</li>
+            <li>2 tablespoon olive oil</li>
+            <li>1 whole tomato, finely chopped</li>
+            <li>1 medium onion, finely chopped</li>
+            <li>1 teaspoon cumin seeds</li>
+            <li>3 small potatoes, diced</li>
+            <li>1/4 cup green peas</li>
+            <li>1/4 teaspoon turmeric powder</li>
+            <li>1/4 teaspoon red chilli powder</li>
+            <li>1 green chili, finely chopped (optional)</li>
+            <li>Salt to taste</li>
+            <li>4 cups water</li>
+          </ol>
+        </div>
+        <div className="ingredients"><h3>Instruction</h3>
+          <ol>
+            <li>
+              Rinse the rice and moong dal thoroughly. Soak them together in water
+              for 20 minutes, then drain.
+            </li>
 
-          <li>
-            Heat oil or ghee in an Instant Pot, pressure cooker, or heavy-bottomed pot.
-          </li>
+            <li>
+              Heat oil or ghee in an Instant Pot, pressure cooker, or heavy-bottomed pot.
+            </li>
 
-          <li>
-            Add cumin seeds and allow them to splutter.
-          </li>
+            <li>
+              Add cumin seeds and allow them to splutter.
+            </li>
 
-          <li>
-            Add onions and sauté until translucent.
-          </li>
+            <li>
+              Add onions and sauté until translucent.
+            </li>
 
-          <li>
-            Stir in ginger, green chili, and tomatoes. Cook until the tomatoes soften.
-          </li>
+            <li>
+              Stir in ginger, green chili, and tomatoes. Cook until the tomatoes soften.
+            </li>
 
-          <li>
-            Add turmeric, red chili powder, and salt. Mix well.
-          </li>
+            <li>
+              Add turmeric, red chili powder, and salt. Mix well.
+            </li>
 
-          <li>
-            Add potatoes and peas. Stir for 1–2 minutes.
-          </li>
+            <li>
+              Add potatoes and peas. Stir for 1–2 minutes.
+            </li>
 
-          <li>
-            Add the drained rice and moong dal. Mix well.
-          </li>
+            <li>
+              Add the drained rice and moong dal. Mix well.
+            </li>
 
-          <li>
-            Pour in 4 cups water and stir.
-          </li>
+            <li>
+              Pour in 4 cups water and stir.
+            </li>
 
-          <li>
-            Pressure cook for 6 minutes in the Instant Pot and allow natural pressure release.
-          </li>
+            <li>
+              Pressure cook for 6 minutes in the Instant Pot and allow natural pressure release.
+            </li>
 
-          <li>
-            Open the lid and gently mix. Add more hot water if you prefer a thinner consistency.
-          </li>
+            <li>
+              Open the lid and gently mix. Add more hot water if you prefer a thinner consistency.
+            </li>
 
-          <li>
-            Serve hot with yogurt, pickle, papad, or a side of vegetables.
-          </li>
-        </ol>
+            <li>
+              Serve hot with yogurt, pickle, papad, or a side of vegetables.
+            </li>
+          </ol>
+        </div>
         <h2>Final Product</h2>
         <MediaQuery maxWidth={767}>
           <Image src="/khichdi.jpg" alt="Homemade Moong Dal Khichdi served in a bowl with rice, lentils, vegetables, and Indian spices" thumbnail rounded fluid></Image>
