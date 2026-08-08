@@ -8,6 +8,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Potatosalad extends Component {
     render() {
@@ -49,40 +50,45 @@ class Potatosalad extends Component {
                 <Row>
                     <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
                 </Row>
-                <div className="ingredients">Ingredients</div>
-                <ol>
-                    <li>3 medium potatoes, boiled and diced</li>
-                    <li>1 cup plain yogurt </li>
-                    <li>1 small onion, finely chopped</li>
-                    <li>1–2 green chilies, finely chopped (optional)</li>
-                    <li>1 tsp mustard seeds</li>
-                    <li>1 tsp cumin seeds</li>
-                    <li>1 tsp turmeric powder</li>
-                    <li>1–2 tbsp oil</li>
-                    <li>Salt as per taste</li>
-                    <li>1 tsp red chili powder</li>
-                    <li>1–2 tbsp oil</li>
-                    <li>Fresh cilantro, chopped (for garnish)</li>
-                </ol>
-                <div className="ingredients">Instruction</div>
-                <ol>
-                    <li>Prepare potatoes: Boil potatoes until tender, peel, and dice them. Set aside.</li>
-                    <li>
-                        Temper spices: Heat oil in a pan. Add mustard seeds and cumin seeds. Once they start to crackle,
-                        add turmeric and chili powder. Stir quickly.
-                    </li>
-                    <li>Mix with vegetables: Add chopped onions and green chilies. Sauté for 2–3 minutes.</li>
-                    <li>Combine: In a bowl, mix the boiled potatoes with the yogurt. Add the sautéed spice mixture and salt.
-                        Mix gently until everything is well combined.</li>
-                    <li>Garnish & Serve: Top with chopped cilantro. Serve chilled or at room temperature as a side dish.</li>
-                </ol>
+                <div className="ingredients"><h3>Ingredients</h3>
+                    <ul className="ingredient-list">
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />3 medium potatoes, boiled and diced</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 cup plain yogurt </li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 small onion, finely chopped</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1–2 green chilies, finely chopped (optional)</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 tsp mustard seeds</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 tsp cumin seeds</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 tsp turmeric powder</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1–2 tbsp oil</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Salt as per taste</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 tsp red chili powder</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1–2 tbsp oil</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Fresh cilantro, chopped (for garnish)</li>
+                    </ul>
+                </div>
+                <div className="ingredients"><h3>Instructions</h3>
+                    <ol>
+                        <li>Prepare potatoes: Boil potatoes until tender, peel, and dice them. Set aside.</li>
+                        <li>
+                            Temper spices: Heat oil in a pan. Add mustard seeds and cumin seeds. Once they start to crackle,
+                            add turmeric and chili powder. Stir quickly.
+                        </li>
+                        <li>Mix with vegetables: Add chopped onions and green chilies. Sauté for 2–3 minutes.</li>
+                        <li>Combine: In a bowl, mix the boiled potatoes with the yogurt. Add the sautéed spice mixture and salt.
+                            Mix gently until everything is well combined.</li>
+                        <li>Garnish & Serve: Top with chopped cilantro. Serve chilled or at room temperature as a side dish.</li>
+                    </ol>
+                </div>
                 <h2>Final Product</h2>
-                <MediaQuery maxWidth={767}>
-                    <Image src="/potatosalad.png" alt="Chukauni Recipe – Traditional Nepali Yogurt & Potato Salad" thumbnail rounded fluid></Image>
-                </MediaQuery>
-                <MediaQuery minWidth={767}>
-                    <Image src="/potatosalad.png" alt="Chukauni Recipe – Traditional Nepali Yogurt & Potato Salad" thumbnail rounded width="50%" height="50%"></Image>
-                </MediaQuery>
+                <Image
+                    src="/potatosalad.png"
+                    alt="Chukauni Recipe – Traditional Nepali Yogurt & Potato Salad"
+                    fluid
+                    rounded
+                    thumbnail
+                    loading="lazy"
+                    className="recipe-image"
+                />
                 <div>
                     <h2>Chukauni—a traditional Nepali yogurt and potato salad Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

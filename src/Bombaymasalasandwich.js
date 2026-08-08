@@ -8,7 +8,7 @@ import MediaQuery from 'react-responsive';
 import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
-import { faUtensils } from "@fortawesome/free-solid-svg-icons";
+import { faUtensils, faCarrot } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 class Bombaymasalasandwich extends Component {
@@ -82,23 +82,53 @@ class Bombaymasalasandwich extends Component {
           <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes</Col>
         </Row>
         <div className="ingredients"><h3>Ingredients</h3>
-          <ol>
-            <li>2 slices of bread (white or brown)</li>
-            <li>2 medium potatoes (boiled & mashed)</li>
-            <li>Butter for toasting</li>
-            <li>1 small onion, sliced into rings.</li>
-            <li>1 small capsicum, sliced into rings.</li>
-            <li>1/2 tsp ginger-garlic paste</li>
-            <li>1/2 cup fresh cilantro chutney (green chutney) </li>
-            <li>1 green chili (finely chopped, optional)</li>
-            <li>1/2 tsp turmeric powder</li>
-            <li>1/2 tsp  red chili powder</li>
-            <li>1/2 tsp  garam masala</li>
-            <li>1/2 tsp cumin seeds</li>
-            <li>1 tbsp oil</li>
-            <li>Optional: sliced cucumber, tomato, onion, beetroot, grated cheese</li>
-            <li>Salt to taste</li>
-          </ol>
+          <ul className="ingredient-list">
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              2 slices of bread (white or brown)</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              2 medium potatoes (boiled & mashed)</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              Butter for toasting</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 small onion, sliced into rings.</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 small capsicum, sliced into rings.</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 tsp ginger-garlic paste</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 cup fresh cilantro chutney (green chutney) </li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 green chili (finely chopped, optional)</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 tsp turmeric powder</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 tsp  red chili powder</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 tsp  garam masala</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 tsp cumin seeds</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 tbsp oil</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              Optional: sliced cucumber, tomato, onion, beetroot, grated cheese</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              Salt to taste</li>
+          </ul>
         </div>
         <div className="ingredients"><h3>Instruction</h3>
           <h3>Prepare the Masala Stuffing</h3>

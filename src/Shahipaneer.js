@@ -8,7 +8,7 @@ import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Shahipaneer extends Component {
     render() {
@@ -45,24 +45,24 @@ class Shahipaneer extends Component {
                 </Row>
                 <div className="ingredients">
                     <h3>Ingredients</h3>
-                    <ol>
-                        <li>250g paneer (Indian cottage cheese), cubed</li>
-                        <li>2 onions, finely chopped</li>
-                        <li>2 tomatoes, finely chopped</li>
-                        <li>1/2 cup cashew nuts, soaked in water for 30 minutes</li>
-                        <li>2 cloves garlic, minced</li>
-                        <li>1-inch ginger, grated</li>
-                        <li>2 green chilies, finely chopped</li>
-                        <li>1 teaspoon cumin seeds</li>
-                        <li>1 teaspoon coriander powder</li>
-                        <li>1/2 teaspoon turmeric powder</li>
-                        <li>1/2 teaspoon red chili powder (adjust to taste)</li>
-                        <li>1 teaspoon garam masala</li>
-                        <li>1/4 cup plain yogurt</li>
-                        <li>Salt to taste</li>
-                        <li>Fresh coriander leaves for garnish (optional)</li>
+                    <ul className="ingredient-list">
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />250g paneer (Indian cottage cheese), cubed</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 onions, finely chopped</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 tomatoes, finely chopped</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/2 cup cashew nuts, soaked in water for 30 minutes</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 cloves garlic, minced</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1-inch ginger, grated</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 green chilies, finely chopped</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon cumin seeds</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon coriander powder</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/2 teaspoon turmeric powder</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/2 teaspoon red chili powder (adjust to taste)</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon garam masala</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/4 cup plain yogurt</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Salt to taste</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Fresh coriander leaves for garnish (optional)</li>
 
-                    </ol>
+                    </ul>
                 </div>
                 <div className="ingredients"><h3>Instruction </h3>
                     <ol>

@@ -8,7 +8,7 @@ import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Riceandbeans extends Component {
     render() {
@@ -50,35 +50,37 @@ class Riceandbeans extends Component {
                 <Row>
                     <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 45 minutes</Col>
                 </Row>
-                <div className="ingredients">Ingredients</div>
-                <ol>
-                    <li>1 cup long-grain white rice</li>
-                    <li>1 can black beans, drained and rinsed</li>
-                    <li>1 cup corn (fresh or frozen)</li>
-                    <li>1 red bell pepper, diced</li>
-                    <li>1 green bell pepper, diced</li>
-                    <li>1 small onion, finely chopped</li>
-                    <li>2 cloves garlic, minced</li>
-                    <li>2 tablespoons olive oil</li>
-                    <li>Fresh cilantro for garnish</li>
-                    <li>Green onion for garnish</li>
-                    <li>1 teaspoon chili powder</li>
-                    <li>Salt and pepper to taste</li>
-                </ol>
-                <div className="ingredients">Instruction</div>
-                <ol>
-                    <li>Rinse the white rice under cold water until the water runs clear. This helps remove excess starch.</li>
-                    <li>Discard the soaking water and rinse the Rajma again. In a stovetop pressure cooker, add the soaked black beans with fresh water.
-                        Pour 1.5 cups of water and pressure cook for 3 whistles.
-                        Cook the black beans with a pinch of salt until they are soft and well-cooked. This usually takes around 8 minutes after the first whistle on medium heat.
-                        Cooking time may vary based on the type of pressure cooker.</li>
-                    <li>In a large skillet, heat 2 tablespoons of olive oil over medium heat. Add the chopped onion and garlic. Sauté until they become translucent.</li>
-                    <li>Add the diced red and green bell peppers. Sauté for another 2-3 minutes until the peppers are slightly softened.</li>
-                    <li>Stir in the pressure cooked black beans, corn, and diced tomatoes with green chilies. Mix everything well</li>
-                    <li>Add the rinsed rice to the skillet. Stir and cook for 2-3 minutes until the rice is lightly toasted. Add cumin powder, chili powder, paprika, salt, and pepper. Mix well to coat the rice with the spices.</li>
-                    <li>Pour 2 cups of water into the skillet. Bring the mixture to a boil, then reduce the heat to low, cover, and let it simmer for 15-20 minutes or until the rice is cooked and the liquid is absorbed.</li>
-                    <li>Once the rice is cooked, fluff it with a fork. Garnish with fresh cilantro and green onion.</li>
-                </ol>
+                <div className="ingredients"><h3>Ingredients</h3>
+                    <ul className="ingredient-list">
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 cup long-grain white rice</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 can black beans, drained and rinsed</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 cup corn (fresh or frozen)</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 red bell pepper, diced</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 green bell pepper, diced</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 small onion, finely chopped</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 cloves garlic, minced</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 tablespoons olive oil</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Fresh cilantro for garnish</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Green onion for garnish</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon chili powder</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Salt and pepper to taste</li>
+                    </ul>
+                </div>
+                <div className="ingredients"><h3>Instructions</h3>
+                    <ol>
+                        <li>Rinse the white rice under cold water until the water runs clear. This helps remove excess starch.</li>
+                        <li>Discard the soaking water and rinse the Rajma again. In a stovetop pressure cooker, add the soaked black beans with fresh water.
+                            Pour 1.5 cups of water and pressure cook for 3 whistles.
+                            Cook the black beans with a pinch of salt until they are soft and well-cooked. This usually takes around 8 minutes after the first whistle on medium heat.
+                            Cooking time may vary based on the type of pressure cooker.</li>
+                        <li>In a large skillet, heat 2 tablespoons of olive oil over medium heat. Add the chopped onion and garlic. Sauté until they become translucent.</li>
+                        <li>Add the diced red and green bell peppers. Sauté for another 2-3 minutes until the peppers are slightly softened.</li>
+                        <li>Stir in the pressure cooked black beans, corn, and diced tomatoes with green chilies. Mix everything well</li>
+                        <li>Add the rinsed rice to the skillet. Stir and cook for 2-3 minutes until the rice is lightly toasted. Add cumin powder, chili powder, paprika, salt, and pepper. Mix well to coat the rice with the spices.</li>
+                        <li>Pour 2 cups of water into the skillet. Bring the mixture to a boil, then reduce the heat to low, cover, and let it simmer for 15-20 minutes or until the rice is cooked and the liquid is absorbed.</li>
+                        <li>Once the rice is cooked, fluff it with a fork. Garnish with fresh cilantro and green onion.</li>
+                    </ol>
+                </div>
                 <h2>Final Product</h2>
                 <Image src="/ricebeans.jpg" thumbnail rounded fluid></Image>
                 <div>
@@ -158,7 +160,7 @@ class Riceandbeans extends Component {
                                 style={{ color: "#28a745", marginRight: "10px" }}
                             />
                             <Link
-                                to="/upma" 
+                                to="/upma"
                                 className="recipe-link"
                             >
                                 South Indian Upma

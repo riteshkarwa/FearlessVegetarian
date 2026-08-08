@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import MediaQuery from 'react-responsive';
 import { Link } from "react-router-dom";
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema";
 
 class Potato extends Component {
@@ -83,31 +83,43 @@ class Potato extends Component {
         </Row>
 
         <div className="ingredients">Ingredients</div>
-        <ol>
-          <li>4 medium potatoes, diced</li>
-          <li>1/2 onion, finely chopped</li>
-          <li>1 tablespoon coriander powder</li>
-          <li>1 teaspoon cumin powder</li>
-          <li>1 teaspoon ginger powder</li>
-          <li>1 teaspoon onion powder</li>
-          <li>1 tablespoon curry powder</li>
-          <li>1/4 teaspoon turmeric powder</li>
-          <li>1/4 teaspoon red chili powder</li>
-          <li>Salt as per taste</li>
-          <li>2 tablespoons olive oil</li>
-        </ol>
+        <ul className="ingredient-list">
+          <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+            4 medium potatoes, diced</li>
+          <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+            1/2 onion, finely chopped</li>
+          <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+            1 tablespoon coriander powder</li>
+          <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+            1 teaspoon cumin powder</li>
+          <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+            1 teaspoon ginger powder</li>
+          <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+            1 teaspoon onion powder</li>
+          <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+            1 tablespoon curry powder</li>
+          <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+            1/4 teaspoon turmeric powder</li>
+          <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+            1/4 teaspoon red chili powder</li>
+          <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+            Salt as per taste</li>
+          <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+            2 tablespoons olive oil</li>
+        </ul>
 
-        <div className="ingredients">Instructions</div>
-        <ol>
-          <li>Heat olive oil in a pan over medium heat.</li>
-          <li>Add diced potatoes and sauté for 2–3 minutes.</li>
-          <li>Cover and cook for 10–15 minutes until slightly soft.</li>
-          <li>Add chopped onions and cook until translucent.</li>
-          <li>Add all spices and mix well.</li>
-          <li>Cook uncovered for 10–15 minutes, stirring occasionally.</li>
-          <li>Adjust salt and seasoning.</li>
-          <li>Serve hot with roti, rice, or as a side dish.</li>
-        </ol>
+        <div className="ingredients"><h3>Instructions</h3>
+          <ol>
+            <li>Heat olive oil in a pan over medium heat.</li>
+            <li>Add diced potatoes and sauté for 2–3 minutes.</li>
+            <li>Cover and cook for 10–15 minutes until slightly soft.</li>
+            <li>Add chopped onions and cook until translucent.</li>
+            <li>Add all spices and mix well.</li>
+            <li>Cook uncovered for 10–15 minutes, stirring occasionally.</li>
+            <li>Adjust salt and seasoning.</li>
+            <li>Serve hot with roti, rice, or as a side dish.</li>
+          </ol>
+        </div>
 
         <h2>Final Product</h2>
 

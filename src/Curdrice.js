@@ -9,7 +9,7 @@ import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
-import { faUtensils } from "@fortawesome/free-solid-svg-icons";
+import { faUtensils, faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 
 class Curdrice extends Component {
@@ -86,19 +86,41 @@ class Curdrice extends Component {
                     <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes</Col>
                 </Row>
                 <div className="ingredients"><h3>Ingredients</h3>
-                    <ol>
-                        <li>1/2 cup rice</li>
-                        <li>1 green chilies – chopped finely </li>
-                        <li>1 teaspoon oil</li>
-                        <li>1/2 teaspoon mustard seeds</li>
-                        <li>1/2 teaspoon cumin seeds</li>
-                        <li>1 teaspoon chana dal found in Indian Grocery Store</li>
-                        <li>1 teaspoon Urad dal found in Indian Grocery Store</li>
-                        <li>1/4 teaspoon hing (asafoetida) </li>
-                        <li>1/2 teaspoon ginger minced</li>
-                        <li>8 cashews roasted</li>
-                        <li>1 cup plain yogurt</li>
-                    </ol>
+                    <ul className="ingredient-list">
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1/2 cup rice</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 green chilies – chopped finely </li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 teaspoon oil</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1/2 teaspoon mustard seeds</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1/2 teaspoon cumin seeds</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 teaspoon chana dal found in Indian Grocery Store</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 teaspoon Urad dal found in Indian Grocery Store</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1/4 teaspoon hing (asafoetida) </li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1/2 teaspoon ginger minced</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            8 cashews roasted</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 cup plain yogurt</li>
+                    </ul>
                 </div>
                 <div className="ingredients"><h3>Instructions</h3>
                     <ol>
@@ -117,13 +139,15 @@ class Curdrice extends Component {
                     </ol>
                 </div>
                 <h2>Final Product</h2>
-                <MediaQuery maxWidth={767}>
-                    <Image src="/curdrice.jpg" alt="South Indian curd rice made with yogurt, rice, mustard seeds, curry leaves, ginger, and roasted cashews" thumbnail rounded fluid></Image>
-                </MediaQuery>
-                <MediaQuery minWidth={767}>
-                    <Image src="/curdrice.jpg" alt="South Indian curd rice made with yogurt, rice, mustard seeds, curry leaves, ginger, and roasted cashews" thumbnail rounded fluid width="50%" height="50%"></Image>
-                </MediaQuery>
-
+                <Image
+                    src="/curdrice.jpg"
+                    alt="South Indian curd rice made with yogurt, rice, mustard seeds, curry leaves, ginger, and roasted cashews"
+                    fluid
+                    thumbnail
+                    rounded
+                    loading="lazy"
+                    className="recipe-image"
+                />
                 <div>
                     <h2>Curd Rice Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

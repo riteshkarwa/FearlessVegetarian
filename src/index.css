@@ -474,3 +474,36 @@ section p {
   line-height: 0;
   box-sizing: border-box;
 }
+
+.recipe-recommendations {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.recipe-recommendations li {
+  margin-bottom: 12px;
+}
+
+.recipe-recommendations a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+.recommendation-icon {
+  color: #28a745;
+  margin-right: 10px;
+}
+
+.recipe-image-wrapper {
+  display: inline-block;
+  padding: 6px;
+  background-color: #ffffff;
+  border: 1px solid #d5d5d5;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  line-height: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}

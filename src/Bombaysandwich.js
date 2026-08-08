@@ -102,7 +102,6 @@ class Bombaysandwich extends Component {
         />
         <section>
           <h2>Bombay Sandwich Video</h2>
-
           <div className="youtube-container">
             <YouTube
               videoId="CIFjZ4OwFjQ"
