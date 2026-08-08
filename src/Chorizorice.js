@@ -6,22 +6,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
-import MediaQuery from 'react-responsive';
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
 import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Chorizorice extends Component {
     render() {
-        const optsDesktop = {
-            height: '600',
-            width: '600',
-        };
-
-        const optsMobile = {
-            height: '550',
-            width: '325',
-        };
         return (
             <div>
                 <RecipeSchema
@@ -151,12 +141,18 @@ class Chorizorice extends Component {
                 />
                 <div>
                     <h2>One-Pot Soy Chorizo Rice Preparation Video</h2>
-                    <MediaQuery maxWidth={767}>
-                        <YouTube videoId="3CjZ_gHg-k4" opts={optsMobile} />
-                    </MediaQuery>
-                    <MediaQuery minWidth={767}>
-                        <YouTube videoId="3CjZ_gHg-k4" opts={optsDesktop} />
-                    </MediaQuery>
+                    <div className="youtube-container">
+                        <YouTube
+                            videoId="3CjZ_gHg-k4"
+                            opts={{
+                                width: "100%",
+                                height: "500",
+                                playerVars: {
+                                    autoplay: 0
+                                }
+                            }}
+                        />
+                    </div>
                 </div>
                 <div className="related-recipes" style={{ marginTop: "40px" }}>
                     <h2>Related Vegetarian Recipes</h2>
