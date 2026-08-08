@@ -159,12 +159,14 @@ class Beetroot extends Component {
           </ol>
         </div>
         <h2>Final Product</h2>
-        <MediaQuery maxWidth={767}>
-          <Image src="/beetroot.jpg" alt="Vibrant Beetroot Curry with Coconut Milk and Urad Dal" thumbnail rounded fluid></Image>
-        </MediaQuery>
-        <MediaQuery minWidth={767}>
-          <Image src="/beetroot.jpg" alt="Vibrant Beetroot Curry with Coconut Milk and Urad Dal" thumbnail rounded width="50%" height="50%"></Image>
-        </MediaQuery>
+        <Image
+          src="/beetroot.jpg"
+          alt="Vibrant Beetroot Curry with Coconut Milk and Urad Dal"
+          fluid
+          rounded
+          loading="lazy"
+          className="recipe-image"
+        />
         <div>
           <h2>Beetroot Curry with Coconut Milk Preparation Video</h2>
           <MediaQuery maxWidth={767}>

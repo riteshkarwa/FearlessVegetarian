@@ -9,7 +9,7 @@ import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Besan extends Component {
   render() {
@@ -106,21 +106,47 @@ class Besan extends Component {
           <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
         </Row>
         <div className="ingredients"><h3>Ingredients</h3>
-          <ol>
-            <li>2 tablespoon cooking oil</li>
-            <li>1 cup gram flour (Besan) </li>
-            <li>2 medium sized onions, sliced</li>
-            <li>1/4 cup spring onions, chopped</li>
-            <li>2 small green chilies, chopped</li>
-            <li>A pinch of asafetida (hing)</li>
-            <li>1 teaspoon cumin seeds</li>
-            <li>1 teaspoon mustard seeds</li>
-            <li>Salt to taste</li>
-            <li>1/2 teaspoon turmeric powder</li>
-            <li>1/2 teaspoon red chili powder</li>
-            <li>2 teaspoons coriander powder</li>
-            <li>3 + 1 cups boiling hot water</li>
-          </ol>
+          <ul className="ingredient-list">
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              2 tablespoon cooking oil</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 cup gram flour (Besan) </li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              2 medium sized onions, sliced</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/4 cup spring onions, chopped</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              2 small green chilies, chopped</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              A pinch of asafetida (hing)</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 teaspoon cumin seeds</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 teaspoon mustard seeds</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              Salt to taste</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 teaspoon turmeric powder</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 teaspoon red chili powder</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              2 teaspoons coriander powder</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              3 + 1 cups boiling hot water</li>
+          </ul>
         </div>
         <div className="ingredients"><h3>Instruction</h3>
           <ol>
@@ -138,12 +164,15 @@ class Besan extends Component {
           </ol>
         </div>
         <h2>Final Product</h2>
-        <MediaQuery maxWidth={767}>
-          <Image src="/besan.jpg" thumbnail rounded fluid></Image>
-        </MediaQuery>
-        <MediaQuery minWidth={767}>
-          <Image src="/besan.jpg" thumbnail rounded width="50%" height="50%"></Image>
-        </MediaQuery>
+        <Image
+          src="/besan.jpg"
+          alt="Indian-style Besan Curry made with chickpea flour, yogurt, and aromatic spices"
+          fluid
+          thumbnail
+          rounded
+          loading="lazy"
+          className="recipe-image"
+        />
         <div>
           <h2>Chickpea Flour Curry, Besan Curry Preparation video</h2>
           <MediaQuery maxWidth={767}>

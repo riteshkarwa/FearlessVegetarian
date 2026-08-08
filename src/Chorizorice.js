@@ -9,7 +9,7 @@ import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Chorizorice extends Component {
     render() {
@@ -79,41 +79,76 @@ class Chorizorice extends Component {
                 <Row className="cooktimerow">
                     <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
                 </Row>
-                <div className="ingredients">Ingredients</div>
-                <ol>
-                    <li>1/2 tbsp olive oil</li>
-                    <li>2 cloves garlic minced </li>
-                    <li>1 yellow onion finely diced</li>
-                    <li>1 tbsp double concentrated tomato paste</li>
-                    <li>1 cup rice</li>
-                    <li>1/2 tsp chili powder</li>
-                    <li>1 tsp cumin</li>
-                    <li>2 cups vegetable broth</li>
-                    <li>1 jalapeno finely chopped, optional</li>
-                    <li>1 bell pepper chopped</li>
-                    <li>1/2 package Trader Joe's Soy Chorizo</li>
-                    <li>1 cup black beans pressure cooked</li>
-                    <li>1/2 cup corn frozen or fresh</li>
-                    <li>2 tbsp cilantro finely chopped</li>
-                    <li>1/2 tbsp lime juice</li>
-                </ol>
-                <div className="ingredients">Instruction</div>
-                <ol>
-                    <li>Heat the olive oil in a pan or pot over medium heat. Saute the onion and garlic in the oil for
-                        about 2 minutes until you can smell the garlic</li>
-                    <li>Add the tomato paste and cook another 2-3 minutes, stirring with a spatula frequently.</li>
-                    <li>Add the rice, chili powder, and cumin. Cook for another 2-3 minutes, stirring frequently.</li>
-                    <li>Add the vegetable broth, jalapeno, bell pepper, soy chorizo, black beans, and corn and stir in.
-                        Bring the rice to a boil and then let simmer, covered, for 12-14 minutes, or until the broth has boiled off.</li>
-                    <li>Stir well</li>
-                </ol>
+                <div className="ingredients"><h3>Ingredients</h3>
+                    <ul className="ingredient-list">
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1/2 tbsp olive oil</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            2 cloves garlic minced </li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 yellow onion finely diced</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 tbsp double concentrated tomato paste</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 cup rice</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1/2 tsp chili powder</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 tsp cumin</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            2 cups vegetable broth</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 jalapeno finely chopped, optional</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 bell pepper chopped</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1/2 package Trader Joe's Soy Chorizo</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 cup black beans pressure cooked</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1/2 cup corn frozen or fresh</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            2 tbsp cilantro finely chopped</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1/2 tbsp lime juice</li>
+                    </ul>
+                </div>
+                <div className="ingredients"><h3>Instruction</h3>
+                    <ol>
+                        <li>Heat the olive oil in a pan or pot over medium heat. Saute the onion and garlic in the oil for
+                            about 2 minutes until you can smell the garlic</li>
+                        <li>Add the tomato paste and cook another 2-3 minutes, stirring with a spatula frequently.</li>
+                        <li>Add the rice, chili powder, and cumin. Cook for another 2-3 minutes, stirring frequently.</li>
+                        <li>Add the vegetable broth, jalapeno, bell pepper, soy chorizo, black beans, and corn and stir in.
+                            Bring the rice to a boil and then let simmer, covered, for 12-14 minutes, or until the broth has boiled off.</li>
+                        <li>Stir well</li>
+                    </ol>
+                </div>
                 <h2>Final Product</h2>
-                <MediaQuery maxWidth={767}>
-                    <Image src="chorizorice.jpg" alt="One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot" thumbnail rounded fluid></Image>
-                </MediaQuery>
-                <MediaQuery minWidth={767}>
-                    <Image src="/chorizorice.jpg" alt="One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot" thumbnail rounded width="50%" height="50%"></Image>
-                </MediaQuery>
+                <Image
+                    src="/chorizorice.jpg"
+                    alt="One-Pot Soy Chorizo Rice: A Flavorful Feast in a Single Pot"
+                    fluid
+                    thumbnail
+                    rounded
+                    loading="lazy"
+                    className="recipe-image"
+                />
                 <div>
                     <h2>One-Pot Soy Chorizo Rice Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

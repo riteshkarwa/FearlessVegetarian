@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Link } from "react-router-dom";
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema";
 
 class DalMakhani extends Component {
@@ -140,22 +140,50 @@ class DalMakhani extends Component {
                     <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
                 </Row>
                 <div className="ingredients"><h3>Ingredients</h3>
-                    <ol>
-                        <li>2 tablespoon Dal Makhani masala found in Indian store</li>
-                        <li>1 tablespoon coriander powder </li>
-                        <li>1/8 teaspoon red chili powder</li>
-                        <li>1 teaspoon cumin seeds</li>
-                        <li>1 tablespoon Garam Masala spice found in Indian store</li>
-                        <li>Salt as per taste</li>
-                        <li>1 onion</li>
-                        <li>1 tablespoon Kitchen King Spice found in Indian Store</li>
-                        <li>5 piece of cloves</li>
-                        <li>2 small piece of ginger peeled</li>
-                        <li>2 Bay Leaves </li>
-                        <li>2 green cardamoms</li>
-                        <li>1 black cardamom </li>
-                        <li>2 Whole Tomatoes </li>
-                    </ol>
+                    <ul className="ingredient-list">
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            2 tablespoon Dal Makhani masala found in Indian store</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 tablespoon coriander powder </li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1/8 teaspoon red chili powder</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 teaspoon cumin seeds</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 tablespoon Garam Masala spice found in Indian store</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            Salt as per taste</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 onion</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 tablespoon Kitchen King Spice found in Indian Store</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            5 piece of cloves</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            2 small piece of ginger peeled</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            2 Bay Leaves </li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            2 green cardamoms</li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            1 black cardamom </li>
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+                            2 Whole Tomatoes </li>
+                    </ul>
                 </div>
                 <div className="ingredients"><h3>Instructions</h3>
                     <ol>
@@ -188,7 +216,15 @@ class DalMakhani extends Component {
                     </ol>
                 </div>
                 <h2>Final Product</h2>
-                <Image src="/dalmakhani.jpg" thumbnail rounded fluid></Image>
+                <Image
+                    src="/dalmakhani.jpg"
+                    alt="Traditional Indian Dal Makhani made with black lentils, kidney beans, butter, and aromatic spices"
+                    fluid
+                    thumbnail
+                    rounded
+                    loading="lazy"
+                    className="recipe-image"
+                />
                 <div>
                     <h2>DalMakhani Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

@@ -9,7 +9,7 @@ import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
-import { faUtensils } from "@fortawesome/free-solid-svg-icons";
+import { faUtensils, faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Couscousblackbeanbowl extends Component {
   render() {
@@ -83,19 +83,41 @@ class Couscousblackbeanbowl extends Component {
           <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 25 minutes</Col>
         </Row>
         <div className="ingredients"><h3>Ingredients</h3>
-          <ol>
-            <li>1 cup couscous</li>
-            <li>1 cup boiling water (or vegetable broth for extra flavor)</li>
-            <li>2 tbsp fresh cilantro, chopped </li>
-            <li>1 tbsp olive oil </li>
-            <li>1 cup enchilada sauce (store-bought or homemade)</li>
-            <li>1/2 tsp smoked paprika</li>
-            <li>Salt & pepper to taste </li>
-            <li>1/2 tsp cumin powder </li>
-            <li>1 tbsp olive oil</li>
-            <li>1 red bell pepper, thinly sliced</li>
-            <li>1 cup cooked black beans (or canned, rinsed & drained)</li>
-          </ol>
+          <ul className="ingredient-list">
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 cup couscous</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 cup boiling water (or vegetable broth for extra flavor)</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              2 tbsp fresh cilantro, chopped </li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 tbsp olive oil </li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 cup enchilada sauce (store-bought or homemade)</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 tsp smoked paprika</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              Salt & pepper to taste </li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 tsp cumin powder </li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 tbsp olive oil</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 red bell pepper, thinly sliced</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 cup cooked black beans (or canned, rinsed & drained)</li>
+          </ul>
         </div>
         <div className="ingredients"><h3>Instructions</h3>
           <ol>
@@ -117,13 +139,15 @@ class Couscousblackbeanbowl extends Component {
           </ol>
         </div>
         <h2>Final Product</h2>
-        <MediaQuery maxWidth={767}>
-          <Image src="/couscousblackbeanbowl.png" alt="Couscous black bean bowl topped with enchilada sauce, red bell peppers, and fresh cilantro" thumbnail rounded fluid></Image>
-        </MediaQuery>
-        <MediaQuery minWidth={767}>
-          <Image src="/couscousblackbeanbowl.png" alt="Couscous black bean bowl topped with enchilada sauce, red bell peppers, and fresh cilantro" thumbnail rounded width="50%" height="50%"></Image>
-        </MediaQuery>
-
+        <Image
+          src="/couscousblackbeanbowl.png"
+          alt="Couscous black bean bowl topped with enchilada sauce, red bell peppers, and fresh cilantro"
+          fluid
+          thumbnail
+          rounded
+          loading="lazy"
+          className="recipe-image"
+        />
         <div>
           <h2>Couscous Black Bean Bowl with Enchilada Sauce & Red Pepper Preparation Video</h2>
           <MediaQuery maxWidth={767}>

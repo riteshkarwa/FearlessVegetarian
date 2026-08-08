@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Link } from "react-router-dom";
-import { faUtensils } from "@fortawesome/free-solid-svg-icons";
+import { faUtensils, faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class AshwagandhaAppleJuice extends Component {
   render() {
@@ -124,17 +124,35 @@ class AshwagandhaAppleJuice extends Component {
 
         <div className="ingredients"><h3>Ingredients</h3>
 
-          <ol>
-            <li>2 fresh apples, chopped</li>
-            <li>1 teaspoon Ashwagandha powder</li>
-            <li>1/2 teaspoon Chaat Masala</li>
-            <li>1 tablespoon lemon juice</li>
-            <li>1 cup cold water</li>
-            <li>1/2 teaspoon Cinnamon powder</li>
-            <li>4-5 ice cubes (optional)</li>
-            <li>1 teaspoon honey or maple syrup (optional)</li>
-            <li>Fresh mint leaves for garnish</li>
-          </ol>
+          <ul className="ingredient-list">
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              2 fresh apples, chopped</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 teaspoon Ashwagandha powder</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 teaspoon Chaat Masala</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 tablespoon lemon juice</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 cup cold water</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 teaspoon Cinnamon powder</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              4-5 ice cubes (optional)</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 teaspoon honey or maple syrup (optional)</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              Fresh mint leaves for garnish</li>
+          </ul>
         </div>
         <div className="ingredients"><h3>Instruction</h3>
 
@@ -194,13 +212,15 @@ class AshwagandhaAppleJuice extends Component {
         </ul>
 
         <h2>Final Product</h2>
-        <MediaQuery maxWidth={767}>
-          <Image src="/ashwagandhaapplejuice.png" alt="Ashwagandha Apple Chaat Masala Juice" thumbnail rounded fluid></Image>
-        </MediaQuery>
-        <MediaQuery minWidth={767}>
-          <Image src="/ashwagandhaapplejuice.png" alt="Ashwagandha Apple Chaat Masala Juice" thumbnail rounded fluid width="60%" height="60%"></Image>
-        </MediaQuery>
-
+        <Image
+          src="/ashwagandhaapplejuice.png"
+          alt="Ashwagandha Apple Chaat Masala Juice"
+          fluid
+          thumbnail
+          rounded
+          loading="lazy"
+          className="recipe-image"
+        />
         <h2>Serving Suggestions</h2>
 
         <p>

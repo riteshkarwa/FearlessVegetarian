@@ -62,17 +62,9 @@ ol li {
   font-size: 20px;
 }
 
-.recipe_img {
-  width: 25rem;
-}
-
 .serving {
   font-weight: bold;
   font-size: 30px;
-}
-
-.recipe_text {
-  font-size: 40px;
 }
 
 .material-symbols-outlined {
@@ -328,15 +320,6 @@ section p {
   }
 }
 
-
-/* Recipe image */
-.recipe-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
 /* Desktop */
 @media (min-width: 992px) {
   .recipe-image {
@@ -462,4 +445,32 @@ section p {
 /* Video */
 .recipe-video {
   margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  .recipe-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .recipe-image {
+    max-width: 100%;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+.recipe-image-wrapper {
+  display: inline-block;
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #d6d6d6;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  line-height: 0;
+  box-sizing: border-box;
 }

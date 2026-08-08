@@ -115,93 +115,93 @@ class Potatocapsicum extends Component {
                     <ul className="ingredient-list">
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>1 teaspoon onion powder</span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>1 tablespoon coriander powder</span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>1/8 teaspoon turmeric powder</span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>1/8 teaspoon red chili powder</span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>1 tablespoon curry powder</span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>1 teaspoon cumin powder</span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>
                                 1 tablespoon Garam Masala spice, found in Indian grocery stores
                             </span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>4 whole potatoes</span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>Salt to taste</span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>1 onion</span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>
                                 1/8 teaspoon Amchoor Powder (Dried Mango Powder)
                             </span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>
                                 1/2 teaspoon Kitchen King Masala, found in Indian grocery stores
                             </span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>5 whole cloves</span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>2 small pieces of ginger, peeled</span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>2 dried curry leaves</span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>1 red bell pepper</span>
                         </li>
 
                         <li>
-                            <FontAwesomeIcon icon={faCarrot} />
+                            <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
                             <span>2 whole tomatoes</span>
                         </li>
 
@@ -284,26 +284,14 @@ class Potatocapsicum extends Component {
                 <section className="final-product">
 
                     <h2>Final Product</h2>
-
-                    <MediaQuery maxWidth={767}>
-                        <Image
-                            src="/potatocapsicum.jpg"
-                            alt="Creamy potato curry with roasted red pepper and Indian spices"
-                            thumbnail
-                            rounded
-                            fluid
-                        />
-                    </MediaQuery>
-
-                    <MediaQuery minWidth={768}>
-                        <Image
-                            src="/potatocapsicum.jpg"
-                            alt="Creamy potato curry with roasted red pepper and Indian spices"
-                            thumbnail
-                            rounded
-                            className="final-product-image"
-                        />
-                    </MediaQuery>
+                    <Image
+                        src="/potatocapsicum.jpg"
+                        alt="Creamy potato curry with roasted red pepper and Indian spices"
+                        fluid
+                        rounded
+                        loading="lazy"
+                        className="recipe-image"
+                    />
 
                 </section>
 
