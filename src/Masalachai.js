@@ -10,6 +10,7 @@ import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
 import { faUtensils } from "@fortawesome/free-solid-svg-icons";
+import { faBowlFood } from '@fortawesome/free-solid-svg-icons';
 
 class Masalachai extends Component {
   render() {
@@ -139,43 +140,58 @@ class Masalachai extends Component {
           </Col>
         </Row>
 
-        <div className="ingredients">Ingredients</div>
+        <div className="ingredients">
+          <h3>Ingredients</h3>
 
-        <ol>
-          <li>2 cups water</li>
-          <li>1 cup whole milk</li>
-          <li>2 teaspoons loose black tea or 2 tea bags</li>
-          <li>1-inch fresh ginger, grated</li>
-          <li>4 green cardamom pods, lightly crushed</li>
-          <li>2 teaspoons sugar (adjust to taste)</li>
-        </ol>
+          <ul className="ingredient-list">
+            <li>
+              <FontAwesomeIcon icon={faBowlFood} />
+              2 cups water</li>
+            <li>
+              <FontAwesomeIcon icon={faBowlFood} />
+              1 cup whole milk</li>
+            <li>
+              <FontAwesomeIcon icon={faBowlFood} />
+              2 teaspoons loose black tea or 2 tea bags</li>
+            <li>
+              <FontAwesomeIcon icon={faBowlFood} />
+              1-inch fresh ginger, grated</li>
+            <li>
+              <FontAwesomeIcon icon={faBowlFood} />
+              4 green cardamom pods, lightly crushed</li>
+            <li>
+              <FontAwesomeIcon icon={faBowlFood} />
+              2 teaspoons sugar (adjust to taste)</li>
+          </ul>
+        </div>
 
-        <div className="ingredients">Instructions</div>
+        <div className="ingredients"><h3>Instructions</h3>
 
-        <ol>
-          <li>Bring the water to a boil in a saucepan.</li>
+          <ol>
+            <li>Bring the water to a boil in a saucepan.</li>
 
-          <li>
-            Add the grated ginger and lightly crushed green cardamom pods.
-            Simmer for 2–3 minutes.
-          </li>
+            <li>
+              Add the grated ginger and lightly crushed green cardamom pods.
+              Simmer for 2–3 minutes.
+            </li>
 
-          <li>Add the tea leaves (or tea bags).</li>
+            <li>Add the tea leaves (or tea bags).</li>
 
-          <li>Pour in the milk and stir well.</li>
+            <li>Pour in the milk and stir well.</li>
 
-          <li>Add sugar according to your taste.</li>
+            <li>Add sugar according to your taste.</li>
 
-          <li>
-            Allow the chai to come to a gentle boil for about 2–3 minutes.
-          </li>
+            <li>
+              Allow the chai to come to a gentle boil for about 2–3 minutes.
+            </li>
 
-          <li>Reduce the heat and simmer for another minute.</li>
+            <li>Reduce the heat and simmer for another minute.</li>
 
-          <li>Strain the chai into serving cups.</li>
+            <li>Strain the chai into serving cups.</li>
 
-          <li>Serve immediately while hot.</li>
-        </ol>
+            <li>Serve immediately while hot.</li>
+          </ol>
+        </div>
 
         <h2>Serving Suggestions</h2>
 

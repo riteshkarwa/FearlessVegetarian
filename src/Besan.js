@@ -105,36 +105,38 @@ class Besan extends Component {
         <Row className="cooktimerow">
           <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
         </Row>
-        <div className="ingredients">Ingredients</div>
-        <ol>
-          <li>2 tablespoon cooking oil</li>
-          <li>1 cup gram flour (Besan) </li>
-          <li>2 medium sized onions, sliced</li>
-          <li>1/4 cup spring onions, chopped</li>
-          <li>2 small green chilies, chopped</li>
-          <li>A pinch of asafetida (hing)</li>
-          <li>1 teaspoon cumin seeds</li>
-          <li>1 teaspoon mustard seeds</li>
-          <li>Salt to taste</li>
-          <li>1/2 teaspoon turmeric powder</li>
-          <li>1/2 teaspoon red chili powder</li>
-          <li>2 teaspoons coriander powder</li>
-          <li>3 + 1 cups boiling hot water</li>
-        </ol>
-        <div className="ingredients">Instruction</div>
-        <ol>
-          <li>Heat 2 tablespoons oil in a pan. When the oil is hot enough add asafetida, cumin seeds, and mustard seeds. </li>
-          <li>When the cumin and mustard seeds start to crackle add sliced onions and sauté for 3-4 minutes or till
-            the onions are slightly golden brown.</li>
-          <li>Now add chopped spring onions, chopped green chilies and sauté the mixture for another 3 minutes.</li>
-          <li>Add 1 cup Chickpea Flour and roast with onions for 3-4 minutes.</li>
-          <li>Now add coriander powder, red chili powder, salt and mix well.</li>
-          <li>Now slowly add 3 cups of boiled water and keep stirring constantly.</li>
-          <li>When the mixture turns slightly thick then add turmeric powder and 1 cup of boiling hot water.</li>
-          <li>Keep stirring consistently to avoid any lumps.</li>
-          <li>Turn the heat to medium-low. Cover and cook this Chickpea Flour for 7-8 minutes. Stir occasionally..</li>
-          <li>Transfer it to a serving bowl and garnish with spring onions.</li>
-        </ol>
+        <div className="ingredients"><h3>Ingredients</h3>
+          <ol>
+            <li>2 tablespoon cooking oil</li>
+            <li>1 cup gram flour (Besan) </li>
+            <li>2 medium sized onions, sliced</li>
+            <li>1/4 cup spring onions, chopped</li>
+            <li>2 small green chilies, chopped</li>
+            <li>A pinch of asafetida (hing)</li>
+            <li>1 teaspoon cumin seeds</li>
+            <li>1 teaspoon mustard seeds</li>
+            <li>Salt to taste</li>
+            <li>1/2 teaspoon turmeric powder</li>
+            <li>1/2 teaspoon red chili powder</li>
+            <li>2 teaspoons coriander powder</li>
+            <li>3 + 1 cups boiling hot water</li>
+          </ol>
+        </div>
+        <div className="ingredients"><h3>Instruction</h3>
+          <ol>
+            <li>Heat 2 tablespoons oil in a pan. When the oil is hot enough add asafetida, cumin seeds, and mustard seeds. </li>
+            <li>When the cumin and mustard seeds start to crackle add sliced onions and sauté for 3-4 minutes or till
+              the onions are slightly golden brown.</li>
+            <li>Now add chopped spring onions, chopped green chilies and sauté the mixture for another 3 minutes.</li>
+            <li>Add 1 cup Chickpea Flour and roast with onions for 3-4 minutes.</li>
+            <li>Now add coriander powder, red chili powder, salt and mix well.</li>
+            <li>Now slowly add 3 cups of boiled water and keep stirring constantly.</li>
+            <li>When the mixture turns slightly thick then add turmeric powder and 1 cup of boiling hot water.</li>
+            <li>Keep stirring consistently to avoid any lumps.</li>
+            <li>Turn the heat to medium-low. Cover and cook this Chickpea Flour for 7-8 minutes. Stir occasionally..</li>
+            <li>Transfer it to a serving bowl and garnish with spring onions.</li>
+          </ol>
+        </div>
         <h2>Final Product</h2>
         <MediaQuery maxWidth={767}>
           <Image src="/besan.jpg" thumbnail rounded fluid></Image>

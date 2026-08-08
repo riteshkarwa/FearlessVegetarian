@@ -120,41 +120,43 @@ class Hakkanoodle extends Component {
                 </Row>
 
                 {/* Ingredients */}
-                <div className="ingredients">Ingredients</div>
-                <ol>
-                    {ingredients.map((item, i) => (
-                        <li key={i}>{item}</li>
-                    ))}
-                </ol>
+                <div className="ingredients"><h3>Ingredients</h3>
+                    <ol>
+                        {ingredients.map((item, i) => (
+                            <li key={i}>{item}</li>
+                        ))}
+                    </ol>
+                </div>
 
                 {/* Instructions */}
-                <div className="ingredients">Instructions</div>
+                <div className="ingredients"><h3>Instructions</h3>
 
-                <h3>1. Cook Noodles</h3>
-                <ol>
-                    <li>Boil noodles as per package instructions.</li>
-                    <li>Drain and toss with a little oil to prevent sticking.</li>
-                </ol>
+                    <h3>1. Cook Noodles</h3>
+                    <ol>
+                        <li>Boil noodles as per package instructions.</li>
+                        <li>Drain and toss with a little oil to prevent sticking.</li>
+                    </ol>
 
-                <h3>2. Stir Fry Vegetables</h3>
-                <ol>
-                    <li>Heat oil in a wok on high flame.</li>
-                    <li>Add garlic, ginger, chili, and spring onions.</li>
-                    <li>Add all vegetables and stir fry quickly.</li>
-                </ol>
+                    <h3>2. Stir Fry Vegetables</h3>
+                    <ol>
+                        <li>Heat oil in a wok on high flame.</li>
+                        <li>Add garlic, ginger, chili, and spring onions.</li>
+                        <li>Add all vegetables and stir fry quickly.</li>
+                    </ol>
 
-                <h3>3. Add Sauces</h3>
-                <ol>
-                    <li>Add soy sauce, chili sauce, tomato sauce, salt, and pepper.</li>
-                    <li>Mix well on high heat.</li>
-                </ol>
+                    <h3>3. Add Sauces</h3>
+                    <ol>
+                        <li>Add soy sauce, chili sauce, tomato sauce, salt, and pepper.</li>
+                        <li>Mix well on high heat.</li>
+                    </ol>
 
-                <h3>4. Combine</h3>
-                <ol>
-                    <li>Add boiled noodles and vinegar.</li>
-                    <li>Toss everything on high flame until well combined.</li>
-                    <li>Garnish with spring onions and serve hot.</li>
-                </ol>
+                    <h3>4. Combine</h3>
+                    <ol>
+                        <li>Add boiled noodles and vinegar.</li>
+                        <li>Toss everything on high flame until well combined.</li>
+                        <li>Garnish with spring onions and serve hot.</li>
+                    </ol>
+                </div>
 
                 {/* Final Image */}
                 <h2>Final Product</h2>

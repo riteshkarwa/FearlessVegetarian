@@ -84,43 +84,45 @@ class BalsamicVinaigretteDish extends Component {
                 <Row className="cooktimerow">
                     <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 20 minutes</Col>
                 </Row>
-                <div className="ingredients">Ingredients</div>
-                <ol>
-                    <li>1.5 cups (225g) cucumber, diced</li>
-                    <li>1 cup (150g) red bell pepper, diced</li>
-                    <li>1 cup (100g) purple cabbage, shredded</li>
-                    <li>3/4 cup (100g) red onion, finely chopped</li>
-                    <li>1/2 cup (25g) green onion, chopped</li>
-                    <li>1/2 cup (25g) fresh parsley, chopped</li>
-                    <li>90g toasted walnuts, chopped</li>
-                    <li>1 cup dry couscous, cooked and cooled</li>
-                </ol>
-                <div className="ingredients">Instruction</div>
-                <ol>
-                    <li>
-                        Prepare the couscous according to the package instructions. Fluff with a fork and allow it to cool completely.
-                    </li>
-                    <li>
-                        Toast the walnuts in a dry skillet over medium heat for 3–4 minutes until fragrant. Let them cool, then roughly chop.</li>
-                    <li>
-                        In a large mixing bowl, combine the cucumber, red bell pepper, purple cabbage, red onion, green onion, and parsley.</li>
-                    <li>
-                        Add the cooled couscous and toasted walnuts to the bowl.</li>
-                    <li>
-                        In a small bowl or jar, whisk together the balsamic vinegar, olive oil, Dijon mustard, maple syrup (if using), cumin, salt, and black pepper until well combined.
-                    </li>
-                    <li>
-                        Pour the vinaigrette over the couscous mixture</li>
-                    <li>
-                        Toss gently until all ingredients are evenly coated with the dressing.</li>
-                    <li>
-                        Taste and adjust seasoning with additional salt, pepper, or balsamic vinegar if desired.</li>
-                    <li>
-                        Refrigerate for 15–30 minutes before serving to allow the flavors to meld together.</li>
-                    <li>
-                        Serve chilled or at room temperature and enjoy.
-                    </li>
-                </ol>
+                <div className="ingredients"><h3>Ingredients</h3>
+                    <ol>
+                        <li>1.5 cups (225g) cucumber, diced</li>
+                        <li>1 cup (150g) red bell pepper, diced</li>
+                        <li>1 cup (100g) purple cabbage, shredded</li>
+                        <li>3/4 cup (100g) red onion, finely chopped</li>
+                        <li>1/2 cup (25g) green onion, chopped</li>
+                        <li>1/2 cup (25g) fresh parsley, chopped</li>
+                        <li>90g toasted walnuts, chopped</li>
+                        <li>1 cup dry couscous, cooked and cooled</li>
+                    </ol>
+                </div>
+                <div className="ingredients"><h3>Instruction</h3>
+                    <ol>
+                        <li>
+                            Prepare the couscous according to the package instructions. Fluff with a fork and allow it to cool completely.
+                        </li>
+                        <li>
+                            Toast the walnuts in a dry skillet over medium heat for 3–4 minutes until fragrant. Let them cool, then roughly chop.</li>
+                        <li>
+                            In a large mixing bowl, combine the cucumber, red bell pepper, purple cabbage, red onion, green onion, and parsley.</li>
+                        <li>
+                            Add the cooled couscous and toasted walnuts to the bowl.</li>
+                        <li>
+                            In a small bowl or jar, whisk together the balsamic vinegar, olive oil, Dijon mustard, maple syrup (if using), cumin, salt, and black pepper until well combined.
+                        </li>
+                        <li>
+                            Pour the vinaigrette over the couscous mixture</li>
+                        <li>
+                            Toss gently until all ingredients are evenly coated with the dressing.</li>
+                        <li>
+                            Taste and adjust seasoning with additional salt, pepper, or balsamic vinegar if desired.</li>
+                        <li>
+                            Refrigerate for 15–30 minutes before serving to allow the flavors to meld together.</li>
+                        <li>
+                            Serve chilled or at room temperature and enjoy.
+                        </li>
+                    </ol>
+                </div>
                 <h2>Final Product</h2>
                 <MediaQuery maxWidth={767}>
                     <Image src="/couscousbalsamic.jpg" alt="Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity" thumbnail rounded fluid></Image>

@@ -122,54 +122,55 @@ class AshwagandhaAppleJuice extends Component {
           </Col>
         </Row>
 
-        <div className="ingredients">Ingredients</div>
+        <div className="ingredients"><h3>Ingredients</h3>
 
-        <ol>
-          <li>2 fresh apples, chopped</li>
-          <li>1 teaspoon Ashwagandha powder</li>
-          <li>1/2 teaspoon Chaat Masala</li>
-          <li>1 tablespoon lemon juice</li>
-          <li>1 cup cold water</li>
-          <li>1/2 teaspoon Cinnamon powder</li>
-          <li>4-5 ice cubes (optional)</li>
-          <li>1 teaspoon honey or maple syrup (optional)</li>
-          <li>Fresh mint leaves for garnish</li>
-        </ol>
+          <ol>
+            <li>2 fresh apples, chopped</li>
+            <li>1 teaspoon Ashwagandha powder</li>
+            <li>1/2 teaspoon Chaat Masala</li>
+            <li>1 tablespoon lemon juice</li>
+            <li>1 cup cold water</li>
+            <li>1/2 teaspoon Cinnamon powder</li>
+            <li>4-5 ice cubes (optional)</li>
+            <li>1 teaspoon honey or maple syrup (optional)</li>
+            <li>Fresh mint leaves for garnish</li>
+          </ol>
+        </div>
+        <div className="ingredients"><h3>Instruction</h3>
 
-        <div className="ingredients">Instructions</div>
+          <ol>
+            <li>
+              Wash and chop the apples. Remove the seeds but keep the peel for
+              extra nutrients.
+            </li>
 
-        <ol>
-          <li>
-            Wash and chop the apples. Remove the seeds but keep the peel for
-            extra nutrients.
-          </li>
+            <li>
+              Add apples, water, cinnamon powder, lemon juice, and Ashwagandha powder to a blender.
+            </li>
 
-          <li>
-            Add apples, water, cinnamon powder, lemon juice, and Ashwagandha powder to a blender.
-          </li>
+            <li>
+              Blend until smooth and creamy. Add additional water if a thinner
+              consistency is desired.
+            </li>
 
-          <li>
-            Blend until smooth and creamy. Add additional water if a thinner
-            consistency is desired.
-          </li>
+            <li>
+              Strain the juice if you prefer a smoother texture. Otherwise, enjoy
+              it with the fiber intact.
+            </li>
 
-          <li>
-            Strain the juice if you prefer a smoother texture. Otherwise, enjoy
-            it with the fiber intact.
-          </li>
+            <li>
+              Stir in the chaat masala and mix well.
+            </li>
 
-          <li>
-            Stir in the chaat masala and mix well.
-          </li>
+            <li>
+              Add ice cubes and sweetener if desired.
+            </li>
 
-          <li>
-            Add ice cubes and sweetener if desired.
-          </li>
-
-          <li>
-            Garnish with fresh mint leaves and serve immediately.
-          </li>
-        </ol>
+            <li>
+              Garnish with fresh mint leaves and serve immediately.
+            </li>
+          </ol>
+        </div>
 
         <h2>Why You'll Love This Drink</h2>
 

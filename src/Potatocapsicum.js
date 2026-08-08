@@ -1,150 +1,399 @@
 import React, { Component } from "react";
-import Image from 'react-bootstrap/Image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock } from '@fortawesome/free-regular-svg-icons';
-import YouTube from 'react-youtube';
-import MediaQuery from 'react-responsive';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Image from "react-bootstrap/Image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from "@fortawesome/free-regular-svg-icons";
+import {
+    faLeaf,
+    faCarrot
+} from "@fortawesome/free-solid-svg-icons";
+import YouTube from "react-youtube";
+import MediaQuery from "react-responsive";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 
 class Potatocapsicum extends Component {
     render() {
         const optsDesktop = {
-            height: '800',
-            width: '1000',
+            height: "800",
+            width: "1000",
         };
 
         const optsMobile = {
-            height: '550',
-            width: '325',
+            height: "550",
+            width: "325",
         };
+
         return (
-            <div>
+            <div className="recipe-page">
+
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Creamy Potato Curry in Roasted Red Pepper Cashew Gravy – Indian Style</title>
-                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/potatosalad" />
+
+                    <title>
+                        Creamy Potato Curry in Roasted Red Pepper Gravy | Fearless Vegetarian
+                    </title>
+
+                    <link
+                        rel="canonical"
+                        href="https://fearlessvegetarian.netlify.app/potatocapsicum"
+                    />
+
                     <meta
                         name="description"
-                        content="Discover a flavorful Potato Curry cooked in a creamy roasted red bell pepper and cashew sauce, seasoned with aromatic Indian spices. A perfect vegetarian dish for weeknight dinners or festive meals."
+                        content="Make a flavorful creamy potato curry with roasted red bell pepper, tomatoes, and aromatic Indian spices. A delicious vegetarian Indian curry perfect for weeknight dinners."
                     />
+
                     <meta
                         name="keywords"
-                        content="potato curry recipe, roasted red bell pepper curry, cashew curry sauce, Indian vegetarian curry, aloo curry with cashews, Indian bell pepper curry, creamy potato curry, vegan Indian recipes, 
-                easy curry recipe, spicy potato curry, recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
+                        content="potato curry recipe, roasted red bell pepper curry, Indian vegetarian curry, aloo curry, creamy potato curry, Indian potato recipe, vegan Indian recipes, easy curry recipe, spicy potato curry, Fearless Vegetarian"
                     />
-                    <meta property="og:title" content="Creamy Potato Curry in Roasted Red Pepper Cashew Gravy – Indian Style" />
-                    <meta property="og:type" content="website" />
-                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/potatocapsicum" />
-                    <meta property="og:image" content="https://fearlessvegetarian.netlify.app/potatocapsicum.png" />
-                    <meta property="og:description" content="Discover a flavorful Potato Curry cooked in a creamy roasted red bell pepper and cashew sauce, seasoned with aromatic Indian spices. A perfect vegetarian dish for weeknight dinners or festive meals." />
-                </Helmet>
-                <h1>Discover a flavorful Potato Curry cooked in a creamy roasted red bell pepper and cashew sauce, seasoned with aromatic Indian spices. A perfect vegetarian dish for weeknight dinners or festive meals.</h1>
-                <Row className="cooktimerow">
-                    <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
-                </Row>
-                <Row>
-                    <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
-                </Row>
-                <div className="ingredients">Ingredients</div>
-                <ol>
-                    <li>1 teaspoon onion powder </li>
-                    <li>1 tablespoon coriander powder </li>
-                    <li>1/8 teaspoon tumeric powder</li>
-                    <li>1/8 teaspoon red chili powder</li>
-                    <li>1 tablespoon curry powder</li>
-                    <li>1 teaspoon cumin powder</li>
-                    <li>1 tablespoon Garam Masala spice found in Indian store</li>
-                    <li>4 whole potatoes</li>
-                    <li>Salt as per taste</li>
-                    <li>1 onion</li>
-                    <li>1/8 teaspoon Amchoor Powder - Dried Mango Powder found in Indian Store</li>
-                    <li>1/2 teaspoon Kitchen King Spice found in Indian Store</li>
-                    <li>5 piece of cloves</li>
-                    <li>2 small piece of ginger peeled</li>
-                    <li>2 dried curry leaves </li>
-                    <li>1 Red Bell Pepper </li>
-                    <li>2 Whole Tomatoes </li>
 
-                </ol>
-                <div className="ingredients">Instruction</div>
-                <ol>
-                    <li>Take some olive oil in a non stick pan and heat it up.</li>
-                    <li>Add pieces of ginger, whole garlic, red bell pepper, 2 tomatoes ,1 onion,  5 pieces of clove in a mixer or food processor and turn it
-                        into a fine puree.
-                    </li>
-                    <li>Add the puree to the non stick pan with oil heated up.</li>
-                    <li>Add all the  spices to the onion tomato red pepper puree: ginger powder, onion powder, coriander powder, chili powder(you can start with adding very
-                        little in the beginning and add more towards the end of the dish), tumeric powder, curry powder.</li>
-                    <li>Cover the pan with a lid and let it cook.</li>
-                    <li>Let the spices cook for around 10 min.</li>
-                    <li>Slice the potatoes vertically and then using a food chopper chop each potato slice into small square pieces.</li>
-                    <li>Add the potatoes to the pan.</li>
-                    <li>Cook the potatoes for about 30 minutes till they become soft. Constantly stir the potatoes to mix it well with onion tomato red pepper puree which
-                        will act as a gravy for the curry.</li>
-                    <li>Add salt as per taste.</li>
-                    <li>Add little bit of Kitchen King Masala Spice, Garam Masala powder and Amchoor powder all of them can be found in Indian Grocery Store.</li>
-                    <li>That is it your curry is ready. You can enjoy it with Garlic Naan or Roti(Indian bread less calories compared to Naan).</li>
-                </ol>
-                <h2>Final Product</h2>
-                <MediaQuery maxWidth={767}>
-                    <Image src="/potatocapsicum.jpg" thumbnail rounded fluid></Image>
-                </MediaQuery>
-                <MediaQuery minWidth={767}>
-                    <Image src="/potatocapsicum.jpg" thumbnail rounded fluid width="50%" height="50%"></Image>
-                </MediaQuery>
-                <div>
-                    <h2>Creamy Potato Curry in Roasted Red Pepper Cashew Gravy Preparation Video</h2>
+                    <meta
+                        property="og:title"
+                        content="Creamy Potato Curry in Roasted Red Pepper Gravy"
+                    />
+
+                    <meta
+                        property="og:type"
+                        content="website"
+                    />
+
+                    <meta
+                        property="og:url"
+                        content="https://fearlessvegetarian.netlify.app/potatocapsicum"
+                    />
+
+                    <meta
+                        property="og:image"
+                        content="https://fearlessvegetarian.netlify.app/potatocapsicum.jpg"
+                    />
+
+                    <meta
+                        property="og:description"
+                        content="Make a flavorful creamy potato curry with roasted red bell pepper, tomatoes, and aromatic Indian spices. A delicious vegetarian Indian curry."
+                    />
+                </Helmet>
+
+                {/* Recipe Title */}
+                <h1>
+                    Creamy Potato Curry in Roasted Red Pepper Gravy
+                </h1>
+
+                {/* Recipe Description */}
+                <p className="lead recipe-description">
+                    Make a flavorful creamy potato curry with roasted red
+                    bell pepper, tomatoes, and aromatic Indian spices.
+                    This delicious vegetarian Indian curry is perfect
+                    for weeknight dinners or festive meals.
+                </p>
+
+                {/* Recipe Information */}
+                <Row className="cooktimerow">
+                    <Col>
+                        <span className="material-symbols-outlined">
+                            restaurant_menu
+                        </span>{" "}
+                        Yields: 1 Serving
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col>
+                        <FontAwesomeIcon icon={faClock} /> Cooking Time: 60 minutes
+                    </Col>
+                </Row>
+
+                {/* Ingredients */}
+                <section className="ingredients">
+
+                    <h2>
+                        <FontAwesomeIcon icon={faCarrot} /> Ingredients
+                    </h2>
+
+                    <ul className="ingredient-list">
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>1 teaspoon onion powder</span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>1 tablespoon coriander powder</span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>1/8 teaspoon turmeric powder</span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>1/8 teaspoon red chili powder</span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>1 tablespoon curry powder</span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>1 teaspoon cumin powder</span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>
+                                1 tablespoon Garam Masala spice, found in Indian grocery stores
+                            </span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>4 whole potatoes</span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>Salt to taste</span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>1 onion</span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>
+                                1/8 teaspoon Amchoor Powder (Dried Mango Powder)
+                            </span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>
+                                1/2 teaspoon Kitchen King Masala, found in Indian grocery stores
+                            </span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>5 whole cloves</span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>2 small pieces of ginger, peeled</span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>2 dried curry leaves</span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>1 red bell pepper</span>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faCarrot} />
+                            <span>2 whole tomatoes</span>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+                {/* Instructions */}
+                <section className="instructions">
+
+                    <h2>
+                        <FontAwesomeIcon icon={faCarrot} /> Instructions
+                    </h2>
+
+                    <ol className="instruction-list">
+
+                        <li>
+                            Take some olive oil in a non-stick pan and heat it.
+                        </li>
+
+                        <li>
+                            Add ginger, garlic, red bell pepper, tomatoes,
+                            onion, and cloves to a mixer or food processor.
+                            Blend into a fine puree.
+                        </li>
+
+                        <li>
+                            Add the puree to the heated pan with oil.
+                        </li>
+
+                        <li>
+                            Add the spices to the onion, tomato, and red pepper
+                            puree: ginger powder, onion powder, coriander powder,
+                            chili powder, turmeric powder, and curry powder.
+                        </li>
+
+                        <li>
+                            Cover the pan with a lid and let it cook.
+                        </li>
+
+                        <li>
+                            Let the spices cook for approximately 10 minutes.
+                        </li>
+
+                        <li>
+                            Slice the potatoes vertically, then chop each slice
+                            into small square pieces.
+                        </li>
+
+                        <li>
+                            Add the potatoes to the pan.
+                        </li>
+
+                        <li>
+                            Cook the potatoes for about 30 minutes, until they
+                            become soft. Stir frequently so the potatoes combine
+                            well with the onion, tomato, and red pepper gravy.
+                        </li>
+
+                        <li>
+                            Add salt to taste.
+                        </li>
+
+                        <li>
+                            Add a little Kitchen King Masala, Garam Masala powder,
+                            and Amchoor powder. These spices can be found at
+                            Indian grocery stores.
+                        </li>
+
+                        <li>
+                            Your curry is ready! Enjoy it with Garlic Naan or
+                            Roti. Roti is a lighter option compared with naan.
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                {/* Final Product */}
+                <section className="final-product">
+
+                    <h2>Final Product</h2>
+
                     <MediaQuery maxWidth={767}>
-                        <YouTube videoId="JgsJJjxUHqg" opts={optsMobile} />
+                        <Image
+                            src="/potatocapsicum.jpg"
+                            alt="Creamy potato curry with roasted red pepper and Indian spices"
+                            thumbnail
+                            rounded
+                            fluid
+                        />
                     </MediaQuery>
-                    <MediaQuery minWidth={767}>
-                        <YouTube videoId="JgsJJjxUHqg" opts={optsDesktop} />
+
+                    <MediaQuery minWidth={768}>
+                        <Image
+                            src="/potatocapsicum.jpg"
+                            alt="Creamy potato curry with roasted red pepper and Indian spices"
+                            thumbnail
+                            rounded
+                            className="final-product-image"
+                        />
                     </MediaQuery>
-                </div>
-                <div style={{ marginTop: "40px" }}>
+
+                </section>
+
+                {/* Preparation Video */}
+                <section className="recipe-video">
+
+                    <h2>
+                        Creamy Potato Curry in Roasted Red Pepper Gravy
+                        Preparation Video
+                    </h2>
+
+                    <MediaQuery maxWidth={767}>
+                        <YouTube
+                            videoId="JgsJJjxUHqg"
+                            opts={optsMobile}
+                        />
+                    </MediaQuery>
+
+                    <MediaQuery minWidth={768}>
+                        <YouTube
+                            videoId="JgsJJjxUHqg"
+                            opts={optsDesktop}
+                        />
+                    </MediaQuery>
+
+                </section>
+
+                {/* Related Recipes */}
+                <section
+                    className="related-recipes"
+                    style={{ marginTop: "40px" }}
+                >
+
                     <h2>Related Vegetarian Recipes</h2>
+
                     <p>
-                        If you enjoyed this Creamy Potato Curry, you may also like our
-                        <ul style={{
-                            listStyle: "none",
-                            padding: 0,
-                            marginTop: "20px"
-                        }}>
-                            <li>
-                                <FontAwesomeIcon
-                                    icon={faLeaf}
-                                    style={{ color: "#28a745", marginRight: "10px" }}
-                                />
-                                <Link to="/aloogobi" className="recipe-link" > Aloo Gobi</Link>
-                            </li>
-                            <li>
-                                <FontAwesomeIcon
-                                    icon={faLeaf}
-                                    style={{ color: "#28a745", marginRight: "10px" }}
-                                />
-                                <Link to="/dalmakhani" className="recipe-link"> Dal Makhani</Link>
-                            </li>
-                            <li>
-                                <FontAwesomeIcon
-                                    icon={faLeaf}
-                                    style={{ color: "#28a745", marginRight: "10px" }}
-                                />
-                                <Link to="/saagpaneer" className="recipe-link"> Saag Paneer</Link>
-                            </li>
-                            <li>
-                                <FontAwesomeIcon
-                                    icon={faLeaf}
-                                    style={{ color: "#28a745", marginRight: "10px" }}
-                                />
-                                <Link to="/besan" className="recipe-link"> Besan Curry</Link>
-                            </li>
-                        </ul>
+                        If you enjoyed this Creamy Potato Curry, you may also
+                        like these vegetarian recipes:
                     </p>
-                </div>
+
+                    <ul className="related-recipe-list">
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} />
+
+                            <Link
+                                to="/aloogobi"
+                                className="recipe-link"
+                            >
+                                Aloo Gobi
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} />
+
+                            <Link
+                                to="/dalmakhani"
+                                className="recipe-link"
+                            >
+                                Dal Makhani
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} />
+
+                            <Link
+                                to="/saagpaneer"
+                                className="recipe-link"
+                            >
+                                Saag Paneer
+                            </Link>
+                        </li>
+
+                        <li>
+                            <FontAwesomeIcon icon={faLeaf} />
+
+                            <Link
+                                to="/besan"
+                                className="recipe-link"
+                            >
+                                Besan Curry
+                            </Link>
+                        </li>
+
+                    </ul>
+
+                </section>
+
             </div>
         );
     }

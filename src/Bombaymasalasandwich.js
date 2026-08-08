@@ -81,34 +81,36 @@ class Bombaymasalasandwich extends Component {
         <Row className="cooktimerow">
           <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes</Col>
         </Row>
-        <div className="ingredients">Ingredients</div>
-        <ol>
-          <li>2 slices of bread (white or brown)</li>
-          <li>2 medium potatoes (boiled & mashed)</li>
-          <li>Butter for toasting</li>
-          <li>1 small onion, sliced into rings.</li>
-          <li>1 small capsicum, sliced into rings.</li>
-          <li>1/2 tsp ginger-garlic paste</li>
-          <li>1/2 cup fresh cilantro chutney (green chutney) </li>
-          <li>1 green chili (finely chopped, optional)</li>
-          <li>1/2 tsp turmeric powder</li>
-          <li>1/2 tsp  red chili powder</li>
-          <li>1/2 tsp  garam masala</li>
-          <li>1/2 tsp cumin seeds</li>
-          <li>1 tbsp oil</li>
-          <li>Optional: sliced cucumber, tomato, onion, beetroot, grated cheese</li>
-          <li>Salt to taste</li>
-        </ol>
-        <div className="ingredients">Instructions</div>
-        <h3>Prepare the Masala Stuffing</h3>
-        <ol>
-          <li>Heat oil in a pan over medium heat and add cumin seeds.</li>
-          <li>Add onions and ginger-garlic paste. Sauté until the onions turn golden brown.</li>
-          <li>Add capsicum and green chili. Cook for 2–3 minutes.</li>
-          <li>Mix in turmeric powder, red chili powder, garam masala, and salt.</li>
-          <li>Add the boiled and mashed potatoes. Mix well and cook for 2–3 minutes.</li>
-          <li>Garnish with chopped cilantro and allow the mixture to cool.</li>
-        </ol>
+        <div className="ingredients"><h3>Ingredients</h3>
+          <ol>
+            <li>2 slices of bread (white or brown)</li>
+            <li>2 medium potatoes (boiled & mashed)</li>
+            <li>Butter for toasting</li>
+            <li>1 small onion, sliced into rings.</li>
+            <li>1 small capsicum, sliced into rings.</li>
+            <li>1/2 tsp ginger-garlic paste</li>
+            <li>1/2 cup fresh cilantro chutney (green chutney) </li>
+            <li>1 green chili (finely chopped, optional)</li>
+            <li>1/2 tsp turmeric powder</li>
+            <li>1/2 tsp  red chili powder</li>
+            <li>1/2 tsp  garam masala</li>
+            <li>1/2 tsp cumin seeds</li>
+            <li>1 tbsp oil</li>
+            <li>Optional: sliced cucumber, tomato, onion, beetroot, grated cheese</li>
+            <li>Salt to taste</li>
+          </ol>
+        </div>
+        <div className="ingredients"><h3>Instruction</h3>
+          <h3>Prepare the Masala Stuffing</h3>
+          <ol>
+            <li>Heat oil in a pan over medium heat and add cumin seeds.</li>
+            <li>Add onions and ginger-garlic paste. Sauté until the onions turn golden brown.</li>
+            <li>Add capsicum and green chili. Cook for 2–3 minutes.</li>
+            <li>Mix in turmeric powder, red chili powder, garam masala, and salt.</li>
+            <li>Add the boiled and mashed potatoes. Mix well and cook for 2–3 minutes.</li>
+            <li>Garnish with chopped cilantro and allow the mixture to cool.</li>
+          </ol>
+        </div>
 
         <h3>Assemble the Sandwich</h3>
         <ol>

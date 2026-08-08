@@ -8,7 +8,10 @@ import MediaQuery from 'react-responsive';
 import YouTube from 'react-youtube';
 import RecipeSchema from "./RecipeSchema";
 import { Helmet } from "react-helmet";
-import { faUtensils } from '@fortawesome/free-solid-svg-icons';
+import {
+  faUtensils,
+  faCarrot
+} from "@fortawesome/free-solid-svg-icons";
 
 class Brownlentils extends Component {
   render() {
@@ -157,35 +160,65 @@ class Brownlentils extends Component {
         <Row className="cooktimerow">
           <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes</Col>
         </Row>
-        <div className="ingredients">Ingredients</div>
-        <ol>
-          <li>2 tablespoon olive oil</li>
-          <li>1 teaspoon Cumin seeds</li>
-          <li>1 Green chili pepper</li>
-          <li>1 medium onion diced</li>
-          <li>3 garlic cloves, minced</li>
-          <li>1-inch piece fresh ginger, grated</li>
-          <li>1 cup Brown lentils (Whole Masoor Dal) rinsed</li>
-          <li>2.5 cups of water</li>
-          <li>1 tablespoon Lime juice</li>
-          <li>1/4 teaspoon Ground Turmeric (Haldi powder)</li>
-          <li>1 tablespoon Coriander powder (Dhaniya powder)</li>
-          <li>1/2 teaspoon Red Chili powder (Mirchi powder) adjust to taste</li>
-          <li>1/2 teaspoon Garam Masala</li>
-          <li>1 teaspoon Salt adjust to taste</li>
-        </ol>
-        <div className="ingredients">Instruction</div>
-        <ol>
-          <li>Start the pressure cooker in sauté mode and let it heat. Add oil and cumin seeds. Saute for 30 seconds.</li>
-          <li>When the cumin seeds starts to splutter or change color, add green chili, onions, ginger and garlic. Sauté for 3 minutes
-            until the onions become golden brown while stirring frequently.</li>
-          <li>Add the chopped tomatoes to the pan and cook it till the tomatoes becomes soft.</li>
-          <li>Add turmeric, coriander powder, red chili powder, garam masala, and salt. Cook for 1 minute until fragrant.</li>
-          <li>Add the lentils, water and stir well. Close the instant pot lid with vent in sealing position.</li>
-          <li>Change the instant pot setting to manual or pressure cook mode at high pressure for 12 mins. After the instant pot beeps, let the pressure release naturally.</li>
-          <li>Open the pot. Add the lime juice and stir the dal.</li>
-          <li>Enjoy your lentil curry with Basmati Rice.</li>
-        </ol>
+        <div className="ingredients"><h3>Ingredients</h3>
+          <ul className="ingredient-list">
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              2 tablespoon olive oil</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 teaspoon Cumin seeds</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 Green chili pepper</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 medium onion diced</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              3 garlic cloves, minced</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1-inch piece fresh ginger, grated</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 cup Brown lentils (Whole Masoor Dal) rinsed</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              2.5 cups of water</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 tablespoon Lime juice</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/4 teaspoon Ground Turmeric (Haldi powder)</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 tablespoon Coriander powder (Dhaniya powder)</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 teaspoon Red Chili powder (Mirchi powder) adjust to taste</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1/2 teaspoon Garam Masala</li>
+            <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
+              1 teaspoon Salt (adjust to taste)</li>
+          </ul>
+        </div>
+        <div className="ingredients"><h3>Instruction</h3>
+          <ol>
+            <li>Start the pressure cooker in sauté mode and let it heat. Add oil and cumin seeds. Saute for 30 seconds.</li>
+            <li>When the cumin seeds starts to splutter or change color, add green chili, onions, ginger and garlic. Sauté for 3 minutes
+              until the onions become golden brown while stirring frequently.</li>
+            <li>Add the chopped tomatoes to the pan and cook it till the tomatoes becomes soft.</li>
+            <li>Add turmeric, coriander powder, red chili powder, garam masala, and salt. Cook for 1 minute until fragrant.</li>
+            <li>Add the lentils, water and stir well. Close the instant pot lid with vent in sealing position.</li>
+            <li>Change the instant pot setting to manual or pressure cook mode at high pressure for 12 mins. After the instant pot beeps, let the pressure release naturally.</li>
+            <li>Open the pot. Add the lime juice and stir the dal.</li>
+            <li>Enjoy your lentil curry with Basmati Rice.</li>
+          </ol>
+        </div>
         <h2>Final Product</h2>
         <Image src="/brownlentils.jpg" thumbnail rounded fluid></Image>
         <h2>Serving Suggestions</h2>

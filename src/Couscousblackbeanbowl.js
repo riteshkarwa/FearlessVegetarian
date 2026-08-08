@@ -82,38 +82,40 @@ class Couscousblackbeanbowl extends Component {
         <Row className="cooktimerow">
           <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 25 minutes</Col>
         </Row>
-        <div className="ingredients">Ingredients</div>
-        <ol>
-          <li>1 cup couscous</li>
-          <li>1 cup boiling water (or vegetable broth for extra flavor)</li>
-          <li>2 tbsp fresh cilantro, chopped </li>
-          <li>1 tbsp olive oil </li>
-          <li>1 cup enchilada sauce (store-bought or homemade)</li>
-          <li>1/2 tsp smoked paprika</li>
-          <li>Salt & pepper to taste </li>
-          <li>1/2 tsp cumin powder </li>
-          <li>1 tbsp olive oil</li>
-          <li>1 red bell pepper, thinly sliced</li>
-          <li>1 cup cooked black beans (or canned, rinsed & drained)</li>
-        </ol>
-        <div className="ingredients">Instructions</div>
-        <ol>
-          <li>Cook couscous – In a bowl, add couscous and boiling water (or broth).
-            Cover with a lid or plate and let sit for 5 minutes. Fluff with a fork.</li>
-          <li>
-            Prepare veggies – Heat olive oil in a skillet. Sauté red bell pepper until slightly softened. Add cumin, smoked paprika, salt, and pepper.
-          </li>
-          <li>
-            Add beans – Stir in black beans. Cook for 2–3 minutes until warmed through.
-          </li>
-          <li>
-            Combine with couscous – Add the sautéed veggies and beans to the couscous. Mix gently.
-          </li>
-          <li>
-            Top with enchilada sauce – Pour enchilada sauce over the couscous mixture and stir lightly to coat
-          </li>
-          <li>Garnish & serve – Sprinkle with fresh cilantro, a squeeze of lime juice, and any optional toppings.</li>
-        </ol>
+        <div className="ingredients"><h3>Ingredients</h3>
+          <ol>
+            <li>1 cup couscous</li>
+            <li>1 cup boiling water (or vegetable broth for extra flavor)</li>
+            <li>2 tbsp fresh cilantro, chopped </li>
+            <li>1 tbsp olive oil </li>
+            <li>1 cup enchilada sauce (store-bought or homemade)</li>
+            <li>1/2 tsp smoked paprika</li>
+            <li>Salt & pepper to taste </li>
+            <li>1/2 tsp cumin powder </li>
+            <li>1 tbsp olive oil</li>
+            <li>1 red bell pepper, thinly sliced</li>
+            <li>1 cup cooked black beans (or canned, rinsed & drained)</li>
+          </ol>
+        </div>
+        <div className="ingredients"><h3>Instructions</h3>
+          <ol>
+            <li>Cook couscous – In a bowl, add couscous and boiling water (or broth).
+              Cover with a lid or plate and let sit for 5 minutes. Fluff with a fork.</li>
+            <li>
+              Prepare veggies – Heat olive oil in a skillet. Sauté red bell pepper until slightly softened. Add cumin, smoked paprika, salt, and pepper.
+            </li>
+            <li>
+              Add beans – Stir in black beans. Cook for 2–3 minutes until warmed through.
+            </li>
+            <li>
+              Combine with couscous – Add the sautéed veggies and beans to the couscous. Mix gently.
+            </li>
+            <li>
+              Top with enchilada sauce – Pour enchilada sauce over the couscous mixture and stir lightly to coat
+            </li>
+            <li>Garnish & serve – Sprinkle with fresh cilantro, a squeeze of lime juice, and any optional toppings.</li>
+          </ol>
+        </div>
         <h2>Final Product</h2>
         <MediaQuery maxWidth={767}>
           <Image src="/couscousblackbeanbowl.png" alt="Couscous black bean bowl topped with enchilada sauce, red bell peppers, and fresh cilantro" thumbnail rounded fluid></Image>
