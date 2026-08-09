@@ -6,22 +6,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
-import MediaQuery from 'react-responsive';
 import { Link } from "react-router-dom";
 import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema";
 
 class DalMakhani extends Component {
     render() {
-        const optsDesktop = {
-            height: '800',
-            width: '1000',
-        };
-
-        const optsMobile = {
-            height: '550',
-            width: '325',
-        };
         return (
             <div>
                 <RecipeSchema
@@ -227,12 +217,18 @@ class DalMakhani extends Component {
                 />
                 <div>
                     <h2>DalMakhani Preparation Video</h2>
-                    <MediaQuery maxWidth={767}>
-                        <YouTube videoId="g4WcrkJKDKo" opts={optsMobile} />
-                    </MediaQuery>
-                    <MediaQuery minWidth={767}>
-                        <YouTube videoId="g4WcrkJKDKo" opts={optsDesktop} />
-                    </MediaQuery>
+                    <div className="youtube-container">
+                        <YouTube
+                            videoId="g4WcrkJKDKo"
+                            opts={{
+                                width: "100%",
+                                height: "500",
+                                playerVars: {
+                                    autoplay: 0
+                                }
+                            }}
+                        />
+                    </div>
                 </div>
                 <div className="related-recipes">
                     <h2>Related Vegetarian Recipes</h2>

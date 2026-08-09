@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import MediaQuery from 'react-responsive';
 import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
@@ -14,15 +13,6 @@ import { faUtensils, faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Curdrice extends Component {
     render() {
-        const optsDesktop = {
-            height: '800',
-            width: '1000',
-        };
-
-        const optsMobile = {
-            height: '550',
-            width: '325',
-        };
         return (
             <div>
                 <RecipeSchema
@@ -150,12 +140,18 @@ class Curdrice extends Component {
                 />
                 <div>
                     <h2>Curd Rice Preparation Video</h2>
-                    <MediaQuery maxWidth={767}>
-                        <YouTube videoId="Y_QJdaanMzg" opts={optsMobile} />
-                    </MediaQuery>
-                    <MediaQuery minWidth={767}>
-                        <YouTube videoId="Y_QJdaanMzg" opts={optsDesktop} />
-                    </MediaQuery>
+                    <div className="youtube-container">
+                        <YouTube
+                            videoId="Y_QJdaanMzg"
+                            opts={{
+                                width: "100%",
+                                height: "500",
+                                playerVars: {
+                                    autoplay: 0
+                                }
+                            }}
+                        />
+                    </div>
                 </div>
                 <div className="related-recipes" style={{ marginTop: "40px" }}>
                     <h2>Related South Indian & Healthy Vegetarian Recipes</h2>

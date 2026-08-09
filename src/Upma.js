@@ -1,113 +1,327 @@
 import React, { Component } from "react";
-import Image from 'react-bootstrap/Image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock } from '@fortawesome/free-regular-svg-icons';
-import YouTube from 'react-youtube';
-import MediaQuery from 'react-responsive';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Image from "react-bootstrap/Image";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from "@fortawesome/free-regular-svg-icons";
+import YouTube from "react-youtube";
 import { Helmet } from "react-helmet";
-
 
 class Upma extends Component {
   render() {
-    const optsDesktop = {
-      height: '600',
-      width: '800',
-    };
-
-    const optsMobile = {
-      height: '550',
-      width: '325',
-    };
     return (
-      <div>
+      <div className="recipe-page">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Upma Bliss: South Indian Breakfast | Fearless Vegetarian</title>
-          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/upma" />
+
+          <title>
+            Upma Bliss: South Indian Breakfast | Fearless Vegetarian
+          </title>
+
+          <link
+            rel="canonical"
+            href="https://fearlessvegetarian.netlify.app/upma"
+          />
+
           <meta
             name="description"
-            content="Upma Bliss: South Indian Breakfast with Cream of Wheat, Urad Dal, Nuts, Herbs, and Spices"
+            content="Learn how to make flavorful South Indian Upma with rava, urad dal, cashews, onions, curry leaves, ginger, green chilies, and spices."
           />
+
           <meta
             name="keywords"
-            content="upma, South Indian breakfast, cream of wheat, semolina flour, rava, suji, Urad dal, nuts, herbs, 
-            spices, savory breakfast, popular South Indian dish, flavorful upma, traditional breakfast, easy-to-make recipe, 
-            vegetarian breakfast, South Indian culinary delight, breakfast bliss, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
+            content="upma, South Indian breakfast, rava upma, suji upma, semolina, cream of wheat, urad dal, cashews, curry leaves, savory breakfast, vegetarian breakfast, easy upma recipe, South Indian recipe, Fearless Vegetarian, vegan"
           />
-          <meta property="og:title" content="Upma Bliss: South Indian Breakfast" />
+
+          <meta
+            property="og:title"
+            content="Upma Bliss: South Indian Breakfast"
+          />
+
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/curdrice" />
-          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/curdrice.jpg" />
-          <meta property="og:description" content="Upma Bliss: South Indian Breakfast with Cream of Wheat, Urad Dal, Nuts, Herbs, and Spices." />
+
+          <meta
+            property="og:url"
+            content="https://fearlessvegetarian.netlify.app/upma"
+          />
+
+          <meta
+            property="og:image"
+            content="https://fearlessvegetarian.netlify.app/upma.jpg"
+          />
+
+          <meta
+            property="og:description"
+            content="Learn how to make flavorful South Indian Upma with rava, urad dal, cashews, onions, curry leaves, ginger, green chilies, and spices."
+          />
         </Helmet>
-        <h1>Upma is a flavorful, tasty, savory and popular South Indian breakfast that is made with cream of wheat or semolina flour (called rava or suji), Urad dal, nuts, herbs and spices.</h1>
-        <Row className="cooktimerow">
-          <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
-        </Row>
-        <Row>
-          <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
-        </Row>
-        <div className="ingredients">Ingredients</div>
-        <ol>
-          <li>2 tablespoon olive oil</li>
-          <li>8 to 10 curry leaves</li>
-          <li>10 to 12 cashews</li>
-          <li>1 teaspoon urad dal (hulled and split black gram)</li>
-          <li>1 cup finely chopped onion</li>
-          <li>1 tablespoon green chillies</li>
-          <li>1 cup Rava also called cream of wheat or farina or semolina flour found in Indian store</li>
-          <li>1 teaspoon finely chopped ginger</li>
-          <li>Salt as per taste</li>
-        </ol>
-        <div className="ingredients">Instruction</div>
-        <ol>
-          <li>Heat a non stick pan. Add 1 cup Rava(also called cream of wheat or farina or semolina flour).</li>
-          <li>Roast the rava on non stick pan. Stir often while roasting the rava.</li>
-          <li>The rava  grains should become fragrant and start to look dry, separate and crisp. Make sure rava
-            does not turn brown.</li>
-          <li>Once the rava becomes fragrant and starts to look dry and crisp, switch off the flame and put the roasted rava on a plate and set aside.</li>
-          <li>In a non stick pan, heat 2 tablespoons of olive oil.</li>
-          <li>Add 1 teaspoon mustard seeds. When you hear the crackling sound of mustard seeds, it means they are getting fried.</li>
-          <li>Now add the following ingredients:1 teaspoon cumin seeds, 1 teaspoon urad dal (husked and split black gram).</li>
-          <li>Stirring often fry until the urad dal begin to brown a bit</li>
-          <li>Immediately add 10 to 12 cashews and begin to fry on a low to medium-low heat.</li>
-          <li>Now add the 1 cup of finely chopped onions.</li>
-          <li>Sauté the onions until they soften and become translucent on a low to medium-low heat.</li>
-          <li>Then add 1 teaspoon chopped green chillies, 1 teaspoon chopped ginger and 8 to 10 curry leaves.</li>
-          <li>Mix well and sauté for a few seconds.</li>
-          <li>Then add 2.5 cups water to this mixture.</li>
-          <li>Add salt as required. Mix well and check the taste of water. It should be a bit salty but not too much.</li>
-          <li>On a medium to high flame, heat the water and let it come to a rolling boil.</li>
-          <li>When the water comes to a rolling boil, lower the flame to its lowest. Then add the rava in 4 to 5 batches with a spoon.</li>
-          <li>Once you add the first batch of rava, stir and mix immediately so that the roasted rava gets mixed evenly with the water.</li>
-          <li>Then add the next batch of rava. Mix and stir again very well ensuring that the batch of rava is mixed evenly in water.</li>
-          <li>Continue to add and stir the rava up to the last batch.</li>
-          <li>Quickly stir and mix very well. The rava grains will absorb water, swell and get cooked.</li>
-          <li>Cover and allow the rava upma to steam for 2 to 3 minutes on a low heat.</li>
-          <li>Your rava is done allow the rava to coll down for 5 minutes.</li>
-          <li>Lastly add about 2 tablespoons chopped coriander leaves (cilantro). You can add more coriander leaves if you like.</li>
-        </ol>
+
+        {/* Recipe Introduction */}
+        <section className="recipe-intro">
+          <h1>Easy and Flavorful South Indian Upma Recipe</h1>
+
+          <p>
+            Upma is a flavorful, savory, and popular South Indian breakfast
+            made with rava, also known as semolina, suji, or cream of wheat.
+            It is traditionally cooked with urad dal, cashews, onions, curry
+            leaves, ginger, green chilies, and aromatic spices for a simple
+            yet satisfying meal.
+          </p>
+        </section>
+
+        {/* Recipe Information */}
+        <section className="recipe-info">
+          <Row className="cooktimerow">
+            <Col>
+              <span className="material-symbols-outlined">
+                restaurant_menu
+              </span>{" "}
+              Yields: 1 Serving
+            </Col>
+          </Row>
+
+          <Row className="cooktimerow">
+            <Col>
+              <FontAwesomeIcon icon={faClock} /> Cooking Time: 60 minutes
+            </Col>
+          </Row>
+        </section>
+
+        {/* Ingredients */}
+        <section className="ingredients">
+          <h3>Ingredients</h3>
+
+          <ol>
+            <li>2 tablespoons olive oil</li>
+            <li>1 teaspoon mustard seeds</li>
+            <li>1 teaspoon cumin seeds</li>
+            <li>8 to 10 curry leaves</li>
+            <li>10 to 12 cashews</li>
+            <li>1 teaspoon urad dal (hulled and split black gram)</li>
+            <li>1 cup finely chopped onion</li>
+            <li>1 teaspoon finely chopped green chilies</li>
+            <li>
+              1 cup rava, also called cream of wheat, farina, or semolina
+              flour
+            </li>
+            <li>1 teaspoon finely chopped ginger</li>
+            <li>2 1/2 cups water</li>
+            <li>Salt to taste</li>
+            <li>2 tablespoons chopped coriander leaves (cilantro)</li>
+          </ol>
+        </section>
+
+        {/* Instructions */}
+        <section className="instructions">
+          <h3>Instructions</h3>
+
+          <ol>
+            <li>
+              Heat a non-stick pan. Add 1 cup of rava, also known as cream of
+              wheat, farina, or semolina flour.
+            </li>
+
+            <li>
+              Roast the rava over medium-low heat, stirring often to ensure
+              that it cooks evenly.
+            </li>
+
+            <li>
+              Continue roasting until the rava becomes fragrant and starts to
+              look dry, separate, and slightly crisp. Make sure the rava does
+              not turn brown.
+            </li>
+
+            <li>
+              Once the rava becomes fragrant and dry, turn off the heat.
+              Transfer the roasted rava to a plate and set aside.
+            </li>
+
+            <li>
+              In the same pan, heat 2 tablespoons of olive oil.
+            </li>
+
+            <li>
+              Add 1 teaspoon of mustard seeds. When the seeds begin to crackle,
+              they are ready.
+            </li>
+
+            <li>
+              Add 1 teaspoon of cumin seeds and 1 teaspoon of urad dal.
+            </li>
+
+            <li>
+              Stir frequently and fry until the urad dal begins to turn
+              slightly brown.
+            </li>
+
+            <li>
+              Immediately add 10 to 12 cashews and fry over low to medium-low
+              heat until lightly golden.
+            </li>
+
+            <li>
+              Add 1 cup of finely chopped onions.
+            </li>
+
+            <li>
+              Sauté the onions until they become soft and translucent.
+            </li>
+
+            <li>
+              Add 1 teaspoon of chopped green chilies, 1 teaspoon of chopped
+              ginger, and 8 to 10 curry leaves.
+            </li>
+
+            <li>
+              Mix well and sauté for a few seconds.
+            </li>
+
+            <li>
+              Add 2 1/2 cups of water to the mixture.
+            </li>
+
+            <li>
+              Add salt to taste. Mix well and check the seasoning. The water
+              should taste slightly salty.
+            </li>
+
+            <li>
+              Increase the heat to medium-high and bring the water to a rolling
+              boil.
+            </li>
+
+            <li>
+              Once the water reaches a rolling boil, reduce the heat to low.
+              Add the roasted rava gradually in 4 to 5 batches, stirring after
+              each addition.
+            </li>
+
+            <li>
+              After adding each batch, stir immediately so that the rava mixes
+              evenly with the water and does not form lumps.
+            </li>
+
+            <li>
+              Continue adding the remaining rava in batches, stirring well
+              after each addition.
+            </li>
+
+            <li>
+              Once all the rava has been added, stir thoroughly. The rava will
+              absorb the water, swell, and cook.
+            </li>
+
+            <li>
+              Cover the pan and allow the upma to steam for 2 to 3 minutes over
+              low heat.
+            </li>
+
+            <li>
+              Turn off the heat and allow the upma to cool for about 5 minutes.
+            </li>
+
+            <li>
+              Finally, add about 2 tablespoons of chopped coriander leaves.
+              Add more if desired.
+            </li>
+          </ol>
+        </section>
+
+        {/* Final Product */}
+
         <h2>Final Product</h2>
-        <MediaQuery maxWidth={767}>
-          <Image src="/upma.jpg" alt="Upma is a flavorful, tasty, savory and popular South Indian breakfast" thumbnail rounded fluid></Image>
-        </MediaQuery>
-        <MediaQuery minWidth={767}>
-          <Image src="/upma.jpg" alt="Upma is a flavorful, tasty, savory and popular South Indian breakfast" thumbnail rounded width="50%" height="50%"></Image>
-        </MediaQuery>
-        <div>
+        <Image
+          src="/upma.jpg"
+          alt="Flavorful South Indian Upma served as a savory breakfast"
+          fluid
+          thumbnail
+          rounded
+          loading="lazy"
+          className="recipe-image"
+        />
+
+
+        {/* Preparation Video */}
+        <section className="recipe-video">
           <h2>Upma Preparation Video</h2>
-          <MediaQuery maxWidth={767}>
-            <YouTube videoId="_gl_nFzJYz0" opts={optsMobile} />
-          </MediaQuery>
-          <MediaQuery minWidth={767}>
-            <YouTube videoId="_gl_nFzJYz0" opts={optsDesktop} />
-          </MediaQuery>
-        </div>
+          <div className="youtube-container">
+            <YouTube
+              videoId="_gl_nFzJYz0"
+              opts={{
+                width: "100%",
+                height: "500",
+                playerVars: {
+                  autoplay: 0
+                }
+              }}
+            />
+          </div>
+        </section>
+
+        {/* You May Also Like */}
+        <section className="you-may-also-like">
+          <h2>You May Also Like</h2>
+
+          <Row>
+            <Col xs={12} sm={6} md={4}>
+              <div className="recipe-card">
+                <Image
+                  src="/pavbhaji.jpg"
+                  alt="Mumbai-style Pav Bhaji"
+                  thumbnail
+                  rounded
+                  fluid
+                />
+
+                <h3>Pav Bhaji</h3>
+
+                <a href="/pavbhaji" className="btn btn-primary">
+                  View Recipe
+                </a>
+              </div>
+            </Col>
+
+            <Col xs={12} sm={6} md={4}>
+              <div className="recipe-card">
+                <Image
+                  src="/couscous.jpg"
+                  alt="Easy and flavorful Couscous"
+                  thumbnail
+                  rounded
+                  fluid
+                />
+
+                <h3>Couscous</h3>
+
+                <a href="/couscous" className="btn btn-primary">
+                  View Recipe
+                </a>
+              </div>
+            </Col>
+
+            <Col xs={12} sm={6} md={4}>
+              <div className="recipe-card">
+                <Image
+                  src="/aloogobi.jpg"
+                  alt="Indian Aloo Gobi"
+                  thumbnail
+                  rounded
+                  fluid
+                />
+
+                <h3>Aloo Gobi</h3>
+
+                <a href="/aloogobi" className="btn btn-primary">
+                  View Recipe
+                </a>
+              </div>
+            </Col>
+          </Row>
+        </section>
       </div>
     );
   }
 }
 
-export default Upma
+export default Upma;
