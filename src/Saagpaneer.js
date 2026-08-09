@@ -3,7 +3,6 @@ import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import YouTube from 'react-youtube';
-import MediaQuery from 'react-responsive';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
@@ -13,15 +12,6 @@ import RecipeSchema from "./RecipeSchema";
 
 class Saagpaneer extends Component {
     render() {
-        const optsDesktop = {
-            height: '800',
-            width: '1000',
-        };
-
-        const optsMobile = {
-            height: '550',
-            width: '325',
-        };
         return (
             <div>
                 <RecipeSchema
@@ -161,7 +151,15 @@ class Saagpaneer extends Component {
                     </ol>
                 </div>
                 <h2>All the ingredients ready to be put into a blender to make the gravy for the dish</h2>
-                <Image src="/saag_prep.jpg" thumbnail rounded fluid></Image>
+                <Image
+                    src="/saag_prep.jpg"
+                    alt="Saag Paneer recipe made with spinach and Indian cottage cheese served in a bowl"
+                    fluid
+                    rounded
+                    thumbnail
+                    loading="lazy"
+                    className="recipe-image"
+                />
                 <div className="ingredients">
                     <h3>Instruction </h3>
                     <ol>
@@ -183,20 +181,29 @@ class Saagpaneer extends Component {
                     </ol>
                 </div>
                 <h2>Final Product</h2>
-                <MediaQuery maxWidth={767}>
-                    <Image src="/saagpaneer.jpg" alt="Saag Paneer recipe made with spinach and Indian cottage cheese served in a bowl" thumbnail rounded fluid></Image>
-                </MediaQuery>
-                <MediaQuery minWidth={767}>
-                    <Image src="/saagpaneer.jpg" alt="Saag Paneer recipe made with spinach and Indian cottage cheese served in a bowl" thumbnail rounded fluid width="60%" height="60%"></Image>
-                </MediaQuery>
+                <Image
+                    src="/saagpaneer.jpg"
+                    alt="Saag Paneer recipe made with spinach and Indian cottage cheese served in a bowl"
+                    fluid
+                    rounded
+                    thumbnail
+                    loading="lazy"
+                    className="recipe-image"
+                />
                 <div>
                     <h2>Saag Paneer Preparation Video</h2>
-                    <MediaQuery maxWidth={767}>
-                        <YouTube videoId="Mo1BzUQcskM" opts={optsMobile} />
-                    </MediaQuery>
-                    <MediaQuery minWidth={767}>
-                        <YouTube videoId="Mo1BzUQcskM" opts={optsDesktop} />
-                    </MediaQuery>
+                    <div className="youtube-container">
+                        <YouTube
+                            videoId="Mo1BzUQcskM"
+                            opts={{
+                                width: "100%",
+                                height: "500",
+                                playerVars: {
+                                    autoplay: 0
+                                }
+                            }}
+                        />
+                    </div>
                 </div>
                 <div className="related-recipes" style={{ marginTop: "40px" }}>
                     <h2>Related Vegetarian Recipes</h2>

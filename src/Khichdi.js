@@ -9,19 +9,10 @@ import { Link } from "react-router-dom";
 import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema"
 import YouTube from 'react-youtube';
-import MediaQuery from 'react-responsive';
+import { faCarrot, faBowlFood } from "@fortawesome/free-solid-svg-icons";
 
 class Khichdi extends Component {
   render() {
-    const optsDesktop = {
-      height: '800',
-      width: '1000',
-    };
-
-    const optsMobile = {
-      height: '550',
-      width: '325',
-    };
     return (
       <div>
         <RecipeSchema
@@ -81,38 +72,46 @@ class Khichdi extends Component {
         </p>
         <h2>Why You'll Love This Khichdi</h2>
 
-        <ul>
-          <li>Easy one-pot recipe</li>
-          <li>High in plant-based protein</li>
-          <li>Budget-friendly ingredients</li>
-          <li>Perfect for meal prep</li>
-          <li>Comforting and easy to digest</li>
-          <li>Naturally vegetarian and gluten-free</li>
+        <ul className="ingredient-list">
+          <li><FontAwesomeIcon icon={faBowlFood} className="highlight-icon icon-aqua" />Easy one-pot recipe</li>
+          <li><FontAwesomeIcon icon={faBowlFood} className="highlight-icon icon-aqua" />High in plant-based protein</li>
+          <li><FontAwesomeIcon icon={faBowlFood} className="highlight-icon icon-aqua" />Budget-friendly ingredients</li>
+          <li><FontAwesomeIcon icon={faBowlFood} className="highlight-icon icon-aqua" />Perfect for meal prep</li>
+          <li><FontAwesomeIcon icon={faBowlFood} className="highlight-icon icon-aqua" />Comforting and easy to digest</li>
+          <li><FontAwesomeIcon icon={faBowlFood} className="highlight-icon icon-aqua" />Naturally vegetarian and gluten-free</li>
         </ul>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 2 Serving</Col>
         </Row>
         <Row className="cooktimerow">
-          <Col><FontAwesomeIcon icon={faClock} /> Prep Time: 20 Minutes</Col>
-          <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
-          <Col><FontAwesomeIcon icon={faClock} /> Total Time: 50 Minutes</Col>
+          <Col>
+            <FontAwesomeIcon icon={faClock} /> Prep Time: 20 Minutes
+          </Col>
+
+          <Col>
+            <FontAwesomeIcon icon={faClock} /> Cooking Time: 60 Minutes
+          </Col>
+
+          <Col>
+            <FontAwesomeIcon icon={faClock} /> Total Time: 80 Minutes
+          </Col>
         </Row>
         <div className="ingredients"><h3>Ingredients</h3>
-          <ol>
-            <li>1/2 cup yellow moong dal (split yellow lentils)</li>
-            <li>1/2 cup rice</li>
-            <li>2 tablespoon olive oil</li>
-            <li>1 whole tomato, finely chopped</li>
-            <li>1 medium onion, finely chopped</li>
-            <li>1 teaspoon cumin seeds</li>
-            <li>3 small potatoes, diced</li>
-            <li>1/4 cup green peas</li>
-            <li>1/4 teaspoon turmeric powder</li>
-            <li>1/4 teaspoon red chilli powder</li>
-            <li>1 green chili, finely chopped (optional)</li>
-            <li>Salt to taste</li>
-            <li>4 cups water</li>
-          </ol>
+          <ul className="ingredient-list">
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/2 cup yellow moong dal (split yellow lentils)</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/2 cup rice</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 tablespoon olive oil</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 whole tomato, finely chopped</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 medium onion, finely chopped</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon cumin seeds</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />3 small potatoes, diced</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/4 cup green peas</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/4 teaspoon turmeric powder</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/4 teaspoon red chilli powder</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 green chili, finely chopped (optional)</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Salt to taste</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />4 cups water</li>
+          </ul>
         </div>
         <div className="ingredients"><h3>Instruction</h3>
           <ol>
@@ -167,20 +166,29 @@ class Khichdi extends Component {
           </ol>
         </div>
         <h2>Final Product</h2>
-        <MediaQuery maxWidth={767}>
-          <Image src="/khichdi.jpg" alt="Homemade Moong Dal Khichdi served in a bowl with rice, lentils, vegetables, and Indian spices" thumbnail rounded fluid></Image>
-        </MediaQuery>
-        <MediaQuery minWidth={767}>
-          <Image src="/khichdi.jpg" alt="Homemade Moong Dal Khichdi served in a bowl with rice, lentils, vegetables, and Indian spices" thumbnail rounded fluid width="60%" height="60%"></Image>
-        </MediaQuery>
+        <Image
+          src="/khichdi.jpg"
+          alt="Homemade Moong Dal Khichdi served in a bowl with rice, lentils, vegetables, and Indian spices"
+          fluid
+          rounded
+          thumbnail
+          loading="lazy"
+          className="recipe-image"
+        />
         <div>
           <h2>Homemade Moong Dal Khichdi Preparation Video</h2>
-          <MediaQuery maxWidth={767}>
-            <YouTube videoId="8aVHBNQ8NBs" opts={optsMobile} />
-          </MediaQuery>
-          <MediaQuery minWidth={767}>
-            <YouTube videoId="8aVHBNQ8NBs" opts={optsDesktop} />
-          </MediaQuery>
+          <div className="youtube-container">
+            <YouTube
+              videoId="8aVHBNQ8NBs"
+              opts={{
+                width: "100%",
+                height: "500",
+                playerVars: {
+                  autoplay: 0
+                }
+              }}
+            />
+          </div>
         </div>
         <h2>Related Vegetarian Recipes</h2>
         <ul style={{

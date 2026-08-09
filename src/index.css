@@ -79,6 +79,7 @@ ol li {
 
 .cooktimerow {
   font-size: 24px;
+  padding-bottom: 15px;
 }
 
 
@@ -643,4 +644,14 @@ section p {
   .recipe-card h3 {
     font-size: 20px;
   }
+}
+
+.highlight-icon {
+  color: #e67e22;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.icon-aqua {
+  color: #20c997;
 }

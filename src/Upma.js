@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import YouTube from "react-youtube";
 import { Helmet } from "react-helmet";
+import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Upma extends Component {
   render() {
@@ -91,24 +92,25 @@ class Upma extends Component {
         <section className="ingredients">
           <h3>Ingredients</h3>
 
-          <ol>
-            <li>2 tablespoons olive oil</li>
-            <li>1 teaspoon mustard seeds</li>
-            <li>1 teaspoon cumin seeds</li>
-            <li>8 to 10 curry leaves</li>
-            <li>10 to 12 cashews</li>
-            <li>1 teaspoon urad dal (hulled and split black gram)</li>
-            <li>1 cup finely chopped onion</li>
-            <li>1 teaspoon finely chopped green chilies</li>
+          <ul className="ingredient-list">
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 tablespoons olive oil</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon mustard seeds</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon cumin seeds</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />8 to 10 curry leaves</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />10 to 12 cashews</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon urad dal (hulled and split black gram)</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 cup finely chopped onion</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon finely chopped green chilies</li>
             <li>
+              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
               1 cup rava, also called cream of wheat, farina, or semolina
               flour
             </li>
-            <li>1 teaspoon finely chopped ginger</li>
-            <li>2 1/2 cups water</li>
-            <li>Salt to taste</li>
-            <li>2 tablespoons chopped coriander leaves (cilantro)</li>
-          </ol>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon finely chopped ginger</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 1/2 cups water</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Salt to taste</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 tablespoons chopped coriander leaves (cilantro)</li>
+          </ul>
         </section>
 
         {/* Instructions */}
