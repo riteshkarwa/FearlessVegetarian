@@ -70,6 +70,7 @@ import Articles from "./Articles";
 import UnderstandingAyurvedicFasting from "./articles/Ayurvedicfasting";
 import HealthyFats from "./articles/Healthyfats";
 import EssentialIndianSpices from "./articles/Essentialindianspices";
+import AlooTamatarPyaz from "./Alootamatorpyaz";
 
 
 class Main extends Component {
@@ -167,6 +168,7 @@ class Main extends Component {
             <Route exact path="/soojihalwa" element={<SoojiHalwa />}></Route>
             <Route exact path="/moongdalkhichdi" element={<MoongDalKhichdi />}></Route>
             <Route exact path="/masalachai" element={<Masalachai />}></Route>
+            <Route exact path="/alootamatarpyaz" element={<AlooTamatarPyaz />}></Route>
             <Route exact path="/articles" element={<Articles />}></Route>
             <Route exact path="/articles/ayurvedicfasting" element={<UnderstandingAyurvedicFasting />}></Route>
             <Route exact path="/articles/healthyfats" element={<HealthyFats />}></Route>

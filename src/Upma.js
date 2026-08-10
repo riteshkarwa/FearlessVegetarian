@@ -4,12 +4,22 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
-import YouTube from "react-youtube";
+//import YouTube from "react-youtube";
 import { Helmet } from "react-helmet";
 import { faCarrot } from "@fortawesome/free-solid-svg-icons";
+// import MediaQuery from 'react-responsive';
 
 class Upma extends Component {
   render() {
+    // const optsDesktop = {
+    //   height: "800",
+    //   width: "450",
+    // };
+
+    // const optsMobile = {
+    //   height: "550",
+    //   width: "309",
+    // };
     return (
       <div className="recipe-page">
         <Helmet>
@@ -240,24 +250,19 @@ class Upma extends Component {
           thumbnail
           rounded
           loading="lazy"
-          className="recipe-image"
+          className="recipe-image mx-auto d-block"
         />
 
 
         {/* Preparation Video */}
         <section className="recipe-video">
           <h2>Upma Preparation Video</h2>
-          <div className="youtube-container">
-            <YouTube
-              videoId="_gl_nFzJYz0"
-              opts={{
-                width: "100%",
-                height: "500",
-                playerVars: {
-                  autoplay: 0
-                }
-              }}
-            />
+          <div className="ratio ratio-1x1 video-container">
+            <iframe
+              src="https://www.youtube.com/embed/_gl_nFzJYz0"
+              title="Upma Preparation Video"
+              allowFullScreen
+            ></iframe>
           </div>
         </section>
 

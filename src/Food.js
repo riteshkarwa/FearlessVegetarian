@@ -414,5 +414,13 @@ export const Food = [
         card_text: "A warm and comforting Indian tea made with black tea, fresh ginger, green cardamom, milk, and sugar. Perfect for breakfast or an afternoon tea break.",
         card_href: "/masalachai",
         button_title: "View Recipe"
+    },
+    {
+        "id": 53,
+        "card_img": "/alootamatarpyaz.jpg",
+        "card_title": "Aloo Tamatar Pyaz Ki Sabji – Easy Indian Potato Tomato Onion Curry",
+        "card_text": "A comforting Indian curry made with potatoes, tomatoes, onions, and aromatic spices simmered in a flavorful gravy. Perfect with roti, paratha, puri, or rice.",
+        "card_href": "/alootamatarpyaz",
+        "button_title": "View Recipe"
     }
 ]
