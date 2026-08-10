@@ -8,7 +8,7 @@ import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
+import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Riceandbeans extends Component {
     render() {
@@ -82,7 +82,14 @@ class Riceandbeans extends Component {
                     </ol>
                 </div>
                 <h2>Final Product</h2>
-                <Image src="/ricebeans.jpg" thumbnail rounded fluid></Image>
+                <Image
+                    src="/ricebeans.jpg"
+                    alt="Mexican Rice and Beans"
+                    fluid
+                    rounded
+                    thumbnail
+                    className="recipe-image-ricebeans mx-auto d-block"
+                />
                 <div>
                     <h2>Rice and Beans Preparation Video</h2>
                     <MediaQuery maxWidth={767}>
@@ -92,82 +99,150 @@ class Riceandbeans extends Component {
                         <YouTube videoId="azLCdgLpDjY" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
-                <div style={{ marginTop: "40px" }}>
+                {/* You May Also Like */}
+                <section className="related-recipes">
                     <h2>You May Also Like</h2>
 
-                    <ul
-                        style={{
-                            listStyle: "none",
-                            padding: 0,
-                            marginTop: "20px"
-                        }}
-                    >
-                        <li style={{ marginBottom: "12px" }}>
-                            <FontAwesomeIcon
-                                icon={faLeaf}
-                                style={{ color: "#28a745", marginRight: "10px" }}
-                            />
-                            <Link
-                                to="/quinoamoongdal"
-                                className="recipe-link"
-                            >
-                                Quinoa Moong Dal Khichdi
-                            </Link>
-                        </li>
+                    <p className="related-recipes-intro">
+                        Try these delicious vegetarian recipes you may also enjoy:
+                    </p>
 
-                        <li style={{ marginBottom: "12px" }}>
-                            <FontAwesomeIcon
-                                icon={faLeaf}
-                                style={{ color: "#28a745", marginRight: "10px" }}
-                            />
-                            <Link
-                                to="/cabbage"
-                                className="recipe-link"
-                            >
-                                Cabbage Curry (Patta Gobi)
-                            </Link>
-                        </li>
+                    <Row className="g-4">
 
-                        <li style={{ marginBottom: "12px" }}>
-                            <FontAwesomeIcon
-                                icon={faLeaf}
-                                style={{ color: "#28a745", marginRight: "10px" }}
-                            />
-                            <Link
-                                to="/potatocapsicum"
-                                className="recipe-link"
-                            >
-                                Creamy Potato Curry in Roasted Red Pepper Cashew Gravy
-                            </Link>
-                        </li>
+                        {/* Quinoa Moong Dal Khichdi */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/quinoamoongdal" className="related-recipe-link">
+                                    <Image
+                                        src="/quinoamoongdal.jpg"
+                                        alt="Quinoa Moong Dal Khichdi"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
 
-                        <li style={{ marginBottom: "12px" }}>
-                            <FontAwesomeIcon
-                                icon={faLeaf}
-                                style={{ color: "#28a745", marginRight: "10px" }}
-                            />
-                            <Link
-                                to="/blackeyedpeas"
-                                className="recipe-link"
-                            >
-                                Black Eyed Peas Curry
-                            </Link>
-                        </li>
+                                    <h3>Quinoa Moong Dal Khichdi</h3>
 
-                        <li>
-                            <FontAwesomeIcon
-                                icon={faLeaf}
-                                style={{ color: "#28a745", marginRight: "10px" }}
-                            />
-                            <Link
-                                to="/upma"
-                                className="recipe-link"
-                            >
-                                South Indian Upma
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
+                                    <p>
+                                        A nutritious and comforting one-pot meal made with quinoa,
+                                        moong dal, and aromatic spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Cabbage Curry */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/cabbage" className="related-recipe-link">
+                                    <Image
+                                        src="/cabbage.jpg"
+                                        alt="Cabbage Curry Patta Gobi"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Cabbage Curry (Patta Gobi)</h3>
+
+                                    <p>
+                                        A simple and flavorful Indian cabbage curry made with
+                                        aromatic spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Creamy Potato Curry */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/potatocapsicum" className="related-recipe-link">
+                                    <Image
+                                        src="/potatocapsicum.jpg"
+                                        alt="Creamy Potato Curry in Roasted Red Pepper Cashew Gravy"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>
+                                        Creamy Potato Curry in Roasted Red Pepper Cashew Gravy
+                                    </h3>
+
+                                    <p>
+                                        A rich and creamy vegetarian potato curry with a flavorful
+                                        roasted red pepper and cashew gravy.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Black Eyed Peas Curry */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/blackeyedbeans" className="related-recipe-link">
+                                    <Image
+                                        src="/blackeyedbeans.jpg"
+                                        alt="Black Eyed Peas Curry"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Black Eyed Peas Curry</h3>
+
+                                    <p>
+                                        A hearty and flavorful curry made with black-eyed peas and
+                                        aromatic Indian spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* South Indian Upma */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/upma" className="related-recipe-link">
+                                    <Image
+                                        src="/upma.jpg"
+                                        alt="South Indian Upma"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>South Indian Upma</h3>
+
+                                    <p>
+                                        A savory South Indian breakfast made with rava, vegetables,
+                                        herbs, and aromatic spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                    </Row>
+                </section>
             </div>
         );
     }

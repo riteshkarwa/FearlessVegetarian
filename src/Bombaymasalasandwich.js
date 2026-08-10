@@ -8,7 +8,7 @@ import MediaQuery from 'react-responsive';
 import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
-import { faUtensils, faCarrot } from "@fortawesome/free-solid-svg-icons";
+import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 class Bombaymasalasandwich extends Component {
@@ -187,59 +187,179 @@ class Bombaymasalasandwich extends Component {
             <YouTube videoId="tzsISscoET0" opts={optsDesktop} />
           </MediaQuery>
         </div>
-        <div className="related-recipes" style={{ marginTop: "40px" }}>
+        {/* Related Vegetarian Recipes */}
+        <section className="related-recipes">
           <h2>Related Vegetarian Recipes</h2>
 
-          <p>
+          <p className="related-recipes-intro">
             Looking for more vegetarian breakfast, snack, and street-food recipes?
             Try these flavorful and easy-to-make dishes that are perfect for lunch,
             tea time, meal prep, or a quick healthy meal.
           </p>
 
-          <ul className="custom-list">
-            <li>
-              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-              <Link to="/avocado" className="recipe-link">
-                Avocado Toast
-              </Link>
-            </li>
+          <Row className="g-4">
 
-            <li>
-              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-              <Link to="/potatosalad" className="recipe-link">
-                Chukauni – Nepali Yogurt Potato Salad
-              </Link>
-            </li>
+            {/* Avocado Toast */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/avocado" className="related-recipe-link">
+                  <Image
+                    src="/avocado.jpg"
+                    alt="Avocado Toast"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
 
-            <li>
-              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-              <Link to="/couscousbalsamic" className="recipe-link">
-                Middle Eastern Couscous Salad
-              </Link>
-            </li>
+                  <h3>Avocado Toast</h3>
 
-            <li>
-              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-              <Link to="/couscousblackbeanbowl" className="recipe-link">
-                Couscous Black Bean Bowl
-              </Link>
-            </li>
+                  <p>
+                    Creamy avocado spread over crispy toast for a simple,
+                    nutritious, and satisfying vegetarian meal.
+                  </p>
 
-            <li>
-              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-              <Link to="/quinoamoongdal" className="recipe-link">
-                Quinoa Moong Dal Khichdi
-              </Link>
-            </li>
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
 
-            <li>
-              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-              <Link to="/yogurt" className="recipe-link">
-                Homemade Instant Pot Yogurt
-              </Link>
-            </li>
-          </ul>
-        </div>
+            {/* Chukauni */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/potatosalad" className="related-recipe-link">
+                  <Image
+                    src="/potatosalad.jpg"
+                    alt="Chukauni Nepali Yogurt Potato Salad"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Chukauni – Nepali Yogurt Potato Salad</h3>
+
+                  <p>
+                    A refreshing Nepali potato salad made with creamy yogurt,
+                    herbs, and aromatic spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Middle Eastern Couscous Salad */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/couscousbalsamic" className="related-recipe-link">
+                  <Image
+                    src="/couscousbalsamic.jpg"
+                    alt="Middle Eastern Couscous Salad"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Middle Eastern Couscous Salad</h3>
+
+                  <p>
+                    A fresh and colorful couscous salad packed with vegetables,
+                    herbs, and Mediterranean-inspired flavors.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Couscous Black Bean Bowl */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/couscousblackbeanbowl"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/couscousblackbeanbowl.jpg"
+                    alt="Couscous Black Bean Bowl"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Couscous Black Bean Bowl</h3>
+
+                  <p>
+                    A wholesome and satisfying bowl combining fluffy couscous,
+                    hearty black beans, and fresh vegetables.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Quinoa Moong Dal Khichdi */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/quinoamoongdal" className="related-recipe-link">
+                  <Image
+                    src="/quinoamoongdal.jpg"
+                    alt="Quinoa Moong Dal Khichdi"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Quinoa Moong Dal Khichdi</h3>
+
+                  <p>
+                    A wholesome one-pot meal made with quinoa, protein-rich
+                    moong dal, and aromatic spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Homemade Instant Pot Yogurt */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/yogurt" className="related-recipe-link">
+                  <Image
+                    src="/yogurt.jpg"
+                    alt="Homemade Instant Pot Yogurt"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Homemade Instant Pot Yogurt</h3>
+
+                  <p>
+                    Creamy, smooth, and homemade yogurt prepared easily using
+                    an Instant Pot.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+          </Row>
+        </section>
       </div>
     );
   }

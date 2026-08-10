@@ -9,7 +9,7 @@ import MediaQuery from 'react-responsive';
 import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
-import { faUtensils, faCarrot } from "@fortawesome/free-solid-svg-icons";
+import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Poha extends Component {
   render() {
@@ -210,58 +210,175 @@ class Poha extends Component {
             <YouTube videoId="2FO9-kIQs20" opts={optsDesktop} />
           </MediaQuery>
         </div>
-        <div className="related-recipes" style={{ marginTop: "40px" }}>
+        {/* Related Vegetarian Breakfast Recipes */}
+        <section className="related-recipes">
           <h2>Related Vegetarian Breakfast Recipes</h2>
 
-          <p>
+          <p className="related-recipes-intro">
             If you enjoyed this Poha recipe, you may also enjoy these delicious
             vegetarian breakfast and healthy meal ideas:
           </p>
 
-          <ul className="custom-list">
-            <li>
-              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-              <Link to="/avocado" className="recipe-link">
-                Avocado Toast
-              </Link>
-            </li>
+          <Row className="g-4">
 
-            <li>
-              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-              <Link to="/masalasandwich" className="recipe-link">
-                Bombay Masala Vegetable Sandwich
-              </Link>
-            </li>
+            {/* Avocado Toast */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/avocado" className="related-recipe-link">
+                  <Image
+                    src="/avocado.jpg"
+                    alt="Avocado Toast"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
 
-            <li>
-              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-              <Link to="/quinoamoongdal" className="recipe-link">
-                Quinoa Moong Dal Khichdi
-              </Link>
-            </li>
+                  <h3>Avocado Toast</h3>
 
-            <li>
-              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-              <Link to="/couscousbalsamic" className="recipe-link">
-                Middle Eastern Couscous Salad
-              </Link>
-            </li>
+                  <p>
+                    Creamy avocado spread over crispy toast for a simple,
+                    nutritious, and satisfying vegetarian breakfast.
+                  </p>
 
-            <li>
-              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-              <Link to="/potatosalad" className="recipe-link">
-                Chukauni – Nepali Yogurt Potato Salad
-              </Link>
-            </li>
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
 
-            <li>
-              <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-              <Link to="/yogurt" className="recipe-link">
-                Homemade Instant Pot Yogurt
-              </Link>
-            </li>
-          </ul>
-        </div>
+            {/* Bombay Masala Vegetable Sandwich */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/masalasandwich" className="related-recipe-link">
+                  <Image
+                    src="/masalasandwich.png"
+                    alt="Bombay Masala Vegetable Sandwich"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Bombay Masala Vegetable Sandwich</h3>
+
+                  <p>
+                    A flavorful Indian-style vegetable sandwich filled with
+                    spiced potatoes and fresh vegetables.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Quinoa Moong Dal Khichdi */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/quinoamoongdal" className="related-recipe-link">
+                  <Image
+                    src="/quinoamoongdal.jpg"
+                    alt="Quinoa Moong Dal Khichdi"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Quinoa Moong Dal Khichdi</h3>
+
+                  <p>
+                    A wholesome one-pot meal made with nutritious quinoa,
+                    protein-rich moong dal, and aromatic spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Middle Eastern Couscous Salad */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/couscousbalsamic" className="related-recipe-link">
+                  <Image
+                    src="/couscousbalsamic.jpg"
+                    alt="Middle Eastern Couscous Salad"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Middle Eastern Couscous Salad</h3>
+
+                  <p>
+                    A fresh and colorful couscous salad packed with vegetables,
+                    herbs, and Mediterranean-inspired flavors.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Chukauni */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/potatosalad" className="related-recipe-link">
+                  <Image
+                    src="/potatosalad.png"
+                    alt="Chukauni Nepali Yogurt Potato Salad"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Chukauni – Nepali Yogurt Potato Salad</h3>
+
+                  <p>
+                    A refreshing Nepali potato salad made with creamy yogurt,
+                    potatoes, herbs, and aromatic spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Homemade Instant Pot Yogurt */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/yogurt" className="related-recipe-link">
+                  <Image
+                    src="/yogurt.jpg"
+                    alt="Homemade Instant Pot Yogurt"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Homemade Instant Pot Yogurt</h3>
+
+                  <p>
+                    Creamy, smooth, and homemade yogurt prepared easily using
+                    an Instant Pot.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+          </Row>
+        </section>
       </div>
     );
   }

@@ -8,7 +8,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema";
 import { faBowlFood } from '@fortawesome/free-solid-svg-icons';
 
@@ -239,59 +238,146 @@ class Aloogobi extends Component {
                         <YouTube videoId="zCoLryH0mDk" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
-                <div>
+                {/* Related Recipes */}
+                <section className="related-recipes">
                     <h2>Related Vegetarian Recipes</h2>
-                    <p>
-                        If you enjoyed this Aloo Gobi: Classic North Indian Potato and Cauliflower Curry, you may also like:
+
+                    <p className="related-recipes-intro">
+                        If you enjoyed this Aloo Gobi: Classic North Indian Potato and
+                        Cauliflower Curry, you may also like these delicious vegetarian recipes:
                     </p>
-                    <ul style={{ listStyle: "none", paddingLeft: "0" }}>
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link
-                                to="/couscous"
-                                className="recipe-link"
-                            >
-                                Couscous Delight: Easy and Flavorful Mediterranean Magic!
-                            </Link>
-                        </li>
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link
-                                to="/potato"
-                                className="recipe-link"
-                            >
-                                Any Time Potato
-                            </Link>
-                        </li>
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link
-                                to="/riceandbeans"
-                                className="recipe-link"
-                            >
-                                Mexican Rice and Beans
-                            </Link>
-                        </li>
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link
-                                to="/saagpaneer"
-                                className="recipe-link"
-                            >
-                                Saag Paneer
-                            </Link>
-                        </li>
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link
-                                to="/cabbage"
-                                className="recipe-link"
-                            >
-                                Cabbage Curry
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
+
+                    <Row className="g-4">
+
+                        {/* Couscous */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/couscous" className="related-recipe-link">
+                                    <Image
+                                        src="/couscous.jpg"
+                                        alt="Couscous Delight"
+                                        fluid
+                                        rounded
+                                    />
+
+                                    <h3>
+                                        Couscous Delight: Easy and Flavorful Mediterranean Magic!
+                                    </h3>
+
+                                    <p>
+                                        A flavorful and versatile couscous dish inspired by
+                                        Mediterranean cuisine.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Any Time Potato */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/potato" className="related-recipe-link">
+                                    <Image
+                                        src="/anytimepotato.jpg"
+                                        alt="Any Time Potato"
+                                        fluid
+                                        rounded
+                                    />
+
+                                    <h3>Any Time Potato</h3>
+
+                                    <p>
+                                        A simple, comforting, and flavorful potato recipe that's
+                                        perfect for any meal.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Mexican Rice and Beans */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/riceandbeans" className="related-recipe-link">
+                                    <Image
+                                        src="/ricebeans.jpg"
+                                        alt="Mexican Rice and Beans"
+                                        fluid
+                                        rounded
+                                    />
+
+                                    <h3>Mexican Rice and Beans</h3>
+
+                                    <p>
+                                        A hearty and flavorful combination of rice, beans, and
+                                        Mexican-inspired spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Saag Paneer */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/saagpaneer" className="related-recipe-link">
+                                    <Image
+                                        src="/saagpaneer.jpg"
+                                        alt="Saag Paneer"
+                                        fluid
+                                        rounded
+                                    />
+
+                                    <h3>Saag Paneer</h3>
+
+                                    <p>
+                                        Creamy spinach cooked with tender paneer and aromatic
+                                        Indian spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Cabbage Curry */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/cabbage" className="related-recipe-link">
+                                    <Image
+                                        src="/cabbage.jpg"
+                                        alt="Cabbage Curry"
+                                        fluid
+                                        rounded
+                                    />
+
+                                    <h3>Cabbage Curry</h3>
+
+                                    <p>
+                                        A simple and delicious vegetarian cabbage curry made with
+                                        aromatic spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                    </Row>
+                </section>
             </div>
         );
     }

@@ -4,10 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema";
 
 class Bombaysandwich extends Component {
@@ -61,18 +60,18 @@ class Bombaysandwich extends Component {
           <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 30 minutes</Col>
         </Row>
         <div className="ingredients"><h3>Ingredients</h3>
-          <ol>
-            <li>3 slices of sourdough bread or regular white bread</li>
-            <li>1 tablespoon butter, per sandwich </li>
-            <li>2 tablespoon of mint chutney </li>
-            <li>2 russet potatoes, boiled and thinly sliced</li>
-            <li>1 whole cucumber, thinly sliced</li>
-            <li>2 plum tomatoes, thinly sliced</li>
-            <li>Chat Masala found in Indian Grocery Store</li>
-            <li>1 whole potatoes big ones</li>
-            <li>Pinch of salt</li>
-            <li>3 slices of Onions</li>
-          </ol>
+          <ul className="ingredient-list">
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />3 slices of sourdough bread or regular white bread</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 tablespoon butter, per sandwich </li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 tablespoon of mint chutney </li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 russet potatoes, boiled and thinly sliced</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 whole cucumber, thinly sliced</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 plum tomatoes, thinly sliced</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Chat Masala found in Indian Grocery Store</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 whole potatoes big ones</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Pinch of salt</li>
+            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />3 slices of Onions</li>
+          </ul>
         </div>
         <div className="ingredients"><h3>Instruction</h3>
           <ol>
@@ -97,22 +96,18 @@ class Bombaysandwich extends Component {
           alt="Mumbai-style Bombay Sandwich with vegetables and chutney"
           fluid
           rounded
+          thumbnail
           loading="lazy"
-          className="recipe-image"
+          className="recipe-image mx-auto d-block"
         />
         <section>
           <h2>Bombay Sandwich Video</h2>
-          <div className="youtube-container">
-            <YouTube
-              videoId="CIFjZ4OwFjQ"
-              opts={{
-                width: "100%",
-                height: "500",
-                playerVars: {
-                  autoplay: 0
-                }
-              }}
-            />
+          <div className="ratio ratio-1x1 video-container">
+            <iframe
+              src="https://www.youtube.com/embed/CIFjZ4OwFjQ"
+              title="Upma Preparation Video"
+              allowFullScreen
+            ></iframe>
           </div>
         </section>
         <div>

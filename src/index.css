@@ -471,6 +471,22 @@ section p {
   }
 }
 
+.recipe-image-potatocapsicum.img-thumbnail {
+  display: block;
+  padding: 0 !important;
+  margin: 0;
+  border: 5px solid #ddd;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+
+  max-height: 70vh;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 .recipe-image-wrapper {
   display: inline-block;
   padding: 5px;
@@ -714,4 +730,84 @@ section p {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.related-recipes {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.related-recipes h2 {
+  margin-bottom: 12px;
+}
+
+.related-recipes-intro {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.related-recipe-card {
+  height: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.related-recipe-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.18);
+}
+
+.related-recipe-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.related-recipe-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.related-recipe-card h3 {
+  font-size: 22px;
+  margin: 5px 0 8px;
+}
+
+.related-recipe-card p {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.related-recipe-button {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: #20c997;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.recipe-image-ricebeans.img-thumbnail {
+  display: block;
+  padding: 0 !important;
+  margin: 0;
+  border: 5px solid #ddd;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+
+  max-height: 70vh;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
