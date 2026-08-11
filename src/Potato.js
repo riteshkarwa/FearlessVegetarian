@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import MediaQuery from 'react-responsive';
 import { Link } from "react-router-dom";
-import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
+import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema";
 
 class Potato extends Component {
@@ -143,52 +143,168 @@ class Potato extends Component {
             height="50%"
           />
         </MediaQuery>
-
-        <div style={{ marginTop: "40px" }}>
+        {/* You May Also Like */}
+        <section className="related-recipes">
           <h2>You May Also Like</h2>
 
-          <p>
+          <p className="related-recipes-intro">
             Explore more comforting vegetarian recipes from Fearless Vegetarian.
+            These flavorful and satisfying dishes are perfect for everyday meals.
           </p>
 
-          <ul style={{ listStyle: "none", padding: 0, marginTop: "20px" }}>
-            <li style={{ marginBottom: "12px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ color: "#28a745", marginRight: "10px" }} />
-              <Link to="/potatocapsicum" className="recipe-link">
-                Creamy Potato Curry in Cashew Pepper Gravy
-              </Link>
-            </li>
+          <Row className="g-4">
 
-            <li style={{ marginBottom: "12px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ color: "#28a745", marginRight: "10px" }} />
-              <Link to="/paneer" className="recipe-link">
-                Shahi Paneer – Creamy Indian Cottage Cheese Curry
-              </Link>
-            </li>
+            {/* Creamy Potato Curry */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/potatocapsicum"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/potatocapsicum.jpg"
+                    alt="Creamy Potato Curry in Cashew Pepper Gravy"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
 
-            <li style={{ marginBottom: "12px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ color: "#28a745", marginRight: "10px" }} />
-              <Link to="/quinoamoongdal" className="recipe-link">
-                Quinoa Moong Dal Khichdi
-              </Link>
-            </li>
+                  <h3>
+                    Creamy Potato Curry in Cashew Pepper Gravy
+                  </h3>
 
-            <li style={{ marginBottom: "12px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ color: "#28a745", marginRight: "10px" }} />
-              <Link to="/cabbage" className="recipe-link">
-                Cabbage Curry (Patta Gobi)
-              </Link>
-            </li>
+                  <p>
+                    Tender potatoes cooked in a rich and creamy cashew
+                    pepper gravy with aromatic Indian spices.
+                  </p>
 
-            <li>
-              <FontAwesomeIcon icon={faLeaf} style={{ color: "#28a745", marginRight: "10px" }} />
-              <Link to="/riceandbeans" className="recipe-link">
-                Mexican Rice with Black Beans
-              </Link>
-            </li>
-          </ul>
-        </div>
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
 
+            {/* Shahi Paneer */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/paneer"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/paneer.jpg"
+                    alt="Shahi Paneer Creamy Indian Cottage Cheese Curry"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>
+                    Shahi Paneer – Creamy Indian Cottage Cheese Curry
+                  </h3>
+
+                  <p>
+                    Soft paneer cooked in a rich, creamy, and mildly spiced
+                    Indian gravy for a delicious vegetarian meal.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Quinoa Moong Dal Khichdi */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/quinoamoongdal"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/quinoamoongdal.jpg"
+                    alt="Quinoa Moong Dal Khichdi"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Quinoa Moong Dal Khichdi</h3>
+
+                  <p>
+                    A wholesome one-pot meal made with nutritious quinoa,
+                    protein-rich moong dal, and aromatic Indian spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Cabbage Curry */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/cabbage"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/cabbage.jpg"
+                    alt="Cabbage Curry Patta Gobi"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Cabbage Curry (Patta Gobi)</h3>
+
+                  <p>
+                    A simple and flavorful Indian cabbage curry cooked with
+                    aromatic spices for an easy vegetarian side dish.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Mexican Rice with Black Beans */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/riceandbeans"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/ricebeans.jpg"
+                    alt="Mexican Rice with Black Beans"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Mexican Rice with Black Beans</h3>
+
+                  <p>
+                    Flavorful Mexican-style rice combined with hearty black
+                    beans and vegetables for a satisfying vegetarian meal.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+          </Row>
+        </section>
       </div>
     );
   }

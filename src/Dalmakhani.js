@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import { Link } from "react-router-dom";
-import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
+import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema";
 
 class DalMakhani extends Component {
@@ -230,40 +230,194 @@ class DalMakhani extends Component {
                         />
                     </div>
                 </div>
-                <div className="related-recipes">
+                {/* Related Vegetarian Recipes */}
+                <section className="related-recipes">
                     <h2>Related Vegetarian Recipes</h2>
 
-                    <p>
-                        If you enjoyed this creamy Dal Makhani recipe, you may also like these healthy vegetarian recipes:
+                    <p className="related-recipes-intro">
+                        If you enjoyed this creamy Dal Makhani recipe, you may also like
+                        these flavorful and comforting vegetarian recipes. Perfect for
+                        everyday meals and family dinners.
                     </p>
 
-                    <ul className="custom-list">
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
-                            <Link to="/paneer" className="recipe-link">Shahi Paneer</Link>
-                        </li>
+                    <Row className="g-4">
 
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
-                            <Link to="/okra" className="recipe-link">Okra Delight</Link>
-                        </li>
+                        {/* Shahi Paneer */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/paneer"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/paneer.jpg"
+                                        alt="Shahi Paneer"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
 
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
-                            <Link to="/lentil" className="recipe-link">Masoor Dal (Red Lentil Curry)</Link>
-                        </li>
+                                    <h3>Shahi Paneer</h3>
 
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
-                            <Link to="/blackeyedbeans" className="recipe-link">Black Eyed Peas Curry</Link>
-                        </li>
+                                    <p>
+                                        Soft paneer cooked in a rich, creamy, and mildly spiced
+                                        Indian gravy for a delicious vegetarian curry.
+                                    </p>
 
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />
-                            <Link to="/upma" className="recipe-link">South Indian Upma</Link>
-                        </li>
-                    </ul>
-                </div>
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Okra Delight */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/okra"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/okra.jpg"
+                                        alt="Okra Delight"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Okra Delight</h3>
+
+                                    <p>
+                                        Tender okra cooked with aromatic spices for a flavorful
+                                        and easy vegetarian side dish.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Masoor Dal */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/lentil"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/lentil.jpg"
+                                        alt="Masoor Dal Red Lentil Curry"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Masoor Dal (Red Lentil Curry)</h3>
+
+                                    <p>
+                                        A comforting red lentil curry cooked with tomatoes,
+                                        aromatic spices, and fresh herbs.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Black Eyed Peas Curry */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/blackeyedbeans"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/blackeyedbeans.jpg"
+                                        alt="Black Eyed Peas Curry"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Black Eyed Peas Curry</h3>
+
+                                    <p>
+                                        Hearty black eyed peas simmered in a flavorful Indian
+                                        gravy with aromatic spices and herbs.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* South Indian Upma */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/upma"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/upma.jpg"
+                                        alt="South Indian Upma"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>South Indian Upma</h3>
+
+                                    <p>
+                                        A comforting South Indian breakfast made with semolina,
+                                        vegetables, aromatic spices, and fresh herbs.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Quinoa Moong Dal Khichdi */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/quinoamoongdal"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/quinoamoongdal.jpg"
+                                        alt="Quinoa Moong Dal Khichdi"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Quinoa Moong Dal Khichdi</h3>
+
+                                    <p>
+                                        A wholesome one-pot meal made with quinoa, moong dal,
+                                        vegetables, and aromatic Indian spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                    </Row>
+                </section>
             </div>
         );
     }

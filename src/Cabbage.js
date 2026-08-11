@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Image from "react-bootstrap/Image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
-import { faCarrot, faLeaf } from "@fortawesome/free-solid-svg-icons";
+import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 import YouTube from "react-youtube";
 import MediaQuery from "react-responsive";
 import Row from "react-bootstrap/Row";
@@ -352,87 +352,166 @@ class Cabbage extends Component {
                             />
                         </MediaQuery>
                     </section>
-
+                    {/* Related Vegetarian Recipes */}
                     <section className="related-recipes">
                         <h2>Related Vegetarian Recipes</h2>
 
-                        <p>
-                            If you enjoyed this Cabbage Curry, you may
-                            also like these flavorful vegetarian recipes:
+                        <p className="related-recipes-intro">
+                            If you enjoyed this Cabbage Curry, you may also like these
+                            flavorful and comforting vegetarian recipes. Perfect for
+                            everyday meals and family dinners.
                         </p>
 
-                        <ul className="related-recipe-list">
-                            <li>
-                                <FontAwesomeIcon
-                                    icon={faLeaf}
-                                    className="related-recipe-icon"
-                                />
+                        <Row className="g-4">
 
-                                <Link
-                                    to="/aloogobi"
-                                    className="recipe-link"
-                                >
-                                    Aloo Gobi (Potato Cauliflower Curry)
-                                </Link>
-                            </li>
+                            {/* Aloo Gobi */}
+                            <Col xs={12} sm={6} md={4}>
+                                <article className="related-recipe-card">
+                                    <Link
+                                        to="/aloogobi"
+                                        className="related-recipe-link"
+                                    >
+                                        <Image
+                                            src="/aloogobi.jpg"
+                                            alt="Aloo Gobi Potato Cauliflower Curry"
+                                            fluid
+                                            rounded
+                                            className="related-recipe-image"
+                                        />
 
-                            <li>
-                                <FontAwesomeIcon
-                                    icon={faLeaf}
-                                    className="related-recipe-icon"
-                                />
+                                        <h3>Aloo Gobi (Potato Cauliflower Curry)</h3>
 
-                                <Link
-                                    to="/saagpaneer"
-                                    className="recipe-link"
-                                >
-                                    Saag Paneer – Spinach and Paneer Curry
-                                </Link>
-                            </li>
+                                        <p>
+                                            A classic Indian vegetarian curry made with tender
+                                            potatoes, cauliflower, and aromatic spices.
+                                        </p>
 
-                            <li>
-                                <FontAwesomeIcon
-                                    icon={faLeaf}
-                                    className="related-recipe-icon"
-                                />
+                                        <span className="related-recipe-button">
+                                            View Recipe
+                                        </span>
+                                    </Link>
+                                </article>
+                            </Col>
 
-                                <Link
-                                    to="/potatocapsicum"
-                                    className="recipe-link"
-                                >
-                                    Creamy Potato Curry in Roasted Red
-                                    Pepper Gravy
-                                </Link>
-                            </li>
+                            {/* Saag Paneer */}
+                            <Col xs={12} sm={6} md={4}>
+                                <article className="related-recipe-card">
+                                    <Link
+                                        to="/saagpaneer"
+                                        className="related-recipe-link"
+                                    >
+                                        <Image
+                                            src="/saagpaneer.jpg"
+                                            alt="Saag Paneer Spinach and Paneer Curry"
+                                            fluid
+                                            rounded
+                                            className="related-recipe-image"
+                                        />
 
-                            <li>
-                                <FontAwesomeIcon
-                                    icon={faLeaf}
-                                    className="related-recipe-icon"
-                                />
+                                        <h3>Saag Paneer – Spinach and Paneer Curry</h3>
 
-                                <Link
-                                    to="/dalmakhani"
-                                    className="recipe-link"
-                                >
-                                    Dal Makhani – Creamy Punjabi Lentils
-                                </Link>
-                            </li>
+                                        <p>
+                                            Creamy spinach cooked with soft paneer and aromatic
+                                            Indian spices for a wholesome vegetarian curry.
+                                        </p>
 
-                            <li>
-                                <FontAwesomeIcon
-                                    icon={faLeaf}
-                                    className="related-recipe-icon"
-                                />
+                                        <span className="related-recipe-button">
+                                            View Recipe
+                                        </span>
+                                    </Link>
+                                </article>
+                            </Col>
 
-                                <Link
-                                    to="/besan"
-                                    className="recipe-link"
-                                >
-                                    Chickpea Flour Curry (Besan Curry)
-                                </Link>
-                            </li>
-                        </ul>
+                            {/* Creamy Potato Curry */}
+                            <Col xs={12} sm={6} md={4}>
+                                <article className="related-recipe-card">
+                                    <Link
+                                        to="/potatocapsicum"
+                                        className="related-recipe-link"
+                                    >
+                                        <Image
+                                            src="/potatocapsicum.jpg"
+                                            alt="Creamy Potato Curry in Roasted Red Pepper Gravy"
+                                            fluid
+                                            rounded
+                                            className="related-recipe-image"
+                                        />
+
+                                        <h3>
+                                            Creamy Potato Curry in Roasted Red Pepper Gravy
+                                        </h3>
+
+                                        <p>
+                                            Tender potatoes simmered in a rich and creamy roasted
+                                            red pepper gravy with flavorful spices.
+                                        </p>
+
+                                        <span className="related-recipe-button">
+                                            View Recipe
+                                        </span>
+                                    </Link>
+                                </article>
+                            </Col>
+
+                            {/* Dal Makhani */}
+                            <Col xs={12} sm={6} md={4}>
+                                <article className="related-recipe-card">
+                                    <Link
+                                        to="/dalmakhani"
+                                        className="related-recipe-link"
+                                    >
+                                        <Image
+                                            src="/dalmakhani.jpg"
+                                            alt="Dal Makhani Creamy Punjabi Lentils"
+                                            fluid
+                                            rounded
+                                            className="related-recipe-image"
+                                        />
+
+                                        <h3>Dal Makhani – Creamy Punjabi Lentils</h3>
+
+                                        <p>
+                                            Rich and creamy Punjabi-style lentils slow-cooked with
+                                            aromatic spices for a comforting vegetarian meal.
+                                        </p>
+
+                                        <span className="related-recipe-button">
+                                            View Recipe
+                                        </span>
+                                    </Link>
+                                </article>
+                            </Col>
+
+                            {/* Besan Curry */}
+                            <Col xs={12} sm={6} md={4}>
+                                <article className="related-recipe-card">
+                                    <Link
+                                        to="/besan"
+                                        className="related-recipe-link"
+                                    >
+                                        <Image
+                                            src="/besan.jpg"
+                                            alt="Chickpea Flour Curry Besan Curry"
+                                            fluid
+                                            rounded
+                                            className="related-recipe-image"
+                                        />
+
+                                        <h3>Chickpea Flour Curry (Besan Curry)</h3>
+
+                                        <p>
+                                            A flavorful Indian curry made with chickpea flour,
+                                            yogurt, and aromatic spices for a comforting meal.
+                                        </p>
+
+                                        <span className="related-recipe-button">
+                                            View Recipe
+                                        </span>
+                                    </Link>
+                                </article>
+                            </Col>
+
+                        </Row>
                     </section>
                 </article>
             </div>

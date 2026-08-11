@@ -4,23 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import YouTube from 'react-youtube';
-import MediaQuery from 'react-responsive';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Riceandbeans extends Component {
     render() {
-        const optsDesktop = {
-            height: '800',
-            width: '1000',
-        };
-
-        const optsMobile = {
-            height: '550',
-            width: '325',
-        };
         return (
             <div>
                 <Helmet>
@@ -90,15 +79,17 @@ class Riceandbeans extends Component {
                     thumbnail
                     className="recipe-image-ricebeans mx-auto d-block"
                 />
-                <div>
+                {/* Preparation Video */}
+                <section className="recipe-video">
                     <h2>Rice and Beans Preparation Video</h2>
-                    <MediaQuery maxWidth={767}>
-                        <YouTube videoId="azLCdgLpDjY" opts={optsMobile} />
-                    </MediaQuery>
-                    <MediaQuery minWidth={767}>
-                        <YouTube videoId="azLCdgLpDjY" opts={optsDesktop} />
-                    </MediaQuery>
-                </div>
+                    <div className="ratio ratio-1x1 video-container">
+                        <iframe
+                            src="https://www.youtube.com/embed/azLCdgLpDjY"
+                            title="Upma Preparation Video"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </section>
                 {/* You May Also Like */}
                 <section className="related-recipes">
                     <h2>You May Also Like</h2>

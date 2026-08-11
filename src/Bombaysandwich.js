@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
+import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema";
 
 class Bombaysandwich extends Component {
@@ -110,59 +110,150 @@ class Bombaysandwich extends Component {
             ></iframe>
           </div>
         </section>
-        <div>
+        {/* Related Vegetarian Recipes */}
+        <section className="related-recipes">
           <h2>Related Vegetarian Recipes</h2>
-          <p>
-            If you enjoyed this Bombay Vegetable Sandwich with Mint Chutney, you may also like:
+
+          <p className="related-recipes-intro">
+            If you enjoyed this Bombay Vegetable Sandwich with Mint Chutney,
+            you may also like these flavorful and easy-to-make vegetarian recipes.
+            Perfect for breakfast, lunch, snacks, or a quick and satisfying meal.
           </p>
-          <ul style={{ listStyle: "none", paddingLeft: "0" }}>
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link
-                to="/upma"
-                className="recipe-link"
-              >
-                South Indian Upma
-              </Link>
-            </li>
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link
-                to="/potato"
-                className="recipe-link"
-              >
-                Any Time Potato
-              </Link>
-            </li>
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link
-                to="/riceandbeans"
-                className="recipe-link"
-              >
-                Mexican Rice and Beans
-              </Link>
-            </li>
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link
-                to="/aloogobi"
-                className="recipe-link"
-              >
-                Aloo Gobi
-              </Link>
-            </li>
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link
-                to="/cabbage"
-                className="recipe-link"
-              >
-                Cabbage Curry
-              </Link>
-            </li>
-          </ul>
-        </div>
+
+          <Row className="g-4">
+
+            {/* South Indian Upma */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/upma" className="related-recipe-link">
+                  <Image
+                    src="/upma.jpg"
+                    alt="South Indian Upma"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>South Indian Upma</h3>
+
+                  <p>
+                    A comforting South Indian breakfast made with semolina,
+                    vegetables, aromatic spices, and fresh herbs.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Any Time Potato */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/potato" className="related-recipe-link">
+                  <Image
+                    src="/potato.png"
+                    alt="Any Time Potato"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Any Time Potato</h3>
+
+                  <p>
+                    A flavorful and versatile potato recipe seasoned with
+                    aromatic Indian spices for an easy everyday side dish.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Mexican Rice and Beans */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/riceandbeans" className="related-recipe-link">
+                  <Image
+                    src="/ricebeans.jpg"
+                    alt="Mexican Rice and Beans"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Mexican Rice and Beans</h3>
+
+                  <p>
+                    A hearty and flavorful vegetarian meal combining seasoned
+                    rice, protein-rich beans, vegetables, and Mexican spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Aloo Gobi */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/aloogobi" className="related-recipe-link">
+                  <Image
+                    src="/aloogobi.jpg"
+                    alt="Aloo Gobi"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Aloo Gobi</h3>
+
+                  <p>
+                    A classic Indian vegetarian dish made with potatoes,
+                    cauliflower, and aromatic spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Cabbage Curry */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link to="/cabbage" className="related-recipe-link">
+                  <Image
+                    src="/cabbage.jpg"
+                    alt="Cabbage Curry"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Cabbage Curry</h3>
+
+                  <p>
+                    A simple and delicious Indian cabbage curry cooked with
+                    aromatic spices for a wholesome vegetarian side dish.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+          </Row>
+        </section>
       </div>
     );
   }
