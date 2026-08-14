@@ -63,6 +63,7 @@ class AshwagandhaAppleJuice extends Component {
           />
 
           <meta property="og:type" content="article" />
+          <meta name="robots" content="index, follow" />
         </Helmet>
 
         <h1>

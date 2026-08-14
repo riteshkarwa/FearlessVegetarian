@@ -9,7 +9,6 @@ import MediaQuery from 'react-responsive';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import {
-  faLeaf,
   faCarrot
 } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema";
@@ -76,6 +75,7 @@ class Beetroot extends Component {
           />
           <meta property="og:title" content="Beetroot Curry with Coconut Milk: Vibrant Fusion Delight" />
           <meta property="og:type" content="website" />
+          <meta name="robots" content="index, follow" />
           <meta property="og:url" content="https://fearlessvegetarian.netlify.app/beetroot" />
           <meta property="og:image" content="https://fearlessvegetarian.netlify.app/beetroot.jpg" />
           <meta property="og:description" content="Experience the vibrant fusion of beetroot, coconut milk, and Urad Dal in this flavorful curry. A delightful blend of colors and flavors awaits!" />
@@ -176,40 +176,194 @@ class Beetroot extends Component {
             <YouTube videoId="veUNjVorUyk" opts={optsDesktop} />
           </MediaQuery>
         </div>
-        <div className="related-recipes" style={{ marginTop: "40px" }}>
+        {/* Related Vegetarian Recipes */}
+        <section className="related-recipes">
           <h2>Related Vegetarian Recipes</h2>
 
-          <p>
-            If you enjoyed this Beetroot Curry with Coconut Milk, you may also like:
+          <p className="related-recipes-intro">
+            If you enjoyed this Beetroot Curry with Coconut Milk, you may also
+            like these flavorful and comforting vegetarian recipes. Perfect for
+            everyday meals and family dinners.
           </p>
 
-          <ul style={{ listStyle: "none", paddingLeft: "0" }}>
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />{" "}
-              <Link to="/lentil" className="recipe-link">Masoor Dal (Lentil Curry)</Link>
-            </li>
+          <Row className="g-4">
 
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />{" "}
-              <Link to="/dalmakhani" className="recipe-link">Dal Makhani</Link>
-            </li>
+            {/* Masoor Dal */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/lentil"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/lentil.jpg"
+                    alt="Masoor Dal Lentil Curry"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
 
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />{" "}
-              <Link to="/saagpaneer" className="recipe-link">Saag Paneer</Link>
-            </li>
+                  <h3>Masoor Dal (Lentil Curry)</h3>
 
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />{" "}
-              <Link to="/besan" className="recipe-link">Besan Curry</Link>
-            </li>
+                  <p>
+                    A comforting red lentil curry cooked with tomatoes,
+                    aromatic spices, and fresh herbs for a wholesome meal.
+                  </p>
 
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "10px" }} />{" "}
-              <Link to="/aloogobi" className="recipe-link">Aloo Gobi</Link>
-            </li>
-          </ul>
-        </div>
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Dal Makhani */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/dalmakhani"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/dalmakhani.jpg"
+                    alt="Dal Makhani Creamy Punjabi Lentils"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Dal Makhani</h3>
+
+                  <p>
+                    Rich and creamy Punjabi-style lentils slow-cooked with
+                    aromatic spices for a comforting vegetarian dish.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Saag Paneer */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/saagpaneer"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/saagpaneer.jpg"
+                    alt="Saag Paneer Spinach and Paneer Curry"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Saag Paneer</h3>
+
+                  <p>
+                    Creamy spinach cooked with soft paneer and aromatic
+                    Indian spices for a flavorful vegetarian curry.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Besan Curry */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/besan"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/besan.jpg"
+                    alt="Besan Curry Chickpea Flour Curry"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Besan Curry</h3>
+
+                  <p>
+                    A flavorful Indian curry made with chickpea flour,
+                    yogurt, and aromatic spices for a comforting meal.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Aloo Gobi */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/aloogobi"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/aloogobi.jpg"
+                    alt="Aloo Gobi Potato Cauliflower Curry"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Aloo Gobi</h3>
+
+                  <p>
+                    A classic Indian vegetarian curry made with potatoes,
+                    cauliflower, and aromatic spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Quinoa Moong Dal Khichdi */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/quinoamoongdal"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/quinoamoongdal.jpg"
+                    alt="Quinoa Moong Dal Khichdi"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Quinoa Moong Dal Khichdi</h3>
+
+                  <p>
+                    A wholesome one-pot meal made with quinoa, moong dal,
+                    vegetables, and aromatic Indian spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+          </Row>
+        </section>
       </div>
     );
   }

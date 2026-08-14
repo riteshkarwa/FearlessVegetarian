@@ -64,6 +64,7 @@ class Blackeyedbeans extends Component {
                     />
                     <meta property="og:title" content="Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity" />
                     <meta property="og:type" content="website" />
+                    <meta name="robots" content="index, follow" />
                     <meta property="og:url" content="https://fearlessvegetarian.netlify.app/blackeyedbeans" />
                     <meta property="og:image" content="https://fearlessvegetarian.netlify.app/blackeyedbeans.jpg" />
                     <meta property="og:description" content="Kickstart luck with our Black Eyed Peas Curry. A year-round delight, seasoned with Indian spices for prosperity." />

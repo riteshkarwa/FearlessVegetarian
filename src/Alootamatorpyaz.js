@@ -67,6 +67,9 @@ class AlooTamatarPyaz extends Component {
                         property="og:description"
                         content="A simple and flavorful Aloo Tamatar Pyaz Ki Sabji made with potatoes, tomatoes, onions, and aromatic Indian spices in a delicious gravy."
                     />
+
+                    <meta property="og:type" content="article" />
+                    <meta name="robots" content="index, follow" />
                 </Helmet>
 
                 {/* Recipe Introduction */}

@@ -70,6 +70,7 @@ class BalsamicVinaigretteDish extends Component {
                     <meta property="og:url" content="https://fearlessvegetarian.netlify.app/couscousbalsamic" />
                     <meta property="og:image" content="https://fearlessvegetarian.netlify.app/couscousbalsamic.jpg" />
                     <meta property="og:description" content="Enjoy a vibrant Middle Eastern-inspired couscous salad made with cucumber, red bell pepper, purple cabbage, red onion, fresh parsley, green onions, and toasted walnuts. Tossed in a tangy balsamic vinaigrette, this healthy vegetarian and vegan recipe is perfect for lunch, dinner, or meal prep" />
+                    <meta name="robots" content="index, follow" />
                 </Helmet>
                 <h1>Middle Eastern Couscous Salad with Balsamic Vinaigrette</h1>
                 <p>
