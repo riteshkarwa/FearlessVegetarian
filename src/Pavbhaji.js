@@ -9,8 +9,7 @@ import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 import {
-    faBowlFood,
-    faLeaf
+    faBowlFood
 } from "@fortawesome/free-solid-svg-icons";
 
 class Pavbhaji extends Component {
@@ -444,55 +443,125 @@ class Pavbhaji extends Component {
                             these delicious vegetarian recipes:
                         </p>
 
-                        <ul className="related-recipe-list">
-                            <li>
-                                <FontAwesomeIcon
-                                    icon={faLeaf}
-                                />
-                                <Link
-                                    to="/aloogobi"
-                                    className="recipe-link"
-                                >
-                                    Aloo Gobi
-                                </Link>
-                            </li>
+                        <Row className="g-4">
 
-                            <li>
-                                <FontAwesomeIcon
-                                    icon={faLeaf}
-                                />
-                                <Link
-                                    to="/dalmakhani"
-                                    className="recipe-link"
-                                >
-                                    Dal Makhani
-                                </Link>
-                            </li>
+                            {/* Aloo Gobi */}
+                            <Col xs={12} sm={6} md={4}>
+                                <article className="related-recipe-card">
+                                    <Link
+                                        to="/aloogobi"
+                                        className="related-recipe-link"
+                                    >
+                                        <Image
+                                            src="/aloogobi.jpg"
+                                            alt="Aloo Gobi"
+                                            fluid
+                                            rounded
+                                            className="related-recipe-image"
+                                        />
 
-                            <li>
-                                <FontAwesomeIcon
-                                    icon={faLeaf}
-                                />
-                                <Link
-                                    to="/saagpaneer"
-                                    className="recipe-link"
-                                >
-                                    Saag Paneer
-                                </Link>
-                            </li>
+                                        <h3>Aloo Gobi</h3>
 
-                            <li>
-                                <FontAwesomeIcon
-                                    icon={faLeaf}
-                                />
-                                <Link
-                                    to="/besan"
-                                    className="recipe-link"
-                                >
-                                    Besan Curry
-                                </Link>
-                            </li>
-                        </ul>
+                                        <p>
+                                            A classic Indian vegetarian dish made with potatoes,
+                                            cauliflower, and aromatic spices.
+                                        </p>
+
+                                        <span className="related-recipe-button">
+                                            View Recipe
+                                        </span>
+                                    </Link>
+                                </article>
+                            </Col>
+
+                            {/* Dal Makhani */}
+                            <Col xs={12} sm={6} md={4}>
+                                <article className="related-recipe-card">
+                                    <Link
+                                        to="/dalmakhani"
+                                        className="related-recipe-link"
+                                    >
+                                        <Image
+                                            src="/dalmakhani.jpg"
+                                            alt="Dal Makhani"
+                                            fluid
+                                            rounded
+                                            className="related-recipe-image"
+                                        />
+
+                                        <h3>Dal Makhani</h3>
+
+                                        <p>
+                                            A rich and creamy Punjabi lentil curry made with
+                                            black lentils, kidney beans, and aromatic spices.
+                                        </p>
+
+                                        <span className="related-recipe-button">
+                                            View Recipe
+                                        </span>
+                                    </Link>
+                                </article>
+                            </Col>
+
+                            {/* Saag Paneer */}
+                            <Col xs={12} sm={6} md={4}>
+                                <article className="related-recipe-card">
+                                    <Link
+                                        to="/saagpaneer"
+                                        className="related-recipe-link"
+                                    >
+                                        <Image
+                                            src="/saagpaneer.jpg"
+                                            alt="Saag Paneer"
+                                            fluid
+                                            rounded
+                                            className="related-recipe-image"
+                                        />
+
+                                        <h3>Saag Paneer</h3>
+
+                                        <p>
+                                            A flavorful North Indian curry combining creamy
+                                            spinach with soft paneer and aromatic spices.
+                                        </p>
+
+                                        <span className="related-recipe-button">
+                                            View Recipe
+                                        </span>
+                                    </Link>
+                                </article>
+                            </Col>
+
+                            {/* Besan Curry */}
+                            <Col xs={12} sm={6} md={4}>
+                                <article className="related-recipe-card">
+                                    <Link
+                                        to="/besan"
+                                        className="related-recipe-link"
+                                    >
+                                        <Image
+                                            src="/besan.jpg"
+                                            alt="Besan Curry"
+                                            fluid
+                                            rounded
+                                            className="related-recipe-image"
+                                        />
+
+                                        <h3>Besan Curry</h3>
+
+                                        <p>
+                                            A comforting vegetarian curry made with chickpea
+                                            flour, yogurt, and traditional Indian spices.
+                                        </p>
+
+                                        <span className="related-recipe-button">
+                                            View Recipe
+                                        </span>
+                                    </Link>
+                                </article>
+                            </Col>
+
+                        </Row>
                     </section>
 
                 </article>
