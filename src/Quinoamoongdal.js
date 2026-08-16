@@ -8,8 +8,7 @@ import { Helmet } from "react-helmet";
 import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import { Link } from "react-router-dom";
-import { faUtensils } from '@fortawesome/free-solid-svg-icons';
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema";
 
 class Quinoamoongdal extends Component {
@@ -156,37 +155,39 @@ class Quinoamoongdal extends Component {
                 <Row className="cooktimerow">
                     <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
                 </Row>
-                <div className="ingredients">Ingredients</div>
-                <ol>
-                    <li>1/2 cup quinoa</li>
-                    <li>1/2 cup yellow moong dal</li>
-                    <li>1/2 cup green moong dal</li>
-                    <li>1 small onion (chopped)</li>
-                    <li>1 small tomato (chopped)</li>
-                    <li>1 green chili (slit)</li>
-                    <li>1–2 garlic cloves (chopped)</li>
-                    <li>1/2 tsp cumin seeds</li>
-                    <li>1/2 tsp turmeric powder</li>
-                    <li>1/2 tsp coriander powder</li>
-                    <li>1–2 tbsp ghee or oil</li>
-                    <li>Salt to taste</li>
-                    <li>Fresh coriander leaves for garnish</li>
-                </ol>
-                <div className="ingredients">Instruction</div>
-                <ol>
-                    <li>Rinse and soak: Wash quinoa and moong dal thoroughly. Soak for 15–20 minutes, then drain.</li>
-                    <li>Pressure cook quinoa and dal: Add quinoa, moong dal, salt, turmeric, and 2.5–3 cups water to a pressure cooker.</li>
-                    <li>Cook for 2–3 whistles (or until both are soft and mushy). Set aside.</li>
-                    <li>Prepare tempering: Heat ghee or oil in a pressure cooker or heavy pot.</li>
-                    <li>Add cumin seeds, let them splutter.</li>
-                    <li>Add onion, ginger, garlic, and green chili. Sauté until golden.</li>
-                    <li>Add chopped tomato, carrot, beans, and peas.</li>
-                    <li>Stir in coriander powder and cook until veggies soften.</li>
-                    <li>Add the cooked quinoa-dal mixture into the pan with the vegetables and tempering.
-                    </li>
-                    <li>Mix well and simmer for 2–3 minutes. Adjust consistency with hot water if needed</li>
-                    <li>Garnish with fresh coriander and a drizzle of ghee.</li>
-                </ol>
+                <div className="ingredients"><h3>Ingredients</h3>
+                    <ul className="ingredient-list">
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/2 cup quinoa</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/2 cup yellow moong dal</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/2 cup green moong dal</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 small onion (chopped)</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 small tomato (chopped)</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 green chili (slit)</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1–2 garlic cloves (chopped)</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/2 tsp cumin seeds</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/2 tsp turmeric powder</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1/2 tsp coriander powder</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1–2 tbsp ghee or oil</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Salt to taste</li>
+                        <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Fresh coriander leaves for garnish</li>
+                    </ul>
+                </div>
+                <div className="ingredients"><h3>Instructions</h3>
+                    <ol>
+                        <li>Rinse and soak: Wash quinoa and moong dal thoroughly. Soak for 15–20 minutes, then drain.</li>
+                        <li>Pressure cook quinoa and dal: Add quinoa, moong dal, salt, turmeric, and 2.5–3 cups water to a pressure cooker.</li>
+                        <li>Cook for 2–3 whistles (or until both are soft and mushy). Set aside.</li>
+                        <li>Prepare tempering: Heat ghee or oil in a pressure cooker or heavy pot.</li>
+                        <li>Add cumin seeds, let them splutter.</li>
+                        <li>Add onion, ginger, garlic, and green chili. Sauté until golden.</li>
+                        <li>Add chopped tomato, carrot, beans, and peas.</li>
+                        <li>Stir in coriander powder and cook until veggies soften.</li>
+                        <li>Add the cooked quinoa-dal mixture into the pan with the vegetables and tempering.
+                        </li>
+                        <li>Mix well and simmer for 2–3 minutes. Adjust consistency with hot water if needed</li>
+                        <li>Garnish with fresh coriander and a drizzle of ghee.</li>
+                    </ol>
+                </div>
                 <h2>Final Product</h2>
                 <MediaQuery maxWidth={767}>
                     <Image src="/quinoamoongdal.jpg" alt="Quinoa Moong Dal Khichdi served in a bowl" thumbnail rounded fluid></Image>
@@ -207,35 +208,143 @@ class Quinoamoongdal extends Component {
                     <h2>Related Vegetarian Recipes</h2>
 
                     <p>
-                        If you enjoyed this Quinoa Moong Dal Khichdi, you may also like these healthy vegetarian recipes:
+                        If you enjoyed this Quinoa Moong Dal Khichdi, you may also like these
+                        healthy vegetarian recipes:
                     </p>
 
-                    <ul className="custom-list" >
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/khichdi" className="recipe-link">Traditional Moong Dal Khichdi</Link>
-                        </li>
+                    <Row className="g-4">
 
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/dalmakhani" className="recipe-link">Dal Makhani – Creamy Punjabi Lentils</Link>
-                        </li>
+                        {/* Traditional Moong Dal Khichdi */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/khichdi" className="related-recipe-link">
+                                    <Image
+                                        src="/khichdi.jpg"
+                                        alt="Traditional Moong Dal Khichdi"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
 
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon"/>
-                            <Link to="/lentil" className="recipe-link">Masoor Dal (Red Lentil Curry)</Link>
-                        </li>
+                                    <h3>Traditional Moong Dal Khichdi</h3>
 
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/blackeyedbeans" className="recipe-link">Black Eyed Peas Curry</Link>
-                        </li>
+                                    <p>
+                                        A comforting one-pot Indian dish made with rice, moong dal,
+                                        and aromatic spices.
+                                    </p>
 
-                        <li style={{ marginBottom: "10px" }}>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/upma" className="recipe-link">South Indian Upma</Link>
-                        </li>
-                    </ul>
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Dal Makhani */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/dalmakhani" className="related-recipe-link">
+                                    <Image
+                                        src="/dalmakhani.jpg"
+                                        alt="Dal Makhani - Creamy Punjabi Lentils"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Dal Makhani – Creamy Punjabi Lentils</h3>
+
+                                    <p>
+                                        A rich and creamy Punjabi lentil dish made with black
+                                        lentils, kidney beans, and aromatic spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Masoor Dal */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/lentil" className="related-recipe-link">
+                                    <Image
+                                        src="/lentil.jpg"
+                                        alt="Masoor Dal - Red Lentil Curry"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Masoor Dal (Red Lentil Curry)</h3>
+
+                                    <p>
+                                        A simple and flavorful red lentil curry that's packed
+                                        with plant-based protein and traditional Indian spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Black Eyed Peas Curry */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/blackeyedbeans" className="related-recipe-link">
+                                    <Image
+                                        src="/blackeyedbeans.jpg"
+                                        alt="Black Eyed Peas Curry"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Black Eyed Peas Curry</h3>
+
+                                    <p>
+                                        A hearty and flavorful curry made with black-eyed peas
+                                        and aromatic Indian spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* South Indian Upma */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/upma" className="related-recipe-link">
+                                    <Image
+                                        src="/upma.jpg"
+                                        alt="South Indian Upma"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>South Indian Upma</h3>
+
+                                    <p>
+                                        A quick and wholesome South Indian breakfast made with
+                                        semolina, vegetables, and aromatic spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                    </Row>
                 </div>
             </div>
         );

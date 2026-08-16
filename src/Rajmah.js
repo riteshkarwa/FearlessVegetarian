@@ -228,66 +228,146 @@ class Rajmah extends Component {
                 </div>
                 <div className="related-recipes" style={{ marginTop: "40px" }}>
                     <h2>More Indian Curry Recipes You'll Love</h2>
+
                     <p>
-                        If you enjoyed this hearty Rajmah (Kidney Bean Curry), you may also like:
+                        If you enjoyed this hearty Rajma (Kidney Bean Curry), you may also like:
                     </p>
 
-                    <ul style={{ listStyle: "none", paddingLeft: "0" }}>
-                        <li>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link
-                                to="/dalmakhani"
-                                className="recipe-link"
-                            >
-                                Dal Makhani – Slow-Cooked Punjabi Lentils
-                            </Link>
-                        </li>
+                    <Row className="g-4">
 
-                        <li>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link
-                                to="/quinoamoongdal"
-                                className="recipe-link"
-                            >
-                                Quinoa Moong Dal Khichdi
-                            </Link>
-                        </li>
+                        {/* Dal Makhani */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/dalmakhani" className="related-recipe-link">
+                                    <Image
+                                        src="/dalmakhani.jpg"
+                                        alt="Dal Makhani"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
 
-                        <li>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link
-                                to="/blackeyedpeas"
-                                className="recipe-link"
-                            >
-                                Black Eyed Peas Curry
-                            </Link>
-                        </li>
+                                    <h3>Dal Makhani</h3>
 
-                        <li>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link
-                                to="/besan"
-                                className="recipe-link"
-                            >
-                                Besan Curry (Chickpea Flour Curry)
-                            </Link>
-                        </li>
+                                    <p>
+                                        Creamy slow-cooked black lentils simmered with aromatic spices for a rich Punjabi favorite.
+                                    </p>
 
-                        <li>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link
-                                to="/riceandbeans"
-                                className="recipe-link"
-                            >
-                                Mexican Rice with Black Beans
-                            </Link>
-                        </li>
-                    </ul>
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Quinoa Moong Dal Khichdi */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/quinoamoongdal" className="related-recipe-link">
+                                    <Image
+                                        src="/quinoamoongdal.jpg"
+                                        alt="Quinoa Moong Dal Khichdi"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Quinoa Moong Dal Khichdi</h3>
+
+                                    <p>
+                                        A wholesome one-pot meal combining quinoa, moong dal, and warming Indian spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Black Eyed Peas Curry */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/blackeyedbeans" className="related-recipe-link">
+                                    <Image
+                                        src="/blackeyedbeans.jpg"
+                                        alt="Black Eyed Peas Curry"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Black Eyed Peas Curry</h3>
+
+                                    <p>
+                                        A hearty and flavorful curry made with black-eyed peas and aromatic Indian spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Besan Curry */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/besan" className="related-recipe-link">
+                                    <Image
+                                        src="/besan.jpg"
+                                        alt="Besan Curry"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Besan Curry</h3>
+
+                                    <p>
+                                        A comforting yogurt-based curry thickened with chickpea flour and traditional spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Mexican Rice with Black Beans */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/riceandbeans" className="related-recipe-link">
+                                    <Image
+                                        src="/riceandbeans.jpg"
+                                        alt="Mexican Rice with Black Beans"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Mexican Rice with Black Beans</h3>
+
+                                    <p>
+                                        A satisfying rice dish packed with black beans, vegetables, and bold flavors.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                    </Row>
                 </div>
-                <p>
-                    Rajma Masala is a classic Punjabi comfort food that's easy to prepare and full of flavor. Whether served with steamed rice, jeera rice, roti, or naan, this protein-rich kidney bean curry makes a satisfying vegetarian meal for lunch or dinner.
-                </p>
 
+                <p>
+                    Rajma Masala is a classic Punjabi comfort food that's easy to prepare and full of flavor.
+                    Whether served with steamed rice, jeera rice, roti, or naan, this protein-rich kidney bean
+                    curry makes a satisfying vegetarian meal for lunch or dinner.
+                </p>
             </div>
         );
     }

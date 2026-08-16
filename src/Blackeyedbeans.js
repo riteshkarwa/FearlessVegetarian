@@ -28,7 +28,7 @@ class Blackeyedbeans extends Component {
                     name="Black Eyed Peas Curry (Lobia Masala)"
                     description="Black Eyed Peas Curry seasoned with Indian spices. A hearty and protein-rich vegetarian curry made with black eyed beans, tomatoes, onions, and aromatic spices."
                     image="https://fearlessvegetarian.netlify.app/blackeyedbeans.jpg"
-                    url="https://fearlessvegetarian.netlify.app/blackeyedbeans"
+                    url="https://fearlessvegetarian.netlify.app/blackeyedbeans/"
                     prepTime="PT8H"
                     cookTime="PT1H"
                     totalTime="PT9H"
@@ -51,7 +51,7 @@ class Blackeyedbeans extends Component {
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Black Eyed Peas Curry (Lobia Masala) Recipe | Protein-Rich Indian Curry</title>
-                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/blackeyedbeans" />
+                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/blackeyedbeans/" />
                     <meta
                         name="description"
                         content="Kickstart luck with our Black Eyed Peas Curry. A year-round delight, seasoned with Indian spices for prosperity."
@@ -65,7 +65,7 @@ class Blackeyedbeans extends Component {
                     <meta property="og:title" content="Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity" />
                     <meta property="og:type" content="website" />
                     <meta name="robots" content="index, follow" />
-                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/blackeyedbeans" />
+                    <meta property="og:url" content="https://fearlessvegetarian.netlify.app/blackeyedbeans/" />
                     <meta property="og:image" content="https://fearlessvegetarian.netlify.app/blackeyedbeans.jpg" />
                     <meta property="og:description" content="Kickstart luck with our Black Eyed Peas Curry. A year-round delight, seasoned with Indian spices for prosperity." />
                 </Helmet>
