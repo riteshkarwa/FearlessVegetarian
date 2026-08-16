@@ -265,8 +265,6 @@ class Pavbhaji extends Component {
 
                     <div className="ingredients">
                         <h3>Ingredients</h3>
-
-
                         <ul className="ingredient-list">
                             <li><FontAwesomeIcon icon={faBowlFood} />
                                 2 cups potatoes, peeled and cubed</li>
@@ -401,22 +399,21 @@ class Pavbhaji extends Component {
                         </ol>
                     </div>
 
-                    <section>
-                        <h2>Pav Bhaji</h2>
 
-                        <Image
-                            src="/pavbhaji.jpg"
-                            alt="Mumbai-style homemade Pav Bhaji served with toasted pav"
-                            fluid
-                            rounded
-                            loading="lazy"
-                            className="recipe-image"
-                        />
-                    </section>
+                    <h2>Pav Bhaji</h2>
+                    <Image
+                        src="/pavbhaji.jpg"
+                        alt="Mumbai-style homemade Pav Bhaji served with toasted pav"
+                        fluid
+                        thumbnail
+                        rounded
+                        loading="lazy"
+                        className="recipe-image"
+                    />
+
 
                     <section>
                         <h2>Pav Bhaji Preparation Video</h2>
-
                         <div className="youtube-container">
                             <YouTube
                                 videoId="XDmBE6aW3ZU"

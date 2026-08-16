@@ -134,12 +134,15 @@ class Blackeyedbeans extends Component {
                     </ol>
                 </div>
                 <h2>Final Product</h2>
-                <MediaQuery maxWidth={767}>
-                    <Image src="/blackeyedbeans.jpg" alt="Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity" thumbnail rounded fluid></Image>
-                </MediaQuery>
-                <MediaQuery minWidth={767}>
-                    <Image src="/blackeyedbeans.jpg" alt="Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity" thumbnail rounded width="50%" height="50%"></Image>
-                </MediaQuery>
+                <Image
+                    src="/blackeyedbeans.jpg"
+                    alt="Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity"
+                    fluid
+                    rounded
+                    thumbnail
+                    loading="lazy"
+                    className="recipe-image"
+                />
                 <div>
                     <h2>Black Eyed Peas Curry Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

@@ -189,12 +189,15 @@ class Quinoamoongdal extends Component {
                     </ol>
                 </div>
                 <h2>Final Product</h2>
-                <MediaQuery maxWidth={767}>
-                    <Image src="/quinoamoongdal.jpg" alt="Quinoa Moong Dal Khichdi served in a bowl" thumbnail rounded fluid></Image>
-                </MediaQuery>
-                <MediaQuery minWidth={767}>
-                    <Image src="/quinoamoongdal.jpg" alt="Quinoa Moong Dal Khichdi served in a bowl" thumbnail rounded width="50%" height="50%"></Image>
-                </MediaQuery>
+                <Image
+                    src="/quinoamoongdal.jpg"
+                    alt="Quinoa Moong Dal Khichdi served in a bowl"
+                    fluid
+                    rounded
+                    thumbnail
+                    loading="lazy"
+                    className="recipe-image"
+                />
                 <div>
                     <h2>Quinoa Moong Dal Khichdi Preparation Video</h2>
                     <MediaQuery maxWidth={767}>

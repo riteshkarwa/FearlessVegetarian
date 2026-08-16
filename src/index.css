@@ -879,3 +879,18 @@ section p {
     color: #fff;
     text-decoration: none;
 }
+
+
+.recipe-section {
+    margin-bottom: 30px;
+}
+
+.recipe-section h2 {
+    margin-bottom: 15px;
+}
+
+.recipe-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
