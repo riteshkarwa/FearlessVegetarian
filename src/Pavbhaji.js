@@ -399,8 +399,7 @@ class Pavbhaji extends Component {
                         </ol>
                     </div>
 
-
-                    <h2>Pav Bhaji</h2>
+                    <section><h2>Pav Bhaji</h2></section>
                     <Image
                         src="/pavbhaji.jpg"
                         alt="Mumbai-style homemade Pav Bhaji served with toasted pav"
