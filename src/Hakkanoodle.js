@@ -2,26 +2,17 @@ import React, { Component } from "react";
 import Image from "react-bootstrap/Image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
-import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
-import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
+
 
 class Hakkanoodle extends Component {
     render() {
-        const optsDesktop = {
-            height: '720',
-            width: '100%',
-        };
 
-        const optsMobile = {
-            height: '550',
-            width: '325',
-        };
         const ingredients = [
             "2 tbsp oil",
             "2 cloves garlic (finely chopped)",
@@ -180,50 +171,147 @@ class Hakkanoodle extends Component {
                         height="50%"
                     />
                 </MediaQuery>
-                <div>
-                    <h2>Hakka Noodle Preparation Video</h2>
-                    <MediaQuery maxWidth={767}>
-                        <YouTube videoId="hD3aiKO9DVU" opts={optsMobile} />
-                    </MediaQuery>
-                    <MediaQuery minWidth={767}>
-                        <YouTube videoId="hD3aiKO9DVU" opts={optsDesktop} />
-                    </MediaQuery>
-                </div>
+                {/* Preparation Video */}
+                <section className="recipe-video">
+                    <h2>Hakka Noodle  Preparation Video</h2>
+                    <div className="ratio ratio-1x1 video-container">
+                        <iframe
+                            src="https://www.youtube.com/embed/hD3aiKO9DVU"
+                            title="Upma Preparation Video"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </section>
 
-                {/* Related Recipes */}
-                <div className="related-recipes" style={{ marginTop: "40px" }}>
-                    <h2>Related Recipes</h2>
+                {/* You May Also Like */}
+                <section className="related-recipes">
+                    <h2>You May Also Like</h2>
 
-                    <ul className="custom-list">
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/couscousblackbeanbowl" className="recipe-link">
-                                Couscous Black Bean Bowl
-                            </Link>
-                        </li>
+                    <p className="related-recipes-intro">
+                        Try these delicious vegetarian recipes you may also enjoy:
+                    </p>
 
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/masalasandwich" className="recipe-link">
-                                Bombay Masala Sandwich
-                            </Link>
-                        </li>
+                    <Row className="g-4">
 
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/mushroom" className="recipe-link">
-                                Mushroom Masala Curry
-                            </Link>
-                        </li>
+                        {/* Couscous Black Bean Bowl */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/couscousblackbeanbowl"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/couscousblackbeanbowl.png"
+                                        alt="Couscous Black Bean Bowl with vegetables and black beans"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
 
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/poha" className="recipe-link">
-                                Poha Breakfast
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
+                                    <h3>Couscous Black Bean Bowl</h3>
+
+                                    <p>
+                                        A wholesome and flavorful vegetarian bowl made with
+                                        couscous, black beans, fresh vegetables, and spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Bombay Masala Sandwich */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/masalasandwich"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/masalasandwich.png"
+                                        alt="Bombay Masala Sandwich with spiced potatoes and vegetables"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Bombay Masala Sandwich</h3>
+
+                                    <p>
+                                        A popular Indian street-food sandwich filled with
+                                        spiced potatoes, vegetables, chutney, and flavorful
+                                        seasonings.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Mushroom Masala Curry */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/mushroom"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/mushroom.jpg"
+                                        alt="Mushroom Masala Curry with aromatic Indian spices"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Mushroom Masala Curry</h3>
+
+                                    <p>
+                                        A flavorful vegetarian mushroom curry cooked with
+                                        tomatoes, onions, and aromatic Indian spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Poha Breakfast */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/poha"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/poha.jpg"
+                                        alt="Indian Poha breakfast made with flattened rice and vegetables"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Poha Breakfast</h3>
+
+                                    <p>
+                                        A light and flavorful Indian breakfast made with
+                                        flattened rice, vegetables, peanuts, and aromatic spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                    </Row>
+                </section>
             </div>
         );
     }

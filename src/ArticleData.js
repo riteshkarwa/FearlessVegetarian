@@ -37,5 +37,12 @@ export const articles = [
         url: "/articles/essentialindianspices",
         description:
             "Discover the essential Indian spices every kitchen needs. Learn about turmeric, cumin, coriander, garam masala, mustard seeds, hing, kasuri methi, and other must-have spices, along with their uses, flavors, and cooking tips for authentic Indian vegetarian recipes."
+    },
+    {
+        id: 7,
+        title: "Why Become Vegetarian? A Simple Guide to Making the Transition",
+        url: "/articles/transitiontovegetarian",
+        description:
+            "Thinking about becoming vegetarian? Discover why a vegetarian lifestyle can be compassionate, healthy, flavorful, and enjoyable. Learn practical tips for making the transition gradually, finding vegetarian protein sources, adapting your favorite meals, exploring vegan substitutions, and making vegetarian cooking an easy and sustainable part of everyday life."
     }
 ];

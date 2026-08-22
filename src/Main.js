@@ -71,6 +71,7 @@ import UnderstandingAyurvedicFasting from "./articles/Ayurvedicfasting";
 import HealthyFats from "./articles/Healthyfats";
 import EssentialIndianSpices from "./articles/Essentialindianspices";
 import AlooTamatarPyaz from "./Alootamatorpyaz";
+import TransitionToVegetarian from "./articles/Transitiontovegetarian";
 
 
 class Main extends Component {
@@ -173,6 +174,7 @@ class Main extends Component {
             <Route exact path="/articles/ayurvedicfasting" element={<UnderstandingAyurvedicFasting />}></Route>
             <Route exact path="/articles/healthyfats" element={<HealthyFats />}></Route>
             <Route exact path="/articles/essentialindianspices" element={<EssentialIndianSpices/>}></Route>
+            <Route exact path="/articles/transitiontovegetarian" element={<TransitionToVegetarian/>}></Route>
             <Route path='*' element={<Notfound />} />
           </Routes>
         </div>

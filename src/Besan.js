@@ -9,7 +9,7 @@ import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
-import { faLeaf, faCarrot } from "@fortawesome/free-solid-svg-icons";
+import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Besan extends Component {
   render() {
@@ -182,40 +182,164 @@ class Besan extends Component {
             <YouTube videoId="VyEveOxhx7s" opts={optsDesktop} />
           </MediaQuery>
         </div>
-        <div className="related-recipes" style={{ marginTop: "40px" }}>
-          <h2>Related Vegetarian Recipes</h2>
+        {/* You May Also Like */}
+        <section className="related-recipes">
+          <h2>You May Also Like</h2>
 
-          <p>
-            If you enjoyed this Besan Curry (Chickpea Flour Curry), you may also like:
+          <p className="related-recipes-intro">
+            If you enjoyed this Besan Curry (Chickpea Flour Curry),
+            you may also like these delicious vegetarian recipes:
           </p>
 
-          <ul style={{ listStyle: "none", paddingLeft: 0 }}>
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/lentil" className="recipe-link">Masoor Dal (Lentil Soup Curry)</Link>
-            </li>
+          <Row className="g-4">
 
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/dalmakhani" className="recipe-link">Dal Makhani</Link>
-            </li>
+            {/* Masoor Dal */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/lentil"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/lentil.jpg"
+                    alt="Masoor Dal Lentil Soup Curry"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
 
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/rajmah" className="recipe-link">Rajmah (Kidney Bean Curry)</Link>
-            </li>
+                  <h3>Masoor Dal (Lentil Soup Curry)</h3>
 
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/blackeyedbeans" className="recipe-link">Black Eyed Peas Curry</Link>
-            </li>
+                  <p>
+                    A comforting and flavorful Indian lentil curry
+                    made with red lentils and aromatic spices.
+                  </p>
 
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-              <Link to="/quinoamoongdal" className="recipe-link">Quinoa Moong Dal Khichdi</Link>
-            </li>
-          </ul>
-        </div>
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Dal Makhani */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/dalmakhani"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/dalmakhani.jpg"
+                    alt="Creamy Dal Makhani made with black lentils and kidney beans"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Dal Makhani</h3>
+
+                  <p>
+                    A rich and creamy North Indian lentil dish
+                    made with black lentils, kidney beans, and spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Rajmah */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/rajmah"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/rajmah.jpg"
+                    alt="Rajmah Kidney Bean Curry with aromatic Indian spices"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Rajmah (Kidney Bean Curry)</h3>
+
+                  <p>
+                    A hearty North Indian kidney bean curry
+                    simmered in a flavorful tomato and spice-based sauce.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Black Eyed Peas Curry */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/blackeyedbeans"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/blackeyedbeans.jpg"
+                    alt="Indian Black Eyed Peas Curry"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Black Eyed Peas Curry</h3>
+
+                  <p>
+                    A hearty vegetarian curry made with black eyed
+                    peas, tomatoes, and aromatic Indian spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Quinoa Moong Dal Khichdi */}
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/quinoamoongdal"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/quinoamoongdal.jpg"
+                    alt="Quinoa Moong Dal Khichdi with lentils and aromatic spices"
+                    fluid
+                    rounded
+                    className="related-recipe-image"
+                  />
+
+                  <h3>Quinoa Moong Dal Khichdi</h3>
+
+                  <p>
+                    A nutritious and comforting one-pot meal made
+                    with quinoa, moong dal, and aromatic spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+          </Row>
+        </section>
       </div>
     );
   }
