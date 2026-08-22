@@ -69,7 +69,7 @@ class Wheretobegin extends Component {
 
           <meta
             property="og:url"
-            content="https://fearlessvegetarian.netlify.app/wheretobegin"
+            content="https://fearlessvegetarian.netlify.app/articles/wheretobegin/"
           />
 
           <meta property="og:type" content="article" />

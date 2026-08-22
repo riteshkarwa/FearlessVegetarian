@@ -38,7 +38,7 @@ class UnderstandingAyurvedicFasting extends Component {
                     <meta name="keywords"
                         content="Ayurvedic fasting, Ayurveda, fasting guide, digestive health, Agni, vegetarian lifestyle, mindful eating, healthy digestion, Fearless Vegetarian" />
 
-                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/articles/understanding-ayurvedic-fasting" />
+                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/articles/ayurvedicfasting/" />
 
                     {/* Open Graph */}
 

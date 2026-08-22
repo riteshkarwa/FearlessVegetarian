@@ -56,7 +56,7 @@ class CookingAtHome extends Component {
 
                     <link
                         rel="canonical"
-                        href="https://fearlessvegetarian.netlify.app/articles/cookingathome"
+                        href="https://fearlessvegetarian.netlify.app/articles/cookingathome/"
                     />
 
 

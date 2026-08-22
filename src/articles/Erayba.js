@@ -12,7 +12,7 @@ class Erayba extends Component {
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Erayba India | Professional Vegan Hair Care & Salon Products</title>
-                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/erayba" />
+                    <link rel="canonical" href="https://fearlessvegetarian.netlify.app/articles/erayba/" />
                     <meta
                         name="description"
                         content="Discover Erayba India's professional vegan hair care products. Trusted by salons and hair professionals worldwide, Erayba combines innovation, sustainability, and premium ingredients for healthier, more beautiful hair."
