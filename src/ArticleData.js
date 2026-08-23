@@ -44,5 +44,12 @@ export const articles = [
         url: "/articles/transitiontovegetarian",
         description:
             "Thinking about becoming vegetarian? Discover why a vegetarian lifestyle can be compassionate, healthy, flavorful, and enjoyable. Learn practical tips for making the transition gradually, finding vegetarian protein sources, adapting your favorite meals, exploring vegan substitutions, and making vegetarian cooking an easy and sustainable part of everyday life."
+    },
+    {
+        id: 8,
+        title: "What Does the Bhagavad Gita Say About Food? Understanding Sattvic, Rajasic, and Tamasic Foods",
+        url: "/articles/bhagavadgitafood",
+        description:
+            "Explore what the Bhagavad Gita says about food and the three gunas: sattvic, rajasic, and tamasic. Learn how traditional Hindu philosophy describes fresh, nourishing, stimulating, and stale foods, and discover how these ancient ideas can complement a modern vegetarian lifestyle focused on mindfulness, balance, health, and compassion."
     }
 ];
