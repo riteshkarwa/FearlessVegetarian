@@ -101,7 +101,7 @@ class HealthyFats extends Component {
                                 className="mb-5 d-block mx-auto shadow"
                                 style={{
                                     width: "100%",
-                                    maxWidth: "850px",
+                                    maxWidth: "700px",
                                     height: "auto"
                                 }}
                             />
@@ -755,12 +755,12 @@ class HealthyFats extends Component {
 
                                             <FontAwesomeIcon
                                                 icon={faUtensils}
-                                                className="text-success me-2"
+                                                className="text-success me-2 related-article-icon"
                                             />
 
                                             <Link
                                                 to="/articles/wheretobegin"
-                                                className="text-decoration-none text-dark"
+                                                className="text-decoration-none text-dark related-article-link"
                                             >
                                                 Where to Begin Your Vegetarian Journey
                                             </Link>
@@ -771,12 +771,12 @@ class HealthyFats extends Component {
 
                                             <FontAwesomeIcon
                                                 icon={faUtensils}
-                                                className="text-success me-2"
+                                                className="text-success me-2 related-article-icon"
                                             />
 
                                             <Link
                                                 to="/articles/cookingathome"
-                                                className="text-decoration-none text-dark"
+                                                className="text-decoration-none text-dark related-article-link"
                                             >
                                                 The Benefits of Cooking at Home
                                             </Link>
@@ -791,8 +791,8 @@ class HealthyFats extends Component {
                                             />
 
                                             <Link
-                                                to="/articles/ayurvedicfasting"
-                                                className="text-decoration-none text-dark"
+                                                to="/articles/ayurvedicfasting related-article-icon"
+                                                className="text-decoration-none text-dark related-article-link"
                                             >
                                                 Understanding Ayurvedic Fasting
                                             </Link>

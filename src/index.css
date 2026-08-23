@@ -814,83 +814,92 @@ section p {
 
 
 .related-recipes {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .related-recipes h2 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
-.related-recipes > p {
-    margin-bottom: 25px;
+.related-recipes>p {
+  margin-bottom: 25px;
 }
 
 .recipe-card {
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
-    height: 100%;
+  height: 100%;
 }
 
 .recipe-card img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    margin-bottom: 15px;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  margin-bottom: 15px;
 }
 
 .recipe-card-title {
-    font-size: 20px;
-    line-height: 1.4;
-    margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 15px;
 }
 
 .recipe-link {
-    color: #333;
-    text-decoration: none;
-    font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .recipe-link:hover {
-    color: #198754;
-    text-decoration: underline;
+  color: #198754;
+  text-decoration: underline;
 }
 
 .recipe-button {
-    display: inline-block;
-    margin-top: auto;
-    padding: 8px 16px;
-    border-radius: 5px;
-    background-color: #198754;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
+  display: inline-block;
+  margin-top: auto;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #198754;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .recipe-button:hover {
-    background-color: #157347;
-    color: #fff;
-    text-decoration: none;
+  background-color: #157347;
+  color: #fff;
+  text-decoration: none;
 }
 
 
 .recipe-section {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .recipe-section h2 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .recipe-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.related-article-link {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.related-article-icon {
+  font-size: 18px;
 }
