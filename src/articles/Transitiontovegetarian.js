@@ -533,7 +533,7 @@ class TransitionToVegetarian extends Component {
 
                     <p>
                         This is one of the reasons I created
-                        <strong> Fearless Vegetarian</strong> — to make
+                        <strong> Fearless Vegetarian</strong> ; to make
                         vegetarian cooking easier for anyone who wants
                         delicious recipes without feeling overwhelmed.
                     </p>
