@@ -1437,7 +1437,7 @@ class BhagavadGitaFood extends Component {
                             icon={faLeaf}
                             className="section-icon"
                         />
-                        Final Thoughts
+                        Bringing Ancient Wisdom to the Modern Vegetarian Table
                     </h2>
 
                     <p>
