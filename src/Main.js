@@ -72,7 +72,7 @@ import HealthyFats from "./articles/Healthyfats";
 import EssentialIndianSpices from "./articles/Essentialindianspices";
 import AlooTamatarPyaz from "./Alootamatorpyaz";
 import TransitionToVegetarian from "./articles/Transitiontovegetarian";
-import BhagavadGitaFood from "./articles/Bhagwatgitafood";
+import BhagavadGitaFood from "./articles/Bhagavadgitafood";
 
 
 class Main extends Component {
