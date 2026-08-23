@@ -83,7 +83,7 @@ class TransitionToVegetarian extends Component {
                     </h2>
 
                     <p>
-                        I’ve been vegetarian for many years, and I genuinely love it.
+                        I’ve been vegetarian all my life, and I genuinely love it.
                     </p>
 
                     <p>
