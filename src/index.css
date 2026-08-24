@@ -903,3 +903,13 @@ section p {
 .related-article-icon {
   font-size: 18px;
 }
+
+
+.article-recipe-image {
+  display: block;
+  width: 90%;
+  max-width: 750px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}

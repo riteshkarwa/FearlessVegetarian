@@ -110,26 +110,6 @@ class Shakshuka extends Component {
                 </section>
 
 
-                {/* =========================
-                    RECIPE IMAGE
-                ========================== */}
-                <section className="recipe-image-section">
-
-                    <Image
-                        src="/shakshuka.jpg"
-                        alt="Vegetarian Chickpea Shakshuka made with chickpeas, tomatoes, bell peppers, and spices"
-                        fluid
-                        rounded
-                        className="recipe-image d-block mx-auto shadow"
-                        style={{
-                            width: "100%",
-                            maxWidth: "750px",
-                            height: "auto"
-                        }}
-                    />
-
-                </section>
-
 
                 {/* =========================
                     RECIPE INFORMATION
@@ -591,12 +571,8 @@ class Shakshuka extends Component {
                         alt="Finished vegetarian Chickpea Shakshuka served with chickpeas in tomato sauce"
                         fluid
                         rounded
-                        className="recipe-image d-block mx-auto shadow"
-                        style={{
-                            width: "100%",
-                            maxWidth: "750px",
-                            height: "auto"
-                        }}
+                        thumbnail
+                        className="article-recipe-image d-block mx-auto shadow"
                     />
 
                 </section>
