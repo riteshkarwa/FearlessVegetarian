@@ -913,3 +913,47 @@ section p {
   object-fit: contain;
   margin: 0 auto;
 }
+
+.about-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-intro {
+    margin-bottom: 40px;
+}
+
+.about-intro h1 {
+    margin-bottom: 15px;
+}
+
+.about-intro-text {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.about-section {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.about-section h2 {
+    margin-bottom: 15px;
+}
+
+.about-section p {
+    line-height: 1.7;
+}
+
+.about-closing {
+    margin-bottom: 50px;
+}
+
+.section-icon {
+    margin-right: 10px;
+}
+
+.bullet-icon {
+    margin-right: 10px;
+}
