@@ -787,11 +787,11 @@ class HealthyFats extends Component {
 
                                             <FontAwesomeIcon
                                                 icon={faUtensils}
-                                                className="text-success me-2"
+                                                className="text-success me-2 related-article-icon"
                                             />
 
                                             <Link
-                                                to="/articles/ayurvedicfasting related-article-icon"
+                                                to="/articles/ayurvedicfasting"
                                                 className="text-decoration-none text-dark related-article-link"
                                             >
                                                 Understanding Ayurvedic Fasting
