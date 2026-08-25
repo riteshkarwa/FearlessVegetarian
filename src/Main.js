@@ -73,6 +73,7 @@ import EssentialIndianSpices from "./articles/Essentialindianspices";
 import AlooTamatarPyaz from "./Alootamatorpyaz";
 import TransitionToVegetarian from "./articles/Transitiontovegetarian";
 import BhagavadGitaFood from "./articles/Bhagavadgitafood";
+import SpiritualityAndFood from "./articles/Spiritualityandfood";
 
 
 class Main extends Component {
@@ -177,6 +178,7 @@ class Main extends Component {
             <Route exact path="/articles/essentialindianspices" element={<EssentialIndianSpices/>}></Route>
             <Route exact path="/articles/transitiontovegetarian" element={<TransitionToVegetarian/>}></Route>
             <Route exact path="/articles/bhagavadgitafood" element={<BhagavadGitaFood/>}></Route>
+            <Route exact path="/articles/spiritualityandfood" element={<SpiritualityAndFood/>}></Route>
             <Route path='*' element={<Notfound />} />
           </Routes>
         </div>

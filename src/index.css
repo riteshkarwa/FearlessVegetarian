@@ -393,14 +393,18 @@ section p {
   margin-bottom: 10px;
 }
 
-.instruction-list {
+.instructions-list {
+  font-size: 20px;
+  line-height: 1.7;
+  margin-top: 20px;
+  margin-bottom: 25px;
   padding-left: 30px;
 }
 
-.instruction-list li {
-  font-size: 20px;
-  line-height: 1.6;
-  margin-bottom: 12px;
+.instructions-list li {
+  font-size: inherit;
+  line-height: inherit;
+  margin-bottom: 10px;
 }
 
 /* Final Product */
@@ -904,56 +908,55 @@ section p {
   font-size: 18px;
 }
 
-
-.article-recipe-image {
-  display: block;
-  width: 90%;
-  max-width: 750px;
-  height: auto;
-  object-fit: contain;
-  margin: 0 auto;
-}
-
 .about-page {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .about-intro {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .about-intro h1 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .about-intro-text {
-    font-size: 1.25rem;
-    font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .about-section {
-    margin-top: 35px;
-    margin-bottom: 35px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .about-section h2 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .about-section p {
-    line-height: 1.7;
+  line-height: 1.7;
 }
 
 .about-closing {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .section-icon {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .bullet-icon {
-    margin-right: 10px;
+  margin-right: 10px;
+}
+
+.article-recipe-image {
+  display: block !important;
+  width: 600px !important;
+  max-width: 600px !important;
+  height: auto !important;
+  margin: 0 auto 30px auto;
+  object-fit: contain;
 }

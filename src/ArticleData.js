@@ -51,5 +51,12 @@ export const articles = [
         url: "/articles/bhagavadgitafood",
         description:
             "Explore what the Bhagavad Gita says about food and the three gunas: sattvic, rajasic, and tamasic. Learn how traditional Hindu philosophy describes fresh, nourishing, stimulating, and stale foods, and discover how these ancient ideas can complement a modern vegetarian lifestyle focused on mindfulness, balance, health, and compassion."
+    },
+    {
+        id: 9,
+        title: "Spirituality and Food: A Mindful Approach to Vegetarian Living",
+        url: "/articles/spiritualityandfood",
+        description:
+            "Explore the connection between spirituality and food, including mindful eating, gratitude, compassion, ahimsa, and vegetarian living. Discover how food can connect us with our bodies, cultures, nature, and spiritual traditions, and learn how the Hindu perspective on food can inspire a more conscious, balanced, and compassionate approach to eating."
     }
 ];
