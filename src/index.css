@@ -960,3 +960,183 @@ section p {
   margin: 0 auto 30px auto;
   object-fit: contain;
 }
+
+
+.article-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px 60px;
+    line-height: 1.8;
+}
+
+.article-page section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.article-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.article-header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 25px;
+}
+
+.article-intro {
+    font-size: 21px;
+    line-height: 1.8;
+}
+
+.article-page h2 {
+    color: #198754;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.article-page p {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.article-image {
+    text-align: center;
+    margin: 30px auto 50px;
+}
+
+.article-image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #fff;
+}
+
+.article-quote {
+    border-left: 5px solid #198754;
+    padding: 15px 20px;
+    margin: 25px 0;
+    font-size: 20px;
+    font-style: italic;
+    background: #f8f9fa;
+}
+
+.article-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+.article-list li {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.article-list svg {
+    color: #28a745;
+    margin-right: 10px;
+}
+
+.highlight-text {
+    font-size: 20px !important;
+    line-height: 1.7;
+    margin: 25px 0;
+}
+
+.prasada-cycle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 8px;
+    background: #f8f9fa;
+    font-size: 18px;
+}
+
+.prasada-cycle span {
+    font-size: 24px;
+}
+
+.article-conclusion {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.article-final-message {
+    margin-top: 35px;
+    font-size: 22px;
+}
+
+.article-final-message p {
+    margin-bottom: 8px;
+}
+
+.krishna-message {
+    color: #198754;
+    font-size: 26px !important;
+    margin-top: 25px;
+}
+
+.related-recipes {
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    background: #f8f9fa;
+}
+
+.related-recipes-link {
+    margin-top: 25px;
+}
+
+.related-recipes-link a {
+    color: #198754;
+    font-size: 19px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.related-recipes-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .article-page {
+        padding: 20px 15px 40px;
+    }
+
+    .article-header h1 {
+        font-size: 32px;
+    }
+
+    .article-page h2 {
+        font-size: 26px;
+    }
+
+    .article-page p {
+        font-size: 17px;
+    }
+
+    .article-intro {
+        font-size: 19px;
+    }
+
+    .article-quote {
+        font-size: 18px;
+    }
+
+    .prasada-cycle {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .prasada-cycle span {
+        transform: rotate(90deg);
+    }
+}

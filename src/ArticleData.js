@@ -58,5 +58,12 @@ export const articles = [
         url: "/articles/spiritualityandfood",
         description:
             "Explore the connection between spirituality and food, including mindful eating, gratitude, compassion, ahimsa, and vegetarian living. Discover how food can connect us with our bodies, cultures, nature, and spiritual traditions, and learn how the Hindu perspective on food can inspire a more conscious, balanced, and compassionate approach to eating."
+    },
+    {
+        id: 10,
+        title: "Cooking for Shri Krishna: When Food Becomes Bhakti",
+        url: "/articles/cookingforkrishna",
+        description:
+            "Discover how cooking for Shri Krishna can become a form of bhakti and seva. Explore the spiritual connection between devotional cooking, vegetarian food, gratitude, compassion, and mindful living, and learn how preparing and offering food with love can transform an everyday meal into an expression of devotion."
     }
 ];
