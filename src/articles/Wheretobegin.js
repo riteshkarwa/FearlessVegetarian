@@ -47,7 +47,7 @@ class Wheretobegin extends Component {
 
           <link
             rel="canonical"
-            href="https://fearlessvegetarian.netlify.app/wheretobegin"
+            href="https://fearlessvegetarian.netlify.app/articles/wheretobegin/"
           />
 
           {/* Open Graph */}
