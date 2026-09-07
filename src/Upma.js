@@ -4,19 +4,32 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
-import { Helmet } from "react-helmet";
 import { faCarrot } from "@fortawesome/free-solid-svg-icons";
+import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 class Upma extends Component {
   render() {
     return (
       <div className="recipe-page">
+
+        {/* SEO Metadata */}
         <Helmet>
           <meta charSet="utf-8" />
 
           <title>
-            Upma Bliss: South Indian Breakfast | Fearless Vegetarian
+            Easy South Indian Upma Recipe | Rava Upma | Fearless Vegetarian
           </title>
+
+          <meta
+            name="description"
+            content="Learn how to make easy South Indian Upma with rava, urad dal, cashews, onions, curry leaves, ginger, and green chilies. A flavorful and comforting vegetarian breakfast recipe."
+          />
+
+          <meta
+            name="keywords"
+            content="upma, South Indian upma, South Indian breakfast, rava upma, suji upma, semolina upma, cream of wheat, urad dal, cashews, curry leaves, savory breakfast, vegetarian breakfast, easy upma recipe, South Indian recipe, Indian breakfast, Fearless Vegetarian"
+          />
 
           <link
             rel="canonical"
@@ -24,21 +37,19 @@ class Upma extends Component {
           />
 
           <meta
-            name="description"
-            content="Learn how to make flavorful South Indian Upma with rava, urad dal, cashews, onions, curry leaves, ginger, green chilies, and spices."
-          />
-
-          <meta
-            name="keywords"
-            content="upma, South Indian breakfast, rava upma, suji upma, semolina, cream of wheat, urad dal, cashews, curry leaves, savory breakfast, vegetarian breakfast, easy upma recipe, South Indian recipe, Fearless Vegetarian, vegan"
-          />
-
-          <meta
             property="og:title"
-            content="Upma Bliss: South Indian Breakfast"
+            content="Easy South Indian Upma Recipe | Fearless Vegetarian"
           />
 
-          <meta property="og:type" content="website" />
+          <meta
+            property="og:description"
+            content="Learn how to make easy South Indian Upma with rava, urad dal, cashews, onions, curry leaves, ginger, and green chilies. A flavorful and comforting vegetarian breakfast recipe."
+          />
+
+          <meta
+            property="og:type"
+            content="article"
+          />
 
           <meta
             property="og:url"
@@ -51,26 +62,31 @@ class Upma extends Component {
           />
 
           <meta
-            property="og:description"
-            content="Learn how to make flavorful South Indian Upma with rava, urad dal, cashews, onions, curry leaves, ginger, green chilies, and spices."
+            property="og:site_name"
+            content="Fearless Vegetarian"
           />
         </Helmet>
 
+
         {/* Recipe Introduction */}
         <section className="recipe-intro">
-          <h1>Easy and Flavorful South Indian Upma Recipe</h1>
+
+          <h1>Easy South Indian Upma Recipe</h1>
 
           <p>
-            Upma is a flavorful, savory, and popular South Indian breakfast
-            made with rava, also known as semolina, suji, or cream of wheat.
-            It is traditionally cooked with urad dal, cashews, onions, curry
-            leaves, ginger, green chilies, and aromatic spices for a simple
-            yet satisfying meal.
+            Upma is a flavorful, savory, and popular South Indian
+            breakfast made with rava, also known as semolina, suji,
+            or cream of wheat. It is traditionally cooked with urad
+            dal, cashews, onions, curry leaves, ginger, green chilies,
+            and aromatic spices for a simple yet satisfying meal.
           </p>
+
         </section>
+
 
         {/* Recipe Information */}
         <section className="recipe-info">
+
           <Row className="cooktimerow">
             <Col>
               <span className="material-symbols-outlined">
@@ -82,60 +98,158 @@ class Upma extends Component {
 
           <Row className="cooktimerow">
             <Col>
-              <FontAwesomeIcon icon={faClock} /> Cooking Time: 60 minutes
+              <FontAwesomeIcon icon={faClock} />{" "}
+              Cooking Time: 60 minutes
             </Col>
           </Row>
+
         </section>
+
 
         {/* Ingredients */}
         <section className="ingredients">
-          <h3>Ingredients</h3>
+
+          <h2>Ingredients</h2>
 
           <ul className="ingredient-list">
-            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 tablespoons olive oil</li>
-            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon mustard seeds</li>
-            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon cumin seeds</li>
-            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />8 to 10 curry leaves</li>
-            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />10 to 12 cashews</li>
-            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon urad dal (hulled and split black gram)</li>
-            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 cup finely chopped onion</li>
-            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon finely chopped green chilies</li>
+
             <li>
-              <FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />
-              1 cup rava, also called cream of wheat, farina, or semolina
-              flour
+              <FontAwesomeIcon
+                icon={faCarrot}
+                className="ingredient-icon"
+              />
+              2 tablespoons olive oil
             </li>
-            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />1 teaspoon finely chopped ginger</li>
-            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 1/2 cups water</li>
-            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />Salt to taste</li>
-            <li><FontAwesomeIcon icon={faCarrot} className="ingredient-icon" />2 tablespoons chopped coriander leaves (cilantro)</li>
+
+            <li>
+              <FontAwesomeIcon
+                icon={faCarrot}
+                className="ingredient-icon"
+              />
+              1 teaspoon mustard seeds
+            </li>
+
+            <li>
+              <FontAwesomeIcon
+                icon={faCarrot}
+                className="ingredient-icon"
+              />
+              1 teaspoon cumin seeds
+            </li>
+
+            <li>
+              <FontAwesomeIcon
+                icon={faCarrot}
+                className="ingredient-icon"
+              />
+              8 to 10 curry leaves
+            </li>
+
+            <li>
+              <FontAwesomeIcon
+                icon={faCarrot}
+                className="ingredient-icon"
+              />
+              10 to 12 cashews
+            </li>
+
+            <li>
+              <FontAwesomeIcon
+                icon={faCarrot}
+                className="ingredient-icon"
+              />
+              1 teaspoon urad dal (hulled and split black gram)
+            </li>
+
+            <li>
+              <FontAwesomeIcon
+                icon={faCarrot}
+                className="ingredient-icon"
+              />
+              1 cup finely chopped onion
+            </li>
+
+            <li>
+              <FontAwesomeIcon
+                icon={faCarrot}
+                className="ingredient-icon"
+              />
+              1 teaspoon finely chopped green chilies
+            </li>
+
+            <li>
+              <FontAwesomeIcon
+                icon={faCarrot}
+                className="ingredient-icon"
+              />
+              1 cup rava, also called cream of wheat, farina,
+              or semolina flour
+            </li>
+
+            <li>
+              <FontAwesomeIcon
+                icon={faCarrot}
+                className="ingredient-icon"
+              />
+              1 teaspoon finely chopped ginger
+            </li>
+
+            <li>
+              <FontAwesomeIcon
+                icon={faCarrot}
+                className="ingredient-icon"
+              />
+              2 1/2 cups water
+            </li>
+
+            <li>
+              <FontAwesomeIcon
+                icon={faCarrot}
+                className="ingredient-icon"
+              />
+              Salt to taste
+            </li>
+
+            <li>
+              <FontAwesomeIcon
+                icon={faCarrot}
+                className="ingredient-icon"
+              />
+              2 tablespoons chopped coriander leaves (cilantro)
+            </li>
+
           </ul>
+
         </section>
+
 
         {/* Instructions */}
         <section className="instructions">
-          <h3>Instructions</h3>
+
+          <h2>Instructions</h2>
 
           <ol>
+
             <li>
-              Heat a non-stick pan. Add 1 cup of rava, also known as cream of
-              wheat, farina, or semolina flour.
+              Heat a non-stick pan. Add 1 cup of rava, also known
+              as cream of wheat, farina, or semolina flour.
             </li>
 
             <li>
-              Roast the rava over medium-low heat, stirring often to ensure
-              that it cooks evenly.
+              Roast the rava over medium-low heat, stirring often
+              to ensure that it cooks evenly.
             </li>
 
             <li>
-              Continue roasting until the rava becomes fragrant and starts to
-              look dry, separate, and slightly crisp. Make sure the rava does
-              not turn brown.
+              Continue roasting until the rava becomes fragrant
+              and starts to look dry, separate, and slightly
+              crisp. Make sure the rava does not turn brown.
             </li>
 
             <li>
-              Once the rava becomes fragrant and dry, turn off the heat.
-              Transfer the roasted rava to a plate and set aside.
+              Once the rava becomes fragrant and dry, turn off
+              the heat. Transfer the roasted rava to a plate and
+              set aside.
             </li>
 
             <li>
@@ -143,22 +257,23 @@ class Upma extends Component {
             </li>
 
             <li>
-              Add 1 teaspoon of mustard seeds. When the seeds begin to crackle,
-              they are ready.
+              Add 1 teaspoon of mustard seeds. When the seeds
+              begin to crackle, they are ready.
             </li>
 
             <li>
-              Add 1 teaspoon of cumin seeds and 1 teaspoon of urad dal.
+              Add 1 teaspoon of cumin seeds and 1 teaspoon of
+              urad dal.
             </li>
 
             <li>
-              Stir frequently and fry until the urad dal begins to turn
-              slightly brown.
+              Stir frequently and fry until the urad dal begins
+              to turn slightly brown.
             </li>
 
             <li>
-              Immediately add 10 to 12 cashews and fry over low to medium-low
-              heat until lightly golden.
+              Immediately add 10 to 12 cashews and fry over low
+              to medium-low heat until lightly golden.
             </li>
 
             <li>
@@ -166,12 +281,13 @@ class Upma extends Component {
             </li>
 
             <li>
-              Sauté the onions until they become soft and translucent.
+              Sauté the onions until they become soft and
+              translucent.
             </li>
 
             <li>
-              Add 1 teaspoon of chopped green chilies, 1 teaspoon of chopped
-              ginger, and 8 to 10 curry leaves.
+              Add 1 teaspoon of chopped green chilies, 1 teaspoon
+              of chopped ginger, and 8 to 10 curry leaves.
             </li>
 
             <li>
@@ -183,138 +299,187 @@ class Upma extends Component {
             </li>
 
             <li>
-              Add salt to taste. Mix well and check the seasoning. The water
-              should taste slightly salty.
+              Add salt to taste. Mix well and check the seasoning.
+              The water should taste slightly salty.
             </li>
 
             <li>
-              Increase the heat to medium-high and bring the water to a rolling
-              boil.
+              Increase the heat to medium-high and bring the water
+              to a rolling boil.
             </li>
 
             <li>
-              Once the water reaches a rolling boil, reduce the heat to low.
-              Add the roasted rava gradually in 4 to 5 batches, stirring after
-              each addition.
+              Once the water reaches a rolling boil, reduce the
+              heat to low. Add the roasted rava gradually in 4 to
+              5 batches, stirring after each addition.
             </li>
 
             <li>
-              After adding each batch, stir immediately so that the rava mixes
-              evenly with the water and does not form lumps.
+              After adding each batch, stir immediately so that the
+              rava mixes evenly with the water and does not form
+              lumps.
             </li>
 
             <li>
-              Continue adding the remaining rava in batches, stirring well
-              after each addition.
+              Continue adding the remaining rava in batches,
+              stirring well after each addition.
             </li>
 
             <li>
-              Once all the rava has been added, stir thoroughly. The rava will
-              absorb the water, swell, and cook.
+              Once all the rava has been added, stir thoroughly.
+              The rava will absorb the water, swell, and cook.
             </li>
 
             <li>
-              Cover the pan and allow the upma to steam for 2 to 3 minutes over
-              low heat.
+              Cover the pan and allow the upma to steam for 2 to
+              3 minutes over low heat.
             </li>
 
             <li>
-              Turn off the heat and allow the upma to cool for about 5 minutes.
+              Turn off the heat and allow the upma to cool for
+              about 5 minutes.
             </li>
 
             <li>
-              Finally, add about 2 tablespoons of chopped coriander leaves.
-              Add more if desired.
+              Finally, add about 2 tablespoons of chopped
+              coriander leaves. Add more if desired.
             </li>
+
           </ol>
+
         </section>
 
-        {/* Final Product */}
 
-        <h2>Final Product</h2>
-        <Image
-          src="/upma.jpg"
-          alt="Flavorful South Indian Upma served as a savory breakfast"
-          fluid
-          thumbnail
-          rounded
-          loading="lazy"
-          className="recipe-image mx-auto d-block"
-        />
+        {/* Final Product */}
+        <section className="recipe-image-section">
+
+          <h2>South Indian Upma</h2>
+
+          <Image
+            src="/upma.jpg"
+            alt="Flavorful South Indian Upma served as a savory breakfast"
+            fluid
+            thumbnail
+            rounded
+            loading="lazy"
+            className="recipe-image-ricebeans mx-auto d-block"
+          />
+
+        </section>
 
 
         {/* Preparation Video */}
         <section className="recipe-video">
+
           <h2>Upma Preparation Video</h2>
+
           <div className="ratio ratio-1x1 video-container">
+
             <iframe
               src="https://www.youtube.com/embed/_gl_nFzJYz0"
               title="Upma Preparation Video"
               allowFullScreen
             ></iframe>
+
           </div>
+
         </section>
+
 
         {/* You May Also Like */}
         <section className="you-may-also-like">
+
           <h2>You May Also Like</h2>
 
-          <Row>
+          <Row className="g-4">
+
+            {/* Pav Bhaji */}
             <Col xs={12} sm={6} md={4}>
-              <div className="recipe-card">
+
+              <article className="recipe-card">
+
                 <Image
                   src="/pavbhaji.jpg"
                   alt="Mumbai-style Pav Bhaji"
                   thumbnail
                   rounded
                   fluid
+                  loading="lazy"
                 />
 
                 <h3>Pav Bhaji</h3>
 
-                <a href="/pavbhaji" className="btn btn-primary">
+                <Link
+                  to="/pavbhaji"
+                  className="btn btn-primary"
+                >
                   View Recipe
-                </a>
-              </div>
+                </Link>
+
+              </article>
+
             </Col>
 
+
+            {/* Couscous */}
             <Col xs={12} sm={6} md={4}>
-              <div className="recipe-card">
+
+              <article className="recipe-card">
+
                 <Image
                   src="/couscous.jpg"
                   alt="Easy and flavorful Couscous"
                   thumbnail
                   rounded
                   fluid
+                  loading="lazy"
                 />
 
                 <h3>Couscous</h3>
 
-                <a href="/couscous" className="btn btn-primary">
+                <Link
+                  to="/couscous"
+                  className="btn btn-primary"
+                >
                   View Recipe
-                </a>
-              </div>
+                </Link>
+
+              </article>
+
             </Col>
 
+
+            {/* Aloo Gobi */}
             <Col xs={12} sm={6} md={4}>
-              <div className="recipe-card">
+
+              <article className="recipe-card">
+
                 <Image
                   src="/aloogobi.jpg"
                   alt="Indian Aloo Gobi"
                   thumbnail
                   rounded
                   fluid
+                  loading="lazy"
                 />
 
                 <h3>Aloo Gobi</h3>
 
-                <a href="/aloogobi" className="btn btn-primary">
+                <Link
+                  to="/aloogobi"
+                  className="btn btn-primary"
+                >
                   View Recipe
-                </a>
-              </div>
+                </Link>
+
+              </article>
+
             </Col>
+
           </Row>
+
         </section>
+
       </div>
     );
   }
