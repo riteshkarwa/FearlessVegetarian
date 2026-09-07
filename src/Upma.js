@@ -4,22 +4,11 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
-//import YouTube from "react-youtube";
 import { Helmet } from "react-helmet";
 import { faCarrot } from "@fortawesome/free-solid-svg-icons";
-// import MediaQuery from 'react-responsive';
 
 class Upma extends Component {
   render() {
-    // const optsDesktop = {
-    //   height: "800",
-    //   width: "450",
-    // };
-
-    // const optsMobile = {
-    //   height: "550",
-    //   width: "309",
-    // };
     return (
       <div className="recipe-page">
         <Helmet>
