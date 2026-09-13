@@ -39,12 +39,12 @@ class CookingForKrishna extends Component {
 
                     <meta
                         property="og:url"
-                        content="https://fearlessvegetarian.netlify.app/cooking-for-krishna"
+                        content="https://fearlessvegetarian.netlify.app/cookingforkrishna"
                     />
 
                     <link
                         rel="canonical"
-                        href="https://fearlessvegetarian.netlify.app/cooking-for-krishna"
+                        href="https://fearlessvegetarian.netlify.app/cookingforkrishna"
                     />
                 </Helmet>
 

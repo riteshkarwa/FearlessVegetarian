@@ -1360,20 +1360,20 @@ class DudhDahiMakhanMishri extends Component {
                         </Col>
 
 
-                        {/* Cooking With Krishna */}
+                        {/* Cooking For Shree Krishna */}
 
                         <Col xs={12} sm={6} md={4}>
 
                             <article className="related-recipe-card">
 
                                 <Link
-                                    to="/articles/cookingwithkrishna"
+                                    to="/articles/cookingforkrishna"
                                     className="related-recipe-link"
                                 >
 
 
                                     <h3>
-                                        Cooking With Krishna:
+                                        Cooking For Krishna:
                                         Turning Everyday Food Into Bhakti
                                     </h3>
 
