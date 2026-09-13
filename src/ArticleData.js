@@ -65,5 +65,15 @@ export const articles = [
         url: "/articles/cookingforkrishna",
         description:
             "Discover how cooking for Shri Krishna can become a form of bhakti and seva. Explore the spiritual connection between devotional cooking, vegetarian food, gratitude, compassion, and mindful living, and learn how preparing and offering food with love can transform an everyday meal into an expression of devotion."
+    },
+    {
+        id: 11,
+
+        title: "Dudh, Dahi, Makhan and Mishri: The Deeper Meaning in Krishna Bhakti",
+
+        url: "/articles/dudhdahimakhanmishri",
+
+        description:
+            "Explore the deeper meaning of dudh, dahi, makhan, and mishri in Krishna bhakti. Discover how these beloved foods of Vraja can remind us of Bal Krishna, Yashoda, the cows of Vraja, seva, remembrance, transformation, and the sweetness of devotion, revealing how food can become much more than nourishment."
     }
 ];

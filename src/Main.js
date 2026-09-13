@@ -75,6 +75,7 @@ import TransitionToVegetarian from "./articles/Transitiontovegetarian";
 import BhagavadGitaFood from "./articles/Bhagavadgitafood";
 import SpiritualityAndFood from "./articles/Spiritualityandfood";
 import Cookingforshreekrishna from "./articles/Cookingforshreekrishna";
+import DudhDahiMakhanMishri from "./articles/Dudhdahimakhanmisri";
 
 
 class Main extends Component {
@@ -181,6 +182,7 @@ class Main extends Component {
             <Route exact path="/articles/bhagavadgitafood" element={<BhagavadGitaFood/>}></Route>
             <Route exact path="/articles/spiritualityandfood" element={<SpiritualityAndFood/>}></Route>
             <Route exact path="/articles/cookingforkrishna" element={<Cookingforshreekrishna/>}></Route>
+            <Route exact path="/articles/dudhdahimakhanmishri" element={<DudhDahiMakhanMishri/>}></Route>
             <Route path='*' element={<Notfound />} />
           </Routes>
         </div>
