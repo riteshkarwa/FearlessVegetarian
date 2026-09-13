@@ -837,7 +837,7 @@ class DudhDahiMakhanMishri extends Component {
 
                     <p>
                         This is especially meaningful in traditions such as
-                        Pushtimarg, where seva to Thakorji is an intimate
+                        Pushtimarg, where seva to Thakurji is an intimate
                         expression of devotion.
                     </p>
 
@@ -863,7 +863,7 @@ class DudhDahiMakhanMishri extends Component {
                     </p>
 
                     <p>
-                        And it becomes part of the loving care of Thakorji.
+                        And it becomes part of the loving care of Thakurji.
                     </p>
 
                     <p>
