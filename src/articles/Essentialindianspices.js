@@ -25,7 +25,7 @@ class EssentialIndianSpices extends Component {
 
                     <link
                         rel="canonical"
-                        href="https://fearlessvegetarian.com/articles/essentialindianspices/"
+                        href="https://fearlessvegetarian.netlify.app/articles/essentialindianspices/"
                     />
 
                     <meta property="og:title" content="Essential Indian Spices Every Kitchen Should Have" />

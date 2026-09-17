@@ -25,7 +25,7 @@ class HealthyFats extends Component {
             "@type": "Article",
             "headline": "Healthy Sources of Fat for Vegetarians",
             "description": "Learn why healthy fats are essential and discover the best plant-based fat sources including avocados, nuts, seeds, olive oil, tofu, and more.",
-            "image": "https://fearlessvegetarian.com/healthyfats.jpg",
+            "image": "https://fearlessvegetarian.netlify.app/healthyfats.jpg",
             "author": {
                 "@type": "Organization",
                 "name": "Fearless Vegetarian"
@@ -35,14 +35,14 @@ class HealthyFats extends Component {
                 "name": "Fearless Vegetarian",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://fearlessvegetarian.com/logo.png"
+                    "url": "https://fearlessvegetarian.netlify.app/logo.png"
                 }
             },
             "datePublished": "2026-08-02",
             "dateModified": "2026-08-02",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://fearlessvegetarian.com/articles/healthyfats"
+                "@id": "https://fearlessvegetarian.netlify.app/articles/healthyfats"
             }
         };
 
@@ -68,7 +68,7 @@ class HealthyFats extends Component {
 
                     <link
                         rel="canonical"
-                        href="https://fearlessvegetarian.com/articles/healthyfats/"
+                        href="https://fearlessvegetarian.netlify.app/articles/healthyfats/"
                     />
 
                     <script type="application/ld+json">
