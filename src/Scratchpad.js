@@ -313,9 +313,11 @@ class ScratchPad extends Component {
                 <h1>Scratch Pad</h1>
 
                 <p className="scratch-pad-description">
-                    Use this Scratch Pad to write and save recipe
-                    ideas, ingredients, grocery lists, cooking notes,
-                    reminders, and anything else you want to keep handy.
+                    Use this Scratch Pad to write and save your own notes, recipe ideas,
+                    ingredients, grocery lists, cooking notes, reminders, and other useful
+                    information. Enter your username to access your Scratch Pad, save your
+                    notes, update them whenever you like, or clear them when you no longer
+                    need them.
                 </p>
 
                 {!usernameSubmitted ? (
