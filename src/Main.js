@@ -77,6 +77,7 @@ import SpiritualityAndFood from "./articles/Spiritualityandfood";
 import Cookingforshreekrishna from "./articles/Cookingforshreekrishna";
 import DudhDahiMakhanMishri from "./articles/Dudhdahimakhanmisri";
 import Scratchpad from "./Scratchpad";
+import Faq from "./Faq";
 
 class Main extends Component {
   onClick = (e) => {
@@ -108,6 +109,7 @@ class Main extends Component {
                   <Nav.Link href="/donate">Donate</Nav.Link>
                   <Nav.Link href="/articles">Articles</Nav.Link>
                   <Nav.Link href="/scratchpad">Scratchpad</Nav.Link>
+                  <Nav.Link href="/faq">Frequently Asked Questions</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
@@ -185,6 +187,7 @@ class Main extends Component {
             <Route exact path="/articles/cookingforkrishna" element={<Cookingforshreekrishna/>}></Route>
             <Route exact path="/articles/dudhdahimakhanmishri" element={<DudhDahiMakhanMishri/>}></Route>
             <Route exact path="/scratchpad" element={<Scratchpad />}></Route>
+            <Route exact path="/faq" element={<Faq />}></Route>
             <Route path='*' element={<Notfound />} />
           </Routes>
         </div>
