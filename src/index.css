@@ -1513,28 +1513,182 @@ section p {
 }
 
 .newsletter-success {
-    max-width: 700px;
-    margin: 0 auto 20px auto;
-    padding: 12px 15px;
-    color: #0f5132;
-    background-color: #d1e7dd;
-    border: 1px solid #badbcc;
-    border-radius: 6px;
-    font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  padding: 12px 15px;
+  color: #0f5132;
+  background-color: #d1e7dd;
+  border: 1px solid #badbcc;
+  border-radius: 6px;
+  font-size: 16px;
 }
 
 .newsletter-error {
-    max-width: 700px;
-    margin: 0 auto 20px auto;
-    padding: 12px 15px;
-    color: #842029;
-    background-color: #f8d7da;
-    border: 1px solid #f5c2c7;
-    border-radius: 6px;
-    font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  padding: 12px 15px;
+  color: #842029;
+  background-color: #f8d7da;
+  border: 1px solid #f5c2c7;
+  border-radius: 6px;
+  font-size: 16px;
 }
 
 .newsletter-button:disabled {
-    opacity: 0.7;
-    cursor: not-allowed;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+
+/* ========================================
+   Cooking Frustration Article
+   ======================================== */
+
+.article-page {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.article-header {
+  margin-bottom: 40px;
+}
+
+.article-header h1 {
+  font-size: 42px;
+  line-height: 1.25;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.article-intro {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 21px;
+  line-height: 1.7;
+  color: #555;
+}
+
+
+/* Article sections */
+
+.article-page article section {
+  margin-bottom: 40px;
+}
+
+.article-page article h2 {
+  margin-top: 35px;
+  margin-bottom: 18px;
+  color: #198754;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.article-page article h3 {
+  margin-top: 25px;
+  margin-bottom: 12px;
+  color: #333;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.article-page article p,
+.article-page article li {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.article-page article p {
+  margin-bottom: 18px;
+}
+
+.article-page article ul {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding-left: 30px;
+}
+
+.article-page article li {
+  margin-bottom: 8px;
+}
+
+
+/* Final message */
+
+.article-final-message {
+  margin-top: 55px;
+  padding: 40px 25px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+}
+
+.article-final-icon {
+  font-size: 36px;
+  color: #198754;
+  margin-bottom: 20px;
+}
+
+.article-final-message h2 {
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+}
+
+.article-final-message p {
+  margin-bottom: 15px;
+}
+
+
+/* Related content */
+
+.related-articles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.related-articles h2 {
+  margin-top: 0 !important;
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+  .article-page {
+    padding-top: 20px;
+  }
+
+  .article-header h1 {
+    font-size: 32px;
+  }
+
+  .article-intro {
+    font-size: 18px;
+  }
+
+  .article-page article h2 {
+    font-size: 27px;
+  }
+
+  .article-page article h3 {
+    font-size: 21px;
+  }
+
+  .article-page article p,
+  .article-page article li {
+    font-size: 18px;
+    line-height: 1.65;
+  }
+
+  .article-page article ul {
+    padding-left: 25px;
+  }
+
+  .article-final-message {
+    padding: 30px 20px;
+  }
+
 }

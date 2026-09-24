@@ -75,5 +75,12 @@ export const articles = [
 
         description:
             "Explore the deeper meaning of dudh, dahi, makhan, and mishri in Krishna bhakti. Discover how these beloved foods of Vraja can remind us of Bal Krishna, Yashoda, the cows of Vraja, seva, remembrance, transformation, and the sweetness of devotion, revealing how food can become much more than nourishment."
+    },
+    {
+        id: 12,
+        title: "Why Cooking Can Feel Frustrating and How to Make It Easier",
+        url: "/articles/thingsthatmakecookingfrustrating",
+        description:
+            "Cooking can be frustrating when recipes are complicated, ingredients are missing, or meals do not turn out as expected. Discover simple ways to make cooking easier, more enjoyable, and less stressful, and learn how to approach everyday cooking with more confidence and less pressure."
     }
 ];
