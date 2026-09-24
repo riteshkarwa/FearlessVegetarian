@@ -1,0 +1,554 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Pro";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Pro";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-duotone-regular: normal 400 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-duotone-light: normal 300 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-duotone-thin: normal 100 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-thin: normal 100 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-duotone-solid: normal 900 1em/1 "Font Awesome 6 Sharp Duotone";
+  --fa-font-sharp-duotone-regular: normal 400 1em/1 "Font Awesome 6 Sharp Duotone";
+  --fa-font-sharp-duotone-light: normal 300 1em/1 "Font Awesome 6 Sharp Duotone";
+  --fa-font-sharp-duotone-thin: normal 100 1em/1 "Font Awesome 6 Sharp Duotone";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  transform: scale(var(--fa-counter-scale, 0.25));
+  transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(-1 * var(--fa-li-width, 2em));
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  animation-name: fa-beat;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  animation-name: fa-bounce;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  animation-name: fa-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  animation-name: fa-beat-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  animation-name: fa-flip;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  animation-name: fa-shake;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  animation-name: fa-spin;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 2s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  animation-name: fa-spin;
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    animation-delay: -1ms;
+    animation-duration: 1ms;
+    animation-iteration-count: 1;
+    transition-delay: 0s;
+    transition-duration: 0s;
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-shake {
+  0% {
+    transform: rotate(-15deg);
+  }
+  4% {
+    transform: rotate(15deg);
+  }
+  8%, 24% {
+    transform: rotate(-18deg);
+  }
+  12%, 28% {
+    transform: rotate(18deg);
+  }
+  16% {
+    transform: rotate(-22deg);
+  }
+  20% {
+    transform: rotate(22deg);
+  }
+  32% {
+    transform: rotate(-12deg);
+  }
+  36% {
+    transform: rotate(12deg);
+  }
+  40%, 100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  transform: rotate(var(--fa-rotate-angle, 0));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}</style><link rel="icon" href="/favicon.ico"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000000"><title>Frequently Asked Questions | Fearless Vegetarian</title><meta name="description" content="Discover bold, flavorful vegetarian recipes from Fearless Vegetarian. Explore delicious plant-based meals, Indian vegetarian recipes, healthy dishes, snacks, curries, breakfasts, and more."><meta name="keywords" content="vegetarian recipes, meatless meals, bold flavors, fearless cooking, plant-based cuisine, vegetarian delights, innovative vegetarian dishes, vibrant vegetarian, culinary exploration, vegetarian lifestyle, fearless flavor combinations, vegetarian cooking inspiration" data-react-helmet="true"><meta name="robots" content="index, follow"><script>if(!navigator.userAgent.includes("ReactSnap")){const e=document.createElement("script");e.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",e.async=!0,document.head.appendChild(e)}</script><link rel="apple-touch-icon" href="/logo192.png"><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"><link rel="manifest" href="/manifest.json"><script>if(!navigator.userAgent.includes("ReactSnap")){const a=document.createElement("script");function gtag(){dataLayer.push(arguments)}a.src="https://www.googletagmanager.com/gtag/js?id=G-KEN8BB783G",a.async=!0,document.head.appendChild(a),window.dataLayer=window.dataLayer||[],window.gtag=gtag,gtag("js",new Date),gtag("config","G-KEN8BB783G")}</script><link rel="preconnect" href="https://fonts.googleapis.com"><script defer="defer" src="/static/js/main.2701709c.js"></script><link href="/static/css/main.e35c00b8.css" rel="stylesheet"><link rel="canonical" href="https://fearlessvegetarian.netlify.app/faq/" data-react-helmet="true"><meta charset="utf-8" data-react-helmet="true"><meta name="description" content="Find answers to frequently asked questions about Fearless Vegetarian recipes, vegetarian cooking, vegan substitutions, cooking videos, and the Fearless Vegetarian Scratch Pad." data-react-helmet="true"></head><body><form name="contactusform" netlify="" netlify-honeypot="bot-field" hidden=""><input name="name"> <input type="email" name="email"> <input name="subject"> <textarea name="message"></textarea></form><div id="root"><div class="p-3 container"><div><div><img class="bg" src="/spices_mobile.jpg" alt="Indian Spices logo banner"></div><nav class="navbar navbar-expand-false navbar-dark bg-dark"><div class="container"><span class="navbar-brand" style="cursor: default;">Fearless Vegetarian</span><button aria-controls="responsive-navbar-nav" type="button" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button><div class="navbar-collapse collapse show" id="responsive-navbar-nav"><div class="me-auto navbar-nav"><a href="/" data-rr-ui-event-key="/" class="nav-link">Home</a><a href="/recipe" data-rr-ui-event-key="/recipe" class="recipelink nav-link">Recipe</a><a href="/about" data-rr-ui-event-key="/about" class="nav-link">About</a><a href="/privacypolicy" data-rr-ui-event-key="/privacypolicy" class="nav-link">Privacy Policy</a><a href="/contact" data-rr-ui-event-key="/contact" class="nav-link">Contact Us</a><a href="/donate" data-rr-ui-event-key="/donate" class="nav-link">Donate</a><a href="/articles" data-rr-ui-event-key="/articles" class="nav-link">Articles</a><a href="/scratchpad" data-rr-ui-event-key="/scratchpad" class="nav-link">Scratchpad</a><a href="/faq" data-rr-ui-event-key="/faq" class="nav-link">Frequently Asked Questions</a></div></div></div></nav><div class="faq-page"><section class="faq-header"><h1><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="leaf" class="svg-inline--fa fa-leaf faq-leaf-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M272 96c-78.6 0-145.1 51.5-167.7 122.5c33.6-17 71.5-26.5 111.7-26.5l88 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0-72 0s0 0 0 0c-16.6 0-32.7 1.9-48.3 5.4c-25.9 5.9-49.9 16.4-71.4 30.7c0 0 0 0 0 0C38.3 298.8 0 364.9 0 440l0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16c0-48.7 20.7-92.5 53.8-123.2C121.6 392.3 190.3 448 272 448l1 0c132.1-.7 239-130.9 239-291.4c0-42.6-7.5-83.1-21.1-119.6c-2.6-6.9-12.7-6.6-16.2-.1C455.9 72.1 418.7 96 376 96L272 96z"></path></svg>Frequently Asked Questions</h1><p>Have questions about Fearless Vegetarian, our recipes, vegetarian cooking, or the Scratch Pad? Find answers to some of the most common questions below.</p></section><section class="faq-section"><div class="accordion"><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">What is Fearless Vegetarian?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">Fearless Vegetarian is a website dedicated to flavorful vegetarian recipes, cooking ideas, and articles about vegetarian living. Our goal is to make vegetarian cooking simple, enjoyable, and approachable for everyone.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Are all Fearless Vegetarian recipes vegetarian?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">Yes. Fearless Vegetarian focuses on vegetarian recipes that do not contain meat, poultry, or seafood. Some recipes may contain dairy ingredients unless a vegan substitution is provided.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Are the recipes vegan?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">Not all recipes are vegan. Some recipes contain dairy ingredients such as milk, yogurt, paneer, or butter. When possible, vegan alternatives and substitutions are provided.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Can I make the recipes vegan?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">Many recipes can be adapted using plant-based alternatives. Depending on the recipe, dairy ingredients can often be replaced with plant-based milk, yogurt, butter, or other vegan alternatives.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Are the recipes suitable for beginners?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">Yes. Many Fearless Vegetarian recipes are designed to be straightforward and easy to follow, with ingredient measurements and step-by-step cooking instructions.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Can I adjust the spice level?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">Absolutely. You can adjust chilies, spices, and other seasonings according to your taste. Start with a smaller amount and add more as needed.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Where can I find Indian vegetarian recipes?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">You can find a variety of Indian vegetarian recipes throughout Fearless Vegetarian, including curries, dals, breakfast dishes, snacks, street food, and traditional favorites.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Does Fearless Vegetarian have cooking videos?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">Yes. Fearless Vegetarian shares cooking videos demonstrating how to prepare a variety of vegetarian dishes. Recipe pages may include videos with step-by-step cooking instructions.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Can I suggest a recipe?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">Yes. If there is a vegetarian recipe you would like to see on Fearless Vegetarian, you can contact us and share your suggestion.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">What is the Fearless Vegetarian Scratch Pad?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">The Scratch Pad is a simple note-taking feature that allows you to save recipe ideas, ingredients, grocery lists, cooking notes, reminders, and other general notes.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Do I need an account to use the Scratch Pad?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">No. The current Scratch Pad allows you to enter a username without creating a traditional account or providing an email address.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Is the Scratch Pad private?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">The current Scratch Pad uses a username rather than password-based authentication, so it should not be considered private storage. Please do not enter passwords, financial information, medical information, or other sensitive or confidential information.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Can I delete my Scratch Pad notes?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">Yes. You can use the Clear option in the Scratch Pad to remove the notes currently saved to your Scratch Pad.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Does Fearless Vegetarian collect personal information?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">Fearless Vegetarian does not require visitors to provide their real name, email address, telephone number, or mailing address simply to browse the website. Some features, such as the Scratch Pad, may process information voluntarily provided by visitors. Please see our Privacy Policy for more information.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">How can I contact Fearless Vegetarian?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">You can contact Fearless Vegetarian through our Contact page. We welcome questions, suggestions, recipe ideas, and feedback.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Does Fearless Vegetarian have a YouTube channel?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">Yes. Fearless Vegetarian has a YouTube channel where we share vegetarian recipes, cooking tips, and step-by-step recipe videos. You can follow our channel for new recipe videos and cooking inspiration. <a href="https://www.youtube.com/@fearlessvegetarian" target="_blank" rel="noopener noreferrer" class="med_link">Visit our YouTube channel</a>.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button type="button" aria-expanded="false" class="accordion-button collapsed">Does Fearless Vegetarian have a Facebook page?</button></h2><div class="accordion-collapse collapse"><div class="accordion-body">Yes. Fearless Vegetarian has a Facebook page where we share vegetarian recipes, cooking ideas, videos, and updates. Follow our Facebook page to stay connected and discover new recipes. <a href="https://www.facebook.com/fearlessvegetarian/" target="_blank" rel="noopener noreferrer" class="med_link">Visit our Facebook page</a>.</div></div></div></div></section><section class="faq-contact"><h2>Still Have Questions?</h2><p>If you have a question that is not answered here, feel free to reach out to us through our Contact page.</p><a href="/contact" class="btn btn-success">Contact Fearless Vegetarian</a></section></div></div></div></div></body></html>
