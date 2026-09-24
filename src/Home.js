@@ -17,6 +17,7 @@ import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 import { faHeartPulse } from "@fortawesome/free-solid-svg-icons";
 import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+import NewsletterSignup from "./Newslettersignup";
 
 class Home extends Component {
   render() {
@@ -1045,7 +1046,9 @@ class Home extends Component {
 
           </Row>
 
+          {/* ================= NEWSLETTER ================= */}
 
+          <NewsletterSignup />
 
         </Container>
 
