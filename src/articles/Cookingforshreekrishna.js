@@ -49,7 +49,7 @@ class CookingForKrishna extends Component {
                 </Helmet>
 
                 {/* Article Header */}
-                <section className="article-header">
+                <section className="article-intro">
                     <h1>
                         Cooking for Shri Krishna: When Food Becomes Bhakti
                     </h1>

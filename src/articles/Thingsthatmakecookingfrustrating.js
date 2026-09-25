@@ -56,7 +56,7 @@ class ThingsThatMakeCookingFrustrating extends Component {
 
                         <Col lg={10}>
 
-                            <header className="article-header text-center">
+                            <header className="article-intro">
 
                                 <h1>
                                     Why Cooking Can Feel Frustrating and How to Make It Easier

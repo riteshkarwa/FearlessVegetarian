@@ -1692,3 +1692,85 @@ section p {
   }
 
 }
+
+/* ==============================
+   Fearless Vegetarian Articles
+   Common Font
+============================== */
+
+.article-page,
+.article-page h1,
+.article-page h2,
+.article-page h3,
+.article-page h4,
+.article-page p,
+.article-page li,
+.article-page a,
+.article-page span,
+.article-page strong,
+.article-page em {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+}
+
+/* Article headings */
+
+.article-page h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.article-page h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.article-page h3 {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Article paragraphs and lists */
+
+.article-page p,
+.article-page li {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Mobile typography */
+
+@media (max-width: 767px) {
+
+  .article-page h1 {
+    font-size: 30px;
+  }
+
+  .article-page h2 {
+    font-size: 25px;
+  }
+
+  .article-page h3 {
+    font-size: 21px;
+  }
+
+  .article-page p,
+  .article-page li {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+}
