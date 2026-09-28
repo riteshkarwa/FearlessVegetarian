@@ -80,6 +80,7 @@ import Scratchpad from "./Scratchpad";
 import Faq from "./Faq";
 import ThingsThatMakeCookingFrustrating from "./articles/Thingsthatmakecookingfrustrating";
 import WhatIsPrasadam from "./articles/Whatisprasadam";
+import BhandareWaleAloo from "./Bhandarewalealoo";
 
 class Main extends Component {
   onClick = (e) => {
@@ -182,16 +183,17 @@ class Main extends Component {
             <Route exact path="/articles" element={<Articles />}></Route>
             <Route exact path="/articles/ayurvedicfasting" element={<UnderstandingAyurvedicFasting />}></Route>
             <Route exact path="/articles/healthyfats" element={<HealthyFats />}></Route>
-            <Route exact path="/articles/essentialindianspices" element={<EssentialIndianSpices/>}></Route>
-            <Route exact path="/articles/transitiontovegetarian" element={<TransitionToVegetarian/>}></Route>
-            <Route exact path="/articles/bhagavadgitafood" element={<BhagavadGitaFood/>}></Route>
-            <Route exact path="/articles/spiritualityandfood" element={<SpiritualityAndFood/>}></Route>
-            <Route exact path="/articles/cookingforkrishna" element={<Cookingforshreekrishna/>}></Route>
-            <Route exact path="/articles/dudhdahimakhanmishri" element={<DudhDahiMakhanMishri/>}></Route>
+            <Route exact path="/articles/essentialindianspices" element={<EssentialIndianSpices />}></Route>
+            <Route exact path="/articles/transitiontovegetarian" element={<TransitionToVegetarian />}></Route>
+            <Route exact path="/articles/bhagavadgitafood" element={<BhagavadGitaFood />}></Route>
+            <Route exact path="/articles/spiritualityandfood" element={<SpiritualityAndFood />}></Route>
+            <Route exact path="/articles/cookingforkrishna" element={<Cookingforshreekrishna />}></Route>
+            <Route exact path="/articles/dudhdahimakhanmishri" element={<DudhDahiMakhanMishri />}></Route>
             <Route exact path="/scratchpad" element={<Scratchpad />}></Route>
             <Route exact path="/faq" element={<Faq />}></Route>
             <Route exact path="/articles/thingsthatmakecookingfrustrating" element={<ThingsThatMakeCookingFrustrating />}></Route>
             <Route exact path="/articles/whatisprasadam" element={<WhatIsPrasadam />}></Route>
+            <Route exact path="/bhandarewalealoo" element={<BhandareWaleAloo />}></Route>
             <Route path='*' element={<Notfound />} />
           </Routes>
         </div>

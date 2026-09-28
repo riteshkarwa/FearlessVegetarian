@@ -98,16 +98,142 @@ class Potatosalad extends Component {
                         <YouTube videoId="8vA5-LZjNvg" opts={optsDesktop} />
                     </MediaQuery>
                 </div>
-                <div className="related-recipes">
+                <section className="related-recipes">
                     <h2>Related Vegetarian Recipes</h2>
-                    <p>
-                        If you enjoyed this Chukauni (Nepali Yogurt & Potato Salad) – A Refreshing Himalayan Favorite, you may also like our
-                        <Link to="/aloogobi"> Aloo Gobi</Link>,
-                        <Link to="/dalmakhani"> Dal Makhani</Link>,
-                        <Link to="/saagpaneer"> Saag Paneer</Link>, and
-                        <Link to="/besan"> Besan Curry</Link>.
+
+                    <p className="related-recipes-intro">
+                        If you enjoyed this Chukauni (Nepali Yogurt & Potato Salad),
+                        you may also like these delicious vegetarian recipes:
                     </p>
-                </div>
+
+                    <Row className="g-4">
+
+                        {/* Aloo Gobi */}
+
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/aloogobi"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/aloogobi.jpg"
+                                        alt="Aloo Gobi"
+                                        fluid
+                                        rounded
+                                    />
+
+                                    <h3>
+                                        Aloo Gobi
+                                    </h3>
+
+                                    <p>
+                                        A classic Indian potato and cauliflower curry
+                                        made with aromatic spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Dal Makhani */}
+
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/dalmakhani"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/dalmakhani.jpg"
+                                        alt="Dal Makhani"
+                                        fluid
+                                        rounded
+                                    />
+
+                                    <h3>
+                                        Dal Makhani
+                                    </h3>
+
+                                    <p>
+                                        A creamy and comforting Indian lentil dish
+                                        cooked with aromatic spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Saag Paneer */}
+
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/saagpaneer"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/saagpaneer.jpg"
+                                        alt="Saag Paneer"
+                                        fluid
+                                        rounded
+                                    />
+
+                                    <h3>
+                                        Saag Paneer
+                                    </h3>
+
+                                    <p>
+                                        Tender paneer cooked with leafy greens and
+                                        flavorful Indian spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Besan Curry */}
+
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/besan"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/besan.jpg"
+                                        alt="Besan Curry"
+                                        fluid
+                                        rounded
+                                    />
+
+                                    <h3>
+                                        Besan Curry
+                                    </h3>
+
+                                    <p>
+                                        A flavorful Indian curry made with gram flour,
+                                        yogurt, and aromatic spices.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                    </Row>
+                </section>
             </div>
         );
     }

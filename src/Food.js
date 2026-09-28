@@ -422,5 +422,13 @@ export const Food = [
         "card_text": "A comforting Indian curry made with potatoes, tomatoes, onions, and aromatic spices simmered in a flavorful gravy. Perfect with roti, paratha, puri, or rice.",
         "card_href": "/alootamatarpyaz",
         "button_title": "View Recipe"
+    },
+    {
+        "id": 54,
+        "card_img": "/bhandarewalealoo.jpg",
+        "card_title": "Bhandare Wale Aloo – Temple-Style Potato Tomato Curry",
+        "card_text": "A simple and flavorful temple-style potato curry made with boiled potatoes, tomatoes, ginger, and aromatic Indian spices. Perfect with puri, roti, paratha, or rice.",
+        "card_href": "/bhandarewalealoo",
+        "button_title": "View Recipe"
     }
 ]
