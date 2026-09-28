@@ -1774,3 +1774,150 @@ section p {
   }
 
 }
+
+.article-page {
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.article-page article {
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+.article-page h1 {
+  margin-bottom: 25px;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.article-page h2 {
+  margin-top: 40px;
+  margin-bottom: 18px;
+  color: #198754;
+  font-weight: 600;
+}
+
+.article-page h3 {
+  margin-top: 25px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.article-page p {
+  margin-bottom: 18px;
+}
+
+.article-page .article-recipe-image {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  padding: 5px;
+  background: #fff;
+}
+
+.article-page figure {
+  margin-bottom: 30px;
+}
+
+.article-page figcaption {
+  font-size: 14px;
+}
+
+.article-toc {
+  margin: 30px 0;
+  padding: 20px 25px;
+  background-color: #f8f9fa;
+  border: 1px solid #e5e5e5;
+  border-left: 4px solid #198754;
+  border-radius: 6px;
+}
+
+.article-toc h2 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.article-toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.article-toc li {
+  margin-bottom: 10px;
+}
+
+.article-toc a {
+  color: #198754;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.article-toc a:hover {
+  color: #146c43;
+  text-decoration: underline;
+}
+
+.article-toc a:focus-visible {
+  outline: 2px solid #198754;
+  outline-offset: 3px;
+}
+
+.article-page blockquote {
+  margin: 25px 0;
+  padding: 15px 20px;
+  border-left: 4px solid #198754;
+  background-color: #f8f9fa;
+}
+
+.article-page blockquote p {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.article-page .related-recipes {
+  margin-top: 40px;
+}
+
+.related-recipe-card {
+  height: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.related-recipe-card h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.related-recipe-card a {
+  display: inline-block;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .article-page {
+    padding-top: 15px;
+  }
+
+  .article-page article {
+    font-size: 16px;
+  }
+
+  .article-page h1 {
+    font-size: 28px;
+  }
+
+  .article-page h2 {
+    font-size: 24px;
+    margin-top: 32px;
+  }
+
+  .article-toc {
+    padding: 15px;
+  }
+}

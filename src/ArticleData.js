@@ -82,5 +82,12 @@ export const articles = [
         url: "/articles/thingsthatmakecookingfrustrating",
         description:
             "Cooking can be frustrating when recipes are complicated, ingredients are missing, or meals do not turn out as expected. Discover simple ways to make cooking easier, more enjoyable, and less stressful, and learn how to approach everyday cooking with more confidence and less pressure."
+    },
+    {
+        id: 13,
+        title: "What Is Prasadam? The Spiritual Meaning of Offering Food to Krishna",
+        url: "/articles/whatisprasadam",
+        description:
+            "Discover what prasadam means in Hinduism and the spiritual significance of offering food to Krishna. Learn how bhoga becomes prasadam, why food offerings are an expression of devotion, and how to offer food at home with love and gratitude."
     }
 ];

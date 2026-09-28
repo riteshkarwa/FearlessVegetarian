@@ -79,6 +79,7 @@ import DudhDahiMakhanMishri from "./articles/Dudhdahimakhanmisri";
 import Scratchpad from "./Scratchpad";
 import Faq from "./Faq";
 import ThingsThatMakeCookingFrustrating from "./articles/Thingsthatmakecookingfrustrating";
+import WhatIsPrasadam from "./articles/Whatisprasadam";
 
 class Main extends Component {
   onClick = (e) => {
@@ -190,6 +191,7 @@ class Main extends Component {
             <Route exact path="/scratchpad" element={<Scratchpad />}></Route>
             <Route exact path="/faq" element={<Faq />}></Route>
             <Route exact path="/articles/thingsthatmakecookingfrustrating" element={<ThingsThatMakeCookingFrustrating />}></Route>
+            <Route exact path="/articles/whatisprasadam" element={<WhatIsPrasadam />}></Route>
             <Route path='*' element={<Notfound />} />
           </Routes>
         </div>
