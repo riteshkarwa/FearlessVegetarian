@@ -196,7 +196,7 @@ class Lentil extends Component {
 
           <div className="youtube-container">
             <YouTube
-              videoId="LLafY-6nd3M"
+              videoId="f-x2SV3xbko"
               opts={{
                 width: "100%",
                 height: "500",
