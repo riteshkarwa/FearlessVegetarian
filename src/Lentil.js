@@ -207,66 +207,174 @@ class Lentil extends Component {
             />
           </div>
         </section>
-        <div className="related-recipes" style={{ marginTop: "40px" }}>
+        <section className="related-recipes">
           <h2>Related Vegetarian Recipes</h2>
 
-          <p>
-            If you enjoyed this Masoor Dal (Lentil Soup Curry), you may also like:
+          <p className="related-recipes-intro">
+            If you enjoyed this Masoor Dal (Lentil Soup Curry), you may also
+            enjoy these comforting and flavorful vegetarian recipes:
           </p>
 
-          <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+          <Row className="g-4">
 
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon
-                icon={faLeaf}
-                style={{ marginRight: "8px", color: "green" }}
-              />
-              <Link to="/dalmakhani" className="recipe-link">
-                Dal Makhani – Slow-Cooked Punjabi Lentils
-              </Link>
-            </li>
+            {/* Dal Makhani */}
 
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon
-                icon={faLeaf}
-                style={{ marginRight: "8px", color: "green" }}
-              />
-              <Link to="/rajmah" className="recipe-link">
-                Rajmah (Kidney Bean Curry)
-              </Link>
-            </li>
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/dalmakhani"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/dalmakhani.jpg"
+                    alt="Dal Makhani Slow-Cooked Punjabi Lentils"
+                    fluid
+                    rounded
+                  />
 
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon
-                icon={faLeaf}
-                style={{ marginRight: "8px", color: "green" }}
-              />
-              <Link to="/blackeyedbeans" className="recipe-link">
-                Black Eyed Peas Curry (Lobia Masala)
-              </Link>
-            </li>
+                  <h3>
+                    Dal Makhani – Slow-Cooked Punjabi Lentils
+                  </h3>
 
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon
-                icon={faLeaf}
-                style={{ marginRight: "8px", color: "green" }}
-              />
-              <Link to="/quinoamoongdal" className="recipe-link" >
-                Quinoa Moong Dal Khichdi
-              </Link>
-            </li>
+                  <p>
+                    A rich and creamy Punjabi lentil dish made with
+                    black lentils and kidney beans, slow-cooked with
+                    aromatic spices.
+                  </p>
 
-            <li style={{ marginBottom: "10px" }}>
-              <FontAwesomeIcon
-                icon={faLeaf}
-                style={{ marginRight: "8px", color: "green" }}
-              />
-              <Link to="/besan" className="recipe-link">
-                Besan Curry (Chickpea Flour Curry)
-              </Link>
-            </li>
-          </ul>
-        </div>
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Rajmah */}
+
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/rajmah"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/rajmah.jpg"
+                    alt="Rajmah Kidney Bean Curry"
+                    fluid
+                    rounded
+                  />
+
+                  <h3>
+                    Rajmah (Kidney Bean Curry)
+                  </h3>
+
+                  <p>
+                    A hearty North Indian kidney bean curry simmered
+                    in a flavorful tomato and spice-based gravy.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Black Eyed Peas Curry */}
+
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/blackeyedbeans"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/blackeyedbeans.jpg"
+                    alt="Black Eyed Peas Curry Lobia Masala"
+                    fluid
+                    rounded
+                  />
+
+                  <h3>
+                    Black Eyed Peas Curry (Lobia Masala)
+                  </h3>
+
+                  <p>
+                    A flavorful Indian curry made with tender black
+                    eyed peas, tomatoes, onions, and aromatic spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Quinoa Moong Dal Khichdi */}
+
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/quinoamoongdal"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/quinoamoongdal.jpg"
+                    alt="Quinoa Moong Dal Khichdi"
+                    fluid
+                    rounded
+                  />
+
+                  <h3>
+                    Quinoa Moong Dal Khichdi
+                  </h3>
+
+                  <p>
+                    A wholesome vegetarian meal combining nutritious
+                    quinoa and moong dal with aromatic Indian spices.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+            {/* Besan Curry */}
+
+            <Col xs={12} sm={6} md={4}>
+              <article className="related-recipe-card">
+                <Link
+                  to="/besan"
+                  className="related-recipe-link"
+                >
+                  <Image
+                    src="/besan.jpg"
+                    alt="Besan Curry Chickpea Flour Curry"
+                    fluid
+                    rounded
+                  />
+
+                  <h3>
+                    Besan Curry (Chickpea Flour Curry)
+                  </h3>
+
+                  <p>
+                    A comforting Indian curry made with chickpea flour,
+                    yogurt, and aromatic spices for a flavorful meal.
+                  </p>
+
+                  <span className="related-recipe-button">
+                    View Recipe
+                  </span>
+                </Link>
+              </article>
+            </Col>
+
+          </Row>
+        </section>
       </div>
     );
   }
