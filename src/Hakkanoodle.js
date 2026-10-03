@@ -8,10 +8,20 @@ import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
 import MediaQuery from 'react-responsive';
+import YouTube from 'react-youtube';
 
 
 class Hakkanoodle extends Component {
     render() {
+        const optsDesktop = {
+            height: '720',
+            width: '100%',
+        };
+
+        const optsMobile = {
+            height: '550',
+            width: '325',
+        };
 
         const ingredients = [
             "2 tbsp oil",
@@ -174,13 +184,15 @@ class Hakkanoodle extends Component {
                 {/* Preparation Video */}
                 <section className="recipe-video">
                     <h2>Hakka Noodle  Preparation Video</h2>
-                    <div className="ratio ratio-1x1 video-container">
-                        <iframe
-                            src="https://www.youtube.com/embed/hD3aiKO9DVU"
-                            title="Upma Preparation Video"
-                            allowFullScreen
-                        ></iframe>
+                    <div>
+                        <MediaQuery maxWidth={767}>
+                            <YouTube videoId="hD3aiKO9DVU" opts={optsMobile} />
+                        </MediaQuery>
+                        <MediaQuery minWidth={767}>
+                            <YouTube videoId="hD3aiKO9DVU" opts={optsDesktop} />
+                        </MediaQuery>
                     </div>
+
                 </section>
 
                 {/* You May Also Like */}
