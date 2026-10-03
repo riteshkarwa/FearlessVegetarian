@@ -74,7 +74,12 @@ class Bombaymasalasandwich extends Component {
           <meta property="og:image" content="https://fearlessvegetarian.netlify.app/masalasandwich.png" />
           <meta property="og:description" content="Savor the flavor of the streets with our Bombay Vegetable Sandwich. A delightful blend of vegetables and spices, bringing the street-style experience to your plate." />
         </Helmet>
-        <h1>Vegetable Masala Sandwich also known as Bombay Sandwich, with Mint Chutney and loads of Vegetables stacked up</h1>
+        <h1>Vegetable Masala Sandwich – Indian Vegetarian Sandwich Recipe</h1>
+        <p> Vegetable Masala Sandwich, also known as Bombay Sandwich, is a delicious
+          <strong> Indian vegetarian sandwich recipe</strong> packed with layers of fresh vegetables,
+          flavorful spices, and refreshing mint chutney. This popular Indian street-style sandwich is colorful,
+          satisfying, and easy to make, making it a perfect vegetarian breakfast, snack, or light meal.
+        </p>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
         </Row>
@@ -230,7 +235,7 @@ class Bombaymasalasandwich extends Component {
               <article className="related-recipe-card">
                 <Link to="/potatosalad" className="related-recipe-link">
                   <Image
-                    src="/potatosalad.jpg"
+                    src="/potatosalad.png"
                     alt="Chukauni Nepali Yogurt Potato Salad"
                     fluid
                     rounded
@@ -285,7 +290,7 @@ class Bombaymasalasandwich extends Component {
                   className="related-recipe-link"
                 >
                   <Image
-                    src="/couscousblackbeanbowl.jpg"
+                    src="/couscousblackbeanbowl.png"
                     alt="Couscous Black Bean Bowl"
                     fluid
                     rounded
