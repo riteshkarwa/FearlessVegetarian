@@ -97,8 +97,29 @@ class Besan extends Component {
           <meta name="robots" content="index, follow, max-image-preview:large" />
         </Helmet>
         <h1>
-          Besan Curry (Chickpea Flour Curry) – A Traditional Indian Comfort Food Made with Gram Flour and Aromatic Spices
+          Besan Curry Recipe - Traditional Indian Chickpea Flour Curry
         </h1>
+
+        <p>
+          Besan Curry is a simple and comforting Indian vegetarian curry made
+          with gram flour, also known as besan, yogurt, and aromatic Indian
+          spices. The besan gives the curry a rich, creamy texture, while
+          yogurt adds a mild tangy flavor that balances the spices beautifully.
+        </p>
+
+        <p>
+          This easy besan curry is a delicious everyday dish that pairs
+          wonderfully with roti, chapati, paratha, or steamed rice. It is made
+          with simple pantry ingredients and is a great option when you want a
+          flavorful vegetarian meal without complicated preparation.
+        </p>
+
+        <p>
+          Besan is a versatile ingredient commonly used in Indian cooking to
+          prepare curries, snacks, sweets, and savory dishes. This curry is a
+          wonderful example of how a few humble ingredients can come together
+          to create a satisfying and flavorful meal.
+        </p>
         <Row className="cooktimerow">
           <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
         </Row>
