@@ -121,7 +121,7 @@ describe('Fearless Vegetarian webpage testing', () => {
   })
 
   it('visit Erayba India page', () => {
-    cy.visit('https://fearlessvegetarian.netlify.app/erayba')
+    cy.visit('https://fearlessvegetarian.netlify.app/articles/erayba')
     cy.get('h1').should(($ele) => {
       expect($ele.text().trim()).equal("Erayba India – Professional Vegan Hair Care for Salons and Beauty Professionals");
     });
@@ -185,6 +185,11 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('visit Eggpplant Curry  recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/eggplant')
     cy.get('h1').should('contain.text', 'Mashed Eggpplant Curry, a popular dish from North India, is made with roasted mashed eggplant sauteed in onion, garlic, tomatoes, and Indian spices.');
+  });
+
+  it('visit Eggpplant Curry  recipe page', () => {
+    cy.visit('https://fearlessvegetarian.netlify.app/faq')
+    cy.get('h1').should('contain.text', 'Frequently Asked Questions');
   });
 })
 
