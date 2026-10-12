@@ -6,7 +6,7 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('visit Potato recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/potato')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Easy Indian Spiced Potatoes Recipe with Vegan Sausage");
+      expect($ele.text().trim()).equal("Spiced Indian Potatoes (Easy Vegan Comfort Food)");
     });
   })
 
@@ -42,13 +42,13 @@ describe('Fearless Vegetarian webpage testing', () => {
 
   it('visit Khaman Dhokla recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/dhokla')
-    cy.get('h1').should('contain.text', 'Khaman Dhokla is a delectable and spongy snack that originates from the western part of India');
+    cy.get('h1').should('contain.text', 'Khaman Dhokla is a soft, fluffy, and spongy steamed chickpea snack from Gujarat, India.');
   })
 
   it('visit Upma recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/upma')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Upma is a flavorful, tasty, savory and popular South Indian breakfast that is made with cream of wheat or semolina flour (called rava or suji), Urad dal, nuts, herbs and spices.");
+      expect($ele.text().trim()).equal("Easy South Indian Upma Recipe");
     });
   })
 
@@ -67,14 +67,14 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('visit Privacy Policy page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/privacypolicy')
     cy.get(':nth-child(1) > :nth-child(3) > :nth-child(2)').should(($ele) => {
-      expect($ele.text().trim()).equal("This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.");
+      expect($ele.text().trim()).equal("At Fearless Vegetarian, we respect your privacy and are committed to being transparent about how information is handled when you use our website.");
     });
   })
 
   it('visit Chipotle recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/chipotle')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Chipotle Bowl super easy to make and taste so much better than actual Chipotle Restaurant");
+      expect($ele.text().trim()).equal("Easy Homemade Chipotle Bowl – Better Than Restaurant Style");
     });
   })
 
@@ -95,7 +95,7 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('visit Pav Bhaji recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/pavbhaji')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Pav Bhaji is an iconic dish from Mumbai. This Pav Bhaji Recipe is going to make you fall in love with it.");
+      expect($ele.text().trim()).equal("Pav Bhaji Recipe – Mumbai-Style Street Food");
     });
   })
 
@@ -116,7 +116,7 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('visit Shakshuka recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/shakshuka')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Shakshuka is believed to have originated in North Africa. Its popularity spread throughout the Middle East, especially in Israel, where it was embraced as a hearty, inexpensive, and simple dish. The Israeli version is thought to include eggs served over a seasoned tomato-based sauce. This Recipe, made with chickpeas instead of eggs.");
+      expect($ele.text().trim()).equal("Chickpea Shakshuka");
     });
   })
 
@@ -137,34 +137,34 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('Visit Besan Recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/besan')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal("Besan Curry (Chickpea Flour Curry) – A Traditional Indian Comfort Food Made with Gram Flour and Aromatic Spices");
+      expect($ele.text().trim()).equal("Besan Curry Recipe - Traditional Indian Chickpea Flour Curry");
     });
   })
 
   it('Visit Cabbage Recipe Page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/cabbage')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal(`Cabbage is an excellent vegetable to use in cooking as it becomes wonderfully tender when cooked, allowing it to absorb the delicious flavors of the other ingredients. Despite this tenderness, the chopped cabbage leaves still provide a delightful chewiness to the dish. I truly enjoy the harmonious combination of flavors that comes together in this Cabbage Curry.`);
+      expect($ele.text().trim()).equal(`Cabbage Curry Recipe – Indian-Style Patta Gobi`);
     });
   })
 
   it('visit Masoor Lentils recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/brownlentils')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal(`Whole Masoor Dal is also popularly known as Brown Lentils or Sabut Masoor ki Dal. These are basically whole red lentils which are popular all over the world.`);
+      expect($ele.text().trim()).equal(`Whole Masoor Dal (Brown Lentil Curry)`);
     });
   })
 
   it('visit Bombay Masala Sandwich recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/masalasandwich')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).equal(`Vegetable Masala Sandwich also known as Bombay Sandwich, with Mint Chutney and loads of Vegetables stacked up`);
+      expect($ele.text().trim()).equal(`Vegetable Masala Sandwich – Indian Vegetarian Sandwich Recipe`);
     });
   })
 
   it('visit Couscous recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/couscous')
-    cy.get('h1').should('contain.text', 'Couscous is a North African dish made from tiny steamed balls of semolina flour');
+    cy.get('h1').should('contain.text', 'Easy and Flavorful Couscous Recipe');
   });
 
   it('visit Homemade Yogurt recipe page', () => {
