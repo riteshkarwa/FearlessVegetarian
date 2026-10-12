@@ -22,7 +22,7 @@ class Pavbhaji extends Component {
             image:
                 "https://fearlessvegetarian.netlify.app/pavbhaji.jpg",
             url:
-                "https://fearlessvegetarian.netlify.app/pavbhaji",
+                "https://fearlessvegetarian.netlify.app/pavbhaji/",
             author: "Fearless Vegetarian",
             prepTime: "PT20M",
             cookTime: "PT60M",
