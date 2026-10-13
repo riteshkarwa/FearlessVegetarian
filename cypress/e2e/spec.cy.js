@@ -13,7 +13,7 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('search for a dish on recipe page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/recipe')
     cy.get('input#recipe-search').type('mushroom')
-    cy.contains('Delicious Homemade Mushroom Masala Curry Recipe').click()
+    cy.get('a[href="/mushroom"]').click();
     cy.get('h1').should(($ele) => {
       expect($ele.text().trim()).to.contain('Punjabi Mushroom Masala Curry');
     });
@@ -29,7 +29,7 @@ describe('Fearless Vegetarian webpage testing', () => {
   it('visit potato curry with roasted bell pepper recipe', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/potatocapsicum')
     cy.get('h1').should(($ele) => {
-      expect($ele.text().trim()).to.contain("Discover a flavorful Potato Curry cooked in a creamy roasted red bell pepper and cashew sauce");
+      expect($ele.text().trim()).to.contain("Creamy Potato Curry in Roasted Red Pepper Gravy");
     });
   })
 
