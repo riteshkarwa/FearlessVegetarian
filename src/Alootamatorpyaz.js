@@ -6,20 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { faBowlFood, faCarrot } from "@fortawesome/free-solid-svg-icons";
 import { Helmet } from "react-helmet";
-import YouTube from "react-youtube";
-import MediaQuery from "react-responsive";
 
 class AlooTamatarPyaz extends Component {
     render() {
-        const optsDesktop = {
-            height: "800",
-            width: "450",
-        };
-
-        const optsMobile = {
-            height: "550",
-            width: "309",
-        };
 
         return (
             <div className="recipe-page">
