@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
-import YouTube from 'react-youtube';
 import MediaQuery from 'react-responsive';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -12,15 +11,6 @@ import RecipeSchema from "./RecipeSchema";
 
 class BalsamicVinaigretteDish extends Component {
     render() {
-        const optsDesktop = {
-            height: '800',
-            width: '1000',
-        };
-
-        const optsMobile = {
-            height: '550',
-            width: '325',
-        };
         return (
             <div>
                 <RecipeSchema
@@ -130,15 +120,19 @@ class BalsamicVinaigretteDish extends Component {
                 <MediaQuery minWidth={767}>
                     <Image src="/couscousbalsamic.jpg" alt="Lucky Black Eyed Peas Curry: Indian-Spiced Prosperity" thumbnail rounded width="50%" height="50%"></Image>
                 </MediaQuery>
-                <div>
-                    <h2>Middle Eastern Couscous Salad Video Recipe</h2>
-                    <MediaQuery maxWidth={767}>
-                        <YouTube videoId="Nbi0LcFISjI" opts={optsMobile} />
-                    </MediaQuery>
-                    <MediaQuery minWidth={767}>
-                        <YouTube videoId="Nbi0LcFISjI" opts={optsDesktop} />
-                    </MediaQuery>
-                </div>
+
+                 {/* Preparation Video */}
+                <section className="recipe-video">
+                    <h2>Middle Eastern Couscous Salad Preparation Video</h2>
+                    <div className="ratio ratio-1x1 video-container">
+                        <iframe
+                            src="https://www.youtube.com/embed/Nbi0LcFISjI"
+                            title="Middle Eastern Couscous Salad Preparation Video"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </section>
+
                 <section className="related-recipes">
                     <h2>Related Vegetarian Recipes</h2>
 
