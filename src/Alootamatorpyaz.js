@@ -299,17 +299,17 @@ class AlooTamatarPyaz extends Component {
                     className="recipe-image"
                 />
 
+
                 {/* Preparation Video */}
                 <section className="recipe-video">
                     <h2>Aloo Tamatar Pyaz Ki Sabji Preparation Video</h2>
-
-                    <MediaQuery maxWidth={767}>
-                        <YouTube videoId="okyWt_bGJI0" opts={optsMobile} />
-                    </MediaQuery>
-
-                    <MediaQuery minWidth={768}>
-                        <YouTube videoId="okyWt_bGJI0" opts={optsDesktop} />
-                    </MediaQuery>
+                    <div className="ratio ratio-1x1 video-container">
+                        <iframe
+                            src="https://www.youtube.com/embed/okyWt_bGJI0"
+                            title="Aloo Tamatar Pyaz Ki Sabji Preparation Video"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
                 </section>
 
                 {/* You May Also Like */}
