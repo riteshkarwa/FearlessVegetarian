@@ -85,7 +85,7 @@ class Riceandbeans extends Component {
                     <div className="ratio ratio-1x1 video-container">
                         <iframe
                             src="https://www.youtube.com/embed/azLCdgLpDjY"
-                            title="Upma Preparation Video"
+                            title="Rice and Beans Preparation Video"
                             allowFullScreen
                         ></iframe>
                     </div>

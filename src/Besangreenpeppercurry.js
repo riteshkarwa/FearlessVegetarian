@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import YouTube from "react-youtube";
 import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
@@ -330,22 +329,17 @@ class BesanGreenPepperCurry extends Component {
           loading="lazy"
           className="recipe-image"
         />
-
-        <div>
+        {/* Preparation Video */}
+        <section className="recipe-video">
           <h2>Besan Green Pepper Curry with Yogurt Preparation Video</h2>
-          <div className="youtube-container">
-            <YouTube
-              videoId="1pRCF41fK7Q"
-              opts={{
-                width: "100%",
-                height: "500",
-                playerVars: {
-                  autoplay: 0
-                }
-              }}
-            />
+          <div className="ratio ratio-1x1 video-container">
+            <iframe
+              src="https://youtube.com/embed/1pRCF41fK7Q?si=C1hVIaHXAOnItnlT"
+              title="Besan Green Pepper Curry Preparation Video"
+              allowFullScreen
+            ></iframe>
           </div>
-        </div>
+        </section>
 
         <div className="ingredients">
           <h2>Tips for Making the Best Besan Curry</h2>
