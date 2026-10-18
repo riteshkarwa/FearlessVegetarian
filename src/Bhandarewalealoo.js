@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Image from "react-bootstrap/Image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
-import YouTube from "react-youtube";
 import MediaQuery from "react-responsive";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -13,16 +12,6 @@ import { faBowlFood } from "@fortawesome/free-solid-svg-icons";
 
 class BhandareWaleAloo extends Component {
     render() {
-        const optsDesktop = {
-            height: "800",
-            width: "1000",
-        };
-
-        const optsMobile = {
-            height: "550",
-            width: "325",
-        };
-
         return (
             <div>
                 <RecipeSchema
@@ -395,23 +384,18 @@ class BhandareWaleAloo extends Component {
                     />
                 </MediaQuery>
 
-                <div>
+
+                {/* Preparation Video */}
+                <section className="recipe-video">
                     <h2>Bhandare Wale Aloo Preparation Video</h2>
-
-                    <MediaQuery maxWidth={767}>
-                        <YouTube
-                            videoId="MCQF_JRPKKA"
-                            opts={optsMobile}
-                        />
-                    </MediaQuery>
-
-                    <MediaQuery minWidth={767}>
-                        <YouTube
-                            videoId="MCQF_JRPKKA"
-                            opts={optsDesktop}
-                        />
-                    </MediaQuery>
-                </div>
+                    <div className="ratio ratio-1x1 video-container">
+                        <iframe
+                            src="https://www.youtube.com/embed/MCQF_JRPKKA"
+                            title="Bhandare Wale Aloo Preparation Video"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </section>
 
                 {/* Related Recipes */}
 
