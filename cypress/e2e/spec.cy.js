@@ -187,7 +187,7 @@ describe('Fearless Vegetarian webpage testing', () => {
     cy.get('h1').should('contain.text', 'Mashed Eggpplant Curry, a popular dish from North India, is made with roasted mashed eggplant sauteed in onion, garlic, tomatoes, and Indian spices.');
   });
 
-  it('visit Eggpplant Curry  recipe page', () => {
+  it('visit Frequently Asked Questions page', () => {
     cy.visit('https://fearlessvegetarian.netlify.app/faq')
     cy.get('h1').should('contain.text', 'Frequently Asked Questions');
   });

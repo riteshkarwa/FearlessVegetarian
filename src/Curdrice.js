@@ -8,7 +8,7 @@ import YouTube from 'react-youtube';
 import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
-import { faUtensils, faCarrot } from "@fortawesome/free-solid-svg-icons";
+import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 
 class Curdrice extends Component {
@@ -153,58 +153,189 @@ class Curdrice extends Component {
                         />
                     </div>
                 </div>
-                <div className="related-recipes" style={{ marginTop: "40px" }}>
+                {/* Related South Indian & Healthy Vegetarian Recipes */}
+                <section className="related-recipes">
                     <h2>Related South Indian & Healthy Vegetarian Recipes</h2>
 
-                    <p>
-                        If you enjoyed this South Indian Curd Rice recipe, you may also
-                        enjoy these wholesome vegetarian dishes:
+                    <p className="related-recipes-intro">
+                        If you enjoyed this South Indian Curd Rice recipe, explore
+                        these wholesome vegetarian recipes. From easy Indian
+                        breakfasts to comforting soups and refreshing salads,
+                        these dishes are perfect for everyday meals.
                     </p>
 
-                    <ul className="custom-list">
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/poha" className="recipe-link">
-                                Poha – Indian Flattened Rice Breakfast
-                            </Link>
-                        </li>
+                    <Row className="g-4">
 
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/quinoamoongdal" className="recipe-link">
-                                Quinoa Moong Dal Khichdi
-                            </Link>
-                        </li>
+                        {/* Poha */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/poha" className="related-recipe-link">
+                                    <Image
+                                        src="/poha.jpg"
+                                        alt="Poha Indian Flattened Rice Breakfast"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
 
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/yogurt" className="recipe-link">
-                                Homemade Instant Pot Yogurt
-                            </Link>
-                        </li>
+                                    <h3>Poha – Indian Flattened Rice Breakfast</h3>
 
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/couscousbalsamic" className="recipe-link">
-                                Middle Eastern Couscous Salad
-                            </Link>
-                        </li>
+                                    <p>
+                                        A light and flavorful Indian breakfast made
+                                        with flattened rice, onions, and aromatic
+                                        spices. Perfect for a quick homemade meal.
+                                    </p>
 
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/broccoli" className="recipe-link">
-                                Creamy Broccoli Soup
-                            </Link>
-                        </li>
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
 
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/lentil" className="recipe-link">
-                                Hearty Lentil Soup
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
+                        {/* Quinoa Moong Dal Khichdi */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/quinoamoongdal"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/quinoamoongdal.jpg"
+                                        alt="Healthy Quinoa Moong Dal Khichdi"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Quinoa Moong Dal Khichdi</h3>
+
+                                    <p>
+                                        A wholesome one-pot vegetarian meal made
+                                        with quinoa, moong dal, and Indian spices.
+                                        A comforting option for lunch or dinner.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Homemade Instant Pot Yogurt */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/yogurt" className="related-recipe-link">
+                                    <Image
+                                        src="/yogurt.jpg"
+                                        alt="Homemade Instant Pot Yogurt"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Homemade Instant Pot Yogurt</h3>
+
+                                    <p>
+                                        Learn how to make creamy homemade yogurt
+                                        using an Instant Pot. Enjoy it with Indian
+                                        meals, rice dishes, or fresh fruit.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Couscous Salad */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link
+                                    to="/couscousbalsamic"
+                                    className="related-recipe-link"
+                                >
+                                    <Image
+                                        src="/couscousbalsamic.jpg"
+                                        alt="Middle Eastern Couscous Salad"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Middle Eastern Couscous Salad</h3>
+
+                                    <p>
+                                        A refreshing vegetarian salad featuring
+                                        couscous, fresh vegetables, and a flavorful
+                                        dressing. Enjoy it as a light meal or side dish.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Creamy Broccoli Soup */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/broccoli" className="related-recipe-link">
+                                    <Image
+                                        src="/broccoli.jpg"
+                                        alt="Creamy Homemade Broccoli Soup"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Creamy Broccoli Soup</h3>
+
+                                    <p>
+                                        A comforting soup made with broccoli and
+                                        creamy ingredients. This warming vegetarian
+                                        dish is ideal for a light lunch or dinner.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Hearty Lentil Soup */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/lentil" className="related-recipe-link">
+                                    <Image
+                                        src="/lentil.jpg"
+                                        alt="Hearty Homemade Lentil Soup"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+
+                                    <h3>Hearty Lentil Soup</h3>
+
+                                    <p>
+                                        A nourishing vegetarian soup made with
+                                        lentils and flavorful seasonings. Enjoy
+                                        this satisfying dish on its own or with bread.
+                                    </p>
+
+                                    <span className="related-recipe-button">
+                                        View Recipe
+                                    </span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                    </Row>
+                </section>
             </div>
         );
     }

@@ -430,5 +430,13 @@ export const Food = [
         "card_text": "A simple and flavorful temple-style potato curry made with boiled potatoes, tomatoes, ginger, and aromatic Indian spices. Perfect with puri, roti, paratha, or rice.",
         "card_href": "/bhandarewalealoo",
         "button_title": "View Recipe"
+    },
+    {
+        "id": 55,
+        "card_img": "/besangreenpeppercurry.png",
+        "card_title": "Besan Green Pepper Curry with Yogurt",
+        "card_text": "A comforting Indian vegetarian curry made with green bell peppers, besan (gram flour), yogurt, onions, and aromatic spices. Perfect with roti, chapati, paratha, or rice.",
+        "card_href": "/besangreenpeppercurry",
+        "button_title": "View Recipe"
     }
 ]

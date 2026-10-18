@@ -81,6 +81,7 @@ import Faq from "./Faq";
 import ThingsThatMakeCookingFrustrating from "./articles/Thingsthatmakecookingfrustrating";
 import WhatIsPrasadam from "./articles/Whatisprasadam";
 import BhandareWaleAloo from "./Bhandarewalealoo";
+import BesanGreenPepperCurry from "./Besangreenpeppercurry";
 
 class Main extends Component {
   onClick = (e) => {
@@ -194,6 +195,7 @@ class Main extends Component {
             <Route exact path="/articles/thingsthatmakecookingfrustrating" element={<ThingsThatMakeCookingFrustrating />}></Route>
             <Route exact path="/articles/whatisprasadam" element={<WhatIsPrasadam />}></Route>
             <Route exact path="/bhandarewalealoo" element={<BhandareWaleAloo />}></Route>
+            <Route exact path="/besangreenpeppercurry" element={<BesanGreenPepperCurry />}></Route>
             <Route path='*' element={<Notfound />} />
           </Routes>
         </div>
