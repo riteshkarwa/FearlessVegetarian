@@ -104,7 +104,7 @@ class AlooTamatarPyaz extends Component {
                         <li>
                             <FontAwesomeIcon
                                 icon={faBowlFood}
-                                className="highlight-icon icon-orange"
+                                className="highlight-icon icon-red"
                             />
                             Easy everyday Indian curry
                         </li>
@@ -112,7 +112,7 @@ class AlooTamatarPyaz extends Component {
                         <li>
                             <FontAwesomeIcon
                                 icon={faBowlFood}
-                                className="highlight-icon icon-green"
+                                className="highlight-icon icon-red"
                             />
                             Made with simple ingredients
                         </li>
@@ -120,7 +120,7 @@ class AlooTamatarPyaz extends Component {
                         <li>
                             <FontAwesomeIcon
                                 icon={faBowlFood}
-                                className="highlight-icon icon-aqua"
+                                className="highlight-icon icon-red"
                             />
                             Flavorful and comforting
                         </li>
@@ -128,7 +128,7 @@ class AlooTamatarPyaz extends Component {
                         <li>
                             <FontAwesomeIcon
                                 icon={faBowlFood}
-                                className="highlight-icon icon-purple"
+                                className="highlight-icon icon-red"
                             />
                             Perfect with roti or rice
                         </li>
@@ -144,7 +144,7 @@ class AlooTamatarPyaz extends Component {
                         <li>
                             <FontAwesomeIcon
                                 icon={faBowlFood}
-                                className="highlight-icon icon-teal"
+                                className="highlight-icon icon-red"
                             />
                             Vegan-friendly
                         </li>
@@ -232,7 +232,7 @@ class AlooTamatarPyaz extends Component {
                         </li>
 
                         <li>
-                            Add approximately 2 1/2 cups of water and mix well.
+                            Add approximately 1 1/2 cups of water and mix well.
                         </li>
 
                         <li>
