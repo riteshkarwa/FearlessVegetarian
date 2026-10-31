@@ -197,10 +197,10 @@ class Besan extends Component {
         <div>
           <h2>Chickpea Flour Curry, Besan Curry Preparation video</h2>
           <MediaQuery maxWidth={767}>
-            <YouTube videoId="VyEveOxhx7s" opts={optsMobile} />
+            <YouTube videoId="opne5JUDkGI" opts={optsMobile} />
           </MediaQuery>
           <MediaQuery minWidth={767}>
-            <YouTube videoId="VyEveOxhx7s" opts={optsDesktop} />
+            <YouTube videoId="opne5JUDkGI" opts={optsDesktop} />
           </MediaQuery>
         </div>
         {/* You May Also Like */}
