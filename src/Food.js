@@ -438,5 +438,13 @@ export const Food = [
         "card_text": "A comforting Indian vegetarian curry made with green bell peppers, besan (gram flour), yogurt, onions, and aromatic spices. Perfect with roti, chapati, paratha, or rice.",
         "card_href": "/besangreenpeppercurry",
         "button_title": "View Recipe"
+    },
+    {
+        "id": 56,
+        "card_img": "/tawapulao.jpg",
+        "card_title": "Mumbai Tawa Pulao",
+        "card_text": "A flavorful Mumbai street-style vegetarian rice dish made with rice, mixed vegetables, tomatoes, bell peppers, and aromatic pav bhaji spices. A delicious and spicy one-pot meal perfect for lunch or dinner.",
+        "card_href": "/tawapulao",
+        "button_title": "View Recipe"
     }
 ]
