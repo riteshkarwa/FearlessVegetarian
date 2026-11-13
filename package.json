@@ -28,6 +28,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "postbuild": "react-snap || echo 'snap completed/failed safely'",
+    "postinstall": "patch-package",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -51,8 +52,15 @@
   },
   "devDependencies": {
     "cypress": "^12.17.4",
+    "eslint": "^8.36.0",
+    "eslint-plugin-jest": "^25.7.0",
+    "patch-package": "^8.0.1",
     "prerender-spa-plugin": "^3.4.0",
+    "puppeteer": "^24.15.0",
     "react-snap": "^1.23.0"
+  },
+  "overrides": {
+    "puppeteer": "$puppeteer"
   },
   "reactSnap": {
     "include": [

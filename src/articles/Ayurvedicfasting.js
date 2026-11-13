@@ -50,7 +50,7 @@ class UnderstandingAyurvedicFasting extends Component {
                     <meta property="og:image" content="https://fearlessvegetarian.netlify.app/ayurvedicfasting.jpg" />
 
                     <meta property="og:url"
-                        content="https://fearlessvegetarian.netlify.app/articles/understanding-ayurvedic-fasting" />
+                        content="https://fearlessvegetarian.netlify.app/articles/ayurvedicfasting/" />
 
                     <meta property="og:type" content="article" />
 

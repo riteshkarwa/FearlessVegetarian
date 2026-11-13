@@ -42,7 +42,7 @@ class HealthyFats extends Component {
             "dateModified": "2026-08-02",
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://fearlessvegetarian.netlify.app/articles/healthyfats"
+                "@id": "https://fearlessvegetarian.netlify.app/articles/healthyfats/"
             }
         };
 
@@ -65,6 +65,10 @@ class HealthyFats extends Component {
                         name="keywords"
                         content="healthy fats for vegetarians, vegan healthy fats, vegetarian nutrition, omega 3 vegetarian foods, plant based fats, healthy vegetarian diet"
                     />
+                    <meta property="og:url"
+                        content="https://fearlessvegetarian.netlify.app/articles/healthyfats/" />
+
+                    <meta property="og:type" content="article" />
 
                     <link
                         rel="canonical"

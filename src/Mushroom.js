@@ -29,7 +29,7 @@ const Mushroom = () => {
                 name="Punjabi Mushroom Masala Curry"
                 description="Punjabi Mushroom Masala Curry made with white button mushrooms, onions, tomatoes, yogurt, and aromatic Indian spices. A rich and flavorful vegetarian curry that pairs perfectly with naan, roti, or rice."
                 image="https://fearlessvegetarian.netlify.app/mushroom.jpg"
-                url="https://fearlessvegetarian.netlify.app/mushroom"
+                url="https://fearlessvegetarian.netlify.app/mushroom/"
                 prepTime="PT15M"
                 cookTime="PT45M"
                 totalTime="PT1H"

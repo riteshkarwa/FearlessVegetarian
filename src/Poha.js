@@ -90,7 +90,7 @@ class Poha extends Component {
           <title>
             Poha Recipe | Easy Indian Flattened Rice Breakfast | Fearless Vegetarian
           </title>
-          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/poha" />
+          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/poha/" />
           <meta
             name="description"
             content="Experience a quick and wholesome breakfast with our flavorful Poha Delight recipe! Perfect for a delicious start to your day."
@@ -104,7 +104,7 @@ class Poha extends Component {
           />
           <meta property="og:title" content="Poha Delight: Quick Wholesome Breakfast Recipe!" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/poha" />
+          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/poha/" />
           <meta property="og:image" content="https://fearlessvegetarian.netlify.app/poha.jpg" />
           <meta property="og:description" content="Experience a quick and wholesome breakfast with our flavorful Poha Delight recipe! Perfect for a delicious start to your day." />
         </Helmet>
