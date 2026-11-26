@@ -1,110 +1,243 @@
+
 import React, { Component } from "react";
-import Image from 'react-bootstrap/Image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock } from '@fortawesome/free-regular-svg-icons';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Image from "react-bootstrap/Image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from "@fortawesome/free-regular-svg-icons";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import { Helmet } from "react-helmet";
 
 class Potatobhurji extends Component {
   render() {
     return (
-      <div>
+      <div className="recipe-page">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Flavorful Potato Egg Bhurji | Fearless Vegetarian</title>
-          <link rel="canonical" href="https://fearlessvegetarian.netlify.app/potatobhurji" />
+          <title>Indian Spiced Potato Bhurji | Potato Scramble Recipe | Fearless Vegetarian</title>
+
+          <link
+            rel="canonical"
+            href="https://fearlessvegetarian.netlify.app/potatobhurji"
+          />
+
           <meta
             name="description"
-            content="Indulge in the delicious fusion of flavors with our Potato and Egg Bhurji recipe."
+            content="Make flavorful Indian spiced potatoes with aromatic seasonings and onions. This easy potato bhurji recipe can be enjoyed on its own or paired with an optional egg bhurji."
           />
+
           <meta
             name="keywords"
-            content="potato egg bhurji, Indian egg recipes, breakfast recipes, quick and easy meals, savory egg dishes, potato and egg scramble, Indian cuisine, protein-packed breakfast, 
-            vegetarian recipes, flavorful bhurji, Indian spiced eggs, hearty breakfast ideas, egg scramble with potatoes, 
-            delicious and easy, homemade comfort food, Recipes, cooking, cooking tutorial, Fearless Vegetarian, Vegan"
+            content="Indian spiced potatoes, potato bhurji, Indian potato recipe, seasoned potatoes, spicy potato scramble, Indian breakfast recipes, easy potato recipes, cumin potatoes, coriander potatoes, homemade Indian food, Fearless Vegetarian"
           />
-          <meta property="og:title" content="Flavorful Potato Egg Bhurji" />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://fearlessvegetarian.netlify.app/potatobhurji" />
-          <meta property="og:image" content="https://fearlessvegetarian.netlify.app/potatobhurji.jpg" />
-          <meta property="og:description" content="Indulge in the delicious fusion of flavors with our Potato and Egg Bhurji recipe." />
-        </Helmet>
-        <h1>Any Time Potato Seasoned with Indian Spices</h1>
-        <Row className="cooktimerow">
-          <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
-        </Row>
-        <Row className="cooktimerow">
-          <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
-        </Row>
-        <div className="ingredients">Ingredients</div>
-        <ol>
-          <li>1 teaspoon ginger powder </li>
-          <li>1 teaspoon onion powder </li>
-          <li>1 tablespoon coriander powder </li>
-          <li>1/8 teaspoon tumeric powder</li>
-          <li>1/8 teaspoon red chili powder</li>
-          <li>1 tablespoon curry powder</li>
-          <li>1 teaspoon cumin powder</li>
-          <li>4 whole potatoes</li>
-          <li>Salt as per taste</li>
-          <li>1/2 onion</li>
-        </ol>
-        <div className="ingredients">Instruction</div>
-        <ol>
-          <li>Take some olive oil in a non stick pan and heat it up.</li>
-          <li>Slice the potatoes vertically.</li>
-          <li>Then use a food chopper to chop each potato slice into small square pieces.</li>
-          <li>Add 1 teaspoon cumin powder.</li>
-          <li>Add the potatoes in the pan.</li>
-          <li>Cook the potatoes for about 15 to 20 minutes till they get transparent. Constantly stir the potatoes so they do not stick to the bottom of the pan.</li>
-          <li>Once the potatoes starts to turn transparent add finely chopped onions.</li>
-          <li>Add all the spices ginger powder, onion powder, coriander powder, chili powder, tumeric powder, curry powder.</li>
-          <li>Nicely stir the potatoes so the spices are nicely mixed.</li>
-          <li>Add salt as per taste.</li>
-        </ol>
 
-        <h1>Indian style scrambled eggs recipe is healthy, filling, very quick to make and extremely pleasing to Indian palates. The egg bhurji requires few ingredients and chances are you already have them in your kitchen.
-          egg bhurji also serves as a filling breakfast or thanks to its high protein content, is a perfect post-workout snack at any time of the day</h1>
+          <meta property="og:title" content="Indian Spiced Potato Bhurji | Fearless Vegetarian" />
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:url"
+            content="https://fearlessvegetarian.netlify.app/potatobhurji"
+          />
+          <meta
+            property="og:image"
+            content="https://fearlessvegetarian.netlify.app/potatobhurji.jpg"
+          />
+          <meta
+            property="og:description"
+            content="A flavorful Indian-style potato recipe seasoned with aromatic spices, onions, and herbs. Perfect for a comforting homemade meal."
+          />
+        </Helmet>
+
+        <h1>Indian Spiced Potato Bhurji | Easy Potato Scramble Recipe</h1>
+
+        <p>
+          This Indian-style spiced potato recipe is a comforting and flavorful
+          dish made with potatoes, onions, and a blend of aromatic Indian
+          spices. The potatoes are chopped into small pieces and cooked until
+          tender, then seasoned with cumin, coriander, turmeric, ginger, and
+          curry powder. Enjoy these delicious seasoned potatoes for breakfast,
+          lunch, or dinner with roti, paratha, or bread. You can also pair them
+          with a separate egg bhurji if desired.
+        </p>
+
+        <h2>Indian Spiced Potatoes</h2>
+
         <Row className="cooktimerow">
-          <Col><span className="material-symbols-outlined">restaurant_menu</span> Yields: 1 Serving</Col>
+          <Col>
+            <span className="material-symbols-outlined">restaurant_menu</span>
+            {" "}Yields: 2 Servings
+          </Col>
         </Row>
+
         <Row className="cooktimerow">
-          <Col><FontAwesomeIcon icon={faClock} />  Cooking Time: 60 minutes</Col>
+          <Col>
+            <FontAwesomeIcon icon={faClock} /> Cooking Time: 30-35 minutes
+          </Col>
         </Row>
-        <div className="ingredients">Ingredients</div>
-        <ol>
-          <li>1 tablespoon of fresh grated ginger</li>
-          <li>1 teaspoon onion powder </li>
-          <li>1 tablespoon coriander powder </li>
-          <li>1/8 teaspoon tumeric powder</li>
-          <li>1/8 teaspoon red chili powder</li>
-          <li>1 tablespoon garlic powder</li>
-          <li>1 teaspoon cumin powder</li>
-          <li>3 eggs</li>
-          <li>Salt as per taste</li>
-          <li>1 whole big onion</li>
-          <li>1 whole big tomato</li>
-        </ol>
-        <div className="ingredients">Instruction</div>
-        <ol>
-          <li>Add approximately 2 tablespoons of olive oil to a pan non stick pan, set it on a medium heat.</li>
-          <li>Add cumin seeds, curry leaves, and onions. Sprinkle some salt on the onion so it cooks faster.</li>
-          <li>Stir fry the onions till they turn translucent, it should take approximately 2 minutes.</li>
-          <li>Next add chopped green chillies, turmeric powder and chopped tomatoes.</li>
-          <li>Stir fry the tomatoes till they are slightly soft and add red chilli powder.</li>
-          <li>Give that a quick stir.</li>
-          <li>Break 3 eggs depending upon the amount of people eating the dish. Here I am considering serving amount to be one person.</li>
-          <li>Add 1/8 teaspoon tumeric powder and sprinkle some salt.</li>
-          <li>Hold the whisk firmly and begin to slowly whisk the egg whites. Use your other hand to hold onto the bowl. Use a circular motion and make about two rotations.</li>
-          <li>Add the beaten eggs liquid to the pan, add in black pepper powder, grated ginger, garlic powder and fresh lime juice.</li>
-          <li>Continue to stir the eggs till all the liquid evaporates.</li>
-          <li>Add salt as needed and break up the egg chunks into smaller pieces with your spatula.</li>
-          <li>Combine the two dishes anytime potato with scrambled eggs to make a combo.</li>
-          <li>Garnish with cilantro leaves.</li>
-        </ol>
+
+        <div className="ingredients">
+          <h3>Ingredients</h3>
+
+          <ol>
+            <li>4 medium potatoes</li>
+            <li>1/2 onion, finely chopped</li>
+            <li>1 teaspoon ginger powder</li>
+            <li>1 teaspoon onion powder</li>
+            <li>1 tablespoon coriander powder</li>
+            <li>1/8 teaspoon turmeric powder</li>
+            <li>1/8 teaspoon red chili powder</li>
+            <li>1 tablespoon curry powder</li>
+            <li>1 teaspoon cumin powder</li>
+            <li>Olive oil, as needed</li>
+            <li>Salt to taste</li>
+          </ol>
+        </div>
+
+        <div className="ingredients">
+          <h3>Instructions</h3>
+
+          <ol>
+            <li>
+              Wash and peel the potatoes. Slice them vertically and use a food
+              chopper to cut them into small, evenly sized cubes.
+            </li>
+            <li>
+              Heat olive oil in a nonstick pan over medium heat.
+            </li>
+            <li>
+              Add the chopped potatoes and cumin powder. Stir well to coat
+              the potatoes with the oil and cumin.
+            </li>
+            <li>
+              Cook for approximately 15-20 minutes, stirring frequently to
+              prevent the potatoes from sticking to the bottom of the pan.
+            </li>
+            <li>
+              Once the potatoes begin to soften, add the finely chopped onions.
+            </li>
+            <li>
+              Add ginger powder, onion powder, coriander powder, turmeric
+              powder, red chili powder, and curry powder.
+            </li>
+            <li>
+              Mix everything thoroughly so the spices are evenly distributed
+              throughout the potatoes.
+            </li>
+            <li>
+              Add salt to taste and continue cooking until the potatoes are
+              completely tender and lightly browned.
+            </li>
+            <li>
+              Serve hot and garnish with fresh cilantro if desired.
+            </li>
+          </ol>
+        </div>
+
+        <h2>Optional Egg Bhurji</h2>
+
+        <p>
+          Egg bhurji is an Indian-style scrambled egg dish prepared with
+          onions, tomatoes, ginger, garlic, and aromatic spices. It is a
+          flavorful and filling accompaniment that can be served alongside
+          the seasoned potatoes.
+        </p>
+
+        <Row className="cooktimerow">
+          <Col>
+            <span className="material-symbols-outlined">restaurant_menu</span>
+            {" "}Yields: 1 Serving
+          </Col>
+        </Row>
+
+        <Row className="cooktimerow">
+          <Col>
+            <FontAwesomeIcon icon={faClock} /> Cooking Time: 15-20 minutes
+          </Col>
+        </Row>
+
+        <div className="ingredients">
+          <h3>Ingredients</h3>
+
+          <ol>
+            <li>3 eggs</li>
+            <li>1 large onion, finely chopped</li>
+            <li>1 large tomato, finely chopped</li>
+            <li>1 tablespoon freshly grated ginger</li>
+            <li>1 teaspoon onion powder</li>
+            <li>1 tablespoon coriander powder</li>
+            <li>1/8 teaspoon turmeric powder</li>
+            <li>1/8 teaspoon red chili powder</li>
+            <li>1 tablespoon garlic powder</li>
+            <li>1 teaspoon cumin powder</li>
+            <li>2 tablespoons olive oil</li>
+            <li>Green chilies, chopped, as desired</li>
+            <li>Black pepper powder to taste</li>
+            <li>Fresh lime juice, as desired</li>
+            <li>Fresh cilantro leaves for garnish</li>
+            <li>Salt to taste</li>
+          </ol>
+        </div>
+
+        <div className="ingredients"><h3>Instructions</h3>
+
+          <ol>
+            <li>
+              Heat approximately 2 tablespoons of olive oil in a nonstick
+              pan over medium heat.
+            </li>
+            <li>
+              Add cumin powder and chopped onions. Sprinkle a little salt
+              over the onions to help them soften.
+            </li>
+            <li>
+              Cook the onions for approximately 2-3 minutes, stirring
+              occasionally, until they become translucent.
+            </li>
+            <li>
+              Add chopped green chilies, turmeric powder, and chopped tomatoes.
+            </li>
+            <li>
+              Cook until the tomatoes soften, then add red chili powder,
+              coriander powder, onion powder, and garlic powder.
+            </li>
+            <li>
+              Beat the eggs in a separate bowl with a little salt and black
+              pepper.
+            </li>
+            <li>
+              Pour the beaten eggs into the pan with the onion and tomato
+              mixture.
+            </li>
+            <li>
+              Add freshly grated ginger and gently stir the eggs over medium
+              heat until they are fully cooked and scrambled.
+            </li>
+            <li>
+              Add fresh lime juice and adjust the salt and spices to taste.
+            </li>
+            <li>
+              Break the scrambled eggs into small pieces using a spatula
+              and mix well with the masala.
+            </li>
+            <li>
+              Garnish with fresh cilantro leaves.
+            </li>
+            <li>
+              Serve the egg bhurji alongside the prepared spiced potatoes
+              for a flavorful combination.
+            </li>
+          </ol>
+        </div>
+
         <h2>Final Product</h2>
-        <Image src="/potatobhurji.jpg" alt="Any Time Potato Seasoned with Indian Spices Image" thumbnail rounded fluid></Image>
+
+        <Image
+          src="/potatobhurji.jpg"
+          alt="Indian spiced potato bhurji served with scrambled egg bhurji"
+          thumbnail
+          rounded
+          fluid
+          loading="lazy"
+          className="recipe-image"
+        />
       </div>
     );
   }

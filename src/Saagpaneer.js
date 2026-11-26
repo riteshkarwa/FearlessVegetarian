@@ -2,13 +2,12 @@ import React, { Component } from "react";
 import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
-import YouTube from 'react-youtube';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 import RecipeSchema from "./RecipeSchema";
+import { Card } from "react-bootstrap";
 
 class Saagpaneer extends Component {
     render() {
@@ -190,64 +189,123 @@ class Saagpaneer extends Component {
                     loading="lazy"
                     className="recipe-image"
                 />
-                <div>
+
+                {/* Preparation Video */}
+                <section className="recipe-video">
                     <h2>Saag Paneer Preparation Video</h2>
-                    <div className="youtube-container">
-                        <YouTube
-                            videoId="Mo1BzUQcskM"
-                            opts={{
-                                width: "100%",
-                                height: "500",
-                                playerVars: {
-                                    autoplay: 0
-                                }
-                            }}
-                        />
+                    <div className="ratio ratio-1x1 video-container">
+                        <iframe
+                            src="https://www.youtube.com/embed/fm5ChBHNK4M"
+                            title="Saag Paneer Preparation Video"
+                            allowFullScreen
+                        ></iframe>
                     </div>
-                </div>
+                </section>
+
                 <div className="related-recipes" style={{ marginTop: "40px" }}>
                     <h2>Related Vegetarian Recipes</h2>
 
                     <p>
-                        If you enjoyed this Saag Paneer recipe, you may also like:
+                        If you enjoyed this Saag Paneer recipe, you may also like these
+                        delicious vegetarian recipes:
                     </p>
 
-                    <ul style={{ listStyle: "none", paddingLeft: 0 }}>
-                        <li>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/dalmakhani" className="recipe-link">
-                                Dal Makhani
-                            </Link>
-                        </li>
+                    <Row className="g-4">
+                        <Col md={6} lg={4}>
+                            <Card className="h-100 related-recipe-card">
+                                <Link to="/dalmakhani" className="text-decoration-none">
+                                    <Card.Img
+                                        variant="top"
+                                        src="/dalmakhani.jpg"
+                                        alt="Dal Makhani"
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>Dal Makhani</Card.Title>
+                                        <Card.Text>
+                                            A rich and creamy North Indian lentil curry
+                                            made with black lentils and aromatic spices.
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Link>
+                            </Card>
+                        </Col>
 
-                        <li>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/aloogobi" className="recipe-link">
-                                Aloo Gobi
-                            </Link>
-                        </li>
+                        <Col md={6} lg={4}>
+                            <Card className="h-100 related-recipe-card">
+                                <Link to="/aloogobi" className="text-decoration-none">
+                                    <Card.Img
+                                        variant="top"
+                                        src="/aloogobi.jpg"
+                                        alt="Aloo Gobi"
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>Aloo Gobi</Card.Title>
+                                        <Card.Text>
+                                            A classic Indian curry made with potatoes,
+                                            cauliflower, and flavorful spices.
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Link>
+                            </Card>
+                        </Col>
 
-                        <li>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/rajmah" className="recipe-link">
-                                Rajmah (Kidney Bean Curry)
-                            </Link>
-                        </li>
+                        <Col md={6} lg={4}>
+                            <Card className="h-100 related-recipe-card">
+                                <Link to="/rajmah" className="text-decoration-none">
+                                    <Card.Img
+                                        variant="top"
+                                        src="/rajmah.jpg"
+                                        alt="Rajmah Kidney Bean Curry"
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>Rajmah (Kidney Bean Curry)</Card.Title>
+                                        <Card.Text>
+                                            A comforting Punjabi curry prepared with
+                                            kidney beans in a flavorful tomato gravy.
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Link>
+                            </Card>
+                        </Col>
 
-                        <li>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/besan" className="recipe-link">
-                                Besan Curry
-                            </Link>
-                        </li>
+                        <Col md={6} lg={4}>
+                            <Card className="h-100 related-recipe-card">
+                                <Link to="/besan" className="text-decoration-none">
+                                    <Card.Img
+                                        variant="top"
+                                        src="/besan.jpg"
+                                        alt="Besan Curry"
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>Besan Curry</Card.Title>
+                                        <Card.Text>
+                                            A traditional Indian curry made with gram flour,
+                                            yogurt, and aromatic spices.
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Link>
+                            </Card>
+                        </Col>
 
-                        <li>
-                            <FontAwesomeIcon icon={faLeaf} style={{ marginRight: "8px", color: "green" }} />
-                            <Link to="/lentil" className="recipe-link">
-                                Masoor Dal (Lentil Curry)
-                            </Link>
-                        </li>
-                    </ul>
+                        <Col md={6} lg={4}>
+                            <Card className="h-100 related-recipe-card">
+                                <Link to="/lentil" className="text-decoration-none">
+                                    <Card.Img
+                                        variant="top"
+                                        src="/lentil.jpg"
+                                        alt="Masoor Dal Lentil Curry"
+                                    />
+                                    <Card.Body>
+                                        <Card.Title>Masoor Dal (Lentil Curry)</Card.Title>
+                                        <Card.Text>
+                                            A comforting red lentil curry cooked with
+                                            tomatoes and traditional Indian spices.
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Link>
+                            </Card>
+                        </Col>
+                    </Row>
                 </div>
             </div>
         );
