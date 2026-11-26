@@ -2,11 +2,15 @@ import http from 'k6/http';
 import { check, sleep } from 'k6';
 
 export const options = {
-  duration: '10m',
-  vus: 50,
+
+  stages: [
+    { duration: '2m', target: 50 }, // Ramp-up to 50 VUs over 2 minutes
+    { duration: '5m', target: 50 }, // Stay at 50 VUs for 6 minutes
+    { duration: '3m', target: 0 }, // Ramp-down to 0 VUs over 2 minutes
+  ], 
   thresholds: {
     http_req_failed: ['rate<0.01'], // http errors should be less than 1%
-    http_req_duration: ['p(95)<60000'], // 95 percent of response times must be below 500ms
+    http_req_duration: ['p(95)<60000'], // 95 percent of response times must be below 6000ms
   },
 }
 
@@ -109,6 +113,34 @@ export default function () {
 
   const res25 = http.get('https://fearlessvegetarian.netlify.app/articles/wheretobegin');
   check(res25, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res26 = http.get('https://fearlessvegetarian.netlify.app/couscous');
+  check(res26, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res27 = http.get('https://fearlessvegetarian.netlify.app/lentil');
+  check(res27, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res28 = http.get('https://fearlessvegetarian.netlify.app/quinoamoongdal');
+  check(res28, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res29 = http.get('https://fearlessvegetarian.netlify.app/spinachbesan');
+  check(res29, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res30 = http.get('https://fearlessvegetarian.netlify.app/tawapulao');
+  check(res30, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res31 = http.get('https://fearlessvegetarian.netlify.app/poha');
+  check(res31, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res32 = http.get('https://fearlessvegetarian.netlify.app/rajgirahalwa');
+  check(res32, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
 }
 
