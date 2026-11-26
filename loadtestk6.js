@@ -2,7 +2,7 @@ import http from 'k6/http';
 import { check, sleep } from 'k6';
 
 export const options = {
-  duration: '5m',
+  duration: '10m',
   vus: 50,
   thresholds: {
     http_req_failed: ['rate<0.01'], // http errors should be less than 1%
@@ -95,8 +95,20 @@ export default function () {
   check(res21, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
 
-  const res22 = http.get('https://fearlessvegetarian.netlify.app/erayba');
+  const res22 = http.get('https://fearlessvegetarian.netlify.app/potatocapsicum');
   check(res22, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res23 = http.get('https://fearlessvegetarian.netlify.app/articles');
+  check(res23, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res24 = http.get('https://fearlessvegetarian.netlify.app/onion');
+  check(res24, { 'status was 200': (r) => r.status == 200 });
+  sleep(1);
+
+  const res25 = http.get('https://fearlessvegetarian.netlify.app/articles/wheretobegin');
+  check(res25, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
 }
 

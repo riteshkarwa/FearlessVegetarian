@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 import { Helmet } from "react-helmet";
 import RecipeSchema from "./RecipeSchema";
 import { Link } from "react-router-dom";
-import { faUtensils, faCarrot } from "@fortawesome/free-solid-svg-icons";
+import { faCarrot } from "@fortawesome/free-solid-svg-icons";
 
 class Onion extends Component {
     render() {
@@ -157,49 +157,135 @@ class Onion extends Component {
                         vegetarian dishes:
                     </p>
 
-                    <ul className="custom-list">
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/aloogobi" className="recipe-link">
-                                Aloo Gobi (Potato Cauliflower Curry)
-                            </Link>
-                        </li>
+                    <Row className="g-4">
 
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/mushroom" className="recipe-link">
-                                Punjabi Mushroom Masala Curry
-                            </Link>
-                        </li>
+                        {/* Aloo Gobi */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/aloogobi" className="related-recipe-link">
+                                    <Image
+                                        src="/aloogobi.jpg"
+                                        alt="Aloo Gobi - Potato Cauliflower Curry"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+                                    <h3>Aloo Gobi (Potato Cauliflower Curry)</h3>
+                                    <p>
+                                        A classic North Indian vegetarian curry made with tender
+                                        potatoes, cauliflower, tomatoes, and aromatic Indian spices.
+                                    </p>
+                                    <span className="related-recipe-button">View Recipe</span>
+                                </Link>
+                            </article>
+                        </Col>
 
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/paneer" className="recipe-link">
-                                Shahi Paneer
-                            </Link>
-                        </li>
+                        {/* Mushroom Masala */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/mushroom" className="related-recipe-link">
+                                    <Image
+                                        src="/mushroom.jpg"
+                                        alt="Punjabi Mushroom Masala Curry"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+                                    <h3>Punjabi Mushroom Masala Curry</h3>
+                                    <p>
+                                        A delicious Punjabi-style curry featuring mushrooms
+                                        simmered in a rich onion-tomato gravy with flavorful spices.
+                                    </p>
+                                    <span className="related-recipe-button">View Recipe</span>
+                                </Link>
+                            </article>
+                        </Col>
 
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/saagpaneer" className="recipe-link">
-                                Saag Paneer
-                            </Link>
-                        </li>
+                        {/* Shahi Paneer */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/paneer" className="related-recipe-link">
+                                    <Image
+                                        src="/paneer.jpg"
+                                        alt="Shahi Paneer - Creamy Indian Paneer Curry"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+                                    <h3>Shahi Paneer</h3>
+                                    <p>
+                                        A rich and creamy North Indian curry made with soft paneer
+                                        cubes in a flavorful tomato, cashew, and aromatic spice gravy.
+                                    </p>
+                                    <span className="related-recipe-button">View Recipe</span>
+                                </Link>
+                            </article>
+                        </Col>
 
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/quinoamoongdal" className="recipe-link">
-                                Quinoa Moong Dal Khichdi
-                            </Link>
-                        </li>
+                        {/* Saag Paneer */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/saagpaneer" className="related-recipe-link">
+                                    <Image
+                                        src="/saagpaneer.jpg"
+                                        alt="Saag Paneer - Indian Spinach Paneer Curry"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+                                    <h3>Saag Paneer</h3>
+                                    <p>
+                                        A comforting Indian curry made with soft paneer cubes
+                                        simmered in a creamy, spiced spinach gravy.
+                                    </p>
+                                    <span className="related-recipe-button">View Recipe</span>
+                                </Link>
+                            </article>
+                        </Col>
 
-                        <li>
-                            <FontAwesomeIcon icon={faUtensils} className="bullet-icon" />
-                            <Link to="/lentil" className="recipe-link">
-                                Hearty Lentil Soup
-                            </Link>
-                        </li>
-                    </ul>
+                        {/* Quinoa Moong Dal Khichdi */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/quinoamoongdal" className="related-recipe-link">
+                                    <Image
+                                        src="/quinoamoongdal.jpg"
+                                        alt="Quinoa Moong Dal Khichdi"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+                                    <h3>Quinoa Moong Dal Khichdi</h3>
+                                    <p>
+                                        A wholesome and nutritious Indian one-pot meal prepared
+                                        with quinoa, yellow moong dal, vegetables, and mild spices.
+                                    </p>
+                                    <span className="related-recipe-button">View Recipe</span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                        {/* Lentil Soup */}
+                        <Col xs={12} sm={6} md={4}>
+                            <article className="related-recipe-card">
+                                <Link to="/lentil" className="related-recipe-link">
+                                    <Image
+                                        src="/lentil.jpg"
+                                        alt="Hearty Vegetarian Lentil Soup"
+                                        fluid
+                                        rounded
+                                        className="related-recipe-image"
+                                    />
+                                    <h3>Hearty Lentil Soup</h3>
+                                    <p>
+                                        A comforting and protein-rich vegetarian soup made with
+                                        tender lentils, vegetables, and aromatic herbs and spices.
+                                    </p>
+                                    <span className="related-recipe-button">View Recipe</span>
+                                </Link>
+                            </article>
+                        </Col>
+
+                    </Row>
                 </div>
             </div>
         );
