@@ -14,8 +14,8 @@ import YouTube from "react-youtube";
 class Saagpaneer extends Component {
     render() {
         const optsDesktop = {
-            height: "700",
-            width: "900",
+            height: "800",
+            width: "1000",
         };
         const optsMobile = {
             height: "550",
