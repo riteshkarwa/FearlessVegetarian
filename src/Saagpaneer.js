@@ -8,9 +8,20 @@ import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import RecipeSchema from "./RecipeSchema";
 import { Card } from "react-bootstrap";
+import MediaQuery from "react-responsive";
+import YouTube from "react-youtube";
 
 class Saagpaneer extends Component {
     render() {
+        const optsDesktop = {
+            height: "700",
+            width: "900",
+        };
+        const optsMobile = {
+            height: "550",
+            width: "325",
+        };
+
         return (
             <div>
                 <RecipeSchema
@@ -192,14 +203,25 @@ class Saagpaneer extends Component {
 
                 {/* Preparation Video */}
                 <section className="recipe-video">
-                    <h2>Saag Paneer Preparation Video</h2>
-                    <div className="ratio ratio-1x1 video-container">
-                        <iframe
-                            src="https://www.youtube.com/embed/fm5ChBHNK4M"
-                            title="Saag Paneer Preparation Video"
-                            allowFullScreen
-                        ></iframe>
-                    </div>
+
+                    <h2>
+                        Saag Paneer Preparation Video
+                    </h2>
+
+                    <MediaQuery maxWidth={767}>
+                        <YouTube
+                            videoId="fm5ChBHNK4M"
+                            opts={optsMobile}
+                        />
+                    </MediaQuery>
+
+                    <MediaQuery minWidth={768}>
+                        <YouTube
+                            videoId="fm5ChBHNK4M"
+                            opts={optsDesktop}
+                        />
+                    </MediaQuery>
+
                 </section>
 
                 <div className="related-recipes" style={{ marginTop: "40px" }}>
