@@ -446,5 +446,13 @@ export const Food = [
         "card_text": "A flavorful Mumbai street-style vegetarian rice dish made with rice, mixed vegetables, tomatoes, bell peppers, and aromatic pav bhaji spices. A delicious and spicy one-pot meal perfect for lunch or dinner.",
         "card_href": "/tawapulao",
         "button_title": "View Recipe"
+    },
+    {
+        "id": 57,
+        "card_img": "/chickpealentilcurry.jpg",
+        "card_title": "Creamy Chickpea & Lentil Curry with Methi",
+        "card_text": "A hearty Indian vegetarian curry made with chickpeas, brown lentils, fresh methi (fenugreek leaves), and a rich cashew tomato gravy. Packed with plant-based protein, fiber, and aromatic Indian spices, this comforting curry is perfect with roti, naan, paratha, or steamed rice.",
+        "card_href": "/chickpealentilcurry",
+        "button_title": "View Recipe"
     }
 ]

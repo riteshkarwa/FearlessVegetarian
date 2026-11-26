@@ -83,6 +83,7 @@ import WhatIsPrasadam from "./articles/Whatisprasadam";
 import BhandareWaleAloo from "./Bhandarewalealoo";
 import BesanGreenPepperCurry from "./Besangreenpeppercurry";
 import TawaPulao from "./Tawapulao";
+import ChickpeaLentilCurry from "./Chickpealentilcurry";
 
 class Main extends Component {
   onClick = (e) => {
@@ -198,6 +199,7 @@ class Main extends Component {
             <Route exact path="/bhandarewalealoo" element={<BhandareWaleAloo />}></Route>
             <Route exact path="/besangreenpeppercurry" element={<BesanGreenPepperCurry />}></Route>
             <Route exact path="/tawapulao"  element={<TawaPulao />}></Route>
+            <Route exact path="/chickpealentilcurry" element={<ChickpeaLentilCurry />}></Route>
             <Route path='*' element={<Notfound />} />
           </Routes>
         </div>
